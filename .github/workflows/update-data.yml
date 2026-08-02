@@ -1,0 +1,62 @@
+# InvMax — daily data refresh
+# ---------------------------------------------------------------
+# Put this file at:  .github/workflows/update-data.yml
+#
+# Runs once a day, fetches fresh public data, and commits data/latest.json
+# back to the repo. Your hosted site then reads that file.
+#
+# Cost: free (GitHub Actions is free for public repositories).
+# You can also trigger it any time from the Actions tab → "Run workflow".
+
+name: Update InvMax data
+
+on:
+  schedule:
+    # 01:30 UTC = 07:00 IST, daily. After Indian markets have settled EOD.
+    - cron: "30 1 * * *"
+  workflow_dispatch:        # adds a manual "Run workflow" button
+
+permissions:
+  contents: write           # needed so the job can commit the JSON back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch latest data
+        run: python scripts/fetch_data.py
+        env:
+          # Optional extras — add these under Settings → Secrets → Actions
+          # only if you later sign up for these free tiers. Not required.
+          TWELVEDATA_KEY: ${{ secrets.TWELVEDATA_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+
+      - name: Show what was fetched
+        run: |
+          echo "--- summary ---"
+          python -c "import json;d=json.load(open('data/latest.json'));print('generated:',d['generated_at']);print('ok:',d['summary']['ok']);print('failed/stale:',d['summary']['failed'])"
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "invmax-bot"
+          git config user.email "actions@github.com"
+          git add data/latest.json
+          if git diff --staged --quiet; then
+            echo "No change in data — nothing to commit."
+          else
+            git commit -m "data: daily refresh $(date -u +'%Y-%m-%d')"
+            git push
+          fi
