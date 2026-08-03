@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>InvMax — Analytics Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0D0A18; --bg-2:#120E22;
+    --panel:rgba(30,24,52,0.55); --panel-2:#221B3B;
+    --border:rgba(255,255,255,0.09); --border-2:rgba(255,255,255,0.16);
+    --text:#F1EEF9; --muted:#A9A3C4; --faint:#6B6690;
+    --amber:#F5B544; --amber-soft:rgba(245,181,68,0.15);
+    --teal:#35D0BA; --violet:#A78BFA; --blue:#6E8BF5; --rose:#F76C8B; --lime:#A3D96B;
+    --pos:#34D399; --neg:#F76C8B;
+    --grad-gold:linear-gradient(135deg,#F7C25A,#EC8C3C);
+    --grad-sig:linear-gradient(118deg,#F5B544 0%,#EC7C5B 52%,#A78BFA 120%);
+    --radius:16px; --radius-sm:11px; --side:232px;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ scroll-behavior:smooth; }
+  body{ background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; line-height:1.5; -webkit-font-smoothing:antialiased; padding-bottom:100px; }
+  body::before{ content:''; position:fixed; inset:0; z-index:-2; pointer-events:none;
+    background:radial-gradient(52% 42% at 84% -4%,rgba(245,181,68,.16),transparent 60%),radial-gradient(50% 50% at 2% 14%,rgba(167,139,250,.15),transparent 58%),radial-gradient(55% 46% at 60% 112%,rgba(53,208,186,.13),transparent 60%),linear-gradient(160deg,var(--bg-2),var(--bg)); }
+  body::after{ content:''; position:fixed; inset:0; z-index:-1; pointer-events:none; opacity:.02;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  ::selection{ background:var(--amber-soft); color:var(--amber); }
+  a{ color:inherit; text-decoration:none; }
+
+  .sidebar{ position:fixed; top:0; left:0; bottom:0; width:var(--side); background:rgba(18,14,34,.55); backdrop-filter:blur(16px); border-right:1px solid var(--border); padding:24px 0 100px; display:flex; flex-direction:column; z-index:40; }
+  .side-brand{ font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:21px; letter-spacing:-.02em; padding:0 22px 2px; }
+  .side-brand span{ background:var(--grad-sig); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+  .side-tag{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.16em; text-transform:uppercase; color:var(--faint); padding:0 22px 22px; border-bottom:1px solid var(--border); margin-bottom:14px; }
+  .side-nav{ display:flex; flex-direction:column; gap:3px; padding:0 12px; flex:1; }
+  .side-link{ display:flex; align-items:center; gap:11px; padding:10px 12px; border-radius:var(--radius-sm); font-size:12.5px; color:var(--muted); transition:all .18s; cursor:pointer; position:relative; }
+  .side-link:hover{ background:rgba(255,255,255,.04); color:var(--text); }
+  .side-link.active{ background:var(--amber-soft); color:var(--amber); }
+  .side-link.active::before{ content:''; position:absolute; left:-12px; top:50%; transform:translateY(-50%); width:3px; height:18px; background:var(--grad-sig); border-radius:0 3px 3px 0; }
+  .side-link svg{ width:16px; height:16px; flex-shrink:0; }
+
+  .main{ margin-left:var(--side); }
+  .topbar{ position:sticky; top:0; z-index:30; display:flex; align-items:center; justify-content:space-between; padding:18px 30px; background:rgba(13,10,24,.75); backdrop-filter:blur(16px); border-bottom:1px solid var(--border); gap:16px; flex-wrap:wrap; }
+  .topbar h1{ font-family:'Space Grotesk',sans-serif; font-size:21px; font-weight:600; letter-spacing:-.02em; }
+  .topbar .sub{ font-size:11.5px; color:var(--muted); margin-top:3px; display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+  .live-dot{ width:7px; height:7px; border-radius:50%; background:var(--pos); animation:pulse 2.2s infinite; }
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.5)}70%{box-shadow:0 0 0 7px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+
+  .content{ padding:26px 30px 40px; }
+  .block{ margin-bottom:34px; scroll-margin-top:84px; }
+  .block-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px; gap:16px; flex-wrap:wrap; }
+  .block-title{ font-family:'Space Grotesk',sans-serif; font-size:19px; font-weight:600; letter-spacing:-.01em; }
+  .block-eyebrow{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.16em; text-transform:uppercase; background:var(--grad-gold); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; display:block; margin-bottom:5px; }
+  .block-note{ font-size:12px; color:var(--muted); max-width:400px; text-align:right; }
+
+  .card{ background:var(--panel); backdrop-filter:blur(14px); border:1px solid var(--border); border-radius:var(--radius); padding:20px; position:relative; overflow:hidden; box-shadow:0 10px 34px rgba(0,0,0,.3); transition:border-color .25s; }
+  .card::before{ content:''; position:absolute; top:0; left:0; right:0; height:1px; background:linear-gradient(90deg,transparent,rgba(255,255,255,.10),transparent); }
+  .card:hover{ border-color:var(--border-2); }
+  .card-label{ font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+  .card-sub{ font-size:11.5px; color:var(--faint); margin-bottom:8px; }
+  .prov{ font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:.07em; text-transform:uppercase; padding:2px 8px; border-radius:11px; white-space:nowrap; font-weight:400; color:var(--faint); border:1px solid var(--border-2); }
+  .prov.live{ color:var(--pos); border-color:rgba(52,211,153,.45); }
+
+  .insight{ margin-top:14px; padding:12px 14px; border-radius:var(--radius-sm); background:rgba(245,181,68,.07); border-left:2px solid var(--amber); font-size:12.5px; color:var(--text); line-height:1.6; }
+  .insight b{ color:var(--amber); font-weight:600; }
+  .insight.teal{ background:rgba(53,208,186,.07); border-left-color:var(--teal); } .insight.teal b{ color:var(--teal); }
+
+  .reveal{ opacity:0; transform:translateY(16px); transition:opacity .6s, transform .6s cubic-bezier(.22,1,.36,1); }
+  .reveal.in{ opacity:1; transform:none; }
+
+  .kpi-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .kpi{ background:var(--panel); backdrop-filter:blur(14px); border:1px solid var(--border); border-radius:var(--radius); padding:15px 15px 9px; transition:transform .25s,border-color .25s; position:relative; overflow:hidden; }
+  .kpi:hover{ transform:translateY(-3px); border-color:var(--border-2); }
+  .kpi::after{ content:''; position:absolute; left:0; right:0; top:0; height:2px; opacity:.85; }
+  .kpi:nth-child(4n+1)::after{background:var(--amber)} .kpi:nth-child(4n+2)::after{background:var(--teal)}
+  .kpi:nth-child(4n+3)::after{background:var(--violet)} .kpi:nth-child(4n+4)::after{background:var(--blue)}
+  .kpi-top{ display:flex; justify-content:space-between; align-items:baseline; gap:6px; }
+  /* Stage 3: the conclusion leads. Charts below are the evidence. */
+  .verdict{ background:linear-gradient(90deg,rgba(245,181,68,.08),transparent);
+    border-left:3px solid var(--amber); border-radius:0 12px 12px 0;
+    padding:15px 18px; margin-bottom:16px; }
+  .verdict-k{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--amber); margin-bottom:6px; }
+  .verdict-t{ font-family:'Space Grotesk',sans-serif; font-size:17px; font-weight:600;
+    line-height:1.45; color:var(--text); letter-spacing:-0.01em; }
+  .verdict-s{ font-size:13.5px; color:var(--muted); line-height:1.6; margin-top:7px; }
+  .verdict-s b{ color:var(--text); font-weight:600; }
+  .verdict.teal{ background:linear-gradient(90deg,rgba(53,208,186,.08),transparent); border-left-color:var(--teal); }
+  .verdict.teal .verdict-k{ color:var(--teal); }
+  .evidence{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--faint); margin-bottom:9px; }
+  .kpi-name{ font-size:11px; color:var(--muted); }
+  .kpi-chg{ font-family:'IBM Plex Mono',monospace; font-size:10.5px; padding:2px 6px; border-radius:20px; }
+  .kpi-chg.up{ color:var(--pos); background:rgba(52,211,153,.12) } .kpi-chg.down{ color:var(--neg); background:rgba(247,108,139,.12) }
+  .kpi-val{ font-family:'IBM Plex Mono',monospace; font-size:21px; font-weight:500; margin:6px 0 1px; }
+  .kpi-asof{ font-family:'IBM Plex Mono',monospace; font-size:8.5px; color:var(--faint); }
+  .kpi-spark{ height:30px; margin-top:4px; }
+
+  .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .grid-lab{ display:grid; grid-template-columns:1.25fr 1fr; gap:12px; }
+  .grid-sect{ display:grid; grid-template-columns:1.15fr 1fr; gap:12px; }
+  @media(max-width:1080px){ .kpi-grid{grid-template-columns:repeat(2,1fr)} .grid-2,.grid-lab,.grid-sect{grid-template-columns:1fr} }
+
+  .legend{ display:flex; gap:6px; flex-wrap:wrap; margin-top:12px; }
+  .lg-btn{ display:flex; align-items:center; gap:6px; font-size:11px; color:var(--muted); background:rgba(255,255,255,.03); border:1px solid var(--border); padding:4px 10px; border-radius:20px; cursor:pointer; transition:all .16s; }
+  .lg-btn:hover{ border-color:var(--border-2); color:var(--text) }
+  .lg-btn.off{ opacity:.35 }
+  .lg-dot{ width:9px; height:9px; border-radius:3px }
+
+  .seg{ display:inline-flex; gap:3px; }
+  .seg button{ font-family:'IBM Plex Mono',monospace; font-size:10.5px; padding:5px 11px; border-radius:14px; border:1px solid var(--border); background:transparent; color:var(--faint); cursor:pointer; transition:all .16s }
+  .seg button.active{ background:var(--grad-gold); color:#1A1305; border-color:transparent }
+
+  table{ width:100%; border-collapse:collapse }
+  th,td{ text-align:left; padding:9px 8px; font-size:12px; border-bottom:1px solid var(--border) }
+  th{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.07em; text-transform:uppercase; color:var(--faint); cursor:pointer; user-select:none; white-space:nowrap }
+  th:hover{ color:var(--muted) }
+  td.num{ font-family:'IBM Plex Mono',monospace; text-align:right }
+  .pos{color:var(--pos)} .neg{color:var(--neg)}
+  tr.hl{ background:rgba(245,181,68,.06) }
+  .bar-cell{ position:relative; display:inline-block; height:5px; width:46px; background:var(--panel-2); border-radius:3px; overflow:hidden }
+  .bar-cell i{ position:absolute; left:0; top:0; bottom:0; border-radius:3px }
+
+  .lab-metrics{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:16px }
+  @media(max-width:600px){ .lab-metrics{grid-template-columns:repeat(2,1fr)} }
+  .metric{ background:rgba(255,255,255,.03); border:1px solid var(--border); border-radius:var(--radius-sm); padding:11px 12px }
+  .metric .mk{ font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.08em; text-transform:uppercase; color:var(--faint); margin-bottom:4px }
+  .metric .mv{ font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; transition:color .3s }
+  .metric .mh{ font-size:10px; color:var(--faint); margin-top:2px }
+
+  .slider-row{ margin-bottom:11px }
+  .slider-top{ display:flex; justify-content:space-between; align-items:center; font-size:12px; margin-bottom:5px; gap:8px }
+  .slider-top .sname{ display:flex; align-items:center; gap:7px }
+  .slider-top .sval{ font-family:'IBM Plex Mono',monospace; color:var(--amber); min-width:38px; text-align:right }
+  input[type=range]{ -webkit-appearance:none; appearance:none; width:100%; height:5px; border-radius:4px; background:var(--panel-2); outline:none; cursor:pointer }
+  input[type=range]::-webkit-slider-thumb{ -webkit-appearance:none; width:15px; height:15px; border-radius:50%; background:var(--amber); border:2px solid #1A1305; cursor:grab; box-shadow:0 2px 8px rgba(245,181,68,.5) }
+  input[type=range]::-moz-range-thumb{ width:14px; height:14px; border-radius:50%; background:var(--amber); border:2px solid #1A1305; cursor:grab }
+
+  .preset-row{ display:flex; gap:6px; flex-wrap:wrap; margin-bottom:14px }
+  .preset{ font-family:'IBM Plex Mono',monospace; font-size:10.5px; padding:6px 12px; border-radius:14px; border:1px solid var(--border); background:transparent; color:var(--muted); cursor:pointer; transition:all .18s }
+  .preset:hover{ border-color:var(--border-2); color:var(--text) }
+  .preset.active{ background:var(--grad-gold); color:#1A1305; border-color:transparent }
+
+  .verdict{ margin-top:14px; padding:14px 16px; border-radius:var(--radius-sm); background:rgba(167,139,250,.08); border-left:2px solid var(--violet); font-size:12.5px; line-height:1.65 }
+  .verdict b{ color:var(--violet) }
+
+  .chart-tip{ position:fixed; pointer-events:none; z-index:200; background:rgba(34,27,59,.97); backdrop-filter:blur(8px); border:1px solid var(--border-2); border-radius:10px; padding:9px 12px; font-size:11.5px; opacity:0; transition:opacity .12s; box-shadow:0 12px 32px rgba(0,0,0,.5); max-width:250px }
+  .chart-tip .tt-title{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.06em; color:var(--faint); text-transform:uppercase; margin-bottom:5px }
+  .chart-tip .tt-row{ display:flex; align-items:center; gap:8px; margin-top:3px }
+  .chart-tip .tt-dot{ width:8px; height:8px; border-radius:2px }
+  .chart-tip .tt-val{ font-family:'IBM Plex Mono',monospace; margin-left:auto; padding-left:12px }
+  svg .grid-line{ stroke:var(--border); stroke-width:1 }
+  svg text.axis{ font-family:'IBM Plex Mono',monospace; font-size:9.5px; fill:var(--faint) }
+  svg text.axlabel{ font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.06em; fill:var(--muted); text-transform:uppercase }
+
+  .disclaimer{ background:var(--panel); backdrop-filter:blur(14px); border:1px solid var(--border); border-left:3px solid var(--amber); padding:16px 20px; font-size:11.5px; color:var(--muted); line-height:1.7; border-radius:var(--radius-sm) }
+  .disclaimer strong{ color:var(--text) }
+
+  .tabbar{ position:fixed; left:50%; bottom:20px; transform:translateX(-50%); z-index:100; display:flex; gap:4px; padding:6px; border-radius:22px; background:rgba(24,19,44,.86); backdrop-filter:blur(20px); border:1px solid var(--border-2); box-shadow:0 16px 44px rgba(0,0,0,.5) }
+  .tab{ display:flex; align-items:center; gap:9px; padding:10px 18px; border-radius:17px; color:var(--muted); font-size:13px; font-weight:500; transition:all .2s; white-space:nowrap }
+  .tab svg{ width:18px; height:18px }
+  .tab:hover{ color:var(--text); background:rgba(255,255,255,.05) }
+  .tab.active{ color:#1A1305; background:var(--grad-sig); box-shadow:0 6px 22px rgba(236,124,91,.4) }
+  .tab.active svg{ stroke:#1A1305 }
+  @media(max-width:560px){ .tab span{display:none} .tab{padding:12px 15px} }
+
+  @media(max-width:860px){
+    .sidebar{ position:static; width:auto; flex-direction:row; align-items:center; padding:12px 14px; overflow-x:auto; gap:6px; border-right:none; border-bottom:1px solid var(--border) }
+    .side-brand,.side-tag{ padding:0; border:none; margin:0; white-space:nowrap } .side-tag{display:none}
+    .side-nav{ flex-direction:row; padding:0; gap:4px; flex:none } .side-link{ padding:8px 10px; white-space:nowrap }
+    .side-link.active::before{display:none} .side-link span{display:none}
+    .main{margin-left:0} .content{padding:18px 14px 30px} .topbar{padding:14px}
+  }
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} .reveal{transition:none;opacity:1;transform:none} *{animation:none!important} }
+</style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="side-brand">Inv<span>Max</span></div>
+  <div class="side-tag">Analytics Lab</div>
+  <nav class="side-nav">
+    <a class="side-link active" data-target="pulse"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg><span>Pulse</span></a>
+    <a class="side-link" data-target="growth"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l6-6 4 4 8-8"/><path d="M17 7h4v4"/></svg><span>Growth &amp; Pain</span></a>
+    <a class="side-link" data-target="risk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="15" r="3"/><circle cx="16" cy="9" r="3"/><path d="M3 21h18"/></svg><span>Risk Lens</span></a>
+    <a class="side-link" data-target="diversify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg><span>Diversification</span></a>
+    <a class="side-link" data-target="lab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3v6l-5 9a2 2 0 002 3h12a2 2 0 002-3l-5-9V3"/><path d="M8 3h8"/></svg><span>Portfolio Lab</span></a>
+    <a class="side-link" data-target="sectors"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><line x1="6" y1="20" x2="6" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="18" y1="20" x2="18" y2="14"/></svg><span>Sectors</span></a>
+    <a class="side-link" data-target="flows"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 7l-4 5 4 5M17 7l4 5-4 5"/><line x1="3" y1="12" x2="21" y2="12"/></svg><span>Flows</span></a>
+  </nav>
+</aside>
+
+<div class="main">
+  <div class="topbar">
+    <div>
+      <h1>Analytics Lab</h1>
+      <div class="sub"><span class="live-dot"></span> India multi-asset · every statistic computed from one shared history</div>
+    </div>
+    <div class="seg" id="tfToggle">
+      <button data-tf="12">1Y</button><button data-tf="36">3Y</button><button data-tf="60" class="active">5Y</button>
+    </div>
+  </div>
+
+  <div class="content">
+
+    <section class="block reveal" id="pulse">
+      <div class="block-head"><div><span class="block-eyebrow">Pulse</span><div class="block-title">Where things stand</div></div>
+        <div class="block-note">Headline levels. USD/INR is a real live feed; the rest is illustrative.</div></div>
+      <div class="kpi-grid" id="kpiGrid"></div>
+    </section>
+
+    <section class="block reveal" id="growth">
+      <div class="block-head"><div><span class="block-eyebrow">Growth &amp; Pain</span><div class="block-title">What ₹100 became — and what it cost you</div></div>
+        <div class="block-note">Returns are half the story. The lower panel shows how far below the previous peak you sat at every moment.</div></div>
+      <div class="verdict" id="growthVerdict"></div>
+      <div class="card">
+        <div class="evidence">The evidence</div>
+        <div class="card-label"><span>Growth of ₹100 · click a name to show or hide it</span><span class="prov">simulated · computed</span></div>
+        <div id="growthChart"></div>
+        <div class="legend" id="growthLegend"></div>
+        <div style="margin-top:18px" class="card-label"><span>Drawdown — how far below the previous peak</span></div>
+        <div id="ddChart"></div>
+      </div>
+    </section>
+
+    <section class="block reveal" id="risk">
+      <div class="block-head"><div><span class="block-eyebrow">Risk Lens</span><div class="block-title">Return is what you get. Risk is what you live through.</div></div>
+        <div class="block-note">Every figure is computed from the same return series — the table and the chart can never disagree.</div></div>
+      <div class="verdict" id="riskVerdict"></div>
+      <div class="grid-2">
+        <div class="card" style="padding:14px">
+          <div class="card-label" style="padding:0 6px"><span>Computed statistics · hover a row</span><span class="prov">computed</span></div>
+          <table id="statTable"><thead><tr>
+            <th data-k="name">Asset</th><th data-k="ret" class="num">Return</th><th data-k="vol" class="num">Vol</th>
+            <th data-k="sharpe" class="num">Sharpe</th><th data-k="mdd" class="num">Max DD</th><th data-k="worst" class="num">Worst mo</th>
+          </tr></thead><tbody></tbody></table>
+        </div>
+        <div class="card">
+          <div class="card-label"><span>Risk vs reward · bubble = depth of worst fall</span><span class="prov">computed</span></div>
+          <div id="scatter"></div>
+          <div class="insight" id="riskInsight"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block reveal" id="diversify">
+      <div class="block-head"><div><span class="block-eyebrow">Diversification</span><div class="block-title">What actually protects you — and when it stops working</div></div>
+        <div class="block-note">Correlation computed from the same return series that drives every other number here.</div></div>
+      <div class="verdict teal" id="corrVerdict"></div>
+      <div class="card">
+        <div class="evidence">The evidence</div>
+        <div class="card-label"><span>Correlation matrix · amber moves together, teal moves opposite</span><span class="prov">computed</span></div>
+        <div id="corrMap"></div>
+      </div>
+    </section>
+
+    <section class="block reveal" id="lab">
+      <div class="block-head"><div><span class="block-eyebrow">Portfolio Lab</span><div class="block-title">Move the sliders. Watch the maths move.</div></div>
+        <div class="block-note">900 random portfolios simulated from the covariance matrix. Your mix is the glowing dot — drag a slider and watch it travel.</div></div>
+      <div class="grid-lab">
+        <div class="card">
+          <div class="card-label"><span>The opportunity cloud · each dot is a possible portfolio</span><span class="prov">simulated</span></div>
+          <div class="card-sub">Colour = reward per unit of risk. The upper-left edge is the efficient frontier: the most return available at each level of risk.</div>
+          <div id="frontier"></div>
+        </div>
+        <div class="card">
+          <div class="card-label"><span>Your mix</span></div>
+          <div class="preset-row" id="presets">
+            <button class="preset" data-p="conservative">Conservative</button>
+            <button class="preset active" data-p="balanced">Balanced</button>
+            <button class="preset" data-p="aggressive">Aggressive</button>
+            <button class="preset" data-p="optimal">Best Sharpe</button>
+          </div>
+          <div class="lab-metrics">
+            <div class="metric"><div class="mk">Return p.a.</div><div class="mv" id="mRet">—</div><div class="mh">expected</div></div>
+            <div class="metric"><div class="mk">Volatility</div><div class="mv" id="mVol">—</div><div class="mh">annualised</div></div>
+            <div class="metric"><div class="mk">Sharpe</div><div class="mv" id="mSharpe">—</div><div class="mh">vs 6.5% cash</div></div>
+            <div class="metric"><div class="mk">Worst fall</div><div class="mv" id="mDD">—</div><div class="mh">historical</div></div>
+          </div>
+          <div id="sliders"></div>
+          <div class="verdict" id="verdict"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block reveal" id="sectors">
+      <div class="block-head"><div><span class="block-eyebrow">Sectors</span><div class="block-title">Rotation map</div></div>
+        <div class="block-note">Momentum against valuation. Top-left is where leadership tends to persist.</div></div>
+      <div class="grid-sect">
+        <div class="card"><div class="card-label"><span>Momentum vs valuation</span><span class="prov">sample · 01 Aug 26</span></div><div id="quadrant"></div>
+          <div class="insight" id="sectInsight"></div></div>
+        <div class="card" style="padding:14px"><div class="card-label" style="padding:0 6px"><span>Sector detail</span><span class="prov">sample · 01 Aug 26</span></div>
+          <table id="sectTable"><thead><tr><th data-k="name">Sector</th><th data-k="ret" class="num">1M</th><th data-k="mom" class="num">Mom</th><th data-k="val" class="num">Val</th></tr></thead><tbody></tbody></table></div>
+      </div>
+    </section>
+
+    <section class="block reveal" id="flows">
+      <div class="block-head"><div><span class="block-eyebrow">Flows</span><div class="block-title">Who's actually buying</div></div>
+        <div class="block-note">Monthly net equity flows with the running cumulative total overlaid.</div></div>
+      <div class="card">
+        <div class="card-label"><span>Net monthly flows (₹ '000 Cr) · cumulative overlaid</span><span class="prov">sample · 12M</span></div>
+        <div id="flowsChart"></div>
+        <div class="legend">
+          <span class="lg-btn" style="cursor:default"><span class="lg-dot" style="background:var(--blue)"></span>FII</span>
+          <span class="lg-btn" style="cursor:default"><span class="lg-dot" style="background:var(--amber)"></span>DII</span>
+          <span class="lg-btn" style="cursor:default"><span class="lg-dot" style="background:var(--teal);border-radius:50%"></span>Cumulative</span>
+        </div>
+        <div class="insight" id="flowInsight"></div>
+      </div>
+      <div style="margin-top:14px" class="disclaimer"><strong>How to read this page.</strong> The multi-asset history here is <em>simulated</em> sample data built to behave like real Indian markets — but every statistic (return, volatility, Sharpe, drawdown, correlation, the frontier) is genuinely <em>computed</em> from that one shared series, so nothing on this page can contradict anything else. The USD/INR tile is a real live feed. This is a research and reasoning tool, not investment advice, and not issued by a SEBI-registered adviser. Verify independently before acting.</div>
+    </section>
+
+  </div>
+</div>
+
+<nav class="tabbar">
+  <a href="index.html" class="tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a>
+  <a href="analytics.html" class="tab active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg><span>Analytics</span></a>
+  <a href="research.html" class="tab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg><span>Research</span></a>
+</nav>
+
+<div class="chart-tip" id="tip"></div>
+
+<script src="invmax-data.js"></script>
+<script>
+const NS='http://www.w3.org/2000/svg', $=(s,r=document)=>r.querySelector(s);
+const E=(t,a={})=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);return e;};
+const V=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const C={amber:V('--amber'),teal:V('--teal'),violet:V('--violet'),blue:V('--blue'),rose:V('--rose'),lime:V('--lime'),
+  pos:V('--pos'),neg:V('--neg'),border:V('--border'),muted:V('--muted'),faint:V('--faint'),text:V('--text')};
+const tip=$('#tip');
+const showTip=(h,x,y)=>{tip.innerHTML=h;tip.style.opacity=1;let lx=x+14;if(lx>innerWidth-260)lx=x-250;tip.style.left=lx+'px';tip.style.top=(y+14)+'px';};
+const hideTip=()=>tip.style.opacity=0;
+const sgn=v=>(v>=0?'+':'')+v.toFixed(1);
+
+/* ══════ ONE DATA CORE ══════
+   A single simulated monthly return history built with a factor model
+   (shared market factor + idiosyncratic noise). EVERY statistic on this page —
+   vol, Sharpe, drawdown, correlation, the frontier — is computed from THIS
+   series, which is why nothing here can contradict anything else. */
+function mul(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};}
+const rnd=mul(20260801);
+function norm(){let u=0,v=0;while(!u)u=rnd();while(!v)v=rnd();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);}
+const MONTHS=60;
+const ASSETS=[
+  {key:'nifty',name:'Nifty 50',mu:.130,sd:.145,beta:1.00,color:C.amber},
+  {key:'mid',name:'Midcap',mu:.170,sd:.195,beta:1.18,color:C.violet},
+  {key:'small',name:'Smallcap',mu:.150,sd:.245,beta:1.32,color:C.rose},
+  {key:'gold',name:'Gold',mu:.120,sd:.130,beta:-.10,color:'#E0B341'},
+  {key:'debt',name:'Debt',mu:.072,sd:.042,beta:-.14,color:C.blue},
+  {key:'reit',name:'REITs',mu:.095,sd:.115,beta:.55,color:C.teal},
+  {key:'intl',name:'US Equity',mu:.125,sd:.150,beta:.35,color:C.lime},
+];
+const MKT=.145/Math.sqrt(12), RF=.065;
+const mkt=[]; for(let t=0;t<MONTHS;t++) mkt.push(norm()*MKT);
+[14,15,16].forEach((i,k)=>mkt[i]-=[.055,.075,.035][k]);
+[38,39].forEach((i,k)=>mkt[i]-=[.040,.028][k]);
+ASSETS.forEach(a=>{ const mM=a.mu/12,sM=a.sd/Math.sqrt(12);
+  const idio=Math.sqrt(Math.max(1e-6,sM*sM-a.beta*a.beta*MKT*MKT));
+  a.r=[]; for(let t=0;t<MONTHS;t++) a.r.push(mM+a.beta*mkt[t]+norm()*idio); });
+
+const mean=x=>x.reduce((s,v)=>s+v,0)/x.length;
+const sdv=x=>{const m=mean(x);return Math.sqrt(x.reduce((s,v)=>s+(v-m)*(v-m),0)/(x.length-1));};
+const cov=(x,y)=>{const mx=mean(x),my=mean(y);let s=0;for(let i=0;i<x.length;i++)s+=(x[i]-mx)*(y[i]-my);return s/(x.length-1);};
+const corr=(x,y)=>cov(x,y)/(sdv(x)*sdv(y));
+const curve=r=>{const c=[100];r.forEach(v=>c.push(c[c.length-1]*(1+v)));return c;};
+const ddS=c=>{let pk=-1e9;return c.map(v=>{pk=Math.max(pk,v);return (v/pk-1)*100;});};
+function stats(r){const c=curve(r);
+  const annRet=(Math.pow(c[c.length-1]/100,12/r.length)-1)*100, annVol=sdv(r)*Math.sqrt(12)*100;
+  return{annRet,annVol,sharpe:(annRet/100-RF)/(annVol/100),mdd:Math.min(...ddS(c)),worst:Math.min(...r)*100,curve:c};}
+let WIN=60; const slice=r=>r.slice(-WIN);
+let S={}; const recompute=()=>{S={};ASSETS.forEach(a=>S[a.key]=stats(slice(a.r)));};
+recompute();
+const covM=()=>{const n=ASSETS.length,M=[];for(let i=0;i<n;i++){M[i]=[];for(let j=0;j<n;j++)M[i][j]=cov(slice(ASSETS[i].r),slice(ASSETS[j].r));}return M;};
+
+function frame(m,W,H){const s=E('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',style:'display:block;height:auto'});m.innerHTML='';m.appendChild(s);return s;}
+function grid(svg,pad,W,H,min,max,fmt,steps=4){for(let g=0;g<=steps;g++){const v=min+(max-min)*g/steps,y=pad.t+(1-(v-min)/(max-min))*(H-pad.t-pad.b);
+  svg.appendChild(E('line',{class:'grid-line',x1:pad.l,y1:y,x2:W-pad.r,y2:y,opacity:.4}));
+  const t=E('text',{class:'axis',x:pad.l-7,y:y+3,'text-anchor':'end'});t.textContent=fmt(v);svg.appendChild(t);}}
+function drawOn(p){try{const L=p.getTotalLength();p.style.strokeDasharray=L;p.style.strokeDashoffset=L;p.getBoundingClientRect();p.style.transition='stroke-dashoffset 1s cubic-bezier(.5,0,.2,1)';p.style.strokeDashoffset=0;}catch(e){}}
+function mlabels(n){const MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];const o=[];let y=2026,m=7;for(let i=0;i<n;i++){o.unshift(MO[m]+" '"+String(y).slice(2));m--;if(m<0){m=11;y--;}}return o;}
+
+/* ── growth of 100 + drawdown ── */
+let visible=new Set(['nifty','mid','gold','debt']), ddHover=()=>{};
+function renderGrowth(){
+  const labels=mlabels(WIN+1), shown=ASSETS.filter(a=>visible.has(a.key));
+  const n = shown.length ? S[shown[0].key].curve.length-1 : WIN;   // actual periods available
+  const W=780,H=250,pad={t:14,r:44,b:24,l:46};
+  const all=shown.flatMap(a=>S[a.key].curve),min=Math.min(100,...all),max=Math.max(...all,101);
+  const svg=frame($('#growthChart'),W,H); grid(svg,pad,W,H,min,max,v=>'₹'+Math.round(v));
+  const x=i=>pad.l+i*(W-pad.l-pad.r)/n, y=v=>pad.t+(1-(v-min)/(max-min))*(H-pad.t-pad.b);
+  const lab2=mlabels(n+1);
+  const tk=6;for(let i=0;i<tk;i++){const id=Math.round(i*n/(tk-1));const t=E('text',{class:'axis',x:x(id),y:H-7,'text-anchor':'middle'});t.textContent=lab2[id];svg.appendChild(t);}
+  shown.forEach(a=>{let d='';S[a.key].curve.forEach((v,i)=>d+=(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' ');
+    const p=E('path',{d,fill:'none',stroke:a.color,'stroke-width':2,'stroke-linejoin':'round'});svg.appendChild(p);drawOn(p);
+    const t=E('text',{x:x(n)+4,y:y(S[a.key].curve[n])+3,style:`font-family:'IBM Plex Mono';font-size:9.5px;fill:${a.color}`});
+    t.textContent='₹'+Math.round(S[a.key].curve[n]);svg.appendChild(t);});
+  const vl=E('line',{y1:pad.t,y2:H-pad.b,stroke:C.amber,'stroke-width':1,opacity:0,'stroke-dasharray':'3 3'});svg.appendChild(vl);
+  const dots=shown.map(a=>{const c=E('circle',{r:3.5,fill:a.color,stroke:'#120E22','stroke-width':1.5,opacity:0});svg.appendChild(c);return c;});
+  const hit=E('rect',{x:0,y:0,width:W,height:H,fill:'transparent'});svg.appendChild(hit);
+  hit.addEventListener('mousemove',e=>{const r=svg.getBoundingClientRect();
+    let i=Math.round(((e.clientX-r.left)/r.width*W-pad.l)/((W-pad.l-pad.r)/n));i=Math.max(0,Math.min(n,i));
+    vl.setAttribute('x1',x(i));vl.setAttribute('x2',x(i));vl.setAttribute('opacity',.6);
+    let rows='';shown.forEach((a,k)=>{const v=S[a.key].curve[i];dots[k].setAttribute('cx',x(i));dots[k].setAttribute('cy',y(v));dots[k].setAttribute('opacity',1);
+      rows+=`<div class="tt-row"><span class="tt-dot" style="background:${a.color}"></span>${a.name}<span class="tt-val" style="color:${a.color}">₹${v.toFixed(0)}</span></div>`;});
+    showTip(`<div class="tt-title">${lab2[i]}</div>${rows}`,e.clientX,e.clientY);ddHover(i);});
+  hit.addEventListener('mouseleave',()=>{vl.setAttribute('opacity',0);dots.forEach(d=>d.setAttribute('opacity',0));hideTip();ddHover(-1);});
+  $('#growthLegend').innerHTML=ASSETS.map(a=>`<span class="lg-btn ${visible.has(a.key)?'':'off'}" data-k="${a.key}"><span class="lg-dot" style="background:${a.color}"></span>${a.name}</span>`).join('');
+  $('#growthLegend').querySelectorAll('.lg-btn').forEach(b=>b.onclick=()=>{const k=b.dataset.k;
+    if(visible.has(k)){if(visible.size>1)visible.delete(k);}else visible.add(k);renderGrowth();});
+  renderDD();
+  const best=[...shown].sort((a,b)=>S[b.key].curve[n]-S[a.key].curve[n])[0];
+  const calm=[...shown].sort((a,b)=>S[b.key].mdd-S[a.key].mdd)[0];
+  const yrs=(n/12).toFixed(0), bv=S[best.key].curve[n].toFixed(0), bd=Math.abs(S[best.key].mdd).toFixed(0);
+  $('#growthVerdict').innerHTML=
+    `<div class="verdict-k">The takeaway</div>
+     <div class="verdict-t">${best.name} won on returns — but you had to survive a ${bd}% fall to collect it.</div>
+     <div class="verdict-s">₹100 became <b>₹${bv}</b> over ${yrs} years, more than anything else here. The lower panel is the price of admission: at the worst moment you were <b>${bd}% below your own peak</b>, while ${calm.name} never dropped more than ${Math.abs(S[calm.key].mdd).toFixed(0)}%. Pick the line you could have held through, not the one that finished highest.</div>`;
+}
+function renderDD(){
+  const shown=ASSETS.filter(a=>visible.has(a.key));
+  const n = shown.length ? S[shown[0].key].curve.length-1 : WIN;
+  const W=780,H=112,pad={t:8,r:44,b:16,l:46};
+  const ser=shown.map(a=>({a,d:ddS(S[a.key].curve)}));
+  const min=Math.min(-1,...ser.flatMap(s=>s.d));
+  const svg=frame($('#ddChart'),W,H); grid(svg,pad,W,H,min,0,v=>Math.round(v)+'%',2);
+  const x=i=>pad.l+i*(W-pad.l-pad.r)/n, y=v=>pad.t+(1-(v-min)/(0-min))*(H-pad.t-pad.b);
+  const defs=E('defs');svg.appendChild(defs);
+  ser.forEach(({a,d})=>{let p='';d.forEach((v,i)=>p+=(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' ');
+    const gid='dd'+a.key;const lg=E('linearGradient',{id:gid,x1:0,y1:0,x2:0,y2:1});
+    lg.appendChild(E('stop',{offset:'0%','stop-color':a.color,'stop-opacity':.02}));
+    lg.appendChild(E('stop',{offset:'100%','stop-color':a.color,'stop-opacity':.30}));
+    defs.appendChild(lg);
+    svg.appendChild(E('path',{d:p+`L ${x(n)} ${y(0)} L ${x(0)} ${y(0)} Z`,fill:`url(#${gid})`}));
+    svg.appendChild(E('path',{d:p,fill:'none',stroke:a.color,'stroke-width':1.4,opacity:.85}));});
+  const vl=E('line',{y1:pad.t,y2:H-pad.b,stroke:C.amber,'stroke-width':1,opacity:0,'stroke-dasharray':'3 3'});svg.appendChild(vl);
+  ddHover=i=>{if(i<0){vl.setAttribute('opacity',0);return;}vl.setAttribute('x1',x(i));vl.setAttribute('x2',x(i));vl.setAttribute('opacity',.5);};
+}
+
+/* ── risk lens ── */
+let sortK='sharpe',sortD=-1,hlKey=null;
+function renderStats(){
+  const rows=ASSETS.map(a=>({key:a.key,name:a.name,color:a.color,ret:S[a.key].annRet,vol:S[a.key].annVol,sharpe:S[a.key].sharpe,mdd:S[a.key].mdd,worst:S[a.key].worst}));
+  rows.sort((x,y)=>sortK==='name'?sortD*x.name.localeCompare(y.name):sortD*(x[sortK]-y[sortK]));
+  const mx=Math.max(...rows.map(r=>r.sharpe));
+  $('#statTable tbody').innerHTML=rows.map(r=>`<tr data-k="${r.key}">
+    <td><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:${r.color};margin-right:7px"></span>${r.name}</td>
+    <td class="num ${r.ret>=0?'pos':'neg'}">${r.ret.toFixed(1)}%</td><td class="num">${r.vol.toFixed(1)}%</td>
+    <td class="num"><span>${r.sharpe.toFixed(2)}</span> <span class="bar-cell"><i style="width:${Math.max(0,r.sharpe/mx*100)}%;background:${r.sharpe>0?C.pos:C.neg}"></i></span></td>
+    <td class="num neg">${r.mdd.toFixed(0)}%</td><td class="num neg">${r.worst.toFixed(1)}%</td></tr>`).join('');
+  $('#statTable tbody').querySelectorAll('tr').forEach(tr=>{
+    tr.onmouseenter=()=>{hlKey=tr.dataset.k;tr.classList.add('hl');renderScatter();};
+    tr.onmouseleave=()=>{hlKey=null;tr.classList.remove('hl');renderScatter();};});
+}
+function renderScatter(){
+  const W=430,H=310,pad={t:16,r:16,b:40,l:44};
+  const xMax=Math.max(...ASSETS.map(a=>S[a.key].annVol))*1.15;
+  const ys=ASSETS.map(a=>S[a.key].annRet),yMin=Math.min(0,...ys)-1,yMax=Math.max(...ys)*1.15;
+  const svg=frame($('#scatter'),W,H); grid(svg,pad,W,H,yMin,yMax,v=>v.toFixed(0)+'%');
+  const X=v=>pad.l+v/xMax*(W-pad.l-pad.r), Y=v=>pad.t+(1-(v-yMin)/(yMax-yMin))*(H-pad.t-pad.b);
+  for(let g=0;g<=4;g++){const gx=pad.l+(W-pad.l-pad.r)*g/4;const t=E('text',{class:'axis',x:gx,y:H-22,'text-anchor':'middle'});t.textContent=(xMax*g/4).toFixed(0)+'%';svg.appendChild(t);}
+  const xl=E('text',{class:'axlabel',x:pad.l+(W-pad.l-pad.r)/2,y:H-5,'text-anchor':'middle'});xl.textContent='risk (volatility) →';svg.appendChild(xl);
+  const yl=E('text',{class:'axlabel',x:-(pad.t+(H-pad.t-pad.b)/2),y:12,'text-anchor':'middle',transform:'rotate(-90)'});yl.textContent='reward (return) →';svg.appendChild(yl);
+  const cy=Y(RF*100);svg.appendChild(E('line',{x1:pad.l,y1:cy,x2:W-pad.r,y2:cy,stroke:C.faint,'stroke-dasharray':'4 4',opacity:.6}));
+  const ct=E('text',{class:'axis',x:W-pad.r-2,y:cy-4,'text-anchor':'end'});ct.textContent='cash 6.5%';svg.appendChild(ct);
+  ASSETS.forEach((a,i)=>{const s=S[a.key],r=5+Math.abs(s.mdd)/6,dim=hlKey&&hlKey!==a.key;
+    const c=E('circle',{cx:X(s.annVol),cy:Y(s.annRet),r:0,fill:a.color,'fill-opacity':dim?.10:.30,stroke:a.color,'stroke-width':1.6,opacity:dim?.35:1,style:'cursor:pointer;transition:r .5s cubic-bezier(.34,1.4,.6,1),opacity .2s,fill-opacity .2s'});
+    svg.appendChild(c);setTimeout(()=>c.setAttribute('r',r),60+i*55);
+    const lb=E('text',{x:X(s.annVol),y:Y(s.annRet)-r-5,'text-anchor':'middle',style:`font-family:'Inter';font-size:9.5px;fill:${dim?C.faint:C.muted}`});lb.textContent=a.name;svg.appendChild(lb);
+    c.addEventListener('mouseenter',ev=>showTip(`<div class="tt-title">${a.name}</div>
+      <div class="tt-row">Return<span class="tt-val" style="color:${C.pos}">${s.annRet.toFixed(1)}%</span></div>
+      <div class="tt-row">Volatility<span class="tt-val">${s.annVol.toFixed(1)}%</span></div>
+      <div class="tt-row">Sharpe<span class="tt-val" style="color:${C.amber}">${s.sharpe.toFixed(2)}</span></div>
+      <div class="tt-row">Worst fall<span class="tt-val" style="color:${C.neg}">${s.mdd.toFixed(0)}%</span></div>`,ev.clientX,ev.clientY));
+    c.addEventListener('mouseleave',hideTip);});
+  const bs=[...ASSETS].sort((a,b)=>S[b.key].sharpe-S[a.key].sharpe)[0];
+  const wd=[...ASSETS].sort((a,b)=>S[a.key].mdd-S[b.key].mdd)[0];
+  $('#riskVerdict').innerHTML=
+    `<div class="verdict-k">The takeaway</div>
+     <div class="verdict-t">${bs.name} paid you best for the risk you actually took.</div>
+     <div class="verdict-s">It earned a Sharpe of <b>${S[bs.key].sharpe.toFixed(2)}</b> — more return per unit of risk than anything else on the board. At the other end, <b>${wd.name}</b> is the largest bubble in the chart: its headline gains came attached to a <b>${Math.abs(S[wd.key].mdd).toFixed(0)}% drawdown</b>. Anything sitting below the dashed line failed to beat simply holding cash.</div>`;
+}
+
+/* ── correlation ── */
+function renderCorr(){
+  const n=ASSETS.length,cell=Math.min(56,Math.floor(392/n)),lg=64,W=lg+cell*n+8,H=lg+cell*n+8;
+  const svg=frame($('#corrMap'),W,H);svg.setAttribute('style','display:block;height:auto;max-width:'+(W+26)+'px');
+  const col=v=>v>=0?`rgba(245,181,68,${.10+v*.75})`:`rgba(53,208,186,${.10+(-v)*.75})`;
+  ASSETS.forEach((a,i)=>{const s=a.name.split(' ')[0];
+    const t=E('text',{x:lg+cell*i+cell/2,y:lg-8,'text-anchor':'middle',class:'axis'});t.textContent=s;svg.appendChild(t);
+    const t2=E('text',{x:lg-7,y:lg+cell*i+cell/2+3,'text-anchor':'end',class:'axis'});t2.textContent=s;svg.appendChild(t2);});
+  for(let i=0;i<n;i++)for(let j=0;j<n;j++){
+    const v=corr(slice(ASSETS[i].r),slice(ASSETS[j].r)),rx=lg+cell*j,ry=lg+cell*i;
+    const rect=E('rect',{x:rx+1.5,y:ry+1.5,width:cell-3,height:cell-3,rx:5,fill:col(v),style:'cursor:pointer;transition:opacity .15s'});
+    const tx=E('text',{x:rx+cell/2,y:ry+cell/2+3.5,'text-anchor':'middle',style:`font-family:'IBM Plex Mono';font-size:9px;fill:${Math.abs(v)>.55?'#120E22':C.text};pointer-events:none`});tx.textContent=v.toFixed(2);
+    rect.addEventListener('mouseenter',ev=>{rect.setAttribute('opacity',.75);
+      showTip(`<div class="tt-title">${ASSETS[i].name} × ${ASSETS[j].name}</div><div class="tt-row">Correlation<span class="tt-val" style="color:${v>0?C.amber:C.teal}">${v.toFixed(2)}</span></div>
+      <div style="margin-top:6px;color:${C.muted};font-size:11px">${i===j?'An asset always moves with itself.':v>.7?'Move almost as one — little protection.':v>.3?'Loosely linked.':v>-.1?'Largely independent — useful together.':'Move opposite — real protection.'}</div>`,ev.clientX,ev.clientY);});
+    rect.addEventListener('mouseleave',()=>{rect.setAttribute('opacity',1);hideTip();});
+    svg.appendChild(rect);svg.appendChild(tx);}
+  const cm=corr(slice(ASSETS[0].r),slice(ASSETS[1].r)),cg=corr(slice(ASSETS[0].r),slice(ASSETS[3].r)),cd=corr(slice(ASSETS[0].r),slice(ASSETS[4].r));
+  $('#corrVerdict').innerHTML=
+    `<div class="verdict-k">The takeaway</div>
+     <div class="verdict-t">Owning Nifty and Midcap together is close to owning the same thing twice.</div>
+     <div class="verdict-s">They move together at <b>${cm.toFixed(2)}</b> — near-identical risk wearing two names, so holding both adds far less protection than it looks like it does. The genuine counterweights are gold at <b>${cg.toFixed(2)}</b> and debt at <b>${cd.toFixed(2)}</b>: they lean against equity, which is why even a small slice of them steadies the whole portfolio.</div>`;
+}
+
+/* ── portfolio lab ── */
+const LAB=['nifty','mid','small','gold','debt','reit'];
+const LABA=LAB.map(k=>ASSETS.find(a=>a.key===k));
+const LABI=LAB.map(k=>ASSETS.findIndex(a=>a.key===k));
+const PRESETS={conservative:[10,4,0,14,58,14],balanced:[30,14,6,12,26,12],aggressive:[34,26,20,8,4,8]};
+let weights=[...PRESETS.balanced], cloud=[], optimal=null, frontierMove=()=>{};
+function portStats(w){
+  const ws=w.map(v=>v/100), M=covM(); let mu=0,va=0;
+  LABI.forEach((ai,i)=>mu+=ws[i]*mean(slice(ASSETS[ai].r)));
+  LABI.forEach((ai,i)=>LABI.forEach((aj,j)=>va+=ws[i]*ws[j]*M[ai][aj]));
+  const annRet=(Math.pow(1+mu,12)-1)*100, annVol=Math.sqrt(Math.max(va,0))*Math.sqrt(12)*100;
+  const n=slice(ASSETS[0].r).length, pr=[];
+  for(let t=0;t<n;t++){let s=0;LABI.forEach((ai,i)=>s+=ws[i]*slice(ASSETS[ai].r)[t]);pr.push(s);}
+  return{annRet,annVol,sharpe:(annRet/100-RF)/(annVol/100||1e-9),mdd:Math.min(...ddS(curve(pr)))};
+}
+function buildCloud(){cloud=[];const r2=mul(77);
+  for(let i=0;i<900;i++){const w=LAB.map(()=>Math.pow(r2(),1.6));const s=w.reduce((a,b)=>a+b,0);
+    const wp=w.map(v=>v/s*100);cloud.push({...portStats(wp),w:wp});}
+  optimal=cloud.reduce((a,b)=>b.sharpe>a.sharpe?b:a,cloud[0]);}
+function renderFrontier(){
+  const W=470,H=340,pad={t:16,r:16,b:42,l:46};
+  const xs=cloud.map(p=>p.annVol),ys=cloud.map(p=>p.annRet);
+  const xMin=Math.min(...xs)*.9,xMax=Math.max(...xs)*1.06,yMin=Math.min(...ys)*.9,yMax=Math.max(...ys)*1.06;
+  const svg=frame($('#frontier'),W,H); grid(svg,pad,W,H,yMin,yMax,v=>v.toFixed(0)+'%');
+  const X=v=>pad.l+(v-xMin)/(xMax-xMin)*(W-pad.l-pad.r), Y=v=>pad.t+(1-(v-yMin)/(yMax-yMin))*(H-pad.t-pad.b);
+  for(let g=0;g<=4;g++){const v=xMin+(xMax-xMin)*g/4;const t=E('text',{class:'axis',x:X(v),y:H-24,'text-anchor':'middle'});t.textContent=v.toFixed(0)+'%';svg.appendChild(t);}
+  const xl=E('text',{class:'axlabel',x:pad.l+(W-pad.l-pad.r)/2,y:H-6,'text-anchor':'middle'});xl.textContent='risk (volatility) →';svg.appendChild(xl);
+  const yl=E('text',{class:'axlabel',x:-(pad.t+(H-pad.t-pad.b)/2),y:12,'text-anchor':'middle',transform:'rotate(-90)'});yl.textContent='return →';svg.appendChild(yl);
+  const sMin=Math.min(...cloud.map(p=>p.sharpe)),sMax=Math.max(...cloud.map(p=>p.sharpe));
+  cloud.forEach(p=>{const t=(p.sharpe-sMin)/((sMax-sMin)||1);
+    svg.appendChild(E('circle',{cx:X(p.annVol),cy:Y(p.annRet),r:1.9,fill:t>.66?C.teal:t>.33?C.amber:'#6E5C8A',opacity:.28+t*.42}));});
+  svg.appendChild(E('circle',{cx:X(optimal.annVol),cy:Y(optimal.annRet),r:6,fill:'none',stroke:C.teal,'stroke-width':1.6}));
+  const ot=E('text',{x:X(optimal.annVol),y:Y(optimal.annRet)-11,'text-anchor':'middle',style:`font-family:'IBM Plex Mono';font-size:9px;fill:${C.teal}`});ot.textContent='best Sharpe';svg.appendChild(ot);
+  const halo=E('circle',{cx:X(xMin),cy:Y(yMin),r:14,fill:'none',stroke:C.amber,'stroke-width':1.4,opacity:.5,style:'transition:cx .5s cubic-bezier(.22,1,.36,1),cy .5s cubic-bezier(.22,1,.36,1)'});
+  const you=E('circle',{cx:X(xMin),cy:Y(yMin),r:8,fill:C.amber,'fill-opacity':.9,stroke:'#120E22','stroke-width':2,style:'transition:cx .5s cubic-bezier(.22,1,.36,1),cy .5s cubic-bezier(.22,1,.36,1)'});
+  svg.appendChild(halo);svg.appendChild(you);
+  frontierMove=st=>[you,halo].forEach(el=>{el.setAttribute('cx',X(st.annVol));el.setAttribute('cy',Y(st.annRet));});
+}
+function renderSliders(){
+  $('#sliders').innerHTML=LABA.map((a,i)=>`<div class="slider-row">
+    <div class="slider-top"><span class="sname"><span class="lg-dot" style="background:${a.color}"></span>${a.name}</span><span class="sval" id="sv${i}">${weights[i]}%</span></div>
+    <input type="range" min="0" max="100" value="${weights[i]}" data-i="${i}"></div>`).join('')
+    +`<div style="display:flex;justify-content:space-between;font-family:'IBM Plex Mono';font-size:10.5px;color:var(--faint);margin-top:8px"><span>Total (auto-normalised)</span><span id="wTotal">100%</span></div>`;
+  $('#sliders').querySelectorAll('input').forEach(inp=>inp.addEventListener('input',()=>{
+    weights[+inp.dataset.i]=+inp.value;
+    document.querySelectorAll('.preset').forEach(p=>p.classList.remove('active'));updateLab();}));
+}
+const normW=()=>{const s=weights.reduce((a,b)=>a+b,0)||1;return weights.map(v=>v/s*100);};
+function updateLab(){
+  const w=normW(),st=portStats(w);
+  LABA.forEach((a,i)=>{const e=$('#sv'+i);if(e)e.textContent=w[i].toFixed(0)+'%';});
+  const set=(id,val,col)=>{const e=$(id);e.textContent=val;if(col)e.style.color=col;};
+  set('#mRet',st.annRet.toFixed(1)+'%',C.pos);
+  set('#mVol',st.annVol.toFixed(1)+'%',st.annVol>18?C.neg:st.annVol>12?C.amber:C.teal);
+  set('#mSharpe',st.sharpe.toFixed(2),st.sharpe>.6?C.teal:st.sharpe>.3?C.amber:C.neg);
+  set('#mDD',st.mdd.toFixed(0)+'%',C.neg);
+  frontierMove(st);
+  const eq=w[0]+w[1]+w[2], df=w[3]+w[4], gap=optimal.sharpe-st.sharpe;
+  let v='<b>What this mix means:</b> ';
+  if(eq>65) v+=`You're <b>${eq.toFixed(0)}% in equity</b> — a growth-first stance. Expect roughly <b>${st.annRet.toFixed(0)}%</b> a year, but be honest that a <b>${st.mdd.toFixed(0)}%</b> fall has happened before and will happen again. `;
+  else if(df>55) v+=`You're <b>${df.toFixed(0)}% defensive</b> (debt + gold). The ride is smooth — worst fall only <b>${Math.abs(st.mdd).toFixed(0)}%</b> — but at <b>${st.annRet.toFixed(1)}%</b> you're barely ahead of cash once inflation bites. `;
+  else v+=`A balanced stance — <b>${eq.toFixed(0)}%</b> growth against <b>${df.toFixed(0)}%</b> defensive ballast, targeting <b>${st.annRet.toFixed(1)}%</b> with a worst fall of <b>${st.mdd.toFixed(0)}%</b>. `;
+  v += gap>.12
+    ? `<br><br>You're leaving something on the table: the best-Sharpe mix scores <b>${optimal.sharpe.toFixed(2)}</b> against your <b>${st.sharpe.toFixed(2)}</b> — similar returns are available with less turbulence. Tap <b>Best Sharpe</b> to see it.`
+    : `<br><br>Efficiency check: your Sharpe of <b>${st.sharpe.toFixed(2)}</b> is close to the best available (<b>${optimal.sharpe.toFixed(2)}</b>) — this mix is using its risk well.`;
+  $('#verdict').innerHTML=v;
+}
+$('#presets').addEventListener('click',e=>{const b=e.target.closest('.preset');if(!b)return;
+  document.querySelectorAll('.preset').forEach(p=>p.classList.remove('active'));b.classList.add('active');
+  weights=b.dataset.p==='optimal'?optimal.w.map(v=>Math.round(v)):[...PRESETS[b.dataset.p]];
+  $('#sliders').querySelectorAll('input').forEach((inp,i)=>inp.value=weights[i]);updateLab();});
+
+/* ── sectors ── */
+const sectors=[{name:'Defense',ret:4.1,mom:95,val:62},{name:'Manufacturing',ret:3.4,mom:92,val:58},
+  {name:'Realty',ret:2.9,mom:74,val:71},{name:'Pharma',ret:2.6,mom:80,val:49},{name:'Banking',ret:2.2,mom:72,val:38},
+  {name:'Auto',ret:1.9,mom:70,val:55},{name:'Metals',ret:1.3,mom:58,val:44},{name:'IT',ret:1.1,mom:55,val:52},
+  {name:'FMCG',ret:0.8,mom:48,val:66},{name:'Energy',ret:-0.6,mom:36,val:34}];
+function renderQuad(){
+  const W=470,H=330,pad={t:16,r:16,b:38,l:42},pw=W-pad.l-pad.r,ph=H-pad.t-pad.b;
+  const svg=frame($('#quadrant'),W,H);
+  const X=v=>pad.l+v/100*pw, Y=v=>pad.t+(1-v/100)*ph;
+  svg.appendChild(E('rect',{x:pad.l,y:pad.t,width:pw/2,height:ph/2,fill:'rgba(53,208,186,.07)'}));
+  svg.appendChild(E('line',{x1:pad.l+pw/2,y1:pad.t,x2:pad.l+pw/2,y2:H-pad.b,stroke:C.border,'stroke-dasharray':'4 4'}));
+  svg.appendChild(E('line',{x1:pad.l,y1:pad.t+ph/2,x2:W-pad.r,y2:pad.t+ph/2,stroke:C.border,'stroke-dasharray':'4 4'}));
+  const q=(x,y,t,an)=>{const e=E('text',{x,y,'text-anchor':an,class:'axlabel',opacity:.75});e.textContent=t;svg.appendChild(e);};
+  q(pad.l+6,pad.t+13,'sweet spot','start');q(W-pad.r-6,pad.t+13,'priced in','end');
+  q(pad.l+6,H-pad.b-6,'left behind','start');q(W-pad.r-6,H-pad.b-6,'expensive & fading','end');
+  const xl=E('text',{class:'axlabel',x:pad.l+pw/2,y:H-6,'text-anchor':'middle'});xl.textContent='← cheaper   valuation   richer →';svg.appendChild(xl);
+  const yl=E('text',{class:'axlabel',x:-(pad.t+ph/2),y:12,'text-anchor':'middle',transform:'rotate(-90)'});yl.textContent='momentum →';svg.appendChild(yl);
+  sectors.forEach((it,i)=>{const cx=X(it.val),cy=Y(it.mom);
+    const col=it.mom>=70&&it.val<=60?C.pos:it.mom>=70?C.amber:C.faint;
+    const c=E('circle',{cx,cy,r:0,fill:col,'fill-opacity':.85,style:'cursor:pointer;transition:r .45s cubic-bezier(.34,1.4,.6,1)'});
+    svg.appendChild(c);setTimeout(()=>c.setAttribute('r',5.5),50+i*45);
+    const lb=E('text',{x:cx+8,y:cy+3,style:`font-family:'Inter';font-size:9.5px;fill:${C.muted}`});lb.textContent=it.name;svg.appendChild(lb);
+    c.addEventListener('mouseenter',ev=>{c.setAttribute('r',8);showTip(`<div class="tt-title">${it.name}</div>
+      <div class="tt-row">Momentum<span class="tt-val">${it.mom}</span></div><div class="tt-row">Valuation pct<span class="tt-val">${it.val}</span></div>
+      <div class="tt-row">1M return<span class="tt-val" style="color:${it.ret>=0?C.pos:C.neg}">${sgn(it.ret)}%</span></div>`,ev.clientX,ev.clientY);});
+    c.addEventListener('mouseleave',()=>{c.setAttribute('r',5.5);hideTip();});});
+  const sweet=sectors.filter(s=>s.mom>=70&&s.val<=60).map(s=>s.name);
+  $('#sectInsight').innerHTML=`<b>Read this as:</b> the shaded corner is where you want to be — the market already agrees with you (high momentum) but hasn't fully paid up yet (reasonable valuation). Today that's <b>${sweet.join(', ')}</b>. Anything top-right has both the story <i>and</i> the price — the easy money there is already made.`;
+}
+let sK='ret',sD=-1;
+function renderSectTable(){
+  const rows=[...sectors].sort((a,b)=>sK==='name'?sD*a.name.localeCompare(b.name):sD*(a[sK]-b[sK]));
+  $('#sectTable tbody').innerHTML=rows.map(s=>`<tr><td>${s.name}</td>
+    <td class="num ${s.ret>=0?'pos':'neg'}">${sgn(s.ret)}%</td>
+    <td class="num"><span>${s.mom}</span> <span class="bar-cell"><i style="width:${s.mom}%;background:${s.mom>=70?C.pos:C.amber}"></i></span></td>
+    <td class="num">${s.val}</td></tr>`).join('');
+}
+
+/* ── flows ── */
+const flows={labels:mlabels(12),fii:[-3.2,-5.1,2.4,-1.8,4.6,6.2,-2.1,3.8,5.4,7.1,8.9,8.4],dii:[6.4,7.8,5.2,8.1,6.9,5.4,9.2,7.6,6.1,5.8,6.4,7.2]};
+function renderFlows(){
+  const W=780,H=280,pad={t:16,r:44,b:38,l:40},pw=W-pad.l-pad.r,ph=H-pad.t-pad.b;
+  const bv=[...flows.fii,...flows.dii],bmin=Math.min(0,...bv),bmax=Math.max(0,...bv);
+  const by=v=>pad.t+(1-(v-bmin)/(bmax-bmin))*ph, zero=by(0);
+  let c=0;const cum=flows.fii.map((v,i)=>{c+=v+flows.dii[i];return c;});
+  const lmin=Math.min(...cum),lmax=Math.max(...cum),ly=v=>pad.t+(1-(v-lmin)/(lmax-lmin))*ph;
+  const svg=frame($('#flowsChart'),W,H); grid(svg,pad,W,H,bmin,bmax,v=>v.toFixed(0));
+  const gw=pw/flows.labels.length,bw=Math.min(15,gw*.3);
+  flows.labels.forEach((lab,i)=>{const gx=pad.l+i*gw+gw/2;
+    [{c:C.blue,v:flows.fii[i]},{c:C.amber,v:flows.dii[i]}].forEach((s,si)=>{
+      const bx=gx+(si===0?-bw-1:1),yv=s.v>=0?by(s.v):zero,bh=Math.abs(by(s.v)-zero);
+      const r=E('rect',{x:bx,y:zero,width:bw,height:0,rx:2,fill:s.c,opacity:.9,style:'cursor:pointer;transition:height .6s cubic-bezier(.22,1,.36,1),y .6s cubic-bezier(.22,1,.36,1)'});
+      svg.appendChild(r);setTimeout(()=>{r.setAttribute('y',yv);r.setAttribute('height',Math.max(1,bh));},50+i*22);
+      r.addEventListener('mouseenter',ev=>showTip(`<div class="tt-title">${lab}</div>
+        <div class="tt-row"><span class="tt-dot" style="background:${C.blue}"></span>FII<span class="tt-val">${sgn(flows.fii[i])}k Cr</span></div>
+        <div class="tt-row"><span class="tt-dot" style="background:${C.amber}"></span>DII<span class="tt-val">${sgn(flows.dii[i])}k Cr</span></div>
+        <div class="tt-row"><span class="tt-dot" style="background:${C.teal};border-radius:50%"></span>Cumulative<span class="tt-val" style="color:${C.teal}">${cum[i].toFixed(1)}k Cr</span></div>`,ev.clientX,ev.clientY));
+      r.addEventListener('mouseleave',hideTip);});
+    const t=E('text',{class:'axis',x:gx,y:H-22,'text-anchor':'middle'});t.textContent=lab.split(' ')[0];svg.appendChild(t);});
+  svg.appendChild(E('line',{x1:pad.l,y1:zero,x2:W-pad.r,y2:zero,stroke:C.muted,opacity:.5}));
+  let d='';cum.forEach((v,i)=>{const gx=pad.l+i*gw+gw/2;d+=(i?'L':'M')+gx.toFixed(1)+' '+ly(v).toFixed(1)+' ';});
+  const p=E('path',{d,fill:'none',stroke:C.teal,'stroke-width':2.4});svg.appendChild(p);drawOn(p);
+  cum.forEach((v,i)=>{const gx=pad.l+i*gw+gw/2;svg.appendChild(E('circle',{cx:gx,cy:ly(v),r:2.6,fill:C.teal}));});
+  const dT=flows.dii.reduce((a,b)=>a+b,0),fT=flows.fii.reduce((a,b)=>a+b,0);
+  $('#flowInsight').innerHTML=`<b>Read this as:</b> foreign money is the volatile line — negative in ${flows.fii.filter(v=>v<0).length} of 12 months. Domestic money (<b>₹${dT.toFixed(0)}k Cr</b> against FII's <b>₹${fT.toFixed(0)}k Cr</b>) bought in every single month. <b>That steady domestic bid is why Indian dips have been shallower than they used to be</b> — it's structural, not sentiment.`;
+}
+
+/* ── KPIs + live FX ── */
+function sparkline(mount,vals,color){
+  const W=200,H=30,p=2,min=Math.min(...vals),max=Math.max(...vals),rng=(max-min)||1;
+  const x=i=>p+i*(W-2*p)/(vals.length-1),y=v=>p+(1-(v-min)/rng)*(H-2*p);
+  const svg=E('svg',{viewBox:`0 0 ${W} ${H}`,width:'100%',style:'display:block;height:auto',preserveAspectRatio:'none'});
+  let d='';vals.forEach((v,i)=>d+=(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' ');
+  const g='s'+Math.random().toString(36).slice(2,7);
+  svg.innerHTML=`<defs><linearGradient id="${g}" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="${color}" stop-opacity=".3"/><stop offset="100%" stop-color="${color}" stop-opacity="0"/></linearGradient></defs><path d="${d}L ${x(vals.length-1)} ${H} L ${x(0)} ${H} Z" fill="url(#${g})"/><path d="${d}" fill="none" stroke="${color}" stroke-width="1.6" vector-effect="non-scaling-stroke"/>`;
+  mount.innerHTML='';mount.appendChild(svg);
+}
+function countUp(el,target,fmt){const dur=800,t0=performance.now();(function s(t){const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,3);el.textContent=fmt(target*e);if(p<1)requestAnimationFrame(s);})(performance.now());}
+const kpis=[
+  {name:'Nifty 50',num:25940,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+1.8%',dir:'up',spark:curve(ASSETS[0].r).slice(-14),asof:'sample · 01 Aug 26'},
+  {name:'Midcap',num:61240,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+2.4%',dir:'up',spark:curve(ASSETS[1].r).slice(-14),asof:'sample · 01 Aug 26'},
+  {name:'10Y G-Sec',num:6.35,fmt:v=>v.toFixed(2)+'%',chg:'-18bps',dir:'down',spark:curve(ASSETS[4].r).slice(-14).map(v=>-v),asof:'sample · 01 Aug 26'},
+  {name:'USD / INR',num:87.20,fmt:v=>v.toFixed(2),chg:'—',dir:'up',spark:[86.9,87,87.1,87.05,87.2],asof:'sample'},
+  {name:'Gold 10g',num:102300,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+3.2%',dir:'up',spark:curve(ASSETS[3].r).slice(-14),asof:'sample · 01 Aug 26'},
+  {name:'India VIX',num:12.6,fmt:v=>v.toFixed(1),chg:'-6.4%',dir:'down',spark:[15.8,14.9,15.4,13.8,13.1,12.9,12.6],asof:'sample · 01 Aug 26'},
+  {name:'Bank Nifty',num:58420,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+2.1%',dir:'up',spark:curve(ASSETS[0].r).slice(-14),asof:'sample · 01 Aug 26'},
+  {name:'FII MTD',num:8400,fmt:v=>'+'+Math.round(v).toLocaleString('en-IN'),chg:'3rd mo',dir:'up',spark:flows.fii,asof:'sample · 01 Aug 26'},
+];
+const kg=$('#kpiGrid');
+kpis.forEach(k=>{const d=document.createElement('div');d.className='kpi';d.dataset.name=k.name;
+  d.innerHTML=`<div class="kpi-top"><span class="kpi-name">${k.name}</span><span class="kpi-chg ${k.dir}">${k.chg}</span></div>
+    <div class="kpi-val">0</div><div class="kpi-asof">${k.asof}</div><div class="kpi-spark"></div>`;
+  kg.appendChild(d);sparkline(d.querySelector('.kpi-spark'),k.spark,k.dir==='up'?C.pos:C.neg);countUp(d.querySelector('.kpi-val'),k.num,k.fmt);});
+
+(async function liveFX(){
+  const card=document.querySelector('.kpi[data-name="USD / INR"]');if(!card)return;
+  const nameEl=card.querySelector('.kpi-name'),valEl=card.querySelector('.kpi-val'),chg=card.querySelector('.kpi-chg'),asof=card.querySelector('.kpi-asof');
+  const jget=u=>fetch(u,{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.json();});
+  async function cur(){
+    try{const d=await jget('https://open.er-api.com/v6/latest/USD');if(d&&d.rates&&d.rates.INR)return{rate:d.rates.INR,date:(d.time_last_update_utc||'').slice(5,16),src:'exchangerate-api'};}catch(e){}
+    try{const d=await jget('https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json');if(d&&d.usd&&d.usd.inr)return{rate:d.usd.inr,date:d.date,src:'currency-api'};}catch(e){}
+    for(const h of ['https://api.frankfurter.dev/v1','https://api.frankfurter.app']){
+      try{const d=await jget(h+'/latest?base=USD&symbols=INR');if(d&&d.rates&&d.rates.INR)return{rate:d.rates.INR,date:d.date,src:'ECB'};}catch(e){}}
+    return null;}
+  async function ser(){const e2=new Date().toISOString().slice(0,10),s2=new Date(Date.now()-364*864e5).toISOString().slice(0,10);
+    for(const h of ['https://api.frankfurter.dev/v1','https://api.frankfurter.app']){
+      try{const d=await jget(`${h}/${s2}..${e2}?base=USD&symbols=INR`);if(d&&d.rates){const ds=Object.keys(d.rates).sort(),v=ds.map(x=>d.rates[x].INR);if(v.length>2)return v;}}catch(e){}}
+    return null;}
+  const c0=await cur();
+  if(!c0){nameEl.innerHTML='USD / INR <span class="prov" style="margin-left:5px">sample</span>';asof.textContent='live feed unreachable';return;}
+  countUp(valEl,c0.rate,v=>v.toFixed(2));asof.textContent=`as of ${c0.date} · ${c0.src}`;
+  nameEl.innerHTML='USD / INR <span class="prov live" style="margin-left:5px">● live</span>';
+  const v=await ser();
+  if(v){const p=(c0.rate-v[0])/v[0]*100,up=p>=0;chg.className='kpi-chg '+(up?'up':'down');chg.textContent=sgn(p)+'% 1Y';
+    const st=Math.max(1,Math.floor(v.length/40));sparkline(card.querySelector('.kpi-spark'),v.filter((_,i)=>i%st===0).concat(c0.rate),up?C.pos:C.neg);}
+})();
+
+/* ── boot ── */
+function renderAll(){recompute();buildCloud();renderGrowth();renderStats();renderScatter();renderCorr();renderFrontier();updateLab();}
+renderSliders();renderQuad();renderSectTable();renderFlows();renderAll();
+$('#statTable').querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sortK===k)sortD=-sortD;else sortD=(k==='name')?1:-1;sortK=k;renderStats();});
+$('#sectTable').querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(sK===k)sD=-sD;else sD=(k==='name')?1:-1;sK=k;renderSectTable();});
+$('#tfToggle').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  document.querySelectorAll('#tfToggle button').forEach(x=>x.classList.remove('active'));b.classList.add('active');WIN=+b.dataset.tf;renderAll();});
+const io=new IntersectionObserver(es=>es.forEach(en=>{if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}}),{threshold:.06});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+const sl=[...document.querySelectorAll('.side-link')];
+sl.forEach(l=>l.addEventListener('click',()=>{const t=document.getElementById(l.dataset.target);if(t)t.scrollIntoView();}));
+const secs=sl.map(l=>document.getElementById(l.dataset.target));
+const spy=()=>{const y=scrollY+130;let a=secs[0];secs.forEach(s=>{if(s&&s.offsetTop<=y)a=s;});sl.forEach(l=>l.classList.toggle('active',l.dataset.target===(a?a.id:'')));};
+addEventListener('scroll',spy,{passive:true});spy();
+let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(renderAll,220);});
+
+/* ═══════════════ LIVE DATA ENHANCEMENT ═══════════════
+   If data/latest.json exists, anchor the engine to the REAL market:
+   use live Nifty monthly returns as the shared market factor so growth,
+   drawdown, correlation and the frontier reflect what actually happened.
+   Assets we have no live feed for keep their modelled dispersion around
+   that real factor — the whole core stays internally consistent.
+   If there's no feed, everything below is skipped and the modelled core
+   (already rendered) stands. Nothing can break. */
+(async function goLive(){
+  const d = await InvMax.load();
+  if(!d) return;                                   // no feed → keep modelled
+  const stamp = InvMax.asOf(d);
+
+  // today's written view, same text the home page shows
+  const narr=InvMax.narrative(d);
+  if(narr){
+    const badge=InvMax.narrativeBadge(narr);
+    const host=document.querySelector('#pulse');
+    if(host){
+      const box=document.createElement('div');
+      box.className='verdict';
+      if(badge.cls==='warn') box.style.borderLeftColor='var(--amber)';
+      box.innerHTML=`<div class="verdict-k">Today's read · ${badge.text}</div>`+
+                    `<div class="verdict-s" style="margin-top:4px">${narr.regime_read}</div>`;
+      host.insertBefore(box, host.firstChild);
+    }
+  }
+
+  // 1) anchor the analytics engine to the live market factor
+  const idx = InvMax.block(d,'indices');
+  let anchored=false;
+  if(idx){
+    const liveNifty = idx.data.nifty50 && InvMax.monthlyReturns(idx.data.nifty50.monthly);
+    if(liveNifty && liveNifty.length>=24){
+      const N = Math.min(60, liveNifty.length);
+      const factor = liveNifty.slice(-N);          // real market factor
+      const fMean = factor.reduce((a,b)=>a+b,0)/N;
+      // rebuild every asset on the SAME real time axis (equal length → consistent stats)
+      ASSETS.forEach(a=>{
+        const mM=a.mu/12;
+        if(a.key==='nifty'){ a.r=[...factor]; a.live=true; return; }
+        const sM=a.sd/Math.sqrt(12);
+        const idio=Math.sqrt(Math.max(1e-6,sM*sM-a.beta*a.beta*MKT*MKT));
+        a.r=[]; for(let t=0;t<N;t++) a.r.push(mM + a.beta*(factor[t]-fMean) + norm()*idio);
+        a.live=false;
+      });
+      anchored=true;
+    }
+  }
+  if(anchored){
+    // update the strap-line + a page-level provenance
+    const sub=document.querySelector('.topbar .sub');
+    if(sub) sub.innerHTML=`<span class="live-dot"></span> Market factor: <span style="color:var(--pos)">live</span> · anchored to Nifty EOD · asset dispersion modelled · ${stamp||''}`;
+    document.querySelectorAll('#growth .prov, #risk .prov, #diversify .prov, #lab .prov').forEach(p=>{
+      p.textContent='live-anchored'; p.classList.add('live');
+    });
+    renderAll();
+  }
+
+  // 2) push live headline levels into the KPI tiles we actually have feeds for
+  function setKPI(name, val, fmt, asofTxt){
+    const card=document.querySelector(`.kpi[data-name="${name}"]`); if(!card)return;
+    const v=card.querySelector('.kpi-val'); if(v) countUp(v, val, fmt);
+    const a=card.querySelector('.kpi-asof'); if(a){ a.textContent=asofTxt; }
+    const nm=card.querySelector('.kpi-name');
+    if(nm && !nm.querySelector('.prov')) nm.innerHTML=`${name} <span class="prov live" style="margin-left:5px">● live</span>`;
+  }
+  // wait out the boot count-up (800ms) so the live value lands last
+  setTimeout(()=>{
+    if(!idx) return;
+    if(idx.data.nifty50) setKPI('Nifty 50', idx.data.nifty50.last, v=>Math.round(v).toLocaleString('en-IN'), 'as of '+idx.data.nifty50.last_date);
+    const fx=InvMax.block(d,'fx');
+    if(idx.data.gold_usd && fx && fx.data.rates && fx.data.rates.INR){
+      const inr10g = idx.data.gold_usd.last * fx.data.rates.INR * 0.32151;
+      setKPI('Gold 10g', inr10g, v=>Math.round(v).toLocaleString('en-IN'), 'as of '+idx.data.gold_usd.last_date);
+    }
+  }, 900);
+})();
+</script>
+</body>
+</html>

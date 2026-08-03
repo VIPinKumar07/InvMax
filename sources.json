@@ -1,0 +1,80 @@
+{
+  "_comment": "InvMax source registry. The fetcher reads this file instead of hardcoding sources. Add or remove entries here, or use the Source Manager at the bottom of the home page (which exports a replacement copy of this file).",
+  "version": 2,
+  "news": [
+    {
+      "id": "business-standard",
+      "name": "Business Standard",
+      "url": "https://www.business-standard.com/rss/markets-106.rss",
+      "enabled": true,
+      "weight": "high",
+      "note": "Verified reachable. Markets desk."
+    },
+    {
+      "id": "finshots-daily",
+      "name": "Finshots Daily",
+      "url": "https://finshots.in/rss/",
+      "enabled": true,
+      "weight": "high",
+      "note": "Daily explainers. Verified publishing daily."
+    },
+    {
+      "id": "the-core",
+      "name": "The Core",
+      "url": "https://www.thecore.in/rss.xml",
+      "enabled": true,
+      "weight": "high",
+      "note": "Analysis-led. Finance/economy desks."
+    },
+    {
+      "id": "economic-times",
+      "name": "Economic Times",
+      "url": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+      "enabled": true,
+      "weight": "medium",
+      "note": "High volume, lower signal per item."
+    },
+    {
+      "id": "mint",
+      "name": "Mint",
+      "url": "https://www.livemint.com/rss/markets",
+      "enabled": true,
+      "weight": "medium",
+      "note": ""
+    },
+    {
+      "id": "moneycontrol",
+      "name": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/rss/marketreports.xml",
+      "enabled": true,
+      "weight": "medium",
+      "note": ""
+    }
+  ],
+  "indices": [
+    { "id": "nifty50",   "name": "Nifty 50",  "symbol": "^nsei",   "enabled": true },
+    { "id": "sensex",    "name": "Sensex",    "symbol": "^bse",    "enabled": true },
+    { "id": "sp500",     "name": "S&P 500",   "symbol": "^spx",    "enabled": true },
+    { "id": "gold_usd",  "name": "Gold (USD)","symbol": "xauusd",  "enabled": true }
+  ],
+  "funds": [
+    { "id": "119551", "name": "Flexicap (sample)",              "enabled": true },
+    { "id": "120503", "name": "Large Cap (sample)",             "enabled": true },
+    { "id": "118989", "name": "Mid Cap (sample)",               "enabled": true },
+    { "id": "119063", "name": "Debt / Short Duration (sample)", "enabled": true }
+  ],
+  "macro": [
+    { "id": "cpi_inflation_yoy", "name": "CPI inflation (YoY)", "series": "WB/WDI/FP.CPI.TOTL.ZG-IN",   "enabled": true },
+    { "id": "gdp_growth",        "name": "GDP growth",          "series": "WB/WDI/NY.GDP.MKTP.KD.ZG-IN","enabled": true },
+    { "id": "fx_reserves_usd",   "name": "FX reserves (USD)",   "series": "WB/WDI/FI.RES.TOTL.CD-IN",   "enabled": true }
+  ],
+  "flows": [
+    {
+      "id": "nse_fii_dii",
+      "name": "NSE FII/DII cash-market flows",
+      "url": "https://www.nseindia.com/api/fiidiiTradeReact",
+      "enabled": true,
+      "note": "Official primary source. Often blocks automated access; fetcher degrades gracefully."
+    }
+  ]
+}
