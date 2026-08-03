@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04 03:48 IST",
-  "generated_utc": "2026-08-03T22:18:50+00:00",
+  "generated_at": "2026-08-04 04:14 IST",
+  "generated_utc": "2026-08-03T22:44:43+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -34,7 +34,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-04 03:48 IST",
+      "asof": "2026-08-04 04:14 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1074,7 +1074,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-04 03:49 IST",
+      "asof": "2026-08-04 04:15 IST",
       "status": "ok",
       "data": [
         {
@@ -1201,16 +1201,16 @@
     },
     "macro": {
       "asof": "2026-08-04 03:49 IST",
-      "status": "unavailable",
+      "status": "stale",
       "data": null
     },
     "indices": {
       "asof": "2026-08-04 03:49 IST",
-      "status": "unavailable",
+      "status": "stale",
       "data": null
     },
     "flows": {
-      "asof": "2026-08-04 03:49 IST",
+      "asof": "2026-08-04 04:15 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1228,7 +1228,7 @@
       }
     },
     "news": {
-      "asof": "2026-08-04 03:49 IST",
+      "asof": "2026-08-04 04:15 IST",
       "status": "ok",
       "data": [
         {
@@ -1370,13 +1370,15 @@
       },
       "research_note": "Written view unavailable this run. The underlying data is current.",
       "confidence": "low",
-      "status": "fallback",
+      "status": "stale",
       "generated_at": "2026-08-04 03:49 IST",
-      "model": "template"
+      "model": "template",
+      "stale_since": "2026-08-04 03:49 IST",
+      "checked_at": "2026-08-04 04:15 IST"
     }
   },
   "key_figures": {
-    "date": "2026-08-04 03:49 IST",
+    "date": "2026-08-04 04:15 IST",
     "usdinr": {
       "last": 95.34,
       "date": "2026-08-03"
@@ -1405,15 +1407,25 @@
     ]
   },
   "changes": {
-    "material": [
+    "material": [],
+    "all": [
       {
-        "kind": "init",
-        "label": "First data run",
-        "detail": "Baseline captured; changes tracked from tomorrow."
+        "kind": "fx",
+        "label": "USD/INR",
+        "detail": "₹95.34 (+0.00%)"
+      },
+      {
+        "kind": "flow",
+        "label": "DII flows",
+        "detail": "₹1,571 Cr"
+      },
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹922 Cr"
       }
     ],
-    "all": [],
-    "since": null
+    "since": "2026-08-04 03:49 IST"
   },
   "summary": {
     "ok": [
