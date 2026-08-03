@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-02 19:28 IST",
-  "generated_utc": "2026-08-02T13:58:44+00:00",
+  "generated_at": "2026-08-03 10:31 IST",
+  "generated_utc": "2026-08-03T05:01:45+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "blocks": {
     "fx": {
-      "asof": "2026-08-02 19:28 IST",
+      "asof": "2026-08-03 10:32 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1040,7 +1040,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-02 19:28 IST",
+      "asof": "2026-08-03 10:32 IST",
       "status": "ok",
       "data": [
         {
@@ -1167,89 +1167,89 @@
     },
     "macro": {
       "asof": "2026-08-02 19:29 IST",
-      "status": "unavailable",
+      "status": "stale",
       "data": null
     },
     "indices": {
       "asof": "2026-08-02 19:29 IST",
-      "status": "unavailable",
+      "status": "stale",
       "data": null
     },
     "news": {
-      "asof": "2026-08-02 19:29 IST",
+      "asof": "2026-08-03 10:33 IST",
       "status": "ok",
       "data": [
         {
           "source": "Economic Times",
-          "title": "Bill Miller's investing strategy: How the legendary fund manager outperformed the market for 15 straight years",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bill-millers-investing-strategy-how-the-legendary-fund-manager-outperformed-the-market-for-15-straight-years/articleshow/132803593.cms",
-          "published": "Sun, 02 Aug 2026 13:56:48 +0530"
+          "title": "HFCL shares rebound 5% on Rs 523 crore order win. Still time to buy after 195% rally in 6 months?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hfcl-shares-rebound-5-on-rs-523-crore-order-win-still-time-to-buy-after-195-rally-in-6-months/articleshow/132819248.cms",
+          "published": "Mon, 03 Aug 2026 10:18:13 +0530"
         },
         {
           "source": "Economic Times",
-          "title": "Utkarsh Small Finance Bank posts Rs 34 crore Q1 loss; asset quality stress persists",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/utkarsh-small-finance-bank-posts-rs-34-crore-q1-loss-asset-quality-stress-persists/articleshow/132803463.cms",
-          "published": "Sun, 02 Aug 2026 13:49:38 +0530"
+          "title": "Global Market: China's central bank vows timely policy adjustments, backs panda bond market",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-chinas-central-bank-vows-timely-policy-adjustments-backs-panda-bond-market/articleshow/132819048.cms",
+          "published": "Mon, 03 Aug 2026 10:08:04 +0530"
         },
         {
           "source": "Economic Times",
-          "title": "Muthoot Finance reports 25% rise in Q1 profit, announces leadership transition",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/muthoot-finance-reports-25-rise-in-q1-profit-announces-leadership-transition/articleshow/132803408.cms",
-          "published": "Sun, 02 Aug 2026 13:36:08 +0530"
+          "title": "Maruti Suzuki shares decline over 2% after Q1. Morgan Stanley, Motilal Oswal decode the road ahead",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/maruti-suzuki-shares-decline-over-2-after-q1-morgan-stanley-motilal-oswal-decode-the-road-ahead/articleshow/132818801.cms",
+          "published": "Mon, 03 Aug 2026 09:57:03 +0530"
         },
         {
           "source": "Economic Times",
-          "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/132802820.cms",
-          "published": "Sun, 02 Aug 2026 13:11:15 +0530"
+          "title": "Global Market: Japan, US confirm coordinated yen intervention to stem currency slide",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-us-confirm-coordinated-yen-intervention-to-stem-currency-slide/articleshow/132818469.cms",
+          "published": "Mon, 03 Aug 2026 09:47:56 +0530"
         },
         {
           "source": "Economic Times",
-          "title": "Real estate firm Assetz files IPO papers with Sebi via confidential route; plans Rs 1,200 cr issue",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/real-estate-firm-assetz-files-ipo-papers-with-sebi-via-confidential-route-plans-rs-1200-cr-issue/articleshow/132802599.cms",
-          "published": "Sun, 02 Aug 2026 12:57:49 +0530"
+          "title": "Why is market rising today? Sensex surges 600 points, Nifty above 24,550. 6 key factors fueling the rally",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-surges-500-points-nifty-above-24500-6-key-factors-fueling-the-rally/articleshow/132818002.cms",
+          "published": "Mon, 03 Aug 2026 09:38:22 +0530"
         },
         {
           "source": "Economic Times",
-          "title": "AI isn’t a catch-all trade for stocks in this earnings season",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-isnt-a-catch-all-trade-for-stocks-in-this-earnings-season/articleshow/132801452.cms",
-          "published": "Sun, 02 Aug 2026 12:04:17 +0530"
+          "title": "US equity funds see inflows as AI optimism revives demand for tech stocks",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-equity-funds-see-inflows-as-ai-optimism-revives-demand-for-tech-stocks/articleshow/132818268.cms",
+          "published": "Mon, 03 Aug 2026 09:37:15 +0530"
         },
         {
           "source": "Mint",
-          "title": "Yen Traders Brace for More Intervention With US at Japan’s Side",
-          "url": "https://www.livemint.com/market/yen-traders-brace-for-more-intervention-with-us-at-japan-s-side-11785677113094.html",
-          "published": "Sun, 02 Aug 2026 18:55:12 +0530"
+          "title": "Juniper Green Energy IPO Day 3: Issue subscribed 48% so far. Check GMP, key dates. Should you apply or not?",
+          "url": "https://www.livemint.com/market/ipo/juniper-green-energy-ipo-gmp-juniper-green-energy-ipo-date-juniper-green-energy-ipo-review-juniper-green-energy-ipo-11785731945387.html",
+          "published": "Mon, 03 Aug 2026 10:30:10 +0530"
         },
         {
           "source": "Mint",
-          "title": "Wall Street’s Favorite Bet Comes Undone as Chips Whipsaw Market",
-          "url": "https://www.livemint.com/market/wall-street-s-favorite-bet-comes-undone-as-chips-whipsaw-market-11785676685906.html",
-          "published": "Sun, 02 Aug 2026 18:48:05 +0530"
+          "title": "ITC share price rallies 4% despite a drop in Q1 profit. Should you buy, sell FMCG stock after Q1 results 2026?",
+          "url": "https://www.livemint.com/market/stock-market-news/itc-share-price-rallies-4-despite-a-drop-in-q1-profit-should-you-buy-sell-fmcg-stock-after-q1-results-2026-11785732198236.html",
+          "published": "Mon, 03 Aug 2026 10:25:44 +0530"
         },
         {
           "source": "Mint",
-          "title": "Banks Offload Risk from Leveraged ETFs With Exotic ‘Crash Puts’",
-          "url": "https://www.livemint.com/market/banks-offload-risk-from-leveraged-etfs-with-exotic-crash-puts-11785669635507.html",
-          "published": "Sun, 02 Aug 2026 16:50:34 +0530"
+          "title": "Advance Technoforge IPO listing: SME stock makes muted debut, hits lower circuit; details here",
+          "url": "https://www.livemint.com/market/ipo/advance-technoforge-ipo-listing-sme-stock-makes-muted-debut-extends-losses-details-here-11785731311254.html",
+          "published": "Mon, 03 Aug 2026 10:04:06 +0530"
         },
         {
           "source": "Mint",
-          "title": "Are the building blocks of market recovery falling into place? Expert weighs in",
-          "url": "https://www.livemint.com/market/stock-market-news/are-the-building-blocks-of-market-recovery-falling-into-place-expert-weighs-in-11785660478450.html",
-          "published": "Sun, 02 Aug 2026 14:27:44 +0530"
+          "title": "Propshop Events and Exhibitions IPO listing: Shares make muted debut, lists at 20% discount",
+          "url": "https://www.livemint.com/market/stock-market-news/propshop-events-and-exhibitions-ipo-listing-shares-make-muted-debut-lists-at-20-discount-11785729801329.html",
+          "published": "Mon, 03 Aug 2026 10:00:13 +0530"
         },
         {
           "source": "Mint",
-          "title": "OPEC Agrees in Principle to Small Quota Hike, Delegates Say",
-          "url": "https://www.livemint.com/market/opec-agrees-in-principle-to-small-quota-hike-delegates-say-11785661008804.html",
-          "published": "Sun, 02 Aug 2026 14:26:48 +0530"
+          "title": "Healthcare stock Park Medi World inches close to record high after the Q1 results 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-healthcare-stock-park-medi-world-inches-close-to-record-high-ahead-of-the-q1-results-2026-11785730470967.html",
+          "published": "Mon, 03 Aug 2026 09:55:24 +0530"
         },
         {
           "source": "Mint",
-          "title": "Mcap of top-10 most valued firms surges ₹2.51 lakh crore; Bajaj Finance biggest winner",
-          "url": "https://www.livemint.com/market/stock-market-news/mcap-of-top-10-most-valued-firms-surges-2-51-lakh-crore-bajaj-finance-biggest-winner-11785658763828.html",
-          "published": "Sun, 02 Aug 2026 14:03:16 +0530"
+          "title": "MV Electrosystems IPO Day 3 LIVE: GMP jumps following strong subscription status. Apply or not?",
+          "url": "https://www.livemint.com/market/ipo/mv-electrosystems-ipo-gmp-today-jumps-on-strong-subscription-status-review-apply-or-not-11785727200316.html",
+          "published": "Mon, 03 Aug 2026 09:24:16 +0530"
         },
         {
           "source": "Moneycontrol",
