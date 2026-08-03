@@ -1,30 +1,19 @@
-# InvMax — daily data refresh (self-diagnosing version)
-# ---------------------------------------------------------------
-# Put this file at:  .github/workflows/update-data.yml
-#
-# Runs once a day, fetches fresh public data, commits data/latest.json.
-# This version FINDS the fetcher wherever you put it and prints clear
-# messages, so you never get a cryptic "exit code 2" again.
-#
-# Cost: free for public repositories. Manual "Run workflow" button included.
-
 name: Update InvMax data
 
 on:
   schedule:
     - cron: "30 1 * * *"      # 07:00 IST daily
-  workflow_dispatch:
+  workflow_dispatch:           # lets you run it by hand from the Actions tab
 
 permissions:
-  contents: write
+  contents: write              # needed to commit the refreshed data back
 
 jobs:
-  refresh:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
-      - name: Check out repository
+      - name: Check out the repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -37,45 +26,59 @@ jobs:
 
       - name: Show repository contents (diagnostic)
         run: |
-          echo "Files in the repo:"
-          find . -type f -not -path './.git/*' | sort
+          echo "--- files in repo ---"
+          find . -maxdepth 3 -not -path './.git/*' -type f | sort
 
+      # ── Step 1: the numbers ─────────────────────────────────
       - name: Locate and run the fetcher
         run: |
-          set -e
-          # Find fetch_data.py wherever it landed (root, scripts/, anywhere).
-          SCRIPT="$(find . -name 'fetch_data.py' -not -path './.git/*' | head -1)"
-          if [ -z "$SCRIPT" ]; then
+          FETCHER="$(find . -name 'fetch_data.py' -not -path './.git/*' | head -n 1)"
+          if [ -z "$FETCHER" ]; then
             echo "::error::Could not find fetch_data.py anywhere in the repo."
-            echo "Fix: add the file so its path is exactly  scripts/fetch_data.py"
-            echo "Make sure the name has an underscore and NO space: fetch_data.py"
+            echo "Check the filename — it must be fetch_data.py (underscore, no space)."
             exit 1
           fi
-          echo "Found fetcher at: $SCRIPT"
-          python "$SCRIPT"
+          echo "Found fetcher at: $FETCHER"
+          cd "$(dirname "$FETCHER")"
+          python "$(basename "$FETCHER")"
 
-      - name: Show what was fetched
-        if: always()
+      # ── Step 2: the words ───────────────────────────────────
+      # Writes the regime read, Hot notes and research note from the day's
+      # numbers. If ANTHROPIC_API_KEY is missing or the call fails, the script
+      # keeps yesterday's view (marked stale) or falls back to a plain
+      # figures-only summary. It never fails the build.
+      - name: Generate the written view
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          INVMAX_MODEL: claude-sonnet-5
         run: |
-          if [ -f data/latest.json ]; then
-            python -c "import json;d=json.load(open('data/latest.json'));print('generated:',d['generated_at']);print('ok:',d['summary']['ok']);print('failed/stale:',d['summary']['failed'])"
-          else
-            echo "data/latest.json was not created — see the fetcher step above."
-          fi
-
-      - name: Commit updated data
-        if: always()
-        run: |
-          if [ ! -f data/latest.json ]; then
-            echo "Nothing to commit (no data file produced)."
+          SYNTH="$(find . -name 'synthesize.py' -not -path './.git/*' | head -n 1)"
+          if [ -z "$SYNTH" ]; then
+            echo "::warning::synthesize.py not found — skipping narrative step."
             exit 0
           fi
+          echo "Found synthesizer at: $SYNTH"
+          cd "$(dirname "$SYNTH")"
+          python "$(basename "$SYNTH")" || echo "::warning::Narrative step reported a problem; data is still valid."
+
+      - name: Confirm the data file exists
+        run: |
+          DATA="$(find . -path '*data/latest.json' -not -path './.git/*' | head -n 1)"
+          if [ -z "$DATA" ]; then
+            echo "::error::data/latest.json was not produced."
+            exit 1
+          fi
+          echo "Data file: $DATA"
+          head -c 400 "$DATA"; echo
+
+      - name: Commit the refreshed data
+        run: |
           git config user.name  "invmax-bot"
           git config user.email "actions@github.com"
-          git add data/latest.json
+          git add -A -- '*data/latest.json' '*data/history.json' || true
           if git diff --staged --quiet; then
-            echo "No change in data — nothing to commit."
+            echo "No changes to commit."
           else
-            git commit -m "data: daily refresh $(date -u +'%Y-%m-%d')"
+            git commit -m "Daily data refresh $(date -u +'%Y-%m-%d')"
             git push
           fi
