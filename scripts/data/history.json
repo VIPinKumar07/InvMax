@@ -27,5 +27,34 @@
    "Ahead of Market: 10 things that will decide stock market action on Tuesday",
    "LIC OFS opens on August 4 as govt looks to sell up to 6.5% stake. Check details"
   ]
+ },
+ {
+  "date": "2026-08-04 03:37 IST",
+  "usdinr": {
+   "last": 95.34,
+   "date": "2026-08-03"
+  },
+  "dii_net": {
+   "net": 1571.18,
+   "date": "03-Aug-2026"
+  },
+  "fii_net": {
+   "net": 922.26,
+   "date": "03-Aug-2026"
+  },
+  "headlines": [
+   "How the West Asia crisis is rattling India's real estate sector",
+   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
+   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
+   "Can Coforge build an AI giant through acquisitions?",
+   "Air India's hard luck",
+   "The Manipal Health IPO Explained",
+   "US stocks: Dow closes at record high on Iran talks optimism",
+   "Yen holds gains after Japan, US confirm joint intervention, signal more action",
+   "Muthoot Microfin case: Sebi exempts six family trusts from open offer obligation",
+   "Kansai Nerolac Q1 profit rises 5%; approves Rs 601 crore capacity expansion",
+   "Ahead of Market: 10 things that will decide stock market action on Tuesday",
+   "LIC OFS opens on August 4 as govt looks to sell up to 6.5% stake. Check details"
+  ]
  }
 ]
