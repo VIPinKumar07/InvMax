@@ -35,8 +35,9 @@ Failure handling (never silent, never blank)
   shows a matching badge.
 
 Env:
-  GEMINI_API_KEY      required for live generation (free tier: ai.google.dev)
-  INVMAX_MODEL        optional, defaults below
+  GROQ_API_KEY        primary — free tier at groq.com (Llama 3.3 70B)
+  GITHUB_TOKEN        fallback — auto-available in GitHub Actions (GitHub Models)
+  INVMAX_MODEL        optional, overrides the default model for the primary provider
 """
 
 import json
@@ -49,7 +50,6 @@ IST = timezone(timedelta(hours=5, minutes=30))
 OUT_DIR = os.environ.get("INVMAX_OUT", "data")
 OUT_FILE = os.path.join(OUT_DIR, "latest.json")
 HIST_FILE = os.path.join(OUT_DIR, "history.json")
-MODEL = os.environ.get("INVMAX_MODEL", "gemini-2.0-flash")
 MAX_TOKENS = 1600
 
 log = lambda *a: print("[narrative]", *a, flush=True)
@@ -179,52 +179,88 @@ def build_user_prompt(latest, history, prev_narr):
 # ─────────────────────────────────────────────────────────────
 # Model call
 # ─────────────────────────────────────────────────────────────
-def call_model(system, user, attempt=1):
-    key = os.environ.get("GEMINI_API_KEY")
+# ─────────────────────────────────────────────────────────────
+# Model call — cascading: Groq first, GitHub Models fallback
+# Both use OpenAI-compatible chat completions, so one function
+# handles both; only the URL, key and model name change.
+# ─────────────────────────────────────────────────────────────
+PROVIDERS = [
+    {
+        "name": "Groq",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "key_env": "GROQ_API_KEY",
+        "model_env": "INVMAX_MODEL",
+        "model_default": "llama-3.3-70b-versatile",
+    },
+    {
+        "name": "GitHub Models",
+        "url": "https://models.inference.ai.azure.com/chat/completions",
+        "key_env": "GITHUB_TOKEN",
+        "model_env": None,
+        "model_default": "Meta-Llama-3.1-70B-Instruct",
+    },
+]
+
+
+def call_openai_compat(provider, system, user):
+    """Call an OpenAI-compatible chat endpoint. Returns parsed dict or None."""
+    key = os.environ.get(provider["key_env"])
     if not key:
-        log("No GEMINI_API_KEY set — skipping live generation")
-        return None
+        log(f"  {provider['name']}: no {provider['key_env']} — skipping")
+        return None, None
     try:
         import requests
     except ImportError:
         log("requests not installed")
-        return None
+        return None, None
 
-    # Gemini expects system instruction separately and user content in a
-    # single-turn messages array. The generationConfig enforces JSON output.
-    url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
-           f"{MODEL}:generateContent?key={key}")
+    model = (os.environ.get(provider.get("model_env") or "") or
+             provider["model_default"])
+
     body = {
-        "system_instruction": {"parts": [{"text": system}]},
-        "contents": [{"role": "user", "parts": [{"text": user}]}],
-        "generationConfig": {
-            "responseMimeType": "application/json",
-            "maxOutputTokens": MAX_TOKENS,
-            "temperature": 0.7,
-        },
+        "model": model,
+        "max_tokens": MAX_TOKENS,
+        "temperature": 0.7,
+        "messages": [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
     }
 
     try:
-        r = requests.post(url, json=body, headers={"content-type": "application/json"},
-                          timeout=90)
+        r = requests.post(
+            provider["url"],
+            headers={"Authorization": f"Bearer {key}",
+                     "Content-Type": "application/json"},
+            json=body,
+            timeout=90,
+        )
         if r.status_code != 200:
-            log(f"  ! Gemini HTTP {r.status_code}: {r.text[:200]}")
-            return None
+            log(f"  ! {provider['name']} HTTP {r.status_code}: {r.text[:200]}")
+            return None, model
         data = r.json()
-        # Gemini returns candidates[0].content.parts[0].text
-        parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
-        text = "".join(p.get("text", "") for p in parts).strip()
+        text = (data.get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
         text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.M).strip()
         parsed = json.loads(text)
-        log(f"  model responded (attempt {attempt}), "
+        log(f"  {provider['name']} ({model}) responded, "
             f"carry_forward={parsed.get('carry_forward')}")
-        return parsed
+        return parsed, model
     except json.JSONDecodeError:
-        log(f"  ! model returned non-JSON (attempt {attempt})")
-        return None
+        log(f"  ! {provider['name']} returned non-JSON")
+        return None, model
     except Exception as e:
-        log(f"  ! Gemini error (attempt {attempt}): {type(e).__name__}")
-        return None
+        log(f"  ! {provider['name']} error: {type(e).__name__}")
+        return None, model
+
+
+def call_model(system, user, _attempt=1):
+    """Try each provider in order. First success wins."""
+    for prov in PROVIDERS:
+        log(f"Trying {prov['name']}…")
+        result, model = call_openai_compat(prov, system, user)
+        if result is not None:
+            return result, model or prov["model_default"]
+    return None, None
 
 
 # ─────────────────────────────────────────────────────────────
@@ -284,12 +320,7 @@ def main():
 
     user = build_user_prompt(latest, history, prev_narr if prev_has_text else None)
 
-    result = call_model(SYSTEM, user, 1)
-    if result is None:
-        log("Retrying once …")
-        result = call_model(SYSTEM, user, 2)
-
-    status, model_used = "live", MODEL
+    result, model_used = call_model(SYSTEM, user)
 
     if result is None:
         if prev_has_text:
@@ -314,9 +345,9 @@ def main():
         narrative["unchanged_since"] = prev_narr.get("generated_at")
     else:
         narrative = {
-            "status": status,
+            "status": "live",
             "generated_at": now_ist(),
-            "model": model_used,
+            "model": model_used or "unknown",
             "regime_read": (result.get("regime_read") or "").strip(),
             "hot_notes": result.get("hot_notes") or {},
             "research_note": (result.get("research_note") or "").strip(),
