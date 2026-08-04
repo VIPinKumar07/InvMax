@@ -30,7 +30,11 @@ jobs:
           find . -maxdepth 3 -not -path './.git/*' -type f | sort
 
       # ── Step 1: the numbers ─────────────────────────────────
+      # INVMAX_OUT is an ABSOLUTE path to the repo-root data/ folder, so the
+      # file lands next to index.html no matter which folder the script is in.
       - name: Locate and run the fetcher
+        env:
+          INVMAX_OUT: ${{ github.workspace }}/data
         run: |
           FETCHER="$(find . -name 'fetch_data.py' -not -path './.git/*' | head -n 1)"
           if [ -z "$FETCHER" ]; then
@@ -39,18 +43,16 @@ jobs:
             exit 1
           fi
           echo "Found fetcher at: $FETCHER"
-          cd "$(dirname "$FETCHER")"
-          python "$(basename "$FETCHER")"
+          echo "Writing data to: $INVMAX_OUT"
+          python "$FETCHER"
 
       # ── Step 2: the words ───────────────────────────────────
-      # Writes the regime read, Hot notes and research note from the day's
-      # numbers. If ANTHROPIC_API_KEY is missing or the call fails, the script
-      # keeps yesterday's view (marked stale) or falls back to a plain
-      # figures-only summary. It never fails the build.
+      # Same INVMAX_OUT so the writer edits the SAME file the fetcher wrote.
       - name: Generate the written view
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          INVMAX_MODEL: claude-sonnet-5
+          INVMAX_OUT: ${{ github.workspace }}/data
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          INVMAX_MODEL: gemini-2.0-flash
         run: |
           SYNTH="$(find . -name 'synthesize.py' -not -path './.git/*' | head -n 1)"
           if [ -z "$SYNTH" ]; then
@@ -58,8 +60,7 @@ jobs:
             exit 0
           fi
           echo "Found synthesizer at: $SYNTH"
-          cd "$(dirname "$SYNTH")"
-          python "$(basename "$SYNTH")" || echo "::warning::Narrative step reported a problem; data is still valid."
+          python "$SYNTH" || echo "::warning::Narrative step reported a problem; data is still valid."
 
       - name: Confirm the data file exists
         run: |
