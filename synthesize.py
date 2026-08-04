@@ -35,7 +35,7 @@ Failure handling (never silent, never blank)
   shows a matching badge.
 
 Env:
-  ANTHROPIC_API_KEY   required for live generation
+  GEMINI_API_KEY      required for live generation (free tier: ai.google.dev)
   INVMAX_MODEL        optional, defaults below
 """
 
@@ -49,7 +49,7 @@ IST = timezone(timedelta(hours=5, minutes=30))
 OUT_DIR = os.environ.get("INVMAX_OUT", "data")
 OUT_FILE = os.path.join(OUT_DIR, "latest.json")
 HIST_FILE = os.path.join(OUT_DIR, "history.json")
-MODEL = os.environ.get("INVMAX_MODEL", "claude-sonnet-5")
+MODEL = os.environ.get("INVMAX_MODEL", "gemini-2.0-flash")
 MAX_TOKENS = 1600
 
 log = lambda *a: print("[narrative]", *a, flush=True)
@@ -180,9 +180,9 @@ def build_user_prompt(latest, history, prev_narr):
 # Model call
 # ─────────────────────────────────────────────────────────────
 def call_model(system, user, attempt=1):
-    key = os.environ.get("ANTHROPIC_API_KEY")
+    key = os.environ.get("GEMINI_API_KEY")
     if not key:
-        log("No ANTHROPIC_API_KEY set — skipping live generation")
+        log("No GEMINI_API_KEY set — skipping live generation")
         return None
     try:
         import requests
@@ -190,23 +190,30 @@ def call_model(system, user, attempt=1):
         log("requests not installed")
         return None
 
+    # Gemini expects system instruction separately and user content in a
+    # single-turn messages array. The generationConfig enforces JSON output.
+    url = (f"https://generativelanguage.googleapis.com/v1beta/models/"
+           f"{MODEL}:generateContent?key={key}")
+    body = {
+        "system_instruction": {"parts": [{"text": system}]},
+        "contents": [{"role": "user", "parts": [{"text": user}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "maxOutputTokens": MAX_TOKENS,
+            "temperature": 0.7,
+        },
+    }
+
     try:
-        r = requests.post(
-            "https://api.anthropic.com/v1/messages",
-            headers={"x-api-key": key,
-                     "anthropic-version": "2023-06-01",
-                     "content-type": "application/json"},
-            json={"model": MODEL, "max_tokens": MAX_TOKENS,
-                  "system": system,
-                  "messages": [{"role": "user", "content": user}]},
-            timeout=90,
-        )
+        r = requests.post(url, json=body, headers={"content-type": "application/json"},
+                          timeout=90)
         if r.status_code != 200:
-            log(f"  ! API HTTP {r.status_code}: {r.text[:200]}")
+            log(f"  ! Gemini HTTP {r.status_code}: {r.text[:200]}")
             return None
         data = r.json()
-        text = "".join(b.get("text", "") for b in data.get("content", [])
-                       if b.get("type") == "text").strip()
+        # Gemini returns candidates[0].content.parts[0].text
+        parts = (data.get("candidates") or [{}])[0].get("content", {}).get("parts", [])
+        text = "".join(p.get("text", "") for p in parts).strip()
         text = re.sub(r"^```(?:json)?|```$", "", text, flags=re.M).strip()
         parsed = json.loads(text)
         log(f"  model responded (attempt {attempt}), "
@@ -216,7 +223,7 @@ def call_model(system, user, attempt=1):
         log(f"  ! model returned non-JSON (attempt {attempt})")
         return None
     except Exception as e:
-        log(f"  ! API error (attempt {attempt}): {type(e).__name__}")
+        log(f"  ! Gemini error (attempt {attempt}): {type(e).__name__}")
         return None
 
 
