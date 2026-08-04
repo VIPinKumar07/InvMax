@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04 04:14 IST",
-  "generated_utc": "2026-08-03T22:44:43+00:00",
+  "generated_at": "2026-08-04 10:11 IST",
+  "generated_utc": "2026-08-04T04:41:23+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -34,7 +34,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-04 04:14 IST",
+      "asof": "2026-08-04 10:11 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -46,10 +46,6 @@
           "JPY": 156.68
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-01",
-            "v": 87.5
-          },
           {
             "date": "2025-08-04",
             "v": 87.65
@@ -1074,7 +1070,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-04 04:15 IST",
+      "asof": "2026-08-04 10:11 IST",
       "status": "ok",
       "data": [
         {
@@ -1210,7 +1206,7 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-04 04:15 IST",
+      "asof": "2026-08-04 10:12 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1228,9 +1224,16 @@
       }
     },
     "news": {
-      "asof": "2026-08-04 04:15 IST",
+      "asof": "2026-08-04 10:12 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Can India's oceans power our next economic miracle?",
+          "url": "https://finshots.in/archive/samudra-manthan-indias-oceans-power-economic-miracle/",
+          "published": "Tue, 04 Aug 2026 01:30:23 GMT"
+        },
         {
           "source": "Finshots Daily",
           "weight": "high",
@@ -1267,95 +1270,116 @@
           "published": "Thu, 30 Jul 2026 01:30:30 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The Manipal Health IPO Explained",
-          "url": "https://finshots.in/archive/manipal-health-ipo-explained/",
-          "published": "Wed, 29 Jul 2026 01:30:32 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
+          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-opens-on-flat-note-rises-3-paise-to-95-34-against-us-dollar-in-early-trade/articleshow/132846463.cms",
+          "published": "Tue, 04 Aug 2026 09:59:52 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "US stocks: Dow closes at record high on Iran talks optimism",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-high-on-iran-talks-optimism/articleshow/132841035.cms",
-          "published": "Tue, 04 Aug 2026 01:32:38 +0530"
+          "title": "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-shares-zoom-18-after-q1-results-why-is-it-nomuras-top-2-wheeler-pick/articleshow/132846384.cms",
+          "published": "Tue, 04 Aug 2026 09:59:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Yen holds gains after Japan, US confirm joint intervention, signal more action",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/yen-holds-gains-after-japan-us-confirm-joint-intervention-signal-more-action/articleshow/132839035.cms",
-          "published": "Mon, 03 Aug 2026 23:28:43 +0530"
+          "title": "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-koreas-july-inflation-cools-below-expectations-as-oil-prices-ease-rate-hike-bets-remain/articleshow/132846186.cms",
+          "published": "Tue, 04 Aug 2026 09:55:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Muthoot Microfin case: Sebi exempts six family trusts from open offer obligation",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/muthoot-microfin-case-sebi-exempts-six-family-trusts-from-open-offer-obligation/articleshow/132838278.cms",
-          "published": "Mon, 03 Aug 2026 23:06:04 +0530"
+          "title": "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/manipal-health-enterprises-ipo-listing-tomorrow-heres-what-gmp-indicates-ahead-of-market-debut/articleshow/132846312.cms",
+          "published": "Tue, 04 Aug 2026 09:54:24 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Kansai Nerolac Q1 profit rises 5%; approves Rs 601 crore capacity expansion",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/kansai-nerolac-q1-profit-rises-5-approves-rs-601-crore-capacity-expansion/articleshow/132836083.cms",
-          "published": "Mon, 03 Aug 2026 21:23:30 +0530"
+          "title": "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/dhoot-transmission-sets-ipo-price-band-at-rs-829-871-issue-to-open-on-aug-10/articleshow/132846264.cms",
+          "published": "Tue, 04 Aug 2026 09:49:10 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/132835943.cms",
-          "published": "Mon, 03 Aug 2026 21:17:49 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "LIC OFS opens on August 4 as govt looks to sell up to 6.5% stake. Check details",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/lic-ofs-opens-tomorrow-as-govt-looks-to-sell-up-to-6-5-stake-check-details/articleshow/132835659.cms",
-          "published": "Mon, 03 Aug 2026 20:56:23 +0530"
+          "title": "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/nazara-tech-q1-results-co-posts-rs-82-5-crore-loss-nitish-mittersain-steps-down-as-ceo/articleshow/132846232.cms",
+          "published": "Tue, 04 Aug 2026 09:47:08 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Citadel Securities’ Shah Says Markets Questioning Warsh’s Plans",
-          "url": "https://www.livemint.com/market/citadel-securities-shah-says-markets-questioning-warsh-s-plans-11785793560949.html",
-          "published": "Tue, 04 Aug 2026 03:16:00 +0530"
+          "title": "Poojaa Precision IPO listing: Shares list at a 56% premium to the issue price",
+          "url": "https://www.livemint.com/market/ipo/poojaa-precision-ipo-listing-shares-list-at-a-56-premium-to-the-issue-price-11785817719669.html",
+          "published": "Tue, 04 Aug 2026 10:03:24 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Yen surges to three-month peak, dollar pares losses after intervention",
-          "url": "https://www.livemint.com/market/yen-surges-to-three-month-peak-dollar-pares-losses-after-intervention-11785792603276.html",
-          "published": "Tue, 04 Aug 2026 03:00:02 +0530"
+          "title": "Oneindig Technologies IPO allotment to be finalised today: GMP, steps to check allotment status online for SME IPO",
+          "url": "https://www.livemint.com/market/ipo/oneindig-technologies-ipo-allotment-to-be-finalised-today-ipo-gmp-steps-to-check-allotment-status-online-for-sme-ipo-11785814952122.html",
+          "published": "Tue, 04 Aug 2026 09:33:39 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Yen Holds Steady in US Hours After Speculation of Intervention",
-          "url": "https://www.livemint.com/market/yen-holds-steady-in-us-hours-after-speculation-of-intervention-11785792595897.html",
-          "published": "Tue, 04 Aug 2026 02:59:55 +0530"
+          "title": "LIC OFS: Shares crash 8% as offer for sale opens for non-retail investors. Details here",
+          "url": "https://www.livemint.com/market/stock-market-news/lic-share-price-crashes-8-as-ofs-opens-for-non-retail-investors-details-here-11785815112599.html",
+          "published": "Tue, 04 Aug 2026 09:28:48 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Oil drops, stocks gain amid Iran peace hopes; yen firms as investors watch for further intervention",
-          "url": "https://www.livemint.com/market/oil-drops-stocks-gain-amid-iran-peace-hopes-yen-firms-as-investors-watch-for-further-intervention-11785792593711.html",
-          "published": "Tue, 04 Aug 2026 02:59:53 +0530"
+          "title": "Gold Holds Steady With US-Iran Standoff and Fed Outlook in Focus",
+          "url": "https://www.livemint.com/market/gold-holds-steady-with-us-iran-standoff-and-fed-outlook-in-focus-11785815223644.html",
+          "published": "Tue, 04 Aug 2026 09:17:03 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Wall Street rallies, Dow closes at record on Iran talks optimism",
-          "url": "https://www.livemint.com/market/wall-street-rallies-dow-closes-at-record-on-iran-talks-optimism-11785787392771.html",
-          "published": "Tue, 04 Aug 2026 01:33:12 +0530"
+          "title": "Gold Steady as Middle East Talks Weigh on Interest Rate Outlook",
+          "url": "https://www.livemint.com/market/gold-steady-as-middle-east-talks-weigh-on-interest-rate-outlook-11785815218115.html",
+          "published": "Tue, 04 Aug 2026 09:16:57 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "South Korea Is Becoming Uninvestable, Too",
-          "url": "https://www.livemint.com/market/south-korea-is-becoming-uninvestable-too-11785784953244.html",
-          "published": "Tue, 04 Aug 2026 00:52:32 +0530"
+          "title": "Rupee opens flat at 95.33 against US dollar",
+          "url": "https://www.livemint.com/market/stock-market-news/rupee-opens-flat-at-95-33-against-us-dollar-11785814636029.html",
+          "published": "Tue, 04 Aug 2026 09:08:55 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
         }
       ]
     },
@@ -1374,11 +1398,11 @@
       "generated_at": "2026-08-04 03:49 IST",
       "model": "template",
       "stale_since": "2026-08-04 03:49 IST",
-      "checked_at": "2026-08-04 04:15 IST"
+      "checked_at": "2026-08-04 10:12 IST"
     }
   },
   "key_figures": {
-    "date": "2026-08-04 04:15 IST",
+    "date": "2026-08-04 10:12 IST",
     "usdinr": {
       "last": 95.34,
       "date": "2026-08-03"
@@ -1392,22 +1416,28 @@
       "date": "03-Aug-2026"
     },
     "headlines": [
+      "Can India's oceans power our next economic miracle?",
       "How the West Asia crisis is rattling India's real estate sector",
       "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
       "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
       "Can Coforge build an AI giant through acquisitions?",
       "Air India's hard luck",
-      "The Manipal Health IPO Explained",
-      "US stocks: Dow closes at record high on Iran talks optimism",
-      "Yen holds gains after Japan, US confirm joint intervention, signal more action",
-      "Muthoot Microfin case: Sebi exempts six family trusts from open offer obligation",
-      "Kansai Nerolac Q1 profit rises 5%; approves Rs 601 crore capacity expansion",
-      "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-      "LIC OFS opens on August 4 as govt looks to sell up to 6.5% stake. Check details"
+      "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
+      "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
+      "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
+      "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
+      "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
+      "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO"
     ]
   },
   "changes": {
-    "material": [],
+    "material": [
+      {
+        "kind": "news",
+        "label": "New headlines",
+        "detail": "7 new"
+      }
+    ],
     "all": [
       {
         "kind": "fx",
@@ -1423,9 +1453,23 @@
         "kind": "flow",
         "label": "FII flows",
         "detail": "₹922 Cr"
+      },
+      {
+        "kind": "news",
+        "label": "New headlines",
+        "detail": "7 new"
       }
     ],
-    "since": "2026-08-04 03:49 IST"
+    "since": "2026-08-04 04:15 IST",
+    "new_headlines": [
+      "Can India's oceans power our next economic miracle?",
+      "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
+      "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
+      "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
+      "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
+      "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
+      "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO"
+    ]
   },
   "summary": {
     "ok": [

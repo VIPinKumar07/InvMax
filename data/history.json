@@ -56,5 +56,34 @@
    "Ahead of Market: 10 things that will decide stock market action on Tuesday",
    "LIC OFS opens on August 4 as govt looks to sell up to 6.5% stake. Check details"
   ]
+ },
+ {
+  "date": "2026-08-04 10:12 IST",
+  "usdinr": {
+   "last": 95.34,
+   "date": "2026-08-03"
+  },
+  "dii_net": {
+   "net": 1571.18,
+   "date": "03-Aug-2026"
+  },
+  "fii_net": {
+   "net": 922.26,
+   "date": "03-Aug-2026"
+  },
+  "headlines": [
+   "Can India's oceans power our next economic miracle?",
+   "How the West Asia crisis is rattling India's real estate sector",
+   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
+   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
+   "Can Coforge build an AI giant through acquisitions?",
+   "Air India's hard luck",
+   "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
+   "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
+   "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
+   "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
+   "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
+   "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO"
+  ]
  }
 ]
