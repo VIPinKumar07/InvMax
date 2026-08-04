@@ -48,11 +48,13 @@ jobs:
 
       # ── Step 2: the words ───────────────────────────────────
       # Same INVMAX_OUT so the writer edits the SAME file the fetcher wrote.
+      # Cascade: tries Groq first (free tier), falls back to GitHub Models
+      # (uses the auto-available GITHUB_TOKEN — no secret needed for that one).
       - name: Generate the written view
         env:
           INVMAX_OUT: ${{ github.workspace }}/data
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          INVMAX_MODEL: gemini-2.0-flash
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           SYNTH="$(find . -name 'synthesize.py' -not -path './.git/*' | head -n 1)"
           if [ -z "$SYNTH" ]; then
