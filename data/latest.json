@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04 10:11 IST",
-  "generated_utc": "2026-08-04T04:41:23+00:00",
+  "generated_at": "2026-08-04 11:43 IST",
+  "generated_utc": "2026-08-04T06:13:55+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -34,7 +34,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-04 10:11 IST",
+      "asof": "2026-08-04 11:43 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1070,7 +1070,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-04 10:11 IST",
+      "asof": "2026-08-04 11:44 IST",
       "status": "ok",
       "data": [
         {
@@ -1206,7 +1206,7 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-04 10:12 IST",
+      "asof": "2026-08-04 11:44 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1224,7 +1224,7 @@
       }
     },
     "news": {
-      "asof": "2026-08-04 10:12 IST",
+      "asof": "2026-08-04 11:44 IST",
       "status": "ok",
       "data": [
         {
@@ -1272,44 +1272,79 @@
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-opens-on-flat-note-rises-3-paise-to-95-34-against-us-dollar-in-early-trade/articleshow/132846463.cms",
-          "published": "Tue, 04 Aug 2026 09:59:52 +0530"
+          "title": "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hsbc-h1-profit-jumps-23-beats-estimates-on-strong-wealth-interest-income/articleshow/132847842.cms",
+          "published": "Tue, 04 Aug 2026 11:19:10 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-shares-zoom-18-after-q1-results-why-is-it-nomuras-top-2-wheeler-pick/articleshow/132846384.cms",
-          "published": "Tue, 04 Aug 2026 09:59:22 +0530"
+          "title": "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-slip-nearly-2-as-ai-spending-worries-overshadow-softer-inflation/articleshow/132847751.cms",
+          "published": "Tue, 04 Aug 2026 11:14:32 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-koreas-july-inflation-cools-below-expectations-as-oil-prices-ease-rate-hike-bets-remain/articleshow/132846186.cms",
-          "published": "Tue, 04 Aug 2026 09:55:29 +0530"
+          "title": "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dabur-shares-drop-3-after-fssai-bars-fmcg-major-from-selling-products-with-100-guarantee-claims/articleshow/132847507.cms",
+          "published": "Tue, 04 Aug 2026 11:11:05 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/manipal-health-enterprises-ipo-listing-tomorrow-heres-what-gmp-indicates-ahead-of-market-debut/articleshow/132846312.cms",
-          "published": "Tue, 04 Aug 2026 09:54:24 +0530"
+          "title": "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/thangamayil-share-selloff-continues-stock-drops-5-despite-rs-344-crore-sales-in-first-3-days-of-august/articleshow/132847383.cms",
+          "published": "Tue, 04 Aug 2026 11:01:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/dhoot-transmission-sets-ipo-price-band-at-rs-829-871-issue-to-open-on-aug-10/articleshow/132846264.cms",
-          "published": "Tue, 04 Aug 2026 09:49:10 +0530"
+          "title": "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kei-industries-shares-surge-7-after-q1fy27-profit-jumps-40-revenue-rises-23/articleshow/132847279.cms",
+          "published": "Tue, 04 Aug 2026 10:55:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/nazara-tech-q1-results-co-posts-rs-82-5-crore-loss-nitish-mittersain-steps-down-as-ceo/articleshow/132846232.cms",
-          "published": "Tue, 04 Aug 2026 09:47:08 +0530"
+          "title": "Global Market: Japan's Nikkei slips as intervention fears weigh; Toyota earnings in focus",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-slips-as-intervention-fears-weigh-toyota-earnings-in-focus/articleshow/132847238.cms",
+          "published": "Tue, 04 Aug 2026 10:48:23 +0530"
+        },
+        {
+          "source": "Mint",
+          "weight": "medium",
+          "title": "Technocraft Ventures IPO: GMP signals modest listing pop; 10 key things to know from RHP ahead of issue launch on Friday",
+          "url": "https://www.livemint.com/market/ipo/technocraft-ventures-ipo-gmp-signals-modest-listing-pop-10-key-things-to-know-from-rhp-ahead-of-issue-launch-on-friday-11785820133085.html",
+          "published": "Tue, 04 Aug 2026 11:30:32 +0530"
+        },
+        {
+          "source": "Mint",
+          "weight": "medium",
+          "title": "DIIs tighten grip on Indian equities, raise holding across healthcare, auto, capital goods",
+          "url": "https://www.livemint.com/market/stock-market-news/diis-dii-investments-india-domestic-growth-sectors-nifty-500-11785778652963.html",
+          "published": "Tue, 04 Aug 2026 11:21:35 +0530"
+        },
+        {
+          "source": "Mint",
+          "weight": "medium",
+          "title": "SBI, HDFC Bank, to ICICI Bank, Axis Bank: Bank stocks fall ahead of RBI monetary policy decision tomorrow",
+          "url": "https://www.livemint.com/market/stock-market-news/sbi-hdfc-bank-to-icici-bank-axis-bank-bank-stocks-fall-ahead-of-rbi-monetary-policy-decision-tomorrow-11785816258149.html",
+          "published": "Tue, 04 Aug 2026 10:28:59 +0530"
+        },
+        {
+          "source": "Mint",
+          "weight": "medium",
+          "title": "Juniper Green Energy IPO allotment in focus today; latest GMP, step-by-step guide to check status",
+          "url": "https://www.livemint.com/market/ipo/juniper-green-energy-ipo-gmp-juniper-green-energy-ipo-allotment-status-juniper-green-energy-ipo-allotment-datejuniper-11785817518771.html",
+          "published": "Tue, 04 Aug 2026 10:18:03 +0530"
+        },
+        {
+          "source": "Mint",
+          "weight": "medium",
+          "title": "Textile stock under ₹100 hits 10% upper circuit despite muted trend on Dalal Street",
+          "url": "https://www.livemint.com/market/stock-market-news/textile-stock-under-100-aastha-spintex-hits-10-upper-circuit-despite-muted-trend-on-dalal-street-11785818344958.html",
+          "published": "Tue, 04 Aug 2026 10:15:54 +0530"
         },
         {
           "source": "Mint",
@@ -1317,69 +1352,6 @@
           "title": "Poojaa Precision IPO listing: Shares list at a 56% premium to the issue price",
           "url": "https://www.livemint.com/market/ipo/poojaa-precision-ipo-listing-shares-list-at-a-56-premium-to-the-issue-price-11785817719669.html",
           "published": "Tue, 04 Aug 2026 10:03:24 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Oneindig Technologies IPO allotment to be finalised today: GMP, steps to check allotment status online for SME IPO",
-          "url": "https://www.livemint.com/market/ipo/oneindig-technologies-ipo-allotment-to-be-finalised-today-ipo-gmp-steps-to-check-allotment-status-online-for-sme-ipo-11785814952122.html",
-          "published": "Tue, 04 Aug 2026 09:33:39 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "LIC OFS: Shares crash 8% as offer for sale opens for non-retail investors. Details here",
-          "url": "https://www.livemint.com/market/stock-market-news/lic-share-price-crashes-8-as-ofs-opens-for-non-retail-investors-details-here-11785815112599.html",
-          "published": "Tue, 04 Aug 2026 09:28:48 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Gold Holds Steady With US-Iran Standoff and Fed Outlook in Focus",
-          "url": "https://www.livemint.com/market/gold-holds-steady-with-us-iran-standoff-and-fed-outlook-in-focus-11785815223644.html",
-          "published": "Tue, 04 Aug 2026 09:17:03 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Gold Steady as Middle East Talks Weigh on Interest Rate Outlook",
-          "url": "https://www.livemint.com/market/gold-steady-as-middle-east-talks-weigh-on-interest-rate-outlook-11785815218115.html",
-          "published": "Tue, 04 Aug 2026 09:16:57 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Rupee opens flat at 95.33 against US dollar",
-          "url": "https://www.livemint.com/market/stock-market-news/rupee-opens-flat-at-95-33-against-us-dollar-11785814636029.html",
-          "published": "Tue, 04 Aug 2026 09:08:55 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
         }
       ]
     },
@@ -1398,11 +1370,11 @@
       "generated_at": "2026-08-04 03:49 IST",
       "model": "template",
       "stale_since": "2026-08-04 03:49 IST",
-      "checked_at": "2026-08-04 10:12 IST"
+      "checked_at": "2026-08-04 11:45 IST"
     }
   },
   "key_figures": {
-    "date": "2026-08-04 10:12 IST",
+    "date": "2026-08-04 11:44 IST",
     "usdinr": {
       "last": 95.34,
       "date": "2026-08-03"
@@ -1422,12 +1394,12 @@
       "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
       "Can Coforge build an AI giant through acquisitions?",
       "Air India's hard luck",
-      "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
-      "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
-      "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
-      "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
-      "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
-      "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO"
+      "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
+      "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
+      "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
+      "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
+      "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
+      "Global Market: Japan's Nikkei slips as intervention fears weigh; Toyota earnings in focus"
     ]
   },
   "changes": {
@@ -1435,7 +1407,7 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
     "all": [
@@ -1457,18 +1429,17 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
-    "since": "2026-08-04 04:15 IST",
+    "since": "2026-08-04 10:12 IST",
     "new_headlines": [
-      "Can India's oceans power our next economic miracle?",
-      "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
-      "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
-      "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
-      "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
-      "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
-      "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO"
+      "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
+      "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
+      "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
+      "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
+      "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
+      "Global Market: Japan's Nikkei slips as intervention fears weigh; Toyota earnings in focus"
     ]
   },
   "summary": {
