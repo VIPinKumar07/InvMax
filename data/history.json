@@ -143,5 +143,34 @@
    "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
    "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%"
   ]
+ },
+ {
+  "date": "2026-08-05 01:40 IST",
+  "usdinr": {
+   "last": 95.38,
+   "date": "2026-08-04"
+  },
+  "dii_net": {
+   "net": -936.14,
+   "date": "04-Aug-2026"
+  },
+  "fii_net": {
+   "net": 2446.47,
+   "date": "04-Aug-2026"
+  },
+  "headlines": [
+   "Can India's oceans power our next economic miracle?",
+   "How the West Asia crisis is rattling India's real estate sector",
+   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
+   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
+   "Can Coforge build an AI giant through acquisitions?",
+   "Air India's hard luck",
+   "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+   "Jefferies gets new evidence of fake invoices at beleaguered fund tied to iron ore trader",
+   "US Fed's Anna Paulson keeps 'open mind' on rate decisioin as inflation remains too high",
+   "Palantir stock jumps 27% after ‘otherworldly’ demand lifts outlook",
+   "SK Hynix rises 5% as brokerages launch coverage with bullish ratings",
+   "Drugmaker Pfizer beats earnings estimates, targets $2.5 billion in additional cost cuts"
+  ]
  }
 ]

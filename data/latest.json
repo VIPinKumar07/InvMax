@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04 11:51 IST",
-  "generated_utc": "2026-08-04T06:21:20+00:00",
+  "generated_at": "2026-08-05 01:39 IST",
+  "generated_utc": "2026-08-04T20:09:00+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -34,16 +34,16 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-04 11:51 IST",
+      "asof": "2026-08-05 01:39 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-03",
+        "asof": "2026-08-04",
         "rates": {
-          "EUR": 0.86693,
-          "GBP": 0.74238,
-          "INR": 95.34,
-          "JPY": 156.68
+          "EUR": 0.86843,
+          "GBP": 0.74372,
+          "INR": 95.38,
+          "JPY": 157.41
         },
         "usdinr_history": [
           {
@@ -1065,12 +1065,16 @@
           {
             "date": "2026-08-03",
             "v": 95.34
+          },
+          {
+            "date": "2026-08-04",
+            "v": 95.38
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-04 11:51 IST",
+      "asof": "2026-08-05 01:39 IST",
       "status": "ok",
       "data": [
         {
@@ -1206,25 +1210,25 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-04 11:52 IST",
+      "asof": "2026-08-05 01:39 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "03-Aug-2026",
-          "buy": 18325.97,
-          "sell": 16754.79,
-          "net": 1571.18
+          "date": "04-Aug-2026",
+          "buy": 15241.39,
+          "sell": 16177.53,
+          "net": -936.14
         },
         "fii": {
-          "date": "03-Aug-2026",
-          "buy": 12621.89,
-          "sell": 11699.63,
-          "net": 922.26
+          "date": "04-Aug-2026",
+          "buy": 15630.45,
+          "sell": 13183.98,
+          "net": 2446.47
         }
       }
     },
     "news": {
-      "asof": "2026-08-04 11:52 IST",
+      "asof": "2026-08-05 01:40 IST",
       "status": "ok",
       "data": [
         {
@@ -1272,148 +1276,117 @@
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Ather Energy share price target goes up to Rs 1,714. What are CLSA, Nomura, and HSBC saying?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-share-price-target-goes-up-to-rs-1714-what-are-clsa-nomura-and-hsbc-saying/articleshow/132848638.cms",
-          "published": "Tue, 04 Aug 2026 11:44:30 +0530"
+          "title": "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-fall-as-oil-retreats-on-iran-deal-hopes-fed-hike-bets-ease/articleshow/132871326.cms",
+          "published": "Wed, 05 Aug 2026 00:41:12 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hsbc-h1-profit-jumps-23-beats-estimates-on-strong-wealth-interest-income/articleshow/132847842.cms",
-          "published": "Tue, 04 Aug 2026 11:19:10 +0530"
+          "title": "Jefferies gets new evidence of fake invoices at beleaguered fund tied to iron ore trader",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jefferies-gets-new-evidence-of-fake-invoices-at-beleaguered-fund/articleshow/132869731.cms",
+          "published": "Tue, 04 Aug 2026 23:51:47 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-slip-nearly-2-as-ai-spending-worries-overshadow-softer-inflation/articleshow/132847751.cms",
-          "published": "Tue, 04 Aug 2026 11:14:32 +0530"
+          "title": "US Fed's Anna Paulson keeps 'open mind' on rate decisioin as inflation remains too high",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-feds-anna-paulson-keeps-open-mind-on-rate-decisioin-as-inflation-remains-too-high/articleshow/132867445.cms",
+          "published": "Tue, 04 Aug 2026 22:28:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dabur-shares-drop-3-after-fssai-bars-fmcg-major-from-selling-products-with-100-guarantee-claims/articleshow/132847507.cms",
-          "published": "Tue, 04 Aug 2026 11:11:05 +0530"
+          "title": "Palantir stock jumps 27% after ‘otherworldly’ demand lifts outlook",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/palantir-stock-jumps-27-after-otherworldly-demand-lifts-outlook/articleshow/132866951.cms",
+          "published": "Tue, 04 Aug 2026 21:51:53 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/thangamayil-share-selloff-continues-stock-drops-5-despite-rs-344-crore-sales-in-first-3-days-of-august/articleshow/132847383.cms",
-          "published": "Tue, 04 Aug 2026 11:01:43 +0530"
+          "title": "SK Hynix rises 5% as brokerages launch coverage with bullish ratings",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-rises-5-as-brokerages-launch-coverage-with-bullish-ratings/articleshow/132866674.cms",
+          "published": "Tue, 04 Aug 2026 21:29:48 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kei-industries-shares-surge-7-after-q1fy27-profit-jumps-40-revenue-rises-23/articleshow/132847279.cms",
-          "published": "Tue, 04 Aug 2026 10:55:29 +0530"
+          "title": "Drugmaker Pfizer beats earnings estimates, targets $2.5 billion in additional cost cuts",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/drugmaker-pfizer-beats-earnings-estimates-targets-2-5-billion-in-additional-cost-cuts/articleshow/132866592.cms",
+          "published": "Tue, 04 Aug 2026 21:25:24 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Technocraft Ventures IPO: GMP signals modest listing pop; 10 key things to know from RHP ahead of issue launch on Friday",
-          "url": "https://www.livemint.com/market/ipo/technocraft-ventures-ipo-gmp-signals-modest-listing-pop-10-key-things-to-know-from-rhp-ahead-of-issue-launch-on-friday-11785820133085.html",
-          "published": "Tue, 04 Aug 2026 11:30:32 +0530"
+          "title": "Palantir Short Sellers Take $3 Billion Hit After 30% Stock Surge",
+          "url": "https://www.livemint.com/market/palantir-short-sellers-take-3-billion-hit-after-30-stock-surge-11785872351134.html",
+          "published": "Wed, 05 Aug 2026 01:09:10 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "DIIs tighten grip on Indian equities, raise holding across healthcare, auto, capital goods",
-          "url": "https://www.livemint.com/market/stock-market-news/diis-dii-investments-india-domestic-growth-sectors-nifty-500-11785778652963.html",
-          "published": "Tue, 04 Aug 2026 11:21:35 +0530"
+          "title": "CBOT grains, soybeans fall as oil drops on Iran hopes",
+          "url": "https://www.livemint.com/market/cbot-grains-soybeans-fall-as-oil-drops-on-iran-hopes-11785869727323.html",
+          "published": "Wed, 05 Aug 2026 00:25:26 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "SBI, HDFC Bank, to ICICI Bank, Axis Bank: Bank stocks fall ahead of RBI monetary policy decision tomorrow",
-          "url": "https://www.livemint.com/market/stock-market-news/sbi-hdfc-bank-to-icici-bank-axis-bank-bank-stocks-fall-ahead-of-rbi-monetary-policy-decision-tomorrow-11785816258149.html",
-          "published": "Tue, 04 Aug 2026 10:28:59 +0530"
+          "title": "Gold, silver prices today: Comex gold jumps $61, silver tops $60 on US-Iran de-escalation hopes",
+          "url": "https://www.livemint.com/market/commodities/gold-silver-prices-today-comex-gold-jumps-61-silver-tops-60-on-us-iran-de-escalation-hopes-11785863108924.html",
+          "published": "Tue, 04 Aug 2026 22:53:38 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Juniper Green Energy IPO allotment in focus today; latest GMP, step-by-step guide to check status",
-          "url": "https://www.livemint.com/market/ipo/juniper-green-energy-ipo-gmp-juniper-green-energy-ipo-allotment-status-juniper-green-energy-ipo-allotment-datejuniper-11785817518771.html",
-          "published": "Tue, 04 Aug 2026 10:18:03 +0530"
+          "title": "Palantir climbs 27% on 'otherworldly' AI demand; Karp tells shareholders business has 'Marxist' values",
+          "url": "https://www.livemint.com/market/stock-market-news/palantir-climbs-27-on-otherworldly-ai-demand-karp-tells-shareholders-business-has-marxist-values-11785861835803.html",
+          "published": "Tue, 04 Aug 2026 22:41:32 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Textile stock under ₹100 hits 10% upper circuit despite muted trend on Dalal Street",
-          "url": "https://www.livemint.com/market/stock-market-news/textile-stock-under-100-aastha-spintex-hits-10-upper-circuit-despite-muted-trend-on-dalal-street-11785818344958.html",
-          "published": "Tue, 04 Aug 2026 10:15:54 +0530"
+          "title": "SpaceX faces its first earnings test after a turbulent IPO debut; expert says, ‘have very little confidence’",
+          "url": "https://www.livemint.com/market/stock-market-news/spacex-faces-its-first-earnings-test-after-a-turbulent-ipo-debut-expert-says-have-very-little-confidence-11785859718961.html",
+          "published": "Tue, 04 Aug 2026 22:10:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Poojaa Precision IPO listing: Shares list at a 56% premium to the issue price",
-          "url": "https://www.livemint.com/market/ipo/poojaa-precision-ipo-listing-shares-list-at-a-56-premium-to-the-issue-price-11785817719669.html",
-          "published": "Tue, 04 Aug 2026 10:03:24 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+          "title": "Crude oil reverses gains, drops 5% on renewed Middle East peace hopes; Brent falls below $80",
+          "url": "https://www.livemint.com/market/stock-market-news/crude-oil-reverses-gains-drops-5-on-renewed-middle-east-peace-hopes-brent-falls-below-80-11785856793729.html",
+          "published": "Tue, 04 Aug 2026 21:27:20 +0530"
         }
       ]
     },
     "narrative": {
-      "carry_forward": false,
-      "regime_read": "USD/INR at 95.34. Flagged as material: First data run Baseline captured; changes tracked from tomorrow.. This is an automatic summary of the figures — the written view could not be generated this run.",
+      "status": "live",
+      "generated_at": "2026-08-05 01:40 IST",
+      "model": "llama-3.3-70b-versatile",
+      "regime_read": "The USD/INR rate has moved to 95.38 as of 2026-08-04. DII flows have flipped direction, recording a net outflow of ₹-936 Cr. FII net flows were ₹2,446 Cr, indicating continued foreign investment. The change in DII flows may be worth monitoring for potential shifts in market sentiment. The current trends suggest that foreign investors remain bullish on the Indian market, while domestic investors are taking a more cautious stance.",
       "hot_notes": {
-        "conservative": "Written view unavailable this run — figures above are current.",
-        "balanced": "Written view unavailable this run — figures above are current.",
-        "aggressive": "Written view unavailable this run — figures above are current.",
-        "special": "Written view unavailable this run — figures above are current."
+        "conservative": "DII flows flipped to net outflow",
+        "balanced": "FII net flows at ₹2,446 Cr",
+        "aggressive": "USD/INR at 95.38",
+        "special": "US Treasury yields fell on Iran deal hopes"
       },
-      "research_note": "Written view unavailable this run. The underlying data is current.",
-      "confidence": "low",
-      "status": "stale",
-      "generated_at": "2026-08-04 03:49 IST",
-      "model": "template",
-      "stale_since": "2026-08-04 03:49 IST",
-      "checked_at": "2026-08-04 11:52 IST"
+      "research_note": "The movement in USD/INR and the flip in DII flows may indicate a shift in investor sentiment. However, FII flows continue to be strong, which could be a counterbalancing factor. The impact of these developments on the broader market needs to be monitored. The US Treasury yield movement and its potential effect on global markets also warrant attention.",
+      "confidence": "medium"
     }
   },
   "key_figures": {
-    "date": "2026-08-04 11:52 IST",
+    "date": "2026-08-05 01:40 IST",
     "usdinr": {
-      "last": 95.34,
-      "date": "2026-08-03"
+      "last": 95.38,
+      "date": "2026-08-04"
     },
     "dii_net": {
-      "net": 1571.18,
-      "date": "03-Aug-2026"
+      "net": -936.14,
+      "date": "04-Aug-2026"
     },
     "fii_net": {
-      "net": 922.26,
-      "date": "03-Aug-2026"
+      "net": 2446.47,
+      "date": "04-Aug-2026"
     },
     "headlines": [
       "Can India's oceans power our next economic miracle?",
@@ -1422,47 +1395,57 @@
       "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
       "Can Coforge build an AI giant through acquisitions?",
       "Air India's hard luck",
-      "Ather Energy share price target goes up to Rs 1,714. What are CLSA, Nomura, and HSBC saying?",
-      "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
-      "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
-      "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
-      "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
-      "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%"
+      "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+      "Jefferies gets new evidence of fake invoices at beleaguered fund tied to iron ore trader",
+      "US Fed's Anna Paulson keeps 'open mind' on rate decisioin as inflation remains too high",
+      "Palantir stock jumps 27% after ‘otherworldly’ demand lifts outlook",
+      "SK Hynix rises 5% as brokerages launch coverage with bullish ratings",
+      "Drugmaker Pfizer beats earnings estimates, targets $2.5 billion in additional cost cuts"
     ]
   },
   "changes": {
     "material": [
       {
+        "kind": "flow",
+        "label": "DII flows",
+        "detail": "₹-936 Cr — direction flipped"
+      },
+      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "1 new"
+        "detail": "6 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.34 (+0.00%)"
+        "detail": "₹95.38 (+0.04%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹1,571 Cr"
+        "detail": "₹-936 Cr — direction flipped"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹922 Cr"
+        "detail": "₹2,446 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "1 new"
+        "detail": "6 new"
       }
     ],
-    "since": "2026-08-04 11:44 IST",
+    "since": "2026-08-04 11:52 IST",
     "new_headlines": [
-      "Ather Energy share price target goes up to Rs 1,714. What are CLSA, Nomura, and HSBC saying?"
+      "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+      "Jefferies gets new evidence of fake invoices at beleaguered fund tied to iron ore trader",
+      "US Fed's Anna Paulson keeps 'open mind' on rate decisioin as inflation remains too high",
+      "Palantir stock jumps 27% after ‘otherworldly’ demand lifts outlook",
+      "SK Hynix rises 5% as brokerages launch coverage with bullish ratings",
+      "Drugmaker Pfizer beats earnings estimates, targets $2.5 billion in additional cost cuts"
     ]
   },
   "summary": {
