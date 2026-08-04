@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04 11:43 IST",
-  "generated_utc": "2026-08-04T06:13:55+00:00",
+  "generated_at": "2026-08-04 11:51 IST",
+  "generated_utc": "2026-08-04T06:21:20+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -34,7 +34,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-04 11:43 IST",
+      "asof": "2026-08-04 11:51 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1070,7 +1070,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-04 11:44 IST",
+      "asof": "2026-08-04 11:51 IST",
       "status": "ok",
       "data": [
         {
@@ -1206,7 +1206,7 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-04 11:44 IST",
+      "asof": "2026-08-04 11:52 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1224,7 +1224,7 @@
       }
     },
     "news": {
-      "asof": "2026-08-04 11:44 IST",
+      "asof": "2026-08-04 11:52 IST",
       "status": "ok",
       "data": [
         {
@@ -1272,6 +1272,13 @@
         {
           "source": "Economic Times",
           "weight": "medium",
+          "title": "Ather Energy share price target goes up to Rs 1,714. What are CLSA, Nomura, and HSBC saying?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-share-price-target-goes-up-to-rs-1714-what-are-clsa-nomura-and-hsbc-saying/articleshow/132848638.cms",
+          "published": "Tue, 04 Aug 2026 11:44:30 +0530"
+        },
+        {
+          "source": "Economic Times",
+          "weight": "medium",
           "title": "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
           "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hsbc-h1-profit-jumps-23-beats-estimates-on-strong-wealth-interest-income/articleshow/132847842.cms",
           "published": "Tue, 04 Aug 2026 11:19:10 +0530"
@@ -1303,13 +1310,6 @@
           "title": "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
           "url": "https://economictimes.indiatimes.com/markets/stocks/news/kei-industries-shares-surge-7-after-q1fy27-profit-jumps-40-revenue-rises-23/articleshow/132847279.cms",
           "published": "Tue, 04 Aug 2026 10:55:29 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Global Market: Japan's Nikkei slips as intervention fears weigh; Toyota earnings in focus",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-slips-as-intervention-fears-weigh-toyota-earnings-in-focus/articleshow/132847238.cms",
-          "published": "Tue, 04 Aug 2026 10:48:23 +0530"
         },
         {
           "source": "Mint",
@@ -1352,6 +1352,34 @@
           "title": "Poojaa Precision IPO listing: Shares list at a 56% premium to the issue price",
           "url": "https://www.livemint.com/market/ipo/poojaa-precision-ipo-listing-shares-list-at-a-56-premium-to-the-issue-price-11785817719669.html",
           "published": "Tue, 04 Aug 2026 10:03:24 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
         }
       ]
     },
@@ -1370,11 +1398,11 @@
       "generated_at": "2026-08-04 03:49 IST",
       "model": "template",
       "stale_since": "2026-08-04 03:49 IST",
-      "checked_at": "2026-08-04 11:45 IST"
+      "checked_at": "2026-08-04 11:52 IST"
     }
   },
   "key_figures": {
-    "date": "2026-08-04 11:44 IST",
+    "date": "2026-08-04 11:52 IST",
     "usdinr": {
       "last": 95.34,
       "date": "2026-08-03"
@@ -1394,12 +1422,12 @@
       "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
       "Can Coforge build an AI giant through acquisitions?",
       "Air India's hard luck",
+      "Ather Energy share price target goes up to Rs 1,714. What are CLSA, Nomura, and HSBC saying?",
       "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
       "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
       "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
       "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
-      "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
-      "Global Market: Japan's Nikkei slips as intervention fears weigh; Toyota earnings in focus"
+      "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%"
     ]
   },
   "changes": {
@@ -1407,7 +1435,7 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "6 new"
+        "detail": "1 new"
       }
     ],
     "all": [
@@ -1429,17 +1457,12 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "6 new"
+        "detail": "1 new"
       }
     ],
-    "since": "2026-08-04 10:12 IST",
+    "since": "2026-08-04 11:44 IST",
     "new_headlines": [
-      "Global Market: HSBC H1 profit jumps 23%, beats estimates on strong wealth, interest income",
-      "Global Market: South Korean shares slip nearly 2% as AI spending worries overshadow softer inflation",
-      "Dabur shares drop 3% after FSSAI bars FMCG major from selling products with '100%' guarantee claims",
-      "Thangamayil share selloff continues: Stock drops 5% despite Rs 344 crore sales in first 3 days of August",
-      "KEI Industries shares surge 7% after Q1FY27 profit jumps 40%, revenue rises 23%",
-      "Global Market: Japan's Nikkei slips as intervention fears weigh; Toyota earnings in focus"
+      "Ather Energy share price target goes up to Rs 1,714. What are CLSA, Nomura, and HSBC saying?"
     ]
   },
   "summary": {
