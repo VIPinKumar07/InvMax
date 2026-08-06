@@ -79,6 +79,7 @@ DEFAULT_SOURCES = {
         {"id": "sensex", "name": "Sensex", "symbol": "^bse", "enabled": True},
         {"id": "sp500", "name": "S&P 500", "symbol": "^spx", "enabled": True},
         {"id": "gold_usd", "name": "Gold (USD)", "symbol": "xauusd", "enabled": True},
+        {"id": "brent_oil", "name": "Brent Crude", "symbol": "cb.f", "enabled": True},
     ],
     "funds": [
         {"id": "119551", "name": "Flexicap (sample)", "enabled": True},
@@ -102,8 +103,17 @@ DEFAULT_SOURCES = {
 
 
 def load_sources():
-    """Read sources.json; fall back to built-in defaults if absent/broken."""
-    for path in ("sources.json", os.path.join(OUT_DIR, "sources.json")):
+    """Read sources.json; fall back to built-in defaults if absent/broken.
+    Searched in several places so it works whether the script runs from the
+    repo root or from a scripts/ subfolder."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    candidates = [
+        "sources.json",                                   # current working dir
+        os.path.join(OUT_DIR, "sources.json"),            # the data/ folder
+        os.path.join(here, "sources.json"),               # next to this script
+        os.path.join(here, "..", "sources.json"),         # repo root if in scripts/
+    ]
+    for path in candidates:
         try:
             with open(path, "r", encoding="utf-8") as f:
                 s = json.load(f)
@@ -111,7 +121,7 @@ def load_sources():
             for k in DEFAULT_SOURCES:
                 if isinstance(s.get(k), list) and s[k]:
                     merged[k] = s[k]
-            log(f"Sources: loaded {path}")
+            log(f"Sources: loaded {os.path.normpath(path)}")
             return merged
         except FileNotFoundError:
             continue
@@ -403,11 +413,11 @@ def fetch_news(src, limit_per_feed=6):
 # ─────────────────────────────────────────────────────────────
 # KEY FIGURES + CHANGE DETECTION  (Stage 4)
 # ─────────────────────────────────────────────────────────────
-THRESHOLDS = {"index_pct": 1.0, "fx_pct": 0.5, "gold_pct": 1.0, "flow_cr": 2000.0}
+THRESHOLDS = {"index_pct": 1.0, "fx_pct": 0.5, "gold_pct": 1.0, "oil_pct": 2.0, "flow_cr": 2000.0}
 
 LABELS = {
     "nifty50": "Nifty 50", "sensex": "Sensex", "sp500": "S&P 500",
-    "gold_usd": "Gold", "usdinr": "USD/INR",
+    "gold_usd": "Gold", "usdinr": "USD/INR", "brent_oil": "Brent Crude",
     "cpi_inflation_yoy": "CPI inflation", "gdp_growth": "GDP growth",
     "fx_reserves_usd": "FX reserves", "fii_net": "FII flows", "dii_net": "DII flows",
 }
@@ -476,6 +486,9 @@ def detect_changes(now_kf, prev_kf):
             elif k == "gold_usd":
                 add("gold", nice(k), f"${v['last']:,.0f} ({ch:+.2f}%)",
                     abs(ch) >= THRESHOLDS["gold_pct"])
+            elif k == "brent_oil":
+                add("oil", nice(k), f"${v['last']:,.1f} ({ch:+.2f}%)",
+                    abs(ch) >= THRESHOLDS["oil_pct"])
             else:
                 add("index", nice(k), f"{v['last']:,.0f} ({ch:+.2f}%)",
                     abs(ch) >= THRESHOLDS["index_pct"])
