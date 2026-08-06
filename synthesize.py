@@ -109,7 +109,7 @@ def build_user_prompt(latest, history, prev_narr):
 
     lines = ["TODAY'S DATA", "=" * 40]
 
-    for key in ("nifty50", "sensex", "sp500", "gold_usd"):
+    for key in ("nifty50", "sensex", "sp500", "gold_usd", "brent_oil"):
         v = kf.get(key)
         if isinstance(v, dict) and v.get("last") is not None:
             chg = f" ({v['chg_pct']:+.2f}% on the day)" if v.get("chg_pct") is not None else ""
