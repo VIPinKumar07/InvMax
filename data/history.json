@@ -230,5 +230,34 @@
    "South Korea’s Kospi tumbles 5% after 2-day rally, angry retail investors vow not to invest again",
    "Cummins India shares fall over 4% as Q1 net profit dips 8% to Rs 543 crore. Buy, sell or hold?"
   ]
+ },
+ {
+  "date": "2026-08-07 03:41 IST",
+  "usdinr": {
+   "last": 95.23,
+   "date": "2026-08-06"
+  },
+  "dii_net": {
+   "net": 4013.6,
+   "date": "06-Aug-2026"
+  },
+  "fii_net": {
+   "net": -17.86,
+   "date": "06-Aug-2026"
+  },
+  "headlines": [
+   "Can REITs & InvITs become India's next foreign investment story?",
+   "The Ardee Industries IPO explained",
+   "Can India's oceans power our next economic miracle?",
+   "How the West Asia crisis is rattling India's real estate sector",
+   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
+   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
+   "US stocks: Dow, S&P slip as investors eye Mideast talks, earnings",
+   "Honeywell Aerospace shares plunge 26% as supply woes trigger forecast cuts",
+   "Fortis Healthcare Q1 Results: Profit rises 2.3% to Rs 273 crore",
+   "Technocraft Ventures raises Rs 75.55 cr from anchor investors ahead of IPO",
+   "Sebi takes up 402 investigation cases in FY26; completes 338",
+   "Muthoot Microfin Q1 profit jumps 13-fold on stronger loan growth"
+  ]
  }
 ]

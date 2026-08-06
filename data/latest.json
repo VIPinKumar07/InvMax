@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06 10:11 IST",
-  "generated_utc": "2026-08-06T04:41:22+00:00",
+  "generated_at": "2026-08-07 03:40 IST",
+  "generated_utc": "2026-08-06T22:10:30+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -15,7 +15,8 @@
       "Nifty 50",
       "Sensex",
       "S&P 500",
-      "Gold (USD)"
+      "Gold (USD)",
+      "Brent Crude"
     ],
     "funds": [
       "Flexicap (sample)",
@@ -34,16 +35,16 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-06 10:11 IST",
+      "asof": "2026-08-07 03:40 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-05",
+        "asof": "2026-08-06",
         "rates": {
-          "EUR": 0.8655,
-          "GBP": 0.74191,
-          "INR": 95.12,
-          "JPY": 157.59
+          "EUR": 0.8664,
+          "GBP": 0.74255,
+          "INR": 95.23,
+          "JPY": 157.83
         },
         "usdinr_history": [
           {
@@ -1065,132 +1066,136 @@
           {
             "date": "2026-08-05",
             "v": 95.12
+          },
+          {
+            "date": "2026-08-06",
+            "v": 95.23
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-06 10:11 IST",
+      "asof": "2026-08-07 03:40 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW",
-          "nav": 107.0167,
-          "date": "05-08-2026",
-          "ret1y_pct": -1.09,
+          "nav": 107.0834,
+          "date": "06-08-2026",
+          "ret1y_pct": -1.06,
           "series": [
-            108.7714,
-            102.5788,
-            103.3119,
-            103.7314,
-            106.0393,
-            107.4878,
-            107.4465,
-            108.1161,
-            108.0083,
-            108.4428,
-            109.5673,
-            110.1924,
-            110.2079,
-            110.1078,
-            111.0069,
-            103.8813,
-            104.8043,
-            105.107,
-            106.7977,
-            107.0167
+            108.76,
+            102.479,
+            103.3491,
+            103.8183,
+            106.1959,
+            107.5193,
+            107.4384,
+            108.1729,
+            108.0899,
+            108.5131,
+            109.6125,
+            110.2658,
+            110.2247,
+            110.0855,
+            111.0261,
+            103.9142,
+            104.8762,
+            105.3084,
+            106.5587,
+            107.0834
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 113.176,
-          "date": "05-08-2026",
-          "ret1y_pct": 4.68,
+          "nav": 113.1834,
+          "date": "06-08-2026",
+          "ret1y_pct": 4.71,
           "series": [
-            104.8418,
-            100.3048,
-            94.9501,
-            100.0834,
-            104.2762,
-            106.5283,
-            110.2267,
-            108.4305,
-            108.3462,
-            107.8239,
-            111.4046,
-            110.7813,
-            111.5357,
-            109.0955,
-            105.4928,
-            98.8014,
-            107.6729,
-            103.8102,
-            110.0997,
-            113.176
+            105.2098,
+            100.5817,
+            95.4362,
+            101.0307,
+            104.8398,
+            107.0655,
+            109.8742,
+            107.3597,
+            108.2047,
+            108.1386,
+            110.4409,
+            110.8486,
+            111.1802,
+            109.288,
+            106.7297,
+            99.3876,
+            107.15,
+            102.4845,
+            107.9598,
+            113.1834
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Growth Option - Direct Plan",
-          "nav": 235.979,
-          "date": "05-08-2026",
-          "ret1y_pct": 10.71,
+          "nav": 235.895,
+          "date": "06-08-2026",
+          "ret1y_pct": 10.04,
           "series": [
-            206.698,
-            196.363,
-            186.039,
-            192.757,
-            194.244,
-            206.931,
-            212.704,
-            216.847,
-            213.977,
-            214.521,
-            222.518,
-            226.069,
-            222.385,
-            221.441,
-            220.177,
-            202.243,
-            222.525,
-            220.327,
-            231.094,
-            235.979
+            207.014,
+            194.886,
+            187.775,
+            191.35,
+            195.999,
+            207.167,
+            213.831,
+            214.192,
+            211.708,
+            213.332,
+            222.577,
+            225.84,
+            224.745,
+            218.917,
+            214.603,
+            204.438,
+            223.738,
+            218.0,
+            226.564,
+            235.895
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan",
-          "nav": 240.9719,
-          "date": "05-08-2026",
-          "ret1y_pct": 0.72,
+          "nav": 241.0808,
+          "date": "06-08-2026",
+          "ret1y_pct": 0.2,
           "series": [
-            226.9265,
-            221.6665,
-            221.0597,
-            228.0239,
-            231.6268,
-            239.3407,
-            243.9512,
-            242.7936,
-            242.3905,
-            243.2588,
-            253.121,
-            254.64,
-            252.0234,
-            246.125,
-            241.7791,
-            220.8254,
-            236.5345,
-            227.5797,
-            238.2936,
-            240.9719
+            228.519,
+            222.9222,
+            220.8681,
+            228.1219,
+            234.4494,
+            238.783,
+            246.8836,
+            240.7198,
+            239.9102,
+            241.6453,
+            251.4103,
+            254.3716,
+            253.8755,
+            243.864,
+            238.033,
+            223.2964,
+            236.491,
+            225.2052,
+            233.2615,
+            241.0808
           ]
         }
       ]
@@ -1206,25 +1211,25 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-06 10:12 IST",
+      "asof": "2026-08-07 03:41 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "05-Aug-2026",
-          "buy": 19353.43,
-          "sell": 16470.26,
-          "net": 2883.17
+          "date": "06-Aug-2026",
+          "buy": 19723.68,
+          "sell": 15710.08,
+          "net": 4013.6
         },
         "fii": {
-          "date": "05-Aug-2026",
-          "buy": 15940.5,
-          "sell": 16883.92,
-          "net": -943.42
+          "date": "06-Aug-2026",
+          "buy": 16161.35,
+          "sell": 16179.21,
+          "net": -17.86
         }
       }
     },
     "news": {
-      "asof": "2026-08-06 10:12 IST",
+      "asof": "2026-08-07 03:41 IST",
       "status": "ok",
       "data": [
         {
@@ -1272,117 +1277,117 @@
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "LG Electronics, APL Apollo Tubes among 7 mid & smallcap picks by Axis Securities for August",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/lg-electronics-apl-apollo-tubes-among-7-mid-amp-smallcap-picks-by-axis-securities-for-august/slideshow/132981540.cms",
-          "published": "Thu, 06 Aug 2026 09:41:28 +0530"
+          "title": "US stocks: Dow, S&P slip as investors eye Mideast talks, earnings",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-sp-slip-as-investors-eye-mideast-talks-earnings/articleshow/133015453.cms",
+          "published": "Fri, 07 Aug 2026 01:39:46 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "FCRA 2026: Three regulatory changes reshaping foreign funding in India",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fcra-2026-three-regulatory-changes-reshaping-foreign-funding-in-india/articleshow/132981094.cms",
-          "published": "Thu, 06 Aug 2026 09:39:02 +0530"
+          "title": "Honeywell Aerospace shares plunge 26% as supply woes trigger forecast cuts",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/honeywell-aerospace-shares-plunge-26-as-supply-woes-trigger-forecast-cuts/articleshow/133012879.cms",
+          "published": "Thu, 06 Aug 2026 23:17:56 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Sensex rises 200 points, Nifty above 24,600 amid US-Iran peace hopes. What lies ahead?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-rises-200-points-nifty-above-24600-amid-us-iran-peace-hopes-what-lies-ahead/articleshow/132980967.cms",
-          "published": "Thu, 06 Aug 2026 09:26:08 +0530"
+          "title": "Fortis Healthcare Q1 Results: Profit rises 2.3% to Rs 273 crore",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/fortis-healthcare-q1-results-profit-rises-2-3-to-rs-273-crore/articleshow/133010459.cms",
+          "published": "Thu, 06 Aug 2026 21:23:47 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "RR Kabel among 5 stocks flashing bullish signals, hinting at a possible uptrend",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/rr-kabel-among-5-stocks-flashing-bullish-signals-hinting-at-a-possible-uptrend/slideshow/132980955.cms",
-          "published": "Thu, 06 Aug 2026 09:21:07 +0530"
+          "title": "Technocraft Ventures raises Rs 75.55 cr from anchor investors ahead of IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/technocraft-ventures-raises-rs-75-55-cr-from-anchor-investors-ahead-of-ipo/articleshow/133010430.cms",
+          "published": "Thu, 06 Aug 2026 21:22:08 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "South Korea’s Kospi tumbles 5% after 2-day rally, angry retail investors vow not to invest again",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/south-koreas-kospi-tumbles-5-after-2-day-rally-angry-retail-investors-vow-not-to-invest-again/articleshow/132980706.cms",
-          "published": "Thu, 06 Aug 2026 09:19:37 +0530"
+          "title": "Sebi takes up 402 investigation cases in FY26; completes 338",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-takes-up-402-investigation-cases-in-fy26-completes-338/articleshow/133010399.cms",
+          "published": "Thu, 06 Aug 2026 21:20:17 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Cummins India shares fall over 4% as Q1 net profit dips 8% to Rs 543 crore. Buy, sell or hold?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/cummins-india-shares-in-focus-as-q1-net-profit-dips-8-to-rs-543-crore-buy-sell-or-hold/articleshow/132980594.cms",
-          "published": "Thu, 06 Aug 2026 09:16:50 +0530"
+          "title": "Muthoot Microfin Q1 profit jumps 13-fold on stronger loan growth",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/muthoot-microfin-q1-profit-jumps-13-fold-on-stronger-loan-growth/articleshow/133010297.cms",
+          "published": "Thu, 06 Aug 2026 21:14:39 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "MV Electrosystems share price makes a bumper debut on Dalal Street at over 22% premium",
-          "url": "https://www.livemint.com/market/stock-market-news/mv-electrosystems-share-price-makes-a-bumper-debut-on-dalal-street-at-over-22-premium-11785990016155.html",
-          "published": "Thu, 06 Aug 2026 10:02:05 +0530"
+          "title": "Japan Carmakers See Yen Remaining Near Post-Intervention Levels",
+          "url": "https://www.livemint.com/market/japan-carmakers-see-yen-remaining-near-post-intervention-levels-11786051302266.html",
+          "published": "Fri, 07 Aug 2026 02:51:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Juniper Green Energy IPO listing: Shares list at 9% premium over the IPO price",
-          "url": "https://www.livemint.com/market/stock-market-news/juniper-green-energy-ipo-listing-shares-list-at-9-premium-over-the-ipo-price-11785988928449.html",
-          "published": "Thu, 06 Aug 2026 10:00:08 +0530"
+          "title": "Oil Extends Gains on Report of Iran Strikes in Strait of Hormuz",
+          "url": "https://www.livemint.com/market/oil-extends-gains-on-report-of-iran-strikes-in-strait-of-hormuz-11786050144011.html",
+          "published": "Fri, 07 Aug 2026 02:32:23 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Bankers kept in dark on LIC’s unusually fast and large $3.3-billion OFS",
-          "url": "https://www.livemint.com/market/stock-market-news/lic-ofs-size-price-launch-date-11785989588805.html",
-          "published": "Thu, 06 Aug 2026 09:52:58 +0530"
+          "title": "Stocks close lower as investors eye Mideast talks, earnings",
+          "url": "https://www.livemint.com/market/stocks-close-lower-as-investors-eye-mideast-talks-earnings-11786047804287.html",
+          "published": "Fri, 07 Aug 2026 01:53:23 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Bharti Airtel stock lacks near-term triggers and even raising stake in Africa biz won’t help much",
-          "url": "https://www.livemint.com/market/mark-to-market/bharti-airtel-stock-bharti-airtel-earnings-airtle-vs-jio-telecom-industry-india-11785986967076.html",
-          "published": "Thu, 06 Aug 2026 09:52:51 +0530"
+          "title": "Gold pares gains to trade steady as oil rises on Iran proposal to bar hostile vessels in Hormuz",
+          "url": "https://www.livemint.com/market/gold-pares-gains-to-trade-steady-as-oil-rises-on-iran-proposal-to-bar-hostile-vessels-in-hormuz-11786044628603.html",
+          "published": "Fri, 07 Aug 2026 01:00:28 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Ardee Industries IPO Day 2 LIVE: Issue booked 3.08x so far. Check key dates, review. Apply or skip?",
-          "url": "https://www.livemint.com/market/ipo/ardee-industries-ipo-gmp-ardee-industries-ipo-review-ardee-industries-ipo-details-ardee-industries-ipo-subscription-11785988585691.html",
-          "published": "Thu, 06 Aug 2026 09:50:20 +0530"
+          "title": "US Treasury yields rise as oil climbs before jobs report",
+          "url": "https://www.livemint.com/market/us-treasury-yields-rise-as-oil-climbs-before-jobs-report-11786043154633.html",
+          "published": "Fri, 07 Aug 2026 00:35:54 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "These 10 stocks turned ₹1 lakh into over ₹3 lakh in 2026: Do you own any of these top gainers?",
-          "url": "https://www.livemint.com/market/stock-market-news/these-10-stocks-turned-1-lakh-into-over-3-lakh-in-2026-do-you-own-any-of-these-top-gainers-11785989209401.html",
-          "published": "Thu, 06 Aug 2026 09:44:29 +0530"
+          "title": "Dollar Heads for Best Day in Two Weeks as Oil Prices Advance",
+          "url": "https://www.livemint.com/market/dollar-heads-for-best-day-in-two-weeks-as-oil-prices-advance-11786041870410.html",
+          "published": "Fri, 07 Aug 2026 00:14:29 +0530"
         }
       ]
     },
     "narrative": {
       "status": "live",
-      "generated_at": "2026-08-06 10:12 IST",
+      "generated_at": "2026-08-07 03:41 IST",
       "model": "llama-3.3-70b-versatile",
-      "regime_read": "The USD/INR rate has declined to 95.12 as of 2026-08-05. DII flows have flipped direction again, recording a net inflow of ₹2,883 Cr, while FII net flows were ₹-943 Cr, indicating a reversal in foreign investment. This change in FII flows, coupled with the shift in DII flows, may suggest a change in market sentiment. The current trends indicate that domestic investors are becoming more bullish, while foreign investors are taking a more cautious stance. The reversal in FII flows is a notable development that warrants attention.",
+      "regime_read": "The USD/INR rate has moved to 95.23, a 0.11 increase from the previous day's 95.12. DII flows remain positive with a net inflow of ₹4,014 Cr, while FII net flows were ₹-18 Cr, indicating a continued cautious stance from foreign investors. The significant increase in DII flows is notable, suggesting domestic investors are becoming more aggressive in their investment approach. The current trends indicate a mixed sentiment, with domestic investors being bullish and foreign investors being cautious.",
       "hot_notes": {
-        "conservative": "DII flows flipped to net inflow",
-        "balanced": "FII net flows at ₹-943 Cr",
-        "aggressive": "USD/INR at 95.12",
-        "special": "FII flows reversed"
+        "conservative": "DII flows at ₹4,014 Cr",
+        "balanced": "FII net flows at ₹-18 Cr",
+        "aggressive": "USD/INR at 95.23",
+        "special": "DII flows increased significantly"
       },
-      "research_note": "The movement in USD/INR and the flip in both DII and FII flows may indicate a significant shift in investor sentiment. The reversal in FII flows, in particular, could be a counterbalancing factor to the strong domestic investment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The US-Iran peace hopes and their potential effect on global markets also warrant attention.",
+      "research_note": "The increase in DII flows and the continued cautious stance from foreign investors may indicate a shift in market dynamics. The significant increase in DII flows could be a counterbalancing factor to the cautious foreign investment sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic investment sentiment.",
       "confidence": "medium"
     }
   },
   "key_figures": {
-    "date": "2026-08-06 10:12 IST",
+    "date": "2026-08-07 03:41 IST",
     "usdinr": {
-      "last": 95.12,
-      "date": "2026-08-05"
+      "last": 95.23,
+      "date": "2026-08-06"
     },
     "dii_net": {
-      "net": 2883.17,
-      "date": "05-Aug-2026"
+      "net": 4013.6,
+      "date": "06-Aug-2026"
     },
     "fii_net": {
-      "net": -943.42,
-      "date": "05-Aug-2026"
+      "net": -17.86,
+      "date": "06-Aug-2026"
     },
     "headlines": [
       "Can REITs & InvITs become India's next foreign investment story?",
@@ -1391,63 +1396,52 @@
       "How the West Asia crisis is rattling India's real estate sector",
       "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
       "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
-      "LG Electronics, APL Apollo Tubes among 7 mid & smallcap picks by Axis Securities for August",
-      "FCRA 2026: Three regulatory changes reshaping foreign funding in India",
-      "Sensex rises 200 points, Nifty above 24,600 amid US-Iran peace hopes. What lies ahead?",
-      "RR Kabel among 5 stocks flashing bullish signals, hinting at a possible uptrend",
-      "South Korea’s Kospi tumbles 5% after 2-day rally, angry retail investors vow not to invest again",
-      "Cummins India shares fall over 4% as Q1 net profit dips 8% to Rs 543 crore. Buy, sell or hold?"
+      "US stocks: Dow, S&P slip as investors eye Mideast talks, earnings",
+      "Honeywell Aerospace shares plunge 26% as supply woes trigger forecast cuts",
+      "Fortis Healthcare Q1 Results: Profit rises 2.3% to Rs 273 crore",
+      "Technocraft Ventures raises Rs 75.55 cr from anchor investors ahead of IPO",
+      "Sebi takes up 402 investigation cases in FY26; completes 338",
+      "Muthoot Microfin Q1 profit jumps 13-fold on stronger loan growth"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹2,883 Cr — direction flipped"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-943 Cr — direction flipped"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.12 (-0.27%)"
+        "detail": "₹95.23 (+0.12%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹2,883 Cr — direction flipped"
+        "detail": "₹4,014 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-943 Cr — direction flipped"
+        "detail": "₹-18 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
-    "since": "2026-08-05 10:13 IST",
+    "since": "2026-08-06 10:12 IST",
     "new_headlines": [
-      "Can REITs & InvITs become India's next foreign investment story?",
-      "LG Electronics, APL Apollo Tubes among 7 mid & smallcap picks by Axis Securities for August",
-      "FCRA 2026: Three regulatory changes reshaping foreign funding in India",
-      "Sensex rises 200 points, Nifty above 24,600 amid US-Iran peace hopes. What lies ahead?",
-      "RR Kabel among 5 stocks flashing bullish signals, hinting at a possible uptrend",
-      "South Korea’s Kospi tumbles 5% after 2-day rally, angry retail investors vow not to invest again",
-      "Cummins India shares fall over 4% as Q1 net profit dips 8% to Rs 543 crore. Buy, sell or hold?"
+      "US stocks: Dow, S&P slip as investors eye Mideast talks, earnings",
+      "Honeywell Aerospace shares plunge 26% as supply woes trigger forecast cuts",
+      "Fortis Healthcare Q1 Results: Profit rises 2.3% to Rs 273 crore",
+      "Technocraft Ventures raises Rs 75.55 cr from anchor investors ahead of IPO",
+      "Sebi takes up 402 investigation cases in FY26; completes 338",
+      "Muthoot Microfin Q1 profit jumps 13-fold on stronger loan growth"
     ]
   },
   "summary": {
