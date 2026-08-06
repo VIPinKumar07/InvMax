@@ -81,6 +81,61 @@ window.InvMax = (function () {
   // ── Stage 1: which sources fed this run ────────────────────
   function sourcesUsed(d) { return (d && d.sources_used) || null; }
 
+  // ── SINGLE SOURCE OF TRUTH ─────────────────────────────────
+  // One place every USD/INR readout comes from. Returns {value,date,live} or null.
+  function usdinr(d) {
+    const fxb = block(d, 'fx');
+    const fx = fxb && fxb.data;
+    const v = fx && fx.rates && fx.rates.INR;
+    if (v == null) return null;
+    return { value: +v, date: fx.asof || asOf(d), live: fxb && fxb.status === 'ok' };
+  }
+
+  // Generic asset accessor for the multi-asset chart & KPIs.
+  // key ∈ nifty50 | sensex | gold_usd | brent_oil | (usdinr handled specially)
+  function asset(d, key) {
+    if (key === 'usdinr') {
+      const u = usdinr(d);
+      if (!u) return null;
+      const fxb = block(d, 'fx');
+      const hist = (fxb && fxb.data && fxb.data.usdinr_history) || [];
+      return { last: u.value, date: u.date, live: u.live, name: 'USD/INR',
+               series: hist.map(p => ({ t: p.date, v: p.v })) };
+    }
+    const idxb = block(d, 'indices');
+    const a = idxb && idxb.data && idxb.data[key];
+    if (!a) return null;
+    const monthly = (a.monthly || []).map(p => ({ t: p.date, v: p.c }));
+    const daily = (a.daily_tail || []).map(p => ({ t: p.date, v: p.c }));
+    return { last: a.last, date: a.last_date, chg: a.chg_pct, live: idxb.status === 'ok',
+             name: a.name || key, series: daily.length >= 20 ? daily : monthly };
+  }
+
+  // Which asset keys are actually present in the feed (for the chart legend).
+  function assetsPresent(d) {
+    const out = [];
+    const idxb = block(d, 'indices');
+    const idx = (idxb && idxb.data) || {};
+    ['nifty50','sensex','gold_usd','brent_oil'].forEach(k => { if (idx[k]) out.push(k); });
+    if (usdinr(d)) out.push('usdinr');
+    return out;
+  }
+
+  // Source citations: turn feed URLs into linkable references.
+  function sourceLinks(d) {
+    const nb = block(d, 'news');
+    const news = (nb && nb.data) || [];
+    const seen = {}, links = [];
+    news.forEach(n => {
+      if (n.source && n.url && !seen[n.source]) {
+        seen[n.source] = 1;
+        try { links.push({ name: n.source, url: new URL(n.url).origin }); }
+        catch (e) { /* skip malformed */ }
+      }
+    });
+    return links.slice(0, 6);
+  }
+
   // small helper: format an ISO-ish date to "01 Aug 26"
   function shortDate(s) {
     if (!s) return '';
@@ -91,5 +146,6 @@ window.InvMax = (function () {
   }
 
   return { load, block, asOf, monthlyReturns, shortDate, PATH,
-           narrative, narrativeBadge, changes, sourcesUsed };
+           narrative, narrativeBadge, changes, sourcesUsed,
+           usdinr, asset, assetsPresent, sourceLinks };
 })();
