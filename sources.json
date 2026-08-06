@@ -55,7 +55,8 @@
     { "id": "nifty50",   "name": "Nifty 50",  "symbol": "^nsei",   "enabled": true },
     { "id": "sensex",    "name": "Sensex",    "symbol": "^bse",    "enabled": true },
     { "id": "sp500",     "name": "S&P 500",   "symbol": "^spx",    "enabled": true },
-    { "id": "gold_usd",  "name": "Gold (USD)","symbol": "xauusd",  "enabled": true }
+    { "id": "gold_usd",  "name": "Gold (USD)","symbol": "xauusd",  "enabled": true },
+    { "id": "brent_oil", "name": "Brent Crude","symbol": "cb.f",   "enabled": true }
   ],
   "funds": [
     { "id": "119551", "name": "Flexicap (sample)",              "enabled": true },
