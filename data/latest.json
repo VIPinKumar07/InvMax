@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07 09:38 IST",
-  "generated_utc": "2026-08-07T04:08:55+00:00",
+  "generated_at": "2026-08-08 08:37 IST",
+  "generated_utc": "2026-08-08T03:07:44+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -35,22 +35,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-07 09:39 IST",
+      "asof": "2026-08-08 08:37 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-06",
+        "asof": "2026-08-07",
         "rates": {
-          "EUR": 0.8664,
-          "GBP": 0.74255,
-          "INR": 95.23,
-          "JPY": 157.83
+          "EUR": 0.86693,
+          "GBP": 0.74352,
+          "INR": 95.21,
+          "JPY": 158.34
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-07",
-            "v": 87.49
-          },
           {
             "date": "2025-08-08",
             "v": 87.62
@@ -1066,132 +1062,136 @@
           {
             "date": "2026-08-06",
             "v": 95.23
+          },
+          {
+            "date": "2026-08-07",
+            "v": 95.21
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-07 09:39 IST",
+      "asof": "2026-08-08 08:37 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW",
-          "nav": 107.0834,
-          "date": "06-08-2026",
-          "ret1y_pct": -1.06,
+          "nav": 107.0971,
+          "date": "07-08-2026",
+          "ret1y_pct": -1.07,
           "series": [
-            108.76,
-            102.479,
-            103.3491,
-            103.8183,
-            106.1959,
-            107.5193,
-            107.4384,
-            108.1729,
-            108.0899,
-            108.5131,
-            109.6125,
-            110.2658,
-            110.2247,
-            110.0855,
-            111.0261,
-            103.9142,
-            104.8762,
-            105.3084,
-            106.5587,
-            107.0834
+            108.7654,
+            102.5067,
+            103.3327,
+            103.8685,
+            106.2867,
+            107.5534,
+            107.4577,
+            108.1979,
+            108.0985,
+            108.5708,
+            109.6404,
+            110.2743,
+            110.2799,
+            110.0922,
+            111.0653,
+            103.9918,
+            104.8696,
+            105.5793,
+            106.5776,
+            107.0971
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 113.1834,
-          "date": "06-08-2026",
-          "ret1y_pct": 4.71,
+          "nav": 112.7941,
+          "date": "07-08-2026",
+          "ret1y_pct": 4.92,
           "series": [
-            105.2098,
-            100.5817,
-            95.4362,
-            101.0307,
-            104.8398,
-            107.0655,
-            109.8742,
-            107.3597,
-            108.2047,
-            108.1386,
-            110.4409,
-            110.8486,
-            111.1802,
-            109.288,
-            106.7297,
-            99.3876,
-            107.15,
-            102.4845,
-            107.9598,
-            113.1834
+            107.1106,
+            101.3764,
+            95.5268,
+            100.777,
+            103.5049,
+            107.5533,
+            110.133,
+            108.1149,
+            108.7666,
+            108.9326,
+            110.4431,
+            111.1487,
+            111.2492,
+            109.0137,
+            105.405,
+            103.2833,
+            105.6066,
+            103.5259,
+            108.7362,
+            112.7941
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Growth Option - Direct Plan",
-          "nav": 235.895,
-          "date": "06-08-2026",
-          "ret1y_pct": 10.04,
+          "nav": 236.719,
+          "date": "07-08-2026",
+          "ret1y_pct": 10.24,
           "series": [
-            207.014,
-            194.886,
-            187.775,
-            191.35,
-            195.999,
-            207.167,
-            213.831,
-            214.192,
-            211.708,
-            213.332,
-            222.577,
-            225.84,
-            224.745,
-            218.917,
-            214.603,
-            204.438,
-            223.738,
-            218.0,
-            226.564,
-            235.895
+            207.408,
+            197.604,
+            185.65,
+            189.936,
+            196.381,
+            207.48,
+            214.426,
+            213.152,
+            210.116,
+            210.143,
+            221.524,
+            225.889,
+            225.02,
+            224.323,
+            217.045,
+            205.14,
+            223.895,
+            220.409,
+            228.93,
+            236.719
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan",
-          "nav": 241.0808,
-          "date": "06-08-2026",
-          "ret1y_pct": 0.2,
+          "nav": 240.4883,
+          "date": "07-08-2026",
+          "ret1y_pct": -0.18,
           "series": [
-            228.519,
-            222.9222,
-            220.8681,
-            228.1219,
-            234.4494,
-            238.783,
-            246.8836,
-            240.7198,
-            239.9102,
-            241.6453,
-            251.4103,
-            254.3716,
-            253.8755,
-            243.864,
-            238.033,
-            223.2964,
-            236.491,
-            225.2052,
-            233.2615,
-            241.0808
+            228.2691,
+            223.4019,
+            219.7375,
+            226.3685,
+            234.5196,
+            239.5762,
+            248.1152,
+            239.239,
+            237.86,
+            239.3506,
+            249.8968,
+            252.975,
+            254.0383,
+            250.0704,
+            240.8058,
+            224.7936,
+            235.0262,
+            226.3617,
+            234.0591,
+            240.4883
           ]
         }
       ]
@@ -1207,27 +1207,34 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-07 09:40 IST",
+      "asof": "2026-08-08 08:38 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "06-Aug-2026",
-          "buy": 19723.68,
-          "sell": 15710.08,
-          "net": 4013.6
+          "date": "07-Aug-2026",
+          "buy": 15679.58,
+          "sell": 15444.02,
+          "net": 235.56
         },
         "fii": {
-          "date": "06-Aug-2026",
-          "buy": 16161.35,
-          "sell": 16179.21,
-          "net": -17.86
+          "date": "07-Aug-2026",
+          "buy": 12941.31,
+          "sell": 12461.07,
+          "net": 480.24
         }
       }
     },
     "news": {
-      "asof": "2026-08-07 09:40 IST",
+      "asof": "2026-08-08 08:38 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Urban Company's latest results, the Ardee Industries IPO, and more...",
+          "url": "https://finshots.in/archive/urban-companys-latest-results-the-ardee-industries-ipo-and-more/",
+          "published": "Sat, 08 Aug 2026 01:30:24 GMT"
+        },
         {
           "source": "Finshots Daily",
           "weight": "high",
@@ -1264,95 +1271,88 @@
           "published": "Mon, 03 Aug 2026 01:30:03 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-          "url": "https://finshots.in/archive/ayurvedic-cannabis-gummies-taxes-on-pokemon-card-sales-and-more/",
-          "published": "Sun, 02 Aug 2026 01:30:29 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-sp-closes-at-record-high-as-soft-jobs-report-eases-rate-hike-concerns/articleshow/133041941.cms",
+          "published": "Sat, 08 Aug 2026 01:38:04 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Hindustan Aeronautics among 4 stocks flashing bullish signals, hinting at a possible uptrend",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindustan-aeronautics-among-4-stocks-flashing-bullish-signals-hinting-at-a-possible-uptrend/slideshow/133020514.cms",
-          "published": "Fri, 07 Aug 2026 09:16:56 +0530"
+          "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/market-cuts-odds-of-fed-hike-after-jobs-data-but-economists-still-see-case-for-tightening/articleshow/133040583.cms",
+          "published": "Fri, 07 Aug 2026 23:50:08 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Optimystix Entertainment IPO opens today: GMP, price band, subscription dates and key details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/optimystix-entertainment-ipo-opens-today-gmp-price-band-subscription-dates-and-key-details/articleshow/133020431.cms",
-          "published": "Fri, 07 Aug 2026 09:15:40 +0530"
+          "title": "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dollar-falls-against-yen-euro-as-weak-us-jobs-data-clouds-fed-outlook/articleshow/133040262.cms",
+          "published": "Fri, 07 Aug 2026 23:34:12 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Ola Electric shares jump 31% in 6 months. Should you buy, sell or hold?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ola-electric-shares-jump-31-in-6-months-should-you-buy-sell-or-hold/articleshow/133020396.cms",
-          "published": "Fri, 07 Aug 2026 09:12:22 +0530"
+          "title": "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/raymond-realty-q1-net-profit-falls-19-pc-to-rs-13-43-cr-on-higher-expenses/articleshow/133037906.cms",
+          "published": "Fri, 07 Aug 2026 21:27:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Kalyan Jewellers among 5 F&O stocks with a sharp rise in futures open interest",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kalyan-jewellers-among-5-fampo-stocks-with-a-sharp-rise-in-futures-open-interest/slideshow/133020372.cms",
-          "published": "Fri, 07 Aug 2026 09:04:50 +0530"
+          "title": "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hits-seven-week-high-as-weak-u-s-jobs-data-dents-rate-hike-bets/articleshow/133037877.cms",
+          "published": "Fri, 07 Aug 2026 21:25:36 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "FII exodus! Top 10 stocks which saw sharpest decline in foreign capital in Q1. See full list",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fii-exodus-top-10-stocks-which-saw-sharpest-decline-in-foreign-capital-in-q1-see-full-list/slideshow/133020329.cms",
-          "published": "Fri, 07 Aug 2026 08:56:11 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "SBI Q1 results preview: Will India's largest public bank report a decline in profit?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-q1-results-preview-will-indias-largest-public-bank-report-a-decline-in-profit/articleshow/133020164.cms",
-          "published": "Fri, 07 Aug 2026 08:49:20 +0530"
+          "title": "Airbnb shares surge 15% to four-year high on raised forecast, AI gains",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/airbnb-shares-surge-15-to-four-year-high-on-raised-forecast-ai-gains/articleshow/133036764.cms",
+          "published": "Fri, 07 Aug 2026 20:07:50 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Rupee opens 6 paise lower at 95.28 against US dollar amid spike in crude oil prices",
-          "url": "https://www.livemint.com/market/stock-market-news/rupee-opens-6-paise-lower-at-95-28-against-us-dollar-amid-spike-in-crude-oil-prices-11786073687343.html",
-          "published": "Fri, 07 Aug 2026 09:07:38 +0530"
+          "title": "Buy or sell: Sumeet Bagadia recommends three stocks to buy on Monday — 10 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-sumeet-bagadia-recommends-three-stocks-to-buy-on-monday-10-august-2026-11786154773920.html",
+          "published": "Sat, 08 Aug 2026 08:11:54 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nikkei, Kospi to US stocks: Global equity heatmap before opening bell of Indian stock market on Friday — 7 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/nikkei-225-kospi-stocks-us-stock-market-global-markets-equity-heatmap-before-opening-bell-indian-stock-market-11786069670487.html",
-          "published": "Fri, 07 Aug 2026 09:01:47 +0530"
+          "title": "What are the pros and cons of investing in Ather Energy?",
+          "url": "https://www.livemint.com/market/stock-market-news/ather-energy-share-price-ather-energy-stock-analysis-11786106371536.html",
+          "published": "Sat, 08 Aug 2026 07:00:53 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Three monopoly stocks where FIIs increased their stake in June quarter",
-          "url": "https://www.livemint.com/market/stock-market-news/three-monopoly-stocks-where-fiis-increased-their-stake-in-june-quarter-11786016489334.html",
-          "published": "Fri, 07 Aug 2026 09:00:37 +0530"
+          "title": "Short-Term Treasuries Cap Biggest Weekly Rally Since May on Data",
+          "url": "https://www.livemint.com/market/shortterm-treasuries-cap-biggest-weekly-rally-since-may-on-data-11786134305338.html",
+          "published": "Sat, 08 Aug 2026 01:55:04 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "LEAP India IPO Day 1: Issue opens today. GMP hints 12% listing gain. Check key dates, review. Apply or skip?",
-          "url": "https://www.livemint.com/market/ipo/leap-india-ipo-gmp-leap-india-ipo-expected-listing-price-leap-india-ipo-review-leap-india-ipo-details-leap-india-ipo-11786071708789.html",
-          "published": "Fri, 07 Aug 2026 08:55:59 +0530"
+          "title": "Treasury yields fall as jobs report dashes hike bets",
+          "url": "https://www.livemint.com/market/treasury-yields-fall-as-jobs-report-dashes-hike-bets-11786130890731.html",
+          "published": "Sat, 08 Aug 2026 00:58:10 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Shares to buy or sell: Chandan Taparia of Motilal Oswal recommends three stocks to buy today - 7 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/shares-to-buy-or-sell-chandan-taparia-of-motilal-oswal-recommends-three-stocks-to-buy-today-7-august-2026-11786070755187.html",
-          "published": "Fri, 07 Aug 2026 08:24:14 +0530"
+          "title": "Gold hits seven-week high as weak US jobs data dents rate hike bets",
+          "url": "https://www.livemint.com/market/gold-hits-seven-week-high-as-weak-us-jobs-data-dents-rate-hike-bets-11786129243519.html",
+          "published": "Sat, 08 Aug 2026 00:30:43 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market today: Gift Nifty hints a gap-down start; eight day trading stocks to buy on Friday, 7 August",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-gap-down-start-eight-day-trading-stocks-to-buy-on-friday-7-august-11786068461100.html",
-          "published": "Fri, 07 Aug 2026 08:14:51 +0530"
+          "title": "Equities poised for best week since April as payrolls surprise eases rate-hike concerns",
+          "url": "https://www.livemint.com/market/equities-poised-for-best-week-since-april-as-payrolls-surprise-eases-rate-hike-concerns-11786127839882.html",
+          "published": "Sat, 08 Aug 2026 00:07:19 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1385,53 +1385,61 @@
       ]
     },
     "narrative": {
-      "status": "carried",
-      "generated_at": "2026-08-07 03:41 IST",
+      "status": "live",
+      "generated_at": "2026-08-08 08:38 IST",
       "model": "llama-3.3-70b-versatile",
-      "regime_read": "The USD/INR rate has moved to 95.23, a 0.11 increase from the previous day's 95.12. DII flows remain positive with a net inflow of ₹4,014 Cr, while FII net flows were ₹-18 Cr, indicating a continued cautious stance from foreign investors. The significant increase in DII flows is notable, suggesting domestic investors are becoming more aggressive in their investment approach. The current trends indicate a mixed sentiment, with domestic investors being bullish and foreign investors being cautious.",
+      "regime_read": "The FII net flows have flipped direction to ₹480 Cr, while DII flows remain positive at ₹236 Cr. The USD/INR rate has decreased to 95.21, a 0.02 decrease from the previous day's 95.23. This shift in FII flows indicates a change in foreign investor sentiment, which may impact the market dynamics. The current trends suggest a potential increase in foreign investment, which could influence the market's overall direction.",
       "hot_notes": {
-        "conservative": "DII flows at ₹4,014 Cr",
-        "balanced": "FII net flows at ₹-18 Cr",
-        "aggressive": "USD/INR at 95.23",
-        "special": "DII flows increased significantly"
+        "conservative": "DII flows at ₹236 Cr",
+        "balanced": "FII net flows at ₹480 Cr",
+        "aggressive": "USD/INR at 95.21",
+        "special": "FII flows flipped direction"
       },
-      "research_note": "The increase in DII flows and the continued cautious stance from foreign investors may indicate a shift in market dynamics. The significant increase in DII flows could be a counterbalancing factor to the cautious foreign investment sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic investment sentiment.",
-      "confidence": "medium",
-      "checked_at": "2026-08-07 09:40 IST",
-      "unchanged_since": "2026-08-07 03:41 IST"
+      "research_note": "The change in FII flows and the continued positive DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially counterbalance the cautious sentiment seen in previous days.",
+      "confidence": "medium"
     }
   },
   "key_figures": {
-    "date": "2026-08-07 09:40 IST",
+    "date": "2026-08-08 08:38 IST",
     "usdinr": {
-      "last": 95.23,
-      "date": "2026-08-06"
+      "last": 95.21,
+      "date": "2026-08-07"
     },
     "dii_net": {
-      "net": 4013.6,
-      "date": "06-Aug-2026"
+      "net": 235.56,
+      "date": "07-Aug-2026"
     },
     "fii_net": {
-      "net": -17.86,
-      "date": "06-Aug-2026"
+      "net": 480.24,
+      "date": "07-Aug-2026"
     },
     "headlines": [
+      "Urban Company's latest results, the Ardee Industries IPO, and more...",
       "Urban Company's best quarter post its IPO?",
       "Can REITs & InvITs become India's next foreign investment story?",
       "The Ardee Industries IPO explained",
       "Can India's oceans power our next economic miracle?",
       "How the West Asia crisis is rattling India's real estate sector",
-      "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-      "Hindustan Aeronautics among 4 stocks flashing bullish signals, hinting at a possible uptrend",
-      "Optimystix Entertainment IPO opens today: GMP, price band, subscription dates and key details",
-      "Ola Electric shares jump 31% in 6 months. Should you buy, sell or hold?",
-      "Kalyan Jewellers among 5 F&O stocks with a sharp rise in futures open interest",
-      "FII exodus! Top 10 stocks which saw sharpest decline in foreign capital in Q1. See full list",
-      "SBI Q1 results preview: Will India's largest public bank report a decline in profit?"
+      "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
+      "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+      "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
+      "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
+      "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
+      "Airbnb shares surge 15% to four-year high on raised forecast, AI gains"
     ]
   },
   "changes": {
     "material": [
+      {
+        "kind": "flow",
+        "label": "DII flows",
+        "detail": "₹236 Cr"
+      },
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹480 Cr — direction flipped"
+      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1442,17 +1450,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.23 (+0.00%)"
+        "detail": "₹95.21 (-0.02%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹4,014 Cr"
+        "detail": "₹236 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-18 Cr"
+        "detail": "₹480 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1460,15 +1468,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-07 03:41 IST",
+    "since": "2026-08-07 09:40 IST",
     "new_headlines": [
-      "Urban Company's best quarter post its IPO?",
-      "Hindustan Aeronautics among 4 stocks flashing bullish signals, hinting at a possible uptrend",
-      "Optimystix Entertainment IPO opens today: GMP, price band, subscription dates and key details",
-      "Ola Electric shares jump 31% in 6 months. Should you buy, sell or hold?",
-      "Kalyan Jewellers among 5 F&O stocks with a sharp rise in futures open interest",
-      "FII exodus! Top 10 stocks which saw sharpest decline in foreign capital in Q1. See full list",
-      "SBI Q1 results preview: Will India's largest public bank report a decline in profit?"
+      "Urban Company's latest results, the Ardee Industries IPO, and more...",
+      "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
+      "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
+      "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
+      "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
+      "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
+      "Airbnb shares surge 15% to four-year high on raised forecast, AI gains"
     ]
   },
   "summary": {
