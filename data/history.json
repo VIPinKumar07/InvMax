@@ -317,5 +317,34 @@
    "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
    "Airbnb shares surge 15% to four-year high on raised forecast, AI gains"
   ]
+ },
+ {
+  "date": "2026-08-09 08:46 IST",
+  "usdinr": {
+   "last": 95.21,
+   "date": "2026-08-07"
+  },
+  "dii_net": {
+   "net": 235.56,
+   "date": "07-Aug-2026"
+  },
+  "fii_net": {
+   "net": 480.24,
+   "date": "07-Aug-2026"
+  },
+  "headlines": [
+   "The thriving business of cheap luxury, how Hyrox makes money, and more...",
+   "Urban Company's latest results, the Ardee Industries IPO, and more...",
+   "Urban Company's best quarter post its IPO?",
+   "Can REITs & InvITs become India's next foreign investment story?",
+   "The Ardee Industries IPO explained",
+   "Can India's oceans power our next economic miracle?",
+   "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
+   "India's resilient economy to support markets but global risks remain elevated: Sebi",
+   "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
+   "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
+   "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
+   "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru"
+  ]
  }
 ]

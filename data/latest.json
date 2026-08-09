@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08 08:37 IST",
-  "generated_utc": "2026-08-08T03:07:44+00:00",
+  "generated_at": "2026-08-09 08:45 IST",
+  "generated_utc": "2026-08-09T03:15:05+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -35,7 +35,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-08 08:37 IST",
+      "asof": "2026-08-09 08:45 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1071,7 +1071,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-08 08:37 IST",
+      "asof": "2026-08-09 08:45 IST",
       "status": "ok",
       "data": [
         {
@@ -1207,7 +1207,7 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-08 08:38 IST",
+      "asof": "2026-08-09 08:46 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1225,9 +1225,16 @@
       }
     },
     "news": {
-      "asof": "2026-08-08 08:38 IST",
+      "asof": "2026-08-09 08:46 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The thriving business of cheap luxury, how Hyrox makes money, and more...",
+          "url": "https://finshots.in/archive/thriving-business-cheap-luxury-how-hyrox-makes-money-and-more/",
+          "published": "Sun, 09 Aug 2026 01:30:28 GMT"
+        },
         {
           "source": "Finshots Daily",
           "weight": "high",
@@ -1264,95 +1271,88 @@
           "published": "Tue, 04 Aug 2026 01:30:23 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "How the West Asia crisis is rattling India's real estate sector",
-          "url": "https://finshots.in/archive/how-the-west-asia-crisis-is-rattling-indias-real-estate-sector/",
-          "published": "Mon, 03 Aug 2026 01:30:03 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/delhivery-q1-results-net-profit-tumbles-65-yoy-to-rs-32-crore-but-revenue-rises-28/articleshow/133051939.cms",
+          "published": "Sat, 08 Aug 2026 17:20:13 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-sp-closes-at-record-high-as-soft-jobs-report-eases-rate-hike-concerns/articleshow/133041941.cms",
-          "published": "Sat, 08 Aug 2026 01:38:04 +0530"
+          "title": "India's resilient economy to support markets but global risks remain elevated: Sebi",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-resilient-economy-to-support-markets-but-global-risks-remain-elevated-sebi/articleshow/133051804.cms",
+          "published": "Sat, 08 Aug 2026 17:09:40 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/market-cuts-odds-of-fed-hike-after-jobs-data-but-economists-still-see-case-for-tightening/articleshow/133040583.cms",
-          "published": "Fri, 07 Aug 2026 23:50:08 +0530"
+          "title": "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/foreign-flows-into-indian-bonds-may-remain-muted-despite-tax-relief-sbi-funds/articleshow/133051511.cms",
+          "published": "Sat, 08 Aug 2026 16:59:53 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/dollar-falls-against-yen-euro-as-weak-us-jobs-data-clouds-fed-outlook/articleshow/133040262.cms",
-          "published": "Fri, 07 Aug 2026 23:34:12 +0530"
+          "title": "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/apollo-micro-systems-q1-results-firm-posts-record-june-quarter-profit-at-rs-25-crore-revenue-surges-88-yoy/articleshow/133051313.cms",
+          "published": "Sat, 08 Aug 2026 16:59:34 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/raymond-realty-q1-net-profit-falls-19-pc-to-rs-13-43-cr-on-higher-expenses/articleshow/133037906.cms",
-          "published": "Fri, 07 Aug 2026 21:27:29 +0530"
+          "title": "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/blackstones-ags-health-files-updated-draft-papers-for-500-million-india-ipo/articleshow/133050913.cms",
+          "published": "Sat, 08 Aug 2026 16:18:11 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hits-seven-week-high-as-weak-u-s-jobs-data-dents-rate-hike-bets/articleshow/133037877.cms",
-          "published": "Fri, 07 Aug 2026 21:25:36 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Airbnb shares surge 15% to four-year high on raised forecast, AI gains",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/airbnb-shares-surge-15-to-four-year-high-on-raised-forecast-ai-gains/articleshow/133036764.cms",
-          "published": "Fri, 07 Aug 2026 20:07:50 +0530"
+          "title": "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru",
+          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sumadhura-group-to-invest-rs-2000-cr-on-construction-of-housing-project-in-bengaluru/articleshow/133050891.cms",
+          "published": "Sat, 08 Aug 2026 16:16:12 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell: Sumeet Bagadia recommends three stocks to buy on Monday — 10 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-sumeet-bagadia-recommends-three-stocks-to-buy-on-monday-10-august-2026-11786154773920.html",
-          "published": "Sat, 08 Aug 2026 08:11:54 +0530"
+          "title": "Buy or sell: Ganesh Dongre of Anand Rathi recommends 3 stocks to buy on Monday - 10 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-ganesh-dongre-of-anand-rathi-recommends-3-stocks-to-buy-on-monday-10-august-2026-11786243110500.html",
+          "published": "Sun, 09 Aug 2026 08:30:37 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "What are the pros and cons of investing in Ather Energy?",
-          "url": "https://www.livemint.com/market/stock-market-news/ather-energy-share-price-ather-energy-stock-analysis-11786106371536.html",
-          "published": "Sat, 08 Aug 2026 07:00:53 +0530"
+          "title": "Q1 results FY27 to US-Iran war: Top five triggers that may dictate the Indian stock market this week",
+          "url": "https://www.livemint.com/market/stock-market-news/q1-results-fy27-to-us-iran-war-top-five-triggers-that-may-dictate-the-indian-stock-market-this-week-11786240881737.html",
+          "published": "Sun, 09 Aug 2026 08:03:14 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Short-Term Treasuries Cap Biggest Weekly Rally Since May on Data",
-          "url": "https://www.livemint.com/market/shortterm-treasuries-cap-biggest-weekly-rally-since-may-on-data-11786134305338.html",
-          "published": "Sat, 08 Aug 2026 01:55:04 +0530"
+          "title": "Korea Volatility Spike Ebbs as Leveraged Trades Are Flushed Out",
+          "url": "https://www.livemint.com/market/korea-volatility-spike-ebbs-as-leveraged-trades-are-flushed-out-11786234691643.html",
+          "published": "Sun, 09 Aug 2026 05:48:11 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Treasury yields fall as jobs report dashes hike bets",
-          "url": "https://www.livemint.com/market/treasury-yields-fall-as-jobs-report-dashes-hike-bets-11786130890731.html",
-          "published": "Sat, 08 Aug 2026 00:58:10 +0530"
+          "title": "A volatile week for tech revealed new stock narratives—and 1 bargain",
+          "url": "https://www.livemint.com/market/stock-market-news/a-volatile-week-for-tech-revealed-new-stock-narratives-and-1-bargain-11786196401734.html",
+          "published": "Sat, 08 Aug 2026 19:12:38 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold hits seven-week high as weak US jobs data dents rate hike bets",
-          "url": "https://www.livemint.com/market/gold-hits-seven-week-high-as-weak-us-jobs-data-dents-rate-hike-bets-11786129243519.html",
-          "published": "Sat, 08 Aug 2026 00:30:43 +0530"
+          "title": "A Tough Week for Crypto Has Fans Downing Drinks at a Bitcoin Bar",
+          "url": "https://www.livemint.com/market/a-tough-week-for-crypto-has-fans-downing-drinks-at-a-bitcoin-bar-11786195190000.html",
+          "published": "Sat, 08 Aug 2026 18:49:49 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Equities poised for best week since April as payrolls surprise eases rate-hike concerns",
-          "url": "https://www.livemint.com/market/equities-poised-for-best-week-since-april-as-payrolls-surprise-eases-rate-hike-concerns-11786127839882.html",
-          "published": "Sat, 08 Aug 2026 00:07:19 +0530"
+          "title": "Gold price jumps as reopening of Strait of Hormuz buzz dents US Fed rate-hike hopes. Is it the right time to buy gold?",
+          "url": "https://www.livemint.com/market/commodities/gold-rate-today-jumps-as-strait-of-hormuz-reopening-buzz-dents-us-fed-rate-hike-hopes-is-it-the-right-time-to-buy-gold-11786181435240.html",
+          "published": "Sat, 08 Aug 2026 16:13:06 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1385,7 +1385,7 @@
       ]
     },
     "narrative": {
-      "status": "live",
+      "status": "carried",
       "generated_at": "2026-08-08 08:38 IST",
       "model": "llama-3.3-70b-versatile",
       "regime_read": "The FII net flows have flipped direction to ₹480 Cr, while DII flows remain positive at ₹236 Cr. The USD/INR rate has decreased to 95.21, a 0.02 decrease from the previous day's 95.23. This shift in FII flows indicates a change in foreign investor sentiment, which may impact the market dynamics. The current trends suggest a potential increase in foreign investment, which could influence the market's overall direction.",
@@ -1396,11 +1396,13 @@
         "special": "FII flows flipped direction"
       },
       "research_note": "The change in FII flows and the continued positive DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially counterbalance the cautious sentiment seen in previous days.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "checked_at": "2026-08-09 08:46 IST",
+      "unchanged_since": "2026-08-08 08:38 IST"
     }
   },
   "key_figures": {
-    "date": "2026-08-08 08:38 IST",
+    "date": "2026-08-09 08:46 IST",
     "usdinr": {
       "last": 95.21,
       "date": "2026-08-07"
@@ -1414,32 +1416,22 @@
       "date": "07-Aug-2026"
     },
     "headlines": [
+      "The thriving business of cheap luxury, how Hyrox makes money, and more...",
       "Urban Company's latest results, the Ardee Industries IPO, and more...",
       "Urban Company's best quarter post its IPO?",
       "Can REITs & InvITs become India's next foreign investment story?",
       "The Ardee Industries IPO explained",
       "Can India's oceans power our next economic miracle?",
-      "How the West Asia crisis is rattling India's real estate sector",
-      "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
-      "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-      "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
-      "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
-      "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
-      "Airbnb shares surge 15% to four-year high on raised forecast, AI gains"
+      "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
+      "India's resilient economy to support markets but global risks remain elevated: Sebi",
+      "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
+      "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
+      "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
+      "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹236 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹480 Cr — direction flipped"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1450,7 +1442,7 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.21 (-0.02%)"
+        "detail": "₹95.21 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1460,7 +1452,7 @@
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹480 Cr — direction flipped"
+        "detail": "₹480 Cr"
       },
       {
         "kind": "news",
@@ -1468,15 +1460,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-07 09:40 IST",
+    "since": "2026-08-08 08:38 IST",
     "new_headlines": [
-      "Urban Company's latest results, the Ardee Industries IPO, and more...",
-      "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
-      "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-      "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
-      "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
-      "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
-      "Airbnb shares surge 15% to four-year high on raised forecast, AI gains"
+      "The thriving business of cheap luxury, how Hyrox makes money, and more...",
+      "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
+      "India's resilient economy to support markets but global risks remain elevated: Sebi",
+      "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
+      "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
+      "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
+      "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru"
     ]
   },
   "summary": {
