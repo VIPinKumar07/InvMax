@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09 08:45 IST",
-  "generated_utc": "2026-08-09T03:15:05+00:00",
+  "generated_at": "2026-08-10 08:55 IST",
+  "generated_utc": "2026-08-10T03:25:12+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -35,7 +35,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-09 08:45 IST",
+      "asof": "2026-08-10 08:55 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1071,7 +1071,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-09 08:45 IST",
+      "asof": "2026-08-10 08:55 IST",
       "status": "ok",
       "data": [
         {
@@ -1207,7 +1207,7 @@
       "data": null
     },
     "flows": {
-      "asof": "2026-08-09 08:46 IST",
+      "asof": "2026-08-10 08:56 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1225,9 +1225,16 @@
       }
     },
     "news": {
-      "asof": "2026-08-09 08:46 IST",
+      "asof": "2026-08-10 08:56 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "What went wrong with South Korea’s AI boom?",
+          "url": "https://finshots.in/archive/south-korea-ai-boom/",
+          "published": "Mon, 10 Aug 2026 01:30:25 GMT"
+        },
         {
           "source": "Finshots Daily",
           "weight": "high",
@@ -1264,95 +1271,88 @@
           "published": "Wed, 05 Aug 2026 01:30:51 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Can India's oceans power our next economic miracle?",
-          "url": "https://finshots.in/archive/samudra-manthan-indias-oceans-power-economic-miracle/",
-          "published": "Tue, 04 Aug 2026 01:30:23 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Anawil Wire & Engineering shares to list today; GMP points to 21% premium ahead of debut",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/anawil-wire-engineering-shares-to-list-today-gmp-points-to-21-premium-ahead-of-debut/articleshow/133079189.cms",
+          "published": "Mon, 10 Aug 2026 08:43:07 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/delhivery-q1-results-net-profit-tumbles-65-yoy-to-rs-32-crore-but-revenue-rises-28/articleshow/133051939.cms",
-          "published": "Sat, 08 Aug 2026 17:20:13 +0530"
+          "title": "Japan's Nikkei rises 2% as AI stocks rally, Middle East worries cap gains",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/japans-nikkei-rises-2-as-ai-stocks-rally-middle-east-worries-cap-gains/articleshow/133079117.cms",
+          "published": "Mon, 10 Aug 2026 08:39:30 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "India's resilient economy to support markets but global risks remain elevated: Sebi",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indias-resilient-economy-to-support-markets-but-global-risks-remain-elevated-sebi/articleshow/133051804.cms",
-          "published": "Sat, 08 Aug 2026 17:09:40 +0530"
+          "title": "How Adani’s $125 billion capex boom is creating new winners on Dalal Street",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-adanis-125-billion-capex-boom-is-creating-new-winners-on-dalal-street/articleshow/133079045.cms",
+          "published": "Mon, 10 Aug 2026 08:37:33 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/foreign-flows-into-indian-bonds-may-remain-muted-despite-tax-relief-sbi-funds/articleshow/133051511.cms",
-          "published": "Sat, 08 Aug 2026 16:59:53 +0530"
+          "title": "Technocraft Ventures IPO Day 2: GMP signals 11% premium, Issue subscribed 2.59x: Should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/technocraft-ventures-ipo-day-2-gmp-signals-11-premium-issue-subscribed-2-59x-should-you-subscribe/articleshow/133078950.cms",
+          "published": "Mon, 10 Aug 2026 08:34:49 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/apollo-micro-systems-q1-results-firm-posts-record-june-quarter-profit-at-rs-25-crore-revenue-surges-88-yoy/articleshow/133051313.cms",
-          "published": "Sat, 08 Aug 2026 16:59:34 +0530"
+          "title": "LEAP India IPO Day 2: Check GMP, subscription status, issue details; Should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/leap-india-ipo-day-2-check-gmp-subscription-status-issue-details-should-you-subscribe/articleshow/133078722.cms",
+          "published": "Mon, 10 Aug 2026 08:27:39 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/blackstones-ags-health-files-updated-draft-papers-for-500-million-india-ipo/articleshow/133050913.cms",
-          "published": "Sat, 08 Aug 2026 16:18:11 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru",
-          "url": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/sumadhura-group-to-invest-rs-2000-cr-on-construction-of-housing-project-in-bengaluru/articleshow/133050891.cms",
-          "published": "Sat, 08 Aug 2026 16:16:12 +0530"
+          "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto's six-month beta reflects stability",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-live-updates-10-aug-2026/liveblog/133078469.cms",
+          "published": "Mon, 10 Aug 2026 08:17:55 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell: Ganesh Dongre of Anand Rathi recommends 3 stocks to buy on Monday - 10 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-ganesh-dongre-of-anand-rathi-recommends-3-stocks-to-buy-on-monday-10-august-2026-11786243110500.html",
-          "published": "Sun, 09 Aug 2026 08:30:37 +0530"
+          "title": "Molbio Diagnostics IPO Day 1: Issue opens today. GMP hints 16% listing pop. Apply or not?",
+          "url": "https://www.livemint.com/market/ipo/molbio-diagnostics-ipo-gmp-molbio-diagnostics-ipo-anchor-round-molbio-diagnostics-ipo-review-molbio-diagnostics-ipo-11786329424313.html",
+          "published": "Mon, 10 Aug 2026 08:39:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Q1 results FY27 to US-Iran war: Top five triggers that may dictate the Indian stock market this week",
-          "url": "https://www.livemint.com/market/stock-market-news/q1-results-fy27-to-us-iran-war-top-five-triggers-that-may-dictate-the-indian-stock-market-this-week-11786240881737.html",
-          "published": "Sun, 09 Aug 2026 08:03:14 +0530"
+          "title": "Q1 results 2026: Vodafone Idea to Bharat Forge among companies to declare Q1 results today; full list here",
+          "url": "https://www.livemint.com/market/stock-market-news/q1-results-2026-vodafone-idea-to-bharat-forge-among-companies-to-declare-q1-results-today-full-list-here-11786328935383.html",
+          "published": "Mon, 10 Aug 2026 08:33:59 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Korea Volatility Spike Ebbs as Leveraged Trades Are Flushed Out",
-          "url": "https://www.livemint.com/market/korea-volatility-spike-ebbs-as-leveraged-trades-are-flushed-out-11786234691643.html",
-          "published": "Sun, 09 Aug 2026 05:48:11 +0530"
+          "title": "Stock market today: Gift Nifty hints a flat start; eight day trading stocks to buy on Monday, 10 August",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-flat-start-eight-day-trading-stocks-to-buy-on-monday-10-august-11786327368428.html",
+          "published": "Mon, 10 Aug 2026 07:59:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "A volatile week for tech revealed new stock narratives—and 1 bargain",
-          "url": "https://www.livemint.com/market/stock-market-news/a-volatile-week-for-tech-revealed-new-stock-narratives-and-1-bargain-11786196401734.html",
-          "published": "Sat, 08 Aug 2026 19:12:38 +0530"
+          "title": "Technocraft Ventures IPO Day 2 LIVE: GMP jumps! Subscription status, review, other details — apply or not?",
+          "url": "https://www.livemint.com/market/ipo/technocraft-ventures-ipo-day-2-live-gmp-jumps-subscription-status-review-other-details-apply-or-not-11786327521476.html",
+          "published": "Mon, 10 Aug 2026 07:57:16 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "A Tough Week for Crypto Has Fans Downing Drinks at a Bitcoin Bar",
-          "url": "https://www.livemint.com/market/a-tough-week-for-crypto-has-fans-downing-drinks-at-a-bitcoin-bar-11786195190000.html",
-          "published": "Sat, 08 Aug 2026 18:49:49 +0530"
+          "title": "Stocks to watch: Vodafone Idea, SBI, Titan among shares in focus today; check list here",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-vodafone-idea-sbi-titan-among-shares-in-focus-today-check-list-here-11786327272358.html",
+          "published": "Mon, 10 Aug 2026 07:51:51 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold price jumps as reopening of Strait of Hormuz buzz dents US Fed rate-hike hopes. Is it the right time to buy gold?",
-          "url": "https://www.livemint.com/market/commodities/gold-rate-today-jumps-as-strait-of-hormuz-reopening-buzz-dents-us-fed-rate-hike-hopes-is-it-the-right-time-to-buy-gold-11786181435240.html",
-          "published": "Sat, 08 Aug 2026 16:13:06 +0530"
+          "title": "Ardee Industries IPO allotment status in focus. GMP, how to check status online — a step-by-step guide",
+          "url": "https://www.livemint.com/market/ipo/ardee-industries-ipo-allotment-status-in-focus-gmp-how-to-check-status-online-a-step-by-step-guide-11786326245081.html",
+          "published": "Mon, 10 Aug 2026 07:31:57 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1397,12 +1397,12 @@
       },
       "research_note": "The change in FII flows and the continued positive DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially counterbalance the cautious sentiment seen in previous days.",
       "confidence": "medium",
-      "checked_at": "2026-08-09 08:46 IST",
+      "checked_at": "2026-08-10 08:56 IST",
       "unchanged_since": "2026-08-08 08:38 IST"
     }
   },
   "key_figures": {
-    "date": "2026-08-09 08:46 IST",
+    "date": "2026-08-10 08:56 IST",
     "usdinr": {
       "last": 95.21,
       "date": "2026-08-07"
@@ -1416,18 +1416,18 @@
       "date": "07-Aug-2026"
     },
     "headlines": [
+      "What went wrong with South Korea’s AI boom?",
       "The thriving business of cheap luxury, how Hyrox makes money, and more...",
       "Urban Company's latest results, the Ardee Industries IPO, and more...",
       "Urban Company's best quarter post its IPO?",
       "Can REITs & InvITs become India's next foreign investment story?",
       "The Ardee Industries IPO explained",
-      "Can India's oceans power our next economic miracle?",
-      "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
-      "India's resilient economy to support markets but global risks remain elevated: Sebi",
-      "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
-      "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
-      "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
-      "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru"
+      "Anawil Wire & Engineering shares to list today; GMP points to 21% premium ahead of debut",
+      "Japan's Nikkei rises 2% as AI stocks rally, Middle East worries cap gains",
+      "How Adani’s $125 billion capex boom is creating new winners on Dalal Street",
+      "Technocraft Ventures IPO Day 2: GMP signals 11% premium, Issue subscribed 2.59x: Should you subscribe?",
+      "LEAP India IPO Day 2: Check GMP, subscription status, issue details; Should you subscribe?",
+      "Bajaj Auto Share Price Live Updates: Bajaj Auto's six-month beta reflects stability"
     ]
   },
   "changes": {
@@ -1460,15 +1460,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-08 08:38 IST",
+    "since": "2026-08-09 08:46 IST",
     "new_headlines": [
-      "The thriving business of cheap luxury, how Hyrox makes money, and more...",
-      "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
-      "India's resilient economy to support markets but global risks remain elevated: Sebi",
-      "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
-      "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
-      "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
-      "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru"
+      "What went wrong with South Korea’s AI boom?",
+      "Anawil Wire & Engineering shares to list today; GMP points to 21% premium ahead of debut",
+      "Japan's Nikkei rises 2% as AI stocks rally, Middle East worries cap gains",
+      "How Adani’s $125 billion capex boom is creating new winners on Dalal Street",
+      "Technocraft Ventures IPO Day 2: GMP signals 11% premium, Issue subscribed 2.59x: Should you subscribe?",
+      "LEAP India IPO Day 2: Check GMP, subscription status, issue details; Should you subscribe?",
+      "Bajaj Auto Share Price Live Updates: Bajaj Auto's six-month beta reflects stability"
     ]
   },
   "summary": {
