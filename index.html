@@ -240,6 +240,23 @@ h2.section-title{font-family:'Fraunces',serif;font-size:clamp(26px,3.4vw,36px);f
 .chg-news a::before{content:'→';color:var(--teal);font-weight:600}
 .chg-news a:hover{color:var(--teal)}
 
+/* ═══ SIGNAL-GROUNDING BANNER (reused across sections) ═══ */
+.signal-lean{display:flex;align-items:flex-start;gap:14px;padding:16px 20px;margin-bottom:24px;border-radius:16px;background:linear-gradient(145deg,var(--surface),#fff);border:1px solid var(--line);box-shadow:var(--shadow-soft)}
+.signal-lean .sl-badge{font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:600;letter-spacing:0.05em;text-transform:uppercase;padding:5px 12px;border-radius:20px;white-space:nowrap;flex:none;margin-top:2px}
+.sl-badge.bullish{color:var(--green-deep);background:rgba(63,185,132,0.14)}
+.sl-badge.bearish{color:var(--rose);background:rgba(255,111,145,0.14)}
+.sl-badge.neutral{color:var(--ink-3);background:rgba(42,36,56,0.06)}
+.signal-lean .sl-body{flex:1;min-width:0}
+.signal-lean .sl-text{font-size:14px;color:var(--ink);line-height:1.55}
+.signal-lean .sl-text b{font-weight:600}
+.signal-lean .sl-meta{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--ink-4);margin-top:6px;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.signal-lean .sl-src{color:var(--teal);font-weight:600;font-family:'Space Grotesk',sans-serif}
+.signal-lean .sl-src:hover{text-decoration:underline}
+.grounded-chip{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;padding:3px 9px;border-radius:8px;background:rgba(53,196,181,0.12);color:var(--teal);display:inline-flex;align-items:center;gap:5px}
+.evidence-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.evidence-pill{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:5px 11px;border-radius:10px;background:var(--surface);color:var(--ink-2);border:1px solid var(--line);display:inline-flex;align-items:center;gap:6px}
+.evidence-pill .ep-dot{width:6px;height:6px;border-radius:50%}
+.evidence-pill a{color:var(--teal);font-weight:600}
 /* ═══ HOT RIGHT NOW ═══ */
 .hot-head{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:18px;margin-bottom:28px}
 .hot-title{font-family:'Fraunces',serif;font-size:clamp(28px,3.8vw,38px);font-weight:700;letter-spacing:-0.02em;display:flex;align-items:center;gap:14px;color:var(--ink)}
@@ -317,6 +334,38 @@ body.full .detail-note{display:none}
 
 /* ═══ HEATMAP ═══ */
 .heatmap-wrap{padding:12px}
+/* ═══ OBSERVED SIGNALS BOARD ═══ */
+.sig-board{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:900px){.sig-board{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.sig-board{grid-template-columns:1fr}}
+.sig-tile{padding:22px;position:relative}
+.sig-tile .st-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.sig-tile .st-name{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;color:var(--ink)}
+.sig-tile .st-dir{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;padding:4px 10px;border-radius:20px}
+.st-dir.bullish{color:var(--green-deep);background:rgba(63,185,132,0.14)}
+.st-dir.bearish{color:var(--rose);background:rgba(255,111,145,0.14)}
+.st-dir.neutral{color:var(--ink-3);background:rgba(42,36,56,0.06)}
+.sig-tile .st-concl{font-family:'Fraunces',serif;font-size:17px;font-weight:500;line-height:1.35;color:var(--ink);margin-bottom:8px}
+.sig-tile .st-read{font-size:13px;color:var(--ink-2);line-height:1.55;margin-bottom:14px}
+.sig-rows{display:flex;flex-direction:column;gap:9px;margin-bottom:14px}
+.sig-row{display:flex;align-items:center;gap:10px}
+.sig-row .sr-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:0.05em;text-transform:uppercase;color:var(--ink-3);min-width:78px}
+.sig-row .sr-bar{flex:1;height:6px;background:rgba(42,36,56,0.06);border-radius:4px;overflow:hidden}
+.sig-row .sr-fill{height:100%;border-radius:4px;transition:width .9s cubic-bezier(.34,1.56,.4,1)}
+.sig-row .sr-concl{font-size:11.5px;color:var(--ink-2);min-width:96px;text-align:right}
+.sig-tile .st-foot{display:flex;align-items:center;justify-content:space-between;gap:8px;border-top:1px solid var(--line);padding-top:12px}
+.sig-tile .st-rule{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--ink-4);line-height:1.4;flex:1}
+.sig-tile .st-src{font-family:'Space Grotesk',sans-serif;font-size:10.5px;font-weight:600;color:var(--teal);white-space:nowrap;display:inline-flex;align-items:center;gap:4px}
+.sig-tile .st-src:hover{text-decoration:underline}
+.sig-cross{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+@media(max-width:900px){.sig-cross{grid-template-columns:1fr}}
+.sig-cross-tile{padding:18px 20px;background:linear-gradient(145deg,var(--surface),#fff);border-radius:16px;border:1px solid var(--line)}
+.sig-cross-tile .sc-label{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.sig-cross-tile .sc-dot{width:7px;height:7px;border-radius:50%}
+.sig-cross-tile .sc-concl{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:var(--ink);line-height:1.4;margin-bottom:5px}
+.sig-cross-tile .sc-read{font-size:12px;color:var(--ink-2);line-height:1.5;margin-bottom:8px}
+.sig-cross-tile .sc-src{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:600;color:var(--teal)}
+.sig-cross-tile .sc-src:hover{text-decoration:underline}
 .heatmap-group{margin-bottom:8px}
 .heatmap-group-title{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:600;letter-spacing:0.02em;color:var(--ink-2);margin-bottom:6px;display:flex;align-items:center;gap:12px;width:100%;background:none;border:none;cursor:pointer;padding:12px 16px;border-radius:14px;transition:background .2s}
 .heatmap-group-title:hover{background:var(--surface)}
@@ -570,7 +619,7 @@ footer{padding:40px 0;margin-top:20px}
     <div class="hot-head">
       <div>
         <div class="hot-title"><span class="hot-flame">🔥</span><span>Where money’s moving now</span></div>
-        <p class="hot-sub">The five most compelling places to put fresh money today — filtered by how much risk you're willing to carry.</p>
+        <p class="hot-sub">The sharpest places to put fresh money today — filtered by how much risk you're willing to carry.</p>
       </div>
       <div class="hot-toggle" id="hotToggle">
         <button data-p="conservative">Conservative</button>
@@ -579,6 +628,7 @@ footer{padding:40px 0;margin-top:20px}
         <button data-p="special">Special</button>
       </div>
     </div>
+    <div id="hotSignalBanner" style="display:none;margin-bottom:16px"></div>
     <div id="hotNote" style="display:none;font-size:14px;color:var(--ink-2);margin-bottom:20px;padding:16px 20px;background:var(--surface);border-radius:16px;border-left:4px solid var(--peach)"></div>
     <div class="hot-grid" id="hotGrid"></div>
     <div class="hot-disc" id="hotDisc">Illustrative research picks · not personalised advice · <a class="hot-cta" href="research.html">see the full thesis desk →</a></div>
@@ -620,11 +670,12 @@ footer{padding:40px 0;margin-top:20px}
 
   <section id="heatmap"><div class="wrap">
     <div class="section-head">
-      <div><span class="eyebrow grad-text-violet">Asset Class Heatmap</span><h2 class="section-title">Who’s hot, who’s not</h2></div>
-      <p class="section-note">Five-dot scale, low to high conviction. A map, not a ranking.</p>
+      <div><span class="eyebrow grad-text-violet">Observed Signals</span><h2 class="section-title">What the data is actually saying</h2></div>
+      <p class="section-note">Every signal is computed from real end-of-day prices by a stated rule — not an opinion. Follow the source link to verify.</p>
     </div>
-    <div class="takeaway">Manufacturing, defense and yield assets lead; small-caps and credit-risk debt lag. Open any category for the detail — tap "Why" on any row for the reasoning.</div>
-    <div class="card heatmap-wrap"><div id="heatmapContainer"></div></div>
+    <div class="takeaway" id="signalHeadline">Reading the tape… observed signals load from the daily price feed.</div>
+    <div class="sig-board" id="signalBoard"></div>
+    <div class="card heatmap-wrap" id="heatmapFallback" style="display:none"><div id="heatmapContainer"></div></div>
   </div></section>
 
   <section id="themes"><div class="wrap">
@@ -657,6 +708,7 @@ footer{padding:40px 0;margin-top:20px}
       </div>
     </div>
     <div class="takeaway">A starting allocation, not a directive — pick the posture that matches your horizon, then pressure-test it against the risks listed.</div>
+    <div id="playbookLean" class="signal-lean" style="display:none"></div>
     <div class="playbook-body">
       <div class="alloc-card card"><div id="allocBars"></div></div>
       <div class="rationale-block">
@@ -683,6 +735,7 @@ footer{padding:40px 0;margin-top:20px}
       <p class="src-note" id="srcGroupNote">Text sources — RSS feeds from publications the narrative reads and cites. Toggle one off to stop reading it; add your own by URL.</p>
       <div id="srcDataSub" class="src-tabs" style="margin-bottom:14px;display:none">
         <button data-t="indices" class="active">Markets &amp; Prices</button>
+        <button data-t="rates">Rates</button>
         <button data-t="macro">Macro</button>
         <button data-t="funds">Funds</button>
         <button data-t="flows">Flows</button>
@@ -1287,6 +1340,10 @@ footer{padding:40px 0;margin-top:20px}
       {id:'cpi_inflation_yoy',name:'CPI inflation (YoY)',series:'WB/WDI/FP.CPI.TOTL.ZG-IN',enabled:true},
       {id:'gdp_growth',name:'GDP growth',series:'WB/WDI/NY.GDP.MKTP.KD.ZG-IN',enabled:true},
       {id:'fx_reserves_usd',name:'FX reserves (USD)',series:'WB/WDI/FI.RES.TOTL.CD-IN',enabled:true}],
+    rates:[
+      {id:'gsec_10y',name:'10-yr G-Sec yield',symbol:'10iny.b',enabled:true},
+      {id:'us_10y',name:'US 10-yr yield',symbol:'10usy.b',enabled:true},
+      {id:'policy_repo',name:'RBI repo rate',symbol:'5.50 (as of 2026-08-06)',enabled:true}],
     funds:[
       {id:'119551',name:'Flexicap (sample)',enabled:true},
       {id:'120503',name:'Large Cap (sample)',enabled:true},
@@ -1295,14 +1352,15 @@ footer{padding:40px 0;margin-top:20px}
     flows:[
       {id:'nse_fii_dii',name:'NSE FII/DII cash-market flows',url:'https://www.nseindia.com/api/fiidiiTradeReact',enabled:true}]
   };
-  const FIELD={news:'url',indices:'symbol',macro:'series',funds:'id',flows:'url'};
-  const PLACEHOLD={news:'RSS feed URL',indices:'Stooq symbol (e.g. ^nsei)',
+  const FIELD={news:'url',indices:'symbol',rates:'symbol',macro:'series',funds:'id',flows:'url'};
+  const PLACEHOLD={news:'RSS feed URL',indices:'Stooq symbol (e.g. ^nsei)',rates:'Stooq symbol (e.g. 10iny.b) or fixed value',
     macro:'DBnomics series path',funds:'AMFI scheme code',flows:'Endpoint URL'};
   // what each data feed powers, shown as a "feeds:" chip on the item
   const FEEDS_LABEL={
     nifty50:'Nifty chart · pulse',sensex:'multi-asset chart',sp500:'global context',
     gold_usd:'gold line · macro tile',brent_oil:'oil line',
     cpi_inflation_yoy:'CPI tile',gdp_growth:'GDP tile',fx_reserves_usd:'reserves',
+    gsec_10y:'10Y tile · yield signal',us_10y:'global rates context',policy_repo:'repo tile · policy signal',
     nse_fii_dii:'flows card'};
   let SRC=JSON.parse(JSON.stringify(SRC_DEFAULTS)), srcGroup='news', srcTab='indices', srcDirty=false;
 
@@ -1408,6 +1466,127 @@ footer{padding:40px 0;margin-top:20px}
       renderHot(document.querySelector('#hotToggle button.active').dataset.p);
     }
 
+    // ---- Observed Signals board (Layer 3, real + sourced) ----
+    const sig=InvMax.signals(d);
+    if(sig){
+      const DIRCOL={bullish:'#3FB984',bearish:'#FF6F91',neutral:'#B4AEC2'};
+      // headline
+      if(sig.headline){
+        const h=sig.headline;
+        const srcLink = h.source ? ` <a href="${h.source.url}" target="_blank" rel="noopener" style="color:var(--teal);font-family:'Space Grotesk';font-size:12px;font-weight:600">${h.source.name} ↗</a>` : '';
+        document.getElementById('signalHeadline').innerHTML =
+          `<b style="color:var(--ink)">${h.conclusion}.</b> ${h.reading}${srcLink}`;
+      }
+      const board=document.getElementById('signalBoard');
+      let html='';
+      // cross-asset regime tiles first (the connective read)
+      if((sig.cross_asset||[]).length){
+        html+='<div class="sig-cross">'+sig.cross_asset.map(c=>{
+          const src=c.source?`<a class="sc-src" href="${c.source.url}" target="_blank" rel="noopener">${c.source.name} ↗</a>`:'';
+          return `<div class="sig-cross-tile">
+            <div class="sc-label"><span class="sc-dot" style="background:${DIRCOL[c.direction]}"></span>${c.label}</div>
+            <div class="sc-concl">${c.conclusion}</div>
+            <div class="sc-read">${c.reading}</div>
+            <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
+              <span style="font-family:'IBM Plex Mono';font-size:9px;color:var(--ink-4)">${c.rule}</span>${src}</div>
+          </div>`;
+        }).join('')+'</div>';
+      }
+      // per-asset signal tiles
+      const pa=sig.per_asset||{};
+      html+=Object.keys(pa).map(k=>{
+        const a=pa[k]; const strongest=(a.signals||[])[0]||{};
+        const rows=(a.signals||[]).slice(0,4).map(s=>`
+          <div class="sig-row">
+            <span class="sr-label">${s.label}</span>
+            <span class="sr-bar"><span class="sr-fill" style="width:${s.strength||0}%;background:${DIRCOL[s.direction]}"></span></span>
+            <span class="sr-concl">${s.conclusion}</span>
+          </div>`).join('');
+        const src=a.source?`<a class="st-src" href="${a.source.url}" target="_blank" rel="noopener">${a.source.name} ↗</a>`:'';
+        return `<div class="sig-tile card">
+          <div class="st-top"><span class="st-name">${a.name}</span>
+            <span class="st-dir ${strongest.direction||'neutral'}">${strongest.direction||'—'}</span></div>
+          <div class="st-concl">${strongest.conclusion||''}</div>
+          <div class="sig-rows">${rows}</div>
+          <div class="st-foot"><span class="st-rule">as of ${a.as_of||''}</span>${src}</div>
+        </div>`;
+      }).join('');
+      board.innerHTML=html;
+
+      // ═══ GROUND THE REST OF THE SITE IN THESE SIGNALS ═══
+      const reg=sig.regime;
+      const strong=sig.strongest||[];
+      // (a) Playbook lean — regime-derived, sourced
+      if(reg){
+        const lean=document.getElementById('playbookLean');
+        if(lean){
+          const dir=reg.label==='Risk-on'?'bullish':reg.label==='Risk-off'?'bearish':'neutral';
+          const drv=(reg.drivers||[]).map(dd=>{
+            const s=dd.source?` <a class="sl-src" href="${dd.source.url}" target="_blank" rel="noopener">${dd.source.name}↗</a>`:'';
+            return `${dd.label}${s}`;}).join(' · ');
+          lean.className='signal-lean';
+          lean.innerHTML=`<span class="sl-badge ${dir}">${reg.label}</span>
+            <div class="sl-body">
+              <div class="sl-text"><b>The signals lean ${reg.label.toLowerCase()}.</b> ${reg.stance}</div>
+              <div class="sl-meta"><span>${reg.reading}</span><span>rule: ${reg.rule}</span></div>
+              ${drv?`<div class="sl-meta">drivers: ${drv}</div>`:''}
+            </div>`;
+          lean.style.display='flex';
+        }
+      }
+      // (b) Hot Right Now — grounding banner tying picks to what's actually working
+      if(strong.length){
+        const host=document.getElementById('hotSignalBanner');
+        if(host){
+          const pills=strong.slice(0,4).map(x=>{
+            const col=x.direction==='bullish'?'#3FB984':'#FF6F91';
+            const s=x.source?` <a href="${x.source.url}" target="_blank" rel="noopener">${x.source.name}↗</a>`:'';
+            return `<span class="evidence-pill"><span class="ep-dot" style="background:${col}"></span>${x.asset}: ${x.conclusion}${s}</span>`;
+          }).join('');
+          host.style.display='block';
+          host.className='signal-lean';
+          host.innerHTML=`<span class="sl-badge ${reg?(reg.label==='Risk-on'?'bullish':reg.label==='Risk-off'?'bearish':'neutral'):'neutral'}">◆ signal-checked</span>
+            <div class="sl-body">
+              <div class="sl-text"><b>Where the tape is strongest right now.</b> The picks below are framed against these observed signals, not in spite of them.</div>
+              <div class="evidence-row">${pills}</div>
+            </div>`;
+        }
+      }
+      // (c) Emerging Themes — tag each with nearest confirming signal
+      document.querySelectorAll('#themeGrid .theme-card').forEach(card=>{
+        if(card.dataset.grounded) return; card.dataset.grounded='1';
+        const nm=(card.querySelector('.theme-name')||{}).textContent||'';
+        const hit=strong.find(x=>nm.toLowerCase().includes((x.asset||'').toLowerCase().split(' ')[0]))||null;
+        const chip=document.createElement('div'); chip.style.marginTop='12px';
+        if(hit){
+          const col=hit.direction==='bullish'?'var(--green-deep)':'var(--rose)';
+          const s=hit.source?` · <a href="${hit.source.url}" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600">${hit.source.name}↗</a>`:'';
+          chip.innerHTML=`<span class="grounded-chip">◆ signal</span> <span style="font-size:11.5px;color:${col};font-weight:600">${hit.conclusion}</span><span style="font-size:11px;color:var(--ink-4)">${s}</span>`;
+        } else {
+          chip.innerHTML=`<span class="grounded-chip" style="background:rgba(42,36,56,0.05);color:var(--ink-3)">○ no direct price signal</span> <span style="font-size:11px;color:var(--ink-4)">structural theme — watch for confirmation</span>`;
+        }
+        card.appendChild(chip);
+      });
+      // (d) Special Opportunity — evidence + falsifier grounded in signals
+      const hero=document.querySelector('.opp-hero');
+      if(hero && !hero.dataset.grounded){
+        hero.dataset.grounded='1';
+        const top=strong.slice(0,3).map(x=>{
+          const col=x.direction==='bullish'?'#3FB984':'#FF6F91';
+          const s=x.source?` <a href="${x.source.url}" target="_blank" rel="noopener">${x.source.name}↗</a>`:'';
+          return `<span class="evidence-pill"><span class="ep-dot" style="background:${col}"></span>${x.asset} ${x.label}: ${x.conclusion}${s}</span>`;
+        }).join('');
+        const ev=document.createElement('div'); ev.className='evidence-row'; ev.style.marginTop='16px';
+        ev.innerHTML=`<div style="width:100%;font-family:'IBM Plex Mono';font-size:9.5px;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-4);margin-bottom:2px">Observed signals bearing on this view</div>${top}
+          <div style="width:100%;margin-top:8px;font-size:12px;color:var(--ink-2)"><b>What would flip it:</b> the equity-regime signal crossing its 200-day average, or risk appetite reversing.</div>`;
+        (hero.querySelector('.opp-body')||hero).appendChild(ev);
+      }
+    } else {
+      // no signal feed yet → show the (clearly-labelled) legacy heatmap
+      document.getElementById('signalBoard').style.display='none';
+      document.getElementById('heatmapFallback').style.display='block';
+    }
+
     // ---- source citation under the headline ----
     const links=InvMax.sourceLinks(d);
     const rs=document.getElementById('regimeSource');
@@ -1472,6 +1651,14 @@ footer{padding:40px 0;margin-top:20px}
     // SINGLE SOURCE OF TRUTH for USD/INR everywhere
     const u=InvMax.usdinr(d);
     if(u){ setMacro('inr', '\u20b9'+u.value.toFixed(2), (u.live?'live':'stale')+' · '+(u.date||'')); }
+
+    // Live Indian rates → kill the hardcoded repo/10Y samples
+    const rates=InvMax.block(d,'rates');
+    if(rates && rates.data){
+      const repo=rates.data.policy_repo, g10=rates.data.gsec_10y;
+      if(repo && repo.value!=null) setMacro('repo', repo.value.toFixed(2)+'%', 'RBI MPC · '+(repo.as_of||''));
+      if(g10 && g10.last!=null) setMacro('g-sec', g10.last.toFixed(2)+'%', 'live · '+(g10.last_date||''));
+    }
 
     const note=document.querySelector('#macro .section-note .prov'); if(note){ note.textContent='live where available · '+(stamp||''); note.classList.add('live'); }
 
