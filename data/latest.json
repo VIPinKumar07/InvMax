@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11 08:47 IST",
-  "generated_utc": "2026-08-11T03:17:49+00:00",
+  "generated_at": "2026-08-12 04:33 IST",
+  "generated_utc": "2026-08-11T23:03:37+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -17,6 +17,11 @@
       "S&P 500",
       "Gold (USD)",
       "Brent Crude"
+    ],
+    "rates": [
+      "10-yr G-Sec yield",
+      "US 10-yr yield",
+      "RBI repo rate"
     ],
     "funds": [
       "Flexicap (sample)",
@@ -35,16 +40,16 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-11 08:47 IST",
+      "asof": "2026-08-12 04:33 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-10",
+        "asof": "2026-08-11",
         "rates": {
-          "EUR": 0.86543,
-          "GBP": 0.7405,
-          "INR": 95.3,
-          "JPY": 158.64
+          "EUR": 0.86655,
+          "GBP": 0.74075,
+          "INR": 95.44,
+          "JPY": 159.2
         },
         "usdinr_history": [
           {
@@ -1066,132 +1071,136 @@
           {
             "date": "2026-08-10",
             "v": 95.3
+          },
+          {
+            "date": "2026-08-11",
+            "v": 95.44
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-11 08:48 IST",
+      "asof": "2026-08-12 04:33 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW",
-          "nav": 107.1958,
-          "date": "10-08-2026",
-          "ret1y_pct": -0.93,
+          "nav": 107.1766,
+          "date": "11-08-2026",
+          "ret1y_pct": -0.96,
           "series": [
-            108.8176,
-            102.5547,
-            103.3413,
-            103.9843,
-            106.3557,
-            107.6218,
-            107.5733,
-            108.2277,
-            108.1096,
-            108.5859,
-            109.6934,
-            110.2615,
-            110.2176,
-            110.1903,
-            110.9499,
-            104.3919,
-            104.8053,
-            105.6569,
-            106.6946,
-            107.1958
+            102.2788,
+            102.6846,
+            103.3587,
+            104.0851,
+            106.3431,
+            107.6329,
+            107.511,
+            108.2573,
+            108.1037,
+            108.617,
+            109.6521,
+            110.211,
+            110.3212,
+            110.1537,
+            111.0534,
+            104.515,
+            104.7585,
+            105.5737,
+            106.7026,
+            107.1766
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 113.0722,
-          "date": "10-08-2026",
-          "ret1y_pct": 4.89,
+          "nav": 112.9274,
+          "date": "11-08-2026",
+          "ret1y_pct": 6.01,
           "series": [
-            106.6103,
-            101.8419,
-            96.6508,
-            99.3327,
-            102.6314,
-            108.4007,
-            109.9783,
-            108.0923,
-            108.9265,
-            109.3201,
-            110.9776,
-            109.6141,
-            111.3106,
-            109.1756,
-            103.3882,
-            102.5494,
-            103.3384,
-            103.1873,
-            109.7969,
-            113.0722
+            104.6558,
+            103.0829,
+            97.2896,
+            96.4224,
+            106.1881,
+            108.9621,
+            110.1649,
+            107.5084,
+            108.7583,
+            109.065,
+            111.1622,
+            109.7035,
+            110.0573,
+            110.3845,
+            104.7593,
+            104.1348,
+            103.396,
+            102.8808,
+            109.605,
+            112.9274
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Growth Option - Direct Plan",
-          "nav": 236.831,
-          "date": "10-08-2026",
-          "ret1y_pct": 10.91,
+          "nav": 237.096,
+          "date": "11-08-2026",
+          "ret1y_pct": 12.67,
           "series": [
-            207.782,
-            194.563,
-            184.079,
-            191.291,
-            195.45,
-            206.904,
-            216.474,
-            214.366,
-            209.335,
-            211.773,
-            223.347,
-            224.194,
-            226.581,
-            224.742,
-            215.237,
-            212.727,
-            221.255,
-            218.508,
-            231.97,
-            236.831
+            207.732,
+            190.002,
+            183.104,
+            190.726,
+            194.99,
+            208.154,
+            216.604,
+            214.733,
+            211.766,
+            212.457,
+            223.506,
+            224.265,
+            226.659,
+            224.598,
+            210.943,
+            212.58,
+            216.616,
+            216.81,
+            231.567,
+            237.096
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan",
-          "nav": 240.6158,
-          "date": "10-08-2026",
-          "ret1y_pct": 0.22,
+          "nav": 239.5184,
+          "date": "11-08-2026",
+          "ret1y_pct": 0.56,
           "series": [
-            228.4835,
-            222.3117,
-            217.3975,
-            227.3658,
-            234.5014,
-            238.9689,
-            246.946,
-            240.5912,
-            237.1408,
-            238.9073,
-            250.2933,
-            252.5242,
-            255.8052,
-            250.5397,
-            237.7548,
-            233.2835,
-            231.5183,
-            226.0962,
-            236.4763,
-            240.6158
+            229.091,
+            219.777,
+            217.3403,
+            226.6648,
+            234.6191,
+            238.6309,
+            247.1832,
+            240.9178,
+            239.058,
+            241.0945,
+            248.6837,
+            252.9873,
+            255.0409,
+            249.2693,
+            233.6455,
+            231.122,
+            227.276,
+            225.5762,
+            236.5114,
+            239.5184
           ]
         }
       ]
@@ -1206,69 +1215,82 @@
       "status": "stale",
       "data": null
     },
+    "rates": {
+      "asof": "2026-08-12 04:34 IST",
+      "status": "ok",
+      "data": {
+        "policy_repo": {
+          "value": 5.5,
+          "as_of": "2026-08-06",
+          "name": "RBI repo rate",
+          "source": "RBI MPC",
+          "kind": "policy"
+        }
+      }
+    },
     "flows": {
-      "asof": "2026-08-11 08:49 IST",
+      "asof": "2026-08-12 04:34 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "10-Aug-2026",
-          "buy": 15868.51,
-          "sell": 17158.8,
-          "net": -1290.29
+          "date": "11-Aug-2026",
+          "buy": 15006.72,
+          "sell": 14981.95,
+          "net": 24.77
         },
         "fii": {
-          "date": "10-Aug-2026",
-          "buy": 13161.56,
-          "sell": 11186.8,
-          "net": 1974.76
+          "date": "11-Aug-2026",
+          "buy": 14628.47,
+          "sell": 14369.92,
+          "net": 258.55
         }
       }
     },
     "news": {
-      "asof": "2026-08-11 08:49 IST",
+      "asof": "2026-08-12 04:34 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oil prices rise as Brent tops $88, Asian stocks drift on US-Iran stalemate",
-          "url": "https://www.business-standard.com/markets/commodities/oil-prices-rise-as-brent-tops-88-asian-stocks-drift-on-us-iran-stalemate-126081100085_1.html",
-          "published": "Tue, 11 Aug 2026 08:23:35 +0530"
+          "title": "Trump media firm posts $238 million loss in second quarter as crypto falls",
+          "url": "https://www.business-standard.com/world-news/trump-media-firm-posts-238-million-loss-in-second-quarter-as-crypto-falls-126081100055_1.html",
+          "published": "Tue, 11 Aug 2026 08:10:20 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stocks to buy today: Avalon Technologies, Healthcare Global; check targets",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-buy-today-avalon-technologies-healthcare-global-check-targets-126081100095_1.html",
-          "published": "Tue, 11 Aug 2026 08:10:23 +0530"
+          "title": "CAS may cause near-term drag in index-options trading: Bernstein",
+          "url": "https://www.business-standard.com/markets/news/cas-may-cause-near-term-drag-in-index-options-trading-bernstein-126081101048_1.html",
+          "published": "Tue, 11 Aug 2026 22:27:15 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "RailTel bags Rs 119-cr order from Department of Posts",
-          "url": "https://www.business-standard.com/markets/capital-market-news/railtel-bags-rs-119-cr-order-from-department-of-posts-126081100096_1.html",
-          "published": "Tue, 11 Aug 2026 08:04:02 +0530"
+          "title": "State Bank of India set to raise funds through 5-year dollar bond",
+          "url": "https://www.business-standard.com/markets/news/state-bank-of-india-set-to-raise-funds-through-5-year-dollar-bond-126081101993_1.html",
+          "published": "Tue, 11 Aug 2026 21:55:32 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stocks to watch: Vi, Lupin, Zen Tech, BSE, Wipro, Adani Group stocks",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-vi-lupin-zen-tech-bse-wipro-adani-group-stocks-126081100094_1.html",
-          "published": "Tue, 11 Aug 2026 07:57:17 +0530"
+          "title": "Calcutta Stock Exchange has not submitted formal revival plan to Sebi: Govt",
+          "url": "https://www.business-standard.com/markets/news/calcutta-stock-exchange-has-not-submitted-formal-revival-plan-to-sebi-govt-126081101826_1.html",
+          "published": "Tue, 11 Aug 2026 20:09:22 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise, Adani Group stocks in focus",
-          "url": "https://www.business-standard.com/markets/news/stock-market-live-august-11-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-q1-results-today-ipo-126081100088_1.html",
-          "published": "Tue, 11 Aug 2026 07:49:35 +0530"
+          "title": "Sebi plans wider vaulting norms for bullion ETFs and derivatives",
+          "url": "https://www.business-standard.com/markets/news/sebi-plans-wider-vaulting-norms-for-bullion-etfs-and-derivatives-126081101812_1.html",
+          "published": "Tue, 11 Aug 2026 19:56:59 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Kotak Securities' top trading bets: Narayana Hrudayalaya, Mrs Bectors Food",
-          "url": "https://www.business-standard.com/markets/news/kotak-securities-top-trading-bets-narayana-hrudayalaya-mrs-bectors-food-126081100092_1.html",
-          "published": "Tue, 11 Aug 2026 07:49:05 +0530"
+          "title": "TCS and Google Cloud set up new Gemini Experience Center in Mexico City",
+          "url": "https://www.business-standard.com/markets/capital-market-news/tcs-and-google-cloud-set-up-new-gemini-experience-center-in-mexico-city-126081101799_1.html",
+          "published": "Tue, 11 Aug 2026 19:50:13 +0530"
         },
         {
           "source": "Finshots Daily",
@@ -1315,153 +1337,126 @@
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ETMarkets Smart Talk | Direct stocks are not the answer for global investing; fund of funds makes more sense: Rahul Jain",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-direct-stocks-are-not-the-answer-for-global-investing-fund-of-funds-makes-more-sense-rahul-jain/articleshow/133140595.cms",
-          "published": "Tue, 11 Aug 2026 08:15:03 +0530"
+          "title": "US stocks: US market ends down as Iran peace deal optimism fades",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-down-as-iran-peace-deal-optimism-fades/articleshow/133165118.cms",
+          "published": "Wed, 12 Aug 2026 01:38:33 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stocks to buy in 2026 for long term: Indian Metal & Ferro Alloys, SBI among 5 stocks that could give 10-30% return",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-indian-metal-amp-ferro-alloys-sbi-among-5-stocks-that-could-give-10-30-return/slideshow/133140812.cms",
-          "published": "Tue, 11 Aug 2026 08:13:02 +0530"
+          "title": "Fed’s Austan Goolsbee says inflation is the biggest problem on Fed rate signal",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-austan-goolsbee-says-inflation-is-the-biggest-problem-on-fed-rate-signal/articleshow/133164860.cms",
+          "published": "Wed, 12 Aug 2026 01:15:05 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Milky Mist Dairy Food IPO opens today: GMP signals a 15% listing gain — Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/milky-mist-dairy-food-ipo-opens-today-gmp-signals-a-15-listing-gain-should-you-subscribe/articleshow/133140641.cms",
-          "published": "Tue, 11 Aug 2026 08:10:49 +0530"
+          "title": "Why the US-Iran war continues to disrupt oil markets",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/why-the-us-iran-war-continues-to-disrupt-oil-markets/articleshow/133163454.cms",
+          "published": "Wed, 12 Aug 2026 00:02:15 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Positive Breakout: These 9 stocks cross above their 200 DMAs",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-9-stocks-cross-above-their-200-dmas/slideshow/133140624.cms",
-          "published": "Tue, 11 Aug 2026 08:01:07 +0530"
+          "title": "Shiprocket draws Goldman Sachs, HDFC MF, SBI MF and others to Rs 727 crore anchor round ahead of IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/shiprocket-draws-goldman-sachs-hdfc-mf-sbi-mf-and-others-to-727-crore-anchor-round-ahead-of-ipo/articleshow/133160685.cms",
+          "published": "Tue, 11 Aug 2026 22:23:54 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Oil Price Today (August 11): Crude oil rises to $88 after Trump's compensation demand dents Hormuz opening. Here's why",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-11-crude-oil-rises-to-88-after-trumps-compensation-demand-dents-hormuz-opening-heres-why/articleshow/133140451.cms",
-          "published": "Tue, 11 Aug 2026 07:51:00 +0530"
+          "title": "Gold edges higher near two-month peak ahead of US inflation data",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/gold-edges-higher-near-two-month-peak-ahead-of-us-inflation-data/articleshow/133159810.cms",
+          "published": "Tue, 11 Aug 2026 21:34:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Yen steadies as intervention boost fades; RBA in focus",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/forex-yen-steadies-as-intervention-boost-fades-rba-in-focus/articleshow/133140356.cms",
-          "published": "Tue, 11 Aug 2026 07:41:57 +0530"
+          "title": "Ahead of Market: 10 things that will decide stock market action on Wednesday",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-wednesday/articleshow/133159099.cms",
+          "published": "Tue, 11 Aug 2026 21:09:09 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell: Gift Nifty signals a flat start. Vaishali Parekh recommends three intraday stocks to buy today",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-signals-flat-start-vaishali-parekh-recommends-three-intraday-stocks-to-buy-today-11786413762159.html",
-          "published": "Tue, 11 Aug 2026 08:27:28 +0530"
+          "title": "Yen Inches Toward 160 Per Dollar, Raising Intervention Concerns",
+          "url": "https://www.livemint.com/market/yen-inches-toward-160-per-dollar-raising-intervention-concerns-11786486001765.html",
+          "published": "Wed, 12 Aug 2026 03:36:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Q1 results 2026: RVNL to MRF among companies to declare Q1 results today; full list here",
-          "url": "https://www.livemint.com/market/stock-market-news/q1-results-2026-rvnl-to-mrf-among-companies-to-declare-q1-results-today-full-list-here-11786415475275.html",
-          "published": "Tue, 11 Aug 2026 08:24:21 +0530"
+          "title": "Omers Returns 4.8% in 2026, Fueled by Stocks and US Dollar",
+          "url": "https://www.livemint.com/market/omers-returns-4-8-in-2026-fueled-by-stocks-and-us-dollar-11786482038458.html",
+          "published": "Wed, 12 Aug 2026 02:30:38 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Shankesh Jewellers IPO price band fixed at ₹88- ₹93 per share; issue date, key details here",
-          "url": "https://www.livemint.com/market/ipo/shankesh-jewellers-ipo-price-band-fixed-at-88-93-per-share-issue-date-key-details-here-11786416026785.html",
-          "published": "Tue, 11 Aug 2026 08:23:24 +0530"
+          "title": "Chicago grains weaken in positioning ahead of USDA report",
+          "url": "https://www.livemint.com/market/chicago-grains-weaken-in-positioning-ahead-of-usda-report-11786474783700.html",
+          "published": "Wed, 12 Aug 2026 00:29:43 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Shares to buy or sell: Chandan Taparia of Motilal Oswal recommends three stocks to buy today - 11 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/shares-to-buy-or-sell-chandan-taparia-of-motilal-oswal-recommends-three-stocks-to-buy-today-11-august-2026-11786380082239.html",
-          "published": "Tue, 11 Aug 2026 08:22:50 +0530"
+          "title": "Colombia Coffee Exports Largely Halted After Deadly Earthquake",
+          "url": "https://www.livemint.com/market/colombia-coffee-exports-largely-halted-after-deadly-earthquake-11786474721326.html",
+          "published": "Wed, 12 Aug 2026 00:28:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Emerging Currencies Weaken as US-Iran Standoff Lifts Dollar",
-          "url": "https://www.livemint.com/market/emerging-currencies-weaken-as-us-iran-standoff-lifts-dollar-11786416498421.html",
-          "published": "Tue, 11 Aug 2026 08:18:17 +0530"
+          "title": "Gold edges lower as markets await key US inflation data",
+          "url": "https://www.livemint.com/market/gold-edges-lower-as-markets-await-key-us-inflation-data-11786474118005.html",
+          "published": "Wed, 12 Aug 2026 00:18:37 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market today: Gift Nifty hints a weak start; eight day trading stocks to buy on Tuesday, 11 August",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-weak-start-eight-day-trading-stocks-to-buy-on-tuesday-11-august-11786414129197.html",
-          "published": "Tue, 11 Aug 2026 08:13:24 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+          "title": "Shiprocket raises ₹727 crore from anchor investors ahead of IPO launch on Wednesday",
+          "url": "https://www.livemint.com/market/stock-market-news/shiprocket-raises-rs-727-crore-from-anchor-investors-ahead-of-ipo-launch-on-wednesday-11786465617676.html",
+          "published": "Tue, 11 Aug 2026 22:28:47 +0530"
         }
       ]
     },
     "narrative": {
       "status": "live",
-      "generated_at": "2026-08-11 08:49 IST",
+      "generated_at": "2026-08-12 04:34 IST",
       "model": "llama-3.3-70b-versatile",
-      "regime_read": "The DII flows have flipped direction to ₹-1,290 Cr, a significant change from the previous day's positive flows. The FII net flows are at ₹1,975 Cr, and the USD/INR rate has increased to 95.3. This reversal in DII flows may indicate a shift in domestic investor sentiment. The current trends suggest a potential decrease in domestic investment, which could influence the market's overall direction. The increase in FII flows may counterbalance this decrease, but the impact of these developments on the broader market needs to be monitored.",
+      "headline": "DII flows flip positive",
+      "regime_read": "The DII flows have flipped direction to ₹25 Cr, a significant change from the previous day's negative flows of ₹-1,290 Cr. The FII net flows are at ₹259 Cr, and the USD/INR rate has increased to 95.44. This reversal in DII flows may indicate a shift in domestic investor sentiment. The current trends suggest a potential increase in domestic investment, which could influence the market's overall direction. The decrease in FII flows compared to the previous day may also impact the market's dynamics.",
       "hot_notes": {
-        "conservative": "DII flows at ₹-1,290 Cr",
-        "balanced": "FII net flows at ₹1,975 Cr",
-        "aggressive": "USD/INR at 95.3",
+        "conservative": "DII flows at ₹25 Cr",
+        "balanced": "FII net flows at ₹259 Cr",
+        "aggressive": "USD/INR at 95.44",
         "special": "DII flows flipped direction"
       },
-      "research_note": "The change in DII flows and the continued positive FII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic investment sentiment. The increase in FII flows could potentially counterbalance the cautious sentiment seen in previous days, but the decrease in DII flows may indicate a more nuanced market dynamic.",
+      "research_note": "The change in DII flows and the decrease in FII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic investment sentiment. The decrease in FII flows may indicate a more cautious sentiment among foreign investors, while the increase in DII flows could potentially counterbalance this sentiment.",
       "confidence": "medium"
     }
   },
   "key_figures": {
-    "date": "2026-08-11 08:49 IST",
+    "date": "2026-08-12 04:34 IST",
     "usdinr": {
-      "last": 95.3,
-      "date": "2026-08-10"
+      "last": 95.44,
+      "date": "2026-08-11"
     },
     "dii_net": {
-      "net": -1290.29,
-      "date": "10-Aug-2026"
+      "net": 24.77,
+      "date": "11-Aug-2026"
     },
     "fii_net": {
-      "net": 1974.76,
-      "date": "10-Aug-2026"
+      "net": 258.55,
+      "date": "11-Aug-2026"
     },
     "headlines": [
-      "Oil prices rise as Brent tops $88, Asian stocks drift on US-Iran stalemate",
-      "Stocks to buy today: Avalon Technologies, Healthcare Global; check targets",
-      "RailTel bags Rs 119-cr order from Department of Posts",
-      "Stocks to watch: Vi, Lupin, Zen Tech, BSE, Wipro, Adani Group stocks",
-      "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise, Adani Group stocks in focus",
-      "Kotak Securities' top trading bets: Narayana Hrudayalaya, Mrs Bectors Food",
+      "Trump media firm posts $238 million loss in second quarter as crypto falls",
+      "CAS may cause near-term drag in index-options trading: Bernstein",
+      "State Bank of India set to raise funds through 5-year dollar bond",
+      "Calcutta Stock Exchange has not submitted formal revival plan to Sebi: Govt",
+      "Sebi plans wider vaulting norms for bullion ETFs and derivatives",
+      "TCS and Google Cloud set up new Gemini Experience Center in Mexico City",
       "A look at the Milky Mist IPO",
       "What went wrong with South Korea’s AI boom?",
       "The thriving business of cheap luxury, how Hyrox makes money, and more...",
@@ -1475,51 +1470,51 @@
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-1,290 Cr — direction flipped"
+        "detail": "₹25 Cr — direction flipped"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.30 (+0.09%)"
+        "detail": "₹95.44 (+0.15%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-1,290 Cr — direction flipped"
+        "detail": "₹25 Cr — direction flipped"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹1,975 Cr"
+        "detail": "₹259 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
-    "since": "2026-08-10 08:56 IST",
+    "since": "2026-08-11 08:49 IST",
     "new_headlines": [
-      "Oil prices rise as Brent tops $88, Asian stocks drift on US-Iran stalemate",
-      "Stocks to buy today: Avalon Technologies, Healthcare Global; check targets",
-      "RailTel bags Rs 119-cr order from Department of Posts",
-      "Stocks to watch: Vi, Lupin, Zen Tech, BSE, Wipro, Adani Group stocks",
-      "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise, Adani Group stocks in focus",
-      "Kotak Securities' top trading bets: Narayana Hrudayalaya, Mrs Bectors Food",
-      "A look at the Milky Mist IPO"
+      "Trump media firm posts $238 million loss in second quarter as crypto falls",
+      "CAS may cause near-term drag in index-options trading: Bernstein",
+      "State Bank of India set to raise funds through 5-year dollar bond",
+      "Calcutta Stock Exchange has not submitted formal revival plan to Sebi: Govt",
+      "Sebi plans wider vaulting norms for bullion ETFs and derivatives",
+      "TCS and Google Cloud set up new Gemini Experience Center in Mexico City"
     ]
   },
   "summary": {
     "ok": [
       "fx",
       "funds",
+      "rates",
       "flows",
       "news"
     ],
@@ -1527,7 +1522,7 @@
       "macro",
       "indices"
     ],
-    "healthy": 4,
-    "total": 6
+    "healthy": 5,
+    "total": 7
   }
 }
