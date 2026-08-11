@@ -46,7 +46,22 @@ jobs:
           echo "Writing data to: $INVMAX_OUT"
           python "$FETCHER"
 
-      # ── Step 2: the words ───────────────────────────────────
+      # ── Step 2: the signals ─────────────────────────────────
+      # Deterministic observed signals from the real price data. Pure code,
+      # no LLM — this is the auditable ground truth the narration rests on.
+      - name: Compute observed signals
+        env:
+          INVMAX_OUT: ${{ github.workspace }}/data
+        run: |
+          SIG="$(find . -name 'signals.py' -not -path './.git/*' | head -n 1)"
+          if [ -z "$SIG" ]; then
+            echo "::warning::signals.py not found — skipping signal step."
+            exit 0
+          fi
+          echo "Found signal engine at: $SIG"
+          python "$SIG" || echo "::warning::Signal step reported a problem; data is still valid."
+
+      # ── Step 3: the words ───────────────────────────────────
       # Same INVMAX_OUT so the writer edits the SAME file the fetcher wrote.
       # Cascade: tries Groq first (free tier), falls back to GitHub Models
       # (uses the auto-available GITHUB_TOKEN — no secret needed for that one).
