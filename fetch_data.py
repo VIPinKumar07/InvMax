@@ -81,6 +81,12 @@ DEFAULT_SOURCES = {
         {"id": "gold_usd", "name": "Gold (USD)", "symbol": "xauusd", "enabled": True},
         {"id": "brent_oil", "name": "Brent Crude", "symbol": "cb.f", "enabled": True},
     ],
+    "rates": [
+        {"id": "gsec_10y", "name": "10-yr G-Sec yield", "symbol": "10iny.b", "enabled": True},
+        {"id": "us_10y", "name": "US 10-yr yield", "symbol": "10usy.b", "enabled": True},
+        {"id": "policy_repo", "name": "RBI repo rate", "value": 5.50,
+         "as_of": "2026-08-06", "source": "RBI MPC", "enabled": True},
+    ],
     "funds": [
         {"id": "119551", "name": "Flexicap (sample)", "enabled": True},
         {"id": "120503", "name": "Large Cap (sample)", "enabled": True},
@@ -296,7 +302,7 @@ def fetch_index(symbol):
             "last_date": closes[-1]["date"],
             "prev_close": prev,
             "chg_pct": round((closes[-1]["c"] / prev - 1) * 100, 2) if prev else 0,
-            "daily_tail": closes[-60:],
+            "daily_tail": closes[-260:],
             "monthly": month_series[-61:],
         }
     except Exception as e:
@@ -313,6 +319,38 @@ def fetch_indices(src):
             out[item["id"]] = d
             log(f"  {item['id']}: {d['last']} on {d['last_date']} ({len(d['monthly'])} months)")
     log(f"Indices: {len(out)} series")
+    return out or None
+
+
+def fetch_rates(src):
+    """Indian rates. The 10-yr G-Sec yield comes from Stooq (same keyless CSV
+    path as the indices), giving daily history for signals. The repo rate is a
+    registry-maintained value (RBI changes it only at MPC meetings, ~6x/year),
+    which is more reliable than scraping the JS-heavy DBIE portal."""
+    out = {}
+    for item in enabled(src.get("rates")):
+        rid = item.get("id")
+        # a registry value carried as-is (e.g. the repo rate the user maintains)
+        if item.get("value") is not None:
+            out[rid] = {
+                "value": item["value"],
+                "as_of": item.get("as_of", ""),
+                "name": item.get("name", rid),
+                "source": item.get("source", "RBI MPC"),
+                "kind": "policy",
+            }
+            log(f"  {rid}: {item['value']} (registry value)")
+            continue
+        # a fetched yield series (Stooq symbol like 10iny.b)
+        sym = item.get("symbol")
+        if sym:
+            d = fetch_index(sym)
+            if d:
+                d["name"] = item.get("name", rid)
+                d["kind"] = "yield"
+                out[rid] = d
+                log(f"  {rid}: {d['last']} on {d['last_date']}")
+    log(f"Rates: {len(out)} series")
     return out or None
 
 
@@ -527,12 +565,13 @@ def main():
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
         "sources_used": {k: [i.get("name") for i in enabled(src.get(k))]
-                         for k in ("news", "indices", "funds", "macro", "flows")},
+                         for k in ("news", "indices", "rates", "funds", "macro", "flows")},
         "blocks": {},
     }
 
     tasks = [("fx", fetch_fx), ("funds", fetch_funds), ("macro", fetch_macro),
-             ("indices", fetch_indices), ("flows", fetch_flows), ("news", fetch_news)]
+             ("indices", fetch_indices), ("rates", fetch_rates),
+             ("flows", fetch_flows), ("news", fetch_news)]
 
     ok, failed = [], []
     for name, fn in tasks:
