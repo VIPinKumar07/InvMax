@@ -741,6 +741,25 @@ let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(renderAll,2
     }
   }
 
+  // observed signal regime — the deterministic ground truth, sourced
+  const sig=InvMax.signals(d);
+  if(sig && sig.regime){
+    const reg=sig.regime, host=document.querySelector('#pulse');
+    if(host){
+      const dcol=reg.label==='Risk-on'?'var(--pos)':reg.label==='Risk-off'?'var(--neg)':'var(--muted)';
+      const drv=(reg.drivers||[]).map(x=>{
+        const s=x.source?` <a href="${x.source.url}" target="_blank" rel="noopener" style="color:var(--teal)">${x.source.name}↗</a>`:'';
+        return `${x.label}${s}`;}).join(' · ');
+      const box=document.createElement('div');
+      box.className='verdict teal';
+      box.style.borderLeftColor=dcol;
+      box.innerHTML=`<div class="verdict-k" style="color:${dcol}">Observed regime · ${reg.label}</div>`+
+        `<div class="verdict-s" style="margin-top:4px">${reg.stance} <span style="color:var(--faint)">— ${reg.reading} (rule: ${reg.rule})</span></div>`+
+        (drv?`<div class="verdict-s" style="margin-top:4px;font-size:12px">drivers: ${drv}</div>`:'');
+      host.insertBefore(box, host.firstChild);
+    }
+  }
+
   // 1) anchor the analytics engine to the live market factor
   const idx = InvMax.block(d,'indices');
   let anchored=false;
