@@ -294,8 +294,33 @@ const C={amber:V('--amber'),teal:V('--teal'),blue:V('--blue'),pos:V('--pos')};
   addDeskNote();
 
   // flip the signal stamp to reflect the live feed date
-  const sig=document.querySelector('#signals .prov');
-  if(sig){ sig.textContent='composite · data '+(stamp||''); sig.classList.add('live'); }
+  const sigStamp=document.querySelector('#signals .prov');
+  if(sigStamp){ sigStamp.textContent='composite · data '+(stamp||''); sigStamp.classList.add('live'); }
+
+  // Ground the signal engine in REAL observed price signals (deterministic, sourced)
+  const obs=InvMax.signals(d);
+  if(obs){
+    const grid=document.getElementById('sigGrid');
+    const DIR={bullish:'var(--pos)',bearish:'var(--neg)',neutral:'var(--muted)'};
+    if(grid){
+      const cards=(obs.cross_asset||[]).slice(0,3).map(c=>{
+        const src=c.source?`<a href="${c.source.url}" target="_blank" rel="noopener" style="color:var(--teal);font-weight:600;font-size:11px">${c.source.name} ↗</a>`:'';
+        const st=Math.round(c.strength||60);
+        return `<div class="sig card" style="padding:22px">
+          <div class="sig-top"><span class="sig-name">${c.label}</span><span class="sig-score" style="color:${DIR[c.direction]}">${st}</span></div>
+          <div class="sig-track"><span class="sig-fill" style="width:${st}%;background:${DIR[c.direction]}"></span></div>
+          <div class="sig-detail"><b style="color:var(--text)">${c.conclusion}.</b> ${c.reading}</div>
+          <div class="sig-inputs"><span class="sig-tag">observed</span><span class="sig-tag">${c.direction}</span></div>
+          <div style="margin-top:12px;font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--faint);line-height:1.4">rule: ${c.rule||''}</div>
+          <div style="margin-top:8px">${src}</div>
+        </div>`;
+      }).join('');
+      grid.innerHTML = cards + grid.innerHTML;
+      const lead=document.querySelector('#signals .slead');
+      if(lead) lead.innerHTML='The flagship rests on <b>observed price signals</b> (shown first, each with its rule and source) plus the thematic reads below. '+
+        '<span class="prov live" style="margin-left:4px;">live · data '+(stamp||'')+'</span>';
+    }
+  }
 })();
 
 const signals=[
