@@ -121,6 +121,12 @@ window.InvMax = (function () {
     return out;
   }
 
+  // ── Layer 3: observed signals (deterministic, sourced) ─────
+  function signals(d) {
+    const s = d && d.blocks && d.blocks.signals;
+    return (s && (s.headline || (s.cross_asset || []).length)) ? s : null;
+  }
+
   // Source citations: turn feed URLs into linkable references.
   function sourceLinks(d) {
     const nb = block(d, 'news');
@@ -147,5 +153,5 @@ window.InvMax = (function () {
 
   return { load, block, asOf, monthlyReturns, shortDate, PATH,
            narrative, narrativeBadge, changes, sourcesUsed,
-           usdinr, asset, assetsPresent, sourceLinks };
+           usdinr, asset, assetsPresent, sourceLinks, signals };
 })();
