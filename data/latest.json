@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-12 04:33 IST",
-  "generated_utc": "2026-08-11T23:03:37+00:00",
+  "generated_at": "2026-08-12 04:40 IST",
+  "generated_utc": "2026-08-11T23:10:31+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-12 04:33 IST",
+      "asof": "2026-08-12 04:40 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1080,7 +1080,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-12 04:33 IST",
+      "asof": "2026-08-12 04:40 IST",
       "status": "ok",
       "data": [
         {
@@ -1216,7 +1216,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-12 04:34 IST",
+      "asof": "2026-08-12 04:41 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1229,7 +1229,7 @@
       }
     },
     "flows": {
-      "asof": "2026-08-12 04:34 IST",
+      "asof": "2026-08-12 04:41 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1247,7 +1247,7 @@
       }
     },
     "news": {
-      "asof": "2026-08-12 04:34 IST",
+      "asof": "2026-08-12 04:41 IST",
       "status": "ok",
       "data": [
         {
@@ -1421,7 +1421,7 @@
       ]
     },
     "narrative": {
-      "status": "live",
+      "status": "carried",
       "generated_at": "2026-08-12 04:34 IST",
       "model": "llama-3.3-70b-versatile",
       "headline": "DII flows flip positive",
@@ -1433,11 +1433,57 @@
         "special": "DII flows flipped direction"
       },
       "research_note": "The change in DII flows and the decrease in FII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic investment sentiment. The decrease in FII flows may indicate a more cautious sentiment among foreign investors, while the increase in DII flows could potentially counterbalance this sentiment.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "checked_at": "2026-08-12 04:41 IST",
+      "unchanged_since": "2026-08-12 04:34 IST"
+    },
+    "signals": {
+      "status": "no_data",
+      "generated_at": "2026-08-12 04:41 IST",
+      "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
+      "headline": null,
+      "regime": {
+        "label": "Mixed",
+        "stance": "Signals are split — stay balanced and let them confirm before tilting.",
+        "score": 0.0,
+        "reading": "Signal balance +0.0 across 2 cross-asset reads and 0 asset trends.",
+        "drivers": [],
+        "rule": "weighted vote of trend & regime signals (equity regime weighted 2x)"
+      },
+      "strongest": [],
+      "cross_asset": [
+        {
+          "id": "rupee",
+          "label": "Rupee",
+          "direction": "neutral",
+          "strength": 53,
+          "reading": "USD/INR moved -0.2% over the last month (now 95.44).",
+          "conclusion": "Rupee broadly stable",
+          "rule": "1-month change in USD/INR",
+          "source": {
+            "name": "ECB / Frankfurter",
+            "url": "https://www.frankfurter.app/"
+          }
+        },
+        {
+          "id": "policy",
+          "label": "Policy rate",
+          "direction": "neutral",
+          "strength": 50,
+          "reading": "RBI repo held at 5.50% (as of 2026-08-06).",
+          "conclusion": "Policy setting — the anchor under every other rate.",
+          "rule": "RBI MPC repo rate (registry-maintained)",
+          "source": {
+            "name": "RBI MPC",
+            "url": "https://www.rbi.org.in/Scripts/BS_ViewMonetaryPolicy.aspx"
+          }
+        }
+      ],
+      "per_asset": {}
     }
   },
   "key_figures": {
-    "date": "2026-08-12 04:34 IST",
+    "date": "2026-08-12 04:41 IST",
     "usdinr": {
       "last": 95.44,
       "date": "2026-08-11"
@@ -1466,49 +1512,25 @@
     ]
   },
   "changes": {
-    "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹25 Cr — direction flipped"
-      },
-      {
-        "kind": "news",
-        "label": "New headlines",
-        "detail": "6 new"
-      }
-    ],
+    "material": [],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.44 (+0.15%)"
+        "detail": "₹95.44 (+0.00%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹25 Cr — direction flipped"
+        "detail": "₹25 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
         "detail": "₹259 Cr"
-      },
-      {
-        "kind": "news",
-        "label": "New headlines",
-        "detail": "6 new"
       }
     ],
-    "since": "2026-08-11 08:49 IST",
-    "new_headlines": [
-      "Trump media firm posts $238 million loss in second quarter as crypto falls",
-      "CAS may cause near-term drag in index-options trading: Bernstein",
-      "State Bank of India set to raise funds through 5-year dollar bond",
-      "Calcutta Stock Exchange has not submitted formal revival plan to Sebi: Govt",
-      "Sebi plans wider vaulting norms for bullion ETFs and derivatives",
-      "TCS and Google Cloud set up new Gemini Experience Center in Mexico City"
-    ]
+    "since": "2026-08-12 04:34 IST"
   },
   "summary": {
     "ok": [
