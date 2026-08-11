@@ -58,6 +58,11 @@
     { "id": "gold_usd",  "name": "Gold (USD)","symbol": "xauusd",  "enabled": true },
     { "id": "brent_oil", "name": "Brent Crude","symbol": "cb.f",   "enabled": true }
   ],
+  "rates": [
+    { "id": "gsec_10y",    "name": "10-yr G-Sec yield", "symbol": "10iny.b", "enabled": true },
+    { "id": "us_10y",      "name": "US 10-yr yield",    "symbol": "10usy.b", "enabled": true },
+    { "id": "policy_repo", "name": "RBI repo rate",     "value": 5.50, "as_of": "2026-08-06", "source": "RBI MPC", "enabled": true }
+  ],
   "funds": [
     { "id": "119551", "name": "Flexicap (sample)",              "enabled": true },
     { "id": "120503", "name": "Large Cap (sample)",             "enabled": true },
