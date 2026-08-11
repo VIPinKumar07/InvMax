@@ -85,7 +85,15 @@ You are continuing a running commentary, not writing fresh each day. You are giv
 - If nothing material changed: return the carry_forward flag as true and leave the text fields empty. Do NOT write "nothing much changed today" or restate yesterday in new words. Silence is the correct output on a quiet day.
 - Never narrate immaterial noise. A 0.3% index move is not news. A macro print, a flow reversal, a trend break IS.
 
+GROUNDING — THE MOST IMPORTANT RULE
+You are given a block of OBSERVED SIGNALS computed deterministically from real price data. These are your facts.
+- Build your read FROM those signals. Your conclusion must match what they say — if the signals are bullish, you are not bearish.
+- Every number you write must already appear in the data you were given. Never introduce a figure the data doesn't contain.
+- Write a short, conclusive HEADLINE (<= 12 words) that captures the single most important observed signal — an intuitive hook, not a hedge.
+- Be conclusive, not wishy-washy. The reader wants a clear read with its reasoning, then a link to dig deeper. State the view, name the signal it rests on, and note what would flip it.
+
 LENGTH
+- headline: <= 12 words, conclusive.
 - regime_read: 2-5 sentences. Fewer on quieter days. Never more than 5.
 - Each hot_note: one sentence, max 30 words.
 - research_note: 2-3 sentences.
@@ -94,6 +102,7 @@ OUTPUT
 Return ONLY valid JSON, no markdown fence, no preamble:
 {
   "carry_forward": false,
+  "headline": "...",
   "regime_read": "...",
   "hot_notes": {"conservative":"...","balanced":"...","aggressive":"...","special":"..."},
   "research_note": "...",
@@ -145,6 +154,26 @@ def build_user_prompt(latest, history, prev_narr):
         lines.append("- NOTHING material. Thresholds not crossed.")
     if ch.get("since"):
         lines.append(f"(compared against {ch['since']})")
+
+    # ── OBSERVED SIGNALS: the deterministic ground truth the narration must rest on ──
+    sig = (blocks.get("signals") or {})
+    hl = sig.get("headline")
+    cross = sig.get("cross_asset") or []
+    if hl or cross:
+        lines.append("")
+        lines.append("OBSERVED SIGNALS (computed from real price data — these are your FACTS)")
+        if hl:
+            lines.append(f"- HEADLINE · {hl.get('label')}: {hl.get('conclusion')} ({hl.get('reading')})")
+        for c in cross:
+            lines.append(f"- {c.get('label')} [{c.get('direction')}]: {c.get('conclusion')} — {c.get('reading')}")
+        # a couple of the strongest per-asset reads for texture
+        pa = sig.get("per_asset") or {}
+        for k, v in list(pa.items())[:2]:
+            strong = [s for s in v.get("signals", []) if s.get("strength", 0) >= 65]
+            for s in strong[:2]:
+                lines.append(f"- {v.get('name')} {s.get('label')}: {s.get('conclusion')} ({s.get('reading')})")
+        lines.append("Rule: build your read FROM these signals. Do not contradict them, and do not "
+                     "introduce a market direction they don't support.")
 
     if history and len(history) > 1:
         lines.append("")
@@ -348,6 +377,7 @@ def main():
             "status": "live",
             "generated_at": now_ist(),
             "model": model_used or "unknown",
+            "headline": (result.get("headline") or "").strip(),
             "regime_read": (result.get("regime_read") or "").strip(),
             "hot_notes": result.get("hot_notes") or {},
             "research_note": (result.get("research_note") or "").strip(),
