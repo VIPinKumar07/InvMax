@@ -637,7 +637,7 @@ footer{padding:40px 0;margin-top:20px}
   <section id="macro"><div class="wrap">
     <div class="section-head">
       <div><span class="eyebrow grad-text">Macro Snapshot</span><h2 class="section-title">The stage India is set on</h2></div>
-      <p class="section-note">Six signals that frame every call below. <span class="prov sample" style="margin-left:6px">sample · as of 01 Aug 2026</span></p>
+      <p class="section-note">Six signals that frame every call below. <span class="prov sample" style="margin-left:6px">awaiting live feed</span></p>
     </div>
     <div class="takeaway">Rates are easing into a pause and inflation sits in-band — a backdrop that favours duration in debt and capex-linked equity, while foreign money turns net buyer.</div>
     <div class="macro-grid" id="macroGrid"></div>
@@ -654,14 +654,14 @@ footer{padding:40px 0;margin-top:20px}
         <div class="p-label"><span>Nifty 50 — index trend</span><span class="pulse-mini-toggle" id="pulseTf"><button data-tf="6M">6M</button><button data-tf="1Y" class="active">1Y</button></span></div>
         <div class="p-val">25,940 <span class="p-chg up">▲ 1.8%</span></div>
         <div class="pulse-chart" id="pulseChart"></div>
-        <div style="margin-top:8px"><span class="prov" style="background:rgba(255,255,255,0.2);color:#fff">sample · 01 Aug 2026</span></div>
+        <div style="margin-top:8px"><span class="prov" style="background:rgba(255,255,255,0.2);color:#fff">awaiting live feed</span></div>
       </div>
       <div class="pulse-card card">
-        <div class="p-label"><span>Sector leaders — 1M return</span><span class="prov sample">sample</span></div>
+        <div class="p-label"><span>Sector leaders — 1M return</span><span class="prov sample" title="No live sector-return feed wired yet">illustrative</span></div>
         <div id="pulseSectors" style="margin-top:14px"></div>
       </div>
       <div class="pulse-card card">
-        <div class="p-label"><span>Who's buying — this month</span><span class="prov sample">sample</span></div>
+        <div class="p-label"><span>Who's buying — this month</span><span class="prov sample" id="pulseFlowProv" title="Live once the NSE flows feed runs">illustrative</span></div>
         <div class="pulse-flows" id="pulseFlows"></div>
         <a href="analytics.html" class="pulse-cta">Open full analytics <span class="arr">→</span></a>
       </div>
@@ -772,7 +772,7 @@ footer{padding:40px 0;margin-top:20px}
       <div class="macro-cell glass">
         <div class="label">${m.label}</div>
         <div class="value">${m.value}</div>
-        <div class="delta ${m.dir}">${arrow} ${m.delta}</div>
+        <div class="delta ${m.dir}" data-sample="1">${arrow} ${m.delta} · sample</div>
       </div>`;
   });
 
@@ -791,9 +791,14 @@ footer{padding:40px 0;margin-top:20px}
   const renderTicker = () => tickerItems.map(t => {
     const cls = t.dir === 'up' ? 'up' : t.dir === 'down' ? 'down' : '';
     const arrow = t.dir === 'up' ? '▲' : t.dir === 'down' ? '▼' : '▪';
-    return `<span class="ticker-item"><span class="name">${t.name}</span><span class="${cls}">${arrow} ${t.val}</span></span>`;
+    const stale = t.sample ? '<span style="opacity:.5;font-size:9px"> ·sample</span>' : '';
+    return `<span class="ticker-item"><span class="name">${t.name}</span><span class="${cls}">${arrow} ${t.val}</span>${stale}</span>`;
   }).join('');
-  track.innerHTML = renderTicker() + renderTicker();
+  const paintTicker = () => { track.innerHTML = renderTicker() + renderTicker(); };
+  window.__rebuildTicker = (items) => { tickerItems.length = 0; items.forEach(i => tickerItems.push(i)); paintTicker(); };
+  // mark the initial hardcoded set as sample until live data lands
+  tickerItems.forEach(t => t.sample = true);
+  paintTicker();
 
   // ---------- HEATMAP ----------
   // Each row: [name, score, short note, reasoning, [signal tags]]
@@ -1658,6 +1663,53 @@ footer{padding:40px 0;margin-top:20px}
       const repo=rates.data.policy_repo, g10=rates.data.gsec_10y;
       if(repo && repo.value!=null) setMacro('repo', repo.value.toFixed(2)+'%', 'RBI MPC · '+(repo.as_of||''));
       if(g10 && g10.last!=null) setMacro('g-sec', g10.last.toFixed(2)+'%', 'live · '+(g10.last_date||''));
+    }
+
+    // ---- LIVE TICKER (real prices, marked live) ----
+    (function liveTicker(){
+      if(!window.__rebuildTicker) return;
+      const fmtN=(v)=>Math.round(v).toLocaleString('en-IN');
+      const it=[];
+      const push=(name,key,fmt,dirFromChg)=>{
+        const a=InvMax.asset(d,key); if(!a||a.last==null) return;
+        const dir=(a.chg!=null)?(a.chg>0.05?'up':a.chg<-0.05?'down':'flat'):'flat';
+        it.push({name,val:fmt(a.last),dir,sample:false});
+      };
+      push('NIFTY 50','nifty50',fmtN);
+      push('SENSEX','sensex',fmtN);
+      push('GOLD','gold_usd',v=>'$'+fmtN(v));
+      push('BRENT','brent_oil',v=>'$'+v.toFixed(1));
+      if(u) it.push({name:'USD/INR',val:u.value.toFixed(2),dir:'flat',sample:false});
+      if(rates && rates.data && rates.data.gsec_10y && rates.data.gsec_10y.last!=null)
+        it.push({name:'10Y G-SEC',val:rates.data.gsec_10y.last.toFixed(2)+'%',dir:'flat',sample:false});
+      if(it.length>=3) window.__rebuildTicker(it);   // only replace if we truly have live data
+    })();
+
+    // ---- LIVE PULSE CARD (Nifty level + trend) ----
+    (function livePulse(){
+      const a=InvMax.asset(d,'nifty50'); if(!a||a.last==null) return;
+      const pv=document.querySelector('#pulse .p-val');
+      if(pv){
+        const chg=a.chg!=null?a.chg:0;
+        const cls=chg>=0?'up':'down', arr=chg>=0?'▲':'▼';
+        pv.innerHTML=`${Math.round(a.last).toLocaleString('en-IN')} <span class="p-chg ${cls}">${arr} ${Math.abs(chg).toFixed(1)}%</span>`;
+      }
+      const pl=document.querySelector('#pulse .prov');
+      if(pl){ pl.textContent='live · '+(a.date||''); pl.classList.remove('sample'); pl.classList.add('live'); }
+    })();
+
+    // ---- MACRO section note → live stamp ----
+    const mnote=document.querySelector('#macro .section-note .prov');
+    if(mnote){ mnote.textContent='live where available · '+(stamp||''); mnote.classList.remove('sample'); mnote.classList.add('live'); }
+
+    // ---- FII flows tile + pulse flows → live from flows block ----
+    const flows=InvMax.block(d,'flows');
+    if(flows && flows.data){
+      const fd=flows.data;
+      const fii=fd.fii_net!=null?fd.fii_net:(fd.fii&&fd.fii.net), dii=fd.dii_net!=null?fd.dii_net:(fd.dii&&fd.dii.net);
+      if(fii!=null){
+        setMacro('fii', (fii>=0?'+':'')+'₹'+Math.abs(Math.round(fii)).toLocaleString('en-IN')+' Cr', 'NSE · '+(flows.asof||stamp||''));
+      }
     }
 
     const note=document.querySelector('#macro .section-note .prov'); if(note){ note.textContent='live where available · '+(stamp||''); note.classList.add('live'); }
