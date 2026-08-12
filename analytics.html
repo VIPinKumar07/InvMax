@@ -290,9 +290,9 @@
       <div class="block-head"><div><span class="block-eyebrow">Sectors</span><div class="block-title">Rotation map</div></div>
         <div class="block-note">Momentum against valuation. Top-left is where leadership tends to persist.</div></div>
       <div class="grid-sect">
-        <div class="card"><div class="card-label"><span>Momentum vs valuation</span><span class="prov">sample · 01 Aug 26</span></div><div id="quadrant"></div>
+        <div class="card"><div class="card-label"><span>Momentum vs valuation</span><span class="prov">sample</span></div><div id="quadrant"></div>
           <div class="insight" id="sectInsight"></div></div>
-        <div class="card" style="padding:14px"><div class="card-label" style="padding:0 6px"><span>Sector detail</span><span class="prov">sample · 01 Aug 26</span></div>
+        <div class="card" style="padding:14px"><div class="card-label" style="padding:0 6px"><span>Sector detail</span><span class="prov">sample</span></div>
           <table id="sectTable"><thead><tr><th data-k="name">Sector</th><th data-k="ret" class="num">1M</th><th data-k="mom" class="num">Mom</th><th data-k="val" class="num">Val</th></tr></thead><tbody></tbody></table></div>
       </div>
     </section>
@@ -659,14 +659,14 @@ function sparkline(mount,vals,color){
 }
 function countUp(el,target,fmt){const dur=800,t0=performance.now();(function s(t){const p=Math.min(1,(t-t0)/dur),e=1-Math.pow(1-p,3);el.textContent=fmt(target*e);if(p<1)requestAnimationFrame(s);})(performance.now());}
 const kpis=[
-  {name:'Nifty 50',num:25940,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+1.8%',dir:'up',spark:curve(ASSETS[0].r).slice(-14),asof:'sample · 01 Aug 26'},
-  {name:'Midcap',num:61240,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+2.4%',dir:'up',spark:curve(ASSETS[1].r).slice(-14),asof:'sample · 01 Aug 26'},
-  {name:'10Y G-Sec',num:6.35,fmt:v=>v.toFixed(2)+'%',chg:'-18bps',dir:'down',spark:curve(ASSETS[4].r).slice(-14).map(v=>-v),asof:'sample · 01 Aug 26'},
+  {name:'Nifty 50',num:25940,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+1.8%',dir:'up',spark:curve(ASSETS[0].r).slice(-14),asof:'sample'},
+  {name:'Midcap',num:61240,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+2.4%',dir:'up',spark:curve(ASSETS[1].r).slice(-14),asof:'sample'},
+  {name:'10Y G-Sec',num:6.35,fmt:v=>v.toFixed(2)+'%',chg:'-18bps',dir:'down',spark:curve(ASSETS[4].r).slice(-14).map(v=>-v),asof:'sample'},
   {name:'USD / INR',num:87.20,fmt:v=>v.toFixed(2),chg:'—',dir:'up',spark:[86.9,87,87.1,87.05,87.2],asof:'sample'},
-  {name:'Gold 10g',num:102300,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+3.2%',dir:'up',spark:curve(ASSETS[3].r).slice(-14),asof:'sample · 01 Aug 26'},
-  {name:'India VIX',num:12.6,fmt:v=>v.toFixed(1),chg:'-6.4%',dir:'down',spark:[15.8,14.9,15.4,13.8,13.1,12.9,12.6],asof:'sample · 01 Aug 26'},
-  {name:'Bank Nifty',num:58420,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+2.1%',dir:'up',spark:curve(ASSETS[0].r).slice(-14),asof:'sample · 01 Aug 26'},
-  {name:'FII MTD',num:8400,fmt:v=>'+'+Math.round(v).toLocaleString('en-IN'),chg:'3rd mo',dir:'up',spark:flows.fii,asof:'sample · 01 Aug 26'},
+  {name:'Gold 10g',num:102300,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+3.2%',dir:'up',spark:curve(ASSETS[3].r).slice(-14),asof:'sample'},
+  {name:'India VIX',num:12.6,fmt:v=>v.toFixed(1),chg:'-6.4%',dir:'down',spark:[15.8,14.9,15.4,13.8,13.1,12.9,12.6],asof:'sample'},
+  {name:'Bank Nifty',num:58420,fmt:v=>Math.round(v).toLocaleString('en-IN'),chg:'+2.1%',dir:'up',spark:curve(ASSETS[0].r).slice(-14),asof:'sample'},
+  {name:'FII MTD',num:8400,fmt:v=>'+'+Math.round(v).toLocaleString('en-IN'),chg:'3rd mo',dir:'up',spark:flows.fii,asof:'sample'},
 ];
 const kg=$('#kpiGrid');
 kpis.forEach(k=>{const d=document.createElement('div');d.className='kpi';d.dataset.name=k.name;
@@ -762,6 +762,33 @@ let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(renderAll,2
 
   // 1) anchor the analytics engine to the live market factor
   const idx = InvMax.block(d,'indices');
+
+  // 1b) update KPI cards from real feeds (kill the sample stamps we can replace)
+  (function liveKPIs(){
+    const cards=[...document.querySelectorAll('.kpi')];
+    const byName=(n)=>cards.find(c=>{const el=c.querySelector('.kpi-name');return el && el.textContent.trim().toLowerCase().startsWith(n);});
+    const setK=(card,val,asofText,live)=>{
+      if(!card) return;
+      const v=card.querySelector('.kpi-val'), a=card.querySelector('.kpi-asof');
+      if(v) v.textContent=val;
+      if(a) a.textContent=asofText;
+      if(live){ const nm=card.querySelector('.kpi-name'); }
+    };
+    const rates=InvMax.block(d,'rates');
+    if(idx && idx.data){
+      const nf=idx.data.nifty50, gd=idx.data.gold_usd;
+      if(nf&&nf.last!=null) setK(byName('nifty'), Math.round(nf.last).toLocaleString('en-IN'), 'live · '+(nf.last_date||''), true);
+      if(gd&&gd.last!=null) setK(byName('gold'), Math.round(gd.last).toLocaleString('en-IN'), 'live · '+(gd.last_date||''), true);
+    }
+    if(rates && rates.data && rates.data.gsec_10y && rates.data.gsec_10y.last!=null){
+      setK(byName('10y'), rates.data.gsec_10y.last.toFixed(2)+'%', 'live · '+(rates.data.gsec_10y.last_date||''), true);
+    }
+    // honestly mark the ones we still can't source live
+    ['midcap','india vix','bank nifty','fii mtd'].forEach(n=>{
+      const c=byName(n); if(c){ const a=c.querySelector('.kpi-asof'); if(a && /sample/i.test(a.textContent)) a.textContent='illustrative — no live feed yet'; }
+    });
+  })();
+
   let anchored=false;
   if(idx){
     const liveNifty = idx.data.nifty50 && InvMax.monthlyReturns(idx.data.nifty50.monthly);
