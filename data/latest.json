@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13 09:09 IST",
-  "generated_utc": "2026-08-13T03:39:22+00:00",
+  "generated_at": "2026-08-14 09:07 IST",
+  "generated_utc": "2026-08-14T03:37:11+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-13 09:09 IST",
+      "asof": "2026-08-14 09:07 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-12",
+        "asof": "2026-08-13",
         "rates": {
-          "EUR": 0.86618,
-          "GBP": 0.73935,
-          "INR": 95.34,
-          "JPY": 159.09
+          "EUR": 0.867,
+          "GBP": 0.7412,
+          "INR": 95.44,
+          "JPY": 159.33
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-13",
-            "v": 87.45
-          },
           {
             "date": "2025-08-14",
             "v": 87.57
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-08-12",
             "v": 95.34
+          },
+          {
+            "date": "2026-08-13",
+            "v": 95.44
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-13 09:09 IST",
+      "asof": "2026-08-14 09:07 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW",
-          "nav": 107.2026,
-          "date": "12-08-2026",
-          "ret1y_pct": -0.91,
+          "nav": 107.2564,
+          "date": "13-08-2026",
+          "ret1y_pct": -0.85,
           "series": [
-            102.3051,
-            102.6971,
-            103.4024,
-            104.1787,
-            106.2928,
-            107.6822,
-            107.5011,
-            108.1982,
-            107.9266,
-            108.6702,
-            109.6768,
-            110.2349,
-            110.3493,
-            110.296,
-            111.0395,
-            104.5956,
-            104.7371,
-            105.6864,
-            106.4609,
-            107.2026
+            102.2319,
+            102.7722,
+            103.428,
+            104.2711,
+            106.3422,
+            107.6883,
+            107.4878,
+            108.2193,
+            108.066,
+            108.7397,
+            109.7548,
+            110.2362,
+            110.3333,
+            110.4477,
+            110.9193,
+            104.6113,
+            104.7318,
+            105.8125,
+            106.5116,
+            107.2564
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 112.8483,
-          "date": "12-08-2026",
-          "ret1y_pct": 5.08,
+          "nav": 112.6937,
+          "date": "13-08-2026",
+          "ret1y_pct": 5.4,
           "series": [
-            104.7743,
-            103.119,
-            97.102,
-            98.1202,
-            105.499,
-            108.8321,
-            110.2936,
-            107.8011,
-            108.9657,
-            109.5882,
-            111.5788,
-            109.0886,
-            108.8498,
-            110.6519,
-            102.9776,
-            103.2303,
-            104.5531,
-            105.2124,
-            109.0188,
-            112.8483
+            103.8402,
+            102.6583,
+            96.3467,
+            97.7243,
+            106.0607,
+            108.7816,
+            109.7323,
+            106.5285,
+            109.2062,
+            109.959,
+            111.4226,
+            109.7762,
+            108.8931,
+            110.8392,
+            101.9718,
+            104.9259,
+            104.2918,
+            106.5977,
+            109.6775,
+            112.6937
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Growth Option - Direct Plan",
-          "nav": 236.891,
-          "date": "12-08-2026",
-          "ret1y_pct": 11.73,
+          "nav": 237.08,
+          "date": "13-08-2026",
+          "ret1y_pct": 12.2,
           "series": [
-            208.901,
-            189.346,
-            182.39,
-            190.72,
-            197.523,
-            207.526,
-            216.834,
-            213.543,
-            212.253,
-            213.642,
-            221.161,
-            224.68,
-            226.631,
-            223.961,
-            214.598,
-            215.548,
-            216.713,
-            220.156,
-            230.008,
-            236.891
+            209.077,
+            193.404,
+            178.626,
+            188.3,
+            194.533,
+            208.459,
+            216.556,
+            210.433,
+            213.155,
+            215.389,
+            221.567,
+            221.483,
+            226.959,
+            226.725,
+            212.648,
+            213.692,
+            218.889,
+            223.036,
+            230.532,
+            237.08
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan",
-          "nav": 239.1673,
-          "date": "12-08-2026",
-          "ret1y_pct": -0.22,
+          "nav": 238.7886,
+          "date": "13-08-2026",
+          "ret1y_pct": -0.08,
           "series": [
-            227.4654,
-            221.0075,
-            217.3128,
-            226.6637,
-            235.7181,
-            237.0367,
-            246.3287,
-            240.0786,
-            238.6157,
-            241.6546,
-            247.8268,
-            254.4687,
-            254.3436,
-            249.8009,
-            235.9112,
-            233.7978,
-            227.5962,
-            230.1422,
-            234.962,
-            239.1673
+            227.4628,
+            223.0092,
+            213.2629,
+            223.2461,
+            234.9315,
+            237.8766,
+            245.8633,
+            238.1735,
+            239.9275,
+            243.431,
+            247.7336,
+            252.2695,
+            253.9734,
+            251.5148,
+            232.0725,
+            231.7723,
+            230.287,
+            232.3818,
+            235.2438,
+            238.7886
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-13 09:10 IST",
+      "asof": "2026-08-14 09:08 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-08-13 09:10 IST",
+      "asof": "2026-08-14 09:08 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "12-Aug-2026",
-          "buy": 21518.55,
-          "sell": 15676.89,
-          "net": 5841.66
+          "date": "13-Aug-2026",
+          "buy": 16565.14,
+          "sell": 12212.05,
+          "net": 4353.09
         },
         "fii": {
-          "date": "12-Aug-2026",
-          "buy": 16584.64,
-          "sell": 17587.14,
-          "net": -1002.5
+          "date": "13-Aug-2026",
+          "buy": 14492.46,
+          "sell": 15003.15,
+          "net": -510.69
         }
       }
     },
     "news": {
-      "asof": "2026-08-13 09:10 IST",
+      "asof": "2026-08-14 09:08 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Precision Electronics reports standalone net loss of Rs 2.36 crore in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/precision-electronics-reports-standalone-net-loss-of-rs-2-36-crore-in-the-june-2026-quarter-126081300123_1.html",
-          "published": "Thu, 13 Aug 2026 09:06:26 +0530"
+          "title": "Rita Finance and Leasing standalone net profit declines 31.82% in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/rita-finance-and-leasing-standalone-net-profit-declines-31-82-in-the-june-2026-quarter-126081400150_1.html",
+          "published": "Fri, 14 Aug 2026 09:07:16 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Ashnoor Textile Mills standalone net profit rises 113.58% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/ashnoor-textile-mills-standalone-net-profit-rises-113-58-in-the-june-2026-quarter-126081300122_1.html",
-          "published": "Thu, 13 Aug 2026 09:06:18 +0530"
+          "title": "Nitiraj Engineers reports standalone net profit of Rs 1.02 crore in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/nitiraj-engineers-reports-standalone-net-profit-of-rs-1-02-crore-in-the-june-2026-quarter-126081400149_1.html",
+          "published": "Fri, 14 Aug 2026 09:07:08 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Panther Industrial Products reports standalone net loss of Rs 0.08 crore in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/panther-industrial-products-reports-standalone-net-loss-of-rs-0-08-crore-in-the-june-2026-quarter-126081300121_1.html",
-          "published": "Thu, 13 Aug 2026 09:06:10 +0530"
+          "title": "Superior Finlease reports standalone net loss of Rs 0.04 crore in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/superior-finlease-reports-standalone-net-loss-of-rs-0-04-crore-in-the-june-2026-quarter-126081400148_1.html",
+          "published": "Fri, 14 Aug 2026 09:06:59 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Bluechip Tex Industries reports standalone net loss of Rs 0.75 crore in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/bluechip-tex-industries-reports-standalone-net-loss-of-rs-0-75-crore-in-the-june-2026-quarter-126081300120_1.html",
-          "published": "Thu, 13 Aug 2026 09:06:02 +0530"
+          "title": "Karma Energy standalone net profit declines 27.87% in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/karma-energy-standalone-net-profit-declines-27-87-in-the-june-2026-quarter-126081400147_1.html",
+          "published": "Fri, 14 Aug 2026 09:06:49 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Gandhi Special Tubes standalone net profit rises 29.29% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/gandhi-special-tubes-standalone-net-profit-rises-29-29-in-the-june-2026-quarter-126081300117_1.html",
-          "published": "Thu, 13 Aug 2026 09:05:54 +0530"
+          "title": "Easun Capital Markets reports standalone net profit of Rs 0.19 crore in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/easun-capital-markets-reports-standalone-net-profit-of-rs-0-19-crore-in-the-june-2026-quarter-126081400146_1.html",
+          "published": "Fri, 14 Aug 2026 09:06:37 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Rajasthan Petro Synthetics reports standalone nil net profit/loss in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/rajasthan-petro-synthetics-reports-standalone-nil-net-profit-loss-in-the-june-2026-quarter-126081300116_1.html",
-          "published": "Thu, 13 Aug 2026 09:05:45 +0530"
+          "title": "Tilak Ventures standalone net profit rises 95.48% in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/tilak-ventures-standalone-net-profit-rises-95-48-in-the-june-2026-quarter-126081400145_1.html",
+          "published": "Fri, 14 Aug 2026 09:06:28 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Is Vodafone Idea finally making a comeback?",
+          "url": "https://finshots.in/markets/vodafone-idea-comeback-4/",
+          "published": "Fri, 14 Aug 2026 01:30:28 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Sun, 09 Aug 2026 01:30:28 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Urban Company's latest results, the Ardee Industries IPO, and more...",
-          "url": "https://finshots.in/archive/urban-companys-latest-results-the-ardee-industries-ipo-and-more/",
-          "published": "Sat, 08 Aug 2026 01:30:24 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Advent-backed Svatantra Microfin files for $315 million IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/advent-backed-svatantra-microfin-files-for-315-million-ipo/articleshow/133228058.cms",
+          "published": "Fri, 14 Aug 2026 08:44:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nalco among 5 stocks flashing bullish signals, hinting at a possible uptrend",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nalco-among-5-stocks-flashing-bullish-signals-hinting-at-a-possible-uptrend/slideshow/133196791.cms",
-          "published": "Thu, 13 Aug 2026 08:45:51 +0530"
+          "title": "Shiprocket IPO Day 3: GMP signals 38% listing premium, subscribed 3.16 times; should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/shiprocket-ipo-day-3-gmp-signals-38-listing-premium-subscribed-3-16-times-should-you-subscribe/articleshow/133228000.cms",
+          "published": "Fri, 14 Aug 2026 08:39:47 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Bharat Heavy Electricals among 5 stocks showing bullish RSI upswing",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bharat-heavy-electricals-among-5-stocks-showing-bullish-rsi-upswing/slideshow/133196739.cms",
-          "published": "Thu, 13 Aug 2026 08:41:06 +0530"
+          "title": "LTIMindtree Share Price Live Updates: LTIMindtree's strong performance in the last month",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-stock-price-live-updates-14-aug-2026/liveblog/133227832.cms",
+          "published": "Fri, 14 Aug 2026 08:25:21 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Chandra’s Rs 25 lakh crore Tata legacy: Revenue up 71%, PAT 3.6x and a 19x multibagger",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/chandras-rs-25-lakh-crore-tata-legacy-revenue-up-71-pat-3-6x-and-a-19x-multibagger/articleshow/133196628.cms",
-          "published": "Thu, 13 Aug 2026 08:39:23 +0530"
+          "title": "ETMarkets Smart Talk | Nifty50 can hit 28,615 if crude cools, FIIs return: Rajesh Palviya on wealth creation",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-nifty50-can-hit-28615-if-crude-cools-fiis-return-rajesh-palviya-on-wealth-creation/articleshow/133227306.cms",
+          "published": "Fri, 14 Aug 2026 08:09:55 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Shiprocket IPO Day 2: GMP signals 35% listing gains, Subscribed 97% so far: Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/shiprocket-ipo-day-2-gmp-signals-35-listing-gains-subscribed-97-so-far-should-you-subscribe/articleshow/133196566.cms",
-          "published": "Thu, 13 Aug 2026 08:34:24 +0530"
+          "title": "LEAP India shares to list today. Check GMP ahead of debut",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/leap-india-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/133227372.cms",
+          "published": "Fri, 14 Aug 2026 08:02:55 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto achieves a 12.53% return in the last three months",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-stock-price-livestock-price-today-live-updates-13-aug-2026/liveblog/133196227.cms",
-          "published": "Thu, 13 Aug 2026 08:11:19 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "ITC Share Price Live Updates: ITC's three-month performance shows negative returns",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/itc-stock-price-livestock-price-today-live-updates-13-aug-2026/liveblog/133196206.cms",
-          "published": "Thu, 13 Aug 2026 08:10:06 +0530"
+          "title": "Technocraft Ventures shares to list today. GMP signals 17% listing gains ahead of debut",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/technocraft-ventures-shares-to-list-today-gmp-signals-17-listing-gains-ahead-of-debut/articleshow/133227330.cms",
+          "published": "Fri, 14 Aug 2026 07:58:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold and silver trade lacklustre on MCX despite soft US inflation data; elevated dollar, bond yields weigh",
-          "url": "https://www.livemint.com/market/commodities/gold-and-silver-prices-today-rates-lacklustre-on-mcx-despite-soft-us-inflation-data-elevated-dollar-bond-yields-weigh-11786591359947.html",
-          "published": "Thu, 13 Aug 2026 09:07:02 +0530"
+          "title": "Rupee opens 6 paise higher at 95.38 against US dollar",
+          "url": "https://www.livemint.com/market/stock-market-news/rupee-opens-6-paise-higher-at-95-38-against-us-dollar-11786678379019.html",
+          "published": "Fri, 14 Aug 2026 09:04:35 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Rupee opens 3 paise lower at 95.36 against US dollar",
-          "url": "https://www.livemint.com/market/stock-market-news/rupee-opens-3-paise-lower-at-95-36-against-us-dollar-11786592066298.html",
-          "published": "Thu, 13 Aug 2026 09:05:57 +0530"
+          "title": "Skyways Air Services IPO: Price band set at ₹131- ₹138 per share; check key dates, issue details",
+          "url": "https://www.livemint.com/market/ipo/skyways-air-services-ipo-price-band-set-at-rs-131-rs-138-per-share-check-key-dates-issue-details-11786677095544.html",
+          "published": "Fri, 14 Aug 2026 08:50:44 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to buy for short term: BoB among 3 shares Amol Athawale of Kotak Securities recommends for next 1-2 weeks",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-for-short-term-bank-of-baroda-among-3-shares-amol-athawale-of-kotak-securities-recommends-11786589998068.html",
-          "published": "Thu, 13 Aug 2026 08:40:15 +0530"
+          "title": "Nikkei, KOSPI to US stocks: Global equity heatmap you must know before opening bell of the Indian stock market",
+          "url": "https://www.livemint.com/market/stock-market-news/nikkei-kospi-to-us-stocks-global-markets-equity-heatmap-you-must-know-before-opening-bell-of-the-indian-stock-market-11786674649475.html",
+          "published": "Fri, 14 Aug 2026 08:46:35 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nikkei, Kospi to US stocks: Global equity heatmap you must know before the opening bell of the Indian stock market",
-          "url": "https://www.livemint.com/market/stock-market-news/nikkei-kospi-to-us-stocks-global-markets-equity-heatmap-you-must-know-before-opening-bell-of-the-indian-stock-market-11786587204512.html",
-          "published": "Thu, 13 Aug 2026 08:34:53 +0530"
+          "title": "Stocks to buy for short term: Mazagon Dock among 3 shares Ajit Mishra of Religare Broking recommends for next 1-2 weeks",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-for-short-term-mazagon-dock-among-3-shares-ajit-mishra-of-religare-broking-recommends-for-next-1-2-weeks-11786676589305.html",
+          "published": "Fri, 14 Aug 2026 08:42:38 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Q1 results 2026: Tata Motors PV to Brainbees Solutions among companies to declare Q1 results today; full list here",
-          "url": "https://www.livemint.com/market/stock-market-news/q1-results-2026-tata-motors-pv-to-brainbees-solutions-among-companies-to-declare-q1-results-today-full-list-here-11786588694654.html",
-          "published": "Thu, 13 Aug 2026 08:29:46 +0530"
+          "title": "Shares to buy or sell: Chandan Taparia of Motilal Oswal recommends three stocks to buy today - 14 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/shares-to-buy-or-sell-chandan-taparia-of-motilal-oswal-recommends-three-stocks-to-buy-today-14-august-2026-11786638324666.html",
+          "published": "Fri, 14 Aug 2026 08:14:16 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gaja Capital IPO: Price band set at ₹152- ₹160 per share; check key dates, issue details",
-          "url": "https://www.livemint.com/market/ipo/gaja-capital-ipo-price-band-set-at-rs-152-rs-160-per-share-check-key-dates-issue-details-11786588540089.html",
-          "published": "Thu, 13 Aug 2026 08:17:12 +0530"
+          "title": "Stock market today: Gift Nifty hints a muted start; eight day trading stocks to buy on Friday, 14 August",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-muted-start-eight-day-trading-stocks-to-buy-on-friday-14-august-11786672797345.html",
+          "published": "Fri, 14 Aug 2026 08:09:52 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1446,22 +1446,22 @@
     },
     "narrative": {
       "status": "live",
-      "generated_at": "2026-08-13 09:10 IST",
+      "generated_at": "2026-08-14 09:08 IST",
       "model": "llama-3.3-70b-versatile",
-      "headline": "DII flows surge to ₹5,842 Cr",
-      "regime_read": "The DII flows have significantly increased to ₹5,842 Cr, a substantial change from the previous day's ₹25 Cr. The FII net flows have flipped direction to ₹-1,002 Cr, indicating a possible shift in foreign investor sentiment. The USD/INR rate has decreased to 95.34, remaining broadly stable. The large increase in DII flows may indicate a strong domestic investment sentiment, potentially influencing the market's overall direction. The change in FII flows may also impact the market's dynamics. The current trends suggest a potential increase in domestic investment, which could counterbalance the decrease in foreign investment.",
+      "headline": "Rupee Stable at 95.44",
+      "regime_read": "The DII flows are at ₹4,353 Cr, a decrease from the previous day's ₹5,842 Cr. The FII net flows are at ₹-511 Cr, indicating continued foreign investor selling. The USD/INR rate is at 95.44, remaining broadly stable. The decrease in DII flows may indicate a moderation in domestic investment sentiment, while the continued foreign investor selling could impact the market's dynamics. The current trends suggest a potential decrease in domestic investment, which could be influenced by the decrease in foreign investment.",
       "hot_notes": {
-        "conservative": "DII flows at ₹5,842 Cr",
-        "balanced": "FII net flows at ₹-1,002 Cr",
-        "aggressive": "USD/INR at 95.34",
-        "special": "FII flows flipped direction"
+        "conservative": "DII flows at ₹4,353 Cr",
+        "balanced": "FII net flows at ₹-511 Cr",
+        "aggressive": "USD/INR at 95.44",
+        "special": "DII flows decreased"
       },
-      "research_note": "The significant increase in DII flows and the change in FII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic and foreign investment sentiment. The large increase in DII flows could potentially counterbalance the decrease in FII flows, influencing the market's overall direction.",
-      "confidence": "high"
+      "research_note": "The decrease in DII flows and continued foreign investor selling may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in domestic and foreign investment sentiment. The moderation in DII flows could potentially be influenced by the decrease in foreign investment, affecting the market's overall direction.",
+      "confidence": "medium"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-13 09:10 IST",
+      "generated_at": "2026-08-14 09:08 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1479,7 +1479,7 @@
           "label": "Rupee",
           "direction": "neutral",
           "strength": 63,
-          "reading": "USD/INR moved -0.9% over the last month (now 95.34).",
+          "reading": "USD/INR moved -0.9% over the last month (now 95.44).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1505,84 +1505,73 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-13 09:10 IST",
+    "date": "2026-08-14 09:08 IST",
     "usdinr": {
-      "last": 95.34,
-      "date": "2026-08-12"
+      "last": 95.44,
+      "date": "2026-08-13"
     },
     "dii_net": {
-      "net": 5841.66,
-      "date": "12-Aug-2026"
+      "net": 4353.09,
+      "date": "13-Aug-2026"
     },
     "fii_net": {
-      "net": -1002.5,
-      "date": "12-Aug-2026"
+      "net": -510.69,
+      "date": "13-Aug-2026"
     },
     "headlines": [
-      "Precision Electronics reports standalone net loss of Rs 2.36 crore in the June 2026 quarter",
-      "Ashnoor Textile Mills standalone net profit rises 113.58% in the June 2026 quarter",
-      "Panther Industrial Products reports standalone net loss of Rs 0.08 crore in the June 2026 quarter",
-      "Bluechip Tex Industries reports standalone net loss of Rs 0.75 crore in the June 2026 quarter",
-      "Gandhi Special Tubes standalone net profit rises 29.29% in the June 2026 quarter",
-      "Rajasthan Petro Synthetics reports standalone nil net profit/loss in the June 2026 quarter",
+      "Rita Finance and Leasing standalone net profit declines 31.82% in the June 2026 quarter",
+      "Nitiraj Engineers reports standalone net profit of Rs 1.02 crore in the June 2026 quarter",
+      "Superior Finlease reports standalone net loss of Rs 0.04 crore in the June 2026 quarter",
+      "Karma Energy standalone net profit declines 27.87% in the June 2026 quarter",
+      "Easun Capital Markets reports standalone net profit of Rs 0.19 crore in the June 2026 quarter",
+      "Tilak Ventures standalone net profit rises 95.48% in the June 2026 quarter",
+      "Is Vodafone Idea finally making a comeback?",
       "How do you scale UPI if it's not free?",
       "Can blockchain save London's gold trade?",
       "A look at the Milky Mist IPO",
       "What went wrong with South Korea’s AI boom?",
-      "The thriving business of cheap luxury, how Hyrox makes money, and more...",
-      "Urban Company's latest results, the Ardee Industries IPO, and more..."
+      "The thriving business of cheap luxury, how Hyrox makes money, and more..."
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹5,842 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-1,002 Cr — direction flipped"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "8 new"
+        "detail": "7 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.34 (-0.10%)"
+        "detail": "₹95.44 (+0.10%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹5,842 Cr"
+        "detail": "₹4,353 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-1,002 Cr — direction flipped"
+        "detail": "₹-511 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "8 new"
+        "detail": "7 new"
       }
     ],
-    "since": "2026-08-12 09:07 IST",
+    "since": "2026-08-13 09:10 IST",
     "new_headlines": [
-      "Precision Electronics reports standalone net loss of Rs 2.36 crore in the June 2026 quarter",
-      "Ashnoor Textile Mills standalone net profit rises 113.58% in the June 2026 quarter",
-      "Panther Industrial Products reports standalone net loss of Rs 0.08 crore in the June 2026 quarter",
-      "Bluechip Tex Industries reports standalone net loss of Rs 0.75 crore in the June 2026 quarter",
-      "Gandhi Special Tubes standalone net profit rises 29.29% in the June 2026 quarter",
-      "Rajasthan Petro Synthetics reports standalone nil net profit/loss in the June 2026 quarter",
-      "How do you scale UPI if it's not free?",
-      "Can blockchain save London's gold trade?"
+      "Rita Finance and Leasing standalone net profit declines 31.82% in the June 2026 quarter",
+      "Nitiraj Engineers reports standalone net profit of Rs 1.02 crore in the June 2026 quarter",
+      "Superior Finlease reports standalone net loss of Rs 0.04 crore in the June 2026 quarter",
+      "Karma Energy standalone net profit declines 27.87% in the June 2026 quarter",
+      "Easun Capital Markets reports standalone net profit of Rs 0.19 crore in the June 2026 quarter",
+      "Tilak Ventures standalone net profit rises 95.48% in the June 2026 quarter",
+      "Is Vodafone Idea finally making a comeback?"
     ]
   },
   "summary": {
