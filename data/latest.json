@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16 08:10 IST",
-  "generated_utc": "2026-08-16T02:40:04+00:00",
+  "generated_at": "2026-08-17 08:09 IST",
+  "generated_utc": "2026-08-17T02:39:43+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-16 08:10 IST",
+      "asof": "2026-08-17 08:09 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-16 08:10 IST",
+      "asof": "2026-08-17 08:09 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-16 08:10 IST",
+      "asof": "2026-08-17 08:10 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-08-16 08:10 IST",
+      "asof": "2026-08-17 08:10 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-08-16 08:11 IST",
+      "asof": "2026-08-17 08:10 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nxt-Infra Trust consolidated net profit rises 71.83% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/nxt-infra-trust-consolidated-net-profit-rises-71-83-in-the-june-2026-quarter-126081501154_1.html",
-          "published": "Sat, 15 Aug 2026 16:20:19 +0530"
+          "title": "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
+          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-today-17-august-ril-amber-ent-ongc-ather-energy-nmdc-voltas-126081700054_1.html",
+          "published": "Mon, 17 Aug 2026 08:06:41 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oriental Infra Trust consolidated net profit rises 14.42% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/oriental-infra-trust-consolidated-net-profit-rises-14-42-in-the-june-2026-quarter-126081501153_1.html",
-          "published": "Sat, 15 Aug 2026 16:20:12 +0530"
+          "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-17-august-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-q1-results-today-ipo-listing-126081700053_1.html",
+          "published": "Mon, 17 Aug 2026 07:56:46 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Mercantile Ventures reports consolidated net loss of Rs 0.65 crore in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/mercantile-ventures-reports-consolidated-net-loss-of-rs-0-65-crore-in-the-june-2026-quarter-126081501152_1.html",
-          "published": "Sat, 15 Aug 2026 16:20:04 +0530"
+          "title": "Asian shares mark time as West Asia war keeps oil prices elevated",
+          "url": "https://www.business-standard.com/markets/news/asian-shares-mark-time-as-west-asia-war-keeps-oil-prices-elevated-126081700046_1.html",
+          "published": "Mon, 17 Aug 2026 07:53:48 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "DSP Finance Pvt consolidated net profit declines 28.36% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/dsp-finance-pvt-consolidated-net-profit-declines-28-36-in-the-june-2026-quarter-126081501149_1.html",
-          "published": "Sat, 15 Aug 2026 16:19:56 +0530"
+          "title": "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
+          "url": "https://www.business-standard.com/markets/news/heg-supreme-inds-astra-micro-choice-broking-is-bullish-on-these-3-stocks-126081700056_1.html",
+          "published": "Mon, 17 Aug 2026 07:51:38 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "THDC India consolidated net profit rises 103.94% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/thdc-india-consolidated-net-profit-rises-103-94-in-the-june-2026-quarter-126081501148_1.html",
-          "published": "Sat, 15 Aug 2026 16:19:49 +0530"
+          "title": "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
+          "url": "https://www.business-standard.com/markets/news/avoid-aggressive-mkt-positioning-says-angel-one-aequs-among-3-stock-picks-126081700050_1.html",
+          "published": "Mon, 17 Aug 2026 07:45:25 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Cindrella Financial Services reports consolidated net profit of Rs 0.03 crore in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/cindrella-financial-services-reports-consolidated-net-profit-of-rs-0-03-crore-in-the-june-2026-quarter-126081501147_1.html",
-          "published": "Sat, 15 Aug 2026 16:19:42 +0530"
+          "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
+          "url": "https://www.business-standard.com/markets/commodities/oil-treads-water-as-us-iran-peace-talks-stall-hormuz-shipping-slows-126081700042_1.html",
+          "published": "Mon, 17 Aug 2026 07:32:49 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The story of the Indian rupee since 1947",
+          "url": "https://finshots.in/archive/the-story-of-the-indian-rupee-since-1947/",
+          "published": "Mon, 17 Aug 2026 01:30:57 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Tue, 11 Aug 2026 01:29:07 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "What went wrong with South Korea’s AI boom?",
-          "url": "https://finshots.in/archive/south-korea-ai-boom/",
-          "published": "Mon, 10 Aug 2026 01:30:25 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Molbio Diagnostics shares to list today. Check GMP ahead of debut",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/molbio-diagnostics-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/133285025.cms",
+          "published": "Mon, 17 Aug 2026 08:08:27 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Madhusudan Kela’s portfolio: 7 stocks rally up to 135% in CY26",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/madhusudan-kelas-portfolio-7-stocks-rally-up-to-135-in-cy26/slideshow/133259821.cms",
-          "published": "Sat, 15 Aug 2026 14:56:31 +0530"
+          "title": "Lalithaa Jewellery Mart IPO opens today: GMP signals 15% premium — Should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-opens-today-gmp-signals-15-premium-should-you-subscribe/articleshow/133285001.cms",
+          "published": "Mon, 17 Aug 2026 08:07:09 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Bitcoin near $63,000 as weaker ETF demand and cancelled SEC meeting dampen crypto sentiment",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-near-63000-as-weaker-etf-demand-and-cancelled-sec-meeting-dampen-crypto-sentiment/articleshow/133259389.cms",
-          "published": "Sat, 15 Aug 2026 14:32:23 +0530"
+          "title": "Stocks to buy in 2026 for long term: Senco Gold, Arvind among 5 stocks that could give 10-60% return",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-senco-gold-arvind-among-5-stocks-that-could-give-10-60-return/slideshow/133285138.cms",
+          "published": "Mon, 17 Aug 2026 08:00:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "F&O Talk: Nifty consolidation to continue says Sudeep Shah; gives Tata Motors, Lenskart, Honasa strategy",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-nifty-consolidation-to-continue-says-sudeep-shah-gives-tata-motors-lenskart-honasa-strategy/articleshow/133259043.cms",
-          "published": "Sat, 15 Aug 2026 14:07:09 +0530"
+          "title": "Dhoot Transmission shares set for debut today. GMP signals potential 30% listing premium",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dhoot-transmission-shares-set-for-debut-today-gmp-signals-potential-30-listing-premium/articleshow/133284973.cms",
+          "published": "Mon, 17 Aug 2026 07:52:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IPO rush: 5 companies to raise Rs 5,499 crore next week; Shiprocket, 4 others to list",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-rush-5-companies-to-raise-rs-5499-crore-next-week-shiprocket-4-others-to-list/articleshow/133258703.cms",
-          "published": "Sat, 15 Aug 2026 13:42:49 +0530"
+          "title": "Negative Breakout: These 9 stocks cross below their 200 DMAs",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-9-stocks-cross-below-their-200-dmas/slideshow/133284958.cms",
+          "published": "Mon, 17 Aug 2026 07:44:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Concurrent Losers: 11 stocks decline for 5 consecutive sessions",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-losers-11-stocks-decline-for-5-consecutive-sessions/slideshow/133258683.cms",
-          "published": "Sat, 15 Aug 2026 13:23:23 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "ETMarkets Smart Talk| Where is the value? Sachin Bajaj favours financials, healthcare, capex plays",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-where-is-the-value-sachin-bajaj-favours-financials-healthcare-capex-plays/articleshow/133258090.cms",
-          "published": "Sat, 15 Aug 2026 12:46:31 +0530"
+          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a negative start; Asian shares trade mixed",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-voltas-cochin-shipward-share-price-17-august-2026/liveblog/133284863.cms",
+          "published": "Mon, 17 Aug 2026 07:42:30 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Alphabet made 100x on SpaceX, now Nvidia reveals $21 billion stake: Why Musk’s AI push matters",
-          "url": "https://www.livemint.com/market/stock-market-news/alphabet-made-100x-on-spacex-now-nvidia-reveals-21-billion-stake-why-musk-s-ai-push-matters-11786807124032.html",
-          "published": "Sat, 15 Aug 2026 21:32:10 +0530"
+          "title": "Stock market today: Gift Nifty hints a weak start; eight day trading stocks to buy on Monday, 17 August",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-weak-start-eight-day-trading-stocks-to-buy-on-monday-17-august-11786931771359.html",
+          "published": "Mon, 17 Aug 2026 08:07:12 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Paytm shares jump 11% this week, biggest weekly gain in 4 months; what's driving rally?",
-          "url": "https://www.livemint.com/market/stock-market-news/paytm-shares-jump-11-this-week-biggest-weekly-gain-in-4-months-whats-driving-rally-11786725323997.html",
-          "published": "Sat, 15 Aug 2026 18:30:15 +0530"
+          "title": "Stocks to watch: Reliance Industries, Cochin Shipyard, NMDC among shares in focus today; check list here",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-reliance-industries-cochin-shipyard-nmdc-among-shares-in-focus-today-check-list-here-11786932151439.html",
+          "published": "Mon, 17 Aug 2026 07:59:56 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Equity inflows power ₹9.5 lakh crore jump in mutual fund AUM since last Independence Day",
-          "url": "https://www.livemint.com/market/stock-market-news/equity-inflows-power-rs-9-5-lakh-crore-jump-in-mutual-fund-aum-since-last-independence-day-11786766107552.html",
-          "published": "Sat, 15 Aug 2026 16:30:53 +0530"
+          "title": "Buy or sell: Gift Nifty trades flat! Vaishali Parekh recommends three stocks to buy today — 17 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-trades-flat-vaishali-parekh-recommends-three-stocks-to-buy-today-17-august-2026-11786930792288.html",
+          "published": "Mon, 17 Aug 2026 07:47:31 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Anthropic IPO: AI firm could hit $2 trillion valuation, but ‘would it stay there?’ investor asks",
-          "url": "https://www.livemint.com/market/ipo/anthropic-ipo-ai-firm-could-hit-2-trillion-valuation-but-would-it-stay-there-investor-asks-11786785754574.html",
-          "published": "Sat, 15 Aug 2026 15:38:50 +0530"
+          "title": "Silver Traders Brave Red Tape to Capture Indian Premiums",
+          "url": "https://www.livemint.com/market/silver-traders-brave-red-tape-to-capture-indian-premiums-11786932527505.html",
+          "published": "Mon, 17 Aug 2026 07:38:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Independence Day 2026: ₹89 to ₹1,54,500 — gold price rises 1,73,500% in 79 years; here's how",
-          "url": "https://www.livemint.com/market/commodities/independence-day-2026-rs-89-to-rs-1-54-500-gold-price-rises-1-73-500-in-79-years-heres-how-gold-rate-in-india-move-11786782745634.html",
-          "published": "Sat, 15 Aug 2026 15:35:27 +0530"
+          "title": "Crude oil price steadies amid no progress in US-Iran talks; Brent near $88 per barrel",
+          "url": "https://www.livemint.com/market/commodities/crude-oil-price-steadies-amid-no-progress-in-us-iran-talks-brent-near-88-per-barrel-11786931003485.html",
+          "published": "Mon, 17 Aug 2026 07:29:24 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "IPO GMPs: Milky Mist IPO to Behari Lal Engineering IPO - what grey market hints",
-          "url": "https://www.livemint.com/market/ipo/behari-lal-engineering-ipo-gmp-shiprocket-ipo-gmp-milky-mist-ipo-gmp-dhoot-transmission-ipo-gmp-molbio-diagnostics-ipo-g-11786778127510.html",
-          "published": "Sat, 15 Aug 2026 13:55:37 +0530"
+          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 17 August",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-17-august-11786930432332.html",
+          "published": "Mon, 17 Aug 2026 07:24:49 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,12 +1458,12 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-16 08:11 IST",
+      "checked_at": "2026-08-17 08:10 IST",
       "unchanged_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-16 08:11 IST",
+      "generated_at": "2026-08-17 08:10 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1507,7 +1507,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-16 08:11 IST",
+    "date": "2026-08-17 08:10 IST",
     "usdinr": {
       "last": 95.43,
       "date": "2026-08-14"
@@ -1521,18 +1521,18 @@
       "date": "14-Aug-2026"
     },
     "headlines": [
-      "Nxt-Infra Trust consolidated net profit rises 71.83% in the June 2026 quarter",
-      "Oriental Infra Trust consolidated net profit rises 14.42% in the June 2026 quarter",
-      "Mercantile Ventures reports consolidated net loss of Rs 0.65 crore in the June 2026 quarter",
-      "DSP Finance Pvt consolidated net profit declines 28.36% in the June 2026 quarter",
-      "THDC India consolidated net profit rises 103.94% in the June 2026 quarter",
-      "Cindrella Financial Services reports consolidated net profit of Rs 0.03 crore in the June 2026 quarter",
+      "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
+      "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
+      "Asian shares mark time as West Asia war keeps oil prices elevated",
+      "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
+      "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
+      "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
+      "The story of the Indian rupee since 1947",
       "Gen Z lily padding and more...",
       "Is Vodafone Idea finally making a comeback?",
       "How do you scale UPI if it's not free?",
       "Can blockchain save London's gold trade?",
-      "A look at the Milky Mist IPO",
-      "What went wrong with South Korea’s AI boom?"
+      "A look at the Milky Mist IPO"
     ]
   },
   "changes": {
@@ -1565,15 +1565,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-15 08:02 IST",
+    "since": "2026-08-16 08:11 IST",
     "new_headlines": [
-      "Nxt-Infra Trust consolidated net profit rises 71.83% in the June 2026 quarter",
-      "Oriental Infra Trust consolidated net profit rises 14.42% in the June 2026 quarter",
-      "Mercantile Ventures reports consolidated net loss of Rs 0.65 crore in the June 2026 quarter",
-      "DSP Finance Pvt consolidated net profit declines 28.36% in the June 2026 quarter",
-      "THDC India consolidated net profit rises 103.94% in the June 2026 quarter",
-      "Cindrella Financial Services reports consolidated net profit of Rs 0.03 crore in the June 2026 quarter",
-      "Gen Z lily padding and more..."
+      "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
+      "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
+      "Asian shares mark time as West Asia war keeps oil prices elevated",
+      "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
+      "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
+      "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
+      "The story of the Indian rupee since 1947"
     ]
   },
   "summary": {
