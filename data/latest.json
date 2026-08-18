@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17 08:09 IST",
-  "generated_utc": "2026-08-17T02:39:43+00:00",
+  "generated_at": "2026-08-18 08:04 IST",
+  "generated_utc": "2026-08-18T02:34:39+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-17 08:09 IST",
+      "asof": "2026-08-18 08:04 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-14",
+        "asof": "2026-08-17",
         "rates": {
-          "EUR": 0.86453,
-          "GBP": 0.73874,
-          "INR": 95.43,
-          "JPY": 159.01
+          "EUR": 0.86259,
+          "GBP": 0.73751,
+          "INR": 95.61,
+          "JPY": 159.23
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-15",
-            "v": 87.46
-          },
           {
             "date": "2025-08-18",
             "v": 87.38
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-08-14",
             "v": 95.43
+          },
+          {
+            "date": "2026-08-17",
+            "v": 95.61
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-17 08:09 IST",
+      "asof": "2026-08-18 08:04 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW",
-          "nav": 107.2744,
-          "date": "14-08-2026",
-          "ret1y_pct": -0.87,
+          "nav": 107.2402,
+          "date": "17-08-2026",
+          "ret1y_pct": -0.97,
           "series": [
-            102.2299,
-            102.833,
-            103.4473,
-            104.3152,
-            106.4231,
-            107.657,
-            107.5767,
-            108.1828,
-            108.0297,
-            108.8285,
-            109.7941,
-            110.235,
-            110.2498,
-            110.5985,
-            111.0484,
-            104.7901,
-            104.5968,
-            105.8455,
-            106.5829,
-            107.2744
+            102.2971,
+            102.882,
+            103.4606,
+            104.4275,
+            106.4272,
+            107.7103,
+            107.6624,
+            108.1757,
+            108.0373,
+            108.9591,
+            109.8337,
+            110.3373,
+            110.2647,
+            110.4173,
+            111.1072,
+            104.7959,
+            104.3791,
+            105.8482,
+            106.6001,
+            107.2402
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 112.4854,
-          "date": "14-08-2026",
-          "ret1y_pct": 4.38,
+          "nav": 112.2629,
+          "date": "17-08-2026",
+          "ret1y_pct": 4.1,
           "series": [
-            103.1098,
-            102.7818,
-            96.6916,
-            99.4468,
-            107.2349,
-            107.5691,
-            108.6737,
-            107.3883,
-            109.7209,
-            109.9552,
-            111.2034,
-            110.519,
-            108.8425,
-            110.5365,
-            99.7111,
-            105.117,
-            104.1556,
+            102.1012,
+            101.4198,
+            96.5719,
+            101.8933,
+            107.4778,
             107.014,
-            109.2867,
-            112.4854
+            108.827,
+            106.9215,
+            109.7409,
+            109.6634,
+            111.7933,
+            110.3582,
+            108.5048,
+            109.3409,
+            100.396,
+            105.9826,
+            104.2767,
+            107.5348,
+            109.8582,
+            112.2629
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Growth Option - Direct Plan",
-          "nav": 236.372,
-          "date": "14-08-2026",
-          "ret1y_pct": 13.06,
+          "nav": 236.914,
+          "date": "17-08-2026",
+          "ret1y_pct": 12.71,
           "series": [
-            209.098,
-            193.484,
-            178.67,
-            189.787,
-            196.428,
-            209.242,
-            217.529,
-            212.022,
-            211.92,
-            215.969,
-            222.303,
-            222.55,
-            223.692,
-            226.936,
-            211.452,
-            217.52,
-            218.423,
-            223.292,
-            229.588,
-            236.372
+            211.223,
+            195.306,
+            178.242,
+            189.681,
+            194.013,
+            210.705,
+            217.42,
+            211.303,
+            211.634,
+            215.6,
+            222.608,
+            221.139,
+            222.322,
+            227.177,
+            205.997,
+            218.214,
+            217.978,
+            224.28,
+            229.279,
+            236.914
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan",
-          "nav": 238.4972,
-          "date": "14-08-2026",
-          "ret1y_pct": 0.09,
+          "nav": 237.726,
+          "date": "17-08-2026",
+          "ret1y_pct": -0.32,
           "series": [
-            228.4047,
-            223.839,
-            213.2069,
-            224.8507,
-            235.2655,
-            239.1351,
-            246.4609,
-            239.6904,
-            240.1574,
-            243.7273,
-            248.5695,
-            251.0935,
-            251.409,
-            252.1728,
-            229.8571,
-            235.5455,
-            229.99,
-            233.6948,
-            235.1864,
-            238.4972
+            232.6911,
+            226.3887,
+            212.8524,
+            224.0569,
+            233.9081,
+            241.5645,
+            246.4719,
+            238.9819,
+            240.221,
+            243.1224,
+            249.7403,
+            250.2987,
+            249.5268,
+            252.3528,
+            225.1108,
+            235.2075,
+            230.0476,
+            234.6313,
+            237.7681,
+            237.726
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-17 08:10 IST",
+      "asof": "2026-08-18 08:05 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-08-17 08:10 IST",
+      "asof": "2026-08-18 08:05 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "14-Aug-2026",
-          "buy": 14295.49,
-          "sell": 13939.09,
-          "net": 356.4
+          "date": "17-Aug-2026",
+          "buy": 16654.08,
+          "sell": 11552.62,
+          "net": 5101.46
         },
         "fii": {
-          "date": "14-Aug-2026",
-          "buy": 12854.44,
-          "sell": 12346.32,
-          "net": 508.12
+          "date": "17-Aug-2026",
+          "buy": 11546.16,
+          "sell": 14081.26,
+          "net": -2535.1
         }
       }
     },
     "news": {
-      "asof": "2026-08-17 08:10 IST",
+      "asof": "2026-08-18 08:05 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-today-17-august-ril-amber-ent-ongc-ather-energy-nmdc-voltas-126081700054_1.html",
-          "published": "Mon, 17 Aug 2026 08:06:41 +0530"
+          "title": "Fractal Analytics among two stocks Kotak Securities is bullish on",
+          "url": "https://www.business-standard.com/markets/news/stocks-to-buy-today-fractal-analytics-among-two-stocks-kotak-securities-is-bullish-on-126081800081_1.html",
+          "published": "Tue, 18 Aug 2026 07:46:48 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
-          "url": "https://www.business-standard.com/markets/news/stock-market-live-17-august-nse-bse-sensex-today-nifty50-gift-nifty-brent-crude-q1-results-today-ipo-listing-126081700053_1.html",
-          "published": "Mon, 17 Aug 2026 07:56:46 +0530"
+          "title": "Jio-BlackRock rolls out MF plans; Lalithaa Jewellery IPO booked 0.68x",
+          "url": "https://www.business-standard.com/markets/news/jio-blackrock-rolls-out-mf-plans-lalithaa-jewellery-ipo-booked-0-68x-126081701565_1.html",
+          "published": "Mon, 17 Aug 2026 22:37:39 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asian shares mark time as West Asia war keeps oil prices elevated",
-          "url": "https://www.business-standard.com/markets/news/asian-shares-mark-time-as-west-asia-war-keeps-oil-prices-elevated-126081700046_1.html",
-          "published": "Mon, 17 Aug 2026 07:53:48 +0530"
+          "title": "Rupee weakens, bond yields harden as RBI shuts FCNR(B) swap window early",
+          "url": "https://www.business-standard.com/markets/news/rupee-weakens-bond-yields-rise-as-rbi-shuts-fcnr-b-swap-window-early-126081701393_1.html",
+          "published": "Mon, 17 Aug 2026 20:47:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
-          "url": "https://www.business-standard.com/markets/news/heg-supreme-inds-astra-micro-choice-broking-is-bullish-on-these-3-stocks-126081700056_1.html",
-          "published": "Mon, 17 Aug 2026 07:51:38 +0530"
+          "title": "FII ownership falls to 17-year low as domestic investors strengthen grip",
+          "url": "https://www.business-standard.com/markets/news/fii-ownership-falls-to-17-year-low-as-domestic-investors-strengthen-grip-126081701286_1.html",
+          "published": "Mon, 17 Aug 2026 19:36:54 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
-          "url": "https://www.business-standard.com/markets/news/avoid-aggressive-mkt-positioning-says-angel-one-aequs-among-3-stock-picks-126081700050_1.html",
-          "published": "Mon, 17 Aug 2026 07:45:25 +0530"
+          "title": "Om Infra executes supplementary agreement for ongoing water project in UP",
+          "url": "https://www.business-standard.com/markets/capital-market-news/om-infra-executes-supplementary-agreement-for-ongoing-water-project-in-up-126081701244_1.html",
+          "published": "Mon, 17 Aug 2026 19:16:07 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
-          "url": "https://www.business-standard.com/markets/commodities/oil-treads-water-as-us-iran-peace-talks-stall-hormuz-shipping-slows-126081700042_1.html",
-          "published": "Mon, 17 Aug 2026 07:32:49 +0530"
+          "title": "Horizon Industrial Parks IPO gets 14% subscription on first day of bidding",
+          "url": "https://www.business-standard.com/markets/ipo/horizon-industrial-parks-ipo-gets-14-subscription-on-first-day-of-bidding-126081701061_1.html",
+          "published": "Mon, 17 Aug 2026 18:46:47 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Why Bank of America wants a piece of India's lending boom",
+          "url": "https://finshots.in/archive/bank-of-america-india-lending-boom/",
+          "published": "Tue, 18 Aug 2026 01:30:27 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Wed, 12 Aug 2026 01:30:00 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "A look at the Milky Mist IPO",
-          "url": "https://finshots.in/archive/a-look-at-the-milky-mist-ipo/",
-          "published": "Tue, 11 Aug 2026 01:29:07 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "ETMarkets Smart Talk | Have ₹1 crore for 3 years? Puneet Pal’s fixed-income playbook",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-have-1-crore-for-3-years-puneet-pals-fixed-income-playbook/articleshow/133309569.cms",
+          "published": "Tue, 18 Aug 2026 07:50:15 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Molbio Diagnostics shares to list today. Check GMP ahead of debut",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/molbio-diagnostics-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/133285025.cms",
-          "published": "Mon, 17 Aug 2026 08:08:27 +0530"
+          "title": "Dollar feeble as rate hike bets dwindle, Iran war worries grow",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-feeble-as-rate-hike-bets-dwindle-iran-war-worries-grow/articleshow/133309496.cms",
+          "published": "Tue, 18 Aug 2026 07:38:00 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Lalithaa Jewellery Mart IPO opens today: GMP signals 15% premium — Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/lalithaa-jewellery-mart-ipo-opens-today-gmp-signals-15-premium-should-you-subscribe/articleshow/133285001.cms",
-          "published": "Mon, 17 Aug 2026 08:07:09 +0530"
+          "title": "Shankesh Jewellers IPO opens for subscription today; Check GMP, key details. Should you subscribe?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/shankesh-jewellers-ipo-opens-for-subscription-today-check-gmp-key-details-should-you-subscribe/articleshow/133309429.cms",
+          "published": "Tue, 18 Aug 2026 07:35:26 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stocks to buy in 2026 for long term: Senco Gold, Arvind among 5 stocks that could give 10-60% return",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-senco-gold-arvind-among-5-stocks-that-could-give-10-60-return/slideshow/133285138.cms",
-          "published": "Mon, 17 Aug 2026 08:00:18 +0530"
+          "title": "Milky Mist Dairy Food shares to make market debut today; GMP signals 14% listing premium",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/milky-mist-dairy-food-shares-to-make-market-debut-today-gmp-signals-14-listing-premium/articleshow/133309402.cms",
+          "published": "Tue, 18 Aug 2026 07:35:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dhoot Transmission shares set for debut today. GMP signals potential 30% listing premium",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dhoot-transmission-shares-set-for-debut-today-gmp-signals-potential-30-listing-premium/articleshow/133284973.cms",
-          "published": "Mon, 17 Aug 2026 07:52:37 +0530"
+          "title": "Adani flagship eyes India’s Nifty crown after years of turmoil",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-flagship-eyes-indias-nifty-crown-after-years-of-turmoil/articleshow/133309342.cms",
+          "published": "Tue, 18 Aug 2026 07:34:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Negative Breakout: These 9 stocks cross below their 200 DMAs",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-9-stocks-cross-below-their-200-dmas/slideshow/133284958.cms",
-          "published": "Mon, 17 Aug 2026 07:44:29 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a negative start; Asian shares trade mixed",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-voltas-cochin-shipward-share-price-17-august-2026/liveblog/133284863.cms",
-          "published": "Mon, 17 Aug 2026 07:42:30 +0530"
+          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a negative start; Asian shares trade higher",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-airtel-paytm-share-price-18-august-2026/liveblog/133309391.cms",
+          "published": "Tue, 18 Aug 2026 07:26:51 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market today: Gift Nifty hints a weak start; eight day trading stocks to buy on Monday, 17 August",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-weak-start-eight-day-trading-stocks-to-buy-on-monday-17-august-11786931771359.html",
-          "published": "Mon, 17 Aug 2026 08:07:12 +0530"
+          "title": "Buy or sell indicator: Gift Nifty signals flat start, Vaishali Parekh recommends three stocks to buy today",
+          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-indicator-18-august-2026-gift-nifty-signals-flat-start-vaishali-parekh-recommends-three-stocks-to-buy-today-11787017422235.html",
+          "published": "Tue, 18 Aug 2026 07:59:54 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to watch: Reliance Industries, Cochin Shipyard, NMDC among shares in focus today; check list here",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-reliance-industries-cochin-shipyard-nmdc-among-shares-in-focus-today-check-list-here-11786932151439.html",
-          "published": "Mon, 17 Aug 2026 07:59:56 +0530"
+          "title": "Stocks to watch: Paytm, Bharti Airtel, Netweb Technologies among shares in focus today; check list here",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-paytm-bharti-airtel-netweb-technologies-among-shares-in-focus-today-check-list-here-11787018700385.html",
+          "published": "Tue, 18 Aug 2026 07:56:21 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell: Gift Nifty trades flat! Vaishali Parekh recommends three stocks to buy today — 17 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-trades-flat-vaishali-parekh-recommends-three-stocks-to-buy-today-17-august-2026-11786930792288.html",
-          "published": "Mon, 17 Aug 2026 07:47:31 +0530"
+          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 18 August",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-18-august-11787017176809.html",
+          "published": "Tue, 18 Aug 2026 07:37:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Silver Traders Brave Red Tape to Capture Indian Premiums",
-          "url": "https://www.livemint.com/market/silver-traders-brave-red-tape-to-capture-indian-premiums-11786932527505.html",
-          "published": "Mon, 17 Aug 2026 07:38:47 +0530"
+          "title": "Crude oil climbs for third straight day as US signals no immediate end to Iran war; Brent above $90 per barrel",
+          "url": "https://www.livemint.com/market/commodities/crude-oil-climbs-for-third-straight-day-as-us-signals-no-immediate-end-to-iran-war-brent-above-90-per-barrel-11787017702430.html",
+          "published": "Tue, 18 Aug 2026 07:28:02 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Crude oil price steadies amid no progress in US-Iran talks; Brent near $88 per barrel",
-          "url": "https://www.livemint.com/market/commodities/crude-oil-price-steadies-amid-no-progress-in-us-iran-talks-brent-near-88-per-barrel-11786931003485.html",
-          "published": "Mon, 17 Aug 2026 07:29:24 +0530"
+          "title": "From Gift Nifty to Kospi rally, crude oil prices: 6 key things that changed for Indian stock market overnight",
+          "url": "https://www.livemint.com/market/stock-market-news/from-gift-nifty-to-kospi-rally-crude-oil-prices-6-key-things-that-changed-for-indian-stock-market-overnight-11787015325545.html",
+          "published": "Tue, 18 Aug 2026 07:10:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 17 August",
-          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-17-august-11786930432332.html",
-          "published": "Mon, 17 Aug 2026 07:24:49 +0530"
+          "title": "Milky Mist Dairy Food IPO listing date today. Here’s what GMP, experts hint ahead of debut",
+          "url": "https://www.livemint.com/market/ipo/milky-mist-dairy-food-ipo-gmp-milky-mist-ipo-gmp-milky-mist-ipo-listing-date-milky-mist-ipo-allotment-milky-mist-ipo-11786982121868.html",
+          "published": "Tue, 18 Aug 2026 06:45:57 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1445,7 +1445,7 @@
       ]
     },
     "narrative": {
-      "status": "carried",
+      "status": "stale",
       "generated_at": "2026-08-15 08:02 IST",
       "model": "llama-3.3-70b-versatile",
       "headline": "FII flows flip to ₹508 Cr",
@@ -1458,12 +1458,13 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-17 08:10 IST",
-      "unchanged_since": "2026-08-15 08:02 IST"
+      "checked_at": "2026-08-18 08:05 IST",
+      "unchanged_since": "2026-08-15 08:02 IST",
+      "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-17 08:10 IST",
+      "generated_at": "2026-08-18 08:05 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1480,8 +1481,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 64,
-          "reading": "USD/INR moved -1.0% over the last month (now 95.43).",
+          "strength": 60,
+          "reading": "USD/INR moved -0.7% over the last month (now 95.61).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1507,36 +1508,46 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-17 08:10 IST",
+    "date": "2026-08-18 08:05 IST",
     "usdinr": {
-      "last": 95.43,
-      "date": "2026-08-14"
+      "last": 95.61,
+      "date": "2026-08-17"
     },
     "dii_net": {
-      "net": 356.4,
-      "date": "14-Aug-2026"
+      "net": 5101.46,
+      "date": "17-Aug-2026"
     },
     "fii_net": {
-      "net": 508.12,
-      "date": "14-Aug-2026"
+      "net": -2535.1,
+      "date": "17-Aug-2026"
     },
     "headlines": [
-      "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
-      "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
-      "Asian shares mark time as West Asia war keeps oil prices elevated",
-      "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
-      "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
-      "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
+      "Fractal Analytics among two stocks Kotak Securities is bullish on",
+      "Jio-BlackRock rolls out MF plans; Lalithaa Jewellery IPO booked 0.68x",
+      "Rupee weakens, bond yields harden as RBI shuts FCNR(B) swap window early",
+      "FII ownership falls to 17-year low as domestic investors strengthen grip",
+      "Om Infra executes supplementary agreement for ongoing water project in UP",
+      "Horizon Industrial Parks IPO gets 14% subscription on first day of bidding",
+      "Why Bank of America wants a piece of India's lending boom",
       "The story of the Indian rupee since 1947",
       "Gen Z lily padding and more...",
       "Is Vodafone Idea finally making a comeback?",
       "How do you scale UPI if it's not free?",
-      "Can blockchain save London's gold trade?",
-      "A look at the Milky Mist IPO"
+      "Can blockchain save London's gold trade?"
     ]
   },
   "changes": {
     "material": [
+      {
+        "kind": "flow",
+        "label": "DII flows",
+        "detail": "₹5,101 Cr"
+      },
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹-2,535 Cr — direction flipped"
+      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1547,17 +1558,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.43 (+0.00%)"
+        "detail": "₹95.61 (+0.19%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹356 Cr"
+        "detail": "₹5,101 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹508 Cr"
+        "detail": "₹-2,535 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1565,15 +1576,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-16 08:11 IST",
+    "since": "2026-08-17 08:10 IST",
     "new_headlines": [
-      "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
-      "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
-      "Asian shares mark time as West Asia war keeps oil prices elevated",
-      "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
-      "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
-      "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
-      "The story of the Indian rupee since 1947"
+      "Fractal Analytics among two stocks Kotak Securities is bullish on",
+      "Jio-BlackRock rolls out MF plans; Lalithaa Jewellery IPO booked 0.68x",
+      "Rupee weakens, bond yields harden as RBI shuts FCNR(B) swap window early",
+      "FII ownership falls to 17-year low as domestic investors strengthen grip",
+      "Om Infra executes supplementary agreement for ongoing water project in UP",
+      "Horizon Industrial Parks IPO gets 14% subscription on first day of bidding",
+      "Why Bank of America wants a piece of India's lending boom"
     ]
   },
   "summary": {

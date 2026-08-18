@@ -636,5 +636,34 @@
    "Can blockchain save London's gold trade?",
    "A look at the Milky Mist IPO"
   ]
+ },
+ {
+  "date": "2026-08-18 08:05 IST",
+  "usdinr": {
+   "last": 95.61,
+   "date": "2026-08-17"
+  },
+  "dii_net": {
+   "net": 5101.46,
+   "date": "17-Aug-2026"
+  },
+  "fii_net": {
+   "net": -2535.1,
+   "date": "17-Aug-2026"
+  },
+  "headlines": [
+   "Fractal Analytics among two stocks Kotak Securities is bullish on",
+   "Jio-BlackRock rolls out MF plans; Lalithaa Jewellery IPO booked 0.68x",
+   "Rupee weakens, bond yields harden as RBI shuts FCNR(B) swap window early",
+   "FII ownership falls to 17-year low as domestic investors strengthen grip",
+   "Om Infra executes supplementary agreement for ongoing water project in UP",
+   "Horizon Industrial Parks IPO gets 14% subscription on first day of bidding",
+   "Why Bank of America wants a piece of India's lending boom",
+   "The story of the Indian rupee since 1947",
+   "Gen Z lily padding and more...",
+   "Is Vodafone Idea finally making a comeback?",
+   "How do you scale UPI if it's not free?",
+   "Can blockchain save London's gold trade?"
+  ]
  }
 ]
