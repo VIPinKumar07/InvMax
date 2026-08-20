@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19 08:06 IST",
-  "generated_utc": "2026-08-19T02:36:50+00:00",
+  "generated_at": "2026-08-20 08:05 IST",
+  "generated_utc": "2026-08-20T02:35:26+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-19 08:06 IST",
+      "asof": "2026-08-20 08:05 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-18",
+        "asof": "2026-08-19",
         "rates": {
-          "EUR": 0.86386,
-          "GBP": 0.73933,
-          "INR": 95.69,
-          "JPY": 159.7
+          "EUR": 0.8617,
+          "GBP": 0.73768,
+          "INR": 95.76,
+          "JPY": 159.09
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-19",
-            "v": 87.09
-          },
           {
             "date": "2025-08-20",
             "v": 87.06
@@ -1071,12 +1067,16 @@
           {
             "date": "2026-08-18",
             "v": 95.69
+          },
+          {
+            "date": "2026-08-19",
+            "v": 95.76
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-19 08:06 IST",
+      "asof": "2026-08-20 08:05 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-19 08:07 IST",
+      "asof": "2026-08-20 08:06 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-08-19 08:07 IST",
+      "asof": "2026-08-20 08:06 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "18-Aug-2026",
-          "buy": 15566.07,
-          "sell": 12986.76,
-          "net": 2579.31
+          "date": "19-Aug-2026",
+          "buy": 17288.58,
+          "sell": 13314.86,
+          "net": 3973.72
         },
         "fii": {
-          "date": "18-Aug-2026",
-          "buy": 13543.3,
-          "sell": 11891.77,
-          "net": 1651.53
+          "date": "19-Aug-2026",
+          "buy": 12875.76,
+          "sell": 12467.77,
+          "net": 407.99
         }
       }
     },
     "news": {
-      "asof": "2026-08-19 08:07 IST",
+      "asof": "2026-08-20 08:06 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nifty to stay weak below 24,200 level, says MOFSL; HAL among 3 stock picks",
-          "url": "https://www.business-standard.com/markets/news/nifty-to-stay-weak-below-24-200-level-says-mofsl-hal-among-3-stock-picks-126081900103_1.html",
-          "published": "Wed, 19 Aug 2026 08:02:39 +0530"
+          "title": "Adopt cautious stance, says Ajit Mishra; shares 3 stock ideas for near term",
+          "url": "https://www.business-standard.com/markets/news/stocks-to-buy-today-adopt-cautious-stance-says-ajit-mishra-shares-3-stock-ideas-for-near-term-126082000086_1.html",
+          "published": "Thu, 20 Aug 2026 07:37:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock Market LIVE: GIFT Nifty signals tepid open; Kospi tumbles 7% on chip selloff",
-          "url": "https://www.business-standard.com/markets/news/stock-market-live-august-19-nse-bse-sensex-today-nifty-gift-nifty-behari-lal-engineering-shiprocket-ipo-listing-today-126081900099_1.html",
-          "published": "Wed, 19 Aug 2026 07:59:24 +0530"
+          "title": "IT sector Q1FY27 review: Tier-2 firms lead revenue growth amid soft demand",
+          "url": "https://www.business-standard.com/markets/news/it-sector-q1fy27-review-tier-2-firms-lead-revenue-growth-amid-soft-demand-126081900532_1.html",
+          "published": "Thu, 20 Aug 2026 07:31:15 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stocks to watch: Swiggy, Manipal Health, Biocon, RailTel, Sammaan Capital",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-swiggy-manipal-health-biocon-railtel-sammaan-capital-126081900101_1.html",
-          "published": "Wed, 19 Aug 2026 07:56:31 +0530"
+          "title": "Why Gaja Alternative IPO stands out among three ongoing public offers",
+          "url": "https://www.business-standard.com/markets/ipo/why-gaja-alternative-ipo-stands-out-among-three-ongoing-public-offers-126081900808_1.html",
+          "published": "Thu, 20 Aug 2026 07:10:47 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nifty outlook & two stock ideas for today by HDFC Sec's Vinay Rajani",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-buy-today-nifty-outlook-two-stock-ideas-for-today-by-hdfc-sec-s-vinay-rajani-126081900097_1.html",
-          "published": "Wed, 19 Aug 2026 07:47:23 +0530"
+          "title": "Nifty makes history; fails to cross previous day's high for 12 straight sessions",
+          "url": "https://www.business-standard.com/markets/news/nifty-makes-history-fails-to-cross-previous-day-s-high-for-12-straight-sessions-126081901325_1.html",
+          "published": "Thu, 20 Aug 2026 07:00:50 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oil prices edge higher on uncertainty over exports through Hormuz",
-          "url": "https://www.business-standard.com/markets/commodities/oil-prices-edge-higher-on-uncertainty-over-exports-through-hormuz-126081900086_1.html",
-          "published": "Wed, 19 Aug 2026 07:42:39 +0530"
+          "title": "Govt bond yields seen opening higher after hawkish RBI MPC minutes",
+          "url": "https://www.business-standard.com/markets/news/govt-bond-yields-seen-opening-higher-after-hawkish-rbi-mpc-minutes-126081901455_1.html",
+          "published": "Wed, 19 Aug 2026 21:51:25 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Milky Mist shares gain 30%; India Exposition Mart files DRHP with Sebi",
-          "url": "https://www.business-standard.com/markets/news/milky-mist-shares-gain-30-india-exposition-mart-files-drhp-with-sebi-126081801560_1.html",
-          "published": "Tue, 18 Aug 2026 22:50:13 +0530"
+          "title": "Sebi bars six from selling Dhenu Buildcon shares over alleged manipulation",
+          "url": "https://www.business-standard.com/markets/news/sebi-bars-six-from-selling-dhenu-buildcon-shares-over-alleged-manipulation-126081901441_1.html",
+          "published": "Wed, 19 Aug 2026 21:42:34 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The Augmont IPO Explained",
+          "url": "https://finshots.in/archive/augmont-ipo-explained/",
+          "published": "Thu, 20 Aug 2026 01:30:25 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Fri, 14 Aug 2026 01:30:28 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "How do you scale UPI if it's not free?",
-          "url": "https://finshots.in/archive/how-do-you-scale-upi-if-its-not-free/",
-          "published": "Thu, 13 Aug 2026 01:30:42 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Bonus issue alert! Last day to buy Goodluck India shares for 2:1 bonus reward. How will dividend payout be impacted?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-issue-alert-last-day-to-buy-goodluck-india-shares-for-21-bonus-reward-how-will-dividend-payout-be-impacted/articleshow/133361960.cms",
+          "published": "Thu, 20 Aug 2026 07:53:10 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Gaja Alternative Asset Management IPO opens today: GMP at 19% — Should You Subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/gaja-alternative-asset-management-ipo-opens-today-gmp-at-19-should-you-subscribe/articleshow/133335323.cms",
-          "published": "Wed, 19 Aug 2026 07:43:13 +0530"
+          "title": "ETMarkets Smart Talk | Nifty enters ‘very attractive’ zone as earnings improve: Union AMC’s Sanjay Bembalkar",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-nifty-enters-very-attractive-zone-as-earnings-improve-union-amcs-sanjay-bembalkar/articleshow/133361932.cms",
+          "published": "Thu, 20 Aug 2026 07:48:36 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Negative Breakout: These 13 stocks cross below their 200 DMAs",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-13-stocks-cross-below-their-200-dmas/slideshow/133335353.cms",
-          "published": "Wed, 19 Aug 2026 07:32:17 +0530"
+          "title": "Dividend alert! Last day to buy LIC Housing Finance, Hitachi Energy among 38 stocks for dividends. How many do you own?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividend-alert-last-day-to-buy-lic-housing-finance-hitachi-energy-among-38-stocks-for-dividends-how-many-do-you-own/articleshow/133361942.cms",
+          "published": "Thu, 20 Aug 2026 07:48:17 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a muted start; Asian shares trade lower",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-ongc-bpcl-share-price-19-august-2026/liveblog/133335256.cms",
-          "published": "Wed, 19 Aug 2026 07:29:17 +0530"
+          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a positive start; Asian shares trade higher",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-hyundai-motors-bse-share-price-20-august-2026/liveblog/133361962.cms",
+          "published": "Thu, 20 Aug 2026 07:44:09 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Gold inches higher, focus on Fed minutes",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-inches-higher-focus-on-fed-minutes/articleshow/133335242.cms",
-          "published": "Wed, 19 Aug 2026 07:29:17 +0530"
+          "title": "Negative Breakout: These 8 stocks cross below their 200 DMAs",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-8-stocks-cross-below-their-200-dmas/slideshow/133361923.cms",
+          "published": "Thu, 20 Aug 2026 07:35:57 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dollar drifts near multi-month lows as Treasury yields ease; Fed minutes awaited",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-drifts-near-multi-month-lows-as-treasury-yields-ease-fed-minutes-awaited/articleshow/133335227.cms",
-          "published": "Wed, 19 Aug 2026 07:26:21 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "CCI approves Prudential’s stake acquisition in Bharti Life Insurance",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/cci-approves-prudential-corporations-acquisition-of-stake-in-bharti-life-insurance/articleshow/133335115.cms",
-          "published": "Wed, 19 Aug 2026 07:26:10 +0530"
+          "title": "Gold hovers near early-June high on lower bond yields",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-early-june-high-on-lower-bond-yields/articleshow/133361826.cms",
+          "published": "Thu, 20 Aug 2026 07:30:29 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to watch: BPCL, RailTel, ONGC among shares in focus today; check list here",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-bpcl-railtel-ongc-among-shares-in-focus-today-check-list-here-11787105168182.html",
-          "published": "Wed, 19 Aug 2026 08:01:03 +0530"
+          "title": "Nikkei, KOSPI to US stocks: Global equity heatmap you must know before opening bell of the Indian stock market — Aug 20",
+          "url": "https://www.livemint.com/market/stock-market-news/nikkei-225-kospi-to-us-stocks-global-markets-equity-heatmap-before-opening-bell-of-the-indian-stock-market-august-20-11787189831233.html",
+          "published": "Thu, 20 Aug 2026 07:56:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Korean Stocks Bear Brunt of Chip Slide Spurred by Rise in Yields",
-          "url": "https://www.livemint.com/market/korean-stocks-bear-brunt-of-chip-slide-spurred-by-rise-in-yields-11787105708352.html",
-          "published": "Wed, 19 Aug 2026 07:45:07 +0530"
+          "title": "Crude oil prices rise for fifth session straight after US President Trump targets Iran's economy; Brent above $92/bbl",
+          "url": "https://www.livemint.com/market/commodities/crude-oil-prices-rise-for-fifth-session-straight-after-us-president-trump-targets-irans-economy-brent-above-92bbl-11787190791752.html",
+          "published": "Thu, 20 Aug 2026 07:48:20 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 19 August",
-          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-19-august-11787103468821.html",
-          "published": "Wed, 19 Aug 2026 07:39:26 +0530"
+          "title": "From Gift Nifty to Kospi rally, crude oil prices: 6 key things that changed for Indian stock market overnight",
+          "url": "https://www.livemint.com/market/stock-market-news/from-gift-nifty-to-kospi-rally-crude-oil-prices-6-key-things-that-changed-for-indian-stock-market-overnight-11787189517732.html",
+          "published": "Thu, 20 Aug 2026 07:32:15 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Oil prices rise for fourth straight day as US-Iran talks remain deadlocked; Brent above $90 per barrel",
-          "url": "https://www.livemint.com/market/commodities/oil-prices-rise-for-fourth-straight-day-as-us-iran-talks-remain-deadlocked-brent-above-90-per-barrel-11787103761638.html",
-          "published": "Wed, 19 Aug 2026 07:31:47 +0530"
+          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 20 August",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-20-august-11787189694916.html",
+          "published": "Thu, 20 Aug 2026 07:28:09 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "From Gift Nifty to Asian tech stocks, crude oil prices: 7 key things that changed for Indian stock market overnight",
-          "url": "https://www.livemint.com/market/stock-market-news/from-gift-nifty-to-asian-tech-stocks-crude-oil-prices-7-key-things-that-changed-for-indian-stock-market-overnight-11787101690777.html",
-          "published": "Wed, 19 Aug 2026 07:07:55 +0530"
+          "title": "Breakout stocks to buy or sell: Sumeet Bagadia recommends five shares to buy today — 20 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/breakout-stocks-to-buy-or-sell-sumeet-bagadia-recommends-five-shares-to-buy-today-20-august-2026-11787188266727.html",
+          "published": "Thu, 20 Aug 2026 07:01:01 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Shiprocket IPO listing date today. GMP, experts hint up to 38% listing gain",
-          "url": "https://www.livemint.com/market/ipo/shiprocket-ipo-allotment-shiprocket-ipo-gmp-shiprocket-ipo-registrar-shiprocket-ipo-listing-date-shiprocket-ipo-11787070625932.html",
-          "published": "Wed, 19 Aug 2026 06:41:46 +0530"
+          "title": "Should you buy LG Electronics stock after Its Q1 earnings breakout?",
+          "url": "https://www.livemint.com/market/stock-market-news/lg-electronics-share-price-lg-electronics-stock-11787141531141.html",
+          "published": "Thu, 20 Aug 2026 07:00:58 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,13 +1458,13 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-19 08:07 IST",
+      "checked_at": "2026-08-20 08:06 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-19 08:07 IST",
+      "generated_at": "2026-08-20 08:06 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1481,8 +1481,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 62,
-          "reading": "USD/INR moved -0.8% over the last month (now 95.69).",
+          "strength": 57,
+          "reading": "USD/INR moved -0.5% over the last month (now 95.76).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1508,46 +1508,36 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-19 08:07 IST",
+    "date": "2026-08-20 08:06 IST",
     "usdinr": {
-      "last": 95.69,
-      "date": "2026-08-18"
+      "last": 95.76,
+      "date": "2026-08-19"
     },
     "dii_net": {
-      "net": 2579.31,
-      "date": "18-Aug-2026"
+      "net": 3973.72,
+      "date": "19-Aug-2026"
     },
     "fii_net": {
-      "net": 1651.53,
-      "date": "18-Aug-2026"
+      "net": 407.99,
+      "date": "19-Aug-2026"
     },
     "headlines": [
-      "Nifty to stay weak below 24,200 level, says MOFSL; HAL among 3 stock picks",
-      "Stock Market LIVE: GIFT Nifty signals tepid open; Kospi tumbles 7% on chip selloff",
-      "Stocks to watch: Swiggy, Manipal Health, Biocon, RailTel, Sammaan Capital",
-      "Nifty outlook & two stock ideas for today by HDFC Sec's Vinay Rajani",
-      "Oil prices edge higher on uncertainty over exports through Hormuz",
-      "Milky Mist shares gain 30%; India Exposition Mart files DRHP with Sebi",
+      "Adopt cautious stance, says Ajit Mishra; shares 3 stock ideas for near term",
+      "IT sector Q1FY27 review: Tier-2 firms lead revenue growth amid soft demand",
+      "Why Gaja Alternative IPO stands out among three ongoing public offers",
+      "Nifty makes history; fails to cross previous day's high for 12 straight sessions",
+      "Govt bond yields seen opening higher after hawkish RBI MPC minutes",
+      "Sebi bars six from selling Dhenu Buildcon shares over alleged manipulation",
+      "The Augmont IPO Explained",
       "RBI's problem with revolving credit",
       "Why Bank of America wants a piece of India's lending boom",
       "The story of the Indian rupee since 1947",
       "Gen Z lily padding and more...",
-      "Is Vodafone Idea finally making a comeback?",
-      "How do you scale UPI if it's not free?"
+      "Is Vodafone Idea finally making a comeback?"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹2,579 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹1,652 Cr — direction flipped"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1558,17 +1548,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.69 (+0.08%)"
+        "detail": "₹95.76 (+0.07%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹2,579 Cr"
+        "detail": "₹3,974 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹1,652 Cr — direction flipped"
+        "detail": "₹408 Cr"
       },
       {
         "kind": "news",
@@ -1576,15 +1566,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-18 08:05 IST",
+    "since": "2026-08-19 08:07 IST",
     "new_headlines": [
-      "Nifty to stay weak below 24,200 level, says MOFSL; HAL among 3 stock picks",
-      "Stock Market LIVE: GIFT Nifty signals tepid open; Kospi tumbles 7% on chip selloff",
-      "Stocks to watch: Swiggy, Manipal Health, Biocon, RailTel, Sammaan Capital",
-      "Nifty outlook & two stock ideas for today by HDFC Sec's Vinay Rajani",
-      "Oil prices edge higher on uncertainty over exports through Hormuz",
-      "Milky Mist shares gain 30%; India Exposition Mart files DRHP with Sebi",
-      "RBI's problem with revolving credit"
+      "Adopt cautious stance, says Ajit Mishra; shares 3 stock ideas for near term",
+      "IT sector Q1FY27 review: Tier-2 firms lead revenue growth amid soft demand",
+      "Why Gaja Alternative IPO stands out among three ongoing public offers",
+      "Nifty makes history; fails to cross previous day's high for 12 straight sessions",
+      "Govt bond yields seen opening higher after hawkish RBI MPC minutes",
+      "Sebi bars six from selling Dhenu Buildcon shares over alleged manipulation",
+      "The Augmont IPO Explained"
     ]
   },
   "summary": {
