@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21 08:12 IST",
-  "generated_utc": "2026-08-21T02:42:48+00:00",
+  "generated_at": "2026-08-22 08:03 IST",
+  "generated_utc": "2026-08-22T02:33:11+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-21 08:12 IST",
+      "asof": "2026-08-22 08:03 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-20",
+        "asof": "2026-08-21",
         "rates": {
-          "EUR": 0.85609,
-          "GBP": 0.73388,
-          "INR": 95.71,
-          "JPY": 158.76
+          "EUR": 0.85477,
+          "GBP": 0.73228,
+          "INR": 95.7,
+          "JPY": 158.7
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-21",
-            "v": 87.27
-          },
           {
             "date": "2025-08-22",
             "v": 87.53
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-08-20",
             "v": 95.71
+          },
+          {
+            "date": "2026-08-21",
+            "v": 95.7
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-21 08:12 IST",
+      "asof": "2026-08-22 08:03 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
-          "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund  - DIRECT - IDCW",
-          "nav": 107.136,
-          "date": "18-08-2026",
-          "ret1y_pct": -1.2,
+          "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
+          "nav": 106.8821,
+          "date": "21-08-2026",
+          "ret1y_pct": -1.27,
           "series": [
-            102.276,
-            102.8828,
-            103.523,
-            104.5887,
-            106.4573,
-            107.7345,
-            107.7677,
-            108.2167,
-            108.0088,
-            109.0926,
-            109.8609,
-            110.3299,
-            110.2175,
-            110.4233,
-            110.9898,
-            104.7821,
-            104.4216,
-            105.9003,
-            106.5737,
-            107.136
+            102.3935,
+            103.0551,
+            103.4542,
+            105.2693,
+            106.5585,
+            108.0092,
+            107.9243,
+            108.4412,
+            108.245,
+            109.2597,
+            109.9947,
+            110.0609,
+            110.2974,
+            110.6309,
+            110.9316,
+            104.8473,
+            104.3467,
+            106.041,
+            106.5851,
+            106.8821
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 112.0096,
-          "date": "18-08-2026",
-          "ret1y_pct": 2.72,
+          "nav": 112.2201,
+          "date": "21-08-2026",
+          "ret1y_pct": 1.91,
           "series": [
-            99.3562,
-            99.5049,
-            96.1511,
-            102.318,
-            107.379,
-            107.9842,
-            109.4895,
-            107.7607,
-            110.0814,
-            110.7365,
-            111.1769,
-            109.7392,
-            108.6446,
-            109.8444,
-            101.2496,
-            106.2063,
-            104.6046,
-            108.0081,
-            109.8895,
-            112.0096
+            101.4904,
+            98.4378,
+            99.6691,
+            105.2172,
+            106.1852,
+            106.6482,
+            108.78,
+            109.5723,
+            111.2323,
+            111.9025,
+            111.1918,
+            110.1534,
+            106.0731,
+            109.0091,
+            99.6142,
+            106.1301,
+            105.9217,
+            107.5421,
+            108.5863,
+            112.2201
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
-          "scheme": "HDFC Mid Cap Fund - Growth Option - Direct Plan",
-          "nav": 235.873,
-          "date": "18-08-2026",
-          "ret1y_pct": 13.04,
+          "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
+          "nav": 236.588,
+          "date": "21-08-2026",
+          "ret1y_pct": 12.33,
           "series": [
-            210.939,
-            193.041,
-            182.77,
-            184.712,
-            193.533,
-            212.978,
-            217.446,
-            209.07,
-            211.986,
-            216.544,
-            224.607,
-            221.622,
-            221.703,
-            226.103,
-            205.631,
-            220.058,
-            219.799,
-            225.63,
-            229.599,
-            235.873
+            204.985,
+            196.219,
+            181.349,
+            180.45,
+            202.603,
+            209.783,
+            215.905,
+            209.808,
+            215.465,
+            216.044,
+            226.08,
+            222.449,
+            223.518,
+            226.052,
+            203.612,
+            221.614,
+            220.359,
+            226.634,
+            226.902,
+            236.588
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
-          "scheme": "HDFC Nifty 50 Index Fund - Direct Plan",
-          "nav": 236.4268,
-          "date": "18-08-2026",
-          "ret1y_pct": 0.07,
+          "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
+          "nav": 237.3706,
+          "date": "21-08-2026",
+          "ret1y_pct": -0.64,
           "series": [
-            230.9205,
-            224.968,
-            215.305,
-            220.7303,
-            231.3524,
-            242.5253,
-            247.076,
-            238.279,
-            240.5287,
-            244.4368,
-            251.4934,
-            251.6632,
-            250.562,
-            250.9264,
-            227.6139,
-            236.7297,
-            229.7357,
-            235.4295,
-            236.8303,
-            236.4268
+            227.8758,
+            227.3193,
+            216.4846,
+            215.8433,
+            237.6957,
+            240.471,
+            243.4938,
+            238.3957,
+            242.7794,
+            244.0781,
+            252.8216,
+            251.2821,
+            249.7762,
+            250.1273,
+            223.6532,
+            236.9605,
+            230.8106,
+            232.5809,
+            233.2312,
+            237.3706
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-21 08:13 IST",
+      "asof": "2026-08-22 08:04 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-08-21 08:13 IST",
+      "asof": "2026-08-22 08:04 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "20-Aug-2026",
-          "buy": 16932.72,
-          "sell": 13395.01,
-          "net": 3537.71
+          "date": "21-Aug-2026",
+          "buy": 15258.71,
+          "sell": 13134.57,
+          "net": 2124.14
         },
         "fii": {
-          "date": "20-Aug-2026",
-          "buy": 11411.73,
-          "sell": 11995.09,
-          "net": -583.36
+          "date": "21-Aug-2026",
+          "buy": 12560.91,
+          "sell": 13103.62,
+          "net": -542.71
         }
       }
     },
     "news": {
-      "asof": "2026-08-21 08:13 IST",
+      "asof": "2026-08-22 08:04 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "HDFC Sec suggests Bear Spread on Nifty Midcap, Bull Spread on Canara Bank",
-          "url": "https://www.business-standard.com/markets/news/hdfc-securities-suggests-bear-spread-on-nifty-midcap-bull-spread-on-canara-bank-126082100080_1.html",
-          "published": "Fri, 21 Aug 2026 08:04:11 +0530"
+          "title": "Innovision receives toll collection mandate for Etaura Bujurg & Akhtiyari Kotila fee plaza",
+          "url": "https://www.business-standard.com/markets/capital-market-news/innovision-receives-toll-collection-mandate-for-etaura-bujurg-akhtiyari-kotila-fee-plaza-126082101218_1.html",
+          "published": "Fri, 21 Aug 2026 19:31:32 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stocks to watch: Tata Motors, Tata Power, Mankind Pharma, SBI, RailTel",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-watch-tata-motors-tata-power-mankind-pharma-sbi-railtel-126082100081_1.html",
-          "published": "Fri, 21 Aug 2026 08:02:26 +0530"
+          "title": "Jhaveri Credits & Capital receives LoI from GEDA for solar rooftop project",
+          "url": "https://www.business-standard.com/markets/capital-market-news/jhaveri-credits-capital-receives-loi-from-geda-for-solar-rooftop-project-126082101217_1.html",
+          "published": "Fri, 21 Aug 2026 19:31:25 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "FTSE Russell equity indices clears BSE as eligible exchange from March 2027",
-          "url": "https://www.business-standard.com/markets/news/ftse-russell-equity-indices-clears-bse-as-eligible-exchange-from-march-2027-126082100045_1.html",
-          "published": "Fri, 21 Aug 2026 07:58:22 +0530"
+          "title": "RBI Central Board of Directors review current economic situation",
+          "url": "https://www.business-standard.com/markets/capital-market-news/rbi-central-board-of-directors-review-current-economic-situation-126082101074_1.html",
+          "published": "Fri, 21 Aug 2026 18:04:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock Market LIVE: GIFT Nifty signals positive open; Asia mkts mixed post Wall Street pullback",
-          "url": "https://www.business-standard.com/markets/news/stock-market-live-aug-21-nse-bse-sensex-today-nifty50-gift-nifty-us-iran-tension-brent-crude-tempsens-instruments-ipo-share-market-today-126082100079_1.html",
-          "published": "Fri, 21 Aug 2026 07:51:01 +0530"
+          "title": "Religare takeover: SAT dismisses Danny Gaekwad's plea on exemptions",
+          "url": "https://www.business-standard.com/markets/news/religare-takeover-sat-dismisses-danny-gaekwad-s-plea-on-exemptions-126082101051_1.html",
+          "published": "Fri, 21 Aug 2026 17:52:16 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Bonanza's Kunal Kamble is bullish on MCX and two other stocks; details here",
-          "url": "https://www.business-standard.com/markets/news/bonanza-s-kunal-kamble-is-bullish-on-mcx-and-two-other-stocks-details-here-126082100076_1.html",
-          "published": "Fri, 21 Aug 2026 07:34:24 +0530"
+          "title": "Quick Wrap: Nifty Metal Index records a surge of 0.86%",
+          "url": "https://www.business-standard.com/markets/capital-market-news/quick-wrap-nifty-metal-index-records-a-surge-of-0-86-126082101035_1.html",
+          "published": "Fri, 21 Aug 2026 17:50:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi permits digitally signed power of attorney to ease FPI onboarding",
-          "url": "https://www.business-standard.com/markets/news/sebi-permits-digitally-signed-power-of-attorney-to-ease-fpi-onboarding-126082001603_1.html",
-          "published": "Thu, 20 Aug 2026 23:19:14 +0530"
+          "title": "Augmont Enterprises IPO subscribed 2.74 times",
+          "url": "https://www.business-standard.com/markets/capital-market-news/augmont-enterprises-ipo-subscribed-2-74-times-126082100988_1.html",
+          "published": "Fri, 21 Aug 2026 17:31:02 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "CAS manipulation, the BofA-Jio Credit deal, and more...",
+          "url": "https://finshots.in/archive/cas-manipulation-the-bofa-jio-credit-deal-and-more/",
+          "published": "Sat, 22 Aug 2026 01:30:39 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Mon, 17 Aug 2026 01:30:57 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Gen Z lily padding and more...",
-          "url": "https://finshots.in/archive/gen-z-lily-padding-and-more-2/",
-          "published": "Sun, 16 Aug 2026 01:30:33 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Sebi proposes new channel partner network to boost retail bond access",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/sebi-proposes-new-channel-partner-network-to-boost-retail-bond-access/articleshow/133416068.cms",
+          "published": "Sat, 22 Aug 2026 07:53:57 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Oil Price Today (August 21): Crude oil nears $95 as Iran peace deal hopes fade. What are experts saying?",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-21-crude-oil-nears-95-as-iran-peace-deal-hopes-fade-what-are-experts-saying/articleshow/133391008.cms",
-          "published": "Fri, 21 Aug 2026 07:55:52 +0530"
+          "title": "Aditya Infotech rebounds on fundraise plans; analysts see up to 20% upside",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/aditya-infotech-rebounds-on-fundraise-plans-analysts-see-up-to-20-upside/articleshow/133415946.cms",
+          "published": "Sat, 22 Aug 2026 07:42:03 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stock split alert! Last day to buy multibagger TD Power Systems shares to be eligible for 1:2 split",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stock-split-alert-last-day-to-buy-multibagger-td-power-systems-shares-to-be-eligible-for-12-split/articleshow/133390935.cms",
-          "published": "Fri, 21 Aug 2026 07:51:50 +0530"
+          "title": "West Asia tensions cloud market outlook, Nifty may stay rangebound",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/west-asia-tensions-cloud-market-outlook-nifty-may-stay-rangebound/articleshow/133415917.cms",
+          "published": "Sat, 22 Aug 2026 07:33:48 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stocks to buy in 2026 for long term: TVS Motor, Siemens among 5 stocks that could give 10-30% return",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-tvs-motor-siemens-among-5-stocks-that-could-give-10-30-return/slideshow/133390999.cms",
-          "published": "Fri, 21 Aug 2026 07:46:19 +0530"
+          "title": "US stocks: US market rises on the day but falls for the week; bond yields and Iran in focus",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-rises-on-the-day-but-falls-for-the-week-bond-yields-and-iran-in-focus/articleshow/133413493.cms",
+          "published": "Sat, 22 Aug 2026 01:39:51 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dividend alert! Last day to buy Senco Gold, NALCO among 10 stocks for dividend rewards",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividend-alert-last-day-to-buy-senco-gold-nalco-among-10-stocks-for-dividend-rewards/articleshow/133390915.cms",
-          "published": "Fri, 21 Aug 2026 07:45:02 +0530"
+          "title": "Citadel unloads over 80% of bets bought from Leopold Aschenbrenner’s Situational Awareness",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/citadel-unloads-over-80-of-bets-bought-from-leopold-aschenbrenners-situational-awareness/articleshow/133413202.cms",
+          "published": "Sat, 22 Aug 2026 01:00:16 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ETMarkets NRI Talk | GIFT City AIFs could be the next big NRI investment destination: LGT Wealth’s Nikhil Advani",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/etmarkets-nri-talk-gift-city-aifs-could-be-the-next-big-nri-investment-destination-lgt-wealths-nikhil-advani/articleshow/133390827.cms",
-          "published": "Fri, 21 Aug 2026 07:39:26 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a positive start; Asian shares trade lower",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-bpcl-hal-share-price-21-august-2026/liveblog/133390893.cms",
-          "published": "Fri, 21 Aug 2026 07:35:52 +0530"
+          "title": "US equity funds see strong inflows this week amid bond pressure, draw $11.72 billion from investors",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-equity-funds-see-strong-inflows-this-week-amid-bond-pressure-draw-11-72-billion-from-investors/articleshow/133411899.cms",
+          "published": "Sat, 22 Aug 2026 00:09:23 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market today: Gift Nifty hints a flat start; five day trading stocks to buy on Friday, 21 August",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-today-gift-nifty-hints-a-flat-start-five-day-trading-stocks-to-buy-on-friday-21-august-11787277290559.html",
-          "published": "周五, 21 8月 2026 07:52:13 +0530"
+          "title": "Stocks to buy under ₹200: Mehul Kothari of Anand Rathi recommends three shares to buy or sell",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-under-rs-200-mehul-kothari-of-anand-rathi-recommends-three-shares-to-buy-or-sell-11787361611357.html",
+          "published": "Sat, 22 Aug 2026 07:17:22 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 21 August",
-          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-21-august-11787276003478.html",
-          "published": "周五, 21 8月 2026 07:22:27 +0530"
+          "title": "Vijay Kedia’s fresh bet on a fintech stock",
+          "url": "https://www.livemint.com/market/stock-market-news/vijay-kedia-s-fresh-bet-on-a-fintech-stock-11787308701757.html",
+          "published": "Sat, 22 Aug 2026 07:00:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Bitcoin demand turns positive in spot, perpetual markets as price rebounds above $70K; hits 11-week high",
-          "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-demand-turns-positive-in-spot-perpetual-markets-as-price-rebounds-above-70k-hits-11-week-high-11787273026525.html",
-          "published": "周五, 21 8月 2026 07:09:55 +0530"
+          "title": "Bitcoin Nears $80,000 Amid Biggest Weekly Rally In Three Years",
+          "url": "https://www.livemint.com/market/bitcoin-nears-80-000-amid-biggest-weekly-rally-in-three-years-11787346008375.html",
+          "published": "Sat, 22 Aug 2026 02:30:08 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "These three copper stocks are riding India’s energy expansion. Should you invest?",
-          "url": "https://www.livemint.com/market/stock-market-news/best-copper-stocks-india-hindustan-copper-hindalco-vedanta-11787226069485.html",
-          "published": "周五, 21 8月 2026 07:00:58 +0530"
+          "title": "Dollar falls to three-month low on Treasury buyback worries",
+          "url": "https://www.livemint.com/market/dollar-falls-to-three-month-low-on-treasury-buyback-worries-11787341555185.html",
+          "published": "Sat, 22 Aug 2026 01:15:54 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to watch: HAL, RailTel, Tata Motors PV among shares in focus today; check list here",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-hal-railtel-tata-motors-pv-among-shares-in-focus-today-check-list-here-11787243365674.html",
-          "published": "周五, 21 8月 2026 06:58:01 +0530"
+          "title": "Week of Whiplash in Treasuries Is Closing With Muddied Outlook",
+          "url": "https://www.livemint.com/market/week-of-whiplash-in-treasuries-is-closing-with-muddied-outlook-11787340705313.html",
+          "published": "Sat, 22 Aug 2026 01:01:44 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Breakout stocks to buy or sell: Sumeet Bagadia recommends five shares to buy today — 21 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/breakout-stocks-to-buy-or-sell-sumeet-bagadia-recommends-five-shares-to-buy-today-21-august-2026-11787241979222.html",
-          "published": "周五, 21 8月 2026 06:42:55 +0530"
+          "title": "Allspring’s Miletti Sees Jackson Hole as Bigger Risk Than Nvidia",
+          "url": "https://www.livemint.com/market/allsprings-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia-11787337053320.html",
+          "published": "Sat, 22 Aug 2026 00:00:52 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,13 +1458,13 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-21 08:13 IST",
+      "checked_at": "2026-08-22 08:04 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-21 08:13 IST",
+      "generated_at": "2026-08-22 08:04 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1481,8 +1481,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 63,
-          "reading": "USD/INR moved -0.9% over the last month (now 95.71).",
+          "strength": 64,
+          "reading": "USD/INR moved -0.9% over the last month (now 95.70).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1508,41 +1508,36 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-21 08:13 IST",
+    "date": "2026-08-22 08:04 IST",
     "usdinr": {
-      "last": 95.71,
-      "date": "2026-08-20"
+      "last": 95.7,
+      "date": "2026-08-21"
     },
     "dii_net": {
-      "net": 3537.71,
-      "date": "20-Aug-2026"
+      "net": 2124.14,
+      "date": "21-Aug-2026"
     },
     "fii_net": {
-      "net": -583.36,
-      "date": "20-Aug-2026"
+      "net": -542.71,
+      "date": "21-Aug-2026"
     },
     "headlines": [
-      "HDFC Sec suggests Bear Spread on Nifty Midcap, Bull Spread on Canara Bank",
-      "Stocks to watch: Tata Motors, Tata Power, Mankind Pharma, SBI, RailTel",
-      "FTSE Russell equity indices clears BSE as eligible exchange from March 2027",
-      "Stock Market LIVE: GIFT Nifty signals positive open; Asia mkts mixed post Wall Street pullback",
-      "Bonanza's Kunal Kamble is bullish on MCX and two other stocks; details here",
-      "Sebi permits digitally signed power of attorney to ease FPI onboarding",
+      "Innovision receives toll collection mandate for Etaura Bujurg & Akhtiyari Kotila fee plaza",
+      "Jhaveri Credits & Capital receives LoI from GEDA for solar rooftop project",
+      "RBI Central Board of Directors review current economic situation",
+      "Religare takeover: SAT dismisses Danny Gaekwad's plea on exemptions",
+      "Quick Wrap: Nifty Metal Index records a surge of 0.86%",
+      "Augmont Enterprises IPO subscribed 2.74 times",
+      "CAS manipulation, the BofA-Jio Credit deal, and more...",
       "How traders allegedly gamed CAS",
       "The Augmont IPO Explained",
       "RBI's problem with revolving credit",
       "Why Bank of America wants a piece of India's lending boom",
-      "The story of the Indian rupee since 1947",
-      "Gen Z lily padding and more..."
+      "The story of the Indian rupee since 1947"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-583 Cr — direction flipped"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1553,17 +1548,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.71 (-0.05%)"
+        "detail": "₹95.70 (-0.01%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹3,538 Cr"
+        "detail": "₹2,124 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-583 Cr — direction flipped"
+        "detail": "₹-543 Cr"
       },
       {
         "kind": "news",
@@ -1571,15 +1566,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-20 08:06 IST",
+    "since": "2026-08-21 08:13 IST",
     "new_headlines": [
-      "HDFC Sec suggests Bear Spread on Nifty Midcap, Bull Spread on Canara Bank",
-      "Stocks to watch: Tata Motors, Tata Power, Mankind Pharma, SBI, RailTel",
-      "FTSE Russell equity indices clears BSE as eligible exchange from March 2027",
-      "Stock Market LIVE: GIFT Nifty signals positive open; Asia mkts mixed post Wall Street pullback",
-      "Bonanza's Kunal Kamble is bullish on MCX and two other stocks; details here",
-      "Sebi permits digitally signed power of attorney to ease FPI onboarding",
-      "How traders allegedly gamed CAS"
+      "Innovision receives toll collection mandate for Etaura Bujurg & Akhtiyari Kotila fee plaza",
+      "Jhaveri Credits & Capital receives LoI from GEDA for solar rooftop project",
+      "RBI Central Board of Directors review current economic situation",
+      "Religare takeover: SAT dismisses Danny Gaekwad's plea on exemptions",
+      "Quick Wrap: Nifty Metal Index records a surge of 0.86%",
+      "Augmont Enterprises IPO subscribed 2.74 times",
+      "CAS manipulation, the BofA-Jio Credit deal, and more..."
     ]
   },
   "summary": {
