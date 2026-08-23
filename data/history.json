@@ -781,5 +781,34 @@
    "Why Bank of America wants a piece of India's lending boom",
    "The story of the Indian rupee since 1947"
   ]
+ },
+ {
+  "date": "2026-08-23 08:14 IST",
+  "usdinr": {
+   "last": 95.7,
+   "date": "2026-08-21"
+  },
+  "dii_net": {
+   "net": 2124.14,
+   "date": "21-Aug-2026"
+  },
+  "fii_net": {
+   "net": -542.71,
+   "date": "21-Aug-2026"
+  },
+  "headlines": [
+   "Sebi proposes channel partners to expand retail access to bonds in India",
+   "Monarch Surveyors and Engineering Consultants receives Rs 2-cr work order",
+   "Sebi proposes tighter curbs on promotional claims by online bond platforms",
+   "B.R.Goyal Infrastructure receives Rs 151-cr NHAI work order",
+   "Framework for monitoring utilisation of issue proceeds under review: Sebi",
+   "Mamata Machinery geta patent for its Quadra 600 machine",
+   "YouTube versus Netflix, biodegradable milk packets, and more...",
+   "CAS manipulation, the BofA-Jio Credit deal, and more...",
+   "How traders allegedly gamed CAS",
+   "The Augmont IPO Explained",
+   "RBI's problem with revolving credit",
+   "Why Bank of America wants a piece of India's lending boom"
+  ]
  }
 ]
