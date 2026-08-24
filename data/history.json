@@ -810,5 +810,34 @@
    "RBI's problem with revolving credit",
    "Why Bank of America wants a piece of India's lending boom"
   ]
+ },
+ {
+  "date": "2026-08-24 08:14 IST",
+  "usdinr": {
+   "last": 95.7,
+   "date": "2026-08-21"
+  },
+  "dii_net": {
+   "net": 2124.14,
+   "date": "21-Aug-2026"
+  },
+  "fii_net": {
+   "net": -542.71,
+   "date": "21-Aug-2026"
+  },
+  "headlines": [
+   "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
+   "India's $10 billion equity rush puts August on track for a record month",
+   "KFintech, Affle 3i: Two breakout ideas from Angel One",
+   "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
+   "Oil prices fall ahead of expected US announcement on new Iran sanctions",
+   "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
+   "NSE's dilemma with going public",
+   "YouTube versus Netflix, biodegradable milk packets, and more...",
+   "CAS manipulation, the BofA-Jio Credit deal, and more...",
+   "How traders allegedly gamed CAS",
+   "The Augmont IPO Explained",
+   "RBI's problem with revolving credit"
+  ]
  }
 ]

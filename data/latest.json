@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23 08:12 IST",
-  "generated_utc": "2026-08-23T02:42:54+00:00",
+  "generated_at": "2026-08-24 08:13 IST",
+  "generated_utc": "2026-08-24T02:43:58+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-23 08:12 IST",
+      "asof": "2026-08-24 08:13 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-23 08:12 IST",
+      "asof": "2026-08-24 08:14 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-23 08:13 IST",
+      "asof": "2026-08-24 08:14 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-08-23 08:13 IST",
+      "asof": "2026-08-24 08:14 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-08-23 08:14 IST",
+      "asof": "2026-08-24 08:14 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi proposes channel partners to expand retail access to bonds in India",
-          "url": "https://www.business-standard.com/markets/news/sebi-proposes-channel-partners-to-expand-retail-access-to-bonds-in-india-126082200827_1.html",
-          "published": "Sat, 22 Aug 2026 20:08:51 +0530"
+          "title": "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
+          "url": "https://www.business-standard.com/markets/news/stock-market-live-august-24-nse-bse-sensex-today-nifty50-gift-nifty-hy-tech-engineers-ipo-gmp-today-126082400062_1.html",
+          "published": "Mon, 24 Aug 2026 08:01:15 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Monarch Surveyors and Engineering Consultants receives Rs 2-cr work order",
-          "url": "https://www.business-standard.com/markets/capital-market-news/monarch-surveyors-and-engineering-consultants-receives-rs-2-cr-work-order-126082200734_1.html",
-          "published": "Sat, 22 Aug 2026 18:16:01 +0530"
+          "title": "India's $10 billion equity rush puts August on track for a record month",
+          "url": "https://www.business-standard.com/markets/news/india-s-10-billion-equity-rush-puts-august-on-track-for-a-record-month-126082400063_1.html",
+          "published": "Mon, 24 Aug 2026 07:47:41 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi proposes tighter curbs on promotional claims by online bond platforms",
-          "url": "https://www.business-standard.com/markets/news/sebi-proposes-tighter-curbs-on-promotional-claims-by-online-bond-platforms-126082200711_1.html",
-          "published": "Sat, 22 Aug 2026 18:14:21 +0530"
+          "title": "KFintech, Affle 3i: Two breakout ideas from Angel One",
+          "url": "https://www.business-standard.com/markets/news/stocks-to-buy-today-two-breakout-ideas-from-angel-one-126082400061_1.html",
+          "published": "Mon, 24 Aug 2026 07:45:35 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "B.R.Goyal Infrastructure receives Rs 151-cr NHAI work order",
-          "url": "https://www.business-standard.com/markets/capital-market-news/b-r-goyal-infrastructure-receives-rs-151-cr-nhai-work-order-126082200714_1.html",
-          "published": "Sat, 22 Aug 2026 17:50:02 +0530"
+          "title": "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
+          "url": "https://www.business-standard.com/markets/news/asian-shares-flat-ahead-of-expected-us-sanctions-on-iran-nvidia-results-126082400051_1.html",
+          "published": "Mon, 24 Aug 2026 07:40:12 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Framework for monitoring utilisation of issue proceeds under review: Sebi",
-          "url": "https://www.business-standard.com/markets/news/framework-for-monitoring-utilisation-of-issue-proceeds-under-review-sebi-126082200558_1.html",
-          "published": "Sat, 22 Aug 2026 16:00:58 +0530"
+          "title": "Oil prices fall ahead of expected US announcement on new Iran sanctions",
+          "url": "https://www.business-standard.com/markets/commodities/oil-prices-fall-ahead-of-expected-us-announcement-on-new-iran-sanctions-126082400049_1.html",
+          "published": "Mon, 24 Aug 2026 07:37:36 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Mamata Machinery geta patent for its Quadra 600 machine",
-          "url": "https://www.business-standard.com/markets/capital-market-news/mamata-machinery-geta-patent-for-its-quadra-600-machine-126082200460_1.html",
-          "published": "Sat, 22 Aug 2026 14:31:02 +0530"
+          "title": "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
+          "url": "https://www.business-standard.com/markets/news/derivatives-market-gets-gen-z-twist-but-losses-cast-a-long-shadow-sebi-126082300682_1.html",
+          "published": "Sun, 23 Aug 2026 20:42:28 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "NSE's dilemma with going public",
+          "url": "https://finshots.in/archive/nse-dilemma-going-public/",
+          "published": "Mon, 24 Aug 2026 01:30:22 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,88 +1331,88 @@
           "published": "Wed, 19 Aug 2026 01:30:21 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Why Bank of America wants a piece of India's lending boom",
-          "url": "https://finshots.in/archive/bank-of-america-india-lending-boom/",
-          "published": "Tue, 18 Aug 2026 01:30:27 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Stocks to buy in 2026 for long term: Jubilant FoodWorks, Max Financial among 5 stocks that could give 10-30% return",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-jubilant-foodworks-max-financial-among-5-stocks-that-could-give-10-30-return/slideshow/133449559.cms",
+          "published": "Mon, 24 Aug 2026 07:50:58 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dalal Street Week Ahead: Selective buying favoured as Nifty remains rangebound",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-week-ahead-selective-buying-favoured-as-nifty-remains-range-bound/articleshow/133423333.cms",
-          "published": "Sat, 22 Aug 2026 17:16:05 +0530"
+          "title": "Oil Price Today (August 24): Crude oil slips below $93 ahead of US sanctions announcement on Iran. What are experts saying?",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-24-crude-oil-slips-below-93-ahead-of-us-sanctions-announcement-on-iran-what-are-experts-saying/articleshow/133449404.cms",
+          "published": "Mon, 24 Aug 2026 07:42:15 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Freedom Oils maker Gemini Edibles & Fats India files DRHP with Sebi for IPO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/freedom-oils-maker-gemini-edibles-fats-india-files-drhp-with-sebi-for-ipo/articleshow/133421580.cms",
-          "published": "Sat, 22 Aug 2026 15:31:46 +0530"
+          "title": "Nifty’s rally hinges on a break above the key 24,350–24,400 resistance zone",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/niftys-rally-hinges-on-a-break-above-the-key-2435024400-resistance-zone/articleshow/133449178.cms",
+          "published": "Mon, 24 Aug 2026 07:41:49 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Zee Entertainment allots 20.94 cr convertible warrants to promoter group entity",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/zee-entertainment-allots-20-94-cr-convertible-warrants-to-promoter-group-entity/articleshow/133421533.cms",
-          "published": "Sat, 22 Aug 2026 15:21:31 +0530"
+          "title": "Horizon Industrial Parks shares to list today. Check GMP ahead of debut",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/horizon-industrial-parks-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/133449327.cms",
+          "published": "Mon, 24 Aug 2026 07:38:58 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "CAS chaos triggers liquidity spiral: Nuvama says higher participation needed to break cycle",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/cas-chaos-triggers-liquidity-spiral-nuvama-says-higher-participation-needed-to-break-cycle/articleshow/133421238.cms",
-          "published": "Sat, 22 Aug 2026 14:58:53 +0530"
+          "title": "Negative Breakout: These 7 stocks cross below their 200 DMAs",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-7-stocks-cross-below-their-200-dmas/slideshow/133449382.cms",
+          "published": "Mon, 24 Aug 2026 07:34:45 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Mom's Belief operator to launch IPO on Sep 1",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/moms-belief-operator-to-launch-ipo-on-sep-1/articleshow/133420812.cms",
-          "published": "Sat, 22 Aug 2026 14:25:28 +0530"
+          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a positive start; Asian shares trade lower",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-ril-bob-share-price-24-august-2026/liveblog/133449346.cms",
+          "published": "Mon, 24 Aug 2026 07:33:34 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Welspun Corp leads as over 10 Nifty 500 stocks gain 10–23% this week despite market volatility",
-          "url": "https://www.livemint.com/market/stock-market-news/welspun-corp-leads-as-over-10-nifty-500-stocks-gain-10-23-this-week-despite-market-volatility-11787385989520.html",
-          "published": "Sun, 23 Aug 2026 07:00:41 +0530"
+          "title": "Buy or sell: Gift Nifty signals gap-up start | Vaishali Parekh recommends three stocks to buy today — 24 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-signals-gap-up-start-vaishali-parekh-recommends-three-stocks-to-buy-today-24-august-2026-11787535479845.html",
+          "published": "Mon, 24 Aug 2026 07:48:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "MCX gold rallies for fifth straight week; gains ₹19,000 per 10 grams in August",
-          "url": "https://www.livemint.com/market/commodities/mcx-gold-rallies-for-fifth-straight-week-gains-rs-19-000-per-10-grams-in-august-11787380646821.html",
-          "published": "Sun, 23 Aug 2026 06:01:00 +0530"
+          "title": "Stocks to watch: Reliance Industries, Power Grid, IREDA among shares to be in focus today. Details here",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-reliance-industries-power-grid-ireda-among-shares-to-be-in-focus-today-details-here-11787536183776.html",
+          "published": "Mon, 24 Aug 2026 07:43:26 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Korean Traders Chase 40% Coupons as Risk Appetite Survives Rout",
-          "url": "https://www.livemint.com/market/korean-traders-chase-40-coupons-as-risk-appetite-survives-rout-11787444779474.html",
-          "published": "Sun, 23 Aug 2026 05:56:19 +0530"
+          "title": "BOJ Set to Offer Clues as Markets Bet Heavily on September Hike",
+          "url": "https://www.livemint.com/market/boj-set-to-offer-clues-as-markets-bet-heavily-on-september-hike-11787537557020.html",
+          "published": "Mon, 24 Aug 2026 07:42:36 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "SIPs stay above ₹30,000 crore: Equity mutual funds smash record as assets hit ₹48.5 lakh crore",
-          "url": "https://www.livemint.com/market/sips-stay-above-rs-30-000-crore-equity-mutual-funds-smash-record-as-assets-hit-rs-48-5-lakh-crore-11787408860279.html",
-          "published": "Sat, 22 Aug 2026 20:06:55 +0530"
+          "title": "Taiwan Dollar’s August Rebound Is Looking Fragile, Analysts Say",
+          "url": "https://www.livemint.com/market/taiwan-dollar-s-august-rebound-is-looking-fragile-analysts-say-11787537551629.html",
+          "published": "Mon, 24 Aug 2026 07:42:31 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold shines, braving odds, rises 17% from June lows — What’s behind the jump? Will it impact Fed rate cut decision?",
-          "url": "https://www.livemint.com/market/commodities/gold-shines-braving-odds-rises-17-from-june-lows-what-s-behind-the-jump-will-it-impact-fed-rate-cut-decision-11787391720084.html",
-          "published": "Sat, 22 Aug 2026 16:15:43 +0530"
+          "title": "Hedge Funds Ramp Up Dollar Shorts Ahead of Bessent’s Fiscal Plan",
+          "url": "https://www.livemint.com/market/hedge-funds-ramp-up-dollar-shorts-ahead-of-bessent-s-fiscal-plan-11787537552046.html",
+          "published": "Mon, 24 Aug 2026 07:42:31 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "IPO GMPs: Skyways IPO, Symbiotec Pharmalab IPO to Lumino Industries IPO —what grey market premium signals?",
-          "url": "https://www.livemint.com/market/ipo/ipo-gmps-skyways-ipo-symbiotec-pharmalab-ipo-to-lumino-industries-ipo-what-grey-market-premium-signals-11787211771064.html",
-          "published": "Sat, 22 Aug 2026 13:29:58 +0530"
+          "title": "India’s $10 Billion Equity Rush Puts August on Track for Record",
+          "url": "https://www.livemint.com/market/indias-10-billion-equity-rush-puts-august-on-track-for-record-11787537487806.html",
+          "published": "Mon, 24 Aug 2026 07:41:27 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1451,13 +1458,13 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-23 08:14 IST",
+      "checked_at": "2026-08-24 08:14 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-23 08:14 IST",
+      "generated_at": "2026-08-24 08:14 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1501,7 +1508,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-23 08:14 IST",
+    "date": "2026-08-24 08:14 IST",
     "usdinr": {
       "last": 95.7,
       "date": "2026-08-21"
@@ -1515,18 +1522,18 @@
       "date": "21-Aug-2026"
     },
     "headlines": [
-      "Sebi proposes channel partners to expand retail access to bonds in India",
-      "Monarch Surveyors and Engineering Consultants receives Rs 2-cr work order",
-      "Sebi proposes tighter curbs on promotional claims by online bond platforms",
-      "B.R.Goyal Infrastructure receives Rs 151-cr NHAI work order",
-      "Framework for monitoring utilisation of issue proceeds under review: Sebi",
-      "Mamata Machinery geta patent for its Quadra 600 machine",
+      "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
+      "India's $10 billion equity rush puts August on track for a record month",
+      "KFintech, Affle 3i: Two breakout ideas from Angel One",
+      "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
+      "Oil prices fall ahead of expected US announcement on new Iran sanctions",
+      "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
+      "NSE's dilemma with going public",
       "YouTube versus Netflix, biodegradable milk packets, and more...",
       "CAS manipulation, the BofA-Jio Credit deal, and more...",
       "How traders allegedly gamed CAS",
       "The Augmont IPO Explained",
-      "RBI's problem with revolving credit",
-      "Why Bank of America wants a piece of India's lending boom"
+      "RBI's problem with revolving credit"
     ]
   },
   "changes": {
@@ -1559,15 +1566,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-22 08:04 IST",
+    "since": "2026-08-23 08:14 IST",
     "new_headlines": [
-      "Sebi proposes channel partners to expand retail access to bonds in India",
-      "Monarch Surveyors and Engineering Consultants receives Rs 2-cr work order",
-      "Sebi proposes tighter curbs on promotional claims by online bond platforms",
-      "B.R.Goyal Infrastructure receives Rs 151-cr NHAI work order",
-      "Framework for monitoring utilisation of issue proceeds under review: Sebi",
-      "Mamata Machinery geta patent for its Quadra 600 machine",
-      "YouTube versus Netflix, biodegradable milk packets, and more..."
+      "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
+      "India's $10 billion equity rush puts August on track for a record month",
+      "KFintech, Affle 3i: Two breakout ideas from Angel One",
+      "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
+      "Oil prices fall ahead of expected US announcement on new Iran sanctions",
+      "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
+      "NSE's dilemma with going public"
     ]
   },
   "summary": {
