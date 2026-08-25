@@ -46,6 +46,22 @@ jobs:
           echo "Writing data to: $INVMAX_OUT"
           python "$FETCHER"
 
+      # ── Step 1.5: the rolling history store ─────────────────
+      # Appends today's snapshot of the point-in-time fields (FX, rates, macro,
+      # flows, regime) into data/history/*.json so we can trend them over ~6
+      # months. Runs BEFORE signals so the flow-trend signal sees today's row.
+      - name: Accumulate history
+        env:
+          INVMAX_OUT: ${{ github.workspace }}/data
+        run: |
+          HIST="$(find . -name 'history.py' -not -path './.git/*' | head -n 1)"
+          if [ -z "$HIST" ]; then
+            echo "::warning::history.py not found — skipping history step."
+            exit 0
+          fi
+          echo "Found history accumulator at: $HIST"
+          python "$HIST" || echo "::warning::History step reported a problem; data is still valid."
+
       # ── Step 2: the signals ─────────────────────────────────
       # Deterministic observed signals from the real price data. Pure code,
       # no LLM — this is the auditable ground truth the narration rests on.
@@ -93,7 +109,7 @@ jobs:
         run: |
           git config user.name  "invmax-bot"
           git config user.email "actions@github.com"
-          git add -A -- '*data/latest.json' '*data/history.json' || true
+          git add -A -- '*data/latest.json' '*data/history.json' '*data/history/**' || true
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
