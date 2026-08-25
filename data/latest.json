@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24 08:13 IST",
-  "generated_utc": "2026-08-24T02:43:58+00:00",
+  "generated_at": "2026-08-25 08:06 IST",
+  "generated_utc": "2026-08-25T02:36:54+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-24 08:13 IST",
+      "asof": "2026-08-25 08:06 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-21",
+        "asof": "2026-08-24",
         "rates": {
-          "EUR": 0.85477,
-          "GBP": 0.73228,
-          "INR": 95.7,
-          "JPY": 158.7
+          "EUR": 0.85734,
+          "GBP": 0.73345,
+          "INR": 95.76,
+          "JPY": 159.12
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-22",
-            "v": 87.53
-          },
           {
             "date": "2025-08-25",
             "v": 87.56
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-08-21",
             "v": 95.7
+          },
+          {
+            "date": "2026-08-24",
+            "v": 95.76
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-24 08:14 IST",
+      "asof": "2026-08-25 08:06 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 106.8821,
-          "date": "21-08-2026",
-          "ret1y_pct": -1.27,
+          "nav": 106.9164,
+          "date": "24-08-2026",
+          "ret1y_pct": -1.25,
           "series": [
-            102.3935,
-            103.0551,
-            103.4542,
-            105.2693,
-            106.5585,
-            108.0092,
-            107.9243,
-            108.4412,
-            108.245,
-            109.2597,
-            109.9947,
-            110.0609,
-            110.2974,
-            110.6309,
-            110.9316,
-            104.8473,
-            104.3467,
-            106.041,
-            106.5851,
-            106.8821
+            102.4261,
+            103.0631,
+            103.4915,
+            105.407,
+            106.3466,
+            107.886,
+            107.9198,
+            108.2153,
+            108.3519,
+            109.2852,
+            109.9907,
+            110.0652,
+            110.1878,
+            110.7584,
+            110.9985,
+            104.7652,
+            104.5215,
+            106.1268,
+            106.5961,
+            106.9164
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 112.2201,
-          "date": "21-08-2026",
-          "ret1y_pct": 1.91,
+          "nav": 112.0533,
+          "date": "24-08-2026",
+          "ret1y_pct": 2.19,
           "series": [
-            101.4904,
-            98.4378,
-            99.6691,
-            105.2172,
-            106.1852,
-            106.6482,
-            108.78,
-            109.5723,
-            111.2323,
-            111.9025,
-            111.1918,
-            110.1534,
-            106.0731,
-            109.0091,
-            99.6142,
-            106.1301,
-            105.9217,
-            107.5421,
-            108.5863,
-            112.2201
+            101.1868,
+            98.3385,
+            100.6482,
+            105.8792,
+            107.0146,
+            108.1514,
+            109.7098,
+            110.0113,
+            111.5335,
+            111.8587,
+            110.661,
+            110.7862,
+            106.8714,
+            109.5273,
+            96.713,
+            105.0928,
+            105.5115,
+            108.2944,
+            108.0484,
+            112.0533
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 236.588,
-          "date": "21-08-2026",
-          "ret1y_pct": 12.33,
+          "nav": 237.124,
+          "date": "24-08-2026",
+          "ret1y_pct": 12.58,
           "series": [
-            204.985,
-            196.219,
-            181.349,
-            180.45,
-            202.603,
-            209.783,
-            215.905,
-            209.808,
-            215.465,
-            216.044,
-            226.08,
-            222.449,
-            223.518,
-            226.052,
-            203.612,
-            221.614,
-            220.359,
-            226.634,
-            226.902,
-            236.588
+            203.626,
+            196.636,
+            181.318,
+            183.577,
+            203.713,
+            209.042,
+            216.835,
+            209.873,
+            215.358,
+            218.098,
+            224.791,
+            222.001,
+            222.776,
+            226.722,
+            204.935,
+            220.625,
+            222.381,
+            227.898,
+            227.323,
+            237.124
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 237.3706,
-          "date": "21-08-2026",
-          "ret1y_pct": -0.64,
+          "nav": 237.0433,
+          "date": "24-08-2026",
+          "ret1y_pct": -0.86,
           "series": [
-            227.8758,
-            227.3193,
-            216.4846,
-            215.8433,
-            237.6957,
-            240.471,
-            243.4938,
-            238.3957,
-            242.7794,
-            244.0781,
-            252.8216,
-            251.2821,
-            249.7762,
-            250.1273,
-            223.6532,
-            236.9605,
-            230.8106,
-            232.5809,
-            233.2312,
-            237.3706
+            226.312,
+            226.9838,
+            216.857,
+            219.9803,
+            241.4996,
+            238.847,
+            242.8378,
+            237.6248,
+            243.8312,
+            245.8286,
+            251.8189,
+            250.8765,
+            248.7156,
+            251.0643,
+            224.7426,
+            234.9661,
+            233.924,
+            234.5013,
+            232.3905,
+            237.0433
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-24 08:14 IST",
+      "asof": "2026-08-25 08:07 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-08-24 08:14 IST",
+      "asof": "2026-08-25 08:07 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "21-Aug-2026",
-          "buy": 15258.71,
-          "sell": 13134.57,
-          "net": 2124.14
+          "date": "24-Aug-2026",
+          "buy": 15337.18,
+          "sell": 12843.77,
+          "net": 2493.41
         },
         "fii": {
-          "date": "21-Aug-2026",
-          "buy": 12560.91,
-          "sell": 13103.62,
-          "net": -542.71
+          "date": "24-Aug-2026",
+          "buy": 12332.64,
+          "sell": 11150.98,
+          "net": 1181.66
         }
       }
     },
     "news": {
-      "asof": "2026-08-24 08:14 IST",
+      "asof": "2026-08-25 08:07 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
-          "url": "https://www.business-standard.com/markets/news/stock-market-live-august-24-nse-bse-sensex-today-nifty50-gift-nifty-hy-tech-engineers-ipo-gmp-today-126082400062_1.html",
-          "published": "Mon, 24 Aug 2026 08:01:15 +0530"
+          "title": "Gold loan market gets crowded: Will new entrants dull incumbents' sheen?",
+          "url": "https://www.business-standard.com/markets/news/gold-loan-market-gets-crowded-will-new-entrants-dull-incumbents-sheen-126082500064_1.html",
+          "published": "Tue, 25 Aug 2026 07:31:45 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "India's $10 billion equity rush puts August on track for a record month",
-          "url": "https://www.business-standard.com/markets/news/india-s-10-billion-equity-rush-puts-august-on-track-for-a-record-month-126082400063_1.html",
-          "published": "Mon, 24 Aug 2026 07:47:41 +0530"
+          "title": "Skyways Air vs Symbiotec vs Hy-Tech: Analysts pick their top IPO bet",
+          "url": "https://www.business-standard.com/markets/ipo/skyways-air-vs-symbiotec-vs-hy-tech-analysts-pick-their-top-ipo-bet-126082500062_1.html",
+          "published": "Tue, 25 Aug 2026 07:30:56 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "KFintech, Affle 3i: Two breakout ideas from Angel One",
-          "url": "https://www.business-standard.com/markets/news/stocks-to-buy-today-two-breakout-ideas-from-angel-one-126082400061_1.html",
-          "published": "Mon, 24 Aug 2026 07:45:35 +0530"
+          "title": "JPMorgan India unit to argue that any regulatory breach was technical",
+          "url": "https://www.business-standard.com/markets/news/jpmorgan-india-unit-to-argue-that-any-regulatory-breach-was-technical-126082401446_1.html",
+          "published": "Mon, 24 Aug 2026 22:42:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
-          "url": "https://www.business-standard.com/markets/news/asian-shares-flat-ahead-of-expected-us-sanctions-on-iran-nvidia-results-126082400051_1.html",
-          "published": "Mon, 24 Aug 2026 07:40:12 +0530"
+          "title": "Sebi to introduce IT Resilience Index for market infra institutions",
+          "url": "https://www.business-standard.com/markets/news/sebi-to-introduce-it-resilience-index-for-market-infra-institutions-126082400940_1.html",
+          "published": "Mon, 24 Aug 2026 20:58:26 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oil prices fall ahead of expected US announcement on new Iran sanctions",
-          "url": "https://www.business-standard.com/markets/commodities/oil-prices-fall-ahead-of-expected-us-announcement-on-new-iran-sanctions-126082400049_1.html",
-          "published": "Mon, 24 Aug 2026 07:37:36 +0530"
+          "title": "PFC withdraws three-year bond issue as yields remain elevated in market",
+          "url": "https://www.business-standard.com/markets/news/pfc-withdraws-three-year-bond-issue-as-yields-remain-elevated-in-market-126082401105_1.html",
+          "published": "Mon, 24 Aug 2026 19:20:39 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
-          "url": "https://www.business-standard.com/markets/news/derivatives-market-gets-gen-z-twist-but-losses-cast-a-long-shadow-sebi-126082300682_1.html",
-          "published": "Sun, 23 Aug 2026 20:42:28 +0530"
+          "title": "From trades to balance sheets: Sebi to widen AI surveillance net",
+          "url": "https://www.business-standard.com/markets/news/from-trades-to-balance-sheets-sebi-widens-its-ai-powered-surveillance-net-126082401060_1.html",
+          "published": "Mon, 24 Aug 2026 18:52:30 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Is Anthropic overvalued?",
+          "url": "https://finshots.in/archive/is-anthropic-overvalued/",
+          "published": "Tue, 25 Aug 2026 01:30:28 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Thu, 20 Aug 2026 01:30:25 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "RBI's problem with revolving credit",
-          "url": "https://finshots.in/archive/rbis-problem-with-revolving-credit-nbfc/",
-          "published": "Wed, 19 Aug 2026 01:30:21 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Vishal Mega Mart among 4 stocks showing bullish RSI upswing",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/vishal-mega-mart-among-4-stocks-showing-bullish-rsi-upswing/slideshow/133487508.cms",
+          "published": "Tue, 25 Aug 2026 07:46:27 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stocks to buy in 2026 for long term: Jubilant FoodWorks, Max Financial among 5 stocks that could give 10-30% return",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-jubilant-foodworks-max-financial-among-5-stocks-that-could-give-10-30-return/slideshow/133449559.cms",
-          "published": "Mon, 24 Aug 2026 07:50:58 +0530"
+          "title": "Positive Breakout: These 8 stocks cross above their 200 DMAs",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-8-stocks-cross-above-their-200-dmas/slideshow/133487410.cms",
+          "published": "Tue, 25 Aug 2026 07:40:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Oil Price Today (August 24): Crude oil slips below $93 ahead of US sanctions announcement on Iran. What are experts saying?",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-24-crude-oil-slips-below-93-ahead-of-us-sanctions-announcement-on-iran-what-are-experts-saying/articleshow/133449404.cms",
-          "published": "Mon, 24 Aug 2026 07:42:15 +0530"
+          "title": "Oil Price Today (August 25): Crude oil at $92 as investors digest US economic sanctions on Iran. What’s next for investors?",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-25-crude-oil-at-92-as-investors-digest-us-economic-sanctions-on-iran-whats-next-for-investors/articleshow/133487237.cms",
+          "published": "Tue, 25 Aug 2026 07:38:39 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nifty’s rally hinges on a break above the key 24,350–24,400 resistance zone",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/niftys-rally-hinges-on-a-break-above-the-key-2435024400-resistance-zone/articleshow/133449178.cms",
-          "published": "Mon, 24 Aug 2026 07:41:49 +0530"
+          "title": "Dollar struggles for traction as markets weigh Iran sanctions, Treasury buybacks",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-struggles-for-traction-as-markets-weigh-iran-sanctions-treasury-buybacks/articleshow/133487188.cms",
+          "published": "Tue, 25 Aug 2026 07:35:06 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Horizon Industrial Parks shares to list today. Check GMP ahead of debut",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/horizon-industrial-parks-shares-to-list-today-check-gmp-ahead-of-debut/articleshow/133449327.cms",
-          "published": "Mon, 24 Aug 2026 07:38:58 +0530"
+          "title": "Gold touches highest level since mid-May as buying momentum builds",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-touches-highest-level-since-mid-may-as-buying-momentum-builds/articleshow/133487101.cms",
+          "published": "Tue, 25 Aug 2026 07:33:23 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Negative Breakout: These 7 stocks cross below their 200 DMAs",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/negative-breakout-these-7-stocks-cross-below-their-200-dmas/slideshow/133449382.cms",
-          "published": "Mon, 24 Aug 2026 07:34:45 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals a positive start; Asian shares trade lower",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-ril-bob-share-price-24-august-2026/liveblog/133449346.cms",
-          "published": "Mon, 24 Aug 2026 07:33:34 +0530"
+          "title": "Indian stock markets deliver negative returns for two years, worst since 2012, ET analysis reveals",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-stock-markets-deliver-negative-returns-for-two-years-worst-since-2012-et-analysis-reveals/articleshow/133486955.cms",
+          "published": "Tue, 25 Aug 2026 07:32:29 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell: Gift Nifty signals gap-up start | Vaishali Parekh recommends three stocks to buy today — 24 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-gift-nifty-signals-gap-up-start-vaishali-parekh-recommends-three-stocks-to-buy-today-24-august-2026-11787535479845.html",
-          "published": "Mon, 24 Aug 2026 07:48:07 +0530"
+          "title": "Silver’s surge: Three Indian stocks to play the next leg",
+          "url": "https://www.livemint.com/market/stock-market-news/silvers-surge-three-indian-stocks-to-play-the-next-leg-11787571105657.html",
+          "published": "Tue, 25 Aug 2026 08:00:22 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to watch: Reliance Industries, Power Grid, IREDA among shares to be in focus today. Details here",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-reliance-industries-power-grid-ireda-among-shares-to-be-in-focus-today-details-here-11787536183776.html",
-          "published": "Mon, 24 Aug 2026 07:43:26 +0530"
+          "title": "Nifty 50, Sensex prediction today: Check how Indian stock market is expected to trade on 25 August",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-sensex-prediction-today-check-how-indian-stock-market-is-expected-to-trade-on-25-august-11787621623189.html",
+          "published": "Tue, 25 Aug 2026 07:33:53 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "BOJ Set to Offer Clues as Markets Bet Heavily on September Hike",
-          "url": "https://www.livemint.com/market/boj-set-to-offer-clues-as-markets-bet-heavily-on-september-hike-11787537557020.html",
-          "published": "Mon, 24 Aug 2026 07:42:36 +0530"
+          "title": "India’s New Stock Auction System Faces First Monthly Expiry Test",
+          "url": "https://www.livemint.com/market/indias-new-stock-auction-system-faces-first-monthly-expiry-test-11787622636658.html",
+          "published": "Tue, 25 Aug 2026 07:20:36 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Taiwan Dollar’s August Rebound Is Looking Fragile, Analysts Say",
-          "url": "https://www.livemint.com/market/taiwan-dollar-s-august-rebound-is-looking-fragile-analysts-say-11787537551629.html",
-          "published": "Mon, 24 Aug 2026 07:42:31 +0530"
+          "title": "Sugar Futures Slump as Traders Parse India’s Import Potential",
+          "url": "https://www.livemint.com/market/sugar-futures-slump-as-traders-parse-india-s-import-potential-11787621669060.html",
+          "published": "Tue, 25 Aug 2026 07:04:28 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Hedge Funds Ramp Up Dollar Shorts Ahead of Bessent’s Fiscal Plan",
-          "url": "https://www.livemint.com/market/hedge-funds-ramp-up-dollar-shorts-ahead-of-bessent-s-fiscal-plan-11787537552046.html",
-          "published": "Mon, 24 Aug 2026 07:42:31 +0530"
+          "title": "Trump invested $50,000 in Elon Musk's SpaceX in June? More than 1,000 stock trades in the month: Report",
+          "url": "https://www.livemint.com/market/stock-market-news/trump-invested-50-000-in-elon-musks-spacex-in-june-more-than-1-000-stock-trades-in-the-month-report-11787620059627.html",
+          "published": "Tue, 25 Aug 2026 06:51:56 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "India’s $10 Billion Equity Rush Puts August on Track for Record",
-          "url": "https://www.livemint.com/market/indias-10-billion-equity-rush-puts-august-on-track-for-record-11787537487806.html",
-          "published": "Mon, 24 Aug 2026 07:41:27 +0530"
+          "title": "Canadian Dollar Tumbles as Trade Rift Threatens Growth Outlook",
+          "url": "https://www.livemint.com/market/canadian-dollar-tumbles-as-trade-rift-threatens-growth-outlook-11787619491615.html",
+          "published": "Tue, 25 Aug 2026 06:28:11 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,13 +1458,13 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-24 08:14 IST",
+      "checked_at": "2026-08-25 08:07 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-24 08:14 IST",
+      "generated_at": "2026-08-25 08:07 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1481,8 +1481,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 64,
-          "reading": "USD/INR moved -0.9% over the last month (now 95.70).",
+          "strength": 62,
+          "reading": "USD/INR moved -0.8% over the last month (now 95.76).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1508,36 +1508,41 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-24 08:14 IST",
+    "date": "2026-08-25 08:07 IST",
     "usdinr": {
-      "last": 95.7,
-      "date": "2026-08-21"
+      "last": 95.76,
+      "date": "2026-08-24"
     },
     "dii_net": {
-      "net": 2124.14,
-      "date": "21-Aug-2026"
+      "net": 2493.41,
+      "date": "24-Aug-2026"
     },
     "fii_net": {
-      "net": -542.71,
-      "date": "21-Aug-2026"
+      "net": 1181.66,
+      "date": "24-Aug-2026"
     },
     "headlines": [
-      "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
-      "India's $10 billion equity rush puts August on track for a record month",
-      "KFintech, Affle 3i: Two breakout ideas from Angel One",
-      "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
-      "Oil prices fall ahead of expected US announcement on new Iran sanctions",
-      "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
+      "Gold loan market gets crowded: Will new entrants dull incumbents' sheen?",
+      "Skyways Air vs Symbiotec vs Hy-Tech: Analysts pick their top IPO bet",
+      "JPMorgan India unit to argue that any regulatory breach was technical",
+      "Sebi to introduce IT Resilience Index for market infra institutions",
+      "PFC withdraws three-year bond issue as yields remain elevated in market",
+      "From trades to balance sheets: Sebi to widen AI surveillance net",
+      "Is Anthropic overvalued?",
       "NSE's dilemma with going public",
       "YouTube versus Netflix, biodegradable milk packets, and more...",
       "CAS manipulation, the BofA-Jio Credit deal, and more...",
       "How traders allegedly gamed CAS",
-      "The Augmont IPO Explained",
-      "RBI's problem with revolving credit"
+      "The Augmont IPO Explained"
     ]
   },
   "changes": {
     "material": [
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹1,182 Cr — direction flipped"
+      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1548,17 +1553,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.70 (+0.00%)"
+        "detail": "₹95.76 (+0.06%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹2,124 Cr"
+        "detail": "₹2,493 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-543 Cr"
+        "detail": "₹1,182 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1566,15 +1571,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-23 08:14 IST",
+    "since": "2026-08-24 08:14 IST",
     "new_headlines": [
-      "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
-      "India's $10 billion equity rush puts August on track for a record month",
-      "KFintech, Affle 3i: Two breakout ideas from Angel One",
-      "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
-      "Oil prices fall ahead of expected US announcement on new Iran sanctions",
-      "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
-      "NSE's dilemma with going public"
+      "Gold loan market gets crowded: Will new entrants dull incumbents' sheen?",
+      "Skyways Air vs Symbiotec vs Hy-Tech: Analysts pick their top IPO bet",
+      "JPMorgan India unit to argue that any regulatory breach was technical",
+      "Sebi to introduce IT Resilience Index for market infra institutions",
+      "PFC withdraws three-year bond issue as yields remain elevated in market",
+      "From trades to balance sheets: Sebi to widen AI surveillance net",
+      "Is Anthropic overvalued?"
     ]
   },
   "summary": {

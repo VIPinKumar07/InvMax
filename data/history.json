@@ -839,5 +839,34 @@
    "The Augmont IPO Explained",
    "RBI's problem with revolving credit"
   ]
+ },
+ {
+  "date": "2026-08-25 08:07 IST",
+  "usdinr": {
+   "last": 95.76,
+   "date": "2026-08-24"
+  },
+  "dii_net": {
+   "net": 2493.41,
+   "date": "24-Aug-2026"
+  },
+  "fii_net": {
+   "net": 1181.66,
+   "date": "24-Aug-2026"
+  },
+  "headlines": [
+   "Gold loan market gets crowded: Will new entrants dull incumbents' sheen?",
+   "Skyways Air vs Symbiotec vs Hy-Tech: Analysts pick their top IPO bet",
+   "JPMorgan India unit to argue that any regulatory breach was technical",
+   "Sebi to introduce IT Resilience Index for market infra institutions",
+   "PFC withdraws three-year bond issue as yields remain elevated in market",
+   "From trades to balance sheets: Sebi to widen AI surveillance net",
+   "Is Anthropic overvalued?",
+   "NSE's dilemma with going public",
+   "YouTube versus Netflix, biodegradable milk packets, and more...",
+   "CAS manipulation, the BofA-Jio Credit deal, and more...",
+   "How traders allegedly gamed CAS",
+   "The Augmont IPO Explained"
+  ]
  }
 ]
