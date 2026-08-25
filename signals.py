@@ -325,7 +325,9 @@ def rates_signals(rates, macro):
         return out
     g = rates.get("gsec_10y") or {}
     closes = [p["c"] for p in (g.get("daily_tail") or []) if p.get("c") is not None]
-    src10 = {"name": "India 10Y · Stooq", "url": "https://stooq.com/q/d/?s=10iny.b"}
+    # 10Y value: fetched history if present, else the maintained registry value
+    g_val = g.get("last") if g.get("last") is not None else g.get("value")
+    src10 = {"name": g.get("source", "RBI / FBIL"), "url": "https://www.fbil.org.in/"}
 
     if len(closes) >= 63:
         now = closes[-1]
@@ -344,18 +346,18 @@ def rates_signals(rates, macro):
             "rule": "3-month change in the 10-year G-Sec yield",
             "source": src10,
         })
-    elif g.get("last") is not None:
+    elif g_val is not None:
         out.append({
             "id": "gsec_level", "label": "10-yr yield", "direction": "neutral", "strength": 50,
-            "reading": f"10-yr G-Sec at {g['last']:.2f}% (building history).",
-            "conclusion": "Yield tracked; trend forms as history builds.",
-            "rule": "latest 10-year G-Sec yield", "source": src10,
+            "reading": f"10-yr G-Sec at {g_val:.2f}% (as of {g.get('as_of','')}).",
+            "conclusion": "Policy-anchored yield level — the risk-free benchmark.",
+            "rule": "maintained 10-year G-Sec yield value", "source": src10,
         })
 
     # Real rate = 10y yield − CPI (if both present)
     cpi = ((macro or {}).get("cpi_inflation_yoy") or {}).get("value")
-    if g.get("last") is not None and cpi is not None:
-        real = g["last"] - cpi
+    if g_val is not None and cpi is not None:
+        real = g_val - cpi
         if real > 2:
             concl, dirn = "Comfortably positive real rate — supports the rupee & bonds", "bullish"
         elif real > 0:
@@ -365,7 +367,7 @@ def rates_signals(rates, macro):
         out.append({
             "id": "real_rate", "label": "Real rate",
             "direction": dirn, "strength": round(clamp(50 + abs(real) * 12, 50, 88)),
-            "reading": f"10-yr yield {g['last']:.2f}% − CPI {cpi:.1f}% = {real:+.1f}% real.",
+            "reading": f"10-yr yield {g_val:.2f}% − CPI {cpi:.1f}% = {real:+.1f}% real.",
             "conclusion": concl,
             "rule": "10-year G-Sec yield minus latest CPI inflation",
             "source": src10,
@@ -382,6 +384,46 @@ def rates_signals(rates, macro):
             "rule": "RBI MPC repo rate (registry-maintained)",
             "source": {"name": repo.get("source", "RBI MPC"),
                        "url": "https://www.rbi.org.in/Scripts/BS_ViewMonetaryPolicy.aspx"},
+        })
+    return out
+
+
+def flow_signals(flows_hist):
+    """Signal built from ACCUMULATED FII/DII history (history/flows.json).
+    Today's single number tells you nothing; the 20-day trend tells you a lot."""
+    out = []
+    if not flows_hist:
+        return out
+    src = {"name": "NSE FII/DII (accumulated)",
+           "url": "https://www.nseindia.com/reports/fii-dii"}
+    for fid, label in (("fii_net", "Foreign flows"), ("dii_net", "Domestic flows")):
+        rec = flows_hist.get(fid) or {}
+        ser = [p["value"] for p in (rec.get("series") or []) if p.get("value") is not None]
+        if len(ser) < 5:
+            continue
+        window = ser[-20:] if len(ser) >= 20 else ser
+        cum = sum(window)
+        # positive-day share (a breadth-style read on flow persistence)
+        pos_share = sum(1 for v in window if v > 0) / len(window) * 100
+        if cum > 5000 and pos_share > 60:
+            concl, dirn = f"{label}: sustained buying pressure", "bullish"
+        elif cum < -5000 and pos_share < 40:
+            concl, dirn = f"{label}: sustained selling pressure", "bearish"
+        elif cum > 0:
+            concl, dirn = f"{label}: mildly positive on balance", "bullish"
+        elif cum < 0:
+            concl, dirn = f"{label}: mildly negative on balance", "bearish"
+        else:
+            concl, dirn = f"{label}: balanced", "neutral"
+        out.append({
+            "id": f"flow_{fid}", "label": label,
+            "direction": dirn,
+            "strength": round(clamp(50 + abs(cum) / 500, 50, 92)),
+            "reading": f"{len(window)}-day cumulative: {'+' if cum>=0 else ''}Rs{int(cum):,} Cr · "
+                       f"{pos_share:.0f}% of days positive.",
+            "conclusion": concl,
+            "rule": "20-day cumulative net flow + share of positive days",
+            "source": src,
         })
     return out
 
@@ -466,6 +508,16 @@ def main():
     rates = ((data.get("blocks") or {}).get("rates") or {}).get("data") or {}
     macro = ((data.get("blocks") or {}).get("macro") or {}).get("data") or {}
 
+    # Load accumulated flow history if available (history.py must have run once)
+    flows_hist = {}
+    hist_path = os.path.join(os.path.dirname(OUT_FILE) or ".", "history", "flows.json")
+    if os.path.exists(hist_path):
+        try:
+            with open(hist_path, "r", encoding="utf-8") as fh:
+                flows_hist = json.load(fh)
+        except Exception:
+            flows_hist = {}
+
     per_asset = {}
     for key in ("nifty50", "sensex", "gold_usd", "brent_oil", "sp500"):
         a = idx.get(key)
@@ -484,6 +536,7 @@ def main():
 
     cross = cross_asset_signals(idx, fx)
     cross += rates_signals(rates, macro)
+    cross += flow_signals(flows_hist)
     headline = build_headline(per_asset, cross)
     regime = overall_regime(cross, per_asset)
     strongest = rank_strongest(per_asset, cross)
