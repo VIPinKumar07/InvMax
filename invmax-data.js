@@ -151,7 +151,22 @@ window.InvMax = (function () {
     return `${String(d.getDate()).padStart(2,'0')} ${m[d.getMonth()]} ${String(d.getFullYear()).slice(2)}`;
   }
 
+  // ── Rolling history (data/history/<name>.json) ─────────────
+  // Lazy-fetched per file, cached. Available names come from the manifest:
+  //   fx, rates, macro, flows, regime  (see history.py)
+  const _histCache = {};
+  async function history(name) {
+    if (_histCache[name] !== undefined) return _histCache[name];
+    try {
+      const r = await fetch(`data/history/${name}.json`, { cache: 'no-store' });
+      _histCache[name] = r.ok ? await r.json() : null;
+    } catch (e) {
+      _histCache[name] = null;
+    }
+    return _histCache[name];
+  }
+
   return { load, block, asOf, monthlyReturns, shortDate, PATH,
            narrative, narrativeBadge, changes, sourcesUsed,
-           usdinr, asset, assetsPresent, sourceLinks, signals };
+           usdinr, asset, assetsPresent, sourceLinks, signals, history };
 })();
