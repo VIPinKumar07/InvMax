@@ -780,10 +780,36 @@ let rt;addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(renderAll,2
       if(nf&&nf.last!=null) setK(byName('nifty'), Math.round(nf.last).toLocaleString('en-IN'), 'live · '+(nf.last_date||''), true);
       if(gd&&gd.last!=null) setK(byName('gold'), Math.round(gd.last).toLocaleString('en-IN'), 'live · '+(gd.last_date||''), true);
     }
-    if(rates && rates.data && rates.data.gsec_10y && rates.data.gsec_10y.last!=null){
-      setK(byName('10y'), rates.data.gsec_10y.last.toFixed(2)+'%', 'live · '+(rates.data.gsec_10y.last_date||''), true);
+    if(rates && rates.data && rates.data.gsec_10y){ const gv=(rates.data.gsec_10y.last!=null?rates.data.gsec_10y.last:rates.data.gsec_10y.value);
+      if(gv!=null) setK(byName('10y'), gv.toFixed(2)+'%', (rates.data.gsec_10y.source||'RBI/FBIL')+' · '+(rates.data.gsec_10y.last_date||rates.data.gsec_10y.as_of||''), true);
     }
-    // honestly mark the ones we still can't source live
+    const ex=InvMax.block(d,'market_extras');
+    if(ex && ex.data){
+      const bn=ex.data.bank_nifty, mc=ex.data.nifty_midcap, vx=ex.data.india_vix;
+      if(bn&&bn.last!=null) setK(byName('bank nifty'), Math.round(bn.last).toLocaleString('en-IN'), 'live · '+(bn.last_date||''), true);
+      if(mc&&mc.last!=null) setK(byName('midcap'), Math.round(mc.last).toLocaleString('en-IN'), 'live · '+(mc.last_date||''), true);
+      if(vx&&vx.last!=null) setK(byName('india vix'), vx.last.toFixed(1), 'live · '+(vx.last_date||''), true);
+    }
+    // FII from flows
+    const fl=InvMax.block(d,'flows');
+    if(fl && fl.data){ const f=fl.data.fii_net!=null?fl.data.fii_net:(fl.data.fii&&fl.data.fii.net);
+      if(f!=null) setK(byName('fii'), '+'+Math.round(f).toLocaleString('en-IN'), 'NSE · '+(fl.asof||''), true); }
+
+    // Real 6-month FII trend from accumulated history (data/history/flows.json)
+    (async ()=>{
+      const h=await InvMax.history('flows'); if(!h) return;
+      const card=byName('fii'); if(!card) return;
+      const ser=((h.fii_net||{}).series)||[];
+      if(ser.length<10) return;   // not enough history yet
+      const vals=ser.map(p=>p.value);
+      const sparkEl=card.querySelector('.kpi-spark');
+      if(!sparkEl || !window.sparkline) return;
+      const up=vals[vals.length-1]>=vals[0];
+      window.sparkline(sparkEl, vals, up?C.pos:C.neg);
+      const asof=card.querySelector('.kpi-asof');
+      if(asof) asof.textContent=`live · ${ser.length}d history · NSE`;
+    })();
+    // honestly mark anything still unsourced
     ['midcap','india vix','bank nifty','fii mtd'].forEach(n=>{
       const c=byName(n); if(c){ const a=c.querySelector('.kpi-asof'); if(a && /sample/i.test(a.textContent)) a.textContent='illustrative — no live feed yet'; }
     });
