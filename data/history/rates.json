@@ -1,0 +1,13 @@
+{
+  "policy_repo": {
+    "unit": "%",
+    "source": "RBI MPC",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 5.5,
+        "as_of": "2026-08-06"
+      }
+    ]
+  }
+}

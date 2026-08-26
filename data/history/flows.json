@@ -1,0 +1,24 @@
+{
+  "fii_net": {
+    "unit": "Cr",
+    "source": "NSE FII/DII",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 1593.53
+      }
+    ],
+    "name": "FII net (equity)"
+  },
+  "dii_net": {
+    "unit": "Cr",
+    "source": "NSE FII/DII",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 230.26
+      }
+    ],
+    "name": "DII net (equity)"
+  }
+}

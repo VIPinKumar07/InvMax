@@ -1,0 +1,42 @@
+{
+  "INR": {
+    "unit": "per USD",
+    "source": "ECB / Frankfurter",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 95.42
+      }
+    ]
+  },
+  "EUR": {
+    "unit": "per USD",
+    "source": "ECB / Frankfurter",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 0.8575
+      }
+    ]
+  },
+  "GBP": {
+    "unit": "per USD",
+    "source": "ECB / Frankfurter",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 0.7336
+      }
+    ]
+  },
+  "JPY": {
+    "unit": "per USD",
+    "source": "ECB / Frankfurter",
+    "series": [
+      {
+        "date": "2026-08-26",
+        "value": 159.24
+      }
+    ]
+  }
+}
