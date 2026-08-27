@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-04 04:15 IST",
-  "usdinr": {
-   "last": 95.34,
-   "date": "2026-08-03"
-  },
-  "dii_net": {
-   "net": 1571.18,
-   "date": "03-Aug-2026"
-  },
-  "fii_net": {
-   "net": 922.26,
-   "date": "03-Aug-2026"
-  },
-  "headlines": [
-   "How the West Asia crisis is rattling India's real estate sector",
-   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
-   "Can Coforge build an AI giant through acquisitions?",
-   "Air India's hard luck",
-   "The Manipal Health IPO Explained",
-   "US stocks: Dow closes at record high on Iran talks optimism",
-   "Yen holds gains after Japan, US confirm joint intervention, signal more action",
-   "Muthoot Microfin case: Sebi exempts six family trusts from open offer obligation",
-   "Kansai Nerolac Q1 profit rises 5%; approves Rs 601 crore capacity expansion",
-   "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-   "LIC OFS opens on August 4 as govt looks to sell up to 6.5% stake. Check details"
-  ]
- },
- {
   "date": "2026-08-04 10:12 IST",
   "usdinr": {
    "last": 95.34,
@@ -867,6 +838,35 @@
    "YouTube versus Netflix, biodegradable milk packets, and more...",
    "CAS manipulation, the BofA-Jio Credit deal, and more...",
    "How traders allegedly gamed CAS"
+  ]
+ },
+ {
+  "date": "2026-08-27 17:16 IST",
+  "usdinr": {
+   "last": 95.42,
+   "date": "2026-08-26"
+  },
+  "dii_net": {
+   "net": 6425.16,
+   "date": "26-Aug-2026"
+  },
+  "fii_net": {
+   "net": 502.63,
+   "date": "26-Aug-2026"
+  },
+  "headlines": [
+   "Japanese shares trade mixed as tech stocks diverge",
+   "China stocks gain as investors expect more policy support",
+   "Sensex tumbles 539 pts, Nifty slips below 24,100 as HDFC Bank, Reliance drag",
+   "Quick Wrap: Nifty PSU Bank Index declines 0.94%",
+   "Nifty September futures trade at premium",
+   "Indices extend losses for 2nd day; PSU Bank stocks drop",
+   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
+   "Why capital is moving from bits to atoms",
+   "Is Anthropic overvalued?",
+   "NSE's dilemma with going public",
+   "YouTube versus Netflix, biodegradable milk packets, and more...",
+   "CAS manipulation, the BofA-Jio Credit deal, and more..."
   ]
  }
 ]
