@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27 17:15 IST",
-  "generated_utc": "2026-08-27T11:45:34+00:00",
+  "generated_at": "2026-08-28 18:38 IST",
+  "generated_utc": "2026-08-28T13:08:27+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-27 17:15 IST",
+      "asof": "2026-08-28 18:38 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-08-26",
+        "asof": "2026-08-27",
         "rates": {
-          "EUR": 0.85697,
-          "GBP": 0.73368,
-          "INR": 95.42,
-          "JPY": 159.07
+          "EUR": 0.85874,
+          "GBP": 0.73628,
+          "INR": 95.54,
+          "JPY": 159.39
         },
         "usdinr_history": [
-          {
-            "date": "2025-08-27",
-            "v": 87.76
-          },
           {
             "date": "2025-08-28",
             "v": 87.57
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-08-26",
             "v": 95.42
+          },
+          {
+            "date": "2026-08-27",
+            "v": 95.54
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-08-27 17:15 IST",
+      "asof": "2026-08-28 18:38 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 106.9419,
-          "date": "25-08-2026",
-          "ret1y_pct": -1.16,
+          "nav": 106.9162,
+          "date": "27-08-2026",
+          "ret1y_pct": -1.05,
           "series": [
-            102.4373,
-            103.0995,
-            103.4961,
-            105.4731,
-            106.2789,
-            107.6421,
-            107.8924,
-            108.2611,
-            108.3574,
-            109.3763,
-            109.9725,
-            109.9944,
-            110.1286,
-            110.8409,
-            110.9352,
-            104.7091,
-            104.5269,
-            106.3057,
-            106.8126,
-            106.9419
+            102.4411,
+            103.1194,
+            103.5156,
+            105.4895,
+            106.6661,
+            107.5439,
+            107.8928,
+            108.2726,
+            108.369,
+            109.4088,
+            109.9756,
+            110.0261,
+            110.0107,
+            110.8682,
+            110.6625,
+            104.7771,
+            104.5833,
+            106.4648,
+            106.8611,
+            106.9162
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 112.7138,
-          "date": "26-08-2026",
-          "ret1y_pct": 3.68,
+          "nav": 112.6303,
+          "date": "27-08-2026",
+          "ret1y_pct": 4.8,
           "series": [
-            99.7482,
-            98.672,
-            102.5148,
-            104.075,
-            107.03,
-            108.5319,
-            110.268,
-            109.6513,
-            110.7182,
-            112.2705,
-            111.8355,
-            110.6485,
-            105.945,
-            109.3681,
-            100.7319,
-            105.6212,
-            104.3129,
-            107.7804,
-            109.3376,
-            112.7138
+            99.589,
+            98.9287,
+            102.1034,
+            104.9692,
+            106.7675,
+            109.3692,
+            109.8416,
+            109.9294,
+            110.3401,
+            111.9031,
+            111.8115,
+            110.2666,
+            107.0296,
+            109.9293,
+            98.6739,
+            106.0698,
+            104.3083,
+            108.0088,
+            110.3876,
+            112.6303
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 237.356,
-          "date": "26-08-2026",
-          "ret1y_pct": 10.94,
+          "nav": 236.919,
+          "date": "27-08-2026",
+          "ret1y_pct": 10.28,
           "series": [
-            193.758,
-            188.393,
-            178.72,
-            190.178,
-            205.708,
-            210.132,
-            218.734,
-            210.619,
-            217.027,
-            217.991,
-            225.649,
-            224.13,
-            218.092,
-            224.106,
-            202.868,
-            220.638,
-            223.585,
-            225.317,
-            230.927,
-            237.356
+            196.352,
+            187.544,
+            179.946,
+            191.421,
+            203.771,
+            210.016,
+            218.853,
+            212.99,
+            217.233,
+            220.059,
+            223.281,
+            225.488,
+            220.498,
+            224.869,
+            207.591,
+            220.217,
+            221.322,
+            226.765,
+            232.805,
+            236.919
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 236.927,
-          "date": "26-08-2026",
-          "ret1y_pct": -2.3,
+          "nav": 235.781,
+          "date": "27-08-2026",
+          "ret1y_pct": -3.04,
           "series": [
-            222.0696,
-            222.2763,
-            215.8845,
-            225.8356,
-            240.5007,
-            240.141,
-            244.11,
-            239.1029,
-            245.0388,
-            249.6025,
-            254.5559,
-            252.3104,
-            244.5535,
-            248.6516,
-            222.7674,
-            234.2331,
-            232.7093,
-            233.7579,
-            234.5177,
-            236.927
+            222.9345,
+            222.1491,
+            216.9549,
+            229.8278,
+            237.979,
+            239.7412,
+            243.1377,
+            241.4785,
+            245.9221,
+            250.9125,
+            253.3486,
+            254.3065,
+            245.8383,
+            250.0247,
+            226.5982,
+            233.2888,
+            229.2493,
+            233.0091,
+            237.0971,
+            235.781
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-27 17:16 IST",
+      "asof": "2026-08-28 18:39 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-08-27 17:16 IST",
+      "asof": "2026-08-28 18:39 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "26-Aug-2026",
-          "buy": 17710.07,
-          "sell": 11284.91,
-          "net": 6425.16
+          "date": "28-Aug-2026",
+          "buy": 16539.38,
+          "sell": 11355.45,
+          "net": 5183.93
         },
         "fii": {
-          "date": "26-Aug-2026",
-          "buy": 17520.49,
-          "sell": 17017.86,
-          "net": 502.63
+          "date": "28-Aug-2026",
+          "buy": 13263.62,
+          "sell": 18303.42,
+          "net": -5039.8
         }
       }
     },
     "news": {
-      "asof": "2026-08-27 17:16 IST",
+      "asof": "2026-08-28 18:39 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Japanese shares trade mixed as tech stocks diverge",
-          "url": "https://www.business-standard.com/markets/capital-market-news/japanese-shares-trade-mixed-as-tech-stocks-diverge-126082700963_1.html",
-          "published": "Thu, 27 Aug 2026 16:50:44 +0530"
+          "title": "Reliance Jio Infocomm standalone net profit rises 6.79% in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/reliance-jio-infocomm-standalone-net-profit-rises-6-79-in-the-june-2026-quarter-126082801012_1.html",
+          "published": "Fri, 28 Aug 2026 18:04:08 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "China stocks gain as investors expect more policy support",
-          "url": "https://www.business-standard.com/markets/capital-market-news/china-stocks-gain-as-investors-expect-more-policy-support-126082700962_1.html",
-          "published": "Thu, 27 Aug 2026 16:50:36 +0530"
+          "title": "Bernstein retains Nifty target at 26,000, flags policy-led distortions",
+          "url": "https://www.business-standard.com/markets/news/bernstein-retains-nifty-target-at-26-000-flags-policy-led-distortions-126082800997_1.html",
+          "published": "Fri, 28 Aug 2026 17:54:49 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sensex tumbles 539 pts, Nifty slips below 24,100 as HDFC Bank, Reliance drag",
-          "url": "https://www.business-standard.com/markets/capital-market-news/sensex-tumbles-539-pts-nifty-slips-below-24-100-as-hdfc-bank-reliance-drag-126082700960_1.html",
-          "published": "Thu, 27 Aug 2026 16:50:15 +0530"
+          "title": "Annu Projects IPO subscribed 2.93 times",
+          "url": "https://www.business-standard.com/markets/capital-market-news/annu-projects-ipo-subscribed-2-93-times-126082800989_1.html",
+          "published": "Fri, 28 Aug 2026 17:50:19 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Quick Wrap: Nifty PSU Bank Index declines 0.94%",
-          "url": "https://www.business-standard.com/markets/capital-market-news/quick-wrap-nifty-psu-bank-index-declines-0-94-126082700959_1.html",
-          "published": "Thu, 27 Aug 2026 16:50:07 +0530"
+          "title": "Currency in circulation shows accelerating trend, up 12.4% on year",
+          "url": "https://www.business-standard.com/markets/capital-market-news/currency-in-circulation-shows-accelerating-trend-up-12-4-on-year-126082800988_1.html",
+          "published": "Fri, 28 Aug 2026 17:50:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nifty September futures trade at premium",
-          "url": "https://www.business-standard.com/markets/capital-market-news/nifty-september-futures-trade-at-premium-126082700880_1.html",
-          "published": "Thu, 27 Aug 2026 16:16:02 +0530"
+          "title": "Lumino Industries IPO subscribed 4.87 times",
+          "url": "https://www.business-standard.com/markets/capital-market-news/lumino-industries-ipo-subscribed-4-87-times-126082800959_1.html",
+          "published": "Fri, 28 Aug 2026 17:31:24 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Indices extend losses for 2nd day; PSU Bank stocks drop",
-          "url": "https://www.business-standard.com/markets/capital-market-news/indices-extend-losses-for-2nd-day-psu-bank-stocks-drop-126082700842_1.html",
-          "published": "Thu, 27 Aug 2026 16:04:01 +0530"
+          "title": "ESDS Software Solution IPO subscribed 2.10 times",
+          "url": "https://www.business-standard.com/markets/capital-market-news/esds-software-solution-ipo-subscribed-2-10-times-126082800958_1.html",
+          "published": "Fri, 28 Aug 2026 17:31:17 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Should you raise a toast to Varun Beverages?",
+          "url": "https://finshots.in/markets/should-you-raise-a-toast-to-varun-beverages/",
+          "published": "Fri, 28 Aug 2026 01:30:05 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Sun, 23 Aug 2026 01:30:11 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "CAS manipulation, the BofA-Jio Credit deal, and more...",
-          "url": "https://finshots.in/archive/cas-manipulation-the-bofa-jio-credit-deal-and-more/",
-          "published": "Sat, 22 Aug 2026 01:30:39 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Quote of the day by Arnold Van Den Berg: \"Regardless of yield, when investments are absent of value, cash is always a better option than permanently losing money\"",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-arnold-van-den-berg-regardless-of-yield-when-investments-are-absent-of-value-cash-is-always-a-better-option-than-permanently-losing-money/articleshow/133591168.cms",
+          "published": "Fri, 28 Aug 2026 17:47:55 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Quote of the day by Alfred Winslow Jones: \"The tools that get investors and speculators in and out of the market only after some widely followed average has turned must obviously e",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-alfred-winslow-jones-the-tools-that-get-investors-and-speculators-in-and-out-of-the-market-only-after-some-widely-followed-average-has-turned-must-obviously-exaggerate-the-movements-of-the-market/articleshow/133566518.cms",
-          "published": "Thu, 27 Aug 2026 16:46:19 +0530"
+          "title": "Was Sensex’s 2,000-point expiry crash a one-off? Here's what Friday's close hints about CAS",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/was-sensexs-2000-point-expiry-crash-a-one-off-heres-what-fridays-close-hints-about-cas/articleshow/133591046.cms",
+          "published": "Fri, 28 Aug 2026 17:42:03 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Market wrap: Adani Enterprises, Kotak Mahindra Bank, HDFC Bank, M&M top gainers and losers on Nifty and Sensex on Thursday",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-wrap-adani-enterprises-kotak-mahindra-bank-hdfc-bank-mm-top-gainers-and-losers-on-nifty-and-sensex-on-thursday/articleshow/133566380.cms",
-          "published": "Thu, 27 Aug 2026 16:43:57 +0530"
+          "title": "Dow Jones| Nasdaq | S&P 500 | US Stock Market Today |Live Updates: US stock futures slip as AI rally pauses ahead of Warsh’s Jackson Hole speech",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-earnings-forecast-jackson-hole-fed-kevin-warsh-speech-rate-hike-outlook-hints-nvidia-salesforce-paypal-gap-marvell-micron-chip-stock-price-news-28th-august-2026/liveblog/133591066.cms",
+          "published": "Fri, 28 Aug 2026 17:39:40 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Billionaire Agarwal’s Vedanta plans third rupee bond this year",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/billionaire-agarwals-vedanta-plans-third-rupee-bond-this-year/articleshow/133565593.cms",
-          "published": "Thu, 27 Aug 2026 16:24:20 +0530"
+          "title": "Sebi approves 7 IPOs including Jio Platforms, Paras Healthcare and Bharat PET",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sebi-approves-7-ipos-including-jio-platforms-paras-healthcare-and-bharat-pet/articleshow/133590542.cms",
+          "published": "Fri, 28 Aug 2026 17:22:49 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Markets push back BoE rate hike expectations to February 2027",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/markets-push-back-boe-rate-hike-expectations-to-february-2027/articleshow/133565274.cms",
-          "published": "Thu, 27 Aug 2026 15:59:42 +0530"
+          "title": "India's 10-year bond yield scales over 2-month peak ahead of Warsh speech",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/indias-10-year-bond-yield-scales-over-2-month-peak-ahead-of-warsh-speech/articleshow/133590611.cms",
+          "published": "Fri, 28 Aug 2026 17:20:25 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Rupee dips, reversing intraday gains, as importer dollar demand dominates",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-dips-reversing-intraday-gains-as-importer-dollar-demand-dominates/articleshow/133565236.cms",
-          "published": "Thu, 27 Aug 2026 15:57:01 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "India Inc’s revenue growth to moderate to 13-15% in Q2 FY27; margins under pressure: ICRA",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/india-incs-revenue-growth-to-moderate-to-13-15-in-q2-fy27-margins-under-pressure-icra/articleshow/133564909.cms",
-          "published": "Thu, 27 Aug 2026 15:42:04 +0530"
+          "title": "Laurus Labs among 5 stocks hitting 52-week highs; surge up to 20% in a month",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/laurus-labs-among-5-stocks-hitting-52-week-highs-surge-up-to-20-in-a-month/slideshow/133590529.cms",
+          "published": "Fri, 28 Aug 2026 17:08:16 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Expert view: Expect Nifty at 29,000 by March 2027, says Seshadri Sen of Emkay Global",
-          "url": "https://www.livemint.com/market/stock-market-news/expert-view-expect-nifty-at-29-000-by-march-2027-says-seshadri-sen-of-emkay-global-11787829217981.html",
-          "published": "Thu, 27 Aug 2026 17:01:17 +0530"
+          "title": "Jio Platforms gets Sebi nod for ₹35,000 crore IPO, India’s biggest potential listing",
+          "url": "https://www.livemint.com/market/ipo/jio-platforms-gets-sebi-nod-for-35-000-crore-ipo-india-s-biggest-potential-listing-11787919901062.html",
+          "published": "Fri, 28 Aug 2026 18:25:38 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market holiday: Is the Indian stock market open or closed tomorrow for Raksha Bandhan?",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-is-the-indian-stock-market-open-or-closed-tomorrow-for-raksha-bandhan-11787825620947.html",
-          "published": "Thu, 27 Aug 2026 15:58:51 +0530"
+          "title": "Upcoming IPO: Bharat PET receives SEBI approval to raise ₹760 crore through public issue",
+          "url": "https://www.livemint.com/market/ipo/upcoming-ipo-bharat-pet-receives-sebi-approval-to-raise-rs-760-crore-through-public-issue-11787919425466.html",
+          "published": "Fri, 28 Aug 2026 18:08:36 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market prediction tomorrow, 28 August: What to expect from Sensex, Nifty, Hang Seng, KOSPI, Nikkei on Friday",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-tomorrow-28-august-what-to-expect-from-sensex-nifty-hang-seng-kospi-nikkei-on-friday-11787824138490.html",
-          "published": "Thu, 27 Aug 2026 15:43:41 +0530"
+          "title": "US stock market today: Wall Street futures edge lower as investors await Kevin Warsh's Jackson Hole speech",
+          "url": "https://www.livemint.com/market/us-stock-market-today-wall-street-futures-edge-lower-as-investors-await-kevin-warshs-jackson-hole-speech-11787914922667.html",
+          "published": "Fri, 28 Aug 2026 17:45:36 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock to buy for multibagger returns | Brokerage gives ₹90 target in 12 months for ₹33 stock",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-to-buy-for-multibagger-returns-brokerage-gives-rs-90-target-in-12-months-for-rs-33-stock-11787823254830.html",
-          "published": "Thu, 27 Aug 2026 15:42:53 +0530"
+          "title": "Money doubled in this IPO just after listing - Book profit or hold to earn more or buy more stocks? What expert says",
+          "url": "https://www.livemint.com/market/ipo/money-doubled-in-this-ipo-just-after-listing-book-profit-or-hold-to-earn-more-or-buy-more-stocks-what-expert-says-11787912103331.html",
+          "published": "Fri, 28 Aug 2026 16:21:27 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Vodafone Idea shares slip after sharp rally to near two-year high; still up 15% in August",
-          "url": "https://www.livemint.com/market/stock-market-news/vodafone-idea-shares-slip-after-sharp-rally-to-near-two-year-high-still-up-15-in-august-11787824871285.html",
-          "published": "Thu, 27 Aug 2026 15:41:28 +0530"
+          "title": "Purple Style Labs IPO: Price band, lot size, GMP, listing date and other key details",
+          "url": "https://www.livemint.com/market/ipo/purple-style-labs-ipo-price-band-lot-size-gmp-listing-date-and-other-key-details-11787910889618.html",
+          "published": "Fri, 28 Aug 2026 15:38:49 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy Prestige, says Sumeet Bagadia - Check share price target, recommendation reason | Raksha Bandhan Stock Pick 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-prestige-says-sumeet-bagadia-check-share-price-target-recommendation-reason-raksha-bandhan-stock-pick-2026-11787819980347.html",
-          "published": "Thu, 27 Aug 2026 15:15:53 +0530"
+          "title": "Sensex, Nifty snap two-day losing run: What to expect on Monday, 31 August",
+          "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-snap-two-day-losing-run-what-to-expect-on-monday-31-august-11787910722112.html",
+          "published": "Fri, 28 Aug 2026 15:35:47 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,13 +1458,13 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-27 17:16 IST",
+      "checked_at": "2026-08-28 18:39 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-27 17:16 IST",
+      "generated_at": "2026-08-28 18:39 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": null,
       "regime": {
@@ -1481,8 +1481,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 57,
-          "reading": "USD/INR moved -0.5% over the last month (now 95.42).",
+          "strength": 52,
+          "reading": "USD/INR moved -0.1% over the last month (now 95.54).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1508,40 +1508,40 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-27 17:16 IST",
+    "date": "2026-08-28 18:39 IST",
     "usdinr": {
-      "last": 95.42,
-      "date": "2026-08-26"
+      "last": 95.54,
+      "date": "2026-08-27"
     },
     "dii_net": {
-      "net": 6425.16,
-      "date": "26-Aug-2026"
+      "net": 5183.93,
+      "date": "28-Aug-2026"
     },
     "fii_net": {
-      "net": 502.63,
-      "date": "26-Aug-2026"
+      "net": -5039.8,
+      "date": "28-Aug-2026"
     },
     "headlines": [
-      "Japanese shares trade mixed as tech stocks diverge",
-      "China stocks gain as investors expect more policy support",
-      "Sensex tumbles 539 pts, Nifty slips below 24,100 as HDFC Bank, Reliance drag",
-      "Quick Wrap: Nifty PSU Bank Index declines 0.94%",
-      "Nifty September futures trade at premium",
-      "Indices extend losses for 2nd day; PSU Bank stocks drop",
+      "Reliance Jio Infocomm standalone net profit rises 6.79% in the June 2026 quarter",
+      "Bernstein retains Nifty target at 26,000, flags policy-led distortions",
+      "Annu Projects IPO subscribed 2.93 times",
+      "Currency in circulation shows accelerating trend, up 12.4% on year",
+      "Lumino Industries IPO subscribed 4.87 times",
+      "ESDS Software Solution IPO subscribed 2.10 times",
+      "Should you raise a toast to Varun Beverages?",
       "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
       "Why capital is moving from bits to atoms",
       "Is Anthropic overvalued?",
       "NSE's dilemma with going public",
-      "YouTube versus Netflix, biodegradable milk packets, and more...",
-      "CAS manipulation, the BofA-Jio Credit deal, and more..."
+      "YouTube versus Netflix, biodegradable milk packets, and more..."
     ]
   },
   "changes": {
     "material": [
       {
         "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹6,425 Cr"
+        "label": "FII flows",
+        "detail": "₹-5,040 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1553,17 +1553,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.42 (+0.00%)"
+        "detail": "₹95.54 (+0.13%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹6,425 Cr"
+        "detail": "₹5,184 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹503 Cr"
+        "detail": "₹-5,040 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1571,15 +1571,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-26 08:16 IST",
+    "since": "2026-08-27 17:16 IST",
     "new_headlines": [
-      "Japanese shares trade mixed as tech stocks diverge",
-      "China stocks gain as investors expect more policy support",
-      "Sensex tumbles 539 pts, Nifty slips below 24,100 as HDFC Bank, Reliance drag",
-      "Quick Wrap: Nifty PSU Bank Index declines 0.94%",
-      "Nifty September futures trade at premium",
-      "Indices extend losses for 2nd day; PSU Bank stocks drop",
-      "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?"
+      "Reliance Jio Infocomm standalone net profit rises 6.79% in the June 2026 quarter",
+      "Bernstein retains Nifty target at 26,000, flags policy-led distortions",
+      "Annu Projects IPO subscribed 2.93 times",
+      "Currency in circulation shows accelerating trend, up 12.4% on year",
+      "Lumino Industries IPO subscribed 4.87 times",
+      "ESDS Software Solution IPO subscribed 2.10 times",
+      "Should you raise a toast to Varun Beverages?"
     ]
   },
   "summary": {

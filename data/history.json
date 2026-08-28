@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-04 10:12 IST",
-  "usdinr": {
-   "last": 95.34,
-   "date": "2026-08-03"
-  },
-  "dii_net": {
-   "net": 1571.18,
-   "date": "03-Aug-2026"
-  },
-  "fii_net": {
-   "net": 922.26,
-   "date": "03-Aug-2026"
-  },
-  "headlines": [
-   "Can India's oceans power our next economic miracle?",
-   "How the West Asia crisis is rattling India's real estate sector",
-   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
-   "Can Coforge build an AI giant through acquisitions?",
-   "Air India's hard luck",
-   "Rupee opens on flat note, rises 3 paise to 95.34 against US dollar in early trade",
-   "Ather Energy shares zoom 18% after Q1 results. Why is it Nomura's top 2-wheeler pick?",
-   "Global Market: South Korea's July inflation cools below expectations as oil prices ease; rate hike bets remain",
-   "Manipal Health Enterprises IPO listing tomorrow: Here’s what GMP indicates ahead of market debut",
-   "Dhoot Transmission sets IPO price band at Rs 829-871; issue to open on Aug 10",
-   "Nazara Tech Q1 Results: Co posts Rs 82.5 crore loss; Nitish Mittersain steps down as CEO"
-  ]
- },
- {
   "date": "2026-08-04 11:44 IST",
   "usdinr": {
    "last": 95.34,
@@ -867,6 +838,35 @@
    "NSE's dilemma with going public",
    "YouTube versus Netflix, biodegradable milk packets, and more...",
    "CAS manipulation, the BofA-Jio Credit deal, and more..."
+  ]
+ },
+ {
+  "date": "2026-08-28 18:39 IST",
+  "usdinr": {
+   "last": 95.54,
+   "date": "2026-08-27"
+  },
+  "dii_net": {
+   "net": 5183.93,
+   "date": "28-Aug-2026"
+  },
+  "fii_net": {
+   "net": -5039.8,
+   "date": "28-Aug-2026"
+  },
+  "headlines": [
+   "Reliance Jio Infocomm standalone net profit rises 6.79% in the June 2026 quarter",
+   "Bernstein retains Nifty target at 26,000, flags policy-led distortions",
+   "Annu Projects IPO subscribed 2.93 times",
+   "Currency in circulation shows accelerating trend, up 12.4% on year",
+   "Lumino Industries IPO subscribed 4.87 times",
+   "ESDS Software Solution IPO subscribed 2.10 times",
+   "Should you raise a toast to Varun Beverages?",
+   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
+   "Why capital is moving from bits to atoms",
+   "Is Anthropic overvalued?",
+   "NSE's dilemma with going public",
+   "YouTube versus Netflix, biodegradable milk packets, and more..."
   ]
  }
 ]
