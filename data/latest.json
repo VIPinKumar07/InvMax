@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-29 13:34 IST",
-  "generated_utc": "2026-08-29T08:04:47+00:00",
+  "generated_at": "2026-08-30 12:32 IST",
+  "generated_utc": "2026-08-30T07:02:05+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-29 13:34 IST",
+      "asof": "2026-08-30 12:32 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-29 13:35 IST",
+      "asof": "2026-08-30 12:32 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-29 13:35 IST",
+      "asof": "2026-08-30 12:33 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-08-29 13:35 IST",
+      "asof": "2026-08-30 12:33 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-08-29 13:36 IST",
+      "asof": "2026-08-30 12:33 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Aayush Wellness launches Lung Care Tablets",
-          "url": "https://www.business-standard.com/markets/capital-market-news/aayush-wellness-launches-lung-care-tablets-126082900332_1.html",
-          "published": "Sat, 29 Aug 2026 13:04:07 +0530"
+          "title": "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
+          "url": "https://www.business-standard.com/markets/news/mcap-of-7-of-top-10-most-valued-firms-erodes-1-13-trn-airtel-worst-hit-126083000140_1.html",
+          "published": "Sun, 30 Aug 2026 11:29:19 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Ashoka Buildcon bags Rs 602-cr order from RVNL",
-          "url": "https://www.business-standard.com/markets/capital-market-news/ashoka-buildcon-bags-rs-602-cr-order-from-rvnl-126082900321_1.html",
-          "published": "Sat, 29 Aug 2026 12:50:02 +0530"
+          "title": "Prataap Snacks completes acquisition of RLOP Food Processing",
+          "url": "https://www.business-standard.com/markets/capital-market-news/prataap-snacks-completes-acquisition-of-rlop-food-processing-126082900684_1.html",
+          "published": "Sat, 29 Aug 2026 18:50:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Reliance Group rejects Subhash Chandra's allegations against media entities",
-          "url": "https://www.business-standard.com/markets/capital-market-news/reliance-group-rejects-subhash-chandra-s-allegations-against-media-entities-126082900207_1.html",
-          "published": "Sat, 29 Aug 2026 10:50:02 +0530"
+          "title": "Innovision receives Manambadi fee plaza toll collection contract",
+          "url": "https://www.business-standard.com/markets/capital-market-news/innovision-receives-manambadi-fee-plaza-toll-collection-contract-126082900627_1.html",
+          "published": "Sat, 29 Aug 2026 17:51:32 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "RIL says Jio Platforms receives SEBI observation letter for proposed IPO",
-          "url": "https://www.business-standard.com/markets/capital-market-news/ril-says-jio-platforms-receives-sebi-observation-letter-for-proposed-ipo-126082900085_1.html",
-          "published": "Sat, 29 Aug 2026 08:50:02 +0530"
+          "title": "Board of Parmax Pharma approves preferential issue of shares and warrants",
+          "url": "https://www.business-standard.com/markets/capital-market-news/board-of-parmax-pharma-approves-preferential-issue-of-shares-and-warrants-126082900626_1.html",
+          "published": "Sat, 29 Aug 2026 17:51:25 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stocks of some Indian banks show widest exchange price gap in decades",
-          "url": "https://www.business-standard.com/markets/news/stocks-of-some-indian-banks-show-widest-exchange-price-gap-in-decades-126082900061_1.html",
-          "published": "Sat, 29 Aug 2026 07:39:45 +0530"
+          "title": "Chemtech Industrial Valves board approves alteration of object clause of MoA",
+          "url": "https://www.business-standard.com/markets/capital-market-news/chemtech-industrial-valves-board-approves-alteration-of-object-clause-of-moa-126082900608_1.html",
+          "published": "Sat, 29 Aug 2026 17:50:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi bars Debock Industries, promoter for seven years in fraud case",
-          "url": "https://www.business-standard.com/markets/news/sebi-bars-debock-industries-promoter-for-seven-years-in-fraud-case-126082801267_1.html",
-          "published": "Fri, 28 Aug 2026 20:54:21 +0530"
+          "title": "Transformers and Rectifiers (India) bags large order from MEIL",
+          "url": "https://www.business-standard.com/markets/capital-market-news/transformers-and-rectifiers-india-bags-large-order-from-meil-126082900567_1.html",
+          "published": "Sat, 29 Aug 2026 17:16:02 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Renting a friend, toilet paper tariffs, and more...",
+          "url": "https://finshots.in/archive/renting-a-friend-tariffs-on-toilet-paper-and-more-2/",
+          "published": "Sun, 30 Aug 2026 01:30:48 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,116 @@
           "published": "Tue, 25 Aug 2026 01:30:28 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "NSE's dilemma with going public",
-          "url": "https://finshots.in/archive/nse-dilemma-going-public/",
-          "published": "Mon, 24 Aug 2026 01:30:22 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Warren Buffett turns 96: Top 10 investing lessons from the Oracle of Omaha",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-turns-96-top-10-investing-lessons-from-the-oracle-of-omaha/articleshow/133624955.cms",
+          "published": "Sun, 30 Aug 2026 12:15:07 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Will Dalal Street see record Rs 70,000 crore IPOs in September? Jio and NSE buzz raises stakes",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/will-dalal-street-see-record-rs-70000-crore-ipos-in-september-jio-and-nse-buzz-raises-stakes/articleshow/133606653.cms",
-          "published": "Sat, 29 Aug 2026 12:42:46 +0530"
+          "title": "SBI, SBI Capital Markets plan 1% NSE stake sale via IPO: Bank Chairman C S Setty",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-sbi-capital-markets-plan-1-nse-stake-sale-via-ipo/articleshow/133624789.cms",
+          "published": "Sun, 30 Aug 2026 12:03:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "F&O Talk: Traders should maintain caution amid CAS volatility, says Sudeep Shah; picks 6 stocks for next week",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-traders-should-maintain-caution-amid-cas-volatility-says-sudeep-shah-picks-6-stocks-for-next-week/articleshow/133606328.cms",
-          "published": "Sat, 29 Aug 2026 12:32:04 +0530"
+          "title": "Nifty weekly outlook: Nifty trapped in 23,900-24,750 range; fresh buying should remain selective",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-weekly-outlook-nifty-trapped-in-23900-24750-range-fresh-buying-should-remain-selective/articleshow/133624648.cms",
+          "published": "Sun, 30 Aug 2026 11:51:09 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IPO fever grips D-Street: 3 issues to open for subscription; 8 new listings lined up for next week",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-fever-grips-d-street-3-companies-to-raise-rs-1265-crore-8-set-to-list-next-week/articleshow/133605837.cms",
-          "published": "Sat, 29 Aug 2026 11:58:54 +0530"
+          "title": "10 penny stocks zoom up to 119% in just 2 months, 4 turn multibaggers. Did you own any?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-penny-stocks-zoom-up-to-119-in-just-2-months-4-turn-multibaggers-did-you-own-any/slideshow/133624435.cms",
+          "published": "Sun, 30 Aug 2026 11:25:25 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "RBI rate hike risk rises: Bandhan AMC’s Suyash Choudhary dials back duration in bond portfolios",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-rate-hike-risk-rises-bandhan-amcs-suyash-choudhary-dials-back-duration-in-bond-portfolios/articleshow/133605170.cms",
-          "published": "Sat, 29 Aug 2026 11:24:45 +0530"
+          "title": "FPIs turn buyers for second straight month, invest Rs 30,919 cr in August",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-buyers-for-second-straight-month-invest-rs-30919-cr-in-august/articleshow/133624069.cms",
+          "published": "Sun, 30 Aug 2026 11:23:12 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Indian bank stocks show widest exchange price gap in decades",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades/articleshow/133604969.cms",
-          "published": "Sat, 29 Aug 2026 11:16:19 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Concurrent Gainers: 13 smallcap stocks that gain for 5 days in a row, surge up to 45%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-13-smallcap-stocks-that-gain-for-5-days-in-a-row-surge-up-to-45/slideshow/133605584.cms",
-          "published": "Sat, 29 Aug 2026 10:57:37 +0530"
+          "title": "7 of top 10 firms shed Rs 1.13 lakh cr in m-cap; Airtel, Reliance worst hit",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/7-of-top-10-firms-shed-rs-1-13-lakh-cr-in-m-cap-airtel-reliance-worst-hit/articleshow/133624042.cms",
+          "published": "Sun, 30 Aug 2026 11:21:00 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Jio Platforms IPO: SEBI clears DRHP; here's all you need to know",
-          "url": "https://www.livemint.com/market/ipo/jio-platforms-ipo-sebi-clears-drhp-heres-all-you-need-to-know-11787989307888.html",
-          "published": "Sat, 29 Aug 2026 13:33:27 +0530"
+          "title": "Stocks under ₹100: Sumeet Bagadia recommends three shares to buy on Monday - 31 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-under-100-sumeet-bagadia-recommends-three-shares-to-buy-on-monday-31-august-2026-11788069217940.html",
+          "published": "Sun, 30 Aug 2026 11:42:01 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Rays of Belief IPO opens 1 September: GMP hints 12% listing pop; Check 10 key things to know",
-          "url": "https://www.livemint.com/market/ipo/rays-of-belief-ipo-opens-1-september-gmp-hints-12-listing-pop-check-10-key-things-to-know-11787986086678.html",
-          "published": "Sat, 29 Aug 2026 13:03:11 +0530"
+          "title": "Buy or sell: Ganesh Dongre of Anand Rathi recommends 3 stocks to buy on Monday - 31 August 2026",
+          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-ganesh-dongre-of-anand-rathi-recommends-3-stocks-to-buy-on-monday-31-august-2026-11788063157807.html",
+          "published": "Sun, 30 Aug 2026 10:27:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell stocks: Sumeet Bagadia recommends three shares to buy on Monday — 31 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-stocks-sumeet-bagadia-recommends-three-shares-to-buy-on-monday-31-august-2026-11787983210372.html",
-          "published": "Sat, 29 Aug 2026 12:32:44 +0530"
+          "title": "Stock market prediction for tomorrow, 31 August 2026: Sensex, Nifty outlook for Monday — US, South Korea, Taiwan cues",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-31-august-2026-sensex-nifty-outlook-for-monday-us-south-korea-taiwan-cues-11788059072862.html",
+          "published": "Sun, 30 Aug 2026 09:20:56 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Expert view: FPIs turn positive on India | OmniScience Capital CEO sees non-AI diversification boosting inflows",
-          "url": "https://www.livemint.com/market/stock-market-news/expert-view-fpis-turn-positive-on-india-omniscience-capital-ceo-sees-non-ai-diversification-boosting-inflows-11787980978259.html",
-          "published": "Sat, 29 Aug 2026 11:10:58 +0530"
+          "title": "Stocks to watch on August 31: M&M, Cupid, Aurobindo Pharma, OLA, KP Green Engineering among shares in focus",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-on-august-31-m-m-cupid-aurobindo-pharma-ola-kp-green-engineering-among-shares-in-focus-11787932250299.html",
+          "published": "Sun, 30 Aug 2026 07:01:11 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to buy under ₹100: Vaishali Parekh recommends three stocks to buy or sell",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-under-rs-100-vaishali-parekh-recommends-three-stocks-to-buy-or-sell-11787977918553.html",
-          "published": "Sat, 29 Aug 2026 11:05:25 +0530"
+          "title": "A roadmap beyond 1% RoA is key to IndusInd Bank’s turnaround",
+          "url": "https://www.livemint.com/market/mark-to-market/a-roadmap-beyond-1-roa-can-salvage-indusind-bank-11787891041860.html",
+          "published": "Sun, 30 Aug 2026 07:01:11 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "US Fed Chair Kevin Warsh Jackson Hole speech impact on Indian stock market, gold-silver rates | Prediction for Monday",
-          "url": "https://www.livemint.com/market/stock-market-news/us-fed-chair-kevin-warsh-jackson-hole-speech-impact-on-indian-stock-market-gold-silver-rates-prediction-for-monday-11787969910435.html",
-          "published": "Sat, 29 Aug 2026 09:36:38 +0530"
+          "title": "Day Traders Are Abandoning Korean Chip Leveraged ETFs in Droves",
+          "url": "https://www.livemint.com/market/day-traders-are-abandoning-korean-chip-leveraged-etfs-in-droves-11788050286903.html",
+          "published": "Sun, 30 Aug 2026 06:08:06 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
         }
       ]
     },
@@ -1430,24 +1458,81 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-29 13:36 IST",
+      "checked_at": "2026-08-30 12:33 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-29 13:36 IST",
+      "generated_at": "2026-08-30 12:33 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
-      "headline": null,
+      "headline": {
+        "label": "Domestic flows",
+        "conclusion": "Domestic flows: sustained buying pressure",
+        "reading": "5-day cumulative: +Rs22,207 Cr · 100% of days positive.",
+        "direction": "bullish",
+        "source": {
+          "name": "NSE FII/DII (accumulated)",
+          "url": "https://www.nseindia.com/reports/fii-dii"
+        }
+      },
       "regime": {
         "label": "Mixed",
         "stance": "Signals are split — stay balanced and let them confirm before tilting.",
         "score": 0.0,
-        "reading": "Signal balance +0.0 across 2 cross-asset reads and 0 asset trends.",
-        "drivers": [],
+        "reading": "Signal balance +0.0 across 4 cross-asset reads and 0 asset trends.",
+        "drivers": [
+          {
+            "label": "Foreign flows",
+            "conclusion": "Foreign flows: mildly negative on balance",
+            "direction": "bearish",
+            "source": {
+              "name": "NSE FII/DII (accumulated)",
+              "url": "https://www.nseindia.com/reports/fii-dii"
+            }
+          },
+          {
+            "label": "Domestic flows",
+            "conclusion": "Domestic flows: sustained buying pressure",
+            "direction": "bullish",
+            "source": {
+              "name": "NSE FII/DII (accumulated)",
+              "url": "https://www.nseindia.com/reports/fii-dii"
+            }
+          }
+        ],
         "rule": "weighted vote of trend & regime signals (equity regime weighted 2x)"
       },
-      "strongest": [],
+      "strongest": [
+        {
+          "scope": "regime",
+          "asset": "Domestic flows",
+          "label": "Domestic flows",
+          "conclusion": "Domestic flows: sustained buying pressure",
+          "reading": "5-day cumulative: +Rs22,207 Cr · 100% of days positive.",
+          "direction": "bullish",
+          "strength": 92,
+          "rule": "20-day cumulative net flow + share of positive days",
+          "source": {
+            "name": "NSE FII/DII (accumulated)",
+            "url": "https://www.nseindia.com/reports/fii-dii"
+          }
+        },
+        {
+          "scope": "regime",
+          "asset": "Foreign flows",
+          "label": "Foreign flows",
+          "conclusion": "Foreign flows: mildly negative on balance",
+          "reading": "5-day cumulative: Rs-13,023 Cr · 40% of days positive.",
+          "direction": "bearish",
+          "strength": 76,
+          "rule": "20-day cumulative net flow + share of positive days",
+          "source": {
+            "name": "NSE FII/DII (accumulated)",
+            "url": "https://www.nseindia.com/reports/fii-dii"
+          }
+        }
+      ],
       "cross_asset": [
         {
           "id": "rupee",
@@ -1474,13 +1559,39 @@
             "name": "RBI MPC",
             "url": "https://www.rbi.org.in/Scripts/BS_ViewMonetaryPolicy.aspx"
           }
+        },
+        {
+          "id": "flow_fii_net",
+          "label": "Foreign flows",
+          "direction": "bearish",
+          "strength": 76,
+          "reading": "5-day cumulative: Rs-13,023 Cr · 40% of days positive.",
+          "conclusion": "Foreign flows: mildly negative on balance",
+          "rule": "20-day cumulative net flow + share of positive days",
+          "source": {
+            "name": "NSE FII/DII (accumulated)",
+            "url": "https://www.nseindia.com/reports/fii-dii"
+          }
+        },
+        {
+          "id": "flow_dii_net",
+          "label": "Domestic flows",
+          "direction": "bullish",
+          "strength": 92,
+          "reading": "5-day cumulative: +Rs22,207 Cr · 100% of days positive.",
+          "conclusion": "Domestic flows: sustained buying pressure",
+          "rule": "20-day cumulative net flow + share of positive days",
+          "source": {
+            "name": "NSE FII/DII (accumulated)",
+            "url": "https://www.nseindia.com/reports/fii-dii"
+          }
         }
       ],
       "per_asset": {}
     }
   },
   "key_figures": {
-    "date": "2026-08-29 13:36 IST",
+    "date": "2026-08-30 12:33 IST",
     "usdinr": {
       "last": 95.39,
       "date": "2026-08-28"
@@ -1494,18 +1605,18 @@
       "date": "28-Aug-2026"
     },
     "headlines": [
-      "Aayush Wellness launches Lung Care Tablets",
-      "Ashoka Buildcon bags Rs 602-cr order from RVNL",
-      "Reliance Group rejects Subhash Chandra's allegations against media entities",
-      "RIL says Jio Platforms receives SEBI observation letter for proposed IPO",
-      "Stocks of some Indian banks show widest exchange price gap in decades",
-      "Sebi bars Debock Industries, promoter for seven years in fraud case",
+      "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
+      "Prataap Snacks completes acquisition of RLOP Food Processing",
+      "Innovision receives Manambadi fee plaza toll collection contract",
+      "Board of Parmax Pharma approves preferential issue of shares and warrants",
+      "Chemtech Industrial Valves board approves alteration of object clause of MoA",
+      "Transformers and Rectifiers (India) bags large order from MEIL",
+      "Renting a friend, toilet paper tariffs, and more...",
       "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
       "Should you raise a toast to Varun Beverages?",
       "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
       "Why capital is moving from bits to atoms",
-      "Is Anthropic overvalued?",
-      "NSE's dilemma with going public"
+      "Is Anthropic overvalued?"
     ]
   },
   "changes": {
@@ -1520,7 +1631,7 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.39 (-0.16%)"
+        "detail": "₹95.39 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1538,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-28 18:39 IST",
+    "since": "2026-08-29 13:36 IST",
     "new_headlines": [
-      "Aayush Wellness launches Lung Care Tablets",
-      "Ashoka Buildcon bags Rs 602-cr order from RVNL",
-      "Reliance Group rejects Subhash Chandra's allegations against media entities",
-      "RIL says Jio Platforms receives SEBI observation letter for proposed IPO",
-      "Stocks of some Indian banks show widest exchange price gap in decades",
-      "Sebi bars Debock Industries, promoter for seven years in fraud case",
-      "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more..."
+      "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
+      "Prataap Snacks completes acquisition of RLOP Food Processing",
+      "Innovision receives Manambadi fee plaza toll collection contract",
+      "Board of Parmax Pharma approves preferential issue of shares and warrants",
+      "Chemtech Industrial Valves board approves alteration of object clause of MoA",
+      "Transformers and Rectifiers (India) bags large order from MEIL",
+      "Renting a friend, toilet paper tariffs, and more..."
     ]
   },
   "summary": {
