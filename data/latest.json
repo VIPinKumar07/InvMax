@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30 12:32 IST",
-  "generated_utc": "2026-08-30T07:02:05+00:00",
+  "generated_at": "2026-08-31 12:47 IST",
+  "generated_utc": "2026-08-31T07:17:41+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-08-30 12:32 IST",
+      "asof": "2026-08-31 12:47 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-08-30 12:32 IST",
+      "asof": "2026-08-31 12:48 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-08-30 12:33 IST",
+      "asof": "2026-08-31 12:49 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-08-30 12:33 IST",
+      "asof": "2026-08-31 12:49 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-08-30 12:33 IST",
+      "asof": "2026-08-31 12:49 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
-          "url": "https://www.business-standard.com/markets/news/mcap-of-7-of-top-10-most-valued-firms-erodes-1-13-trn-airtel-worst-hit-126083000140_1.html",
-          "published": "Sun, 30 Aug 2026 11:29:19 +0530"
+          "title": "Pondy Oxides and Chemicals revise Dividend",
+          "url": "https://www.business-standard.com/markets/capital-market-news/pondy-oxides-and-chemicals-revise-dividend-126083100430_1.html",
+          "published": "Mon, 31 Aug 2026 12:06:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Prataap Snacks completes acquisition of RLOP Food Processing",
-          "url": "https://www.business-standard.com/markets/capital-market-news/prataap-snacks-completes-acquisition-of-rlop-food-processing-126082900684_1.html",
-          "published": "Sat, 29 Aug 2026 18:50:02 +0530"
+          "title": "MSCI rejig: Laurus, Lenskart among 4 stocks set for $1.5 bn inflows",
+          "url": "https://www.business-standard.com/markets/news/msci-rejig-laurus-lenskart-among-4-stocks-set-for-1-5-bn-inflows-126083100389_1.html",
+          "published": "Mon, 31 Aug 2026 12:05:58 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Innovision receives Manambadi fee plaza toll collection contract",
-          "url": "https://www.business-standard.com/markets/capital-market-news/innovision-receives-manambadi-fee-plaza-toll-collection-contract-126082900627_1.html",
-          "published": "Sat, 29 Aug 2026 17:51:32 +0530"
+          "title": "Zydus announces positive topline results from completed EVIDENCES-X Phase II(b) trial",
+          "url": "https://www.business-standard.com/markets/capital-market-news/zydus-announces-positive-topline-results-from-completed-evidences-x-phase-ii-b-trial-126083100427_1.html",
+          "published": "Mon, 31 Aug 2026 12:05:48 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Board of Parmax Pharma approves preferential issue of shares and warrants",
-          "url": "https://www.business-standard.com/markets/capital-market-news/board-of-parmax-pharma-approves-preferential-issue-of-shares-and-warrants-126082900626_1.html",
-          "published": "Sat, 29 Aug 2026 17:51:25 +0530"
+          "title": "Nifty Media index tanks 4.5%; Zee Entertainment, Network18 plunge up to 14%",
+          "url": "https://www.business-standard.com/markets/news/nifty-media-index-tanks-4-5-zee-entertainment-network18-plunge-up-to-14-126083100395_1.html",
+          "published": "Mon, 31 Aug 2026 12:04:51 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Chemtech Industrial Valves board approves alteration of object clause of MoA",
-          "url": "https://www.business-standard.com/markets/capital-market-news/chemtech-industrial-valves-board-approves-alteration-of-object-clause-of-moa-126082900608_1.html",
-          "published": "Sat, 29 Aug 2026 17:50:02 +0530"
+          "title": "Nifty IT tanks 2%; Infosys, Wipro top losers: What's behind the weakness?",
+          "url": "https://www.business-standard.com/markets/news/nifty-it-tanks-2-infosys-wipro-top-losers-what-s-behind-the-weakness-126083100415_1.html",
+          "published": "Mon, 31 Aug 2026 12:04:34 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Transformers and Rectifiers (India) bags large order from MEIL",
-          "url": "https://www.business-standard.com/markets/capital-market-news/transformers-and-rectifiers-india-bags-large-order-from-meil-126082900567_1.html",
-          "published": "Sat, 29 Aug 2026 17:16:02 +0530"
+          "title": "Market under pressure; Nifty trades near 24,000 level",
+          "url": "https://www.business-standard.com/markets/capital-market-news/market-under-pressure-nifty-trades-near-24-000-level-126083100403_1.html",
+          "published": "Mon, 31 Aug 2026 11:50:20 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The economics of India's never ending onion price problem",
+          "url": "https://finshots.in/archive/the-economics-of-indias-never-ending-onion-price-problem/",
+          "published": "Mon, 31 Aug 2026 01:30:20 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Wed, 26 Aug 2026 01:30:28 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Is Anthropic overvalued?",
-          "url": "https://finshots.in/archive/is-anthropic-overvalued/",
-          "published": "Tue, 25 Aug 2026 01:30:28 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "India bonds slump on Fed rate hike bets, benchmark trades at discount",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-slump-on-fed-rate-hike-bets-benchmark-trades-at-discount/articleshow/133645246.cms",
+          "published": "Mon, 31 Aug 2026 12:30:17 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Warren Buffett turns 96: Top 10 investing lessons from the Oracle of Omaha",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-turns-96-top-10-investing-lessons-from-the-oracle-of-omaha/articleshow/133624955.cms",
-          "published": "Sun, 30 Aug 2026 12:15:07 +0530"
+          "title": "Zee Entertainment shares crash 14% amid Subhash Chandra’s 99.97% loan haircut row",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/zee-entertainment-shares-crash-14-amid-subhash-chandras-99-97-loan-haircut-row/articleshow/133644854.cms",
+          "published": "Mon, 31 Aug 2026 12:15:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "SBI, SBI Capital Markets plan 1% NSE stake sale via IPO: Bank Chairman C S Setty",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbi-sbi-capital-markets-plan-1-nse-stake-sale-via-ipo/articleshow/133624789.cms",
-          "published": "Sun, 30 Aug 2026 12:03:43 +0530"
+          "title": "Augmont Enterprises shares drop 2% after listing at 22% premium. Buy, sell or hold the stock?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/augmont-enterprises-shares-drop-2-after-listing-at-22-premium-buy-sell-or-hold-the-stock/articleshow/133644783.cms",
+          "published": "Mon, 31 Aug 2026 12:10:24 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nifty weekly outlook: Nifty trapped in 23,900-24,750 range; fresh buying should remain selective",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-weekly-outlook-nifty-trapped-in-23900-24750-range-fresh-buying-should-remain-selective/articleshow/133624648.cms",
-          "published": "Sun, 30 Aug 2026 11:51:09 +0530"
+          "title": "IGL shares jump 3% after CNG price hike in Delhi NCR. What lies ahead?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/igl-shares-jump-3-after-cng-price-hike-in-delhi-ncr-what-lies-ahead/articleshow/133643841.cms",
+          "published": "Mon, 31 Aug 2026 11:37:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "10 penny stocks zoom up to 119% in just 2 months, 4 turn multibaggers. Did you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-penny-stocks-zoom-up-to-119-in-just-2-months-4-turn-multibaggers-did-you-own-any/slideshow/133624435.cms",
-          "published": "Sun, 30 Aug 2026 11:25:25 +0530"
+          "title": "Ather Energy shares rally 4% after launch of Konarc electric scooter at Rs 99,999. Buy, sell or hold the stock?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-shares-rally-4-after-launch-of-konarc-electric-scooter-at-rs-99999-buy-sell-or-hold-the-stock/articleshow/133643336.cms",
+          "published": "Mon, 31 Aug 2026 11:27:03 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "FPIs turn buyers for second straight month, invest Rs 30,919 cr in August",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-turn-buyers-for-second-straight-month-invest-rs-30919-cr-in-august/articleshow/133624069.cms",
-          "published": "Sun, 30 Aug 2026 11:23:12 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "7 of top 10 firms shed Rs 1.13 lakh cr in m-cap; Airtel, Reliance worst hit",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/7-of-top-10-firms-shed-rs-1-13-lakh-cr-in-m-cap-airtel-reliance-worst-hit/articleshow/133624042.cms",
-          "published": "Sun, 30 Aug 2026 11:21:00 +0530"
+          "title": "Tempsens Instruments shares slide over 4% on profit booking after record listing",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tempsens-instruments-shares-slide-over-4-on-profit-booking-after-record-listing/articleshow/133643263.cms",
+          "published": "Mon, 31 Aug 2026 11:21:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks under ₹100: Sumeet Bagadia recommends three shares to buy on Monday - 31 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-under-100-sumeet-bagadia-recommends-three-shares-to-buy-on-monday-31-august-2026-11788069217940.html",
-          "published": "Sun, 30 Aug 2026 11:42:01 +0530"
+          "title": "Priority Jewels IPO Day 2: Issue subscribed 17.03x so far. GMP hints 23% listing gain. Should you subscribe?",
+          "url": "https://www.livemint.com/market/ipo/priority-jewels-ipo-day-2-issue-subscribed-13-36x-so-far-gmp-hints-23-listing-gain-should-you-subscribe-11788154973239.html",
+          "published": "Mon, 31 Aug 2026 11:41:26 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Buy or sell: Ganesh Dongre of Anand Rathi recommends 3 stocks to buy on Monday - 31 August 2026",
-          "url": "https://www.livemint.com/market/stock-market-news/buy-or-sell-ganesh-dongre-of-anand-rathi-recommends-3-stocks-to-buy-on-monday-31-august-2026-11788063157807.html",
-          "published": "Sun, 30 Aug 2026 10:27:17 +0530"
+          "title": "Stocks to buy for short term: 24,400 key hurdle for Nifty 50, says Anand Rathi's Jigar Patel, suggests 3 stock picks",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-for-short-term-24-400-key-hurdle-for-nifty-50-says-anand-rathis-jigar-patel-suggests-3-stock-picks-11788155193981.html",
+          "published": "Mon, 31 Aug 2026 11:39:30 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market prediction for tomorrow, 31 August 2026: Sensex, Nifty outlook for Monday — US, South Korea, Taiwan cues",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-31-august-2026-sensex-nifty-outlook-for-monday-us-south-korea-taiwan-cues-11788059072862.html",
-          "published": "Sun, 30 Aug 2026 09:20:56 +0530"
+          "title": "Emerging-Market Stocks Fall as Warsh Stokes Fed Rate-Hike Bets",
+          "url": "https://www.livemint.com/market/emergingmarket-stocks-fall-as-warsh-stokes-fed-rate-hike-bets-11788156550409.html",
+          "published": "Mon, 31 Aug 2026 11:39:09 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to watch on August 31: M&M, Cupid, Aurobindo Pharma, OLA, KP Green Engineering among shares in focus",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-watch-on-august-31-m-m-cupid-aurobindo-pharma-ola-kp-green-engineering-among-shares-in-focus-11787932250299.html",
-          "published": "Sun, 30 Aug 2026 07:01:11 +0530"
+          "title": "Augmont Enterprises share price jumps over 29% from IPO price on listing day: Should you buy, sell or hold?",
+          "url": "https://www.livemint.com/market/stock-market-news/augmont-enterprises-share-price-jumps-over-29-from-ipo-price-on-listing-day-should-you-buy-sell-or-hold-11788154843956.html",
+          "published": "Mon, 31 Aug 2026 11:36:49 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "A roadmap beyond 1% RoA is key to IndusInd Bank’s turnaround",
-          "url": "https://www.livemint.com/market/mark-to-market/a-roadmap-beyond-1-roa-can-salvage-indusind-bank-11787891041860.html",
-          "published": "Sun, 30 Aug 2026 07:01:11 +0530"
+          "title": "China’s August LNG Imports Set to Drop as High Prices Hit Demand",
+          "url": "https://www.livemint.com/market/chinas-august-lng-imports-set-to-drop-as-high-prices-hit-demand-11788153975524.html",
+          "published": "Mon, 31 Aug 2026 10:56:15 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Day Traders Are Abandoning Korean Chip Leveraged ETFs in Droves",
-          "url": "https://www.livemint.com/market/day-traders-are-abandoning-korean-chip-leveraged-etfs-in-droves-11788050286903.html",
-          "published": "Sun, 30 Aug 2026 06:08:06 +0530"
+          "title": "Knowledge Realty Trust OFS opens today: From floor price to issue size, key things investors must know",
+          "url": "https://www.livemint.com/market/stock-market-news/knowledge-realty-trust-ofs-opens-today-from-floor-price-to-issue-size-key-things-investors-must-know-11788153177748.html",
+          "published": "Mon, 31 Aug 2026 10:55:09 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-08-30 12:33 IST",
+      "checked_at": "2026-08-31 12:49 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-08-30 12:33 IST",
+      "generated_at": "2026-08-31 12:49 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Domestic flows",
         "conclusion": "Domestic flows: sustained buying pressure",
-        "reading": "5-day cumulative: +Rs22,207 Cr · 100% of days positive.",
+        "reading": "6-day cumulative: +Rs27,391 Cr · 100% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1484,7 +1484,7 @@
         "drivers": [
           {
             "label": "Foreign flows",
-            "conclusion": "Foreign flows: mildly negative on balance",
+            "conclusion": "Foreign flows: sustained selling pressure",
             "direction": "bearish",
             "source": {
               "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "5-day cumulative: +Rs22,207 Cr · 100% of days positive.",
+          "reading": "6-day cumulative: +Rs27,391 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1522,10 +1522,10 @@
           "scope": "regime",
           "asset": "Foreign flows",
           "label": "Foreign flows",
-          "conclusion": "Foreign flows: mildly negative on balance",
-          "reading": "5-day cumulative: Rs-13,023 Cr · 40% of days positive.",
+          "conclusion": "Foreign flows: sustained selling pressure",
+          "reading": "6-day cumulative: Rs-18,063 Cr · 33% of days positive.",
           "direction": "bearish",
-          "strength": 76,
+          "strength": 86,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1564,9 +1564,9 @@
           "id": "flow_fii_net",
           "label": "Foreign flows",
           "direction": "bearish",
-          "strength": 76,
-          "reading": "5-day cumulative: Rs-13,023 Cr · 40% of days positive.",
-          "conclusion": "Foreign flows: mildly negative on balance",
+          "strength": 86,
+          "reading": "6-day cumulative: Rs-18,063 Cr · 33% of days positive.",
+          "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "5-day cumulative: +Rs22,207 Cr · 100% of days positive.",
+          "reading": "6-day cumulative: +Rs27,391 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,7 +1591,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-08-30 12:33 IST",
+    "date": "2026-08-31 12:49 IST",
     "usdinr": {
       "last": 95.39,
       "date": "2026-08-28"
@@ -1605,18 +1605,18 @@
       "date": "28-Aug-2026"
     },
     "headlines": [
-      "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
-      "Prataap Snacks completes acquisition of RLOP Food Processing",
-      "Innovision receives Manambadi fee plaza toll collection contract",
-      "Board of Parmax Pharma approves preferential issue of shares and warrants",
-      "Chemtech Industrial Valves board approves alteration of object clause of MoA",
-      "Transformers and Rectifiers (India) bags large order from MEIL",
+      "Pondy Oxides and Chemicals revise Dividend",
+      "MSCI rejig: Laurus, Lenskart among 4 stocks set for $1.5 bn inflows",
+      "Zydus announces positive topline results from completed EVIDENCES-X Phase II(b) trial",
+      "Nifty Media index tanks 4.5%; Zee Entertainment, Network18 plunge up to 14%",
+      "Nifty IT tanks 2%; Infosys, Wipro top losers: What's behind the weakness?",
+      "Market under pressure; Nifty trades near 24,000 level",
+      "The economics of India's never ending onion price problem",
       "Renting a friend, toilet paper tariffs, and more...",
       "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
       "Should you raise a toast to Varun Beverages?",
       "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
-      "Why capital is moving from bits to atoms",
-      "Is Anthropic overvalued?"
+      "Why capital is moving from bits to atoms"
     ]
   },
   "changes": {
@@ -1649,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-08-29 13:36 IST",
+    "since": "2026-08-30 12:33 IST",
     "new_headlines": [
-      "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
-      "Prataap Snacks completes acquisition of RLOP Food Processing",
-      "Innovision receives Manambadi fee plaza toll collection contract",
-      "Board of Parmax Pharma approves preferential issue of shares and warrants",
-      "Chemtech Industrial Valves board approves alteration of object clause of MoA",
-      "Transformers and Rectifiers (India) bags large order from MEIL",
-      "Renting a friend, toilet paper tariffs, and more..."
+      "Pondy Oxides and Chemicals revise Dividend",
+      "MSCI rejig: Laurus, Lenskart among 4 stocks set for $1.5 bn inflows",
+      "Zydus announces positive topline results from completed EVIDENCES-X Phase II(b) trial",
+      "Nifty Media index tanks 4.5%; Zee Entertainment, Network18 plunge up to 14%",
+      "Nifty IT tanks 2%; Infosys, Wipro top losers: What's behind the weakness?",
+      "Market under pressure; Nifty trades near 24,000 level",
+      "The economics of India's never ending onion price problem"
     ]
   },
   "summary": {

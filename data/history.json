@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-05 01:40 IST",
-  "usdinr": {
-   "last": 95.38,
-   "date": "2026-08-04"
-  },
-  "dii_net": {
-   "net": -936.14,
-   "date": "04-Aug-2026"
-  },
-  "fii_net": {
-   "net": 2446.47,
-   "date": "04-Aug-2026"
-  },
-  "headlines": [
-   "Can India's oceans power our next economic miracle?",
-   "How the West Asia crisis is rattling India's real estate sector",
-   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
-   "Can Coforge build an AI giant through acquisitions?",
-   "Air India's hard luck",
-   "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
-   "Jefferies gets new evidence of fake invoices at beleaguered fund tied to iron ore trader",
-   "US Fed's Anna Paulson keeps 'open mind' on rate decisioin as inflation remains too high",
-   "Palantir stock jumps 27% after ‘otherworldly’ demand lifts outlook",
-   "SK Hynix rises 5% as brokerages launch coverage with bullish ratings",
-   "Drugmaker Pfizer beats earnings estimates, targets $2.5 billion in additional cost cuts"
-  ]
- },
- {
   "date": "2026-08-05 10:13 IST",
   "usdinr": {
    "last": 95.38,
@@ -867,6 +838,35 @@
    "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
    "Why capital is moving from bits to atoms",
    "Is Anthropic overvalued?"
+  ]
+ },
+ {
+  "date": "2026-08-31 12:49 IST",
+  "usdinr": {
+   "last": 95.39,
+   "date": "2026-08-28"
+  },
+  "dii_net": {
+   "net": 5183.93,
+   "date": "28-Aug-2026"
+  },
+  "fii_net": {
+   "net": -5039.8,
+   "date": "28-Aug-2026"
+  },
+  "headlines": [
+   "Pondy Oxides and Chemicals revise Dividend",
+   "MSCI rejig: Laurus, Lenskart among 4 stocks set for $1.5 bn inflows",
+   "Zydus announces positive topline results from completed EVIDENCES-X Phase II(b) trial",
+   "Nifty Media index tanks 4.5%; Zee Entertainment, Network18 plunge up to 14%",
+   "Nifty IT tanks 2%; Infosys, Wipro top losers: What's behind the weakness?",
+   "Market under pressure; Nifty trades near 24,000 level",
+   "The economics of India's never ending onion price problem",
+   "Renting a friend, toilet paper tariffs, and more...",
+   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
+   "Should you raise a toast to Varun Beverages?",
+   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
+   "Why capital is moving from bits to atoms"
   ]
  }
 ]
