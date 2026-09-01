@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-05 10:13 IST",
-  "usdinr": {
-   "last": 95.38,
-   "date": "2026-08-04"
-  },
-  "dii_net": {
-   "net": -936.14,
-   "date": "04-Aug-2026"
-  },
-  "fii_net": {
-   "net": 2446.47,
-   "date": "04-Aug-2026"
-  },
-  "headlines": [
-   "The Ardee Industries IPO explained",
-   "Can India's oceans power our next economic miracle?",
-   "How the West Asia crisis is rattling India's real estate sector",
-   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-   "Paper leaks, Manipal Health IPO, Air India’s hard luck, and more…",
-   "Can Coforge build an AI giant through acquisitions?",
-   "Rupee sails past 95 to one-month high, premiums drop before RBI decision",
-   "$25 billion FII comeback? HSBC explains why foreign money may return to India",
-   "Nykaa shares dip 3% despite multifold jump in Q1 profit; analysts weigh in",
-   "Bharti Airtel shares jump 4% after Q1 results. Here’s what Jefferies, CLSA, others are saying",
-   "Why is market rising today? Sensex jumps over 400 pts, Nifty above 24,600. 8 factors behind D-St rebound",
-   "Kalyan Jewellers slips 3% as Q1 margin pressure overshadows 32% jump in net profit"
-  ]
- },
- {
   "date": "2026-08-06 10:12 IST",
   "usdinr": {
    "last": 95.12,
@@ -867,6 +838,35 @@
    "Should you raise a toast to Varun Beverages?",
    "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
    "Why capital is moving from bits to atoms"
+  ]
+ },
+ {
+  "date": "2026-09-01 12:01 IST",
+  "usdinr": {
+   "last": 95.17,
+   "date": "2026-08-31"
+  },
+  "dii_net": {
+   "net": 4588.88,
+   "date": "31-Aug-2026"
+  },
+  "fii_net": {
+   "net": -7985.88,
+   "date": "31-Aug-2026"
+  },
+  "headlines": [
+   "NSE SME Madhur Knit Crafts starts on a frayed note",
+   "Deepa Jewellers IPO: Growth & valuations lift long-term appeal, say experts",
+   "Non-food bank credit surges 19.1%, service sector credit spikes around 23%",
+   "NSE SME ABH Healthcare's market debut shows signs of weak pulse",
+   "Volumes jump at Vardhman Textiles Ltd counter",
+   "NSE records Rs 39,718 crore turnover in Closing Auction Session on MSCI rebalancing day",
+   "The Subhash Chandra saga explained",
+   "The economics of India's never ending onion price problem",
+   "Renting a friend, toilet paper tariffs, and more...",
+   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
+   "Should you raise a toast to Varun Beverages?",
+   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?"
   ]
  }
 ]
