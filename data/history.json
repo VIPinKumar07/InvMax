@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-07 09:40 IST",
-  "usdinr": {
-   "last": 95.23,
-   "date": "2026-08-06"
-  },
-  "dii_net": {
-   "net": 4013.6,
-   "date": "06-Aug-2026"
-  },
-  "fii_net": {
-   "net": -17.86,
-   "date": "06-Aug-2026"
-  },
-  "headlines": [
-   "Urban Company's best quarter post its IPO?",
-   "Can REITs & InvITs become India's next foreign investment story?",
-   "The Ardee Industries IPO explained",
-   "Can India's oceans power our next economic miracle?",
-   "How the West Asia crisis is rattling India's real estate sector",
-   "Ayurvedic cannabis gummies, taxes on Pokémon card sales, and more...",
-   "Hindustan Aeronautics among 4 stocks flashing bullish signals, hinting at a possible uptrend",
-   "Optimystix Entertainment IPO opens today: GMP, price band, subscription dates and key details",
-   "Ola Electric shares jump 31% in 6 months. Should you buy, sell or hold?",
-   "Kalyan Jewellers among 5 F&O stocks with a sharp rise in futures open interest",
-   "FII exodus! Top 10 stocks which saw sharpest decline in foreign capital in Q1. See full list",
-   "SBI Q1 results preview: Will India's largest public bank report a decline in profit?"
-  ]
- },
- {
   "date": "2026-08-08 08:38 IST",
   "usdinr": {
    "last": 95.21,
@@ -867,6 +838,35 @@
    "The economics of India's never ending onion price problem",
    "Renting a friend, toilet paper tariffs, and more...",
    "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more..."
+  ]
+ },
+ {
+  "date": "2026-09-04 11:45 IST",
+  "usdinr": {
+   "last": 94.49,
+   "date": "2026-09-03"
+  },
+  "dii_net": {
+   "net": 4977.46,
+   "date": "03-Sep-2026"
+  },
+  "fii_net": {
+   "net": -2345.87,
+   "date": "03-Sep-2026"
+  },
+  "headlines": [
+   "HCL Technologies signs MoU with Transport for NSW",
+   "Can UltraTech's cables & wire foray charge up its shares? What analysts say",
+   "PowerGrid wins transmission project for Lakadia REZ, Gujarat",
+   "Tata Chemicals slips as Kenya dispute clouds Magadi soda ash operations",
+   "Volumes jump at Gland Pharma Ltd counter",
+   "Tribhovandas Bhimji Zaveri soars 58% in 4 days; zooms 107% from Aug low",
+   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
+   "Has Japan finally escaped the Lost Decades",
+   "The Happiest Minds-ITC Infotech merger explained",
+   "The Subhash Chandra saga explained",
+   "The economics of India's never ending onion price problem",
+   "Renting a friend, toilet paper tariffs, and more..."
   ]
  }
 ]
