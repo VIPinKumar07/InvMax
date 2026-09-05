@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-08 08:38 IST",
-  "usdinr": {
-   "last": 95.21,
-   "date": "2026-08-07"
-  },
-  "dii_net": {
-   "net": 235.56,
-   "date": "07-Aug-2026"
-  },
-  "fii_net": {
-   "net": 480.24,
-   "date": "07-Aug-2026"
-  },
-  "headlines": [
-   "Urban Company's latest results, the Ardee Industries IPO, and more...",
-   "Urban Company's best quarter post its IPO?",
-   "Can REITs & InvITs become India's next foreign investment story?",
-   "The Ardee Industries IPO explained",
-   "Can India's oceans power our next economic miracle?",
-   "How the West Asia crisis is rattling India's real estate sector",
-   "US stocks: S&P closes at record high as soft jobs report eases rate-hike concerns",
-   "Market cuts odds of Fed hike after jobs data, but economists still see case for tightening",
-   "Dollar falls against yen, euro as weak US jobs data clouds Fed outlook",
-   "Raymond Realty Q1 net profit falls 19 pc to Rs 13.43 cr on higher expenses",
-   "Gold hits seven-week high as weak U.S. jobs data dents rate hike bets",
-   "Airbnb shares surge 15% to four-year high on raised forecast, AI gains"
-  ]
- },
- {
   "date": "2026-08-09 08:46 IST",
   "usdinr": {
    "last": 95.21,
@@ -867,6 +838,35 @@
    "The Subhash Chandra saga explained",
    "The economics of India's never ending onion price problem",
    "Renting a friend, toilet paper tariffs, and more..."
+  ]
+ },
+ {
+  "date": "2026-09-05 11:34 IST",
+  "usdinr": {
+   "last": 94.49,
+   "date": "2026-09-04"
+  },
+  "dii_net": {
+   "net": 8930.12,
+   "date": "04-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3111.94,
+   "date": "04-Sep-2026"
+  },
+  "headlines": [
+   "Brigade Enterprises launches Rs 2,700-cr residential project in Neopolis",
+   "Mazagon Dock Shipbuilders bags Rs 118-cr order from MSETCL",
+   "Eyantra Ventures reports consolidated net loss of Rs 1.90 crore in the June 2026 quarter",
+   "Dhoot Transmission consolidated net profit rises 37.79% in the June 2026 quarter",
+   "Mkts regulator presses ahead against Hindenburg, others in Adani case",
+   "Rentomojo, Manipal Payment, Karamtara, and LCC Projects price IPOs",
+   "M&A week, the Subhash Chandra saga, and more...",
+   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
+   "Has Japan finally escaped the Lost Decades",
+   "The Happiest Minds-ITC Infotech merger explained",
+   "The Subhash Chandra saga explained",
+   "The economics of India's never ending onion price problem"
   ]
  }
 ]
