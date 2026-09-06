@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-09 08:46 IST",
-  "usdinr": {
-   "last": 95.21,
-   "date": "2026-08-07"
-  },
-  "dii_net": {
-   "net": 235.56,
-   "date": "07-Aug-2026"
-  },
-  "fii_net": {
-   "net": 480.24,
-   "date": "07-Aug-2026"
-  },
-  "headlines": [
-   "The thriving business of cheap luxury, how Hyrox makes money, and more...",
-   "Urban Company's latest results, the Ardee Industries IPO, and more...",
-   "Urban Company's best quarter post its IPO?",
-   "Can REITs & InvITs become India's next foreign investment story?",
-   "The Ardee Industries IPO explained",
-   "Can India's oceans power our next economic miracle?",
-   "Delhivery Q1 Results: Net profit tumbles 65% YoY to Rs 32 crore, but revenue rises 28%",
-   "India's resilient economy to support markets but global risks remain elevated: Sebi",
-   "Foreign flows into Indian bonds may remain muted despite tax relief: SBI Funds",
-   "Apollo Micro Systems Q1 Results: Firm posts record June-quarter profit at Rs 25 crore; revenue surges 88% YoY",
-   "Blackstone's AGS Health files updated draft papers for $500 million India IPO",
-   "Sumadhura Group to invest Rs 2,000 cr on construction of housing project in Bengaluru"
-  ]
- },
- {
   "date": "2026-08-10 08:56 IST",
   "usdinr": {
    "last": 95.21,
@@ -867,6 +838,35 @@
    "The Happiest Minds-ITC Infotech merger explained",
    "The Subhash Chandra saga explained",
    "The economics of India's never ending onion price problem"
+  ]
+ },
+ {
+  "date": "2026-09-06 11:47 IST",
+  "usdinr": {
+   "last": 94.49,
+   "date": "2026-09-04"
+  },
+  "dii_net": {
+   "net": 8930.12,
+   "date": "04-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3111.94,
+   "date": "04-Sep-2026"
+  },
+  "headlines": [
+   "IPO action intensifies as 11 companies set to raise ₹7,055 cr next week",
+   "FPIs resume selling, pull out ₹7,443 cr from equities in first week of Sep",
+   "Traders turn to bullish Chinese stock bets as AI trades crowd Korea, Japan",
+   "Anupam Rasayan inks supply agreement with a global metal manufacturer",
+   "ICRA assigns 'AA-' rating to the credit facilities of JSW Dulux with 'stable' outlook",
+   "JSW Steel records steel production of 24.65 lakh tonnes in August 2026",
+   "Coffee with capsicum?, obsolete sunscreen, and more...",
+   "M&A week, the Subhash Chandra saga, and more...",
+   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
+   "Has Japan finally escaped the Lost Decades",
+   "The Happiest Minds-ITC Infotech merger explained",
+   "The Subhash Chandra saga explained"
   ]
  }
 ]
