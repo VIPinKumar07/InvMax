@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-10 08:56 IST",
-  "usdinr": {
-   "last": 95.21,
-   "date": "2026-08-07"
-  },
-  "dii_net": {
-   "net": 235.56,
-   "date": "07-Aug-2026"
-  },
-  "fii_net": {
-   "net": 480.24,
-   "date": "07-Aug-2026"
-  },
-  "headlines": [
-   "What went wrong with South Korea’s AI boom?",
-   "The thriving business of cheap luxury, how Hyrox makes money, and more...",
-   "Urban Company's latest results, the Ardee Industries IPO, and more...",
-   "Urban Company's best quarter post its IPO?",
-   "Can REITs & InvITs become India's next foreign investment story?",
-   "The Ardee Industries IPO explained",
-   "Anawil Wire & Engineering shares to list today; GMP points to 21% premium ahead of debut",
-   "Japan's Nikkei rises 2% as AI stocks rally, Middle East worries cap gains",
-   "How Adani’s $125 billion capex boom is creating new winners on Dalal Street",
-   "Technocraft Ventures IPO Day 2: GMP signals 11% premium, Issue subscribed 2.59x: Should you subscribe?",
-   "LEAP India IPO Day 2: Check GMP, subscription status, issue details; Should you subscribe?",
-   "Bajaj Auto Share Price Live Updates: Bajaj Auto's six-month beta reflects stability"
-  ]
- },
- {
   "date": "2026-08-11 08:49 IST",
   "usdinr": {
    "last": 95.3,
@@ -867,6 +838,35 @@
    "Has Japan finally escaped the Lost Decades",
    "The Happiest Minds-ITC Infotech merger explained",
    "The Subhash Chandra saga explained"
+  ]
+ },
+ {
+  "date": "2026-09-07 11:55 IST",
+  "usdinr": {
+   "last": 94.49,
+   "date": "2026-09-04"
+  },
+  "dii_net": {
+   "net": 8930.12,
+   "date": "04-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3111.94,
+   "date": "04-Sep-2026"
+  },
+  "headlines": [
+   "Pranav Constructions IPO bags 'subscribe' tag from experts; here's why",
+   "Solar Industries market cap reaches ₹2 trillion; stock jumps 21% in 1 month",
+   "US stocks slip modestly",
+   "Volumes jump at Zydus Wellness Ltd counter",
+   "Ola Electric to raise funds up to Rs 1,500 crore via equity route",
+   "Sensex slides 190 pts; media shares decline",
+   "What went wrong with Sugar Cosmetics?",
+   "Coffee with capsicum?, obsolete sunscreen, and more...",
+   "M&A week, the Subhash Chandra saga, and more...",
+   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
+   "Has Japan finally escaped the Lost Decades",
+   "The Happiest Minds-ITC Infotech merger explained"
   ]
  }
 ]
