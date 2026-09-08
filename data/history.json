@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-11 08:49 IST",
-  "usdinr": {
-   "last": 95.3,
-   "date": "2026-08-10"
-  },
-  "dii_net": {
-   "net": -1290.29,
-   "date": "10-Aug-2026"
-  },
-  "fii_net": {
-   "net": 1974.76,
-   "date": "10-Aug-2026"
-  },
-  "headlines": [
-   "Oil prices rise as Brent tops $88, Asian stocks drift on US-Iran stalemate",
-   "Stocks to buy today: Avalon Technologies, Healthcare Global; check targets",
-   "RailTel bags Rs 119-cr order from Department of Posts",
-   "Stocks to watch: Vi, Lupin, Zen Tech, BSE, Wipro, Adani Group stocks",
-   "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise, Adani Group stocks in focus",
-   "Kotak Securities' top trading bets: Narayana Hrudayalaya, Mrs Bectors Food",
-   "A look at the Milky Mist IPO",
-   "What went wrong with South Korea’s AI boom?",
-   "The thriving business of cheap luxury, how Hyrox makes money, and more...",
-   "Urban Company's latest results, the Ardee Industries IPO, and more...",
-   "Urban Company's best quarter post its IPO?",
-   "Can REITs & InvITs become India's next foreign investment story?"
-  ]
- },
- {
   "date": "2026-08-12 04:34 IST",
   "usdinr": {
    "last": 95.44,
@@ -867,6 +838,35 @@
    "Tribhovandas Bhimji Zaveri is now GRT's jewel",
    "Has Japan finally escaped the Lost Decades",
    "The Happiest Minds-ITC Infotech merger explained"
+  ]
+ },
+ {
+  "date": "2026-09-08 11:44 IST",
+  "usdinr": {
+   "last": 94.49,
+   "date": "2026-09-07"
+  },
+  "dii_net": {
+   "net": 566.76,
+   "date": "07-Sep-2026"
+  },
+  "fii_net": {
+   "net": 280.13,
+   "date": "07-Sep-2026"
+  },
+  "headlines": [
+   "BSE SME Farm Peace reaps premium listing",
+   "GE Vernova climbs 9% after emerging as L1 bidder for Power Grid project",
+   "Biocon bags 10-year supply contract for Pertuzumab in Brazil",
+   "PVR Inox rebounds, up 7%; clarifies on Arora's exit, kickback allegations",
+   "Volumes spurt at Linde India Ltd counter",
+   "Polycab India gets a fresh charge as broker retains 'buy' rating",
+   "Can glass bottles fill the gap left by aluminium cans?",
+   "What went wrong with Sugar Cosmetics?",
+   "Coffee with capsicum?, obsolete sunscreen, and more...",
+   "M&A week, the Subhash Chandra saga, and more...",
+   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
+   "Has Japan finally escaped the Lost Decades"
   ]
  }
 ]
