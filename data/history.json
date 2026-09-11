@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-12 09:07 IST",
-  "usdinr": {
-   "last": 95.44,
-   "date": "2026-08-11"
-  },
-  "dii_net": {
-   "net": 24.77,
-   "date": "11-Aug-2026"
-  },
-  "fii_net": {
-   "net": 258.55,
-   "date": "11-Aug-2026"
-  },
-  "headlines": [
-   "Pasupati Fincap reports standalone net profit of Rs 0.34 crore in the June 2026 quarter",
-   "Sandu Pharmaceuticals standalone net profit rises 4.55% in the June 2026 quarter",
-   "National Plastic Industries standalone net profit declines 26.74% in the June 2026 quarter",
-   "Vallabh Steels reports standalone net loss of Rs 0.26 crore in the June 2026 quarter",
-   "Rajvi Logitrade standalone net profit declines 4.17% in the June 2026 quarter",
-   "Futuristic Securities reports standalone net profit of Rs 0.01 crore in the June 2026 quarter",
-   "A look at the Milky Mist IPO",
-   "What went wrong with South Korea’s AI boom?",
-   "The thriving business of cheap luxury, how Hyrox makes money, and more...",
-   "Urban Company's latest results, the Ardee Industries IPO, and more...",
-   "Urban Company's best quarter post its IPO?",
-   "Can REITs & InvITs become India's next foreign investment story?"
-  ]
- },
- {
   "date": "2026-08-13 09:10 IST",
   "usdinr": {
    "last": 95.34,
@@ -867,6 +838,35 @@
    "What went wrong with Sugar Cosmetics?",
    "Coffee with capsicum?, obsolete sunscreen, and more...",
    "M&A week, the Subhash Chandra saga, and more..."
+  ]
+ },
+ {
+  "date": "2026-09-11 11:53 IST",
+  "usdinr": {
+   "last": 95.44,
+   "date": "2026-09-10"
+  },
+  "dii_net": {
+   "net": 1025.85,
+   "date": "10-Sep-2026"
+  },
+  "fii_net": {
+   "net": -438.24,
+   "date": "10-Sep-2026"
+  },
+  "headlines": [
+   "Diamond Power Infrastructure exits NCLT mechanism",
+   "NSE SME Qualiance International stitches strong debut",
+   "Volumes spurt at Larsen & Toubro Ltd counter",
+   "Paytm soars 4% in weak market, nears new high; stock up 90% from March low",
+   "Us stocks dip for four seasons in row",
+   "Neogen Chemicals launches QIP issue to raise funds amounting to Rs 600 crore",
+   "Can Aditya Birla’s Ultravolt Challenge Polycab?",
+   "Copper prices are rising again",
+   "The Arcil IPO explained",
+   "Can glass bottles fill the gap left by aluminium cans?",
+   "What went wrong with Sugar Cosmetics?",
+   "Coffee with capsicum?, obsolete sunscreen, and more..."
   ]
  }
 ]
