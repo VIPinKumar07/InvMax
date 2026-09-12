@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11 11:52 IST",
-  "generated_utc": "2026-09-11T06:22:12+00:00",
+  "generated_at": "2026-09-12 11:38 IST",
+  "generated_utc": "2026-09-12T06:08:40+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-11 11:52 IST",
+      "asof": "2026-09-12 11:38 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-09-10",
+        "asof": "2026-09-11",
         "rates": {
-          "EUR": 0.86088,
-          "GBP": 0.73963,
-          "INR": 95.44,
-          "JPY": 154.18
+          "EUR": 0.86266,
+          "GBP": 0.7403,
+          "INR": 95.56,
+          "JPY": 154.04
         },
         "usdinr_history": [
-          {
-            "date": "2025-09-11",
-            "v": 88.43
-          },
           {
             "date": "2025-09-12",
             "v": 88.27
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-09-10",
             "v": 95.44
+          },
+          {
+            "date": "2026-09-11",
+            "v": 95.56
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-09-11 11:52 IST",
+      "asof": "2026-09-12 11:38 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.2071,
-          "date": "10-09-2026",
-          "ret1y_pct": -0.79,
+          "nav": 107.079,
+          "date": "11-09-2026",
+          "ret1y_pct": -0.88,
           "series": [
-            102.6846,
-            103.3587,
-            104.0851,
-            106.3431,
-            107.6329,
-            107.511,
-            108.2573,
-            108.1037,
-            108.617,
-            109.6521,
-            110.211,
-            110.3212,
-            110.1537,
-            111.0534,
-            104.515,
-            104.7585,
-            105.5737,
-            106.7026,
-            107.1766,
-            107.2071
+            102.6971,
+            103.4024,
+            104.1787,
+            106.2928,
+            107.6822,
+            107.5011,
+            108.1982,
+            107.9266,
+            108.6702,
+            109.6768,
+            110.2349,
+            110.3493,
+            110.296,
+            111.0395,
+            104.5956,
+            104.7371,
+            105.6864,
+            106.4609,
+            107.2026,
+            107.079
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 110.5455,
-          "date": "10-09-2026",
-          "ret1y_pct": 0.75,
+          "nav": 110.261,
+          "date": "11-09-2026",
+          "ret1y_pct": 0.47,
           "series": [
-            103.119,
-            97.102,
-            98.1202,
-            105.499,
-            108.8321,
-            110.2936,
-            107.8011,
-            108.9657,
-            109.5882,
-            111.5788,
-            109.0886,
-            108.8498,
-            110.6519,
-            102.9776,
-            103.2303,
-            104.5531,
-            105.2124,
-            109.0188,
-            112.8483,
-            110.5455
+            102.6583,
+            96.3467,
+            97.7243,
+            106.0607,
+            108.7816,
+            109.7323,
+            106.5285,
+            109.2062,
+            109.959,
+            111.4226,
+            109.7762,
+            108.8931,
+            110.8392,
+            101.9718,
+            104.9259,
+            104.2918,
+            106.5977,
+            109.6775,
+            112.6937,
+            110.261
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 231.64,
-          "date": "10-09-2026",
-          "ret1y_pct": 9.31,
+          "nav": 230.603,
+          "date": "11-09-2026",
+          "ret1y_pct": 8.96,
           "series": [
-            189.346,
-            182.39,
-            190.72,
-            197.523,
-            207.526,
-            216.834,
-            213.543,
-            212.253,
-            213.642,
-            221.161,
-            224.68,
-            226.631,
-            223.961,
-            214.598,
-            215.548,
-            216.713,
-            220.156,
-            230.008,
-            236.891,
-            231.64
+            193.404,
+            178.626,
+            188.3,
+            194.533,
+            208.459,
+            216.556,
+            210.433,
+            213.155,
+            215.389,
+            221.567,
+            221.483,
+            226.959,
+            226.725,
+            212.648,
+            213.692,
+            218.889,
+            223.036,
+            230.532,
+            237.08,
+            230.603
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 229.826,
-          "date": "10-09-2026",
-          "ret1y_pct": -4.3,
+          "nav": 229.0446,
+          "date": "11-09-2026",
+          "ret1y_pct": -4.65,
           "series": [
-            221.0075,
-            217.3128,
-            226.6637,
-            235.7181,
-            237.0367,
-            246.3287,
-            240.0786,
-            238.6157,
-            241.6546,
-            247.8268,
-            254.4687,
-            254.3436,
-            249.8009,
-            235.9112,
-            233.7978,
-            227.5962,
-            230.1422,
-            234.962,
-            239.1673,
-            229.826
+            223.0092,
+            213.2629,
+            223.2461,
+            234.9315,
+            237.8766,
+            245.8633,
+            238.1735,
+            239.9275,
+            243.431,
+            247.7336,
+            252.2695,
+            253.9734,
+            251.5148,
+            232.0725,
+            231.7723,
+            230.287,
+            232.3818,
+            235.2438,
+            238.7886,
+            229.0446
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-11 11:53 IST",
+      "asof": "2026-09-12 11:39 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-09-11 11:53 IST",
+      "asof": "2026-09-12 11:39 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "10-Sep-2026",
-          "buy": 13326.33,
-          "sell": 12300.48,
-          "net": 1025.85
+          "date": "11-Sep-2026",
+          "buy": 15109.58,
+          "sell": 13141.41,
+          "net": 1968.17
         },
         "fii": {
-          "date": "10-Sep-2026",
-          "buy": 11882.95,
-          "sell": 12321.19,
-          "net": -438.24
+          "date": "11-Sep-2026",
+          "buy": 12616.89,
+          "sell": 13547.79,
+          "net": -930.9
         }
       }
     },
     "news": {
-      "asof": "2026-09-11 11:53 IST",
+      "asof": "2026-09-12 11:39 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Diamond Power Infrastructure exits NCLT mechanism",
-          "url": "https://www.business-standard.com/markets/capital-market-news/diamond-power-infrastructure-exits-nclt-mechanism-126091100412_1.html",
-          "published": "Fri, 11 Sep 2026 11:31:02 +0530"
+          "title": "Vijaya Diagnostic Centre acquires Arya Wellness Centre in Guwahati",
+          "url": "https://www.business-standard.com/markets/capital-market-news/vijaya-diagnostic-centre-acquires-arya-wellness-centre-in-guwahati-126091200226_1.html",
+          "published": "Sat, 12 Sep 2026 10:51:24 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NSE SME Qualiance International stitches strong debut",
-          "url": "https://www.business-standard.com/markets/capital-market-news/nse-sme-qualiance-international-stitches-strong-debut-126091100400_1.html",
-          "published": "Fri, 11 Sep 2026 11:16:10 +0530"
+          "title": "Accuracy Shipping receives LoI for proposed Container Freight Station at Kandla, Gujarat",
+          "url": "https://www.business-standard.com/markets/capital-market-news/accuracy-shipping-receives-loi-for-proposed-container-freight-station-at-kandla-gujarat-126091200224_1.html",
+          "published": "Sat, 12 Sep 2026 10:51:11 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Volumes spurt at Larsen & Toubro Ltd counter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/volumes-spurt-at-larsen-toubro-ltd-counter-126091100399_1.html",
-          "published": "Fri, 11 Sep 2026 11:16:01 +0530"
+          "title": "Board of Ceigall India approves acquisition of project SPV and investment in JV",
+          "url": "https://www.business-standard.com/markets/capital-market-news/board-of-ceigall-india-approves-acquisition-of-project-spv-and-investment-in-jv-126091200198_1.html",
+          "published": "Sat, 12 Sep 2026 10:31:49 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Paytm soars 4% in weak market, nears new high; stock up 90% from March low",
-          "url": "https://www.business-standard.com/markets/news/paytm-share-soars-4-in-weak-market-nears-new-high-stock-up-90-from-march-low-126091100347_1.html",
-          "published": "Fri, 11 Sep 2026 11:08:51 +0530"
+          "title": "Indiabulls to acquire 70% stake in Fintech Cloud for Rs 1050 cr",
+          "url": "https://www.business-standard.com/markets/capital-market-news/indiabulls-to-acquire-70-stake-in-fintech-cloud-for-rs-1050-cr-126091200184_1.html",
+          "published": "Sat, 12 Sep 2026 10:16:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Us stocks dip for four seasons in row",
-          "url": "https://www.business-standard.com/markets/capital-market-news/us-stocks-dip-for-four-seasons-in-row-126091100382_1.html",
-          "published": "Fri, 11 Sep 2026 11:04:51 +0530"
+          "title": "Welspun Corp announces incorporation of step-down subsidiary - Welspun Special Coating",
+          "url": "https://www.business-standard.com/markets/capital-market-news/welspun-corp-announces-incorporation-of-step-down-subsidiary-welspun-special-coating-126091200178_1.html",
+          "published": "Sat, 12 Sep 2026 10:16:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Neogen Chemicals launches QIP issue to raise funds amounting to Rs 600 crore",
-          "url": "https://www.business-standard.com/markets/capital-market-news/neogen-chemicals-launches-qip-issue-to-raise-funds-amounting-to-rs-600-crore-126091100376_1.html",
-          "published": "Fri, 11 Sep 2026 11:04:01 +0530"
+          "title": "Jinkushal Industries incorporates wholly owned subsidiary in Hong Kong",
+          "url": "https://www.business-standard.com/markets/capital-market-news/jinkushal-industries-incorporates-wholly-owned-subsidiary-in-hong-kong-126091200150_1.html",
+          "published": "Sat, 12 Sep 2026 09:50:02 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
+          "url": "https://finshots.in/archive/sugars-valuation-plunge-copper-prices-surge-the-arcil-ipo-and-more-2/",
+          "published": "Sat, 12 Sep 2026 01:30:13 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Mon, 07 Sep 2026 01:30:34 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Coffee with capsicum?, obsolete sunscreen, and more...",
-          "url": "https://finshots.in/archive/coffee-with-capsicum-obsolete-sunscreen-and-more/",
-          "published": "Sun, 06 Sep 2026 01:30:09 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Valuation question! Why did NSE cut its IPO size and price below unlisted market levels?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/valuation-question-why-did-nse-cut-its-ipo-size-and-price-below-unlisted-market-levels/articleshow/134109696.cms",
+          "published": "Sat, 12 Sep 2026 10:41:44 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "HDFC Bank shares fall 2% to fresh 52-week low despite victory in Credit Suisse AT1 bonds cases in Bahrain",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-fall-2-to-fresh-52-week-low-despite-victory-in-credit-suisse-at1-bonds-cases-in-bahrain/articleshow/134048892.cms",
-          "published": "Fri, 11 Sep 2026 11:31:39 +0530"
+          "title": "De-dollarisation and its impact on commodities and global trade",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/de-dollarisation-and-its-impact-on-commodities-and-global-trade/articleshow/134109334.cms",
+          "published": "Sat, 12 Sep 2026 10:34:02 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "$4 billion CIO Nimesh Chandan spots 4 bullish signals for Indian stocks. What changed?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/4-billion-cio-nimesh-chandan-spots-4-bullish-signals-for-indian-stocks-what-changed/articleshow/134048593.cms",
-          "published": "Fri, 11 Sep 2026 11:25:12 +0530"
+          "title": "Will US 10-year bond yield crossing 5% really hurt markets? Yes Securities says fears overblown",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/will-us-10-year-bond-yield-crossing-5-really-hurt-markets-yes-securities-says-fears-overblown/articleshow/134109122.cms",
+          "published": "Sat, 12 Sep 2026 10:31:48 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "The “other Hero” comes to Dalal Street: A Munjal family story with a market twist",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/the-other-hero-comes-to-dalal-street-a-munjal-family-story-with-a-market-twist/articleshow/134048422.cms",
-          "published": "Fri, 11 Sep 2026 11:19:47 +0530"
+          "title": "Jefferies picks 5 financial stocks with upside of up to 25%. How many do you have?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-picks-5-financial-stocks-with-upside-of-up-to-25-how-many-do-you-have/slideshow/134108138.cms",
+          "published": "Sat, 12 Sep 2026 09:51:44 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "SBI's 80 paise masterstroke: How NSE IPO could deliver Rs 2,850 crore jackpot and 2,23,025% return",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sbis-80-paise-masterstroke-how-nse-ipo-could-deliver-rs-2850-crore-jackpot-and-223025-return/articleshow/134047862.cms",
-          "published": "Fri, 11 Sep 2026 11:03:52 +0530"
+          "title": "NSE IPO: Market dominance vs regulatory risks; what investors should know from the RHP",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-ipo-market-dominance-vs-regulatory-risks-what-investors-should-know-from-the-rhp/articleshow/134107678.cms",
+          "published": "Sat, 12 Sep 2026 09:48:55 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ESDS Software Solution jumps 5%, extends 6-session rally; shares up 287% from IPO price",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/esds-software-solution-jumps-5-extends-6-session-rally-shares-up-287-from-ipo-price/articleshow/134047669.cms",
-          "published": "Fri, 11 Sep 2026 10:59:45 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "BSE shares fall 3% as rival NSE gets closer to mega IPO. More pain ahead?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bse-shares-fall-3-as-rival-nse-gets-closer-to-mega-ipo-more-pain-ahead/articleshow/134047512.cms",
-          "published": "Fri, 11 Sep 2026 10:56:44 +0530"
+          "title": "Rs 24,600 crore IPO dhamaka: NSE, Hero Motors to lead 11 public offers next week",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/rs-24600-crore-ipo-dhamaka-nse-hero-motors-to-lead-11-public-offers-next-week/articleshow/134107608.cms",
+          "published": "Sat, 12 Sep 2026 09:46:27 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "IPO GMP comparison: Last day alert! LCC Projects vs Karamtara Engineering vs Steamhouse India",
-          "url": "https://www.livemint.com/market/ipo/ipo-gmp-comparison-last-day-alert-lcc-projects-vs-karamtara-engineering-vs-steamhouse-india-11789106232944.html",
-          "published": "Fri, 11 Sep 2026 11:33:56 +0530"
+          "title": "ECB’s Kaasik Says Understandable Why Markets See More Rate Hikes",
+          "url": "https://www.livemint.com/market/ecbs-kaasik-says-understandable-why-markets-see-more-rate-hikes-11789192533763.html",
+          "published": "Sat, 12 Sep 2026 11:25:33 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Godrej Properties share price falls 7%: What triggered the sudden sell-off in trade today?",
-          "url": "https://www.livemint.com/market/stock-market-news/godrej-properties-share-price-falls-7-what-triggered-the-sudden-sell-off-in-trade-today-orris-dispute-clarified-11789105371547.html",
-          "published": "Fri, 11 Sep 2026 11:24:51 +0530"
+          "title": "Top stocks to Buy under ₹200: NHPC, IOCL, NBCC — Mehul Kothari of Anand Rathi stock recommends | Target, stop-loss",
+          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-rs-200-nhpc-iocl-nbcc-mehul-kothari-of-anand-rathi-stock-recommends-target-stoploss-11789184737207.html",
+          "published": "Sat, 12 Sep 2026 10:39:12 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Authum Investment share price jumps 9% in a weak market; can it rise further? Experts decode",
-          "url": "https://www.livemint.com/market/stock-market-news/authum-investment-share-price-jumps-9-in-a-weak-market-can-it-rise-further-experts-decode-11789105010967.html",
-          "published": "Fri, 11 Sep 2026 11:15:22 +0530"
+          "title": "Nifty 50 in danger zone? Here’s where the index could head next - Check key levels",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-in-danger-zone-here-s-where-the-index-could-head-next-check-key-levels-11789124083087.html",
+          "published": "Sat, 12 Sep 2026 09:03:33 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nexus Select's portfolio expansion drive can give an edge to one important metric",
-          "url": "https://www.livemint.com/market/mark-to-market/nexus-select-trust-retail-reit-guwahati-galaxy-complex-east-india-dpu-noi-retail-malls-consumption-real-estate-11789100166129.html",
-          "published": "Fri, 11 Sep 2026 11:09:15 +0530"
+          "title": "NSE IPO Review: 'Highly attractive' - Subscribe for long-term, says Raj Gaikar of SAMCO Securities",
+          "url": "https://www.livemint.com/market/ipo/nse-ipo-review-highly-attractive-subscribe-for-long-term-says-raj-gaikar-of-samco-securities-11789130734823.html",
+          "published": "Sat, 12 Sep 2026 08:51:18 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Neogen Chemicals share price falls 5% after board sets QIP floor price | Check dates and details",
-          "url": "https://www.livemint.com/market/stock-market-news/neogen-chemicals-share-price-falls-5-after-board-sets-qip-floor-price-check-qip-dates-and-details-11789103243522.html",
-          "published": "Fri, 11 Sep 2026 11:06:22 +0530"
+          "title": "Why a rate hike could actually be bullish",
+          "url": "https://www.livemint.com/market/why-a-rate-hike-could-actually-be-bullish-11789178829184.html",
+          "published": "Sat, 12 Sep 2026 07:45:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Newly-listed stock Shankesh Jewellers surges 18% to hit a record high- What is fuelling the rally?",
-          "url": "https://www.livemint.com/market/stock-market-news/newlylisted-stock-shankesh-jewellers-surges-18-to-hit-a-record-high-what-is-fuelling-the-rally-11789102449487.html",
-          "published": "Fri, 11 Sep 2026 10:34:02 +0530"
+          "title": "Where will Solar Industries stock be in the next five years?",
+          "url": "https://www.livemint.com/market/stock-market-news/solar-industries-solar-industries-share-price-11789128588544.html",
+          "published": "Sat, 12 Sep 2026 07:01:04 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-11 11:53 IST",
+      "checked_at": "2026-09-12 11:39 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-11 11:53 IST",
+      "generated_at": "2026-09-12 11:39 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "17-day cumulative: Rs-30,763 Cr · 29% of days positive.",
+        "reading": "18-day cumulative: Rs-31,694 Cr · 28% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "17-day cumulative: Rs-30,763 Cr · 29% of days positive.",
+          "reading": "18-day cumulative: Rs-31,694 Cr · 28% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "17-day cumulative: +Rs72,859 Cr · 100% of days positive.",
+          "reading": "18-day cumulative: +Rs74,827 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1539,7 +1539,7 @@
           "label": "Rupee",
           "direction": "neutral",
           "strength": 52,
-          "reading": "USD/INR moved +0.1% over the last month (now 95.44).",
+          "reading": "USD/INR moved +0.1% over the last month (now 95.56).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1565,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "17-day cumulative: Rs-30,763 Cr · 29% of days positive.",
+          "reading": "18-day cumulative: Rs-31,694 Cr · 28% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "17-day cumulative: +Rs72,859 Cr · 100% of days positive.",
+          "reading": "18-day cumulative: +Rs74,827 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,32 +1591,32 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-11 11:53 IST",
+    "date": "2026-09-12 11:39 IST",
     "usdinr": {
-      "last": 95.44,
-      "date": "2026-09-10"
+      "last": 95.56,
+      "date": "2026-09-11"
     },
     "dii_net": {
-      "net": 1025.85,
-      "date": "10-Sep-2026"
+      "net": 1968.17,
+      "date": "11-Sep-2026"
     },
     "fii_net": {
-      "net": -438.24,
-      "date": "10-Sep-2026"
+      "net": -930.9,
+      "date": "11-Sep-2026"
     },
     "headlines": [
-      "Diamond Power Infrastructure exits NCLT mechanism",
-      "NSE SME Qualiance International stitches strong debut",
-      "Volumes spurt at Larsen & Toubro Ltd counter",
-      "Paytm soars 4% in weak market, nears new high; stock up 90% from March low",
-      "Us stocks dip for four seasons in row",
-      "Neogen Chemicals launches QIP issue to raise funds amounting to Rs 600 crore",
+      "Vijaya Diagnostic Centre acquires Arya Wellness Centre in Guwahati",
+      "Accuracy Shipping receives LoI for proposed Container Freight Station at Kandla, Gujarat",
+      "Board of Ceigall India approves acquisition of project SPV and investment in JV",
+      "Indiabulls to acquire 70% stake in Fintech Cloud for Rs 1050 cr",
+      "Welspun Corp announces incorporation of step-down subsidiary - Welspun Special Coating",
+      "Jinkushal Industries incorporates wholly owned subsidiary in Hong Kong",
+      "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
       "Can Aditya Birla’s Ultravolt Challenge Polycab?",
       "Copper prices are rising again",
       "The Arcil IPO explained",
       "Can glass bottles fill the gap left by aluminium cans?",
-      "What went wrong with Sugar Cosmetics?",
-      "Coffee with capsicum?, obsolete sunscreen, and more..."
+      "What went wrong with Sugar Cosmetics?"
     ]
   },
   "changes": {
@@ -1631,17 +1631,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.44 (+0.35%)"
+        "detail": "₹95.56 (+0.13%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹1,026 Cr"
+        "detail": "₹1,968 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-438 Cr"
+        "detail": "₹-931 Cr"
       },
       {
         "kind": "news",
@@ -1649,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-10 11:49 IST",
+    "since": "2026-09-11 11:53 IST",
     "new_headlines": [
-      "Diamond Power Infrastructure exits NCLT mechanism",
-      "NSE SME Qualiance International stitches strong debut",
-      "Volumes spurt at Larsen & Toubro Ltd counter",
-      "Paytm soars 4% in weak market, nears new high; stock up 90% from March low",
-      "Us stocks dip for four seasons in row",
-      "Neogen Chemicals launches QIP issue to raise funds amounting to Rs 600 crore",
-      "Can Aditya Birla’s Ultravolt Challenge Polycab?"
+      "Vijaya Diagnostic Centre acquires Arya Wellness Centre in Guwahati",
+      "Accuracy Shipping receives LoI for proposed Container Freight Station at Kandla, Gujarat",
+      "Board of Ceigall India approves acquisition of project SPV and investment in JV",
+      "Indiabulls to acquire 70% stake in Fintech Cloud for Rs 1050 cr",
+      "Welspun Corp announces incorporation of step-down subsidiary - Welspun Special Coating",
+      "Jinkushal Industries incorporates wholly owned subsidiary in Hong Kong",
+      "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more..."
     ]
   },
   "summary": {
