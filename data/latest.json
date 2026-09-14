@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13 12:00 IST",
-  "generated_utc": "2026-09-13T06:30:46+00:00",
+  "generated_at": "2026-09-14 12:11 IST",
+  "generated_utc": "2026-09-14T06:41:36+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-13 12:00 IST",
+      "asof": "2026-09-14 12:11 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-09-13 12:00 IST",
+      "asof": "2026-09-14 12:11 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-13 12:01 IST",
+      "asof": "2026-09-14 12:12 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-09-13 12:01 IST",
+      "asof": "2026-09-14 12:12 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-09-13 12:02 IST",
+      "asof": "2026-09-14 12:12 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "FPIs withdraw ₹13,138 crore from equities in Sep amid global uncertainty",
-          "url": "https://www.business-standard.com/markets/news/fpis-withdraw-13-138-crore-from-equities-in-sep-amid-global-uncertainty-126091300134_1.html",
-          "published": "Sun, 13 Sep 2026 10:58:34 +0530"
+          "title": "Trump backs new ethics rules to push crypto bill, but it may not be enough",
+          "url": "https://www.business-standard.com/world-news/trump-backs-new-ethics-rules-to-push-crypto-bill-but-it-may-not-be-enough-126091400155_1.html",
+          "published": "Mon, 14 Sep 2026 11:01:20 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NTPC Green Energy adds 6.3 MW capacity",
-          "url": "https://www.business-standard.com/markets/capital-market-news/ntpc-green-energy-adds-6-3-mw-capacity-126091200568_1.html",
-          "published": "Sat, 12 Sep 2026 17:04:02 +0530"
+          "title": "Copper edges lower as US inflation data raises bets on Fed rate hike",
+          "url": "https://www.business-standard.com/markets/news/copper-edges-lower-as-us-inflation-data-raises-bets-on-fed-rate-hike-126091400083_1.html",
+          "published": "Mon, 14 Sep 2026 08:41:45 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "GPT Infra bags order worth Rs 86 crore",
-          "url": "https://www.business-standard.com/markets/capital-market-news/gpt-infra-bags-order-worth-rs-86-crore-126091200418_1.html",
-          "published": "Sat, 12 Sep 2026 14:31:01 +0530"
+          "title": "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
+          "url": "https://www.business-standard.com/markets/news/ganesh-chaturthi-stock-market-holiday-bse-and-nse-closed-on-sept-14-126091400057_1.html",
+          "published": "Mon, 14 Sep 2026 07:39:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Krystal Integrated Services bags Rs 7-cr order from Maha Mumbai Metro",
-          "url": "https://www.business-standard.com/markets/capital-market-news/krystal-integrated-services-bags-rs-7-cr-order-from-maha-mumbai-metro-126091200383_1.html",
-          "published": "Sat, 12 Sep 2026 13:50:02 +0530"
+          "title": "Asian shares slide as oil spike fuels inflation, rate hike concerns",
+          "url": "https://www.business-standard.com/markets/news/asian-shares-slide-as-oil-spike-fuels-inflation-rate-hike-concerns-126091400050_1.html",
+          "published": "Mon, 14 Sep 2026 07:32:30 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "SEBI proposes changes to CAS, derivatives settlement methodology",
-          "url": "https://www.business-standard.com/markets/capital-market-news/sebi-proposes-changes-to-cas-derivatives-settlement-methodology-126091200367_1.html",
-          "published": "Sat, 12 Sep 2026 13:31:01 +0530"
+          "title": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
+          "url": "https://www.business-standard.com/markets/commodities/oil-prices-jump-more-than-2-after-new-strikes-on-saudi-strait-of-hormuz-126091400042_1.html",
+          "published": "Mon, 14 Sep 2026 07:23:59 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi proposes changes to derivatives settlement, closing auction timings",
-          "url": "https://www.business-standard.com/markets/news/sebi-derivatives-settlement-closing-auction-cas-market-timings-126091200337_1.html",
-          "published": "Sat, 12 Sep 2026 13:00:38 +0530"
+          "title": "Fed decision, inflation, oil may drive markets in holiday-shortened week",
+          "url": "https://www.business-standard.com/markets/news/fed-decision-inflation-oil-may-drive-markets-in-holiday-shortened-week-126091300251_1.html",
+          "published": "Sun, 13 Sep 2026 13:47:14 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The US Treasury wants lower bond yields. But will it work?",
+          "url": "https://finshots.in/archive/the-us-treasury-wants-lower-bond-yields-but-will-it-work/",
+          "published": "Mon, 14 Sep 2026 01:30:07 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Wed, 09 Sep 2026 01:30:00 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Can glass bottles fill the gap left by aluminium cans?",
-          "url": "https://finshots.in/archive/can-glass-bottles-fill-the-gap-left-by-aluminium-cans-2/",
-          "published": "Tue, 08 Sep 2026 01:30:06 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Global Market: China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms",
+          "published": "Mon, 14 Sep 2026 11:42:00 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "8 midcap stocks clock up to 245% EBITDA growth in June quarter. Do you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/8-midcap-stocks-clock-up-to-245-ebitda-growth-in-june-quarter-do-you-own-any/slideshow/134182581.cms",
-          "published": "Sun, 13 Sep 2026 11:38:38 +0530"
+          "title": "Global Market: Japan inflation risks put BOJ rate path in focus",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japan-inflation-risks-put-boj-rate-path-in-focus/articleshow/134234171.cms",
+          "published": "Mon, 14 Sep 2026 11:40:59 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "SML Ltd weighing IPO within 2 to 3 years, eyes new chemical entity pipeline",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sml-ltd-weighing-ipo-within-2-to-3-years-eyes-new-chemical-entity-pipeline/articleshow/134180833.cms",
-          "published": "Sun, 13 Sep 2026 11:08:07 +0530"
+          "title": "Jefferies says Sebi's proposed CAS changes will remove uncertainty, but still remains negative on BSE. Here’s why",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-says-sebis-proposed-cas-changes-will-remove-uncertainty-but-still-remains-negative-on-bse-heres-why/articleshow/134233906.cms",
+          "published": "Mon, 14 Sep 2026 11:36:57 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "FPIs withdraw Rs 13,138 crore from equities in September so far amid global uncertainty",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-13138-crore-from-equities-in-september-so-far-amid-global-uncertainty/articleshow/134180766.cms",
-          "published": "Sun, 13 Sep 2026 11:05:34 +0530"
+          "title": "FIIs sell Indian shares worth Rs 14,475 crore in Sept; analyst warns soaring bond yields may deepen selloff",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-sell-indian-shares-worth-rs-14475-crore-in-sept-analyst-warns-soaring-bond-yields-may-deepen-selloff/articleshow/134233848.cms",
+          "published": "Mon, 14 Sep 2026 11:27:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Vodafone Idea shares zoom 102% in one year. Is there more steam left after multibagger returns?",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/vodafone-idea-shares-zoom-102-in-one-year-is-there-more-steam-left-after-multibagger-returns/articleshow/134180333.cms",
-          "published": "Sun, 13 Sep 2026 11:03:48 +0530"
+          "title": "Global Market: 5 key events to watch out for this week",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-5-key-events-to-watch-out-for-this-week/slideshow/134233828.cms",
+          "published": "Mon, 14 Sep 2026 11:19:45 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "11 penny stocks rose up to 156% in just 6 months. Do you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/11-penny-stocks-rose-up-to-156-in-just-6-months-do-you-own-any/slideshow/134179438.cms",
-          "published": "Sun, 13 Sep 2026 10:24:27 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
-          "published": "Sun, 13 Sep 2026 10:05:56 +0530"
+          "title": "HDFC Bank shares hit 52-week lows over consecutive sessions while analysts scream Buy. Has the stock hit its bottom?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-hit-52-week-lows-over-consecutive-sessions-while-analysts-scream-buy-has-the-stock-hit-its-bottom/articleshow/134233328.cms",
+          "published": "Mon, 14 Sep 2026 10:56:50 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Top stocks to buy under ₹100 by Sumeet Bagadia: Inox Wind, South Indian Bank, Paisalo Digital; check stop-loss, target",
-          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-100-by-sumeet-bagadia-inox-wind-south-indian-bank-paisalo-digital-check-stop-loss-target-11789277605159.html",
-          "published": "Sun, 13 Sep 2026 11:25:28 +0530"
+          "title": "Dividend alert: Last chance to buy Blue Dart, Karnataka Bank, Aarti Pharma, ITDC, and others for dividends | Full list",
+          "url": "https://www.livemint.com/market/stock-market-news/dividend-alert-last-chance-to-buy-blue-dart-karnataka-bank-aarti-pharma-itdc-and-others-for-dividends-full-list-11789365707462.html",
+          "published": "Mon, 14 Sep 2026 12:06:51 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Sensex, Nifty prediction for Tuesday: NSE, BSE closed tomorrow on Ganesha Chaturthi - Outlook for stock market 15th Sept",
-          "url": "https://www.livemint.com/market/stock-market-news/sensex-nifty-prediction-for-tuesday-nse-bse-closed-tomorrow-on-ganesha-chaturthi-outlook-for-stock-market-15th-sept-11789270500682.html",
-          "published": "Sun, 13 Sep 2026 10:33:30 +0530"
+          "title": "PSU dividend kings: ONGC, BPCL, HPCL, Coal India, among top 8 PSU stocks with highest dividend yield | Crown goes to?",
+          "url": "https://www.livemint.com/market/stock-market-news/psu-dividend-kings-ongc-bpcl-hpcl-coal-india-among-top-8-psu-stocks-with-highest-dividend-yield-crown-goes-to-11789362315354.html",
+          "published": "Mon, 14 Sep 2026 11:15:23 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Korea Tests Global Investor Appetite With Longer Trading Hours",
-          "url": "https://www.livemint.com/market/korea-tests-global-investor-appetite-with-longer-trading-hours-11789261530232.html",
-          "published": "Sun, 13 Sep 2026 06:35:29 +0530"
+          "title": "Latest IPOs, GMPs, Subscription Status, Share Listing Price Prediction: Rentomojo, LCC Projects, Karamtara Engineering",
+          "url": "https://www.livemint.com/market/ipo/latest-ipos-gmps-subscription-status-share-listing-price-prediction-rentomojo-lcc-projects-karamtara-engineering-11789358059680.html",
+          "published": "Mon, 14 Sep 2026 11:12:28 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Sebi on Closing Auction Session after review: Latest update - New CAS rules | Top 5 things; what they mean for investors",
-          "url": "https://www.livemint.com/market/stock-market-news/sebi-on-closing-auction-session-after-review-latest-update-new-cas-rules-top-5-things-what-they-mean-for-investors-11789213325153.html",
-          "published": "Sat, 12 Sep 2026 20:54:23 +0530"
+          "title": "IPO GMPs: Kanohar Electricals IPO vs Glass Wall IPO vs Prasol Chemicals IPO | What grey market hints about listing pop?",
+          "url": "https://www.livemint.com/market/ipo/ipo-gmps-kanohar-electricals-ipo-vs-glass-wall-ipo-vs-prasol-chemicals-ipo-what-grey-market-hints-about-listing-pop-11789361443475.html",
+          "published": "Mon, 14 Sep 2026 11:03:57 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Energy Markets Signal Winter Crisis and Rising Interest Rates",
-          "url": "https://www.livemint.com/market/energy-markets-signal-winter-crisis-and-rising-interest-rates-11789212790408.html",
-          "published": "Sat, 12 Sep 2026 17:03:09 +0530"
+          "title": "Some up, some down! What's happening in Nikkei, Kospi, Taiwan? Oil on boil, rude crude impacting gold - Latest update",
+          "url": "https://www.livemint.com/market/stock-market-news/some-up-some-down-whats-happening-in-nikkei-kospi-taiwan-oil-on-boil-rude-crude-impacting-gold-latest-update-11789360541093.html",
+          "published": "Mon, 14 Sep 2026 11:00:18 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market holiday on Monday 14 Sept 2026: On Ganesha Chaturthi, NSE, BSE to remain closed",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-on-monday-14-sept-2026-on-ganesha-chaturthi-nse-bse-to-remain-closed-11789208865118.html",
-          "published": "Sat, 12 Sep 2026 16:35:34 +0530"
+          "title": "Is gold about to go on another rally? Standard Chartered's Gill thinks so.",
+          "url": "https://www.livemint.com/market/stock-market-news/gold-prices-rally-forecast-central-bank-buying-standard-chartered-5000-target-11789190493786.html",
+          "published": "Mon, 14 Sep 2026 10:55:07 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-13 12:02 IST",
+      "checked_at": "2026-09-14 12:12 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-13 12:02 IST",
+      "generated_at": "2026-09-14 12:12 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "19-day cumulative: Rs-32,624 Cr · 26% of days positive.",
+        "reading": "20-day cumulative: Rs-33,555 Cr · 25% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "19-day cumulative: Rs-32,624 Cr · 26% of days positive.",
+          "reading": "20-day cumulative: Rs-33,555 Cr · 25% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "19-day cumulative: +Rs76,795 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs78,763 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1565,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "19-day cumulative: Rs-32,624 Cr · 26% of days positive.",
+          "reading": "20-day cumulative: Rs-33,555 Cr · 25% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "19-day cumulative: +Rs76,795 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs78,763 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,7 +1591,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-13 12:02 IST",
+    "date": "2026-09-14 12:12 IST",
     "usdinr": {
       "last": 95.56,
       "date": "2026-09-11"
@@ -1605,18 +1605,18 @@
       "date": "11-Sep-2026"
     },
     "headlines": [
-      "FPIs withdraw ₹13,138 crore from equities in Sep amid global uncertainty",
-      "NTPC Green Energy adds 6.3 MW capacity",
-      "GPT Infra bags order worth Rs 86 crore",
-      "Krystal Integrated Services bags Rs 7-cr order from Maha Mumbai Metro",
-      "SEBI proposes changes to CAS, derivatives settlement methodology",
-      "Sebi proposes changes to derivatives settlement, closing auction timings",
+      "Trump backs new ethics rules to push crypto bill, but it may not be enough",
+      "Copper edges lower as US inflation data raises bets on Fed rate hike",
+      "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
+      "Asian shares slide as oil spike fuels inflation, rate hike concerns",
+      "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
+      "Fed decision, inflation, oil may drive markets in holiday-shortened week",
+      "The US Treasury wants lower bond yields. But will it work?",
       "AI solving a 90 year old math problem and more",
       "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
       "Can Aditya Birla’s Ultravolt Challenge Polycab?",
       "Copper prices are rising again",
-      "The Arcil IPO explained",
-      "Can glass bottles fill the gap left by aluminium cans?"
+      "The Arcil IPO explained"
     ]
   },
   "changes": {
@@ -1649,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-12 11:39 IST",
+    "since": "2026-09-13 12:02 IST",
     "new_headlines": [
-      "FPIs withdraw ₹13,138 crore from equities in Sep amid global uncertainty",
-      "NTPC Green Energy adds 6.3 MW capacity",
-      "GPT Infra bags order worth Rs 86 crore",
-      "Krystal Integrated Services bags Rs 7-cr order from Maha Mumbai Metro",
-      "SEBI proposes changes to CAS, derivatives settlement methodology",
-      "Sebi proposes changes to derivatives settlement, closing auction timings",
-      "AI solving a 90 year old math problem and more"
+      "Trump backs new ethics rules to push crypto bill, but it may not be enough",
+      "Copper edges lower as US inflation data raises bets on Fed rate hike",
+      "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
+      "Asian shares slide as oil spike fuels inflation, rate hike concerns",
+      "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
+      "Fed decision, inflation, oil may drive markets in holiday-shortened week",
+      "The US Treasury wants lower bond yields. But will it work?"
     ]
   },
   "summary": {

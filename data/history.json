@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-15 08:02 IST",
-  "usdinr": {
-   "last": 95.43,
-   "date": "2026-08-14"
-  },
-  "dii_net": {
-   "net": 356.4,
-   "date": "14-Aug-2026"
-  },
-  "fii_net": {
-   "net": 508.12,
-   "date": "14-Aug-2026"
-  },
-  "headlines": [
-   "Binance Research: Gen Z Leads Net Accumulation Across Every TradFi Product",
-   "A well-designed regulatory ecosystem can further strengthen service exports and ease of doing business, says NITI Aayog",
-   "Nifty closing gap narrows two weeks after CAS rollout, Sensex stays higher",
-   "Svatantra Microfin files papers with Sebi for ₹3,000 crore public offer",
-   "Solex Energy consolidated net profit declines 66.98% in the June 2026 quarter",
-   "Ashnisha Industries consolidated net profit declines 66.67% in the June 2026 quarter",
-   "Is Vodafone Idea finally making a comeback?",
-   "How do you scale UPI if it's not free?",
-   "Can blockchain save London's gold trade?",
-   "A look at the Milky Mist IPO",
-   "What went wrong with South Korea’s AI boom?",
-   "The thriving business of cheap luxury, how Hyrox makes money, and more..."
-  ]
- },
- {
   "date": "2026-08-16 08:11 IST",
   "usdinr": {
    "last": 95.43,
@@ -867,6 +838,35 @@
    "Copper prices are rising again",
    "The Arcil IPO explained",
    "Can glass bottles fill the gap left by aluminium cans?"
+  ]
+ },
+ {
+  "date": "2026-09-14 12:12 IST",
+  "usdinr": {
+   "last": 95.56,
+   "date": "2026-09-11"
+  },
+  "dii_net": {
+   "net": 1968.17,
+   "date": "11-Sep-2026"
+  },
+  "fii_net": {
+   "net": -930.9,
+   "date": "11-Sep-2026"
+  },
+  "headlines": [
+   "Trump backs new ethics rules to push crypto bill, but it may not be enough",
+   "Copper edges lower as US inflation data raises bets on Fed rate hike",
+   "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
+   "Asian shares slide as oil spike fuels inflation, rate hike concerns",
+   "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
+   "Fed decision, inflation, oil may drive markets in holiday-shortened week",
+   "The US Treasury wants lower bond yields. But will it work?",
+   "AI solving a 90 year old math problem and more",
+   "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
+   "Can Aditya Birla’s Ultravolt Challenge Polycab?",
+   "Copper prices are rising again",
+   "The Arcil IPO explained"
   ]
  }
 ]
