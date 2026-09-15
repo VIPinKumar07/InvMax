@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-16 08:11 IST",
-  "usdinr": {
-   "last": 95.43,
-   "date": "2026-08-14"
-  },
-  "dii_net": {
-   "net": 356.4,
-   "date": "14-Aug-2026"
-  },
-  "fii_net": {
-   "net": 508.12,
-   "date": "14-Aug-2026"
-  },
-  "headlines": [
-   "Nxt-Infra Trust consolidated net profit rises 71.83% in the June 2026 quarter",
-   "Oriental Infra Trust consolidated net profit rises 14.42% in the June 2026 quarter",
-   "Mercantile Ventures reports consolidated net loss of Rs 0.65 crore in the June 2026 quarter",
-   "DSP Finance Pvt consolidated net profit declines 28.36% in the June 2026 quarter",
-   "THDC India consolidated net profit rises 103.94% in the June 2026 quarter",
-   "Cindrella Financial Services reports consolidated net profit of Rs 0.03 crore in the June 2026 quarter",
-   "Gen Z lily padding and more...",
-   "Is Vodafone Idea finally making a comeback?",
-   "How do you scale UPI if it's not free?",
-   "Can blockchain save London's gold trade?",
-   "A look at the Milky Mist IPO",
-   "What went wrong with South Korea’s AI boom?"
-  ]
- },
- {
   "date": "2026-08-17 08:10 IST",
   "usdinr": {
    "last": 95.43,
@@ -867,6 +838,35 @@
    "Can Aditya Birla’s Ultravolt Challenge Polycab?",
    "Copper prices are rising again",
    "The Arcil IPO explained"
+  ]
+ },
+ {
+  "date": "2026-09-15 11:55 IST",
+  "usdinr": {
+   "last": 95.56,
+   "date": "2026-09-14"
+  },
+  "dii_net": {
+   "net": 1968.17,
+   "date": "11-Sep-2026"
+  },
+  "fii_net": {
+   "net": -930.9,
+   "date": "11-Sep-2026"
+  },
+  "headlines": [
+   "Yash Highvoltage rises after subsidiary signs US sales representation agreement",
+   "India's wholesale price inflation zooms to 9.92%",
+   "Gold falls ₹115 on US interest rate hike fears, silver declines ₹461",
+   "Diamond Power Infrastructure wins LoA worth Rs 179 cr",
+   "Solar Ind to acquire South Africa's Omnia for ₹12,951-crore; stock slips 9%",
+   "KEC International rises after bagging orders worth Rs 1,303 crore",
+   "The Dedicated Freight Corridor's last mile challenge",
+   "The US Treasury wants lower bond yields. But will it work?",
+   "AI solving a 90 year old math problem and more",
+   "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
+   "Can Aditya Birla’s Ultravolt Challenge Polycab?",
+   "Copper prices are rising again"
   ]
  }
 ]

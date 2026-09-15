@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14 12:11 IST",
-  "generated_utc": "2026-09-14T06:41:36+00:00",
+  "generated_at": "2026-09-15 11:54 IST",
+  "generated_utc": "2026-09-15T06:24:39+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-14 12:11 IST",
+      "asof": "2026-09-15 11:54 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-09-11",
+        "asof": "2026-09-14",
         "rates": {
-          "EUR": 0.86266,
-          "GBP": 0.7403,
+          "EUR": 0.86573,
+          "GBP": 0.74104,
           "INR": 95.56,
-          "JPY": 154.04
+          "JPY": 154.55
         },
         "usdinr_history": [
-          {
-            "date": "2025-09-12",
-            "v": 88.27
-          },
           {
             "date": "2025-09-15",
             "v": 88.14
@@ -1071,12 +1067,16 @@
           {
             "date": "2026-09-11",
             "v": 95.56
+          },
+          {
+            "date": "2026-09-14",
+            "v": 95.56
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-09-14 12:11 IST",
+      "asof": "2026-09-15 11:54 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-14 12:12 IST",
+      "asof": "2026-09-15 11:55 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-09-14 12:12 IST",
+      "asof": "2026-09-15 11:55 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-09-14 12:12 IST",
+      "asof": "2026-09-15 11:55 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Trump backs new ethics rules to push crypto bill, but it may not be enough",
-          "url": "https://www.business-standard.com/world-news/trump-backs-new-ethics-rules-to-push-crypto-bill-but-it-may-not-be-enough-126091400155_1.html",
-          "published": "Mon, 14 Sep 2026 11:01:20 +0530"
+          "title": "Yash Highvoltage rises after subsidiary signs US sales representation agreement",
+          "url": "https://www.business-standard.com/markets/capital-market-news/yash-highvoltage-rises-after-subsidiary-signs-us-sales-representation-agreement-126091500336_1.html",
+          "published": "Tue, 15 Sep 2026 11:50:24 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Copper edges lower as US inflation data raises bets on Fed rate hike",
-          "url": "https://www.business-standard.com/markets/news/copper-edges-lower-as-us-inflation-data-raises-bets-on-fed-rate-hike-126091400083_1.html",
-          "published": "Mon, 14 Sep 2026 08:41:45 +0530"
+          "title": "India's wholesale price inflation zooms to 9.92%",
+          "url": "https://www.business-standard.com/markets/capital-market-news/india-s-wholesale-price-inflation-zooms-to-9-92-126091500335_1.html",
+          "published": "Tue, 15 Sep 2026 11:50:17 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
-          "url": "https://www.business-standard.com/markets/news/ganesh-chaturthi-stock-market-holiday-bse-and-nse-closed-on-sept-14-126091400057_1.html",
-          "published": "Mon, 14 Sep 2026 07:39:33 +0530"
+          "title": "Gold falls ₹115 on US interest rate hike fears, silver declines ₹461",
+          "url": "https://www.business-standard.com/markets/commodities/gold-falls-115-on-us-interest-rate-hike-fears-silver-declines-461-126091500305_1.html",
+          "published": "Tue, 15 Sep 2026 11:37:55 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asian shares slide as oil spike fuels inflation, rate hike concerns",
-          "url": "https://www.business-standard.com/markets/news/asian-shares-slide-as-oil-spike-fuels-inflation-rate-hike-concerns-126091400050_1.html",
-          "published": "Mon, 14 Sep 2026 07:32:30 +0530"
+          "title": "Diamond Power Infrastructure wins LoA worth Rs 179 cr",
+          "url": "https://www.business-standard.com/markets/capital-market-news/diamond-power-infrastructure-wins-loa-worth-rs-179-cr-126091500298_1.html",
+          "published": "Tue, 15 Sep 2026 11:31:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
-          "url": "https://www.business-standard.com/markets/commodities/oil-prices-jump-more-than-2-after-new-strikes-on-saudi-strait-of-hormuz-126091400042_1.html",
-          "published": "Mon, 14 Sep 2026 07:23:59 +0530"
+          "title": "Solar Ind to acquire South Africa's Omnia for ₹12,951-crore; stock slips 9%",
+          "url": "https://www.business-standard.com/markets/news/solar-industries-to-acquire-south-africa-s-omnia-for-12-951-crore-stock-slips-9-126091500234_1.html",
+          "published": "Tue, 15 Sep 2026 11:22:45 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Fed decision, inflation, oil may drive markets in holiday-shortened week",
-          "url": "https://www.business-standard.com/markets/news/fed-decision-inflation-oil-may-drive-markets-in-holiday-shortened-week-126091300251_1.html",
-          "published": "Sun, 13 Sep 2026 13:47:14 +0530"
+          "title": "KEC International rises after bagging orders worth Rs 1,303 crore",
+          "url": "https://www.business-standard.com/markets/capital-market-news/kec-international-rises-after-bagging-orders-worth-rs-1-303-crore-126091500283_1.html",
+          "published": "Tue, 15 Sep 2026 11:16:19 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The Dedicated Freight Corridor's last mile challenge",
+          "url": "https://finshots.in/archive/the-dedicated-freight-corridors-last-mile-challenge/",
+          "published": "Tue, 15 Sep 2026 01:30:21 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Thu, 10 Sep 2026 01:30:00 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The Arcil IPO explained",
-          "url": "https://finshots.in/archive/arcil-ipo-explained/",
-          "published": "Wed, 09 Sep 2026 01:30:00 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Rs 1.13 lakh crore boom in one corner, a bust in another: What changed in the AI trade?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/rs-1-13-lakh-crore-boom-in-one-corner-a-bust-in-another-what-changed-in-the-ai-trade/articleshow/134253480.cms",
+          "published": "Tue, 15 Sep 2026 11:33:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms",
-          "published": "Mon, 14 Sep 2026 11:42:00 +0530"
+          "title": "KEC International shares rally 6% after securing new orders worth Rs 1,303 crore across multiple business segments",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kec-international-shares-rally-6-after-securing-new-orders-worth-rs-1303-crore-across-multiple-business-segments/articleshow/134253441.cms",
+          "published": "Tue, 15 Sep 2026 11:29:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: Japan inflation risks put BOJ rate path in focus",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japan-inflation-risks-put-boj-rate-path-in-focus/articleshow/134234171.cms",
-          "published": "Mon, 14 Sep 2026 11:40:59 +0530"
+          "title": "Tata Sons IPO buzz adds Rs 17,200 cr to m-cap of 5 group stocks. Who gains most?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-buzz-lifts-5-group-stocks-by-rs-17200-crore-who-gains-the-most/articleshow/134252806.cms",
+          "published": "Tue, 15 Sep 2026 10:54:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Jefferies says Sebi's proposed CAS changes will remove uncertainty, but still remains negative on BSE. Here’s why",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-says-sebis-proposed-cas-changes-will-remove-uncertainty-but-still-remains-negative-on-bse-heres-why/articleshow/134233906.cms",
-          "published": "Mon, 14 Sep 2026 11:36:57 +0530"
+          "title": "Global Market: Japan’s Nikkei rises 1% as SoftBank rebounds from AI selloff",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rises-1-as-softbank-rebounds-from-ai-selloff/articleshow/134252512.cms",
+          "published": "Tue, 15 Sep 2026 10:42:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "FIIs sell Indian shares worth Rs 14,475 crore in Sept; analyst warns soaring bond yields may deepen selloff",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-sell-indian-shares-worth-rs-14475-crore-in-sept-analyst-warns-soaring-bond-yields-may-deepen-selloff/articleshow/134233848.cms",
-          "published": "Mon, 14 Sep 2026 11:27:43 +0530"
+          "title": "US Market: Brokerages turn hawkish as sticky inflation boosts Fed hike bets",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-brokerages-turn-hawkish-as-sticky-inflation-boosts-fed-hike-bets/articleshow/134252526.cms",
+          "published": "Tue, 15 Sep 2026 10:41:36 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: 5 key events to watch out for this week",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-5-key-events-to-watch-out-for-this-week/slideshow/134233828.cms",
-          "published": "Mon, 14 Sep 2026 11:19:45 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "HDFC Bank shares hit 52-week lows over consecutive sessions while analysts scream Buy. Has the stock hit its bottom?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-hit-52-week-lows-over-consecutive-sessions-while-analysts-scream-buy-has-the-stock-hit-its-bottom/articleshow/134233328.cms",
-          "published": "Mon, 14 Sep 2026 10:56:50 +0530"
+          "title": "HPE valuation under pressure: What’s behind the stock selloff?",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-valuation-under-pressure-whats-behind-the-stock-selloff/slideshow/134252743.cms",
+          "published": "Tue, 15 Sep 2026 10:40:22 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Dividend alert: Last chance to buy Blue Dart, Karnataka Bank, Aarti Pharma, ITDC, and others for dividends | Full list",
-          "url": "https://www.livemint.com/market/stock-market-news/dividend-alert-last-chance-to-buy-blue-dart-karnataka-bank-aarti-pharma-itdc-and-others-for-dividends-full-list-11789365707462.html",
-          "published": "Mon, 14 Sep 2026 12:06:51 +0530"
+          "title": "Solar Industries, Bharat Electronics, and CG Power shares fall up to 10% today: What’s driving the sell-off?",
+          "url": "https://www.livemint.com/market/stock-market-news/solar-industries-bharat-electronics-and-cg-power-shares-fall-up-to-10-today-what-s-driving-the-selloff-11789452059197.html",
+          "published": "Tue, 15 Sep 2026 11:54:35 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "PSU dividend kings: ONGC, BPCL, HPCL, Coal India, among top 8 PSU stocks with highest dividend yield | Crown goes to?",
-          "url": "https://www.livemint.com/market/stock-market-news/psu-dividend-kings-ongc-bpcl-hpcl-coal-india-among-top-8-psu-stocks-with-highest-dividend-yield-crown-goes-to-11789362315354.html",
-          "published": "Mon, 14 Sep 2026 11:15:23 +0530"
+          "title": "FirstCry stock: Brainbees Solutions share price jumps 7% after 54% fall in 1 year - reason?",
+          "url": "https://www.livemint.com/market/stock-market-news/firstcry-stock-brainbees-solutions-share-price-jumps-7-after-54-fall-in-1-year-reason-11789452507957.html",
+          "published": "Tue, 15 Sep 2026 11:45:12 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Latest IPOs, GMPs, Subscription Status, Share Listing Price Prediction: Rentomojo, LCC Projects, Karamtara Engineering",
-          "url": "https://www.livemint.com/market/ipo/latest-ipos-gmps-subscription-status-share-listing-price-prediction-rentomojo-lcc-projects-karamtara-engineering-11789358059680.html",
-          "published": "Mon, 14 Sep 2026 11:12:28 +0530"
+          "title": "From VBL, Power Grid to Paytm - 6 stocks experts recommend buying for the short term; do you own any?",
+          "url": "https://www.livemint.com/market/stock-market-news/from-vbl-power-grid-to-paytm-6-stocks-experts-recommend-buying-for-the-short-term-do-you-own-any-11789451473678.html",
+          "published": "Tue, 15 Sep 2026 11:41:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "IPO GMPs: Kanohar Electricals IPO vs Glass Wall IPO vs Prasol Chemicals IPO | What grey market hints about listing pop?",
-          "url": "https://www.livemint.com/market/ipo/ipo-gmps-kanohar-electricals-ipo-vs-glass-wall-ipo-vs-prasol-chemicals-ipo-what-grey-market-hints-about-listing-pop-11789361443475.html",
-          "published": "Mon, 14 Sep 2026 11:03:57 +0530"
+          "title": "Afcons Infra share price rebounds after falling for four sessions straight | Rises 19% today. What's behind the rally?",
+          "url": "https://www.livemint.com/market/stock-market-news/afcons-infra-share-price-rebounds-after-falling-for-four-sessions-straight-rises-19-today-whats-behind-the-rally-11789448802672.html",
+          "published": "Tue, 15 Sep 2026 11:14:03 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Some up, some down! What's happening in Nikkei, Kospi, Taiwan? Oil on boil, rude crude impacting gold - Latest update",
-          "url": "https://www.livemint.com/market/stock-market-news/some-up-some-down-whats-happening-in-nikkei-kospi-taiwan-oil-on-boil-rude-crude-impacting-gold-latest-update-11789360541093.html",
-          "published": "Mon, 14 Sep 2026 11:00:18 +0530"
+          "title": "Why options traders expect Nifty to regain footing by the month's end",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-50-stock-market-derivatives-trading-nifty-options-put-call-options-open-interest-24000-support-11789444007195.html",
+          "published": "Tue, 15 Sep 2026 10:56:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Is gold about to go on another rally? Standard Chartered's Gill thinks so.",
-          "url": "https://www.livemint.com/market/stock-market-news/gold-prices-rally-forecast-central-bank-buying-standard-chartered-5000-target-11789190493786.html",
-          "published": "Mon, 14 Sep 2026 10:55:07 +0530"
+          "title": "Why are IT stocks on fire? Check TCS, HCL Tech, LTM, Tech Mahindra, Infosys share performance",
+          "url": "https://www.livemint.com/market/stock-market-news/why-are-it-stocks-on-fire-check-tcs-hcl-tech-ltm-tech-mahindra-infosys-share-performance-11789447093149.html",
+          "published": "Tue, 15 Sep 2026 10:35:08 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-14 12:12 IST",
+      "checked_at": "2026-09-15 11:55 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-14 12:12 IST",
+      "generated_at": "2026-09-15 11:55 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-33,555 Cr · 25% of days positive.",
+        "reading": "20-day cumulative: Rs-36,080 Cr · 20% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-33,555 Cr · 25% of days positive.",
+          "reading": "20-day cumulative: Rs-36,080 Cr · 20% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs78,763 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs80,501 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1565,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-33,555 Cr · 25% of days positive.",
+          "reading": "20-day cumulative: Rs-36,080 Cr · 20% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs78,763 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs80,501 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,10 +1591,10 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-14 12:12 IST",
+    "date": "2026-09-15 11:55 IST",
     "usdinr": {
       "last": 95.56,
-      "date": "2026-09-11"
+      "date": "2026-09-14"
     },
     "dii_net": {
       "net": 1968.17,
@@ -1605,18 +1605,18 @@
       "date": "11-Sep-2026"
     },
     "headlines": [
-      "Trump backs new ethics rules to push crypto bill, but it may not be enough",
-      "Copper edges lower as US inflation data raises bets on Fed rate hike",
-      "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
-      "Asian shares slide as oil spike fuels inflation, rate hike concerns",
-      "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
-      "Fed decision, inflation, oil may drive markets in holiday-shortened week",
+      "Yash Highvoltage rises after subsidiary signs US sales representation agreement",
+      "India's wholesale price inflation zooms to 9.92%",
+      "Gold falls ₹115 on US interest rate hike fears, silver declines ₹461",
+      "Diamond Power Infrastructure wins LoA worth Rs 179 cr",
+      "Solar Ind to acquire South Africa's Omnia for ₹12,951-crore; stock slips 9%",
+      "KEC International rises after bagging orders worth Rs 1,303 crore",
+      "The Dedicated Freight Corridor's last mile challenge",
       "The US Treasury wants lower bond yields. But will it work?",
       "AI solving a 90 year old math problem and more",
       "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
       "Can Aditya Birla’s Ultravolt Challenge Polycab?",
-      "Copper prices are rising again",
-      "The Arcil IPO explained"
+      "Copper prices are rising again"
     ]
   },
   "changes": {
@@ -1649,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-13 12:02 IST",
+    "since": "2026-09-14 12:12 IST",
     "new_headlines": [
-      "Trump backs new ethics rules to push crypto bill, but it may not be enough",
-      "Copper edges lower as US inflation data raises bets on Fed rate hike",
-      "Stock market holiday: BSE, NSE closed today for Ganesh Chaturthi",
-      "Asian shares slide as oil spike fuels inflation, rate hike concerns",
-      "Oil prices jump more than 2% after new strikes on Saudi, Strait of Hormuz",
-      "Fed decision, inflation, oil may drive markets in holiday-shortened week",
-      "The US Treasury wants lower bond yields. But will it work?"
+      "Yash Highvoltage rises after subsidiary signs US sales representation agreement",
+      "India's wholesale price inflation zooms to 9.92%",
+      "Gold falls ₹115 on US interest rate hike fears, silver declines ₹461",
+      "Diamond Power Infrastructure wins LoA worth Rs 179 cr",
+      "Solar Ind to acquire South Africa's Omnia for ₹12,951-crore; stock slips 9%",
+      "KEC International rises after bagging orders worth Rs 1,303 crore",
+      "The Dedicated Freight Corridor's last mile challenge"
     ]
   },
   "summary": {
