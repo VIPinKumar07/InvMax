@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-17 08:10 IST",
-  "usdinr": {
-   "last": 95.43,
-   "date": "2026-08-14"
-  },
-  "dii_net": {
-   "net": 356.4,
-   "date": "14-Aug-2026"
-  },
-  "fii_net": {
-   "net": 508.12,
-   "date": "14-Aug-2026"
-  },
-  "headlines": [
-   "Stocks to watch today: RIL, Amber Ent, ONGC, Ather Energy, NMDC, Voltas",
-   "Stock Market LIVE: GIFT Nifty signals negative open; Asia markets rise; US-Iran tension in focus",
-   "Asian shares mark time as West Asia war keeps oil prices elevated",
-   "HEG, Supreme Inds, Astra Micro: Choice Broking is bullish on these 3 stocks",
-   "Avoid aggressive mkt positioning, says Angel One; Aequs among 3 stock picks",
-   "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
-   "The story of the Indian rupee since 1947",
-   "Gen Z lily padding and more...",
-   "Is Vodafone Idea finally making a comeback?",
-   "How do you scale UPI if it's not free?",
-   "Can blockchain save London's gold trade?",
-   "A look at the Milky Mist IPO"
-  ]
- },
- {
   "date": "2026-08-18 08:05 IST",
   "usdinr": {
    "last": 95.61,
@@ -867,6 +838,35 @@
    "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
    "Can Aditya Birla’s Ultravolt Challenge Polycab?",
    "Copper prices are rising again"
+  ]
+ },
+ {
+  "date": "2026-09-16 11:54 IST",
+  "usdinr": {
+   "last": 95.96,
+   "date": "2026-09-15"
+  },
+  "dii_net": {
+   "net": 2686.05,
+   "date": "15-Sep-2026"
+  },
+  "fii_net": {
+   "net": -2977.86,
+   "date": "15-Sep-2026"
+  },
+  "headlines": [
+   "Traders brace for prolonged India bond slump as RBI mops up excess cash",
+   "India trade gap shrinks to five-month low as exports jump over 26% in August",
+   "Govt clarifies that UPI payments of up to 2,000 rupees to remain free of bank charges",
+   "Godavari Biorefineries receives Chinese patent for use of compounds for treatment of viral infection",
+   "Decline in INR partially offset by positive start to local equities",
+   "US stocks ease further as market eyes Fed decision",
+   "The Hero Motors IPO explained",
+   "The Dedicated Freight Corridor's last mile challenge",
+   "The US Treasury wants lower bond yields. But will it work?",
+   "AI solving a 90 year old math problem and more",
+   "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
+   "Can Aditya Birla’s Ultravolt Challenge Polycab?"
   ]
  }
 ]
