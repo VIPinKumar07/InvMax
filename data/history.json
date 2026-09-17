@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-18 08:05 IST",
-  "usdinr": {
-   "last": 95.61,
-   "date": "2026-08-17"
-  },
-  "dii_net": {
-   "net": 5101.46,
-   "date": "17-Aug-2026"
-  },
-  "fii_net": {
-   "net": -2535.1,
-   "date": "17-Aug-2026"
-  },
-  "headlines": [
-   "Fractal Analytics among two stocks Kotak Securities is bullish on",
-   "Jio-BlackRock rolls out MF plans; Lalithaa Jewellery IPO booked 0.68x",
-   "Rupee weakens, bond yields harden as RBI shuts FCNR(B) swap window early",
-   "FII ownership falls to 17-year low as domestic investors strengthen grip",
-   "Om Infra executes supplementary agreement for ongoing water project in UP",
-   "Horizon Industrial Parks IPO gets 14% subscription on first day of bidding",
-   "Why Bank of America wants a piece of India's lending boom",
-   "The story of the Indian rupee since 1947",
-   "Gen Z lily padding and more...",
-   "Is Vodafone Idea finally making a comeback?",
-   "How do you scale UPI if it's not free?",
-   "Can blockchain save London's gold trade?"
-  ]
- },
- {
   "date": "2026-08-19 08:07 IST",
   "usdinr": {
    "last": 95.69,
@@ -867,6 +838,35 @@
    "AI solving a 90 year old math problem and more",
    "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
    "Can Aditya Birla’s Ultravolt Challenge Polycab?"
+  ]
+ },
+ {
+  "date": "2026-09-17 11:55 IST",
+  "usdinr": {
+   "last": 95.96,
+   "date": "2026-09-16"
+  },
+  "dii_net": {
+   "net": 3908.23,
+   "date": "16-Sep-2026"
+  },
+  "fii_net": {
+   "net": -2032.61,
+   "date": "16-Sep-2026"
+  },
+  "headlines": [
+   "Barometers trade sideways; auto shares rally for 2nd day",
+   "NSE SME Vinod Texworld struggles to weave gains on debut",
+   "Asian shares trade mixed after Wall Street falls following Fed rate hike",
+   "BSE SME Amtech Esters makes a strong debut",
+   "Capital India Finance board OKs Rs 1,000 crore NCD issue",
+   "Yatharth Hospital rallies 8% on huge volume, hits record high; here's why",
+   "Is NSE’s IPO really fairly valued?",
+   "The Hero Motors IPO explained",
+   "The Dedicated Freight Corridor's last mile challenge",
+   "The US Treasury wants lower bond yields. But will it work?",
+   "AI solving a 90 year old math problem and more",
+   "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more..."
   ]
  }
 ]
