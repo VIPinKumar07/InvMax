@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-20 08:06 IST",
-  "usdinr": {
-   "last": 95.76,
-   "date": "2026-08-19"
-  },
-  "dii_net": {
-   "net": 3973.72,
-   "date": "19-Aug-2026"
-  },
-  "fii_net": {
-   "net": 407.99,
-   "date": "19-Aug-2026"
-  },
-  "headlines": [
-   "Adopt cautious stance, says Ajit Mishra; shares 3 stock ideas for near term",
-   "IT sector Q1FY27 review: Tier-2 firms lead revenue growth amid soft demand",
-   "Why Gaja Alternative IPO stands out among three ongoing public offers",
-   "Nifty makes history; fails to cross previous day's high for 12 straight sessions",
-   "Govt bond yields seen opening higher after hawkish RBI MPC minutes",
-   "Sebi bars six from selling Dhenu Buildcon shares over alleged manipulation",
-   "The Augmont IPO Explained",
-   "RBI's problem with revolving credit",
-   "Why Bank of America wants a piece of India's lending boom",
-   "The story of the Indian rupee since 1947",
-   "Gen Z lily padding and more...",
-   "Is Vodafone Idea finally making a comeback?"
-  ]
- },
- {
   "date": "2026-08-21 08:13 IST",
   "usdinr": {
    "last": 95.71,
@@ -867,6 +838,35 @@
    "Is NSE’s IPO really fairly valued?",
    "The Hero Motors IPO explained",
    "The Dedicated Freight Corridor's last mile challenge"
+  ]
+ },
+ {
+  "date": "2026-09-19 11:46 IST",
+  "usdinr": {
+   "last": 95.88,
+   "date": "2026-09-18"
+  },
+  "dii_net": {
+   "net": 1019.69,
+   "date": "18-Sep-2026"
+  },
+  "fii_net": {
+   "net": 599.54,
+   "date": "18-Sep-2026"
+  },
+  "headlines": [
+   "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
+   "HEG arm bags Rs 217-cr order from Indus Towers",
+   "Shilpa Medicare Unit VII inspection ends with one procedural observation",
+   "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
+   "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
+   "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
+   "IPO week, US Treasury bond buyback, and more...",
+   "How Rentomojo actually makes money",
+   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
+   "India's Digital Payment Evolution: Who Killed the Cheque?",
+   "Is NSE’s IPO really fairly valued?",
+   "The Hero Motors IPO explained"
   ]
  }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18 11:46 IST",
-  "generated_utc": "2026-09-18T06:16:46+00:00",
+  "generated_at": "2026-09-19 11:45 IST",
+  "generated_utc": "2026-09-19T06:15:22+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-18 11:46 IST",
+      "asof": "2026-09-19 11:45 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-09-17",
+        "asof": "2026-09-18",
         "rates": {
-          "EUR": 0.871,
-          "GBP": 0.74758,
-          "INR": 95.94,
-          "JPY": 155.69
+          "EUR": 0.8726,
+          "GBP": 0.74939,
+          "INR": 95.88,
+          "JPY": 157.89
         },
         "usdinr_history": [
-          {
-            "date": "2025-09-18",
-            "v": 88.11
-          },
           {
             "date": "2025-09-19",
             "v": 88.16
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-09-17",
             "v": 95.94
+          },
+          {
+            "date": "2026-09-18",
+            "v": 95.88
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-09-18 11:46 IST",
+      "asof": "2026-09-19 11:45 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.0008,
-          "date": "17-09-2026",
-          "ret1y_pct": -0.97,
+          "nav": 107.0677,
+          "date": "18-09-2026",
+          "ret1y_pct": -0.99,
           "series": [
-            102.882,
-            103.4606,
-            104.4275,
-            106.4272,
-            107.7103,
-            107.6624,
-            108.1757,
-            108.0373,
-            108.9591,
-            109.8337,
-            110.3373,
-            110.2647,
-            110.4173,
-            111.1072,
-            104.7959,
-            104.3791,
-            105.8482,
-            106.6001,
-            107.2402,
-            107.0008
+            102.8828,
+            103.523,
+            104.5887,
+            106.4573,
+            107.7345,
+            107.7677,
+            108.2167,
+            108.0088,
+            109.0926,
+            109.8609,
+            110.3299,
+            110.2175,
+            110.4233,
+            110.9898,
+            104.7821,
+            104.4216,
+            105.9003,
+            106.5737,
+            107.136,
+            107.0677
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 108.8298,
-          "date": "17-09-2026",
-          "ret1y_pct": -1.78,
+          "nav": 109.9892,
+          "date": "18-09-2026",
+          "ret1y_pct": -1.12,
           "series": [
-            99.5049,
-            96.1511,
-            102.318,
-            107.379,
-            107.9842,
-            109.4895,
-            107.7607,
-            110.0814,
-            110.7365,
-            111.1769,
-            109.7392,
-            108.6446,
-            109.8444,
-            101.2496,
-            106.2063,
-            104.6046,
-            108.0081,
-            109.8895,
-            112.0096,
-            108.8298
+            99.4579,
+            96.9284,
+            103.6475,
+            105.8304,
+            107.5374,
+            109.4752,
+            107.8455,
+            110.1522,
+            111.5399,
+            111.7018,
+            109.3091,
+            108.3617,
+            110.0806,
+            102.4592,
+            107.2434,
+            104.4915,
+            107.9636,
+            110.1859,
+            111.5957,
+            109.9892
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 229.51,
-          "date": "17-09-2026",
-          "ret1y_pct": 6.74,
+          "nav": 231.413,
+          "date": "18-09-2026",
+          "ret1y_pct": 7.4,
           "series": [
-            193.041,
-            182.77,
-            184.712,
-            193.533,
-            212.978,
-            217.446,
-            209.07,
-            211.986,
-            216.544,
-            224.607,
-            221.622,
-            221.703,
-            226.103,
-            205.631,
-            220.058,
-            219.799,
-            225.63,
-            229.599,
-            235.873,
-            229.51
+            195.631,
+            184.163,
+            179.056,
+            199.462,
+            213.109,
+            217.447,
+            210.196,
+            212.848,
+            217.337,
+            224.351,
+            223.398,
+            221.659,
+            223.49,
+            206.218,
+            219.674,
+            220.391,
+            226.497,
+            230.924,
+            235.526,
+            231.413
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 227.7872,
-          "date": "17-09-2026",
-          "ret1y_pct": -6.05,
+          "nav": 228.5272,
+          "date": "18-09-2026",
+          "ret1y_pct": -5.87,
           "series": [
-            224.968,
-            215.305,
-            220.7303,
-            231.3524,
-            242.5253,
-            247.076,
-            238.279,
-            240.5287,
-            244.4368,
-            251.4934,
-            251.6632,
-            250.562,
-            250.9264,
-            227.6139,
-            236.7297,
-            229.7357,
-            235.4295,
-            236.8303,
-            236.4268,
-            227.7872
+            228.6062,
+            217.301,
+            213.5667,
+            240.1835,
+            242.5537,
+            246.6264,
+            238.4896,
+            241.4537,
+            245.4408,
+            251.524,
+            253.1033,
+            249.9982,
+            247.6596,
+            229.2869,
+            236.8352,
+            230.1326,
+            234.3625,
+            236.3334,
+            235.6758,
+            228.5272
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-18 11:48 IST",
+      "asof": "2026-09-19 11:46 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-09-18 11:48 IST",
+      "asof": "2026-09-19 11:46 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "17-Sep-2026",
-          "buy": 14105.01,
-          "sell": 10487.26,
-          "net": 3617.75
+          "date": "18-Sep-2026",
+          "buy": 17310.04,
+          "sell": 16290.35,
+          "net": 1019.69
         },
         "fii": {
-          "date": "17-Sep-2026",
-          "buy": 8761.71,
-          "sell": 11970.47,
-          "net": -3208.76
+          "date": "18-Sep-2026",
+          "buy": 38461.63,
+          "sell": 37862.09,
+          "net": 599.54
         }
       }
     },
     "news": {
-      "asof": "2026-09-18 11:48 IST",
+      "asof": "2026-09-19 11:46 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "BSE SME Om Galaxy struggles to find its orbit, trades below IPO price",
-          "url": "https://www.business-standard.com/markets/capital-market-news/bse-sme-om-galaxy-struggles-to-find-its-orbit-trades-below-ipo-price-126091800349_1.html",
-          "published": "Fri, 18 Sep 2026 11:31:16 +0530"
+          "title": "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
+          "url": "https://www.business-standard.com/markets/capital-market-news/mazagon-dock-inks-mou-for-greenfield-shipbuilding-cluster-in-andhra-pradesh-126091900237_1.html",
+          "published": "Sat, 19 Sep 2026 11:16:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "DMR JV bags Rs 70-cr LoA for 24.60 MW Kamlang HEP",
-          "url": "https://www.business-standard.com/markets/capital-market-news/dmr-jv-bags-rs-70-cr-loa-for-24-60-mw-kamlang-hep-126091800348_1.html",
-          "published": "Fri, 18 Sep 2026 11:31:07 +0530"
+          "title": "HEG arm bags Rs 217-cr order from Indus Towers",
+          "url": "https://www.business-standard.com/markets/capital-market-news/heg-arm-bags-rs-217-cr-order-from-indus-towers-126091900198_1.html",
+          "published": "Sat, 19 Sep 2026 10:16:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NSE IPO crosses halfway mark on 2nd day of bidding; check GMP & reviews",
-          "url": "https://www.business-standard.com/markets/news/nse-ipo-crosses-halfway-mark-on-2nd-day-of-bidding-check-gmp-reviews-126091800324_1.html",
-          "published": "Fri, 18 Sep 2026 11:16:34 +0530"
+          "title": "Shilpa Medicare Unit VII inspection ends with one procedural observation",
+          "url": "https://www.business-standard.com/markets/capital-market-news/shilpa-medicare-unit-vii-inspection-ends-with-one-procedural-observation-126091900148_1.html",
+          "published": "Sat, 19 Sep 2026 09:31:16 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Skyways Air Services spurts after strong Q1 performance",
-          "url": "https://www.business-standard.com/markets/capital-market-news/skyways-air-services-spurts-after-strong-q1-performance-126091800332_1.html",
-          "published": "Fri, 18 Sep 2026 11:16:02 +0530"
+          "title": "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/toyam-sports-reports-consolidated-net-loss-of-rs-0-64-crore-in-the-june-2026-quarter-126091900127_1.html",
+          "published": "Sat, 19 Sep 2026 09:04:22 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "BSE SME Raksan Transformers holds the line after flat listing",
-          "url": "https://www.business-standard.com/markets/capital-market-news/bse-sme-raksan-transformers-holds-the-line-after-flat-listing-126091800312_1.html",
-          "published": "Fri, 18 Sep 2026 11:04:51 +0530"
+          "title": "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/hy-tech-engineers-standalone-net-profit-rises-10-84-in-the-june-2026-quarter-126091900126_1.html",
+          "published": "Sat, 19 Sep 2026 09:04:14 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Volumes spurt at The Bombay Burmah Trading Corporation Ltd counter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/volumes-spurt-at-the-bombay-burmah-trading-corporation-ltd-counter-126091800311_1.html",
-          "published": "Fri, 18 Sep 2026 11:04:39 +0530"
+          "title": "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
+          "url": "https://www.business-standard.com/markets/capital-market-news/supreme-engineering-standalone-net-profit-rises-2028-57-in-the-june-2026-quarter-126091900125_1.html",
+          "published": "Sat, 19 Sep 2026 09:04:02 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "IPO week, US Treasury bond buyback, and more...",
+          "url": "https://finshots.in/archive/ipo-week-us-treasury-bond-buyback-and-more/",
+          "published": "Sat, 19 Sep 2026 01:30:33 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,81 @@
           "published": "Wed, 16 Sep 2026 01:30:38 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The Dedicated Freight Corridor's last mile challenge",
-          "url": "https://finshots.in/archive/the-dedicated-freight-corridors-last-mile-challenge/",
-          "published": "Tue, 15 Sep 2026 01:30:21 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Concurrent Gainers: 10 smallcap stocks that gain for 5 days in a row",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-10-smallcap-stocks-that-gain-for-5-days-in-a-row/slideshow/134348701.cms",
+          "published": "Sat, 19 Sep 2026 11:14:44 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Motilal Oswal sees surging steel prices to offset cost inflation for metal majors. Here are its top stock picks",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-sees-surging-steel-prices-to-offset-cost-inflation-for-metal-majors-here-are-its-top-stock-picks/articleshow/134327119.cms",
-          "published": "Fri, 18 Sep 2026 11:18:46 +0530"
+          "title": "ETMarkets Smart Talk | Don’t chase growth at any valuation; rising US yields can pressure P/E multiples: Manish Kumar",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-dont-chase-growth-at-any-valuation-rising-us-yields-can-pressure-p/e-multiples-manish-kumar/articleshow/134348298.cms",
+          "published": "Sat, 19 Sep 2026 10:48:45 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Even JPMorgan can’t predict oil’s next move as Iran war crosses more red lines",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/even-jpmorgan-cant-predict-oils-next-move-as-iran-war-crosses-more-red-lines/articleshow/134327059.cms",
-          "published": "Fri, 18 Sep 2026 11:14:20 +0530"
+          "title": "Tata Sons IPO: How 7 Tata Group stocks performed this week amid IPO buzz",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-how-7-tata-group-stocks-performed-this-week-amid-ipo-buzz/articleshow/134347782.cms",
+          "published": "Sat, 19 Sep 2026 10:04:34 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "GPT Infraprojects shares surge 9% after securing Rs 484 crore railway order from RVNL",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/gpt-infraprojects-shares-surge-9-after-securing-rs-484-crore-railway-order-from-rvnl/articleshow/134326998.cms",
-          "published": "Fri, 18 Sep 2026 11:10:20 +0530"
+          "title": "Stock split alert! 3 stocks turning ex-record date for stock splits next week. Do you own any?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stock-split-alert-3-stocks-turning-ex-record-date-for-stock-splits-next-week-do-you-own-any/slideshow/134347867.cms",
+          "published": "Sat, 19 Sep 2026 10:03:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "India bonds little changed, debt auction cutoff to guide",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-little-changed-debt-auction-cutoff-to-guide/articleshow/134326777.cms",
-          "published": "Fri, 18 Sep 2026 10:55:08 +0530"
+          "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+          "published": "Sat, 19 Sep 2026 09:55:04 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "How Bessent, America's bond salesman, cornered Japan on big spending",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/how-bessent-americas-bond-salesman-cornered-japan-on-big-spending/articleshow/134326610.cms",
-          "published": "Fri, 18 Sep 2026 10:50:20 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Rupee rises 16 paise to 95.73 against US dollar in early trade",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rises-16-paise-to-95-73-against-us-dollar-in-early-trade/articleshow/134326642.cms",
-          "published": "Fri, 18 Sep 2026 10:46:47 +0530"
+          "title": "Two-year yield hits highest since 2024 as investors weigh outlook for rate hikes",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/two-year-yield-hits-highest-since-2024-as-investors-weigh-outlook-for-rate-hikes/articleshow/134347703.cms",
+          "published": "Sat, 19 Sep 2026 09:51:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Lodha Developers share price gains over 4% on rate hike bets - Check how other realty stocks are performing today",
-          "url": "https://www.livemint.com/market/stock-market-news/lodha-developers-share-price-gains-over-4-on-rbi-rate-hike-bets-check-how-other-realty-stocks-are-performing-today-11789711198897.html",
-          "published": "Fri, 18 Sep 2026 11:42:28 +0530"
+          "title": "Small-cap stock under ₹50: Kellton Tech in focus next week due to fundraise meeting - Check date",
+          "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-kellton-tech-in-focus-next-week-due-to-fundraise-meeting-check-date-11789792491796.html",
+          "published": "Sat, 19 Sep 2026 10:42:29 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Yatharth Hospital share price jumps 10%: What’s driving the rally?",
-          "url": "https://www.livemint.com/market/stock-market-news/yatharth-hospital-share-price-jumps-10-what-s-driving-the-rally-11789709515881.html",
-          "published": "Fri, 18 Sep 2026 11:20:07 +0530"
+          "title": "Top stocks to buy on Monday: Sumeet Bagadia recommends 3 stocks | HDFC Bank, Adani Ports, JSW Steel - targets, stop-loss",
+          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-on-monday-sumeet-bagadia-recommends-3-stocks-hdfc-bank-adani-ports-jsw-steel-targets-stoploss-11789790586065.html",
+          "published": "Sat, 19 Sep 2026 09:50:14 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Metal stocks to buy: Tata Steel, JSW Steel among Motilal Oswal’s top picks, up to 17% upside | Check target price",
-          "url": "https://www.livemint.com/market/stock-market-news/metal-stocks-to-buy-tata-steel-jsw-steel-among-motilal-oswal-s-top-picks-up-to-17-upside-check-target-price-11789707590645.html",
-          "published": "Fri, 18 Sep 2026 11:16:05 +0530"
+          "title": "Four aerospace stocks to watch as India builds its MRO industry",
+          "url": "https://www.livemint.com/market/stock-market-news/four-aerospace-stocks-to-watch-as-india-builds-its-mro-industry-11789731532873.html",
+          "published": "Sat, 19 Sep 2026 07:00:13 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Up over 65% from IPO price in just 3 days! What is driving Glass Wall Systems share price?",
-          "url": "https://www.livemint.com/market/stock-market-news/up-over-65-from-ipo-price-in-just-3-days-what-is-driving-glass-wall-systems-share-price-11789709442937.html",
-          "published": "Fri, 18 Sep 2026 11:13:33 +0530"
+          "title": "Hero Motors, NSE show two realities of India’s unlisted market",
+          "url": "https://www.livemint.com/market/ipo/hero-motors-nse-ipo-show-two-realities-of-india-s-unlisted-market-investors-trading-11789705715047.html",
+          "published": "Sat, 19 Sep 2026 05:30:11 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Small cap stock RIR Power Electronics share price jumps around 8% today: Here’s why the semiconductor stock is rallying",
-          "url": "https://www.livemint.com/market/stock-market-news/small-cap-stock-rir-power-electronics-share-price-jumps-around-8-today-here-s-why-the-semiconductor-stock-is-rallying-11789708403699.html",
-          "published": "Fri, 18 Sep 2026 11:07:32 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Tata Sons Listing | N Chandrasekaran's extension: Tata Chemicals, Tata Motors to Tata Capital — Tata Group stocks crash",
-          "url": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-n-chandrasekarans-extension-tata-chemicals-tata-motors-to-tata-capital-tata-group-stocks-crash-11789705199257.html",
-          "published": "Fri, 18 Sep 2026 10:36:16 +0530"
+          "title": "Kuku Technologies gets SEBI nod for IPO launch: Top things to know about the issue",
+          "url": "https://www.livemint.com/market/stock-market-news/kuku-technologies-gets-sebi-nod-for-ipo-launch-top-things-to-know-about-the-issue-11789760078236.html",
+          "published": "Sat, 19 Sep 2026 01:16:38 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1451,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-18 11:48 IST",
+      "checked_at": "2026-09-19 11:46 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-18 11:48 IST",
+      "generated_at": "2026-09-19 11:46 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-34,722 Cr · 15% of days positive.",
+        "reading": "20-day cumulative: Rs-29,083 Cr · 20% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1502,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-34,722 Cr · 15% of days positive.",
+          "reading": "20-day cumulative: Rs-29,083 Cr · 20% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1516,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs73,920 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs69,756 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1539,7 +1532,7 @@
           "label": "Rupee",
           "direction": "neutral",
           "strength": 53,
-          "reading": "USD/INR moved +0.2% over the last month (now 95.94).",
+          "reading": "USD/INR moved +0.2% over the last month (now 95.88).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1565,7 +1558,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-34,722 Cr · 15% of days positive.",
+          "reading": "20-day cumulative: Rs-29,083 Cr · 20% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1571,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs73,920 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs69,756 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,74 +1584,83 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-18 11:48 IST",
+    "date": "2026-09-19 11:46 IST",
     "usdinr": {
-      "last": 95.94,
-      "date": "2026-09-17"
+      "last": 95.88,
+      "date": "2026-09-18"
     },
     "dii_net": {
-      "net": 3617.75,
-      "date": "17-Sep-2026"
+      "net": 1019.69,
+      "date": "18-Sep-2026"
     },
     "fii_net": {
-      "net": -3208.76,
-      "date": "17-Sep-2026"
+      "net": 599.54,
+      "date": "18-Sep-2026"
     },
     "headlines": [
-      "BSE SME Om Galaxy struggles to find its orbit, trades below IPO price",
-      "DMR JV bags Rs 70-cr LoA for 24.60 MW Kamlang HEP",
-      "NSE IPO crosses halfway mark on 2nd day of bidding; check GMP & reviews",
-      "Skyways Air Services spurts after strong Q1 performance",
-      "BSE SME Raksan Transformers holds the line after flat listing",
-      "Volumes spurt at The Bombay Burmah Trading Corporation Ltd counter",
+      "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
+      "HEG arm bags Rs 217-cr order from Indus Towers",
+      "Shilpa Medicare Unit VII inspection ends with one procedural observation",
+      "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
+      "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
+      "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
+      "IPO week, US Treasury bond buyback, and more...",
       "How Rentomojo actually makes money",
       "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
       "India's Digital Payment Evolution: Who Killed the Cheque?",
       "Is NSE’s IPO really fairly valued?",
-      "The Hero Motors IPO explained",
-      "The Dedicated Freight Corridor's last mile challenge"
+      "The Hero Motors IPO explained"
     ]
   },
   "changes": {
     "material": [
       {
+        "kind": "flow",
+        "label": "DII flows",
+        "detail": "₹1,020 Cr"
+      },
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹600 Cr — direction flipped"
+      },
+      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "9 new"
+        "detail": "7 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.94 (-0.02%)"
+        "detail": "₹95.88 (-0.06%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹3,618 Cr"
+        "detail": "₹1,020 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-3,209 Cr"
+        "detail": "₹600 Cr — direction flipped"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "9 new"
+        "detail": "7 new"
       }
     ],
-    "since": "2026-09-17 11:55 IST",
+    "since": "2026-09-18 11:48 IST",
     "new_headlines": [
-      "BSE SME Om Galaxy struggles to find its orbit, trades below IPO price",
-      "DMR JV bags Rs 70-cr LoA for 24.60 MW Kamlang HEP",
-      "NSE IPO crosses halfway mark on 2nd day of bidding; check GMP & reviews",
-      "Skyways Air Services spurts after strong Q1 performance",
-      "BSE SME Raksan Transformers holds the line after flat listing",
-      "Volumes spurt at The Bombay Burmah Trading Corporation Ltd counter",
-      "How Rentomojo actually makes money",
-      "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman"
+      "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
+      "HEG arm bags Rs 217-cr order from Indus Towers",
+      "Shilpa Medicare Unit VII inspection ends with one procedural observation",
+      "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
+      "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
+      "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
+      "IPO week, US Treasury bond buyback, and more..."
     ]
   },
   "summary": {
