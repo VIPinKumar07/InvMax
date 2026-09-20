@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19 11:45 IST",
-  "generated_utc": "2026-09-19T06:15:22+00:00",
+  "generated_at": "2026-09-20 12:08 IST",
+  "generated_utc": "2026-09-20T06:38:31+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-19 11:45 IST",
+      "asof": "2026-09-20 12:08 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-09-19 11:45 IST",
+      "asof": "2026-09-20 12:08 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-19 11:46 IST",
+      "asof": "2026-09-20 12:09 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-09-19 11:46 IST",
+      "asof": "2026-09-20 12:09 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-09-19 11:46 IST",
+      "asof": "2026-09-20 12:09 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
-          "url": "https://www.business-standard.com/markets/capital-market-news/mazagon-dock-inks-mou-for-greenfield-shipbuilding-cluster-in-andhra-pradesh-126091900237_1.html",
-          "published": "Sat, 19 Sep 2026 11:16:01 +0530"
+          "title": "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+          "url": "https://www.business-standard.com/markets/news/fpis-withdraw-20-974-crore-from-equities-in-sep-amid-global-uncertainty-126092000171_1.html",
+          "published": "Sun, 20 Sep 2026 11:22:45 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "HEG arm bags Rs 217-cr order from Indus Towers",
-          "url": "https://www.business-standard.com/markets/capital-market-news/heg-arm-bags-rs-217-cr-order-from-indus-towers-126091900198_1.html",
-          "published": "Sat, 19 Sep 2026 10:16:02 +0530"
+          "title": "India's exports of software services up by 8.2% in FY26 to US$ 221.4 billion",
+          "url": "https://www.business-standard.com/markets/capital-market-news/india-s-exports-of-software-services-up-by-8-2-in-fy26-to-us-221-4-billion-126091900653_1.html",
+          "published": "Sat, 19 Sep 2026 17:50:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Shilpa Medicare Unit VII inspection ends with one procedural observation",
-          "url": "https://www.business-standard.com/markets/capital-market-news/shilpa-medicare-unit-vii-inspection-ends-with-one-procedural-observation-126091900148_1.html",
-          "published": "Sat, 19 Sep 2026 09:31:16 +0530"
+          "title": "Hy-Tech Engineers posts PAT of Rs 4.6 crore for Q1; board OKs business expansion plans",
+          "url": "https://www.business-standard.com/markets/capital-market-news/hy-tech-engineers-posts-pat-of-rs-4-6-crore-for-q1-board-oks-business-expansion-plans-126091900497_1.html",
+          "published": "Sat, 19 Sep 2026 15:31:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/toyam-sports-reports-consolidated-net-loss-of-rs-0-64-crore-in-the-june-2026-quarter-126091900127_1.html",
-          "published": "Sat, 19 Sep 2026 09:04:22 +0530"
+          "title": "Hazoor Multi Projects bags work contract worth Rs 207 crore",
+          "url": "https://www.business-standard.com/markets/capital-market-news/hazoor-multi-projects-bags-work-contract-worth-rs-207-crore-126091900466_1.html",
+          "published": "Sat, 19 Sep 2026 15:04:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/hy-tech-engineers-standalone-net-profit-rises-10-84-in-the-june-2026-quarter-126091900126_1.html",
-          "published": "Sat, 19 Sep 2026 09:04:14 +0530"
+          "title": "Maruti Suzuki launches automatic S-CNG models of Swift, Dzire and Baleno",
+          "url": "https://www.business-standard.com/markets/capital-market-news/maruti-suzuki-launches-automatic-s-cng-models-of-swift-dzire-and-baleno-126091900407_1.html",
+          "published": "Sat, 19 Sep 2026 14:04:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/supreme-engineering-standalone-net-profit-rises-2028-57-in-the-june-2026-quarter-126091900125_1.html",
-          "published": "Sat, 19 Sep 2026 09:04:02 +0530"
+          "title": "NIBE Group signs MoU with Naval Group, France",
+          "url": "https://www.business-standard.com/markets/capital-market-news/nibe-group-signs-mou-with-naval-group-france-126091900400_1.html",
+          "published": "Sat, 19 Sep 2026 13:50:23 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Unfair iPhone, the rise of tennis ball cricket, and more...",
+          "url": "https://finshots.in/archive/unfair-iphone-the-rise-of-tennis-ball-cricket-and-more/",
+          "published": "Sun, 20 Sep 2026 01:30:05 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,116 +1331,88 @@
           "published": "Thu, 17 Sep 2026 01:30:46 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The Hero Motors IPO explained",
-          "url": "https://finshots.in/archive/the-hero-motors-ipo-explained/",
-          "published": "Wed, 16 Sep 2026 01:30:38 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Rs 4,169 crore IPO rush this week: 19 issues to open for subscription; NSE to lead 12 listings",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/rs-4169-crore-ipo-rush-this-week-19-issues-to-open-for-subscription-nse-to-lead-12-listings/articleshow/134364576.cms",
+          "published": "Sun, 20 Sep 2026 11:59:13 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Concurrent Gainers: 10 smallcap stocks that gain for 5 days in a row",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-10-smallcap-stocks-that-gain-for-5-days-in-a-row/slideshow/134348701.cms",
-          "published": "Sat, 19 Sep 2026 11:14:44 +0530"
+          "title": "NSE GMP falls to its lowest level since the IPO announcement. Is the listing pop fading?",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/nse-gmp-falls-to-its-lowest-level-since-the-ipo-announcement-is-the-listing-pop-fading/articleshow/134364080.cms",
+          "published": "Sun, 20 Sep 2026 11:03:40 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ETMarkets Smart Talk | Don’t chase growth at any valuation; rising US yields can pressure P/E multiples: Manish Kumar",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-dont-chase-growth-at-any-valuation-rising-us-yields-can-pressure-p/e-multiples-manish-kumar/articleshow/134348298.cms",
-          "published": "Sat, 19 Sep 2026 10:48:45 +0530"
+          "title": "David Tepper’s investing lessons: How to navigate big market corrections",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/david-teppers-investing-lessons-how-to-navigate-big-market-corrections/articleshow/134364045.cms",
+          "published": "Sun, 20 Sep 2026 11:00:38 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Tata Sons IPO: How 7 Tata Group stocks performed this week amid IPO buzz",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-sons-ipo-how-7-tata-group-stocks-performed-this-week-amid-ipo-buzz/articleshow/134347782.cms",
-          "published": "Sat, 19 Sep 2026 10:04:34 +0530"
+          "title": "JioBlackRock CIO Rishi Kohli decodes Nifty’s inflection point after two years of weak returns",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/jioblackrock-cio-rishi-kohli-decodes-niftys-inflection-point-after-two-years-of-weak-returns/articleshow/134363762.cms",
+          "published": "Sun, 20 Sep 2026 10:29:30 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stock split alert! 3 stocks turning ex-record date for stock splits next week. Do you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stock-split-alert-3-stocks-turning-ex-record-date-for-stock-splits-next-week-do-you-own-any/slideshow/134347867.cms",
-          "published": "Sat, 19 Sep 2026 10:03:43 +0530"
+          "title": "$1.5 trillion wealth transfer is coming. How India’s next-gen HNIs are rebuilding family portfolios",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/1-5-trillion-wealth-transfer-is-coming-how-indias-next-gen-hnis-are-rebuilding-family-portfolios/articleshow/134363752.cms",
+          "published": "Sun, 20 Sep 2026 10:25:19 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
-          "published": "Sat, 19 Sep 2026 09:55:04 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Two-year yield hits highest since 2024 as investors weigh outlook for rate hikes",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/two-year-yield-hits-highest-since-2024-as-investors-weigh-outlook-for-rate-hikes/articleshow/134347703.cms",
-          "published": "Sat, 19 Sep 2026 09:51:41 +0530"
+          "title": "Dividends and stock splits: IRCTC, BEML among 150+ stocks with record dates this week. Check full list",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividends-and-stock-splits-irctc-beml-among-150-stocks-with-record-dates-this-week-check-full-list/articleshow/134363543.cms",
+          "published": "Sun, 20 Sep 2026 09:50:25 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Small-cap stock under ₹50: Kellton Tech in focus next week due to fundraise meeting - Check date",
-          "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-kellton-tech-in-focus-next-week-due-to-fundraise-meeting-check-date-11789792491796.html",
-          "published": "Sat, 19 Sep 2026 10:42:29 +0530"
+          "title": "Top stocks to buy under ₹100: Equitas Small, Meghmani Organics, Filatex by Sumeet Bagadia; check stop-loss, target price",
+          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-100-equitas-small-meghmani-organics-filatex-by-sumeet-bagadia-check-stop-loss-target-price-11789883488386.html",
+          "published": "Sun, 20 Sept 2026 12:04:20 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Top stocks to buy on Monday: Sumeet Bagadia recommends 3 stocks | HDFC Bank, Adani Ports, JSW Steel - targets, stop-loss",
-          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-on-monday-sumeet-bagadia-recommends-3-stocks-hdfc-bank-adani-ports-jsw-steel-targets-stoploss-11789790586065.html",
-          "published": "Sat, 19 Sep 2026 09:50:14 +0530"
+          "title": "India Equity Strategy by Jefferies with 2030 Targets: Top 6 themes - Space, Semiconductors, Aerospace, and 3 others",
+          "url": "https://www.livemint.com/market/stock-market-news/india-equity-strategy-by-jefferies-with-2030-targets-top-6-themes-space-semiconductors-aerospace-and-3-others-11789879754848.html",
+          "published": "Sun, 20 Sept 2026 11:17:11 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Four aerospace stocks to watch as India builds its MRO industry",
-          "url": "https://www.livemint.com/market/stock-market-news/four-aerospace-stocks-to-watch-as-india-builds-its-mro-industry-11789731532873.html",
-          "published": "Sat, 19 Sep 2026 07:00:13 +0530"
+          "title": "Stock market prediction for tomorrow: Sensex, Nifty outlook - What GIFT Nifty, Nikkei, Kospi, Taiwan signal for India",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-sensex-nifty-outlook-what-gift-nifty-nikkei-kospi-taiwan-signal-for-india-11789876448717.html",
+          "published": "Sun, 20 Sept 2026 10:11:26 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Hero Motors, NSE show two realities of India’s unlisted market",
-          "url": "https://www.livemint.com/market/ipo/hero-motors-nse-ipo-show-two-realities-of-india-s-unlisted-market-investors-trading-11789705715047.html",
-          "published": "Sat, 19 Sep 2026 05:30:11 +0530"
+          "title": "ITC stock: 360 ONE maintains BUY, sees 68% upside; here’s why brokerage is bullish",
+          "url": "https://www.livemint.com/market/stock-market-news/itc-stock-360-one-maintains-buy-sees-65-upside-here-s-why-brokerage-is-bullish-11789814022662.html",
+          "published": "Sat, 19 Sept 2026 17:27:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Kuku Technologies gets SEBI nod for IPO launch: Top things to know about the issue",
-          "url": "https://www.livemint.com/market/stock-market-news/kuku-technologies-gets-sebi-nod-for-ipo-launch-top-things-to-know-about-the-issue-11789760078236.html",
-          "published": "Sat, 19 Sep 2026 01:16:38 +0530"
+          "title": "IPO GMP compared: SS Retail, Hero Motors, Jindal Supreme - allotment soon, how to check status online, subscription",
+          "url": "https://www.livemint.com/market/ipo/ipo-gmp-compared-ss-retail-hero-motors-jindal-supreme-allotment-soon-how-to-check-status-online-subscription-11789811154721.html",
+          "published": "Sat, 19 Sept 2026 16:24:05 +0530"
         },
         {
-          "source": "Moneycontrol",
+          "source": "Mint",
           "weight": "medium",
-          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+          "title": "Top stocks to buy under ₹200: Castrol, NHPC, Vikram Solar - 3 shares by Anand Rathi‘s Mehul Kothari; target, stop-loss",
+          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-under-rs-200-castrol-nhpc-vikram-solar-3-shares-by-anand-rathi-s-mehul-kothari-target-stoploss-11789809341916.html",
+          "published": "Sat, 19 Sept 2026 15:14:11 +0530"
         }
       ]
     },
@@ -1451,18 +1430,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-19 11:46 IST",
+      "checked_at": "2026-09-20 12:09 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-19 11:46 IST",
+      "generated_at": "2026-09-20 12:09 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-29,083 Cr · 20% of days positive.",
+        "reading": "20-day cumulative: Rs-23,443 Cr · 25% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1502,7 +1481,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-29,083 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-23,443 Cr · 25% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1516,7 +1495,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs69,756 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs65,592 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1558,7 +1537,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-29,083 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-23,443 Cr · 25% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1571,7 +1550,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs69,756 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs65,592 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1584,7 +1563,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-19 11:46 IST",
+    "date": "2026-09-20 12:09 IST",
     "usdinr": {
       "last": 95.88,
       "date": "2026-09-18"
@@ -1598,32 +1577,22 @@
       "date": "18-Sep-2026"
     },
     "headlines": [
-      "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
-      "HEG arm bags Rs 217-cr order from Indus Towers",
-      "Shilpa Medicare Unit VII inspection ends with one procedural observation",
-      "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
-      "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
-      "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
+      "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+      "India's exports of software services up by 8.2% in FY26 to US$ 221.4 billion",
+      "Hy-Tech Engineers posts PAT of Rs 4.6 crore for Q1; board OKs business expansion plans",
+      "Hazoor Multi Projects bags work contract worth Rs 207 crore",
+      "Maruti Suzuki launches automatic S-CNG models of Swift, Dzire and Baleno",
+      "NIBE Group signs MoU with Naval Group, France",
+      "Unfair iPhone, the rise of tennis ball cricket, and more...",
       "IPO week, US Treasury bond buyback, and more...",
       "How Rentomojo actually makes money",
       "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
       "India's Digital Payment Evolution: Who Killed the Cheque?",
-      "Is NSE’s IPO really fairly valued?",
-      "The Hero Motors IPO explained"
+      "Is NSE’s IPO really fairly valued?"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹1,020 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹600 Cr — direction flipped"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1634,7 +1603,7 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.88 (-0.06%)"
+        "detail": "₹95.88 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1644,7 +1613,7 @@
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹600 Cr — direction flipped"
+        "detail": "₹600 Cr"
       },
       {
         "kind": "news",
@@ -1652,15 +1621,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-18 11:48 IST",
+    "since": "2026-09-19 11:46 IST",
     "new_headlines": [
-      "Mazagon Dock inks MoU for greenfield shipbuilding cluster in Andhra Pradesh",
-      "HEG arm bags Rs 217-cr order from Indus Towers",
-      "Shilpa Medicare Unit VII inspection ends with one procedural observation",
-      "Toyam Sports reports consolidated net loss of Rs 0.64 crore in the June 2026 quarter",
-      "Hy-Tech Engineers standalone net profit rises 10.84% in the June 2026 quarter",
-      "Supreme Engineering standalone net profit rises 2028.57% in the June 2026 quarter",
-      "IPO week, US Treasury bond buyback, and more..."
+      "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+      "India's exports of software services up by 8.2% in FY26 to US$ 221.4 billion",
+      "Hy-Tech Engineers posts PAT of Rs 4.6 crore for Q1; board OKs business expansion plans",
+      "Hazoor Multi Projects bags work contract worth Rs 207 crore",
+      "Maruti Suzuki launches automatic S-CNG models of Swift, Dzire and Baleno",
+      "NIBE Group signs MoU with Naval Group, France",
+      "Unfair iPhone, the rise of tennis ball cricket, and more..."
     ]
   },
   "summary": {

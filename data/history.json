@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-21 08:13 IST",
-  "usdinr": {
-   "last": 95.71,
-   "date": "2026-08-20"
-  },
-  "dii_net": {
-   "net": 3537.71,
-   "date": "20-Aug-2026"
-  },
-  "fii_net": {
-   "net": -583.36,
-   "date": "20-Aug-2026"
-  },
-  "headlines": [
-   "HDFC Sec suggests Bear Spread on Nifty Midcap, Bull Spread on Canara Bank",
-   "Stocks to watch: Tata Motors, Tata Power, Mankind Pharma, SBI, RailTel",
-   "FTSE Russell equity indices clears BSE as eligible exchange from March 2027",
-   "Stock Market LIVE: GIFT Nifty signals positive open; Asia mkts mixed post Wall Street pullback",
-   "Bonanza's Kunal Kamble is bullish on MCX and two other stocks; details here",
-   "Sebi permits digitally signed power of attorney to ease FPI onboarding",
-   "How traders allegedly gamed CAS",
-   "The Augmont IPO Explained",
-   "RBI's problem with revolving credit",
-   "Why Bank of America wants a piece of India's lending boom",
-   "The story of the Indian rupee since 1947",
-   "Gen Z lily padding and more..."
-  ]
- },
- {
   "date": "2026-08-22 08:04 IST",
   "usdinr": {
    "last": 95.7,
@@ -867,6 +838,35 @@
    "India's Digital Payment Evolution: Who Killed the Cheque?",
    "Is NSE’s IPO really fairly valued?",
    "The Hero Motors IPO explained"
+  ]
+ },
+ {
+  "date": "2026-09-20 12:09 IST",
+  "usdinr": {
+   "last": 95.88,
+   "date": "2026-09-18"
+  },
+  "dii_net": {
+   "net": 1019.69,
+   "date": "18-Sep-2026"
+  },
+  "fii_net": {
+   "net": 599.54,
+   "date": "18-Sep-2026"
+  },
+  "headlines": [
+   "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+   "India's exports of software services up by 8.2% in FY26 to US$ 221.4 billion",
+   "Hy-Tech Engineers posts PAT of Rs 4.6 crore for Q1; board OKs business expansion plans",
+   "Hazoor Multi Projects bags work contract worth Rs 207 crore",
+   "Maruti Suzuki launches automatic S-CNG models of Swift, Dzire and Baleno",
+   "NIBE Group signs MoU with Naval Group, France",
+   "Unfair iPhone, the rise of tennis ball cricket, and more...",
+   "IPO week, US Treasury bond buyback, and more...",
+   "How Rentomojo actually makes money",
+   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
+   "India's Digital Payment Evolution: Who Killed the Cheque?",
+   "Is NSE’s IPO really fairly valued?"
   ]
  }
 ]
