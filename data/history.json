@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-23 08:14 IST",
-  "usdinr": {
-   "last": 95.7,
-   "date": "2026-08-21"
-  },
-  "dii_net": {
-   "net": 2124.14,
-   "date": "21-Aug-2026"
-  },
-  "fii_net": {
-   "net": -542.71,
-   "date": "21-Aug-2026"
-  },
-  "headlines": [
-   "Sebi proposes channel partners to expand retail access to bonds in India",
-   "Monarch Surveyors and Engineering Consultants receives Rs 2-cr work order",
-   "Sebi proposes tighter curbs on promotional claims by online bond platforms",
-   "B.R.Goyal Infrastructure receives Rs 151-cr NHAI work order",
-   "Framework for monitoring utilisation of issue proceeds under review: Sebi",
-   "Mamata Machinery geta patent for its Quadra 600 machine",
-   "YouTube versus Netflix, biodegradable milk packets, and more...",
-   "CAS manipulation, the BofA-Jio Credit deal, and more...",
-   "How traders allegedly gamed CAS",
-   "The Augmont IPO Explained",
-   "RBI's problem with revolving credit",
-   "Why Bank of America wants a piece of India's lending boom"
-  ]
- },
- {
   "date": "2026-08-24 08:14 IST",
   "usdinr": {
    "last": 95.7,
@@ -867,6 +838,35 @@
    "How Rentomojo actually makes money",
    "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
    "India's Digital Payment Evolution: Who Killed the Cheque?"
+  ]
+ },
+ {
+  "date": "2026-09-22 12:05 IST",
+  "usdinr": {
+   "last": 95.82,
+   "date": "2026-09-21"
+  },
+  "dii_net": {
+   "net": 2797.27,
+   "date": "21-Sep-2026"
+  },
+  "fii_net": {
+   "net": -576.2,
+   "date": "21-Sep-2026"
+  },
+  "headlines": [
+   "BSE SME Quanto Agroworld loses its footing after debut",
+   "Symbiotec Pharmalab posts nearly 53% YoY fall in Q1 PAT",
+   "South Korean pension fund seeks India government bond investment licence",
+   "Crude oil outlook: US-Iran talks; high transit cost in focus",
+   "US stocks supported, Nasdaq reaches new closing high",
+   "Puravankara rises on acquiring land parcel in Delhi-NCR with GDV potential of Rs 5,200 crore",
+   "What's happening to India's rice output?",
+   "Do we really need blockchain for bonds?",
+   "Unfair iPhone, the rise of tennis ball cricket, and more...",
+   "IPO week, US Treasury bond buyback, and more...",
+   "How Rentomojo actually makes money",
+   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman"
   ]
  }
 ]

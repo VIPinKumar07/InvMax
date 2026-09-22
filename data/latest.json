@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21 12:14 IST",
-  "generated_utc": "2026-09-21T06:44:50+00:00",
+  "generated_at": "2026-09-22 12:02 IST",
+  "generated_utc": "2026-09-22T06:32:20+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-21 12:14 IST",
+      "asof": "2026-09-22 12:02 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-09-18",
+        "asof": "2026-09-21",
         "rates": {
-          "EUR": 0.8726,
-          "GBP": 0.74939,
-          "INR": 95.88,
-          "JPY": 157.89
+          "EUR": 0.87032,
+          "GBP": 0.74656,
+          "INR": 95.82,
+          "JPY": 157.27
         },
         "usdinr_history": [
-          {
-            "date": "2025-09-19",
-            "v": 88.16
-          },
           {
             "date": "2025-09-22",
             "v": 88.28
@@ -1071,44 +1067,18 @@
           {
             "date": "2026-09-18",
             "v": 95.88
+          },
+          {
+            "date": "2026-09-21",
+            "v": 95.82
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-09-21 12:14 IST",
+      "asof": "2026-09-22 12:03 IST",
       "status": "ok",
       "data": [
-        {
-          "code": "119551",
-          "label": "Flexicap (sample)",
-          "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.0677,
-          "date": "18-09-2026",
-          "ret1y_pct": -0.99,
-          "series": [
-            102.8828,
-            103.523,
-            104.5887,
-            106.4573,
-            107.7345,
-            107.7677,
-            108.2167,
-            108.0088,
-            109.0926,
-            109.8609,
-            110.3299,
-            110.2175,
-            110.4233,
-            110.9898,
-            104.7821,
-            104.4216,
-            105.9003,
-            106.5737,
-            107.136,
-            107.0677
-          ]
-        },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
@@ -1212,7 +1182,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-21 12:16 IST",
+      "asof": "2026-09-22 12:05 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1195,75 @@
       }
     },
     "flows": {
-      "asof": "2026-09-21 12:16 IST",
+      "asof": "2026-09-22 12:05 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "18-Sep-2026",
-          "buy": 17310.04,
-          "sell": 16290.35,
-          "net": 1019.69
+          "date": "21-Sep-2026",
+          "buy": 14098.64,
+          "sell": 11301.37,
+          "net": 2797.27
         },
         "fii": {
-          "date": "18-Sep-2026",
-          "buy": 38461.63,
-          "sell": 37862.09,
-          "net": 599.54
+          "date": "21-Sep-2026",
+          "buy": 10637.17,
+          "sell": 11213.37,
+          "net": -576.2
         }
       }
     },
     "news": {
-      "asof": "2026-09-21 12:16 IST",
+      "asof": "2026-09-22 12:05 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Hero Motors IPO ends with 6.66 times subscription",
-          "url": "https://www.business-standard.com/markets/capital-market-news/hero-motors-ipo-ends-with-6-66-times-subscription-126092100321_1.html",
-          "published": "Mon, 21 Sep 2026 12:04:28 +0530"
+          "title": "BSE SME Quanto Agroworld loses its footing after debut",
+          "url": "https://www.business-standard.com/markets/capital-market-news/bse-sme-quanto-agroworld-loses-its-footing-after-debut-126092200346_1.html",
+          "published": "Tue, 22 Sep 2026 12:04:15 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Edelweiss opens public issue of NCDs up to Rs 300 cr",
-          "url": "https://www.business-standard.com/markets/capital-market-news/edelweiss-opens-public-issue-of-ncds-up-to-rs-300-cr-126092100320_1.html",
-          "published": "Mon, 21 Sep 2026 12:04:19 +0530"
+          "title": "Symbiotec Pharmalab posts nearly 53% YoY fall in Q1 PAT",
+          "url": "https://www.business-standard.com/markets/capital-market-news/symbiotec-pharmalab-posts-nearly-53-yoy-fall-in-q1-pat-126092200345_1.html",
+          "published": "Tue, 22 Sep 2026 12:04:07 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Protean eGov Technologies Ltd leads gainers in 'A' group",
-          "url": "https://www.business-standard.com/markets/capital-market-news/protean-egov-technologies-ltd-leads-gainers-in-a-group-126092100319_1.html",
-          "published": "Mon, 21 Sep 2026 12:04:10 +0530"
+          "title": "South Korean pension fund seeks India government bond investment licence",
+          "url": "https://www.business-standard.com/markets/news/south-korean-pension-fund-seeks-india-government-bond-investment-licence-126092200318_1.html",
+          "published": "Tue, 22 Sep 2026 11:57:18 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "BSE SME Injecto Polymers loses its grip after listing",
-          "url": "https://www.business-standard.com/markets/capital-market-news/bse-sme-injecto-polymers-loses-its-grip-after-listing-126092100318_1.html",
-          "published": "Mon, 21 Sep 2026 12:04:01 +0530"
+          "title": "Crude oil outlook: US-Iran talks; high transit cost in focus",
+          "url": "https://www.business-standard.com/markets/commodities/crude-oil-outlook-us-iran-talks-high-transit-cost-in-focus-126092200332_1.html",
+          "published": "Tue, 22 Sep 2026 11:54:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "BSE SME Century Business Media makes a measured debut",
-          "url": "https://www.business-standard.com/markets/capital-market-news/bse-sme-century-business-media-makes-a-measured-debut-126092100305_1.html",
-          "published": "Mon, 21 Sep 2026 11:50:21 +0530"
+          "title": "US stocks supported, Nasdaq reaches new closing high",
+          "url": "https://www.business-standard.com/markets/capital-market-news/us-stocks-supported-nasdaq-reaches-new-closing-high-126092200330_1.html",
+          "published": "Tue, 22 Sep 2026 11:50:37 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nifty above 23,350; FMCG shares advance",
-          "url": "https://www.business-standard.com/markets/capital-market-news/nifty-above-23-350-fmcg-shares-advance-126092100304_1.html",
-          "published": "Mon, 21 Sep 2026 11:50:01 +0530"
+          "title": "Puravankara rises on acquiring land parcel in Delhi-NCR with GDV potential of Rs 5,200 crore",
+          "url": "https://www.business-standard.com/markets/capital-market-news/puravankara-rises-on-acquiring-land-parcel-in-delhi-ncr-with-gdv-potential-of-rs-5-200-crore-126092200329_1.html",
+          "published": "Tue, 22 Sep 2026 11:50:26 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "What's happening to India's rice output?",
+          "url": "https://finshots.in/archive/whats-happening-to-indias-rice-output/",
+          "published": "Tue, 22 Sep 2026 01:30:04 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1301,88 @@
           "published": "Thu, 17 Sep 2026 15:16:43 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "India's Digital Payment Evolution: Who Killed the Cheque?",
-          "url": "https://finshots.in/infographic/indias-digital-payment-evolution-who-killed-the-cheque/",
-          "published": "Thu, 17 Sep 2026 14:54:18 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Hindustan Copper shares gain 3% as company plans Rs 7,000 crore capital investment in next 5 years",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hindustan-copper-shares-gain-3-as-company-plans-rs-7000-crore-capital-investment-in-next-5-years/articleshow/134404296.cms",
+          "published": "Tue, 22 Sep 2026 11:45:11 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "OFSS shares tumble 7%; Wipro, Coforge, Infosys shares down up to 2%. Why are IT stocks under pressure today?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ofss-shares-tumble-7-wipro-coforge-infosys-shares-down-up-to-2-why-are-it-stocks-under-pressure-today/articleshow/134381888.cms",
-          "published": "Mon, 21 Sep 2026 11:52:19 +0530"
+          "title": "Embassy Developments rallies 8% after Rs 711 crore residential tower deal with Angel One founder",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/embassy-developments-rallies-8-after-rs-711-crore-residential-tower-deal-with-angel-one-founder/articleshow/134404167.cms",
+          "published": "Tue, 22 Sep 2026 11:40:20 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Markets: 5 key things to watch out for this week",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-5-key-things-to-watch-out-for-this-week/slideshow/134382188.cms",
-          "published": "Mon, 21 Sep 2026 11:50:45 +0530"
+          "title": "Textile stocks rally up to 10%: Raymond, Gokaldas Exports & others rebound after Trump tariff-triggered selloff",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/textile-stocks-rally-up-to-10-raymond-gokaldas-exports-other-stocks-rebound-after-trump-tariff-worries-spark-selloff/articleshow/134403813.cms",
+          "published": "Tue, 22 Sep 2026 11:26:19 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "India bonds calm as oil dip counters US selloff, RBI sales",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-calm-as-oil-dip-counters-us-selloff-rbi-sales/articleshow/134381830.cms",
-          "published": "Mon, 21 Sep 2026 11:46:20 +0530"
+          "title": "Global Market: Warner Bros, Paramount shares jump on merger settlement talks",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-warner-bros-paramount-shares-jump-on-merger-settlement-talks/articleshow/134403764.cms",
+          "published": "Tue, 22 Sep 2026 11:22:28 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "US Market: Fed's Kashkari says US inflation still too high despite rate hike",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-market-feds-kashkari-says-us-inflation-still-too-high-despite-rate-hike/articleshow/134381681.cms",
-          "published": "Mon, 21 Sep 2026 11:43:32 +0530"
+          "title": "Motilal Oswal initiates Buy on Solar Industries, sees 24% upside. 4 reasons why",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-initiates-buy-on-solar-industries-sees-24-upside-4-reasons-why/articleshow/134403261.cms",
+          "published": "Tue, 22 Sep 2026 11:12:47 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Pine Labs shares can rally 30%, says Motilal Oswal after initiating coverage with Buy. Here’s why",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/pine-labs-shares-can-rally-30-says-motilal-oswal-after-initiating-coverage-with-buy-heres-why/articleshow/134381725.cms",
-          "published": "Mon, 21 Sep 2026 11:42:26 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Global Market: China, Hong Kong stocks rise as investors await Trump-Xi meeting",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-hong-kong-stocks-rise-as-investors-await-trump-xi-meeting/articleshow/134380966.cms",
-          "published": "Mon, 21 Sep 2026 11:12:46 +0530"
+          "title": "Global Market: Yuan climbs to strongest level since 2023 as Xi-Trump talks loom",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-yuan-climbs-to-strongest-level-since-2023-as-xi-trump-talks-loom/articleshow/134403533.cms",
+          "published": "Tue, 22 Sep 2026 11:11:28 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Top stocks to buy for short term: Jigar Patel recommends Castrol, HDFC Life, Gabriel - Check target price, stop loss",
-          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-for-short-term-jigar-patel-recommends-castrol-hdfc-life-gabriel-check-target-price-stop-loss-11789906949173.html",
-          "published": "Mon, 21 Sep 2026 12:12:07 +0530"
+          "title": "Stock at Heart of Turkish Fund Crisis Ejected From Top Indexes",
+          "url": "https://www.livemint.com/market/stock-at-heart-of-turkish-fund-crisis-ejected-from-top-indexes-11790058833872.html",
+          "published": "Tue, 22 Sep 2026 12:03:53 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "600% gains in 5 years and still counting! Raymond stock surges 7%, what's driving the rally?",
-          "url": "https://www.livemint.com/market/stock-market-news/600-gains-in-5-years-and-still-counting-raymond-stock-surges-7-whats-driving-the-rally-11789970059731.html",
-          "published": "Mon, 21 Sep 2026 12:00:19 +0530"
+          "title": "Defence stock rallies 100% in 6 months! ICICI Direct sees 25% upside in Apollo Micro Systems, check target price",
+          "url": "https://www.livemint.com/market/stock-market-news/defence-stock-rallies-100-in-6-months-icici-direct-sees-25-upside-in-apollo-micro-systems-check-target-price-11790056051159.html",
+          "published": "Tue, 22 Sep 2026 12:02:43 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Tata Capital, Tata Power, and more: Tata stocks fall as Tata Trusts-Tata Sons battle intensifies - Check the latest",
-          "url": "https://www.livemint.com/market/stock-market-news/tata-capital-tata-power-and-more-tata-stocks-fall-as-tata-trusts-tata-sons-battle-intensifies-check-the-latest-11789968617646.html",
-          "published": "Mon, 21 Sep 2026 11:37:43 +0530"
+          "title": "Tata Sons listing: How will it impact the Tata Group shareholders?",
+          "url": "https://www.livemint.com/market/stock-market-news/tata-sons-listing-how-will-it-impact-the-tata-group-shareholders-11790053625211.html",
+          "published": "Tue, 22 Sep 2026 11:54:50 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "HEG Advanced Materials share price rises on new order from Indus Towers | Do you own?",
-          "url": "https://www.livemint.com/market/stock-market-news/heg-advanced-materials-share-price-rises-on-new-order-from-indus-towers-do-you-own-11789968527065.html",
-          "published": "Mon, 21 Sep 2026 11:29:18 +0530"
+          "title": "Fedders Holding shares hit a 52-week high - What is driving the stock rally? Should you buy?",
+          "url": "https://www.livemint.com/market/stock-market-news/fedders-holding-shares-hit-a-52-week-high-what-is-driving-the-stock-rally-should-you-buy-11790057112380.html",
+          "published": "Tue, 22 Sep 2026 11:50:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Knowledge Marine shares jump 5% then drop 2% despite this work order update - What next? Tech experts decode",
-          "url": "https://www.livemint.com/market/stock-market-news/knowledge-marine-shares-jump-5-then-drop-2-despite-this-work-order-update-what-next-tech-experts-decode-11789968774263.html",
-          "published": "Mon, 21 Sep 2026 11:14:10 +0530"
+          "title": "Waaree Energies share price: Joindre Capital initiates coverage | Check target, rationale, upside, returns",
+          "url": "https://www.livemint.com/market/stock-market-news/waaree-energies-share-price-joindre-capital-initiates-coverage-check-target-rationale-upside-returns-11790053473712.html",
+          "published": "Tue, 22 Sep 2026 11:23:27 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "NSE IPO: Will there be a negative listing? But, should you still apply — if yes, then why | What experts suggest",
-          "url": "https://www.livemint.com/market/ipo/nse-ipo-will-there-be-a-negative-listing-but-should-you-still-apply-if-yes-then-why-what-experts-suggest-11789965511769.html",
-          "published": "Mon, 21 Sep 2026 10:57:11 +0530"
+          "title": "Meesho shares jump 6% as UBS raises target price - Check revised one | Rationale explained",
+          "url": "https://www.livemint.com/market/stock-market-news/meesho-shares-jump-6-as-ubs-raises-target-price-check-revised-one-rationale-explained-11790054538954.html",
+          "published": "Tue, 22 Sep 2026 11:17:55 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1428,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-21 12:16 IST",
+      "checked_at": "2026-09-22 12:05 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-21 12:16 IST",
+      "generated_at": "2026-09-22 12:05 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Domestic flows",
         "conclusion": "Domestic flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs62,022 Cr · 100% of days positive.",
+        "reading": "20-day cumulative: +Rs62,973 Cr · 100% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1479,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs62,022 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs62,973 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,9 +1493,9 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-14,858 Cr · 30% of days positive.",
+          "reading": "20-day cumulative: Rs-16,578 Cr · 25% of days positive.",
           "direction": "bearish",
-          "strength": 80,
+          "strength": 83,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1538,8 +1508,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 53,
-          "reading": "USD/INR moved +0.2% over the last month (now 95.88).",
+          "strength": 52,
+          "reading": "USD/INR moved +0.1% over the last month (now 95.82).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1564,8 +1534,8 @@
           "id": "flow_fii_net",
           "label": "Foreign flows",
           "direction": "bearish",
-          "strength": 80,
-          "reading": "20-day cumulative: Rs-14,858 Cr · 30% of days positive.",
+          "strength": 83,
+          "reading": "20-day cumulative: Rs-16,578 Cr · 25% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1548,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs62,022 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs62,973 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,36 +1561,41 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-21 12:16 IST",
+    "date": "2026-09-22 12:05 IST",
     "usdinr": {
-      "last": 95.88,
-      "date": "2026-09-18"
+      "last": 95.82,
+      "date": "2026-09-21"
     },
     "dii_net": {
-      "net": 1019.69,
-      "date": "18-Sep-2026"
+      "net": 2797.27,
+      "date": "21-Sep-2026"
     },
     "fii_net": {
-      "net": 599.54,
-      "date": "18-Sep-2026"
+      "net": -576.2,
+      "date": "21-Sep-2026"
     },
     "headlines": [
-      "Hero Motors IPO ends with 6.66 times subscription",
-      "Edelweiss opens public issue of NCDs up to Rs 300 cr",
-      "Protean eGov Technologies Ltd leads gainers in 'A' group",
-      "BSE SME Injecto Polymers loses its grip after listing",
-      "BSE SME Century Business Media makes a measured debut",
-      "Nifty above 23,350; FMCG shares advance",
+      "BSE SME Quanto Agroworld loses its footing after debut",
+      "Symbiotec Pharmalab posts nearly 53% YoY fall in Q1 PAT",
+      "South Korean pension fund seeks India government bond investment licence",
+      "Crude oil outlook: US-Iran talks; high transit cost in focus",
+      "US stocks supported, Nasdaq reaches new closing high",
+      "Puravankara rises on acquiring land parcel in Delhi-NCR with GDV potential of Rs 5,200 crore",
+      "What's happening to India's rice output?",
       "Do we really need blockchain for bonds?",
       "Unfair iPhone, the rise of tennis ball cricket, and more...",
       "IPO week, US Treasury bond buyback, and more...",
       "How Rentomojo actually makes money",
-      "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
-      "India's Digital Payment Evolution: Who Killed the Cheque?"
+      "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman"
     ]
   },
   "changes": {
     "material": [
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹-576 Cr — direction flipped"
+      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1631,17 +1606,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.88 (+0.00%)"
+        "detail": "₹95.82 (-0.06%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹1,020 Cr"
+        "detail": "₹2,797 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹600 Cr"
+        "detail": "₹-576 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1649,15 +1624,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-20 12:09 IST",
+    "since": "2026-09-21 12:16 IST",
     "new_headlines": [
-      "Hero Motors IPO ends with 6.66 times subscription",
-      "Edelweiss opens public issue of NCDs up to Rs 300 cr",
-      "Protean eGov Technologies Ltd leads gainers in 'A' group",
-      "BSE SME Injecto Polymers loses its grip after listing",
-      "BSE SME Century Business Media makes a measured debut",
-      "Nifty above 23,350; FMCG shares advance",
-      "Do we really need blockchain for bonds?"
+      "BSE SME Quanto Agroworld loses its footing after debut",
+      "Symbiotec Pharmalab posts nearly 53% YoY fall in Q1 PAT",
+      "South Korean pension fund seeks India government bond investment licence",
+      "Crude oil outlook: US-Iran talks; high transit cost in focus",
+      "US stocks supported, Nasdaq reaches new closing high",
+      "Puravankara rises on acquiring land parcel in Delhi-NCR with GDV potential of Rs 5,200 crore",
+      "What's happening to India's rice output?"
     ]
   },
   "summary": {
