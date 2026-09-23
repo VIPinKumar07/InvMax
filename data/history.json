@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-24 08:14 IST",
-  "usdinr": {
-   "last": 95.7,
-   "date": "2026-08-21"
-  },
-  "dii_net": {
-   "net": 2124.14,
-   "date": "21-Aug-2026"
-  },
-  "fii_net": {
-   "net": -542.71,
-   "date": "21-Aug-2026"
-  },
-  "headlines": [
-   "Stock Market LIVE: GIFT Nifty signals higher open; Asia mkts mixed; Bessent to declare Iran sanction",
-   "India's $10 billion equity rush puts August on track for a record month",
-   "KFintech, Affle 3i: Two breakout ideas from Angel One",
-   "Asian shares flat ahead of expected US sanctions on Iran, Nvidia results",
-   "Oil prices fall ahead of expected US announcement on new Iran sanctions",
-   "Derivatives market gets Gen Z twist, but losses cast a long shadow: Sebi",
-   "NSE's dilemma with going public",
-   "YouTube versus Netflix, biodegradable milk packets, and more...",
-   "CAS manipulation, the BofA-Jio Credit deal, and more...",
-   "How traders allegedly gamed CAS",
-   "The Augmont IPO Explained",
-   "RBI's problem with revolving credit"
-  ]
- },
- {
   "date": "2026-08-25 08:07 IST",
   "usdinr": {
    "last": 95.76,
@@ -867,6 +838,35 @@
    "IPO week, US Treasury bond buyback, and more...",
    "How Rentomojo actually makes money",
    "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman"
+  ]
+ },
+ {
+  "date": "2026-09-23 11:49 IST",
+  "usdinr": {
+   "last": 95.59,
+   "date": "2026-09-22"
+  },
+  "dii_net": {
+   "net": 4120.07,
+   "date": "22-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3809.99,
+   "date": "22-Sep-2026"
+  },
+  "headlines": [
+   "Arvind SmartSpaces surges after Bengaluru project records bookings of over Rs 500 crore",
+   "ArMee Infotech IPO: Why brokerages are divided on ₹300-crore public issue",
+   "Defence sector to offer sustained growth; HAL, BEL among top picks: Emkay",
+   "IDFC First Bank up 3%, nears 52-week high; Motilal Oswal upgrades to Buy",
+   "Volumes jump at Escorts Kubota Ltd counter",
+   "360 One Wam climbs after appointing Aashish Agarwal as CEO",
+   "Why ISRO is handing its commercial empire to private industry",
+   "What's happening to India's rice output?",
+   "Do we really need blockchain for bonds?",
+   "Unfair iPhone, the rise of tennis ball cricket, and more...",
+   "IPO week, US Treasury bond buyback, and more...",
+   "How Rentomojo actually makes money"
   ]
  }
 ]
