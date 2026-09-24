@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-25 08:07 IST",
-  "usdinr": {
-   "last": 95.76,
-   "date": "2026-08-24"
-  },
-  "dii_net": {
-   "net": 2493.41,
-   "date": "24-Aug-2026"
-  },
-  "fii_net": {
-   "net": 1181.66,
-   "date": "24-Aug-2026"
-  },
-  "headlines": [
-   "Gold loan market gets crowded: Will new entrants dull incumbents' sheen?",
-   "Skyways Air vs Symbiotec vs Hy-Tech: Analysts pick their top IPO bet",
-   "JPMorgan India unit to argue that any regulatory breach was technical",
-   "Sebi to introduce IT Resilience Index for market infra institutions",
-   "PFC withdraws three-year bond issue as yields remain elevated in market",
-   "From trades to balance sheets: Sebi to widen AI surveillance net",
-   "Is Anthropic overvalued?",
-   "NSE's dilemma with going public",
-   "YouTube versus Netflix, biodegradable milk packets, and more...",
-   "CAS manipulation, the BofA-Jio Credit deal, and more...",
-   "How traders allegedly gamed CAS",
-   "The Augmont IPO Explained"
-  ]
- },
- {
   "date": "2026-08-26 08:16 IST",
   "usdinr": {
    "last": 95.42,
@@ -867,6 +838,35 @@
    "Unfair iPhone, the rise of tennis ball cricket, and more...",
    "IPO week, US Treasury bond buyback, and more...",
    "How Rentomojo actually makes money"
+  ]
+ },
+ {
+  "date": "2026-09-24 11:58 IST",
+  "usdinr": {
+   "last": 95.74,
+   "date": "2026-09-23"
+  },
+  "dii_net": {
+   "net": 2341.46,
+   "date": "23-Sep-2026"
+  },
+  "fii_net": {
+   "net": 1617.45,
+   "date": "23-Sep-2026"
+  },
+  "headlines": [
+   "Indian economy has done exceptionally well despite multiple shocks, says RBI Deputy Governor",
+   "NSE SME SpectraA Technology Solutions takes flight after blockbuster debut",
+   "Nifty below 23,250; metal shares lose sheen",
+   "Hero Motors surges 19% in weak market; zooms 45% in two days on huge volume",
+   "RBI absorbs ₹75,026 crore through overnight VRRR auction amid surplus liquidity",
+   "US equities tumble as yields soar",
+   "India's Company Law Tribunal is in a crisis",
+   "Why ISRO is handing its commercial empire to private industry",
+   "What's happening to India's rice output?",
+   "Do we really need blockchain for bonds?",
+   "Unfair iPhone, the rise of tennis ball cricket, and more...",
+   "IPO week, US Treasury bond buyback, and more..."
   ]
  }
 ]
