@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-26 08:16 IST",
-  "usdinr": {
-   "last": 95.42,
-   "date": "2026-08-25"
-  },
-  "dii_net": {
-   "net": 230.26,
-   "date": "25-Aug-2026"
-  },
-  "fii_net": {
-   "net": 1593.53,
-   "date": "25-Aug-2026"
-  },
-  "headlines": [
-   "Stocks to watch: Varun Beverages, Groww, Welspun Corp, HEG, Tata Motors PV",
-   "Oil prices fall 2% after Iran-Oman resume talks to reopen Strait of Hormuz",
-   "Stock Market LIVE: GIFT Nifty signals positive open; Asia markets fall; Brent crude extends loss",
-   "TVS Motors, Divi's Laboratories among top stock picks by Chandan Taparia",
-   "Bitcoin tops $80,000 as optimistic mood returns to crypto market",
-   "Nifty Midcap index hits new high as earnings, domestic demand drive gains",
-   "Why capital is moving from bits to atoms",
-   "Is Anthropic overvalued?",
-   "NSE's dilemma with going public",
-   "YouTube versus Netflix, biodegradable milk packets, and more...",
-   "CAS manipulation, the BofA-Jio Credit deal, and more...",
-   "How traders allegedly gamed CAS"
-  ]
- },
- {
   "date": "2026-08-27 17:16 IST",
   "usdinr": {
    "last": 95.42,
@@ -867,6 +838,35 @@
    "Do we really need blockchain for bonds?",
    "Unfair iPhone, the rise of tennis ball cricket, and more...",
    "IPO week, US Treasury bond buyback, and more..."
+  ]
+ },
+ {
+  "date": "2026-09-25 11:53 IST",
+  "usdinr": {
+   "last": 95.96,
+   "date": "2026-09-24"
+  },
+  "dii_net": {
+   "net": 4301.18,
+   "date": "24-Sep-2026"
+  },
+  "fii_net": {
+   "net": -5027.36,
+   "date": "24-Sep-2026"
+  },
+  "headlines": [
+   "US stocks end on flat note, bond yields continue to surge",
+   "Lemon Tree Hotels signs new property at Patancheru, Telangana",
+   "Lemon Tree Hotels acquires land parcel in Bandra (East)",
+   "Blue Cloud Softech rallies after US arm bags AI infrastructure project from IBM Cloud",
+   "NSE SME Axiom Gas Engineering gets off to a flat start",
+   "Volumes spurt at Rainbow Childrens Medicare Ltd counter",
+   "The Orient Cables IPO Explained",
+   "India's Company Law Tribunal is in a crisis",
+   "Why ISRO is handing its commercial empire to private industry",
+   "What's happening to India's rice output?",
+   "Do we really need blockchain for bonds?",
+   "Unfair iPhone, the rise of tennis ball cricket, and more..."
   ]
  }
 ]
