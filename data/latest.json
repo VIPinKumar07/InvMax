@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-25 11:52 IST",
-  "generated_utc": "2026-09-25T06:22:40+00:00",
+  "generated_at": "2026-09-26 11:52 IST",
+  "generated_utc": "2026-09-26T06:22:15+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-25 11:52 IST",
+      "asof": "2026-09-26 11:52 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-09-24",
+        "asof": "2026-09-25",
         "rates": {
-          "EUR": 0.87974,
-          "GBP": 0.75645,
-          "INR": 95.96,
-          "JPY": 158.85
+          "EUR": 0.87696,
+          "GBP": 0.75458,
+          "INR": 95.82,
+          "JPY": 157.59
         },
         "usdinr_history": [
-          {
-            "date": "2025-09-25",
-            "v": 88.69
-          },
           {
             "date": "2025-09-26",
             "v": 88.72
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-09-24",
             "v": 95.96
+          },
+          {
+            "date": "2026-09-25",
+            "v": 95.82
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-09-25 11:52 IST",
+      "asof": "2026-09-26 11:52 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 106.967,
-          "date": "24-09-2026",
-          "ret1y_pct": -1.29,
+          "nav": 106.9118,
+          "date": "25-09-2026",
+          "ret1y_pct": -1.37,
           "series": [
-            103.0631,
-            103.4915,
-            105.407,
-            106.3466,
-            107.886,
-            107.9198,
-            108.2153,
-            108.3519,
-            109.2852,
-            109.9907,
-            110.0652,
-            110.1878,
-            110.7584,
-            110.9985,
-            104.7652,
-            104.5215,
-            106.1268,
-            106.5961,
-            106.9164,
-            106.967
+            103.0995,
+            103.4961,
+            105.4731,
+            106.2789,
+            107.6421,
+            107.8924,
+            108.2611,
+            108.3574,
+            109.3763,
+            109.9725,
+            109.9944,
+            110.1286,
+            110.8409,
+            110.9352,
+            104.7091,
+            104.5269,
+            106.3057,
+            106.8126,
+            106.9419,
+            106.9118
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 108.0528,
-          "date": "24-09-2026",
-          "ret1y_pct": -2.07,
+          "nav": 108.1525,
+          "date": "25-09-2026",
+          "ret1y_pct": -1.47,
           "series": [
-            98.3192,
-            101.6223,
-            105.5627,
-            107.4818,
-            107.9543,
-            109.7437,
-            110.1151,
-            111.231,
-            111.6549,
-            110.5608,
-            110.852,
-            105.7171,
-            110.291,
-            98.6597,
-            106.0528,
-            105.9296,
-            108.3758,
-            109.3678,
-            112.6609,
-            108.0528
+            98.672,
+            102.5148,
+            104.075,
+            107.03,
+            108.5319,
+            110.268,
+            109.6513,
+            110.7182,
+            112.2705,
+            111.8355,
+            110.6485,
+            105.945,
+            109.3681,
+            100.7319,
+            105.6212,
+            104.3129,
+            107.7804,
+            109.3376,
+            112.7138,
+            108.1525
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 226.836,
-          "date": "24-09-2026",
-          "ret1y_pct": 4.42,
+          "nav": 226.38,
+          "date": "25-09-2026",
+          "ret1y_pct": 3.69,
           "series": [
-            193.168,
-            180.444,
-            188.529,
-            205.197,
-            210.874,
-            218.593,
-            210.62,
-            215.615,
-            218.556,
-            225.472,
-            222.128,
-            218.895,
-            223.599,
-            198.616,
-            218.074,
-            223.135,
-            226.915,
-            229.628,
-            237.629,
-            226.836
+            188.393,
+            178.72,
+            190.178,
+            205.708,
+            210.132,
+            218.734,
+            210.619,
+            217.027,
+            217.991,
+            225.649,
+            224.13,
+            218.092,
+            224.106,
+            202.868,
+            220.638,
+            223.585,
+            225.317,
+            230.927,
+            237.356,
+            226.38
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 225.7445,
-          "date": "24-09-2026",
-          "ret1y_pct": -8.2,
+          "nav": 226.5003,
+          "date": "25-09-2026",
+          "ret1y_pct": -8.24,
           "series": [
-            225.2631,
-            216.592,
-            224.7899,
-            241.221,
-            241.0395,
-            243.9314,
-            238.9018,
-            243.3926,
-            248.3675,
-            253.2021,
-            250.846,
-            245.2843,
-            247.5171,
-            218.8868,
-            232.3439,
-            232.7748,
-            234.8333,
-            234.6226,
-            238.1714,
-            225.7445
+            222.2763,
+            215.8845,
+            225.8356,
+            240.5007,
+            240.141,
+            244.11,
+            239.1029,
+            245.0388,
+            249.6025,
+            254.5559,
+            252.3104,
+            244.5535,
+            248.6516,
+            222.7674,
+            234.2331,
+            232.7093,
+            233.7579,
+            234.5177,
+            236.927,
+            226.5003
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-25 11:53 IST",
+      "asof": "2026-09-26 11:53 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-09-25 11:53 IST",
+      "asof": "2026-09-26 11:53 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "24-Sep-2026",
-          "buy": 18196.9,
-          "sell": 13895.72,
-          "net": 4301.18
+          "date": "25-Sep-2026",
+          "buy": 14035.77,
+          "sell": 11197.6,
+          "net": 2838.17
         },
         "fii": {
-          "date": "24-Sep-2026",
-          "buy": 13111.22,
-          "sell": 18138.58,
-          "net": -5027.36
+          "date": "25-Sep-2026",
+          "buy": 12327.36,
+          "sell": 16021.29,
+          "net": -3693.93
         }
       }
     },
     "news": {
-      "asof": "2026-09-25 11:53 IST",
+      "asof": "2026-09-26 11:53 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "US stocks end on flat note, bond yields continue to surge",
-          "url": "https://www.business-standard.com/markets/capital-market-news/us-stocks-end-on-flat-note-bond-yields-continue-to-surge-126092500345_1.html",
-          "published": "Fri, 25 Sep 2026 11:31:48 +0530"
+          "title": "SAIL signs MoU with BCCL for joint development of coal blocks",
+          "url": "https://www.business-standard.com/markets/capital-market-news/sail-signs-mou-with-bccl-for-joint-development-of-coal-blocks-126092600303_1.html",
+          "published": "Sat, 26 Sep 2026 11:31:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Lemon Tree Hotels signs new property at Patancheru, Telangana",
-          "url": "https://www.business-standard.com/markets/capital-market-news/lemon-tree-hotels-signs-new-property-at-patancheru-telangana-126092500343_1.html",
-          "published": "Fri, 25 Sep 2026 11:31:36 +0530"
+          "title": "Dhanuka Agritech launches new products for domestic market",
+          "url": "https://www.business-standard.com/markets/capital-market-news/dhanuka-agritech-launches-new-products-for-domestic-market-126092600273_1.html",
+          "published": "Sat, 26 Sep 2026 11:04:14 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Lemon Tree Hotels acquires land parcel in Bandra (East)",
-          "url": "https://www.business-standard.com/markets/capital-market-news/lemon-tree-hotels-acquires-land-parcel-in-bandra-east-126092500342_1.html",
-          "published": "Fri, 25 Sep 2026 11:31:28 +0530"
+          "title": "Promoter Group commits capital infusion of Rs 650 cr into Aequs",
+          "url": "https://www.business-standard.com/markets/capital-market-news/promoter-group-commits-capital-infusion-of-rs-650-cr-into-aequs-126092600271_1.html",
+          "published": "Sat, 26 Sep 2026 11:04:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Blue Cloud Softech rallies after US arm bags AI infrastructure project from IBM Cloud",
-          "url": "https://www.business-standard.com/markets/capital-market-news/blue-cloud-softech-rallies-after-us-arm-bags-ai-infrastructure-project-from-ibm-cloud-126092500341_1.html",
-          "published": "Fri, 25 Sep 2026 11:31:19 +0530"
+          "title": "NTPC Green Energy commissions 81.34 MW solar capacity at Bikaner, Rajasthan",
+          "url": "https://www.business-standard.com/markets/capital-market-news/ntpc-green-energy-commissions-81-34-mw-solar-capacity-at-bikaner-rajasthan-126092600263_1.html",
+          "published": "Sat, 26 Sep 2026 10:50:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NSE SME Axiom Gas Engineering gets off to a flat start",
-          "url": "https://www.business-standard.com/markets/capital-market-news/nse-sme-axiom-gas-engineering-gets-off-to-a-flat-start-126092500340_1.html",
-          "published": "Fri, 25 Sep 2026 11:31:11 +0530"
+          "title": "RCFL bags Rs 797-cr order from Larsen & Toubro",
+          "url": "https://www.business-standard.com/markets/capital-market-news/rcfl-bags-rs-797-cr-order-from-larsen-toubro-126092600234_1.html",
+          "published": "Sat, 26 Sep 2026 10:16:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Volumes spurt at Rainbow Childrens Medicare Ltd counter",
-          "url": "https://www.business-standard.com/markets/capital-market-news/volumes-spurt-at-rainbow-childrens-medicare-ltd-counter-126092500339_1.html",
-          "published": "Fri, 25 Sep 2026 11:31:02 +0530"
+          "title": "ArMee Infotech IPO subscribed 2.62 times",
+          "url": "https://www.business-standard.com/markets/capital-market-news/armee-infotech-ipo-subscribed-2-62-times-126092600156_1.html",
+          "published": "Sat, 26 Sep 2026 09:04:43 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The Orient Cables IPO, India's falling rice output, and more...",
+          "url": "https://finshots.in/archive/the-orient-cables-ipo-indias-falling-rice-output-and-more/",
+          "published": "Sat, 26 Sep 2026 01:30:03 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Mon, 21 Sep 2026 01:30:10 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Unfair iPhone, the rise of tennis ball cricket, and more...",
-          "url": "https://finshots.in/archive/unfair-iphone-the-rise-of-tennis-ball-cricket-and-more/",
-          "published": "Sun, 20 Sep 2026 01:30:05 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "JSW One Platforms files draft papers for Rs 3,054 crore IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jsw-one-platforms-files-draft-papers-for-rs-3054-crore-ipo/articleshow/134498412.cms",
+          "published": "Sat, 26 Sep 2026 11:22:15 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IPO multibagger ESDS shares hit 5% lower circuit as Q1 net profit more than halves. Time to sell?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-multibagger-esds-shares-hit-5-lower-circuit-as-q1-net-profit-more-than-halves-time-to-sell/articleshow/134475720.cms",
-          "published": "Fri, 25 Sep 2026 10:36:48 +0530"
+          "title": "Nifty logs 7th straight weekly loss for the first time in 6 years: Time to be fearful, or can bulls pull off a comeback?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-logs-7th-straight-weekly-losses-for-the-first-time-in-6-years-time-to-be-fearful-or-can-bulls-pull-off-a-comeback/articleshow/134498300.cms",
+          "published": "Sat, 26 Sep 2026 11:16:59 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Welspun Corp shares rise 4% after US subsidiary bags $412.5 million HFIW pipe order",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/welspun-corp-shares-rise-4-after-us-subsidiary-bags-412-5-million-hfiw-pipe-order/articleshow/134475500.cms",
-          "published": "Fri, 25 Sep 2026 10:33:56 +0530"
+          "title": "Give blood, buy bonds: Countries get creative in hunt for cash",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/give-blood-buy-bonds-countries-get-creative-in-hunt-for-cash/articleshow/134497672.cms",
+          "published": "Sat, 26 Sep 2026 10:40:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Sensex rebounds a day after crash, Nifty above 23,050. Where is D-Street headed?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-trades-flat-a-day-after-crash-nifty-below-23050-amid-multiple-headwinds-what-lies-ahead/articleshow/134475514.cms",
-          "published": "Fri, 25 Sep 2026 10:23:04 +0530"
+          "title": "Wall Street Week Ahead: Jobs report, inflation data to test US rate path, economic strength",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-jobs-report-inflation-data-to-test-us-rate-path-economic-strength/articleshow/134497643.cms",
+          "published": "Sat, 26 Sep 2026 10:33:46 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Ola Electric shares tumble 9% after 17% rally in 4 days. Why brokerages remain cautious",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ola-electric-shares-tumble-9-after-17-rally-in-4-days-why-brokerages-remain-cautious/articleshow/134475375.cms",
-          "published": "Fri, 25 Sep 2026 10:10:49 +0530"
+          "title": "SK Hynix's Solidigm weighs IPO that could value the unit at up to $150 billion, sources say",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynixs-solidigm-weighs-ipo-that-could-value-the-unit-at-up-to-150-billion-sources-say/articleshow/134497293.cms",
+          "published": "Sat, 26 Sep 2026 10:09:11 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Tata Sons boardroom battle intensifies but Tata Group stocks remain unbothered. Should you buy?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tata-group-stocks-in-focus-as-tata-sons-rejects-noel-tatas-objections-says-chandrasekarans-reappointment-is-valid/articleshow/134475308.cms",
-          "published": "Fri, 25 Sep 2026 10:08:11 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "US Market: Bond fund managers turn cautious as yields, AI debt raise risks",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-bond-fund-managers-turn-cautious-as-yields-ai-debt-raise-risks/articleshow/134475249.cms",
-          "published": "Fri, 25 Sep 2026 10:04:31 +0530"
+          "title": "Biscuit maker Anmol Industries files for $188 million IPO",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/biscuit-maker-anmol-industries-files-for-188-million-ipo/articleshow/134497256.cms",
+          "published": "Sat, 26 Sep 2026 10:07:03 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Double QIP action: Inox Green, Wheels India shares soar as fundraises kick off- Check floor price, discount, other info",
-          "url": "https://www.livemint.com/market/stock-market-news/double-qip-action-inox-green-wheels-india-shares-soar-as-fundraises-kick-off-check-floor-price-discount-other-info-11790314096180.html",
-          "published": "Fri, 25 Sep 2026 11:42:30 +0530"
+          "title": "Stock market holidays next week: India, China, Taiwan to Hong Kong — these global indices to remain closed on these days",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-holidays-next-week-india-china-taiwan-to-hong-kong-these-global-indices-to-remain-closed-on-these-days-11790396894180.html",
+          "published": "Sat, 26 Sep 2026 10:50:34 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Whirlpool of India share price zooms 33% in 3 days, up 12% today; what's driving this stock? Will the bull run continue?",
-          "url": "https://www.livemint.com/market/stock-market-news/whirlpool-of-india-share-price-zooms-33-in-3-days-up-12-today-whats-driving-this-stock-will-the-bull-run-continue-11790314326762.html",
-          "published": "Fri, 25 Sep 2026 11:39:17 +0530"
+          "title": "Three midcap stocks with strong growth potential",
+          "url": "https://www.livemint.com/market/stock-market-news/three-midcap-stocks-with-strong-growth-potential-11790335464682.html",
+          "published": "Sat, 26 Sep 2026 10:48:09 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Decoded: Sensex lost nearly 3300 points, Nifty dip 1000 since announcement of blockbuster GDP of India | Top 3 reasons",
-          "url": "https://www.livemint.com/market/stock-market-news/decoded-sensex-lost-nearly-3300-points-nifty-dip-1000-since-announcement-of-blockbuster-gdp-of-india-top-3-reasons-11790303163599.html",
-          "published": "Fri, 25 Sep 2026 11:22:23 +0530"
+          "title": "Sumeet Bagadia's stock picks for Monday — Mahindra And Mahindra, Asian Paints, HCL Tech | Target, SL, market outlook",
+          "url": "https://www.livemint.com/market/stock-market-news/sumeet-bagadias-stock-picks-for-monday-mahindra-and-mahindra-asian-paints-hcl-tech-target-sl-market-outlook-11790393228812.html",
+          "published": "Sat, 26 Sep 2026 10:16:34 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Goldman Sachs buys stake in Firstcry brand parent owner Brainbees Solutions | Check price, quantity traded",
-          "url": "https://www.livemint.com/market/stock-market-news/goldman-sachs-buys-stake-in-firstcry-brand-parent-owner-brainbees-solutions-check-price-quantity-traded-11790313331674.html",
-          "published": "Fri, 25 Sep 2026 11:19:55 +0530"
+          "title": "NSE share price: How long-term investors can use staggered approach to buy NSE shares",
+          "url": "https://www.livemint.com/market/stock-market-news/nse-share-price-how-to-use-staggered-approach-to-buy-nse-shares-after-listing-for-long-term-investors-11790394683165.html",
+          "published": "Sat, 26 Sep 2026 09:40:19 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "ESDS Software share price hits 5% lower circuit after Q1 results; stock still up 310% from IPO price - Should you buy?",
-          "url": "https://www.livemint.com/market/stock-market-news/esds-software-share-price-hits-5-lower-circuit-after-q1-results-stock-still-up-310-from-ipo-price-should-you-buy-11790312030206.html",
-          "published": "Fri, 25 Sep 2026 10:56:35 +0530"
+          "title": "Stocks to buy under ₹200: Tata Steel, South Bank, Castrol by Mehul Kothari of Anand Rathi | Target, SL, market outlook",
+          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-under-rs-200-tata-steel-south-bank-castrol-by-mehul-kothari-of-anand-rathi-target-sl-market-outlook-11790390076388.html",
+          "published": "Sat, 26 Sep 2026 08:33:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "240% rally in six months! Defence stock Raymond hits 52-week high; exit or hold? Explained with target, stop-loss, ratio",
-          "url": "https://www.livemint.com/market/stock-market-news/240-rally-in-six-months-defence-stock-raymond-hits-52-week-high-exit-or-hold-explained-with-target-stop-loss-ratio-11790310543429.html",
-          "published": "Fri, 25 Sep 2026 10:42:44 +0530"
+          "title": "Oil Declines as Traders Weigh US, Iran Hormuz Talk Progress",
+          "url": "https://www.livemint.com/market/oil-declines-as-traders-weigh-us-iran-hormuz-talk-progress-11790369499240.html",
+          "published": "Sat, 26 Sep 2026 02:21:38 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-25 11:53 IST",
+      "checked_at": "2026-09-26 11:53 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-25 11:53 IST",
+      "generated_at": "2026-09-26 11:53 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-25,028 Cr · 25% of days positive.",
+        "reading": "20-day cumulative: Rs-25,610 Cr · 25% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-25,028 Cr · 25% of days positive.",
+          "reading": "20-day cumulative: Rs-25,610 Cr · 25% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs57,015 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs50,923 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1538,8 +1538,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 58,
-          "reading": "USD/INR moved +0.6% over the last month (now 95.96).",
+          "strength": 54,
+          "reading": "USD/INR moved +0.3% over the last month (now 95.82).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1565,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-25,028 Cr · 25% of days positive.",
+          "reading": "20-day cumulative: Rs-25,610 Cr · 25% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs57,015 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs50,923 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,41 +1591,36 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-25 11:53 IST",
+    "date": "2026-09-26 11:53 IST",
     "usdinr": {
-      "last": 95.96,
-      "date": "2026-09-24"
+      "last": 95.82,
+      "date": "2026-09-25"
     },
     "dii_net": {
-      "net": 4301.18,
-      "date": "24-Sep-2026"
+      "net": 2838.17,
+      "date": "25-Sep-2026"
     },
     "fii_net": {
-      "net": -5027.36,
-      "date": "24-Sep-2026"
+      "net": -3693.93,
+      "date": "25-Sep-2026"
     },
     "headlines": [
-      "US stocks end on flat note, bond yields continue to surge",
-      "Lemon Tree Hotels signs new property at Patancheru, Telangana",
-      "Lemon Tree Hotels acquires land parcel in Bandra (East)",
-      "Blue Cloud Softech rallies after US arm bags AI infrastructure project from IBM Cloud",
-      "NSE SME Axiom Gas Engineering gets off to a flat start",
-      "Volumes spurt at Rainbow Childrens Medicare Ltd counter",
+      "SAIL signs MoU with BCCL for joint development of coal blocks",
+      "Dhanuka Agritech launches new products for domestic market",
+      "Promoter Group commits capital infusion of Rs 650 cr into Aequs",
+      "NTPC Green Energy commissions 81.34 MW solar capacity at Bikaner, Rajasthan",
+      "RCFL bags Rs 797-cr order from Larsen & Toubro",
+      "ArMee Infotech IPO subscribed 2.62 times",
+      "The Orient Cables IPO, India's falling rice output, and more...",
       "The Orient Cables IPO Explained",
       "India's Company Law Tribunal is in a crisis",
       "Why ISRO is handing its commercial empire to private industry",
       "What's happening to India's rice output?",
-      "Do we really need blockchain for bonds?",
-      "Unfair iPhone, the rise of tennis ball cricket, and more..."
+      "Do we really need blockchain for bonds?"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-5,027 Cr — direction flipped"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1636,17 +1631,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹95.96 (+0.23%)"
+        "detail": "₹95.82 (-0.15%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹4,301 Cr"
+        "detail": "₹2,838 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-5,027 Cr — direction flipped"
+        "detail": "₹-3,694 Cr"
       },
       {
         "kind": "news",
@@ -1654,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-24 11:58 IST",
+    "since": "2026-09-25 11:53 IST",
     "new_headlines": [
-      "US stocks end on flat note, bond yields continue to surge",
-      "Lemon Tree Hotels signs new property at Patancheru, Telangana",
-      "Lemon Tree Hotels acquires land parcel in Bandra (East)",
-      "Blue Cloud Softech rallies after US arm bags AI infrastructure project from IBM Cloud",
-      "NSE SME Axiom Gas Engineering gets off to a flat start",
-      "Volumes spurt at Rainbow Childrens Medicare Ltd counter",
-      "The Orient Cables IPO Explained"
+      "SAIL signs MoU with BCCL for joint development of coal blocks",
+      "Dhanuka Agritech launches new products for domestic market",
+      "Promoter Group commits capital infusion of Rs 650 cr into Aequs",
+      "NTPC Green Energy commissions 81.34 MW solar capacity at Bikaner, Rajasthan",
+      "RCFL bags Rs 797-cr order from Larsen & Toubro",
+      "ArMee Infotech IPO subscribed 2.62 times",
+      "The Orient Cables IPO, India's falling rice output, and more..."
     ]
   },
   "summary": {

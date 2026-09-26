@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-27 17:16 IST",
-  "usdinr": {
-   "last": 95.42,
-   "date": "2026-08-26"
-  },
-  "dii_net": {
-   "net": 6425.16,
-   "date": "26-Aug-2026"
-  },
-  "fii_net": {
-   "net": 502.63,
-   "date": "26-Aug-2026"
-  },
-  "headlines": [
-   "Japanese shares trade mixed as tech stocks diverge",
-   "China stocks gain as investors expect more policy support",
-   "Sensex tumbles 539 pts, Nifty slips below 24,100 as HDFC Bank, Reliance drag",
-   "Quick Wrap: Nifty PSU Bank Index declines 0.94%",
-   "Nifty September futures trade at premium",
-   "Indices extend losses for 2nd day; PSU Bank stocks drop",
-   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
-   "Why capital is moving from bits to atoms",
-   "Is Anthropic overvalued?",
-   "NSE's dilemma with going public",
-   "YouTube versus Netflix, biodegradable milk packets, and more...",
-   "CAS manipulation, the BofA-Jio Credit deal, and more..."
-  ]
- },
- {
   "date": "2026-08-28 18:39 IST",
   "usdinr": {
    "last": 95.54,
@@ -867,6 +838,35 @@
    "What's happening to India's rice output?",
    "Do we really need blockchain for bonds?",
    "Unfair iPhone, the rise of tennis ball cricket, and more..."
+  ]
+ },
+ {
+  "date": "2026-09-26 11:53 IST",
+  "usdinr": {
+   "last": 95.82,
+   "date": "2026-09-25"
+  },
+  "dii_net": {
+   "net": 2838.17,
+   "date": "25-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3693.93,
+   "date": "25-Sep-2026"
+  },
+  "headlines": [
+   "SAIL signs MoU with BCCL for joint development of coal blocks",
+   "Dhanuka Agritech launches new products for domestic market",
+   "Promoter Group commits capital infusion of Rs 650 cr into Aequs",
+   "NTPC Green Energy commissions 81.34 MW solar capacity at Bikaner, Rajasthan",
+   "RCFL bags Rs 797-cr order from Larsen & Toubro",
+   "ArMee Infotech IPO subscribed 2.62 times",
+   "The Orient Cables IPO, India's falling rice output, and more...",
+   "The Orient Cables IPO Explained",
+   "India's Company Law Tribunal is in a crisis",
+   "Why ISRO is handing its commercial empire to private industry",
+   "What's happening to India's rice output?",
+   "Do we really need blockchain for bonds?"
   ]
  }
 ]
