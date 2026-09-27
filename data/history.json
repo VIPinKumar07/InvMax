@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-28 18:39 IST",
-  "usdinr": {
-   "last": 95.54,
-   "date": "2026-08-27"
-  },
-  "dii_net": {
-   "net": 5183.93,
-   "date": "28-Aug-2026"
-  },
-  "fii_net": {
-   "net": -5039.8,
-   "date": "28-Aug-2026"
-  },
-  "headlines": [
-   "Reliance Jio Infocomm standalone net profit rises 6.79% in the June 2026 quarter",
-   "Bernstein retains Nifty target at 26,000, flags policy-led distortions",
-   "Annu Projects IPO subscribed 2.93 times",
-   "Currency in circulation shows accelerating trend, up 12.4% on year",
-   "Lumino Industries IPO subscribed 4.87 times",
-   "ESDS Software Solution IPO subscribed 2.10 times",
-   "Should you raise a toast to Varun Beverages?",
-   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
-   "Why capital is moving from bits to atoms",
-   "Is Anthropic overvalued?",
-   "NSE's dilemma with going public",
-   "YouTube versus Netflix, biodegradable milk packets, and more..."
-  ]
- },
- {
   "date": "2026-08-29 13:36 IST",
   "usdinr": {
    "last": 95.39,
@@ -867,6 +838,35 @@
    "Why ISRO is handing its commercial empire to private industry",
    "What's happening to India's rice output?",
    "Do we really need blockchain for bonds?"
+  ]
+ },
+ {
+  "date": "2026-09-27 12:22 IST",
+  "usdinr": {
+   "last": 95.82,
+   "date": "2026-09-25"
+  },
+  "dii_net": {
+   "net": 2838.17,
+   "date": "25-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3693.93,
+   "date": "25-Sep-2026"
+  },
+  "headlines": [
+   "Cars24 expects to file IPO papers by April after reverse flip to India: CFO",
+   "Muted demand, higher oil prices to cloud paints sector outlook in near term",
+   "J Infratech files draft IPO papers for ₹600 crore fresh issue, 1 crore OFS",
+   "Augmont Enterprises empanelled by NSE to promote Electronic Gold Receipts",
+   "Sanofi India receives Rs 23.74 crore GST show cause notice",
+   "Highness Microelectronics receives Rs 6 crore order for medical displays and equipment",
+   "Why monks are turning investors, and more...",
+   "The Orient Cables IPO, India's falling rice output, and more...",
+   "The Orient Cables IPO Explained",
+   "India's Company Law Tribunal is in a crisis",
+   "Why ISRO is handing its commercial empire to private industry",
+   "What's happening to India's rice output?"
   ]
  }
 ]
