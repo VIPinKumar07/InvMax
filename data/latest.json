@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27 12:20 IST",
-  "generated_utc": "2026-09-27T06:50:55+00:00",
+  "generated_at": "2026-09-28 12:47 IST",
+  "generated_utc": "2026-09-28T07:17:08+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-09-27 12:20 IST",
+      "asof": "2026-09-28 12:47 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-09-27 12:21 IST",
+      "asof": "2026-09-28 12:47 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-09-27 12:21 IST",
+      "asof": "2026-09-28 12:47 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-09-27 12:21 IST",
+      "asof": "2026-09-28 12:47 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-09-27 12:22 IST",
+      "asof": "2026-09-28 12:48 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Cars24 expects to file IPO papers by April after reverse flip to India: CFO",
-          "url": "https://www.business-standard.com/markets/ipo/cars24-expects-to-file-ipo-papers-by-april-after-reverse-flip-to-india-cfo-126092700129_1.html",
-          "published": "Sun, 27 Sep 2026 11:08:26 +0530"
+          "title": "Silver Touch Tech gains after securing workstation supply contract from ISRO",
+          "url": "https://www.business-standard.com/markets/capital-market-news/silver-touch-tech-gains-after-securing-workstation-supply-contract-from-isro-126092800386_1.html",
+          "published": "Mon, 28 Sep 2026 12:31:20 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Muted demand, higher oil prices to cloud paints sector outlook in near term",
-          "url": "https://www.business-standard.com/markets/news/markets-news-weak-demand-input-costs-to-hit-paints-sector-in-near-term-126092700054_1.html",
-          "published": "Sun, 27 Sep 2026 07:23:12 +0530"
+          "title": "RTS Power Corporation Ltd leads gainers in 'B' group",
+          "url": "https://www.business-standard.com/markets/capital-market-news/rts-power-corporation-ltd-leads-gainers-in-b-group-126092800385_1.html",
+          "published": "Mon, 28 Sep 2026 12:31:12 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "J Infratech files draft IPO papers for ₹600 crore fresh issue, 1 crore OFS",
-          "url": "https://www.business-standard.com/markets/ipo/j-infratech-files-drhp-for-600-crore-ipo-1-crore-ofs-126092600541_1.html",
-          "published": "Sat, 26 Sep 2026 15:43:07 +0530"
+          "title": "Net FDI flows spurt to five year high in Jul-26, communication, financial and computer services receive bulk of equity inflows",
+          "url": "https://www.business-standard.com/markets/capital-market-news/net-fdi-flows-spurt-to-five-year-high-in-jul-26-communication-financial-and-computer-services-receive-bulk-of-equity-inflows-126092800347_1.html",
+          "published": "Mon, 28 Sep 2026 12:04:11 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Augmont Enterprises empanelled by NSE to promote Electronic Gold Receipts",
-          "url": "https://www.business-standard.com/markets/capital-market-news/augmont-enterprises-empanelled-by-nse-to-promote-electronic-gold-receipts-126092600522_1.html",
-          "published": "Sat, 26 Sep 2026 15:04:01 +0530"
+          "title": "Tata Teleservices (Maharashtra) Ltd leads gainers in 'A' group",
+          "url": "https://www.business-standard.com/markets/capital-market-news/tata-teleservices-maharashtra-ltd-leads-gainers-in-a-group-126092800346_1.html",
+          "published": "Mon, 28 Sep 2026 12:04:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sanofi India receives Rs 23.74 crore GST show cause notice",
-          "url": "https://www.business-standard.com/markets/capital-market-news/sanofi-india-receives-rs-23-74-crore-gst-show-cause-notice-126092600508_1.html",
-          "published": "Sat, 26 Sep 2026 14:50:01 +0530"
+          "title": "SRIT India IPO: GMP at 25%; check review, subscription & other details",
+          "url": "https://www.business-standard.com/markets/ipo/srit-india-ipo-gmp-at-25-percent-check-review-subscription-other-details-126092800337_1.html",
+          "published": "Mon, 28 Sep 2026 12:02:25 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Highness Microelectronics receives Rs 6 crore order for medical displays and equipment",
-          "url": "https://www.business-standard.com/markets/capital-market-news/highness-microelectronics-receives-rs-6-crore-order-for-medical-displays-and-equipment-126092600493_1.html",
-          "published": "Sat, 26 Sep 2026 14:31:01 +0530"
+          "title": "Hypersoft forays into AI domain with proprietary platform",
+          "url": "https://www.business-standard.com/markets/capital-market-news/hypersoft-forays-into-ai-domain-with-proprietary-platform-126092800336_1.html",
+          "published": "Mon, 28 Sep 2026 11:50:40 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "IRDAI wants to change how insurance is sold",
+          "url": "https://finshots.in/archive/irdai-wants-to-change-how-insurance-is-sold/",
+          "published": "Mon, 28 Sep 2026 01:30:07 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,116 @@
           "published": "Wed, 23 Sep 2026 03:30:00 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "What's happening to India's rice output?",
-          "url": "https://finshots.in/archive/whats-happening-to-indias-rice-output/",
-          "published": "Tue, 22 Sep 2026 01:30:04 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Global Market: Chinese stocks slide as US-China optimism fades, tech shares tumble",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinese-stocks-slide-as-us-china-optimism-fades-tech-shares-tumble/articleshow/134495616.cms",
+          "published": "Mon, 28 Sep 2026 12:16:08 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Will Nifty, Sensex tumble on Monday? 5 factors which will drive D-Street action this week",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/will-nifty-sensex-tumble-on-monday-5-factors-which-will-drive-d-street-action-this-week/articleshow/134515821.cms",
-          "published": "Sun, 27 Sep 2026 11:54:51 +0530"
+          "title": "Global Market: Hong Kong sets pricing guidance for four-year digital green bond",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hong-kong-sets-pricing-guidance-for-four-year-digital-green-bond/articleshow/134534365.cms",
+          "published": "Mon, 28 Sep 2026 12:09:12 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ETMarkets NRI Talk| Want to invest in US IPOs? Ankita Pathak on what Indian investors need to know",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-nri-talk-want-to-invest-in-us-ipos-ankita-pathak-on-what-indian-investors-need-to-know/articleshow/134515708.cms",
-          "published": "Sun, 27 Sep 2026 11:53:05 +0530"
+          "title": "Micron earnings preview: Tight DRAM supply, HBM demand set stage for Q4 results",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/micron-earnings-preview-tight-dram-supply-hbm-demand-set-stage-for-q4-results/slideshow/134534608.cms",
+          "published": "Mon, 28 Sep 2026 12:06:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Cars24 expects to be eligible to file DRHP by Apr: CFO",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/cars24-expects-to-be-eligible-to-file-drhp-by-apr-cfo/articleshow/134515261.cms",
-          "published": "Sun, 27 Sep 2026 11:09:37 +0530"
+          "title": "Trouble continues: Turtlemint, PB Fintech, other insurance stocks drop up to 38% in 3 days. What are analysts saying?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/trouble-continues-turtlemint-pb-fintech-other-insurance-stocks-drop-up-to-38-in-3-days-what-are-analysts-saying/articleshow/134534271.cms",
+          "published": "Mon, 28 Sep 2026 12:03:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "11 penny stocks surged up to 110% in just 3 months. 3 turned multibaggers",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/11-penny-stocks-surged-up-to-110-in-just-3-months-3-turned-multibaggers/slideshow/134515254.cms",
-          "published": "Sun, 27 Sep 2026 10:54:01 +0530"
+          "title": "PB Fintech among 4 F&O stocks with a sharp rise in futures open interest",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-4-fampo-stocks-with-a-sharp-rise-in-futures-open-interest/slideshow/134534458.cms",
+          "published": "Mon, 28 Sep 2026 12:02:54 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Natural gas defies energy shock as strong supply keeps prices in check",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/natural-gas-defies-energy-shock-as-strong-supply-keeps-prices-in-check/articleshow/134515059.cms",
-          "published": "Sun, 27 Sep 2026 10:51:23 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "ETMarkets Smart Talk: RBI may hike 50-75 bps; Archit Shah on what’s next for bonds",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-rbi-may-hike-50-75-bps-archit-shah-on-whats-next-for-bonds/articleshow/134515044.cms",
-          "published": "Sun, 27 Sep 2026 10:45:50 +0530"
+          "title": "Sensex crashes over 1,000 points, Nifty50 below 22,850; erases nearly ₹6 lakh cr in an hour",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-crashes-over-1000-points-nifty50-below-22850-erases-nearly-6-lakh-cr-in-an-hour/videoshow/134534263.cms",
+          "published": "Mon, 28 Sep 2026 12:00:09 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Despite 8% down in 2026 but BOB Capital Markets gives ‘Hold’ to this realty stock | Check target, stop loss, rationale",
-          "url": "https://www.livemint.com/market/stock-market-news/despite-8-down-in-2026-but-bob-capital-gives-hold-to-realty-stock-knowledge-realty-trust-check-target-stop-loss-11790485132099.html",
-          "published": "Sun, 27 Sep 2026 11:22:38 +0530"
+          "title": "Elecon Engineering shares gain over 16% in five sessions | What’s driving the stock?",
+          "url": "https://www.livemint.com/market/stock-market-news/elecon-engineering-shares-gain-over-16-in-five-sessions-what-s-driving-the-stock-11790576125530.html",
+          "published": "Mon, 28 Sep 2026 12:21:18 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Top 5 stocks to buy under ₹100: Lloyds, Bajaj HFL, Maharashtra Bank, GMR Airports, RBA by Sumeet Bagadia | Target, SL",
-          "url": "https://www.livemint.com/market/stock-market-news/top-5-stocks-to-buy-under-rs-100-lloyds-bajaj-hfl-maharashtra-bank-gmr-airports-rba-by-sumeet-bagadia-target-sl-11790485541632.html",
-          "published": "Sun, 27 Sep 2026 11:20:42 +0530"
+          "title": "This Tata Group stock jumps 6% despite fall in Sensex, Nifty - What's behind crash defying surge and what lies ahead?",
+          "url": "https://www.livemint.com/market/stock-market-news/tata-teleservices-share-price-jumps-6-despite-fall-in-market-whats-behind-crash-defying-surge-and-what-lies-ahead-11790574313269.html",
+          "published": "Mon, 28 Sep 2026 12:10:35 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market prediction for tomorrow: Sensex, Nifty Monday, 28 Sept triggers | GIFT Nifty, Nikkei, Taiwan, Kospi cues",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-sensex-nifty-monday-28-sept-triggers-gift-nifty-nikkei-taiwan-kospi-cues-11790480062165.html",
-          "published": "Sun, 27 Sep 2026 09:52:56 +0530"
+          "title": "Paint makers face a crude shock as competition stays fierce",
+          "url": "https://www.livemint.com/market/mark-to-market/paint-stocks-margin-pressure-crude-oil-prices-asian-paints-berger-kansai-11790573619726.html",
+          "published": "Mon, 28 Sep 2026 12:09:00 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Rate Market Fear Gauge Is Warning for Corporates: Credit Weekly",
-          "url": "https://www.livemint.com/market/rate-market-fear-gauge-is-warning-for-corporates-credit-weekly-11790451266734.html",
-          "published": "Sun, 27 Sep 2026 01:04:26 +0530"
+          "title": "Top stocks to buy or sell for short term: Jindal Stainless, M&M, Adani Ent — Trading strategy, targets",
+          "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-buy-or-sell-for-short-term-jindal-stainless-m-m-adani-ent-trading-strategy-targets-11790471106872.html",
+          "published": "Mon, 28 Sep 2026 11:48:15 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "‘India’s drone leader’: Buy Ideaforge stock for 27% upside, says Ashika Securities - check share price target",
-          "url": "https://www.livemint.com/market/stock-market-news/drone-stock-ideaforge-gets-buy-rating-ashika-sees-27-upside-check-target-price-11790422161462.html",
-          "published": "Sat, 26 Sep 2026 17:57:36 +0530"
+          "title": "FirstCry shares surge 8% amid market sell-off | What lies ahead for the stock?",
+          "url": "https://www.livemint.com/market/stock-market-news/firstcry-shares-surge-8-amid-market-sell-off-what-lies-ahead-for-the-stock-11790573679685.html",
+          "published": "Mon, 28 Sep 2026 11:26:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "After NSE IPO exchange debut, Macquarie calls stock ‘The Dominator’ - here’s why | Check share price target",
-          "url": "https://www.livemint.com/market/stock-market-news/after-nse-ipo-exchange-debut-macquarie-calls-stock-the-dominator-here-s-why-check-share-price-target-11790419480001.html",
-          "published": "Sat, 26 Sep 2026 16:57:03 +0530"
+          "title": "800% dividend stock: This Blackstone-backed IT share zooms 14% after fixing record date; check amount per share",
+          "url": "https://www.livemint.com/market/stock-market-news/800-dividend-stock-this-blackstone-backed-it-share-zooms-14-after-fixing-record-date-check-amount-per-share-11790574113490.html",
+          "published": "Mon, 28 Sep 2026 11:18:20 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
         }
       ]
     },
@@ -1430,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-09-27 12:22 IST",
+      "checked_at": "2026-09-28 12:48 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-09-27 12:22 IST",
+      "generated_at": "2026-09-28 12:48 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-26,192 Cr · 25% of days positive.",
+        "reading": "20-day cumulative: Rs-30,166 Cr · 20% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1481,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-26,192 Cr · 25% of days positive.",
+          "reading": "20-day cumulative: Rs-30,166 Cr · 20% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1495,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs44,831 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs47,102 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1537,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-26,192 Cr · 25% of days positive.",
+          "reading": "20-day cumulative: Rs-30,166 Cr · 20% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1550,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs44,831 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs47,102 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1563,7 +1591,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-09-27 12:22 IST",
+    "date": "2026-09-28 12:48 IST",
     "usdinr": {
       "last": 95.82,
       "date": "2026-09-25"
@@ -1577,18 +1605,18 @@
       "date": "25-Sep-2026"
     },
     "headlines": [
-      "Cars24 expects to file IPO papers by April after reverse flip to India: CFO",
-      "Muted demand, higher oil prices to cloud paints sector outlook in near term",
-      "J Infratech files draft IPO papers for ₹600 crore fresh issue, 1 crore OFS",
-      "Augmont Enterprises empanelled by NSE to promote Electronic Gold Receipts",
-      "Sanofi India receives Rs 23.74 crore GST show cause notice",
-      "Highness Microelectronics receives Rs 6 crore order for medical displays and equipment",
+      "Silver Touch Tech gains after securing workstation supply contract from ISRO",
+      "RTS Power Corporation Ltd leads gainers in 'B' group",
+      "Net FDI flows spurt to five year high in Jul-26, communication, financial and computer services receive bulk of equity inflows",
+      "Tata Teleservices (Maharashtra) Ltd leads gainers in 'A' group",
+      "SRIT India IPO: GMP at 25%; check review, subscription & other details",
+      "Hypersoft forays into AI domain with proprietary platform",
+      "IRDAI wants to change how insurance is sold",
       "Why monks are turning investors, and more...",
       "The Orient Cables IPO, India's falling rice output, and more...",
       "The Orient Cables IPO Explained",
       "India's Company Law Tribunal is in a crisis",
-      "Why ISRO is handing its commercial empire to private industry",
-      "What's happening to India's rice output?"
+      "Why ISRO is handing its commercial empire to private industry"
     ]
   },
   "changes": {
@@ -1621,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-09-26 11:53 IST",
+    "since": "2026-09-27 12:22 IST",
     "new_headlines": [
-      "Cars24 expects to file IPO papers by April after reverse flip to India: CFO",
-      "Muted demand, higher oil prices to cloud paints sector outlook in near term",
-      "J Infratech files draft IPO papers for ₹600 crore fresh issue, 1 crore OFS",
-      "Augmont Enterprises empanelled by NSE to promote Electronic Gold Receipts",
-      "Sanofi India receives Rs 23.74 crore GST show cause notice",
-      "Highness Microelectronics receives Rs 6 crore order for medical displays and equipment",
-      "Why monks are turning investors, and more..."
+      "Silver Touch Tech gains after securing workstation supply contract from ISRO",
+      "RTS Power Corporation Ltd leads gainers in 'B' group",
+      "Net FDI flows spurt to five year high in Jul-26, communication, financial and computer services receive bulk of equity inflows",
+      "Tata Teleservices (Maharashtra) Ltd leads gainers in 'A' group",
+      "SRIT India IPO: GMP at 25%; check review, subscription & other details",
+      "Hypersoft forays into AI domain with proprietary platform",
+      "IRDAI wants to change how insurance is sold"
     ]
   },
   "summary": {

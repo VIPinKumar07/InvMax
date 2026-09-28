@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-29 13:36 IST",
-  "usdinr": {
-   "last": 95.39,
-   "date": "2026-08-28"
-  },
-  "dii_net": {
-   "net": 5183.93,
-   "date": "28-Aug-2026"
-  },
-  "fii_net": {
-   "net": -5039.8,
-   "date": "28-Aug-2026"
-  },
-  "headlines": [
-   "Aayush Wellness launches Lung Care Tablets",
-   "Ashoka Buildcon bags Rs 602-cr order from RVNL",
-   "Reliance Group rejects Subhash Chandra's allegations against media entities",
-   "RIL says Jio Platforms receives SEBI observation letter for proposed IPO",
-   "Stocks of some Indian banks show widest exchange price gap in decades",
-   "Sebi bars Debock Industries, promoter for seven years in fraud case",
-   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
-   "Should you raise a toast to Varun Beverages?",
-   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
-   "Why capital is moving from bits to atoms",
-   "Is Anthropic overvalued?",
-   "NSE's dilemma with going public"
-  ]
- },
- {
   "date": "2026-08-30 12:33 IST",
   "usdinr": {
    "last": 95.39,
@@ -867,6 +838,35 @@
    "India's Company Law Tribunal is in a crisis",
    "Why ISRO is handing its commercial empire to private industry",
    "What's happening to India's rice output?"
+  ]
+ },
+ {
+  "date": "2026-09-28 12:48 IST",
+  "usdinr": {
+   "last": 95.82,
+   "date": "2026-09-25"
+  },
+  "dii_net": {
+   "net": 2838.17,
+   "date": "25-Sep-2026"
+  },
+  "fii_net": {
+   "net": -3693.93,
+   "date": "25-Sep-2026"
+  },
+  "headlines": [
+   "Silver Touch Tech gains after securing workstation supply contract from ISRO",
+   "RTS Power Corporation Ltd leads gainers in 'B' group",
+   "Net FDI flows spurt to five year high in Jul-26, communication, financial and computer services receive bulk of equity inflows",
+   "Tata Teleservices (Maharashtra) Ltd leads gainers in 'A' group",
+   "SRIT India IPO: GMP at 25%; check review, subscription & other details",
+   "Hypersoft forays into AI domain with proprietary platform",
+   "IRDAI wants to change how insurance is sold",
+   "Why monks are turning investors, and more...",
+   "The Orient Cables IPO, India's falling rice output, and more...",
+   "The Orient Cables IPO Explained",
+   "India's Company Law Tribunal is in a crisis",
+   "Why ISRO is handing its commercial empire to private industry"
   ]
  }
 ]
