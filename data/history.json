@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-30 12:33 IST",
-  "usdinr": {
-   "last": 95.39,
-   "date": "2026-08-28"
-  },
-  "dii_net": {
-   "net": 5183.93,
-   "date": "28-Aug-2026"
-  },
-  "fii_net": {
-   "net": -5039.8,
-   "date": "28-Aug-2026"
-  },
-  "headlines": [
-   "Mcap of 7 of top 10 most valued firms erodes ₹1.13 trn, Airtel worst hit",
-   "Prataap Snacks completes acquisition of RLOP Food Processing",
-   "Innovision receives Manambadi fee plaza toll collection contract",
-   "Board of Parmax Pharma approves preferential issue of shares and warrants",
-   "Chemtech Industrial Valves board approves alteration of object clause of MoA",
-   "Transformers and Rectifiers (India) bags large order from MEIL",
-   "Renting a friend, toilet paper tariffs, and more...",
-   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
-   "Should you raise a toast to Varun Beverages?",
-   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
-   "Why capital is moving from bits to atoms",
-   "Is Anthropic overvalued?"
-  ]
- },
- {
   "date": "2026-08-31 12:49 IST",
   "usdinr": {
    "last": 95.39,
@@ -867,6 +838,35 @@
    "The Orient Cables IPO Explained",
    "India's Company Law Tribunal is in a crisis",
    "Why ISRO is handing its commercial empire to private industry"
+  ]
+ },
+ {
+  "date": "2026-09-29 12:45 IST",
+  "usdinr": {
+   "last": 95.98,
+   "date": "2026-09-28"
+  },
+  "dii_net": {
+   "net": 5189.02,
+   "date": "28-Sep-2026"
+  },
+  "fii_net": {
+   "net": -5353.22,
+   "date": "28-Sep-2026"
+  },
+  "headlines": [
+   "Higher outflow from Hormuz could unwind premiums; oil may correct by 10-15%",
+   "Symbiotec Pharmalab receives EIR report for Pithampur SEZ unit",
+   "Axiscades Tech shares hit 10% upper circuit on block deal in defence firm",
+   "PB Fintech, Turtlemint Fintech tank up to 43% in 4 days; hit 52-week lows",
+   "Azad Engineering Ltd leads gainers in 'A' group",
+   "Krsnaa Diagnostics board OKs sale of select diagnostic equipment for Rs 120 crore",
+   "India's black powder problem with battery recycling",
+   "IRDAI wants to change how insurance is sold",
+   "Why monks are turning investors, and more...",
+   "The Orient Cables IPO, India's falling rice output, and more...",
+   "The Orient Cables IPO Explained",
+   "India's Company Law Tribunal is in a crisis"
   ]
  }
 ]
