@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-08-31 12:49 IST",
-  "usdinr": {
-   "last": 95.39,
-   "date": "2026-08-28"
-  },
-  "dii_net": {
-   "net": 5183.93,
-   "date": "28-Aug-2026"
-  },
-  "fii_net": {
-   "net": -5039.8,
-   "date": "28-Aug-2026"
-  },
-  "headlines": [
-   "Pondy Oxides and Chemicals revise Dividend",
-   "MSCI rejig: Laurus, Lenskart among 4 stocks set for $1.5 bn inflows",
-   "Zydus announces positive topline results from completed EVIDENCES-X Phase II(b) trial",
-   "Nifty Media index tanks 4.5%; Zee Entertainment, Network18 plunge up to 14%",
-   "Nifty IT tanks 2%; Infosys, Wipro top losers: What's behind the weakness?",
-   "Market under pressure; Nifty trades near 24,000 level",
-   "The economics of India's never ending onion price problem",
-   "Renting a friend, toilet paper tariffs, and more...",
-   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
-   "Should you raise a toast to Varun Beverages?",
-   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?",
-   "Why capital is moving from bits to atoms"
-  ]
- },
- {
   "date": "2026-09-01 12:01 IST",
   "usdinr": {
    "last": 95.17,
@@ -867,6 +838,35 @@
    "The Orient Cables IPO, India's falling rice output, and more...",
    "The Orient Cables IPO Explained",
    "India's Company Law Tribunal is in a crisis"
+  ]
+ },
+ {
+  "date": "2026-09-30 12:35 IST",
+  "usdinr": {
+   "last": 95.98,
+   "date": "2026-09-29"
+  },
+  "dii_net": {
+   "net": 6952.71,
+   "date": "29-Sep-2026"
+  },
+  "fii_net": {
+   "net": -9980.22,
+   "date": "29-Sep-2026"
+  },
+  "headlines": [
+   "US 30-yr yield rises to highest level since 2002: What this means for rupee",
+   "KPI Green Energy gains 4% after ₹2,410 crore wind asset acquisition",
+   "Cupid shares surge 17% in 2 days to record high; what's behind sharp rise?",
+   "Hospital stocks under pressure: Apollo, Yatharth, Fortis, Max drop up to 7%",
+   "Gold, silver prices rebound as crude oil prices fall on supply boost",
+   "Savita Oil Tech zooms 200% in 9 months; what's driving lubricant stock?",
+   "What if the Maldives disappeared?",
+   "India's black powder problem with battery recycling",
+   "IRDAI wants to change how insurance is sold",
+   "Why monks are turning investors, and more...",
+   "The Orient Cables IPO, India's falling rice output, and more...",
+   "The Orient Cables IPO Explained"
   ]
  }
 ]
