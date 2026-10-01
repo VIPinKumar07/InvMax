@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-01 12:01 IST",
-  "usdinr": {
-   "last": 95.17,
-   "date": "2026-08-31"
-  },
-  "dii_net": {
-   "net": 4588.88,
-   "date": "31-Aug-2026"
-  },
-  "fii_net": {
-   "net": -7985.88,
-   "date": "31-Aug-2026"
-  },
-  "headlines": [
-   "NSE SME Madhur Knit Crafts starts on a frayed note",
-   "Deepa Jewellers IPO: Growth & valuations lift long-term appeal, say experts",
-   "Non-food bank credit surges 19.1%, service sector credit spikes around 23%",
-   "NSE SME ABH Healthcare's market debut shows signs of weak pulse",
-   "Volumes jump at Vardhman Textiles Ltd counter",
-   "NSE records Rs 39,718 crore turnover in Closing Auction Session on MSCI rebalancing day",
-   "The Subhash Chandra saga explained",
-   "The economics of India's never ending onion price problem",
-   "Renting a friend, toilet paper tariffs, and more...",
-   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
-   "Should you raise a toast to Varun Beverages?",
-   "Is Hindustan Copper's \"Green Shoe\" really a Green Shoe?"
-  ]
- },
- {
   "date": "2026-09-02 11:40 IST",
   "usdinr": {
    "last": 94.95,
@@ -867,6 +838,35 @@
    "Why monks are turning investors, and more...",
    "The Orient Cables IPO, India's falling rice output, and more...",
    "The Orient Cables IPO Explained"
+  ]
+ },
+ {
+  "date": "2026-10-01 13:03 IST",
+  "usdinr": {
+   "last": 95.83,
+   "date": "2026-09-30"
+  },
+  "dii_net": {
+   "net": 11271.73,
+   "date": "30-Sep-2026"
+  },
+  "fii_net": {
+   "net": -10148.41,
+   "date": "30-Sep-2026"
+  },
+  "headlines": [
+   "Welspun Living zooms 112% in 6 months, hits new high; what's driving stock?",
+   "Gold rises ₹607 as rate-hold expectations strengthen; silver jumps ₹2,828",
+   "MTNL zooms 17% on board nod to Mumbai property sale worth ₹891.53 cr",
+   "India's domestic funds push IPO valuations lower amid market strain",
+   "Hero Motors hits new high; stock up 99% against issue price in 7 days",
+   "Adani Energy Solutions gains 5.5%; extends winning streak to 3rd session",
+   "Top 10 Companies Acquired by Meta",
+   "What actually makes a hospital profitable?",
+   "What if the Maldives disappeared?",
+   "India's black powder problem with battery recycling",
+   "IRDAI wants to change how insurance is sold",
+   "Why monks are turning investors, and more..."
   ]
  }
 ]
