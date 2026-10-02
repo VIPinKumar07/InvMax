@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-02 11:40 IST",
-  "usdinr": {
-   "last": 94.95,
-   "date": "2026-09-01"
-  },
-  "dii_net": {
-   "net": 1846.94,
-   "date": "01-Sep-2026"
-  },
-  "fii_net": {
-   "net": 1143.38,
-   "date": "01-Sep-2026"
-  },
-  "headlines": [
-   "NSE SME Sumax Engineering makes a polished debut but struggles to accelerate",
-   "US markets drop amid soaring oil prices",
-   "Sai Life Science surges 8% in two days; stock hits new high in weak market",
-   "Volumes soar at Havells India Ltd counter",
-   "Capri Global Capital concludes its maiden USD 30M bond issuance",
-   "Magellanic Cloud completes handover of 685 sites for Punjab & Sind Bank",
-   "The Happiest Minds-ITC Infotech merger explained",
-   "The Subhash Chandra saga explained",
-   "The economics of India's never ending onion price problem",
-   "Renting a friend, toilet paper tariffs, and more...",
-   "Why NSE can’t list itself, is Anthropic is worth $2 trillion, and more...",
-   "Should you raise a toast to Varun Beverages?"
-  ]
- },
- {
   "date": "2026-09-03 11:38 IST",
   "usdinr": {
    "last": 94.97,
@@ -861,6 +832,35 @@
    "India's domestic funds push IPO valuations lower amid market strain",
    "Hero Motors hits new high; stock up 99% against issue price in 7 days",
    "Adani Energy Solutions gains 5.5%; extends winning streak to 3rd session",
+   "Top 10 Companies Acquired by Meta",
+   "What actually makes a hospital profitable?",
+   "What if the Maldives disappeared?",
+   "India's black powder problem with battery recycling",
+   "IRDAI wants to change how insurance is sold",
+   "Why monks are turning investors, and more..."
+  ]
+ },
+ {
+  "date": "2026-10-02 12:47 IST",
+  "usdinr": {
+   "last": 96.33,
+   "date": "2026-10-01"
+  },
+  "dii_net": {
+   "net": 10041.84,
+   "date": "01-Oct-2026"
+  },
+  "fii_net": {
+   "net": -9484.22,
+   "date": "01-Oct-2026"
+  },
+  "headlines": [
+   "Asian shares tumble after wild swings in bonds, FX before US jobs data",
+   "Stock market holiday: BSE, NSE closed today for Gandhi Jayanti",
+   "Indian banks faced $500 million FX losses after RBI position curbs",
+   "TCS to buy US retailer Best Buy's India GCC, develop an AI-native centre",
+   "Accenture beats Q4 revenue guidance, projects 3-6% growth for FY27",
+   "Indian firms defy market slump with record $25 bn equity fundraise in H1",
    "Top 10 Companies Acquired by Meta",
    "What actually makes a hospital profitable?",
    "What if the Maldives disappeared?",
