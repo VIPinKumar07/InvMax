@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03 12:19 IST",
-  "generated_utc": "2026-10-03T06:49:07+00:00",
+  "generated_at": "2026-10-04 12:39 IST",
+  "generated_utc": "2026-10-04T07:09:56+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-03 12:19 IST",
+      "asof": "2026-10-04 12:39 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-10-03 12:19 IST",
+      "asof": "2026-10-04 12:40 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-03 12:20 IST",
+      "asof": "2026-10-04 12:40 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-03 12:20 IST",
+      "asof": "2026-10-04 12:40 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-10-03 12:20 IST",
+      "asof": "2026-10-04 12:40 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asian shares tumble after wild swings in bonds, FX before US jobs data",
-          "url": "https://www.business-standard.com/markets/news/asian-shares-tumble-after-wild-swings-in-bonds-fx-before-us-jobs-data-126100200114_1.html",
-          "published": "Fri, 02 Oct 2026 08:25:49 +0530"
+          "title": "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
+          "url": "https://www.business-standard.com/markets/ipo/jio-ipo-likely-by-oct-end-at-enterprise-valuation-of-above-12-trillion-126100400146_1.html",
+          "published": "Sun, 04 Oct 2026 11:41:44 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock market holiday: BSE, NSE closed today for Gandhi Jayanti",
-          "url": "https://www.business-standard.com/markets/news/stock-market-holiday-bse-nse-closed-today-for-gandhi-jayanti-126100100633_1.html",
-          "published": "Fri, 02 Oct 2026 07:20:17 +0530"
+          "title": "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
+          "url": "https://www.business-standard.com/markets/news/markets-news-sebi-cas-review-draws-over-20k-responses-traders-resist-vwap-shift-126100400056_1.html",
+          "published": "Sun, 04 Oct 2026 08:47:37 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Indian banks faced $500 million FX losses after RBI position curbs",
-          "url": "https://www.business-standard.com/finance/news/indian-banks-forex-trading-losses-rbi-rupee-net-open-position-cap-126100200105_1.html",
-          "published": "Fri, 02 Oct 2026 07:11:18 +0530"
+          "title": "Parliamentary panel may recommend govt for action on monitoring crypto",
+          "url": "https://www.business-standard.com/markets/cryptocurrency/parliamentary-panel-may-recommend-govt-for-action-on-monitoring-crypto-126100300786_1.html",
+          "published": "Sat, 03 Oct 2026 19:34:52 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "TCS to buy US retailer Best Buy's India GCC, develop an AI-native centre",
-          "url": "https://www.business-standard.com/companies/news/tcs-to-buy-us-retailer-best-buy-s-india-gcc-develop-an-ai-native-centre-126100101559_1.html",
-          "published": "Thu, 01 Oct 2026 23:20:55 +0530"
+          "title": "Sebi examining position limits for non-agri contracts to boost liquidity",
+          "url": "https://www.business-standard.com/markets/news/sebi-examining-position-limits-for-non-agri-contracts-to-boost-liquidity-126100300459_1.html",
+          "published": "Sat, 03 Oct 2026 15:23:59 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Accenture beats Q4 revenue guidance, projects 3-6% growth for FY27",
-          "url": "https://www.business-standard.com/companies/news/accenture-beats-q4-revenue-guidance-projects-3-6-growth-for-fy27-126100101493_1.html",
-          "published": "Thu, 01 Oct 2026 22:26:04 +0530"
+          "title": "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
+          "url": "https://www.business-standard.com/economy/news/rbi-backs-blockchain-technology-remains-cautious-on-crypto-guv-malhotra-126100300396_1.html",
+          "published": "Sat, 03 Oct 2026 14:24:02 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Indian firms defy market slump with record $25 bn equity fundraise in H1",
-          "url": "https://www.business-standard.com/markets/news/indian-firms-defy-market-slump-with-record-25-bn-equity-fundraise-in-h1-126100101190_1.html",
-          "published": "Thu, 01 Oct 2026 22:07:19 +0530"
+          "title": "Sebi to soon issue framework on CAS; receives over 3,500 comments",
+          "url": "https://www.business-standard.com/markets/news/sebi-to-soon-issue-framework-on-cas-mechanism-after-receiving-3-5k-comments-126100300348_1.html",
+          "published": "Sat, 03 Oct 2026 14:01:29 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Did K-serials empower Indian women, flying biryani, & more...",
+          "url": "https://finshots.in/archive/did-k-serials-empower-indian-women-flying-biryani-more/",
+          "published": "Sun, 04 Oct 2026 01:30:46 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Tue, 29 Sep 2026 01:30:32 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "IRDAI wants to change how insurance is sold",
-          "url": "https://finshots.in/archive/irdai-wants-to-change-how-insurance-is-sold/",
-          "published": "Mon, 28 Sep 2026 01:30:07 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "After Nifty’s longest losing streak in 25 years, what should investors do now?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/afterniftys-longest-losing-streak-in-25-years-what-should-investors-do-now/articleshow/134670772.cms",
+          "published": "Sun, 04 Oct 2026 12:07:35 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Stocks to buy: Axis picks 7 largecap stocks with upside potential of up to 44%. See full list",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-axis-picks-7-largecap-stocks-with-upside-potential-of-up-to-44-see-full-list/slideshow/134653534.cms",
-          "published": "Sat, 03 Oct 2026 11:45:39 +0530"
+          "title": "Axis Direct picks 5 smallcap stocks with up to 40% upside potential. How many do you have?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/axis-direct-picks-5-smallcap-stocks-with-up-to-40-upside-potential-how-many-do-you-have/slideshow/134670761.cms",
+          "published": "Sun, 04 Oct 2026 11:51:39 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Indian stocks face a cyclical correction, not a deeper earnings reset: Mahindra Manulife MF CIO",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/indian-stocks-face-a-cyclical-correction-not-a-deeper-earnings-reset-mahindra-manulife-mf-cio/articleshow/134652752.cms",
-          "published": "Sat, 03 Oct 2026 11:09:05 +0530"
+          "title": "7 midcap stocks with rising EPS for four straight quarters. Are they in your portfolio?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/7-midcap-stocks-with-rising-eps-for-four-straight-quarters-are-they-in-your-portfolio/slideshow/134670681.cms",
+          "published": "Sun, 04 Oct 2026 11:34:50 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Jio Platforms IPO may open on October 21, issue estimated at $3.8 billion: Report",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-platforms-ipo-may-open-on-october-21-issue-estimated-at-3-8-billion-report/articleshow/134652545.cms",
-          "published": "Sat, 03 Oct 2026 10:46:10 +0530"
+          "title": "Auto sales surge in September, but GST base clouds the picture. Can stocks rebound ahead of Q2 results?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/auto-sales-surge-in-september-but-gst-base-clouds-the-picture-can-stocks-rebound-ahead-of-q2-results/articleshow/134669703.cms",
+          "published": "Sun, 04 Oct 2026 10:10:33 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Robinhood stock tokens turbocharge a new era of meme trading",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/robinhood-stock-tokens-turbocharge-a-new-era-of-meme-trading/articleshow/134652233.cms",
-          "published": "Sat, 03 Oct 2026 10:34:50 +0530"
+          "title": "Bonus issues, stock splits and dividends: 10 stocks turning ex-record date this week. Do you own any?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-issues-stock-splits-and-dividends-10-stocks-turning-ex-record-date-this-week-do-you-own-any/articleshow/134669646.cms",
+          "published": "Sun, 04 Oct 2026 10:03:45 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Concurrent Losers: 14 midcap stocks decline for 5 consecutive sessions",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-losers-14-midcap-stocks-decline-for-5-consecutive-sessions/slideshow/134652347.cms",
-          "published": "Sat, 03 Oct 2026 10:19:57 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Bleak Winter! Why analysts are hinting at painful October even after 8 weeks of Nifty correction?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bleak-winter-why-analysts-are-hinting-at-painful-october-even-after-8-weeks-of-nifty-correction/articleshow/134651765.cms",
-          "published": "Sat, 03 Oct 2026 09:45:48 +0530"
+          "title": "9 penny stocks crash up to 57% in just 2 months",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/9-penny-stocks-crash-up-to-57-in-just-2-months/slideshow/134669386.cms",
+          "published": "Sun, 04 Oct 2026 09:22:13 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Copper boom stocks: Hindustan Copper, Vedanta Aluminium, Hindustan Zinc, Vedanta, NALCO - Experts views on metal shares",
-          "url": "https://www.livemint.com/market/stock-market-news/copper-boom-stocks-hindustan-copper-vedanta-aluminium-hindustan-zinc-vedanta-nalco-experts-views-on-metal-shares-11790966320438.html",
-          "published": "Sat, 03 Oct 2026 12:01:48 +0530"
+          "title": "RBI MPC Meeting October 2026: Repo rate hike will be decided by these 5 factors | Explained",
+          "url": "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-repo-rate-hike-will-be-decided-by-these-5-factors-explained-11791093642745.html",
+          "published": "Sun, 04 Oct 2026 12:34:35 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Policybazaar, Paisabazaar share: PB Fintech stock down 48% in 6 days, more pain ahead - Here’s why | Revised target",
-          "url": "https://www.livemint.com/market/stock-market-news/policybazaar-paisabazaar-share-pb-fintech-stock-down-48-in-6-days-more-pain-ahead-here-s-why-revised-target-11791004792982.html",
-          "published": "Sat, 03 Oct 2026 11:49:40 +0530"
+          "title": "Another big development in Tata Boardroom Battle; Noel Tata seeks video recording and minutes of Sept 17 meeting",
+          "url": "https://www.livemint.com/market/another-big-development-in-tata-boardroom-battle-noel-tata-seeks-video-recording-and-minutes-of-sept-17-meeting-11791095186384.html",
+          "published": "Sun, 04 Oct 2026 12:11:18 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to buy: Galaxy Surfactants, Mankind Pharma and Engineers India; check share price target by Axis, rationale",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-galaxy-surfactants-mankind-pharma-and-engineers-india-check-share-price-target-by-axis-rationale-11791001806429.html",
-          "published": "Sat, 03 Oct 2026 10:47:13 +0530"
+          "title": "Best Vedanta share to buy amid Q2 results? Vedanta Power vs Hindustan Zinc vs Vedanta Aluminium vs Vedanta Oil & Gas",
+          "url": "https://www.livemint.com/market/stock-market-news/best-vedanta-share-to-buy-amid-q2-results-vedanta-power-vs-hindustan-zinc-vs-vedanta-aluminium-vs-vedanta-oil-gas-11791089427498.html",
+          "published": "Sun, 04 Oct 2026 11:10:08 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Azad Engineering shares: Up 85% in 6 months; stock to buy, says ICICI Securities - Check revised share price target",
-          "url": "https://www.livemint.com/market/azad-engineering-shares-up-85-in-6-months-stock-to-buy-says-icici-securities-check-revised-share-price-target-11790998847357.html",
-          "published": "Sat, 03 Oct 2026 09:52:26 +0530"
+          "title": "Stock market prediction for tomorrow, 5 Oct Monday: Sensex, Nifty outlook; Dow Jones, Nasdaq, Kospi, Nikkei, Taiwan cues",
+          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-5-oct-monday-sensex-nifty-outlook-dow-jones-nasdaq-kospi-nikkei-taiwan-cues-11791044203935.html",
+          "published": "Sun, 04 Oct 2026 10:09:44 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Is October a market crash month? 1929 crash to Black Monday 1987 - Why October scares equities, stocks investors",
-          "url": "https://www.livemint.com/market/stock-market-news/is-october-a-market-crash-month-1929-crash-to-black-monday-1987-why-october-scares-equities-stocks-investors-11790954995036.html",
-          "published": "Sat, 03 Oct 2026 09:00:25 +0530"
+          "title": "HDFC Bank gets new MD-CEO; stock is Jefferies India's top pick — 22% upside despite 27% dip in YTD | Target price, ratio",
+          "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-gets-new-md-ceo-stock-is-jefferies-indias-top-pick-22-upside-despite-27-dip-in-ytd-target-price-ratio-11791043530085.html",
+          "published": "Sun, 04 Oct 2026 09:00:25 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "US yields rise, reversing initial reaction to weak jobs report",
-          "url": "https://www.livemint.com/market/us-yields-rise-reversing-initial-reaction-to-weak-jobs-report-11790969678755.html",
-          "published": "Sat, 03 Oct 2026 01:04:38 +0530"
+          "title": "Upcoming dividend, stock split, bonus shares this week: NMDC, PH Capital, MoldTek, GTV and others - Record date, ratio",
+          "url": "https://www.livemint.com/market/upcoming-dividend-stock-split-bonus-shares-this-week-nmdc-ph-capital-moldtek-gtv-and-others-record-date-ratio-11790967535671.html",
+          "published": "Sun, 04 Oct 2026 09:00:05 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-03 12:20 IST",
+      "checked_at": "2026-10-04 12:40 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-03 12:20 IST",
+      "generated_at": "2026-10-04 12:40 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-71,610 Cr · 20% of days positive.",
+        "reading": "20-day cumulative: Rs-80,163 Cr · 20% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-71,610 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-80,163 Cr · 20% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs82,779 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs90,852 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-71,610 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-80,163 Cr · 20% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs82,779 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs90,852 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-03 12:20 IST",
+    "date": "2026-10-04 12:40 IST",
     "usdinr": {
       "last": 96.32,
       "date": "2026-10-02"
@@ -1628,18 +1628,18 @@
       "date": "01-Oct-2026"
     },
     "headlines": [
-      "Asian shares tumble after wild swings in bonds, FX before US jobs data",
-      "Stock market holiday: BSE, NSE closed today for Gandhi Jayanti",
-      "Indian banks faced $500 million FX losses after RBI position curbs",
-      "TCS to buy US retailer Best Buy's India GCC, develop an AI-native centre",
-      "Accenture beats Q4 revenue guidance, projects 3-6% growth for FY27",
-      "Indian firms defy market slump with record $25 bn equity fundraise in H1",
+      "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
+      "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
+      "Parliamentary panel may recommend govt for action on monitoring crypto",
+      "Sebi examining position limits for non-agri contracts to boost liquidity",
+      "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
+      "Sebi to soon issue framework on CAS; receives over 3,500 comments",
+      "Did K-serials empower Indian women, flying biryani, & more...",
       "IRDAI wants to shake up insurance, sinking islands, and more...",
       "Top 10 Companies Acquired by Meta",
       "What actually makes a hospital profitable?",
       "What if the Maldives disappeared?",
-      "India's black powder problem with battery recycling",
-      "IRDAI wants to change how insurance is sold"
+      "India's black powder problem with battery recycling"
     ]
   },
   "changes": {
@@ -1647,14 +1647,14 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "1 new"
+        "detail": "7 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹96.32 (-0.01%)"
+        "detail": "₹96.32 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1669,12 +1669,18 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "1 new"
+        "detail": "7 new"
       }
     ],
-    "since": "2026-10-02 12:47 IST",
+    "since": "2026-10-03 12:20 IST",
     "new_headlines": [
-      "IRDAI wants to shake up insurance, sinking islands, and more..."
+      "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
+      "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
+      "Parliamentary panel may recommend govt for action on monitoring crypto",
+      "Sebi examining position limits for non-agri contracts to boost liquidity",
+      "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
+      "Sebi to soon issue framework on CAS; receives over 3,500 comments",
+      "Did K-serials empower Indian women, flying biryani, & more..."
     ]
   },
   "summary": {

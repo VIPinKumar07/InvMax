@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-04 11:45 IST",
-  "usdinr": {
-   "last": 94.49,
-   "date": "2026-09-03"
-  },
-  "dii_net": {
-   "net": 4977.46,
-   "date": "03-Sep-2026"
-  },
-  "fii_net": {
-   "net": -2345.87,
-   "date": "03-Sep-2026"
-  },
-  "headlines": [
-   "HCL Technologies signs MoU with Transport for NSW",
-   "Can UltraTech's cables & wire foray charge up its shares? What analysts say",
-   "PowerGrid wins transmission project for Lakadia REZ, Gujarat",
-   "Tata Chemicals slips as Kenya dispute clouds Magadi soda ash operations",
-   "Volumes jump at Gland Pharma Ltd counter",
-   "Tribhovandas Bhimji Zaveri soars 58% in 4 days; zooms 107% from Aug low",
-   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
-   "Has Japan finally escaped the Lost Decades",
-   "The Happiest Minds-ITC Infotech merger explained",
-   "The Subhash Chandra saga explained",
-   "The economics of India's never ending onion price problem",
-   "Renting a friend, toilet paper tariffs, and more..."
-  ]
- },
- {
   "date": "2026-09-05 11:34 IST",
   "usdinr": {
    "last": 94.49,
@@ -867,6 +838,35 @@
    "What if the Maldives disappeared?",
    "India's black powder problem with battery recycling",
    "IRDAI wants to change how insurance is sold"
+  ]
+ },
+ {
+  "date": "2026-10-04 12:40 IST",
+  "usdinr": {
+   "last": 96.32,
+   "date": "2026-10-02"
+  },
+  "dii_net": {
+   "net": 10041.84,
+   "date": "01-Oct-2026"
+  },
+  "fii_net": {
+   "net": -9484.22,
+   "date": "01-Oct-2026"
+  },
+  "headlines": [
+   "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
+   "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
+   "Parliamentary panel may recommend govt for action on monitoring crypto",
+   "Sebi examining position limits for non-agri contracts to boost liquidity",
+   "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
+   "Sebi to soon issue framework on CAS; receives over 3,500 comments",
+   "Did K-serials empower Indian women, flying biryani, & more...",
+   "IRDAI wants to shake up insurance, sinking islands, and more...",
+   "Top 10 Companies Acquired by Meta",
+   "What actually makes a hospital profitable?",
+   "What if the Maldives disappeared?",
+   "India's black powder problem with battery recycling"
   ]
  }
 ]
