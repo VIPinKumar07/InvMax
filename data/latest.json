@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04 12:39 IST",
-  "generated_utc": "2026-10-04T07:09:56+00:00",
+  "generated_at": "2026-10-05 12:54 IST",
+  "generated_utc": "2026-10-05T07:24:07+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,1043 +40,22 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-04 12:39 IST",
+      "asof": "2026-10-05 12:56 IST",
       "status": "ok",
       "data": {
-        "source": "ECB/Frankfurter",
-        "asof": "2026-10-02",
+        "source": "exchangerate-api",
+        "asof": "05 Oct 2026",
         "rates": {
-          "EUR": 0.89087,
-          "GBP": 0.75753,
-          "INR": 96.32,
-          "JPY": 157.67
+          "INR": 96.400634,
+          "EUR": 0.88889,
+          "GBP": 0.755727,
+          "JPY": 157.730309
         },
-        "usdinr_history": [
-          {
-            "date": "2025-10-03",
-            "v": 88.78
-          },
-          {
-            "date": "2025-10-06",
-            "v": 88.78
-          },
-          {
-            "date": "2025-10-07",
-            "v": 88.75
-          },
-          {
-            "date": "2025-10-08",
-            "v": 88.76
-          },
-          {
-            "date": "2025-10-09",
-            "v": 88.8
-          },
-          {
-            "date": "2025-10-10",
-            "v": 88.71
-          },
-          {
-            "date": "2025-10-13",
-            "v": 88.69
-          },
-          {
-            "date": "2025-10-14",
-            "v": 88.79
-          },
-          {
-            "date": "2025-10-15",
-            "v": 88.06
-          },
-          {
-            "date": "2025-10-16",
-            "v": 87.93
-          },
-          {
-            "date": "2025-10-17",
-            "v": 88.0
-          },
-          {
-            "date": "2025-10-20",
-            "v": 87.9
-          },
-          {
-            "date": "2025-10-21",
-            "v": 87.97
-          },
-          {
-            "date": "2025-10-22",
-            "v": 88.42
-          },
-          {
-            "date": "2025-10-23",
-            "v": 87.82
-          },
-          {
-            "date": "2025-10-24",
-            "v": 87.81
-          },
-          {
-            "date": "2025-10-27",
-            "v": 88.25
-          },
-          {
-            "date": "2025-10-28",
-            "v": 88.31
-          },
-          {
-            "date": "2025-10-29",
-            "v": 88.23
-          },
-          {
-            "date": "2025-10-30",
-            "v": 88.72
-          },
-          {
-            "date": "2025-10-31",
-            "v": 88.72
-          },
-          {
-            "date": "2025-11-03",
-            "v": 88.77
-          },
-          {
-            "date": "2025-11-04",
-            "v": 88.71
-          },
-          {
-            "date": "2025-11-05",
-            "v": 88.64
-          },
-          {
-            "date": "2025-11-06",
-            "v": 88.57
-          },
-          {
-            "date": "2025-11-07",
-            "v": 88.68
-          },
-          {
-            "date": "2025-11-10",
-            "v": 88.68
-          },
-          {
-            "date": "2025-11-11",
-            "v": 88.49
-          },
-          {
-            "date": "2025-11-12",
-            "v": 88.61
-          },
-          {
-            "date": "2025-11-13",
-            "v": 88.69
-          },
-          {
-            "date": "2025-11-14",
-            "v": 88.68
-          },
-          {
-            "date": "2025-11-17",
-            "v": 88.61
-          },
-          {
-            "date": "2025-11-18",
-            "v": 88.56
-          },
-          {
-            "date": "2025-11-19",
-            "v": 88.5
-          },
-          {
-            "date": "2025-11-20",
-            "v": 88.71
-          },
-          {
-            "date": "2025-11-21",
-            "v": 89.64
-          },
-          {
-            "date": "2025-11-24",
-            "v": 89.15
-          },
-          {
-            "date": "2025-11-25",
-            "v": 89.2
-          },
-          {
-            "date": "2025-11-26",
-            "v": 89.2
-          },
-          {
-            "date": "2025-11-27",
-            "v": 89.4
-          },
-          {
-            "date": "2025-11-28",
-            "v": 89.48
-          },
-          {
-            "date": "2025-12-01",
-            "v": 89.54
-          },
-          {
-            "date": "2025-12-02",
-            "v": 89.95
-          },
-          {
-            "date": "2025-12-03",
-            "v": 90.17
-          },
-          {
-            "date": "2025-12-04",
-            "v": 89.87
-          },
-          {
-            "date": "2025-12-05",
-            "v": 89.94
-          },
-          {
-            "date": "2025-12-08",
-            "v": 90.04
-          },
-          {
-            "date": "2025-12-09",
-            "v": 89.84
-          },
-          {
-            "date": "2025-12-10",
-            "v": 89.91
-          },
-          {
-            "date": "2025-12-11",
-            "v": 90.32
-          },
-          {
-            "date": "2025-12-12",
-            "v": 90.53
-          },
-          {
-            "date": "2025-12-15",
-            "v": 90.74
-          },
-          {
-            "date": "2025-12-16",
-            "v": 90.92
-          },
-          {
-            "date": "2025-12-17",
-            "v": 90.37
-          },
-          {
-            "date": "2025-12-18",
-            "v": 90.26
-          },
-          {
-            "date": "2025-12-19",
-            "v": 89.69
-          },
-          {
-            "date": "2025-12-22",
-            "v": 89.65
-          },
-          {
-            "date": "2025-12-23",
-            "v": 89.56
-          },
-          {
-            "date": "2025-12-24",
-            "v": 89.74
-          },
-          {
-            "date": "2025-12-29",
-            "v": 89.9
-          },
-          {
-            "date": "2025-12-30",
-            "v": 89.8
-          },
-          {
-            "date": "2025-12-31",
-            "v": 89.87
-          },
-          {
-            "date": "2026-01-02",
-            "v": 90.2
-          },
-          {
-            "date": "2026-01-05",
-            "v": 90.29
-          },
-          {
-            "date": "2026-01-06",
-            "v": 90.15
-          },
-          {
-            "date": "2026-01-07",
-            "v": 89.85
-          },
-          {
-            "date": "2026-01-08",
-            "v": 89.93
-          },
-          {
-            "date": "2026-01-09",
-            "v": 90.22
-          },
-          {
-            "date": "2026-01-12",
-            "v": 90.16
-          },
-          {
-            "date": "2026-01-13",
-            "v": 90.23
-          },
-          {
-            "date": "2026-01-14",
-            "v": 90.3
-          },
-          {
-            "date": "2026-01-15",
-            "v": 90.3
-          },
-          {
-            "date": "2026-01-16",
-            "v": 90.73
-          },
-          {
-            "date": "2026-01-19",
-            "v": 90.88
-          },
-          {
-            "date": "2026-01-20",
-            "v": 90.96
-          },
-          {
-            "date": "2026-01-21",
-            "v": 91.64
-          },
-          {
-            "date": "2026-01-22",
-            "v": 91.59
-          },
-          {
-            "date": "2026-01-23",
-            "v": 91.86
-          },
-          {
-            "date": "2026-01-26",
-            "v": 91.76
-          },
-          {
-            "date": "2026-01-27",
-            "v": 91.62
-          },
-          {
-            "date": "2026-01-28",
-            "v": 91.94
-          },
-          {
-            "date": "2026-01-29",
-            "v": 91.92
-          },
-          {
-            "date": "2026-01-30",
-            "v": 91.94
-          },
-          {
-            "date": "2026-02-02",
-            "v": 91.57
-          },
-          {
-            "date": "2026-02-03",
-            "v": 90.14
-          },
-          {
-            "date": "2026-02-04",
-            "v": 90.41
-          },
-          {
-            "date": "2026-02-05",
-            "v": 90.31
-          },
-          {
-            "date": "2026-02-06",
-            "v": 90.66
-          },
-          {
-            "date": "2026-02-09",
-            "v": 90.73
-          },
-          {
-            "date": "2026-02-10",
-            "v": 90.54
-          },
-          {
-            "date": "2026-02-11",
-            "v": 90.71
-          },
-          {
-            "date": "2026-02-12",
-            "v": 90.58
-          },
-          {
-            "date": "2026-02-13",
-            "v": 90.61
-          },
-          {
-            "date": "2026-02-16",
-            "v": 90.73
-          },
-          {
-            "date": "2026-02-17",
-            "v": 90.7
-          },
-          {
-            "date": "2026-02-18",
-            "v": 90.69
-          },
-          {
-            "date": "2026-02-19",
-            "v": 91.19
-          },
-          {
-            "date": "2026-02-20",
-            "v": 90.95
-          },
-          {
-            "date": "2026-02-23",
-            "v": 90.9
-          },
-          {
-            "date": "2026-02-24",
-            "v": 90.93
-          },
-          {
-            "date": "2026-02-25",
-            "v": 90.95
-          },
-          {
-            "date": "2026-02-26",
-            "v": 90.93
-          },
-          {
-            "date": "2026-02-27",
-            "v": 91.08
-          },
-          {
-            "date": "2026-03-02",
-            "v": 91.74
-          },
-          {
-            "date": "2026-03-03",
-            "v": 92.15
-          },
-          {
-            "date": "2026-03-04",
-            "v": 92.09
-          },
-          {
-            "date": "2026-03-05",
-            "v": 91.65
-          },
-          {
-            "date": "2026-03-06",
-            "v": 91.83
-          },
-          {
-            "date": "2026-03-09",
-            "v": 92.3
-          },
-          {
-            "date": "2026-03-10",
-            "v": 91.96
-          },
-          {
-            "date": "2026-03-11",
-            "v": 92.07
-          },
-          {
-            "date": "2026-03-12",
-            "v": 92.21
-          },
-          {
-            "date": "2026-03-13",
-            "v": 92.38
-          },
-          {
-            "date": "2026-03-16",
-            "v": 92.25
-          },
-          {
-            "date": "2026-03-17",
-            "v": 92.37
-          },
-          {
-            "date": "2026-03-18",
-            "v": 92.9
-          },
-          {
-            "date": "2026-03-19",
-            "v": 93.25
-          },
-          {
-            "date": "2026-03-20",
-            "v": 93.62
-          },
-          {
-            "date": "2026-03-23",
-            "v": 93.22
-          },
-          {
-            "date": "2026-03-24",
-            "v": 93.85
-          },
-          {
-            "date": "2026-03-25",
-            "v": 93.94
-          },
-          {
-            "date": "2026-03-26",
-            "v": 94.12
-          },
-          {
-            "date": "2026-03-27",
-            "v": 94.81
-          },
-          {
-            "date": "2026-03-30",
-            "v": 94.71
-          },
-          {
-            "date": "2026-03-31",
-            "v": 93.83
-          },
-          {
-            "date": "2026-04-01",
-            "v": 93.43
-          },
-          {
-            "date": "2026-04-02",
-            "v": 93.1
-          },
-          {
-            "date": "2026-04-07",
-            "v": 93.01
-          },
-          {
-            "date": "2026-04-08",
-            "v": 92.22
-          },
-          {
-            "date": "2026-04-09",
-            "v": 92.66
-          },
-          {
-            "date": "2026-04-10",
-            "v": 92.89
-          },
-          {
-            "date": "2026-04-13",
-            "v": 93.33
-          },
-          {
-            "date": "2026-04-14",
-            "v": 93.09
-          },
-          {
-            "date": "2026-04-15",
-            "v": 93.44
-          },
-          {
-            "date": "2026-04-16",
-            "v": 93.24
-          },
-          {
-            "date": "2026-04-17",
-            "v": 92.82
-          },
-          {
-            "date": "2026-04-20",
-            "v": 93.07
-          },
-          {
-            "date": "2026-04-21",
-            "v": 93.51
-          },
-          {
-            "date": "2026-04-22",
-            "v": 93.8
-          },
-          {
-            "date": "2026-04-23",
-            "v": 94.11
-          },
-          {
-            "date": "2026-04-24",
-            "v": 94.25
-          },
-          {
-            "date": "2026-04-27",
-            "v": 94.2
-          },
-          {
-            "date": "2026-04-28",
-            "v": 94.55
-          },
-          {
-            "date": "2026-04-29",
-            "v": 94.85
-          },
-          {
-            "date": "2026-04-30",
-            "v": 94.92
-          },
-          {
-            "date": "2026-05-04",
-            "v": 95.09
-          },
-          {
-            "date": "2026-05-05",
-            "v": 95.28
-          },
-          {
-            "date": "2026-05-06",
-            "v": 94.62
-          },
-          {
-            "date": "2026-05-07",
-            "v": 94.26
-          },
-          {
-            "date": "2026-05-08",
-            "v": 94.49
-          },
-          {
-            "date": "2026-05-11",
-            "v": 95.32
-          },
-          {
-            "date": "2026-05-12",
-            "v": 95.64
-          },
-          {
-            "date": "2026-05-13",
-            "v": 95.67
-          },
-          {
-            "date": "2026-05-14",
-            "v": 95.77
-          },
-          {
-            "date": "2026-05-15",
-            "v": 95.97
-          },
-          {
-            "date": "2026-05-18",
-            "v": 96.35
-          },
-          {
-            "date": "2026-05-19",
-            "v": 96.54
-          },
-          {
-            "date": "2026-05-20",
-            "v": 96.83
-          },
-          {
-            "date": "2026-05-21",
-            "v": 96.21
-          },
-          {
-            "date": "2026-05-22",
-            "v": 95.7
-          },
-          {
-            "date": "2026-05-25",
-            "v": 95.24
-          },
-          {
-            "date": "2026-05-26",
-            "v": 95.69
-          },
-          {
-            "date": "2026-05-27",
-            "v": 95.69
-          },
-          {
-            "date": "2026-05-28",
-            "v": 95.7
-          },
-          {
-            "date": "2026-05-29",
-            "v": 95.0
-          },
-          {
-            "date": "2026-06-01",
-            "v": 94.99
-          },
-          {
-            "date": "2026-06-02",
-            "v": 95.27
-          },
-          {
-            "date": "2026-06-03",
-            "v": 95.71
-          },
-          {
-            "date": "2026-06-04",
-            "v": 95.78
-          },
-          {
-            "date": "2026-06-05",
-            "v": 94.95
-          },
-          {
-            "date": "2026-06-08",
-            "v": 95.71
-          },
-          {
-            "date": "2026-06-09",
-            "v": 95.35
-          },
-          {
-            "date": "2026-06-10",
-            "v": 95.27
-          },
-          {
-            "date": "2026-06-11",
-            "v": 95.76
-          },
-          {
-            "date": "2026-06-12",
-            "v": 95.12
-          },
-          {
-            "date": "2026-06-15",
-            "v": 94.72
-          },
-          {
-            "date": "2026-06-16",
-            "v": 94.56
-          },
-          {
-            "date": "2026-06-17",
-            "v": 94.53
-          },
-          {
-            "date": "2026-06-18",
-            "v": 94.34
-          },
-          {
-            "date": "2026-06-19",
-            "v": 94.33
-          },
-          {
-            "date": "2026-06-22",
-            "v": 94.68
-          },
-          {
-            "date": "2026-06-23",
-            "v": 94.74
-          },
-          {
-            "date": "2026-06-24",
-            "v": 94.67
-          },
-          {
-            "date": "2026-06-25",
-            "v": 94.39
-          },
-          {
-            "date": "2026-06-26",
-            "v": 94.4
-          },
-          {
-            "date": "2026-06-29",
-            "v": 94.55
-          },
-          {
-            "date": "2026-06-30",
-            "v": 94.66
-          },
-          {
-            "date": "2026-07-01",
-            "v": 95.25
-          },
-          {
-            "date": "2026-07-02",
-            "v": 95.39
-          },
-          {
-            "date": "2026-07-03",
-            "v": 95.21
-          },
-          {
-            "date": "2026-07-06",
-            "v": 95.4
-          },
-          {
-            "date": "2026-07-07",
-            "v": 94.97
-          },
-          {
-            "date": "2026-07-08",
-            "v": 95.56
-          },
-          {
-            "date": "2026-07-09",
-            "v": 95.39
-          },
-          {
-            "date": "2026-07-10",
-            "v": 95.34
-          },
-          {
-            "date": "2026-07-13",
-            "v": 95.62
-          },
-          {
-            "date": "2026-07-14",
-            "v": 96.2
-          },
-          {
-            "date": "2026-07-15",
-            "v": 96.26
-          },
-          {
-            "date": "2026-07-16",
-            "v": 96.35
-          },
-          {
-            "date": "2026-07-17",
-            "v": 96.28
-          },
-          {
-            "date": "2026-07-20",
-            "v": 96.45
-          },
-          {
-            "date": "2026-07-21",
-            "v": 96.23
-          },
-          {
-            "date": "2026-07-22",
-            "v": 96.57
-          },
-          {
-            "date": "2026-07-23",
-            "v": 96.59
-          },
-          {
-            "date": "2026-07-24",
-            "v": 96.56
-          },
-          {
-            "date": "2026-07-27",
-            "v": 95.92
-          },
-          {
-            "date": "2026-07-28",
-            "v": 95.86
-          },
-          {
-            "date": "2026-07-29",
-            "v": 95.65
-          },
-          {
-            "date": "2026-07-30",
-            "v": 95.69
-          },
-          {
-            "date": "2026-07-31",
-            "v": 95.39
-          },
-          {
-            "date": "2026-08-03",
-            "v": 95.34
-          },
-          {
-            "date": "2026-08-04",
-            "v": 95.38
-          },
-          {
-            "date": "2026-08-05",
-            "v": 95.12
-          },
-          {
-            "date": "2026-08-06",
-            "v": 95.23
-          },
-          {
-            "date": "2026-08-07",
-            "v": 95.21
-          },
-          {
-            "date": "2026-08-10",
-            "v": 95.3
-          },
-          {
-            "date": "2026-08-11",
-            "v": 95.44
-          },
-          {
-            "date": "2026-08-12",
-            "v": 95.34
-          },
-          {
-            "date": "2026-08-13",
-            "v": 95.44
-          },
-          {
-            "date": "2026-08-14",
-            "v": 95.43
-          },
-          {
-            "date": "2026-08-17",
-            "v": 95.61
-          },
-          {
-            "date": "2026-08-18",
-            "v": 95.69
-          },
-          {
-            "date": "2026-08-19",
-            "v": 95.76
-          },
-          {
-            "date": "2026-08-20",
-            "v": 95.71
-          },
-          {
-            "date": "2026-08-21",
-            "v": 95.7
-          },
-          {
-            "date": "2026-08-24",
-            "v": 95.76
-          },
-          {
-            "date": "2026-08-25",
-            "v": 95.42
-          },
-          {
-            "date": "2026-08-26",
-            "v": 95.42
-          },
-          {
-            "date": "2026-08-27",
-            "v": 95.54
-          },
-          {
-            "date": "2026-08-28",
-            "v": 95.39
-          },
-          {
-            "date": "2026-08-31",
-            "v": 95.17
-          },
-          {
-            "date": "2026-09-01",
-            "v": 94.95
-          },
-          {
-            "date": "2026-09-02",
-            "v": 94.97
-          },
-          {
-            "date": "2026-09-03",
-            "v": 94.49
-          },
-          {
-            "date": "2026-09-04",
-            "v": 94.49
-          },
-          {
-            "date": "2026-09-07",
-            "v": 94.49
-          },
-          {
-            "date": "2026-09-08",
-            "v": 94.83
-          },
-          {
-            "date": "2026-09-09",
-            "v": 95.11
-          },
-          {
-            "date": "2026-09-10",
-            "v": 95.44
-          },
-          {
-            "date": "2026-09-11",
-            "v": 95.56
-          },
-          {
-            "date": "2026-09-14",
-            "v": 95.56
-          },
-          {
-            "date": "2026-09-15",
-            "v": 95.96
-          },
-          {
-            "date": "2026-09-16",
-            "v": 95.96
-          },
-          {
-            "date": "2026-09-17",
-            "v": 95.94
-          },
-          {
-            "date": "2026-09-18",
-            "v": 95.88
-          },
-          {
-            "date": "2026-09-21",
-            "v": 95.82
-          },
-          {
-            "date": "2026-09-22",
-            "v": 95.59
-          },
-          {
-            "date": "2026-09-23",
-            "v": 95.74
-          },
-          {
-            "date": "2026-09-24",
-            "v": 95.96
-          },
-          {
-            "date": "2026-09-25",
-            "v": 95.82
-          },
-          {
-            "date": "2026-09-28",
-            "v": 95.98
-          },
-          {
-            "date": "2026-09-29",
-            "v": 95.98
-          },
-          {
-            "date": "2026-09-30",
-            "v": 95.83
-          },
-          {
-            "date": "2026-10-01",
-            "v": 96.33
-          },
-          {
-            "date": "2026-10-02",
-            "v": 96.32
-          }
-        ]
+        "usdinr_history": []
       }
     },
     "funds": {
-      "asof": "2026-10-04 12:40 IST",
+      "asof": "2026-10-05 12:56 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +191,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-04 12:40 IST",
+      "asof": "2026-10-05 12:57 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +204,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-04 12:40 IST",
+      "asof": "2026-10-05 12:57 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +222,57 @@
       }
     },
     "news": {
-      "asof": "2026-10-04 12:40 IST",
+      "asof": "2026-10-05 12:57 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
-          "url": "https://www.business-standard.com/markets/ipo/jio-ipo-likely-by-oct-end-at-enterprise-valuation-of-above-12-trillion-126100400146_1.html",
-          "published": "Sun, 04 Oct 2026 11:41:44 +0530"
+          "title": "Nykaa Q2 update: JM sees 'excellent trends' in BPC & Fashion; stock up 5%",
+          "url": "https://www.business-standard.com/markets/news/nykaa-q2-update-jm-sees-excellent-trends-in-bpc-fashion-stock-up-5-126100500310_1.html",
+          "published": "Mon, 05 Oct 2026 12:15:22 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
-          "url": "https://www.business-standard.com/markets/news/markets-news-sebi-cas-review-draws-over-20k-responses-traders-resist-vwap-shift-126100400056_1.html",
-          "published": "Sun, 04 Oct 2026 08:47:37 +0530"
+          "title": "LG Electronics surges 6%; at record high; what's driving stock price?",
+          "url": "https://www.business-standard.com/markets/news/lg-electronics-surges-6-at-record-high-what-s-driving-stock-price-126100500286_1.html",
+          "published": "Mon, 05 Oct 2026 12:15:00 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Parliamentary panel may recommend govt for action on monitoring crypto",
-          "url": "https://www.business-standard.com/markets/cryptocurrency/parliamentary-panel-may-recommend-govt-for-action-on-monitoring-crypto-126100300786_1.html",
-          "published": "Sat, 03 Oct 2026 19:34:52 +0530"
+          "title": "PSU banks in focus; Bank of India, PNB, Indian Bank, IOB rally up to 4%",
+          "url": "https://www.business-standard.com/markets/news/psu-banks-in-focus-bank-of-india-pnb-indian-bank-iob-rally-up-to-4-126100500248_1.html",
+          "published": "Mon, 05 Oct 2026 11:34:51 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi examining position limits for non-agri contracts to boost liquidity",
-          "url": "https://www.business-standard.com/markets/news/sebi-examining-position-limits-for-non-agri-contracts-to-boost-liquidity-126100300459_1.html",
-          "published": "Sat, 03 Oct 2026 15:23:59 +0530"
+          "title": "High oil prices biggest risk to corporate earnings: Anupam Tiwari, Groww MF",
+          "url": "https://www.business-standard.com/markets/news/high-oil-prices-biggest-risk-to-corporate-earnings-anupam-tiwari-groww-mf-126100500265_1.html",
+          "published": "Mon, 05 Oct 2026 11:23:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
-          "url": "https://www.business-standard.com/economy/news/rbi-backs-blockchain-technology-remains-cautious-on-crypto-guv-malhotra-126100300396_1.html",
-          "published": "Sat, 03 Oct 2026 14:24:02 +0530"
+          "title": "HDFC Bank gets new CEO: Stock down 25% thus far in 2026; what charts say?",
+          "url": "https://www.business-standard.com/markets/news/hdfc-bank-share-price-new-ceo-27-ytd-fall-what-charts-say-126100500233_1.html",
+          "published": "Mon, 05 Oct 2026 11:04:34 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi to soon issue framework on CAS; receives over 3,500 comments",
-          "url": "https://www.business-standard.com/markets/news/sebi-to-soon-issue-framework-on-cas-mechanism-after-receiving-3-5k-comments-126100300348_1.html",
-          "published": "Sat, 03 Oct 2026 14:01:29 +0530"
+          "title": "German Green Steel shares reverse listing gains, down 8% from IPO price",
+          "url": "https://www.business-standard.com/markets/news/german-green-steel-shares-reverse-listing-gains-down-8-from-ipo-price-126100500203_1.html",
+          "published": "Mon, 05 Oct 2026 10:42:46 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "What’s behind the looming global food crisis",
+          "url": "https://finshots.in/archive/global-food-crisis/",
+          "published": "Mon, 05 Oct 2026 01:30:11 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +310,88 @@
           "published": "Wed, 30 Sep 2026 01:30:20 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "India's black powder problem with battery recycling",
-          "url": "https://finshots.in/archive/indias-black-powder-problem-with-battery-recycling/",
-          "published": "Tue, 29 Sep 2026 01:30:32 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Avenue Supermarts shares fall 4% despite 18% YoY revenue growth in Q2 update",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/avenue-supermarts-shares-fall-4-despite-18-yoy-revenue-growth-in-q2-update/articleshow/134689213.cms",
+          "published": "Mon, 05 Oct 2026 12:41:04 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "After Nifty’s longest losing streak in 25 years, what should investors do now?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/afterniftys-longest-losing-streak-in-25-years-what-should-investors-do-now/articleshow/134670772.cms",
-          "published": "Sun, 04 Oct 2026 12:07:35 +0530"
+          "title": "Can Nifty break the 8-week deadlock or will pain continue? Here’s what charts indicate",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-nifty-break-the-8-week-deadlock-or-will-pain-continue-heres-what-charts-indicate/articleshow/134688975.cms",
+          "published": "Mon, 05 Oct 2026 12:28:39 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Axis Direct picks 5 smallcap stocks with up to 40% upside potential. How many do you have?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/axis-direct-picks-5-smallcap-stocks-with-up-to-40-upside-potential-how-many-do-you-have/slideshow/134670761.cms",
-          "published": "Sun, 04 Oct 2026 11:51:39 +0530"
+          "title": "Nifty rebounds after record 8-week rout, but is this a dead cat bounce investors should fear?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-rebounds-after-record-8-week-rout-but-is-this-a-dead-cat-bounce-investors-should-fear/articleshow/134688822.cms",
+          "published": "Mon, 05 Oct 2026 12:21:19 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "7 midcap stocks with rising EPS for four straight quarters. Are they in your portfolio?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/7-midcap-stocks-with-rising-eps-for-four-straight-quarters-are-they-in-your-portfolio/slideshow/134670681.cms",
-          "published": "Sun, 04 Oct 2026 11:34:50 +0530"
+          "title": "ESDS Software shares hit 5% lower circuit, crash nearly 30% in 6 sessions. What's behind the selloff?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/esds-software-shares-hit-5-lower-circuit-crash-nearly-30-in-6-sessions-whats-behind-the-selloff/articleshow/134688677.cms",
+          "published": "Mon, 05 Oct 2026 12:18:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Auto sales surge in September, but GST base clouds the picture. Can stocks rebound ahead of Q2 results?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/auto-sales-surge-in-september-but-gst-base-clouds-the-picture-can-stocks-rebound-ahead-of-q2-results/articleshow/134669703.cms",
-          "published": "Sun, 04 Oct 2026 10:10:33 +0530"
+          "title": "Global Market: Hang Seng dips as real estate, financial shares face selling pressure",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hang-seng-dips-as-real-estate-financial-shares-face-selling-pressure/articleshow/134688362.cms",
+          "published": "Mon, 05 Oct 2026 12:10:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Bonus issues, stock splits and dividends: 10 stocks turning ex-record date this week. Do you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-issues-stock-splits-and-dividends-10-stocks-turning-ex-record-date-this-week-do-you-own-any/articleshow/134669646.cms",
-          "published": "Sun, 04 Oct 2026 10:03:45 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "9 penny stocks crash up to 57% in just 2 months",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/9-penny-stocks-crash-up-to-57-in-just-2-months/slideshow/134669386.cms",
-          "published": "Sun, 04 Oct 2026 09:22:13 +0530"
+          "title": "5 global market themes investors need to watch this week",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/5-global-market-themes-investors-need-to-watch-this-week/slideshow/134688077.cms",
+          "published": "Mon, 05 Oct 2026 11:37:55 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "RBI MPC Meeting October 2026: Repo rate hike will be decided by these 5 factors | Explained",
-          "url": "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-repo-rate-hike-will-be-decided-by-these-5-factors-explained-11791093642745.html",
-          "published": "Sun, 04 Oct 2026 12:34:35 +0530"
+          "title": "TCS, HCL Tech to Mphasis: IT stocks to add in portfolio ahead of Q2 results | Check target price, upside, preview",
+          "url": "https://www.livemint.com/market/stock-market-news/tcs-hcl-tech-to-mphasis-it-stocks-to-add-in-portfolio-ahead-of-q2-results-check-target-price-upside-preview-11791182199262.html",
+          "published": "Mon, 05 Oct 2026 12:52:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Another big development in Tata Boardroom Battle; Noel Tata seeks video recording and minutes of Sept 17 meeting",
-          "url": "https://www.livemint.com/market/another-big-development-in-tata-boardroom-battle-noel-tata-seeks-video-recording-and-minutes-of-sept-17-meeting-11791095186384.html",
-          "published": "Sun, 04 Oct 2026 12:11:18 +0530"
+          "title": "Sobha set to beat FY27 pre-sales guidance after a record first-half",
+          "url": "https://www.livemint.com/market/mark-to-market/sobha-q2fy27-presales-real-estate-bengaluru-guidance-11791180382945.html",
+          "published": "Mon, 05 Oct 2026 12:51:43 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Best Vedanta share to buy amid Q2 results? Vedanta Power vs Hindustan Zinc vs Vedanta Aluminium vs Vedanta Oil & Gas",
-          "url": "https://www.livemint.com/market/stock-market-news/best-vedanta-share-to-buy-amid-q2-results-vedanta-power-vs-hindustan-zinc-vs-vedanta-aluminium-vs-vedanta-oil-gas-11791089427498.html",
-          "published": "Sun, 04 Oct 2026 11:10:08 +0530"
+          "title": "Nykaa shares in focus after strong Q2 update | What lies ahead for investors?",
+          "url": "https://www.livemint.com/market/stock-market-news/nykaa-shares-in-focus-after-strong-q2-update-what-lies-ahead-for-investors-11791183360208.html",
+          "published": "Mon, 05 Oct 2026 12:43:20 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stock market prediction for tomorrow, 5 Oct Monday: Sensex, Nifty outlook; Dow Jones, Nasdaq, Kospi, Nikkei, Taiwan cues",
-          "url": "https://www.livemint.com/market/stock-market-news/stock-market-prediction-for-tomorrow-5-oct-monday-sensex-nifty-outlook-dow-jones-nasdaq-kospi-nikkei-taiwan-cues-11791044203935.html",
-          "published": "Sun, 04 Oct 2026 10:09:44 +0530"
+          "title": "New IPO listings: Discount or premium? AceVector, Runwal, Orient, German Green Steel & Power - Check worst, best debut",
+          "url": "https://www.livemint.com/market/stock-market-news/new-ipo-listings-discount-or-premium-acevector-runwal-orient-german-green-steel-power-check-worst-best-deb-11791180223494.html",
+          "published": "Mon, 05 Oct 2026 12:20:45 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "HDFC Bank gets new MD-CEO; stock is Jefferies India's top pick — 22% upside despite 27% dip in YTD | Target price, ratio",
-          "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-gets-new-md-ceo-stock-is-jefferies-indias-top-pick-22-upside-despite-27-dip-in-ytd-target-price-ratio-11791043530085.html",
-          "published": "Sun, 04 Oct 2026 09:00:25 +0530"
+          "title": "35% dip in one year! ITC shares rise on better Q2 results buzz; experts give buy tag? Target price, stop-loss",
+          "url": "https://www.livemint.com/market/stock-market-news/35-dip-in-one-year-itc-shares-rise-on-better-q2-results-buzz-experts-give-buy-tag-target-price-stoploss-11791180294594.html",
+          "published": "Mon, 05 Oct 2026 11:50:10 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Upcoming dividend, stock split, bonus shares this week: NMDC, PH Capital, MoldTek, GTV and others - Record date, ratio",
-          "url": "https://www.livemint.com/market/upcoming-dividend-stock-split-bonus-shares-this-week-nmdc-ph-capital-moldtek-gtv-and-others-record-date-ratio-11790967535671.html",
-          "published": "Sun, 04 Oct 2026 09:00:05 +0530"
+          "title": "50% up in 2026! Netweb Technologies share price rises 4% | Is it time to book profits?",
+          "url": "https://www.livemint.com/market/stock-market-news/50-up-in-2026-netweb-technologies-share-price-rises-4-is-it-time-to-book-profits-11791175724516.html",
+          "published": "Mon, 05 Oct 2026 11:49:53 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +437,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-04 12:40 IST",
+      "checked_at": "2026-10-05 12:57 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-04 12:40 IST",
+      "generated_at": "2026-10-05 12:57 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-80,163 Cr · 20% of days positive.",
+        "reading": "20-day cumulative: Rs-88,717 Cr · 20% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1479,18 +458,9 @@
       "regime": {
         "label": "Mixed",
         "stance": "Signals are split — stay balanced and let them confirm before tilting.",
-        "score": -1.0,
-        "reading": "Signal balance -1.0 across 4 cross-asset reads and 0 asset trends.",
+        "score": 0.0,
+        "reading": "Signal balance +0.0 across 3 cross-asset reads and 0 asset trends.",
         "drivers": [
-          {
-            "label": "Rupee",
-            "conclusion": "Rupee weakening — watch imported inflation & FII exit",
-            "direction": "bearish",
-            "source": {
-              "name": "ECB / Frankfurter",
-              "url": "https://www.frankfurter.app/"
-            }
-          },
           {
             "label": "Foreign flows",
             "conclusion": "Foreign flows: sustained selling pressure",
@@ -1518,7 +488,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-80,163 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-88,717 Cr · 20% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +502,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs90,852 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs98,926 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1540,36 +510,9 @@
             "name": "NSE FII/DII (accumulated)",
             "url": "https://www.nseindia.com/reports/fii-dii"
           }
-        },
-        {
-          "scope": "regime",
-          "asset": "Rupee",
-          "label": "Rupee",
-          "conclusion": "Rupee weakening — watch imported inflation & FII exit",
-          "reading": "USD/INR moved +1.9% over the last month (now 96.32).",
-          "direction": "bearish",
-          "strength": 79,
-          "rule": "1-month change in USD/INR",
-          "source": {
-            "name": "ECB / Frankfurter",
-            "url": "https://www.frankfurter.app/"
-          }
         }
       ],
       "cross_asset": [
-        {
-          "id": "rupee",
-          "label": "Rupee",
-          "direction": "bearish",
-          "strength": 79,
-          "reading": "USD/INR moved +1.9% over the last month (now 96.32).",
-          "conclusion": "Rupee weakening — watch imported inflation & FII exit",
-          "rule": "1-month change in USD/INR",
-          "source": {
-            "name": "ECB / Frankfurter",
-            "url": "https://www.frankfurter.app/"
-          }
-        },
         {
           "id": "policy",
           "label": "Policy rate",
@@ -1588,7 +531,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-80,163 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-88,717 Cr · 20% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +544,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs90,852 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs98,926 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,10 +557,10 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-04 12:40 IST",
+    "date": "2026-10-05 12:57 IST",
     "usdinr": {
-      "last": 96.32,
-      "date": "2026-10-02"
+      "last": 96.4006,
+      "date": "05 Oct 2026"
     },
     "dii_net": {
       "net": 10041.84,
@@ -1628,18 +571,18 @@
       "date": "01-Oct-2026"
     },
     "headlines": [
-      "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
-      "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
-      "Parliamentary panel may recommend govt for action on monitoring crypto",
-      "Sebi examining position limits for non-agri contracts to boost liquidity",
-      "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
-      "Sebi to soon issue framework on CAS; receives over 3,500 comments",
+      "Nykaa Q2 update: JM sees 'excellent trends' in BPC & Fashion; stock up 5%",
+      "LG Electronics surges 6%; at record high; what's driving stock price?",
+      "PSU banks in focus; Bank of India, PNB, Indian Bank, IOB rally up to 4%",
+      "High oil prices biggest risk to corporate earnings: Anupam Tiwari, Groww MF",
+      "HDFC Bank gets new CEO: Stock down 25% thus far in 2026; what charts say?",
+      "German Green Steel shares reverse listing gains, down 8% from IPO price",
+      "What’s behind the looming global food crisis",
       "Did K-serials empower Indian women, flying biryani, & more...",
       "IRDAI wants to shake up insurance, sinking islands, and more...",
       "Top 10 Companies Acquired by Meta",
       "What actually makes a hospital profitable?",
-      "What if the Maldives disappeared?",
-      "India's black powder problem with battery recycling"
+      "What if the Maldives disappeared?"
     ]
   },
   "changes": {
@@ -1654,7 +597,7 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹96.32 (+0.00%)"
+        "detail": "₹96.40 (+0.08%)"
       },
       {
         "kind": "flow",
@@ -1672,15 +615,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-10-03 12:20 IST",
+    "since": "2026-10-04 12:40 IST",
     "new_headlines": [
-      "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
-      "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
-      "Parliamentary panel may recommend govt for action on monitoring crypto",
-      "Sebi examining position limits for non-agri contracts to boost liquidity",
-      "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
-      "Sebi to soon issue framework on CAS; receives over 3,500 comments",
-      "Did K-serials empower Indian women, flying biryani, & more..."
+      "Nykaa Q2 update: JM sees 'excellent trends' in BPC & Fashion; stock up 5%",
+      "LG Electronics surges 6%; at record high; what's driving stock price?",
+      "PSU banks in focus; Bank of India, PNB, Indian Bank, IOB rally up to 4%",
+      "High oil prices biggest risk to corporate earnings: Anupam Tiwari, Groww MF",
+      "HDFC Bank gets new CEO: Stock down 25% thus far in 2026; what charts say?",
+      "German Green Steel shares reverse listing gains, down 8% from IPO price",
+      "What’s behind the looming global food crisis"
     ]
   },
   "summary": {

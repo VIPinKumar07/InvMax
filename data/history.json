@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-05 11:34 IST",
-  "usdinr": {
-   "last": 94.49,
-   "date": "2026-09-04"
-  },
-  "dii_net": {
-   "net": 8930.12,
-   "date": "04-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3111.94,
-   "date": "04-Sep-2026"
-  },
-  "headlines": [
-   "Brigade Enterprises launches Rs 2,700-cr residential project in Neopolis",
-   "Mazagon Dock Shipbuilders bags Rs 118-cr order from MSETCL",
-   "Eyantra Ventures reports consolidated net loss of Rs 1.90 crore in the June 2026 quarter",
-   "Dhoot Transmission consolidated net profit rises 37.79% in the June 2026 quarter",
-   "Mkts regulator presses ahead against Hindenburg, others in Adani case",
-   "Rentomojo, Manipal Payment, Karamtara, and LCC Projects price IPOs",
-   "M&A week, the Subhash Chandra saga, and more...",
-   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
-   "Has Japan finally escaped the Lost Decades",
-   "The Happiest Minds-ITC Infotech merger explained",
-   "The Subhash Chandra saga explained",
-   "The economics of India's never ending onion price problem"
-  ]
- },
- {
   "date": "2026-09-06 11:47 IST",
   "usdinr": {
    "last": 94.49,
@@ -867,6 +838,35 @@
    "What actually makes a hospital profitable?",
    "What if the Maldives disappeared?",
    "India's black powder problem with battery recycling"
+  ]
+ },
+ {
+  "date": "2026-10-05 12:57 IST",
+  "usdinr": {
+   "last": 96.4006,
+   "date": "05 Oct 2026"
+  },
+  "dii_net": {
+   "net": 10041.84,
+   "date": "01-Oct-2026"
+  },
+  "fii_net": {
+   "net": -9484.22,
+   "date": "01-Oct-2026"
+  },
+  "headlines": [
+   "Nykaa Q2 update: JM sees 'excellent trends' in BPC & Fashion; stock up 5%",
+   "LG Electronics surges 6%; at record high; what's driving stock price?",
+   "PSU banks in focus; Bank of India, PNB, Indian Bank, IOB rally up to 4%",
+   "High oil prices biggest risk to corporate earnings: Anupam Tiwari, Groww MF",
+   "HDFC Bank gets new CEO: Stock down 25% thus far in 2026; what charts say?",
+   "German Green Steel shares reverse listing gains, down 8% from IPO price",
+   "What’s behind the looming global food crisis",
+   "Did K-serials empower Indian women, flying biryani, & more...",
+   "IRDAI wants to shake up insurance, sinking islands, and more...",
+   "Top 10 Companies Acquired by Meta",
+   "What actually makes a hospital profitable?",
+   "What if the Maldives disappeared?"
   ]
  }
 ]
