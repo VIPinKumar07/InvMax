@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-06 11:47 IST",
-  "usdinr": {
-   "last": 94.49,
-   "date": "2026-09-04"
-  },
-  "dii_net": {
-   "net": 8930.12,
-   "date": "04-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3111.94,
-   "date": "04-Sep-2026"
-  },
-  "headlines": [
-   "IPO action intensifies as 11 companies set to raise ₹7,055 cr next week",
-   "FPIs resume selling, pull out ₹7,443 cr from equities in first week of Sep",
-   "Traders turn to bullish Chinese stock bets as AI trades crowd Korea, Japan",
-   "Anupam Rasayan inks supply agreement with a global metal manufacturer",
-   "ICRA assigns 'AA-' rating to the credit facilities of JSW Dulux with 'stable' outlook",
-   "JSW Steel records steel production of 24.65 lakh tonnes in August 2026",
-   "Coffee with capsicum?, obsolete sunscreen, and more...",
-   "M&A week, the Subhash Chandra saga, and more...",
-   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
-   "Has Japan finally escaped the Lost Decades",
-   "The Happiest Minds-ITC Infotech merger explained",
-   "The Subhash Chandra saga explained"
-  ]
- },
- {
   "date": "2026-09-07 11:55 IST",
   "usdinr": {
    "last": 94.49,
@@ -867,6 +838,35 @@
    "Top 10 Companies Acquired by Meta",
    "What actually makes a hospital profitable?",
    "What if the Maldives disappeared?"
+  ]
+ },
+ {
+  "date": "2026-10-06 13:21 IST",
+  "usdinr": {
+   "last": 96.3,
+   "date": "2026-10-05"
+  },
+  "dii_net": {
+   "net": 5181.62,
+   "date": "05-Oct-2026"
+  },
+  "fii_net": {
+   "net": -4699.14,
+   "date": "05-Oct-2026"
+  },
+  "headlines": [
+   "Mirae Asset sees oil volatility to persist; prices may stay near $100",
+   "In sweet spot! Sugar stocks surge up to 9%. What's behind the rise?",
+   "Tilaknagar Inds: HDFC Sec keeps 'buy', bets on Imperial Blue's growth story",
+   "Honasa Consumer soars 10% on strong Q2 biz update; stock nears 52-week high",
+   "Sterlite Tech gains 5% as Nomura initiates coverage with 'Buy' call",
+   "Large-caps regain favour as oil, bond yields fuel rate-hike worries",
+   "What ails Nike?",
+   "What’s behind the looming global food crisis",
+   "Did K-serials empower Indian women, flying biryani, & more...",
+   "IRDAI wants to shake up insurance, sinking islands, and more...",
+   "Top 10 Companies Acquired by Meta",
+   "What actually makes a hospital profitable?"
   ]
  }
 ]
