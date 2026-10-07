@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-07 11:55 IST",
-  "usdinr": {
-   "last": 94.49,
-   "date": "2026-09-04"
-  },
-  "dii_net": {
-   "net": 8930.12,
-   "date": "04-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3111.94,
-   "date": "04-Sep-2026"
-  },
-  "headlines": [
-   "Pranav Constructions IPO bags 'subscribe' tag from experts; here's why",
-   "Solar Industries market cap reaches ₹2 trillion; stock jumps 21% in 1 month",
-   "US stocks slip modestly",
-   "Volumes jump at Zydus Wellness Ltd counter",
-   "Ola Electric to raise funds up to Rs 1,500 crore via equity route",
-   "Sensex slides 190 pts; media shares decline",
-   "What went wrong with Sugar Cosmetics?",
-   "Coffee with capsicum?, obsolete sunscreen, and more...",
-   "M&A week, the Subhash Chandra saga, and more...",
-   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
-   "Has Japan finally escaped the Lost Decades",
-   "The Happiest Minds-ITC Infotech merger explained"
-  ]
- },
- {
   "date": "2026-09-08 11:44 IST",
   "usdinr": {
    "last": 94.49,
@@ -867,6 +838,35 @@
    "IRDAI wants to shake up insurance, sinking islands, and more...",
    "Top 10 Companies Acquired by Meta",
    "What actually makes a hospital profitable?"
+  ]
+ },
+ {
+  "date": "2026-10-07 13:01 IST",
+  "usdinr": {
+   "last": 96.42,
+   "date": "2026-10-06"
+  },
+  "dii_net": {
+   "net": 5088.92,
+   "date": "06-Oct-2026"
+  },
+  "fii_net": {
+   "net": -2961.3,
+   "date": "06-Oct-2026"
+  },
+  "headlines": [
+   "RBI hike reinforces stock selection, not broad equity caution: Ajit Mishra",
+   "Axis, AU Bank, PNB: Brokerages identify 5 bank stocks after RBI hikes rate",
+   "RBI's rate cut pre-emptive measure than start of hike cycle: Sujan Hajra",
+   "Monetary Policy shifts gear, lays emphasis on containing supply-side shocks",
+   "Kanohar Electricals soars 20%; stock up 79% from IPO price in three weeks",
+   "RBI turns hawkish; what does it mean fixed-income investors? Experts decode",
+   "Can a new CEO solve HDFC Bank's problems?",
+   "What ails Nike?",
+   "What’s behind the looming global food crisis",
+   "Did K-serials empower Indian women, flying biryani, & more...",
+   "IRDAI wants to shake up insurance, sinking islands, and more...",
+   "Top 10 Companies Acquired by Meta"
   ]
  }
 ]

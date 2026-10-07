@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06 13:20 IST",
-  "generated_utc": "2026-10-06T07:50:34+00:00",
+  "generated_at": "2026-10-07 12:59 IST",
+  "generated_utc": "2026-10-07T07:29:36+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-06 13:20 IST",
+      "asof": "2026-10-07 13:00 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-10-05",
+        "asof": "2026-10-06",
         "rates": {
-          "EUR": 0.89254,
-          "GBP": 0.75616,
-          "INR": 96.3,
-          "JPY": 158.23
+          "EUR": 0.88739,
+          "GBP": 0.75322,
+          "INR": 96.42,
+          "JPY": 158.09
         },
         "usdinr_history": [
-          {
-            "date": "2025-10-06",
-            "v": 88.78
-          },
           {
             "date": "2025-10-07",
             "v": 88.75
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-10-05",
             "v": 96.3
+          },
+          {
+            "date": "2026-10-06",
+            "v": 96.42
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-10-06 13:20 IST",
+      "asof": "2026-10-07 13:00 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.0333,
-          "date": "05-10-2026",
-          "ret1y_pct": -1.3,
+          "nav": 107.0441,
+          "date": "06-10-2026",
+          "ret1y_pct": -1.35,
           "series": [
-            103.3557,
-            103.6633,
-            105.8256,
-            107.1766,
-            107.5644,
-            107.9658,
-            108.1543,
-            108.4538,
-            109.6155,
-            110.0708,
-            110.0241,
-            110.0539,
-            110.9394,
-            103.9921,
-            104.6544,
-            104.7496,
-            106.8042,
-            106.8983,
-            106.9526,
-            107.0333
+            103.2983,
+            103.6937,
+            105.9138,
+            107.2867,
+            107.5716,
+            108.0272,
+            108.1271,
+            108.4552,
+            109.5817,
+            110.1322,
+            109.9954,
+            110.0766,
+            110.9826,
+            104.0116,
+            104.6166,
+            104.8095,
+            106.8431,
+            106.9327,
+            107.1,
+            107.0441
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 105.337,
-          "date": "05-10-2026",
-          "ret1y_pct": -2.59,
+          "nav": 106.5625,
+          "date": "06-10-2026",
+          "ret1y_pct": -2.18,
           "series": [
-            96.8975,
-            101.5097,
-            105.2187,
-            107.0707,
-            110.588,
-            108.8599,
-            107.1217,
-            107.3134,
-            111.7992,
-            111.2677,
-            110.5516,
-            106.1596,
-            107.5231,
-            97.52,
-            107.3354,
-            103.6421,
-            110.2532,
-            112.916,
-            111.5608,
-            105.337
+            94.9501,
+            100.0834,
+            104.2762,
+            106.5283,
+            110.2267,
+            108.4305,
+            108.3462,
+            107.8239,
+            111.4046,
+            110.7813,
+            111.5357,
+            109.0955,
+            105.4928,
+            98.8014,
+            107.6729,
+            103.8102,
+            110.0997,
+            113.176,
+            111.8637,
+            106.5625
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 220.493,
-          "date": "05-10-2026",
-          "ret1y_pct": 3.36,
+          "nav": 222.03,
+          "date": "06-10-2026",
+          "ret1y_pct": 5.66,
           "series": [
-            184.291,
-            190.675,
-            197.241,
-            206.696,
-            211.266,
-            217.842,
-            214.055,
-            215.912,
-            221.825,
-            226.082,
-            222.41,
-            220.054,
-            223.956,
-            202.75,
-            218.745,
-            219.942,
-            230.395,
-            235.305,
-            235.185,
-            220.493
+            186.039,
+            192.757,
+            194.244,
+            206.931,
+            212.704,
+            216.847,
+            213.977,
+            214.521,
+            222.518,
+            226.069,
+            222.385,
+            221.441,
+            220.177,
+            202.243,
+            222.525,
+            220.327,
+            231.094,
+            235.979,
+            235.494,
+            222.03
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 220.7532,
-          "date": "05-10-2026",
-          "ret1y_pct": -8.65,
+          "nav": 222.9065,
+          "date": "06-10-2026",
+          "ret1y_pct": -6.87,
           "series": [
-            221.1802,
-            225.0586,
-            233.6249,
-            241.028,
-            242.0197,
-            244.3043,
-            241.4473,
-            244.3534,
-            251.9798,
-            254.7643,
-            252.0592,
-            247.0812,
-            244.8257,
-            220.5003,
-            233.6373,
-            227.9646,
-            238.5779,
-            240.8781,
-            234.0789,
-            220.7532
+            221.0597,
+            228.0239,
+            231.6268,
+            239.3407,
+            243.9512,
+            242.7936,
+            242.3905,
+            243.2588,
+            253.121,
+            254.64,
+            252.0234,
+            246.125,
+            241.7791,
+            220.8254,
+            236.5345,
+            227.5797,
+            238.2936,
+            240.9719,
+            233.676,
+            222.9065
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-06 13:21 IST",
+      "asof": "2026-10-07 13:00 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-10-06 13:21 IST",
+      "asof": "2026-10-07 13:00 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "05-Oct-2026",
-          "buy": 20492.93,
-          "sell": 15311.31,
-          "net": 5181.62
+          "date": "06-Oct-2026",
+          "buy": 20146.4,
+          "sell": 15057.48,
+          "net": 5088.92
         },
         "fii": {
-          "date": "05-Oct-2026",
-          "buy": 15674.61,
-          "sell": 20373.75,
-          "net": -4699.14
+          "date": "06-Oct-2026",
+          "buy": 11258.72,
+          "sell": 14220.02,
+          "net": -2961.3
         }
       }
     },
     "news": {
-      "asof": "2026-10-06 13:21 IST",
+      "asof": "2026-10-07 13:01 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Mirae Asset sees oil volatility to persist; prices may stay near $100",
-          "url": "https://www.business-standard.com/markets/news/mirae-asset-sees-oil-volatility-to-persist-prices-may-stay-near-100-126100600473_1.html",
-          "published": "Tue, 06 Oct 2026 12:55:35 +0530"
+          "title": "RBI hike reinforces stock selection, not broad equity caution: Ajit Mishra",
+          "url": "https://www.business-standard.com/markets/news/rbi-hike-reinforces-stock-selection-not-broad-equity-caution-ajit-mishra-126100700497_1.html",
+          "published": "Wed, 07 Oct 2026 12:49:43 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "In sweet spot! Sugar stocks surge up to 9%. What's behind the rise?",
-          "url": "https://www.business-standard.com/markets/news/dhampur-sugar-mills-other-sugar-stocks-surge-up-to-9-what-s-behind-the-rise-126100600450_1.html",
-          "published": "Tue, 06 Oct 2026 12:41:36 +0530"
+          "title": "Axis, AU Bank, PNB: Brokerages identify 5 bank stocks after RBI hikes rate",
+          "url": "https://www.business-standard.com/markets/news/axis-bank-au-bank-pnb-brokerages-identify-5-bank-stocks-after-rbi-hikes-rate-126100700464_1.html",
+          "published": "Wed, 07 Oct 2026 12:28:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Tilaknagar Inds: HDFC Sec keeps 'buy', bets on Imperial Blue's growth story",
-          "url": "https://www.business-standard.com/markets/news/tilaknagar-inds-hdfc-sec-keeps-buy-bets-on-imperial-blue-s-growth-story-126100600464_1.html",
-          "published": "Tue, 06 Oct 2026 12:41:11 +0530"
+          "title": "RBI's rate cut pre-emptive measure than start of hike cycle: Sujan Hajra",
+          "url": "https://www.business-standard.com/markets/news/rbi-s-rate-cut-pre-emptive-measure-than-start-of-hike-cycle-sujan-hajra-126100700444_1.html",
+          "published": "Wed, 07 Oct 2026 12:24:26 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Honasa Consumer soars 10% on strong Q2 biz update; stock nears 52-week high",
-          "url": "https://www.business-standard.com/markets/news/honasa-consumer-sharesoars-10-on-strong-q2-biz-update-stock-nears-52-week-high-126100600308_1.html",
-          "published": "Tue, 06 Oct 2026 11:45:32 +0530"
+          "title": "Monetary Policy shifts gear, lays emphasis on containing supply-side shocks",
+          "url": "https://www.business-standard.com/markets/news/monetary-policy-shifts-gear-lays-emphasis-on-containing-supply-side-shocks-126100700450_1.html",
+          "published": "Wed, 07 Oct 2026 12:20:40 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sterlite Tech gains 5% as Nomura initiates coverage with 'Buy' call",
-          "url": "https://www.business-standard.com/markets/news/sterlite-tech-gains-5-as-nomura-initiates-coverage-with-buy-call-126100600312_1.html",
-          "published": "Tue, 06 Oct 2026 11:28:42 +0530"
+          "title": "Kanohar Electricals soars 20%; stock up 79% from IPO price in three weeks",
+          "url": "https://www.business-standard.com/markets/news/kanohar-electricals-share-price-soars-20-on-huge-volumes-what-s-driving-newly-listed-stock-126100700382_1.html",
+          "published": "Wed, 07 Oct 2026 12:02:46 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Large-caps regain favour as oil, bond yields fuel rate-hike worries",
-          "url": "https://www.business-standard.com/markets/news/large-caps-regain-favour-as-oil-bond-yields-fuel-rate-hike-worries-126100600309_1.html",
-          "published": "Tue, 06 Oct 2026 11:23:23 +0530"
+          "title": "RBI turns hawkish; what does it mean fixed-income investors? Experts decode",
+          "url": "https://www.business-standard.com/markets/news/rbi-turns-hawkish-what-does-it-mean-fixed-income-investors-experts-decode-126100700381_1.html",
+          "published": "Wed, 07 Oct 2026 11:41:13 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Can a new CEO solve HDFC Bank's problems?",
+          "url": "https://finshots.in/archive/can-a-new-ceo-solve-hdfc-banks-problems/",
+          "published": "Wed, 07 Oct 2026 01:30:41 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Thu, 01 Oct 2026 06:49:01 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "What actually makes a hospital profitable?",
-          "url": "https://finshots.in/archive/what-makes-a-hospital-profitable/",
-          "published": "Thu, 01 Oct 2026 01:30:49 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "RBI hikes rate, but analysts see shift to ‘calibrated tightening’ as bigger takeaway. How can this impact markets?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/rbi-hikes-rate-but-analysts-see-shift-to-calibrated-tightening-as-bigger-takeaway-how-can-this-impact-markets/articleshow/134758783.cms",
+          "published": "Wed, 07 Oct 2026 12:40:32 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Banks vs NBFCs: Which stocks could benefit as RBI set to hike rates for the first time in 3 years?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/banks-vs-nbfcs-which-stocks-could-benefit-as-rbi-set-to-hike-rates-for-the-first-time-in-3-years/articleshow/134726852.cms",
-          "published": "Tue, 06 Oct 2026 12:54:05 +0530"
+          "title": "Trent’s Rs 1.80 lakh crore rout from peak: Has Q2 just flipped the script for Tata group’s retail crown jewel?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/trents-rs-1-80-lakh-crore-rout-from-peak-has-q2-just-flipped-the-script-for-tata-groups-retail-crown-jewel/articleshow/134758918.cms",
+          "published": "Wed, 07 Oct 2026 12:34:55 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Is CEG stock the biggest winner from the AI power boom?",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/is-ceg-stock-the-biggest-winner-from-the-ai-power-boom/slideshow/134726897.cms",
-          "published": "Tue, 06 Oct 2026 12:32:20 +0530"
+          "title": "HDFC Bank shares drop 15% in 3 months since Q1 results. Will Q2 earnings bring redemption as leadership cloud clears?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-shares-drop-15-in-3-months-since-q1-results-will-q2-earnings-bring-redemption-as-leadership-cloud-clears/articleshow/134758819.cms",
+          "published": "Wed, 07 Oct 2026 12:31:06 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: Euro under pressure as France debt worries, Spain vote weigh",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-euro-under-pressure-as-france-debt-worries-spain-vote-weigh/articleshow/134726226.cms",
-          "published": "Tue, 06 Oct 2026 12:28:56 +0530"
+          "title": "Reliance Jio IPO: Rs 37,700 crore mega issue, full schedule & 5 must-know details",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/reliance-jio-ipo-rs-37700-crore-mega-issue-full-schedule-5-must-know-details/videoshow/134758557.cms",
+          "published": "Wed, 07 Oct 2026 12:18:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "CAS U-turn ahead? BSE, Groww, NSE, other capital market stocks jump up to 4% amid buzz around Sebi tweaking F&O settlement rules",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/cas-u-turn-ahead-bse-groww-nse-other-capital-market-stocks-jump-up-to-4-amid-buzz-around-sebi-tweaking-fo-settlement-rules/articleshow/134725833.cms",
-          "published": "Tue, 06 Oct 2026 12:19:08 +0530"
+          "title": "Nifty earnings seen rising 27%, strongest growth in 17 quarters in Q2: Motilal Oswal",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/nifty-earnings-seen-rising-27-strongest-growth-in-17-quarters-in-q2-motilal-oswal/articleshow/134758313.cms",
+          "published": "Wed, 07 Oct 2026 12:13:24 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Viceroy Hotels shares rise 2% as Zerodha founders Nithin, Nikhil Kamath pick 6.72% stake",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/viceroy-hotels-shares-rise-2-as-zerodha-founders-nithin-nikhil-kamath-pick-6-72-stake/articleshow/134725913.cms",
-          "published": "Tue, 06 Oct 2026 12:18:18 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Rupee slips to over 2-month low on portfolio outflows, RBI likely steps in",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-slips-to-over-2-month-low-on-portfolio-outflows-rbi-likely-steps-in/articleshow/134725847.cms",
-          "published": "Tue, 06 Oct 2026 12:11:41 +0530"
+          "title": "10 BSE 500 stocks tumble up to 45% in just one month",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-bse-500-stocks-tumble-up-to-45-in-just-one-month/slideshow/134758699.cms",
+          "published": "Wed, 07 Oct 2026 12:09:10 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Sebi’s investor protection fund balloons but spending lags amid rising fraud risks",
-          "url": "https://www.livemint.com/market/sebi-investor-protection-fund-spending-fraud-risks-11791264272528.html",
-          "published": "Tue, 06 Oct 2026 13:10:23 +0530"
+          "title": "Marsons share price rallies 15% today | What's behind the jump? Check share performance",
+          "url": "https://www.livemint.com/market/stock-market-news/marsons-share-price-rallies-15-today-whats-behind-the-jump-check-share-performance-11791352923517.html",
+          "published": "Wed, 07 Oct 2026 12:48:46 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "RBI MPC meeting October 2026: Why HDFC Bank, ICICI Lombard, Coal India, TCS likely to gain if bank announces rate hike?",
-          "url": "https://www.livemint.com/market/stock-market-news/rbi-mpc-meeting-october-2026-why-hdfc-bank-icici-lombard-coal-india-tcs-likely-to-gain-if-bank-announces-rate-hike-11791268517566.html",
-          "published": "Tue, 06 Oct 2026 13:08:57 +0530"
+          "title": "ESDS share price hits 5% upper circuit after 7-day losing streak: What fuelled rally?",
+          "url": "https://www.livemint.com/market/stock-market-news/esds-share-price-hits-5-upper-circuit-after-7-day-losing-streak-what-fuelled-rally-11791353788896.html",
+          "published": "Wed, 07 Oct 2026 12:45:18 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Reliance, Kotak Mahindra Bank, Welspun shares: Build model stock portfolio! Why Jefferies India is bullish on large-caps",
-          "url": "https://www.livemint.com/market/stock-market-news/reliance-kotak-mahindra-bank-welspun-shares-build-model-stock-portfolio-why-jefferies-india-is-bullish-on-largecaps-11791268837224.html",
-          "published": "Tue, 06 Oct 2026 13:07:53 +0530"
+          "title": "Penny stock under ₹10 hits 5% upper circuit after this fundraising update | Do you own?",
+          "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-hits-5-upper-circuit-after-this-fundraising-update-do-you-own-11791353825278.html",
+          "published": "Wed, 07 Oct 2026 12:13:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nykaa's Q2 business update brings a fresh bout of optimism",
-          "url": "https://www.livemint.com/market/mark-to-market/nykaa-q2-business-update-nykaa-share-price-beauty-personal-care-india-11791268138208.html",
-          "published": "Tue, 06 Oct 2026 12:44:48 +0530"
+          "title": "At the upper circuit and record high! Asset Reconstruction Company shares surge 10% - What is fuelling the stock rise?",
+          "url": "https://www.livemint.com/market/stock-market-news/at-the-upper-circuit-and-record-high-asset-reconstruction-company-shares-surge-10-why-is-fuelling-the-stock-rise-11791354154938.html",
+          "published": "Wed, 07 Oct 2026 11:59:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Despite an over 80% rise in less than 2 months, Motilal Oswal says buy this newly-listed stock - Reason, target price",
-          "url": "https://www.livemint.com/market/stock-market-news/despite-an-over-80-rise-in-less-than-2-months-motilal-oswal-says-buy-this-newly-listed-stock-reason-target-price-11791268504455.html",
-          "published": "Tue, 06 Oct 2026 12:36:02 +0530"
+          "title": "RBI sets up panel to deepen financial market engagement",
+          "url": "https://www.livemint.com/market/rbi-financial-markets-consultative-committee-repo-rate-11791351454664.html",
+          "published": "Wed, 07 Oct 2026 11:58:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Weak equity returns may test India’s SIP momentum",
-          "url": "https://www.livemint.com/market/stock-market-news/sip-investment-market-correction-india-11791209860080.html",
-          "published": "Tue, 06 Oct 2026 12:16:55 +0530"
+          "title": "Deepa Jewellers share price rallies 13% despite stock market rout | Q1 growth, IPO gains in focus",
+          "url": "https://www.livemint.com/market/stock-market-news/deepa-jewellers-share-price-rallies-13-despite-stock-market-rout-q1-growth-ipo-gains-in-focus-11791352490044.html",
+          "published": "Wed, 07 Oct 2026 11:46:14 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-06 13:21 IST",
+      "checked_at": "2026-10-07 13:01 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-06 13:21 IST",
+      "generated_at": "2026-10-07 13:01 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-90,438 Cr · 20% of days positive.",
+        "reading": "20-day cumulative: Rs-91,367 Cr · 20% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-90,438 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-91,367 Cr · 20% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs101,421 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs102,602 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1546,9 +1546,9 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee weakening — watch imported inflation & FII exit",
-          "reading": "USD/INR moved +1.9% over the last month (now 96.30).",
+          "reading": "USD/INR moved +2.0% over the last month (now 96.42).",
           "direction": "bearish",
-          "strength": 79,
+          "strength": 81,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
@@ -1561,8 +1561,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "bearish",
-          "strength": 79,
-          "reading": "USD/INR moved +1.9% over the last month (now 96.30).",
+          "strength": 81,
+          "reading": "USD/INR moved +2.0% over the last month (now 96.42).",
           "conclusion": "Rupee weakening — watch imported inflation & FII exit",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-90,438 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-91,367 Cr · 20% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs101,421 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs102,602 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,46 +1614,36 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-06 13:21 IST",
+    "date": "2026-10-07 13:01 IST",
     "usdinr": {
-      "last": 96.3,
-      "date": "2026-10-05"
+      "last": 96.42,
+      "date": "2026-10-06"
     },
     "dii_net": {
-      "net": 5181.62,
-      "date": "05-Oct-2026"
+      "net": 5088.92,
+      "date": "06-Oct-2026"
     },
     "fii_net": {
-      "net": -4699.14,
-      "date": "05-Oct-2026"
+      "net": -2961.3,
+      "date": "06-Oct-2026"
     },
     "headlines": [
-      "Mirae Asset sees oil volatility to persist; prices may stay near $100",
-      "In sweet spot! Sugar stocks surge up to 9%. What's behind the rise?",
-      "Tilaknagar Inds: HDFC Sec keeps 'buy', bets on Imperial Blue's growth story",
-      "Honasa Consumer soars 10% on strong Q2 biz update; stock nears 52-week high",
-      "Sterlite Tech gains 5% as Nomura initiates coverage with 'Buy' call",
-      "Large-caps regain favour as oil, bond yields fuel rate-hike worries",
+      "RBI hike reinforces stock selection, not broad equity caution: Ajit Mishra",
+      "Axis, AU Bank, PNB: Brokerages identify 5 bank stocks after RBI hikes rate",
+      "RBI's rate cut pre-emptive measure than start of hike cycle: Sujan Hajra",
+      "Monetary Policy shifts gear, lays emphasis on containing supply-side shocks",
+      "Kanohar Electricals soars 20%; stock up 79% from IPO price in three weeks",
+      "RBI turns hawkish; what does it mean fixed-income investors? Experts decode",
+      "Can a new CEO solve HDFC Bank's problems?",
       "What ails Nike?",
       "What’s behind the looming global food crisis",
       "Did K-serials empower Indian women, flying biryani, & more...",
       "IRDAI wants to shake up insurance, sinking islands, and more...",
-      "Top 10 Companies Acquired by Meta",
-      "What actually makes a hospital profitable?"
+      "Top 10 Companies Acquired by Meta"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹5,182 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-4,699 Cr"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1664,17 +1654,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹96.30 (-0.10%)"
+        "detail": "₹96.42 (+0.12%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹5,182 Cr"
+        "detail": "₹5,089 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-4,699 Cr"
+        "detail": "₹-2,961 Cr"
       },
       {
         "kind": "news",
@@ -1682,15 +1672,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-10-05 12:57 IST",
+    "since": "2026-10-06 13:21 IST",
     "new_headlines": [
-      "Mirae Asset sees oil volatility to persist; prices may stay near $100",
-      "In sweet spot! Sugar stocks surge up to 9%. What's behind the rise?",
-      "Tilaknagar Inds: HDFC Sec keeps 'buy', bets on Imperial Blue's growth story",
-      "Honasa Consumer soars 10% on strong Q2 biz update; stock nears 52-week high",
-      "Sterlite Tech gains 5% as Nomura initiates coverage with 'Buy' call",
-      "Large-caps regain favour as oil, bond yields fuel rate-hike worries",
-      "What ails Nike?"
+      "RBI hike reinforces stock selection, not broad equity caution: Ajit Mishra",
+      "Axis, AU Bank, PNB: Brokerages identify 5 bank stocks after RBI hikes rate",
+      "RBI's rate cut pre-emptive measure than start of hike cycle: Sujan Hajra",
+      "Monetary Policy shifts gear, lays emphasis on containing supply-side shocks",
+      "Kanohar Electricals soars 20%; stock up 79% from IPO price in three weeks",
+      "RBI turns hawkish; what does it mean fixed-income investors? Experts decode",
+      "Can a new CEO solve HDFC Bank's problems?"
     ]
   },
   "summary": {
