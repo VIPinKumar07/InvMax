@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-08 11:44 IST",
-  "usdinr": {
-   "last": 94.49,
-   "date": "2026-09-07"
-  },
-  "dii_net": {
-   "net": 566.76,
-   "date": "07-Sep-2026"
-  },
-  "fii_net": {
-   "net": 280.13,
-   "date": "07-Sep-2026"
-  },
-  "headlines": [
-   "BSE SME Farm Peace reaps premium listing",
-   "GE Vernova climbs 9% after emerging as L1 bidder for Power Grid project",
-   "Biocon bags 10-year supply contract for Pertuzumab in Brazil",
-   "PVR Inox rebounds, up 7%; clarifies on Arora's exit, kickback allegations",
-   "Volumes spurt at Linde India Ltd counter",
-   "Polycab India gets a fresh charge as broker retains 'buy' rating",
-   "Can glass bottles fill the gap left by aluminium cans?",
-   "What went wrong with Sugar Cosmetics?",
-   "Coffee with capsicum?, obsolete sunscreen, and more...",
-   "M&A week, the Subhash Chandra saga, and more...",
-   "Tribhovandas Bhimji Zaveri is now GRT's jewel",
-   "Has Japan finally escaped the Lost Decades"
-  ]
- },
- {
   "date": "2026-09-09 11:51 IST",
   "usdinr": {
    "last": 94.83,
@@ -867,6 +838,35 @@
    "Did K-serials empower Indian women, flying biryani, & more...",
    "IRDAI wants to shake up insurance, sinking islands, and more...",
    "Top 10 Companies Acquired by Meta"
+  ]
+ },
+ {
+  "date": "2026-10-08 13:35 IST",
+  "usdinr": {
+   "last": 96.73,
+   "date": "2026-10-07"
+  },
+  "dii_net": {
+   "net": 4596.57,
+   "date": "07-Oct-2026"
+  },
+  "fii_net": {
+   "net": -6121.37,
+   "date": "07-Oct-2026"
+  },
+  "headlines": [
+   "Adani group stocks under pressure; Enterprises, Green Energy tank up to 7%",
+   "Sun TV stock on a roll, up 40% in 3 weeks; Elara sets target price at ₹925",
+   "Mastek gains 3% as AI-led Oracle cloud transformation deal lifts stock",
+   "D-St meltdown explained: Sensex tanks 945 pts intraday, Nifty below 22,350",
+   "Fino Payments Bank share price rallies 17% after Q2 business update",
+   "ONGC, NTPC, BDL, BEL, IOC among 13 CPSE stocks to hit 52-week lows on Thurs",
+   "Why is SEBI’s investor protection fund barely being used?",
+   "Can a new CEO solve HDFC Bank's problems?",
+   "What ails Nike?",
+   "What’s behind the looming global food crisis",
+   "Did K-serials empower Indian women, flying biryani, & more...",
+   "IRDAI wants to shake up insurance, sinking islands, and more..."
   ]
  }
 ]
