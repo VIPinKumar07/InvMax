@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-09 11:51 IST",
-  "usdinr": {
-   "last": 94.83,
-   "date": "2026-09-08"
-  },
-  "dii_net": {
-   "net": 1349.64,
-   "date": "08-Sep-2026"
-  },
-  "fii_net": {
-   "net": -123.19,
-   "date": "08-Sep-2026"
-  },
-  "headlines": [
-   "Rentomojo IPO a play on fast-growing rental economy; analysts bullish",
-   "Chennai Petroleum, MRPL, Oil India rise up to 5% as crude price nears $100",
-   "Adani Ent rallies as arm inks pact to raise $1 billion from marquee global investors",
-   "LTM collaborates with IBM and Red Hat on Lightwell to address security risk across open-source ecosystems",
-   "HDFC Bank, HDFC Life at 52-wk lows, down 30% in 2026; analyst flags worries",
-   "Innovision surges after securing contracts worth Rs 243.6 crore NHAI",
-   "The Arcil IPO explained",
-   "Can glass bottles fill the gap left by aluminium cans?",
-   "What went wrong with Sugar Cosmetics?",
-   "Coffee with capsicum?, obsolete sunscreen, and more...",
-   "M&A week, the Subhash Chandra saga, and more...",
-   "Tribhovandas Bhimji Zaveri is now GRT's jewel"
-  ]
- },
- {
   "date": "2026-09-10 11:49 IST",
   "usdinr": {
    "last": 95.11,
@@ -867,6 +838,35 @@
    "What’s behind the looming global food crisis",
    "Did K-serials empower Indian women, flying biryani, & more...",
    "IRDAI wants to shake up insurance, sinking islands, and more..."
+  ]
+ },
+ {
+  "date": "2026-10-09 13:14 IST",
+  "usdinr": {
+   "last": 96.78,
+   "date": "2026-10-08"
+  },
+  "dii_net": {
+   "net": 10703.11,
+   "date": "08-Oct-2026"
+  },
+  "fii_net": {
+   "net": -12943.58,
+   "date": "08-Oct-2026"
+  },
+  "headlines": [
+   "NCC shares rise 5% on securing ₹1,286 crore road project order in Telangana",
+   "Gold may draw support from decline in Oct Fed rate hike bet: Mirae Asset",
+   "Silver may trade at $58-$61 as dollar, yields weigh, says Mirae Asset",
+   "NSDL hits new low, down 8% vs IPO; CDSL up 748%; analysts decode divergence",
+   "HDFC Bank, SBI, Federal, Canara Bank up 2%; what's driving banking stocks?",
+   "Sensex rally today may end 8-week losing run; can it last? Experts weigh in",
+   "What’s really going on with ESDS?",
+   "Why is SEBI’s investor protection fund barely being used?",
+   "Can a new CEO solve HDFC Bank's problems?",
+   "What ails Nike?",
+   "What’s behind the looming global food crisis",
+   "Did K-serials empower Indian women, flying biryani, & more..."
   ]
  }
 ]
