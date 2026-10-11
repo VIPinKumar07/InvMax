@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10 12:58 IST",
-  "generated_utc": "2026-10-10T07:28:55+00:00",
+  "generated_at": "2026-10-11 13:03 IST",
+  "generated_utc": "2026-10-11T07:33:52+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-10 12:58 IST",
+      "asof": "2026-10-11 13:03 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-10-10 12:59 IST",
+      "asof": "2026-10-11 13:03 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-10 12:59 IST",
+      "asof": "2026-10-11 13:22 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-10 12:59 IST",
+      "asof": "2026-10-11 13:22 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,9 +1243,23 @@
       }
     },
     "news": {
-      "asof": "2026-10-10 12:59 IST",
+      "asof": "2026-10-11 13:22 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "IPO rush continues: Jio, Zetwerk among cos set to tap primary market in Oct",
+          "url": "https://www.business-standard.com/markets/ipo/ipo-rush-continues-jio-zetwerk-among-cos-set-to-tap-primary-market-in-oct-126101100192_1.html",
+          "published": "Sun, 11 Oct 2026 12:15:38 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Sebi to issue closing auction guidelines in a week: Tuhin Kanta Pandey",
+          "url": "https://www.business-standard.com/markets/news/sebi-to-issue-closing-auction-guidelines-in-a-week-tuhin-kanta-pandey-126101000778_1.html",
+          "published": "Sat, 10 Oct 2026 19:28:24 +0530"
+        },
         {
           "source": "Business Standard",
           "weight": "high",
@@ -1275,18 +1289,11 @@
           "published": "Fri, 09 Oct 2026 21:33:59 +0530"
         },
         {
-          "source": "Business Standard",
+          "source": "Finshots Daily",
           "weight": "high",
-          "title": "TCS earnings lift IT stocks as demand recovery hopes boost market mood",
-          "url": "https://www.business-standard.com/companies/news/tcs-earnings-lift-it-stocks-as-demand-recovery-hopes-boost-market-mood-126100901293_1.html",
-          "published": "Fri, 09 Oct 2026 20:27:40 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "10% health insurance co-pay could push patients' bill burden to 15-19%",
-          "url": "https://www.business-standard.com/markets/news/10-health-insurance-co-pay-could-push-patients-bill-burden-to-15-19-126100900694_1.html",
-          "published": "Fri, 09 Oct 2026 15:16:08 +0530"
+          "title": "How a fistfight helped fix your eyesight and more...",
+          "url": "https://finshots.in/archive/how-a-fistfight-helped-fix-your-eyesight-and-more/",
+          "published": "Sun, 11 Oct 2026 01:30:11 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Tue, 06 Oct 2026 01:30:55 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "What’s behind the looming global food crisis",
-          "url": "https://finshots.in/archive/global-food-crisis/",
-          "published": "Mon, 05 Oct 2026 01:30:11 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "FII selloff intensifies! Foreign investors sell Indian equities worth Rs 45,000 crore in just 6 sessions. What can reverse the trend?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fii-selloff-intensifies-foreign-investors-sell-indian-equities-worth-rs-45000-crore-in-just-6-sessions-what-can-reverse-the-trend/articleshow/134866745.cms",
+          "published": "Sun, 11 Oct 2026 12:44:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Exclusive | Akash, Isha Ambani take Rs 30,000 crore Jio IPO pitch global; marquee investors seek bigger stakes",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/exclusive-akash-isha-ambani-take-rs-30000-crore-jio-ipo-pitch-global-marquee-investors-seek-bigger-stake/articleshow/134849084.cms",
-          "published": "Sat, 10 Oct 2026 12:05:45 +0530"
+          "title": "ET Alpha Wealth Summit 2.0: What do Shah Rukh Khan and SIFs have in common? Radhika Gupta explains",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/et-alpha-wealth-summit-2-0-what-do-shah-rukh-khan-and-sifs-have-in-common-radhika-gupta-explains/articleshow/134866717.cms",
+          "published": "Sun, 11 Oct 2026 12:40:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nifty bulls regain momentum, but can bears strike back? 5 factors to decide D-Street’s fate next week",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-bulls-regain-momentum-but-can-bears-strike-back-5-factors-to-decide-d-streets-fate-next-week/articleshow/134848721.cms",
-          "published": "Sat, 10 Oct 2026 12:01:16 +0530"
+          "title": "NTPC invites industrial partners for 26% equity in co-generation projects",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ntpc-invites-industrial-partners-for-26-equity-in-co-generation-projects/articleshow/134866656.cms",
+          "published": "Sun, 11 Oct 2026 12:32:04 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
-          "published": "Sat, 10 Oct 2026 11:26:50 +0530"
+          "title": "9 penny stocks surged up to 315% in 6 months; 3 turned multibaggers",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/9-penny-stocks-surged-up-to-315-in-6-months-3-turned-multibaggers/slideshow/134866632.cms",
+          "published": "Sun, 11 Oct 2026 12:15:07 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Market crash ahead? Warren Buffett's guide to navigate through bear attacks",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/market-crash-ahead-warren-buffetts-guide-to-navigate-through-bear-attacks/articleshow/134847888.cms",
-          "published": "Sat, 10 Oct 2026 10:55:34 +0530"
+          "title": "F&O Talk: Nifty’s break above 22,750 could open doors for 23,000; Sudeep Shah picks 5 stocks for next week",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-niftys-break-above-22750-could-open-doors-for-23000-sudeep-shah-picks-5-stocks-for-next-week/articleshow/134866209.cms",
+          "published": "Sun, 11 Oct 2026 11:50:50 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "RBI tightens forex derivative rules: What changes for hedging, cancelled trades",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rbi-tightens-forex-derivative-rules-what-changes-for-hedging-cancelled-trades/articleshow/134847351.cms",
-          "published": "Sat, 10 Oct 2026 10:05:34 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Wall Street Week Ahead: Bank earnings, CPI headline busy markets week as S&P 500 hovers near records",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-bank-earnings-cpi-headline-busy-markets-week-as-sp-500-hovers-near-records/articleshow/134847295.cms",
-          "published": "Sat, 10 Oct 2026 09:59:09 +0530"
+          "title": "Earnings Tracker: HDFC Bank, HCL Tech, Wipro among 129 companies set to report Q2 results this week",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/earnings-tracker-hdfc-bank-hcl-tech-wipro-among-129-companies-set-to-report-q2-results-this-week/articleshow/134866148.cms",
+          "published": "Sun, 11 Oct 2026 11:44:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Small caps vs large caps: Where should investors put their money for the next 2 years? Experts suggest allocation bucket",
-          "url": "https://www.livemint.com/market/stock-market-news/small-caps-vs-large-caps-where-should-investors-put-their-money-for-the-next-2-years-experts-suggest-allocation-bucket-11791614954061.html",
-          "published": "Sat, 10 Oct 2026 12:39:57 +0530"
+          "title": "IPO GMP compared: Fusion CX vs HD Fire Protect | Open, close dates; issue key details",
+          "url": "https://www.livemint.com/market/ipo/ipo-gmp-compared-fusion-cx-vs-hd-fire-protect-open-close-dates-issue-key-details-11791700996759.html",
+          "published": "Sun, 11 Oct 2026 13:13:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Q2 Quarterly Results 2026 Today|Avenue Supermarts (DMart), Premier Polyfilm, , LCC Infotech, Grand Oak Canyon Distillery",
-          "url": "https://www.livemint.com/market/q2-quarterly-results-2026-today-avenue-supermarts-dmart-premier-polyfilm-lcc-infotech-grand-oak-canyon-distillery-11791613424016.html",
-          "published": "Sat, 10 Oct 2026 12:29:31 +0530"
+          "title": "Best defence stocks to buy: HAL, BEL, Azad among ICICI Securities’ top picks ahead of Q2 2026 results",
+          "url": "https://www.livemint.com/market/stock-market-news/best-defence-stocks-to-buy-hal-bel-azad-among-icici-securities-top-picks-ahead-of-q2-2026-results-11791696675731.html",
+          "published": "Sun, 11 Oct 2026 12:01:03 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Banking Stock Swoon in Europe Is a Sign of Caution, Not Panic",
-          "url": "https://www.livemint.com/market/banking-stock-swoon-in-europe-is-a-sign-of-caution-not-panic-11791613648093.html",
-          "published": "Sat, 10 Oct 2026 11:57:27 +0530"
+          "title": "Nifty target: 27,000 in 1-year - Why Emkay stock market experts are bullish despite poor performance",
+          "url": "https://www.livemint.com/market/stock-market-news/nifty-target-27-000-in-1-year-why-emkay-stock-market-experts-are-bullish-despite-poor-performance-11791692144256.html",
+          "published": "Sun, 11 Oct 2026 10:51:02 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Jio Platforms IPO: What does listing of Reliance Industries' company mean for Airtel, Vodafone, Indus Towers shares?",
-          "url": "https://www.livemint.com/market/stock-market-news/jio-platforms-ipo-what-does-listing-of-reliance-industries-company-means-for-airtel-vodafone-idea-indus-towers-share-11791558078789.html",
-          "published": "Sat, 10 Oct 2026 11:50:15 +0530"
+          "title": "Thai Bourse Revises Short-Selling, High-Frequency Trading Rules",
+          "url": "https://www.livemint.com/market/thai-bourse-revises-short-selling-high-frequency-trading-rules-11791695810333.html",
+          "published": "Sun, 11 Oct 2026 10:46:49 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "SEBI Settlement Regulations 2026: New formula, ₹10 lakh fast-track, and other key changes investors must know",
-          "url": "https://www.livemint.com/market/stock-market-news/sebi-settlement-regulations-2026-new-formula-rs-10-lakh-fast-track-and-other-key-changes-investors-must-know-11791609224473.html",
-          "published": "Sat, 10 Oct 2026 10:59:55 +0530"
+          "title": "Adani Power shares up 27% in 2026 but Elara sees 16% more upside - What’s powering stock? Target price",
+          "url": "https://www.livemint.com/market/stock-market-news/adani-power-shares-up-27-in-2026-but-elara-sees-16-more-upside-what-s-powering-stock-target-price-11791689591531.html",
+          "published": "Sun, 11 Oct 2026 09:44:00 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "RIL, ICICI Bank, Infosys, and more: Motilal Oswal names 40 stocks to buy during Q2 earnings season — Check full list",
-          "url": "https://www.livemint.com/market/stock-market-news/ril-icici-bank-infosys-and-more-motilal-oswal-names-40-stocks-to-buy-during-q2-earnings-season-check-full-list-11791605694356.html",
-          "published": "Sat, 10 Oct 2026 10:42:14 +0530"
+          "title": "Top 5 stocks to buy under ₹100: NTPC Green, Jayaswal Neco, Sagility, SBFC, South Indian Bank by Sumeet Bagadia",
+          "url": "https://www.livemint.com/market/stock-market-news/top-5-stocks-to-buy-under-rs-100-ntpc-green-jayaswal-neco-sagility-sbfc-south-indian-bank-by-sumeet-bagadia-11791649670957.html",
+          "published": "Sun, 11 Oct 2026 07:30:16 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-10 12:59 IST",
+      "checked_at": "2026-10-11 13:22 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-10 12:59 IST",
+      "generated_at": "2026-10-11 13:22 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-111,991 Cr · 10% of days positive.",
+        "reading": "20-day cumulative: Rs-116,159 Cr · 5% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-111,991 Cr · 10% of days positive.",
+          "reading": "20-day cumulative: Rs-116,159 Cr · 5% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs116,988 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs120,712 Cr · 100% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-111,991 Cr · 10% of days positive.",
+          "reading": "20-day cumulative: Rs-116,159 Cr · 5% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs116,988 Cr · 100% of days positive.",
+          "reading": "20-day cumulative: +Rs120,712 Cr · 100% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-10 12:59 IST",
+    "date": "2026-10-11 13:22 IST",
     "usdinr": {
       "last": 96.73,
       "date": "2026-10-09"
@@ -1628,43 +1628,33 @@
       "date": "09-Oct-2026"
     },
     "headlines": [
+      "IPO rush continues: Jio, Zetwerk among cos set to tap primary market in Oct",
+      "Sebi to issue closing auction guidelines in a week: Tuhin Kanta Pandey",
       "WazirX futures trading volume jumps 236% in Q3 as exchange expands AI tools",
       "Nvidia-backed Firmus scraps $5 bn Australia IPO amid growing AI scrutiny",
       "Co-payments and deductibles in health insurance: Are they right for you?",
       "IT stocks lead Nifty rebound as benchmark snaps eight-week losing streak",
-      "TCS earnings lift IT stocks as demand recovery hopes boost market mood",
-      "10% health insurance co-pay could push patients' bill burden to 15-19%",
+      "How a fistfight helped fix your eyesight and more...",
       "ESDS Solution's volatile stock, Nike's problems, and more...",
       "What’s really going on with ESDS?",
       "Why is SEBI’s investor protection fund barely being used?",
       "Can a new CEO solve HDFC Bank's problems?",
-      "What ails Nike?",
-      "What’s behind the looming global food crisis"
+      "What ails Nike?"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹4,743 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-3,569 Cr"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "3 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹96.73 (-0.05%)"
+        "detail": "₹96.73 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1679,18 +1669,14 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "3 new"
       }
     ],
-    "since": "2026-10-09 13:14 IST",
+    "since": "2026-10-10 12:59 IST",
     "new_headlines": [
-      "WazirX futures trading volume jumps 236% in Q3 as exchange expands AI tools",
-      "Nvidia-backed Firmus scraps $5 bn Australia IPO amid growing AI scrutiny",
-      "Co-payments and deductibles in health insurance: Are they right for you?",
-      "IT stocks lead Nifty rebound as benchmark snaps eight-week losing streak",
-      "TCS earnings lift IT stocks as demand recovery hopes boost market mood",
-      "10% health insurance co-pay could push patients' bill burden to 15-19%",
-      "ESDS Solution's volatile stock, Nike's problems, and more..."
+      "IPO rush continues: Jio, Zetwerk among cos set to tap primary market in Oct",
+      "Sebi to issue closing auction guidelines in a week: Tuhin Kanta Pandey",
+      "How a fistfight helped fix your eyesight and more..."
     ]
   },
   "summary": {

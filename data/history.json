@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-11 11:53 IST",
-  "usdinr": {
-   "last": 95.44,
-   "date": "2026-09-10"
-  },
-  "dii_net": {
-   "net": 1025.85,
-   "date": "10-Sep-2026"
-  },
-  "fii_net": {
-   "net": -438.24,
-   "date": "10-Sep-2026"
-  },
-  "headlines": [
-   "Diamond Power Infrastructure exits NCLT mechanism",
-   "NSE SME Qualiance International stitches strong debut",
-   "Volumes spurt at Larsen & Toubro Ltd counter",
-   "Paytm soars 4% in weak market, nears new high; stock up 90% from March low",
-   "Us stocks dip for four seasons in row",
-   "Neogen Chemicals launches QIP issue to raise funds amounting to Rs 600 crore",
-   "Can Aditya Birla’s Ultravolt Challenge Polycab?",
-   "Copper prices are rising again",
-   "The Arcil IPO explained",
-   "Can glass bottles fill the gap left by aluminium cans?",
-   "What went wrong with Sugar Cosmetics?",
-   "Coffee with capsicum?, obsolete sunscreen, and more..."
-  ]
- },
- {
   "date": "2026-09-12 11:39 IST",
   "usdinr": {
    "last": 95.56,
@@ -867,6 +838,35 @@
    "Can a new CEO solve HDFC Bank's problems?",
    "What ails Nike?",
    "What’s behind the looming global food crisis"
+  ]
+ },
+ {
+  "date": "2026-10-11 13:22 IST",
+  "usdinr": {
+   "last": 96.73,
+   "date": "2026-10-09"
+  },
+  "dii_net": {
+   "net": 4743.26,
+   "date": "09-Oct-2026"
+  },
+  "fii_net": {
+   "net": -3568.9,
+   "date": "09-Oct-2026"
+  },
+  "headlines": [
+   "IPO rush continues: Jio, Zetwerk among cos set to tap primary market in Oct",
+   "Sebi to issue closing auction guidelines in a week: Tuhin Kanta Pandey",
+   "WazirX futures trading volume jumps 236% in Q3 as exchange expands AI tools",
+   "Nvidia-backed Firmus scraps $5 bn Australia IPO amid growing AI scrutiny",
+   "Co-payments and deductibles in health insurance: Are they right for you?",
+   "IT stocks lead Nifty rebound as benchmark snaps eight-week losing streak",
+   "How a fistfight helped fix your eyesight and more...",
+   "ESDS Solution's volatile stock, Nike's problems, and more...",
+   "What’s really going on with ESDS?",
+   "Why is SEBI’s investor protection fund barely being used?",
+   "Can a new CEO solve HDFC Bank's problems?",
+   "What ails Nike?"
   ]
  }
 ]
