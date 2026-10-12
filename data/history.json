@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-12 11:39 IST",
-  "usdinr": {
-   "last": 95.56,
-   "date": "2026-09-11"
-  },
-  "dii_net": {
-   "net": 1968.17,
-   "date": "11-Sep-2026"
-  },
-  "fii_net": {
-   "net": -930.9,
-   "date": "11-Sep-2026"
-  },
-  "headlines": [
-   "Vijaya Diagnostic Centre acquires Arya Wellness Centre in Guwahati",
-   "Accuracy Shipping receives LoI for proposed Container Freight Station at Kandla, Gujarat",
-   "Board of Ceigall India approves acquisition of project SPV and investment in JV",
-   "Indiabulls to acquire 70% stake in Fintech Cloud for Rs 1050 cr",
-   "Welspun Corp announces incorporation of step-down subsidiary - Welspun Special Coating",
-   "Jinkushal Industries incorporates wholly owned subsidiary in Hong Kong",
-   "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
-   "Can Aditya Birla’s Ultravolt Challenge Polycab?",
-   "Copper prices are rising again",
-   "The Arcil IPO explained",
-   "Can glass bottles fill the gap left by aluminium cans?",
-   "What went wrong with Sugar Cosmetics?"
-  ]
- },
- {
   "date": "2026-09-13 12:02 IST",
   "usdinr": {
    "last": 95.56,
@@ -867,6 +838,35 @@
    "Why is SEBI’s investor protection fund barely being used?",
    "Can a new CEO solve HDFC Bank's problems?",
    "What ails Nike?"
+  ]
+ },
+ {
+  "date": "2026-10-12 13:13 IST",
+  "usdinr": {
+   "last": 96.73,
+   "date": "2026-10-09"
+  },
+  "dii_net": {
+   "net": 4743.26,
+   "date": "09-Oct-2026"
+  },
+  "fii_net": {
+   "net": -3568.9,
+   "date": "09-Oct-2026"
+  },
+  "headlines": [
+   "IRFC to announce interim dividend in Q2 results on Oct 15; stock rises 4%",
+   "Ashish Kacholia portfolio stock Aeroflex zooms 15%; hits record high",
+   "Wall Street bosses look past India's pain points to ramp up investment bets",
+   "Emcure Pharma up over 3% as board approves merger of two subsidiaries",
+   "Why Nomura prefers Airtel in telecom sector even as Jio gears up to list",
+   "Suzlon jumps 5% on ₹550 cr investment plan; MOFSL says valuation attractive",
+   "How China is building its global EV battery empire",
+   "How a fistfight helped fix your eyesight and more...",
+   "ESDS Solution's volatile stock, Nike's problems, and more...",
+   "What’s really going on with ESDS?",
+   "Why is SEBI’s investor protection fund barely being used?",
+   "Can a new CEO solve HDFC Bank's problems?"
   ]
  }
 ]
