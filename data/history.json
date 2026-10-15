@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-15 11:55 IST",
-  "usdinr": {
-   "last": 95.56,
-   "date": "2026-09-14"
-  },
-  "dii_net": {
-   "net": 1968.17,
-   "date": "11-Sep-2026"
-  },
-  "fii_net": {
-   "net": -930.9,
-   "date": "11-Sep-2026"
-  },
-  "headlines": [
-   "Yash Highvoltage rises after subsidiary signs US sales representation agreement",
-   "India's wholesale price inflation zooms to 9.92%",
-   "Gold falls ₹115 on US interest rate hike fears, silver declines ₹461",
-   "Diamond Power Infrastructure wins LoA worth Rs 179 cr",
-   "Solar Ind to acquire South Africa's Omnia for ₹12,951-crore; stock slips 9%",
-   "KEC International rises after bagging orders worth Rs 1,303 crore",
-   "The Dedicated Freight Corridor's last mile challenge",
-   "The US Treasury wants lower bond yields. But will it work?",
-   "AI solving a 90 year old math problem and more",
-   "Sugar's valuation plunge, copper prices surge, the Arcil IPO and more...",
-   "Can Aditya Birla’s Ultravolt Challenge Polycab?",
-   "Copper prices are rising again"
-  ]
- },
- {
   "date": "2026-09-16 11:54 IST",
   "usdinr": {
    "last": 95.96,
@@ -867,6 +838,35 @@
    "How a fistfight helped fix your eyesight and more...",
    "ESDS Solution's volatile stock, Nike's problems, and more...",
    "What’s really going on with ESDS?"
+  ]
+ },
+ {
+  "date": "2026-10-15 11:41 IST",
+  "usdinr": {
+   "last": 95.16,
+   "date": "2026-10-14"
+  },
+  "dii_net": {
+   "net": 2670.44,
+   "date": "14-Oct-2026"
+  },
+  "fii_net": {
+   "net": -1857.44,
+   "date": "14-Oct-2026"
+  },
+  "headlines": [
+   "Bulls strike! Sensex zooms 1,100 pts intraday, Nifty at 22,950; key reasons",
+   "Sahajanand Medical IPO opens for bidding; check GMP, review & subscription",
+   "Smallcap stocks under pressure; Sterlite, MTAR, HFCL, Netweb slide 5%",
+   "Gold, silver rebound on buying at lower levels as crude oil softens",
+   "Nifty IT rallies 9% in 3 sessions: 3 key factors driving the momentum",
+   "Bonfiglioli Transmissions IPO bags 'subscribe' tag from experts; GMP at 30%",
+   "Can Starlink win India’s internet war?",
+   "The new GST reforms explained",
+   "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
+   "How China is building its global EV battery empire",
+   "How a fistfight helped fix your eyesight and more...",
+   "ESDS Solution's volatile stock, Nike's problems, and more..."
   ]
  }
 ]
