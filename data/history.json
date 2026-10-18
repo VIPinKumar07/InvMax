@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-18 11:48 IST",
-  "usdinr": {
-   "last": 95.94,
-   "date": "2026-09-17"
-  },
-  "dii_net": {
-   "net": 3617.75,
-   "date": "17-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3208.76,
-   "date": "17-Sep-2026"
-  },
-  "headlines": [
-   "BSE SME Om Galaxy struggles to find its orbit, trades below IPO price",
-   "DMR JV bags Rs 70-cr LoA for 24.60 MW Kamlang HEP",
-   "NSE IPO crosses halfway mark on 2nd day of bidding; check GMP & reviews",
-   "Skyways Air Services spurts after strong Q1 performance",
-   "BSE SME Raksan Transformers holds the line after flat listing",
-   "Volumes spurt at The Bombay Burmah Trading Corporation Ltd counter",
-   "How Rentomojo actually makes money",
-   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
-   "India's Digital Payment Evolution: Who Killed the Cheque?",
-   "Is NSE’s IPO really fairly valued?",
-   "The Hero Motors IPO explained",
-   "The Dedicated Freight Corridor's last mile challenge"
-  ]
- },
- {
   "date": "2026-09-19 11:46 IST",
   "usdinr": {
    "last": 95.88,
@@ -867,6 +838,35 @@
    "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
    "How China is building its global EV battery empire",
    "How a fistfight helped fix your eyesight and more..."
+  ]
+ },
+ {
+  "date": "2026-10-18 11:50 IST",
+  "usdinr": {
+   "last": 94.96,
+   "date": "2026-10-16"
+  },
+  "dii_net": {
+   "net": -3661.28,
+   "date": "16-Oct-2026"
+  },
+  "fii_net": {
+   "net": 1165.92,
+   "date": "16-Oct-2026"
+  },
+  "headlines": [
+   "Crypto devices built to foil hackers may have come with spies inside",
+   "IPO-bound Sathya Agencies plans to strengthen presence in Karnataka",
+   "Indian IT stocks post best weekly gain in 18 years amid global AI sell-off",
+   "Sebi's IPO nod to Cult.fit, Eswari Global Metal, Sohan Lal Commodity",
+   "Gold FoFs halt fresh investments before Diwali: What investors can do",
+   "Indian Hotels, Oriental Hotels rally up to 6%; what's driving hotel stocks?",
+   "A Nobel dating app, hacked refrigerators, and more...",
+   "The IDBI stake sale, Starlink's entry into India, and more...",
+   "IDBI Bank is finally being sold",
+   "Can Starlink win India’s internet war?",
+   "The new GST reforms explained",
+   "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford"
   ]
  }
 ]

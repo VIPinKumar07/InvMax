@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17 11:22 IST",
-  "generated_utc": "2026-10-17T05:52:16+00:00",
+  "generated_at": "2026-10-18 11:49 IST",
+  "generated_utc": "2026-10-18T06:19:08+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-17 11:22 IST",
+      "asof": "2026-10-18 11:49 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-10-17 11:22 IST",
+      "asof": "2026-10-18 11:49 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-17 11:23 IST",
+      "asof": "2026-10-18 11:50 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-17 11:23 IST",
+      "asof": "2026-10-18 11:50 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,9 +1243,23 @@
       }
     },
     "news": {
-      "asof": "2026-10-17 11:23 IST",
+      "asof": "2026-10-18 11:50 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Crypto devices built to foil hackers may have come with spies inside",
+          "url": "https://www.business-standard.com/world-news/crypto-devices-built-to-foil-hackers-may-have-come-with-spies-inside-126101800160_1.html",
+          "published": "Sun, 18 Oct 2026 11:10:54 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "IPO-bound Sathya Agencies plans to strengthen presence in Karnataka",
+          "url": "https://www.business-standard.com/companies/start-ups/sathya-agencies-karnataka-expansion-unilet-acquisition-ipo-126101700528_1.html",
+          "published": "Sat, 17 Oct 2026 15:16:54 +0530"
+        },
         {
           "source": "Business Standard",
           "weight": "high",
@@ -1275,18 +1289,18 @@
           "published": "Fri, 16 Oct 2026 15:13:03 +0530"
         },
         {
-          "source": "Business Standard",
+          "source": "Finshots Daily",
           "weight": "high",
-          "title": "TIPS Music zooms 10% to hit 52-wk high after Q2 nos, ₹6.50/share dividend",
-          "url": "https://www.business-standard.com/markets/news/tips-music-zooms-10-to-hit-52-wk-high-after-q2-nos-6-50-share-dividend-126101600665_1.html",
-          "published": "Fri, 16 Oct 2026 15:03:16 +0530"
+          "title": "A Nobel dating app, hacked refrigerators, and more...",
+          "url": "https://finshots.in/archive/a-nobel-dating-app-hacked-refrigerators-and-more/",
+          "published": "Sun, 18 Oct 2026 01:30:19 GMT"
         },
         {
-          "source": "Business Standard",
+          "source": "Finshots Daily",
           "weight": "high",
-          "title": "Ambani taps Reliance's 420,000 employees to boost Jio IPO participation",
-          "url": "https://www.business-standard.com/companies/news/ambani-taps-reliance-s-420-000-employees-to-boost-jio-ipo-participation-126101600630_1.html",
-          "published": "Fri, 16 Oct 2026 14:48:53 +0530"
+          "title": "The IDBI stake sale, Starlink's entry into India, and more...",
+          "url": "https://finshots.in/archive/the-idbi-stake-sale-starlinks-entry-into-india-and-more/",
+          "published": "Sat, 17 Oct 2026 06:50:48 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1317,102 +1331,88 @@
           "published": "Tue, 13 Oct 2026 01:30:59 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "How China is building its global EV battery empire",
-          "url": "https://finshots.in/archive/how-china-is-building-its-global-ev-battery-empire/",
-          "published": "Mon, 12 Oct 2026 01:30:49 GMT"
-        },
-        {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "How a fistfight helped fix your eyesight and more...",
-          "url": "https://finshots.in/archive/how-a-fistfight-helped-fix-your-eyesight-and-more/",
-          "published": "Sun, 11 Oct 2026 01:30:11 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Bonus issues, stock splits & dividends: HDB Financial, IRFC, TechM among 19 stocks turning ex-record date this week",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bonus-issues-stock-splits-dividends-hdb-financial-irfc-techm-among-19-stocks-turning-ex-record-date-this-week/articleshow/135024511.cms",
+          "published": "Sun, 18 Oct 2026 11:23:26 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "$60 billion in 6 weeks: RBI's rupee defence comes at a cost",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/60-billion-in-6-weeks-rbis-rupee-defence-comes-at-a-cost/articleshow/135007403.cms",
-          "published": "Sat, 17 Oct 2026 10:26:20 +0530"
+          "title": "LG Electronics, Polycab among picks as premiumisation and infrastructure demand drive growth: Siddhartha Khemka",
+          "url": "https://economictimes.indiatimes.com/markets/expert-view/lg-electronics-polycab-among-picks-as-premiumisation-and-infrastructure-demand-drive-growth-siddhartha-khemka/articleshow/135024487.cms",
+          "published": "Sun, 18 Oct 2026 11:19:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "AI bubble burst may trigger 2008-like banking crisis, says Gary Marcus",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/ai-bubble-burst-may-trigger-2008-like-banking-crisis-says-gary-marcus/articleshow/135007219.cms",
-          "published": "Sat, 17 Oct 2026 09:56:04 +0530"
+          "title": "10 penny stocks plunge up to 75% in six months",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/10-penny-stocks-plunge-up-to-75-in-six-months/slideshow/135024478.cms",
+          "published": "Sun, 18 Oct 2026 11:03:19 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IT's time to celebrate when chips are down; Nifty IT soars 11.7% to log biggest weekly rally since 2008",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/its-time-to-celebrate-when-chips-are-down-nifty-it-soars-11-7-to-log-biggest-weekly-rally-since-2008/articleshow/135007166.cms",
-          "published": "Sat, 17 Oct 2026 09:46:40 +0530"
+          "title": "Mega Jio Platforms IPO to lead Rs 31,663 crore offerings this week; 9 listings lined up",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mega-jio-platforms-ipo-to-lead-rs-31663-crore-offerings-this-week-9-listings-lined-up/articleshow/135024121.cms",
+          "published": "Sun, 18 Oct 2026 10:41:00 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
-          "published": "Sat, 17 Oct 2026 09:38:05 +0530"
+          "title": "Can Nifty, Sensex rally further or will bears reign in? 5 factors to steer market this week",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-nifty-sensex-rally-further-or-will-bears-reign-in-5-factors-to-decide-market-action-next-week/articleshow/135023916.cms",
+          "published": "Sun, 18 Oct 2026 10:15:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Gold set for a weekly drop as traders assess Fed signals",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
-          "published": "Sat, 17 Oct 2026 09:36:22 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "European shares close out best week since June as earnings soften blow from tech selloff",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-close-out-best-week-since-june-as-earnings-soften-blow-from-tech-selloff/articleshow/135007075.cms",
-          "published": "Sat, 17 Oct 2026 09:34:44 +0530"
+          "title": "ICICI Bank profit spurts 20% on NII; core profitability a tad lower on FCNR(B)",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/icici-bank-profit-spurts-20-on-nii-core-profitability-a-tad-lower-on-fcnrb/articleshow/135023892.cms",
+          "published": "Sun, 18 Oct 2026 10:12:18 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Dividend alert: IRFC, Tech Mahindra, ICICI Prudential AMC, among 11 stocks to watch next week: Check record date, payout",
-          "url": "https://www.livemint.com/market/stock-market-news/dividend-alert-irfc-tech-mahindra-icici-prudential-amc-among-11-stocks-to-watch-next-week-check-record-date-payout-11792211741541.html",
-          "published": "Sat, 17 Oct 2026 10:49:51 +0530"
+          "title": "Top 3 stocks to buy tomorrow: Mphasis, HAL, Indian Hotel by market expert - Check stop-loss, target price for Monday, 19",
+          "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-tomorrow-mphasis-hal-indian-hotel-by-market-expert-check-stop-loss-target-price-for-monday-19-11792301288633.html",
+          "published": "Sun, 18 Oct 2026 11:22:30 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Swiggy share price: Down 50% in 1 year; can food delivery stock recover? Should you buy the dip? Check target, stop-loss",
-          "url": "https://www.livemint.com/market/stock-market-news/swiggy-share-price-down-50-in-1-year-can-food-delivery-stock-recover-should-you-buy-the-dip-check-target-stoploss-11792165643709.html",
-          "published": "Sat, 17 Oct 2026 09:43:39 +0530"
+          "title": "Reliance Jio IPO: LIC, leading MFs, AMCs and global investors eye issue, say reports | Check latest GMP price today",
+          "url": "https://www.livemint.com/market/ipo/reliance-jio-ipo-lic-leading-mfs-amcs-and-global-investors-eye-issue-say-reports-check-latest-gmp-price-today-11792299184449.html",
+          "published": "Sun, 18 Oct 2026 10:56:48 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Sunil Singhania makes a fresh entry in this defence stock",
-          "url": "https://www.livemint.com/market/stock-market-news/sunil-singhania-sunil-singhania-portfolio-guru-stock-super-investors-11792153559805.html",
-          "published": "Sat, 17 Oct 2026 07:00:24 +0530"
+          "title": "Jio Platforms IPO RHP: From financials to spectrum portfolio | 10 key things to know before subscribing",
+          "url": "https://www.livemint.com/market/ipo/jio-platforms-ipo-rhp-from-financials-to-spectrum-portfolio-10-key-things-to-know-before-subscribing-11792293777990.html",
+          "published": "Sun, 18 Oct 2026 09:53:58 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Foreign Holdings of US Treasuries Rise From Almost One-Year Low",
-          "url": "https://www.livemint.com/market/foreign-holdings-of-us-treasuries-rise-from-almost-one-year-low-11792184534641.html",
-          "published": "Sat, 17 Oct 2026 02:32:14 +0530"
+          "title": "ICICI Bank vs HDFC Bank vs Axis Bank: Which stock to buy, sell or hold after Q2 results?",
+          "url": "https://www.livemint.com/market/stock-market-news/icici-bank-vs-hdfc-bank-vs-axis-bank-which-stock-to-buy-sell-or-hold-after-q2-results-11792290916045.html",
+          "published": "Sun, 18 Oct 2026 08:47:55 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "ITC sets board meeting date to declare Q2 results 2026; net profit may decline due to cigarette taxation — share outlook",
-          "url": "https://www.livemint.com/market/stock-market-news/itc-sets-board-meeting-date-to-declare-q2-results-2026-net-profit-may-decline-due-to-cigarette-taxation-share-outlook-11792178741965.html",
-          "published": "Sat, 17 Oct 2026 01:59:50 +0530"
+          "title": "Top 3 stocks to buy under ₹100: IRFC, Motherson Sumi, Lloyds Engineering Works by Sumeet Bagadia | Target price, SL",
+          "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-under-rs-100-irfc-motherson-sumi-lloyds-engineering-works-by-sumeet-bagadia-target-price-sl-11792255051961.html",
+          "published": "Sun, 18 Oct 2026 06:30:25 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Funding Markets Diverge as T-Bills Cheapen, Overnight Repo Calm",
-          "url": "https://www.livemint.com/market/funding-markets-diverge-as-t-bills-cheapen-overnight-repo-calm-11792179755736.html",
-          "published": "Sat, 17 Oct 2026 01:12:35 +0530"
+          "title": "AI Trade Reversal Pierces Asia’s Star Picks-and-Shovels Stocks",
+          "url": "https://www.livemint.com/market/ai-trade-reversal-pierces-asia-s-star-picks-and-shovels-stocks-11792284261229.html",
+          "published": "Sun, 18 Oct 2026 06:14:20 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-17 11:23 IST",
+      "checked_at": "2026-10-18 11:50 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-17 11:23 IST",
+      "generated_at": "2026-10-18 11:50 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-113,535 Cr · 5% of days positive.",
+        "reading": "20-day cumulative: Rs-108,675 Cr · 10% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-113,535 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-108,675 Cr · 10% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs114,031 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs107,532 Cr · 90% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-113,535 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-108,675 Cr · 10% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs114,031 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs107,532 Cr · 90% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-17 11:23 IST",
+    "date": "2026-10-18 11:50 IST",
     "usdinr": {
       "last": 94.96,
       "date": "2026-10-16"
@@ -1628,68 +1628,56 @@
       "date": "16-Oct-2026"
     },
     "headlines": [
+      "Crypto devices built to foil hackers may have come with spies inside",
+      "IPO-bound Sathya Agencies plans to strengthen presence in Karnataka",
       "Indian IT stocks post best weekly gain in 18 years amid global AI sell-off",
       "Sebi's IPO nod to Cult.fit, Eswari Global Metal, Sohan Lal Commodity",
       "Gold FoFs halt fresh investments before Diwali: What investors can do",
       "Indian Hotels, Oriental Hotels rally up to 6%; what's driving hotel stocks?",
-      "TIPS Music zooms 10% to hit 52-wk high after Q2 nos, ₹6.50/share dividend",
-      "Ambani taps Reliance's 420,000 employees to boost Jio IPO participation",
+      "A Nobel dating app, hacked refrigerators, and more...",
+      "The IDBI stake sale, Starlink's entry into India, and more...",
       "IDBI Bank is finally being sold",
       "Can Starlink win India’s internet war?",
       "The new GST reforms explained",
-      "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
-      "How China is building its global EV battery empire",
-      "How a fistfight helped fix your eyesight and more..."
+      "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-3,661 Cr — direction flipped"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹1,166 Cr — direction flipped"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "6 new"
+        "detail": "4 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹94.96 (-0.11%)"
+        "detail": "₹94.96 (+0.00%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-3,661 Cr — direction flipped"
+        "detail": "₹-3,661 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹1,166 Cr — direction flipped"
+        "detail": "₹1,166 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "6 new"
+        "detail": "4 new"
       }
     ],
-    "since": "2026-10-16 11:37 IST",
+    "since": "2026-10-17 11:23 IST",
     "new_headlines": [
-      "Indian IT stocks post best weekly gain in 18 years amid global AI sell-off",
-      "Sebi's IPO nod to Cult.fit, Eswari Global Metal, Sohan Lal Commodity",
-      "Gold FoFs halt fresh investments before Diwali: What investors can do",
-      "Indian Hotels, Oriental Hotels rally up to 6%; what's driving hotel stocks?",
-      "TIPS Music zooms 10% to hit 52-wk high after Q2 nos, ₹6.50/share dividend",
-      "Ambani taps Reliance's 420,000 employees to boost Jio IPO participation"
+      "Crypto devices built to foil hackers may have come with spies inside",
+      "IPO-bound Sathya Agencies plans to strengthen presence in Karnataka",
+      "A Nobel dating app, hacked refrigerators, and more...",
+      "The IDBI stake sale, Starlink's entry into India, and more..."
     ]
   },
   "summary": {
