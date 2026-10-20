@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-20 12:09 IST",
-  "usdinr": {
-   "last": 95.88,
-   "date": "2026-09-18"
-  },
-  "dii_net": {
-   "net": 1019.69,
-   "date": "18-Sep-2026"
-  },
-  "fii_net": {
-   "net": 599.54,
-   "date": "18-Sep-2026"
-  },
-  "headlines": [
-   "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
-   "India's exports of software services up by 8.2% in FY26 to US$ 221.4 billion",
-   "Hy-Tech Engineers posts PAT of Rs 4.6 crore for Q1; board OKs business expansion plans",
-   "Hazoor Multi Projects bags work contract worth Rs 207 crore",
-   "Maruti Suzuki launches automatic S-CNG models of Swift, Dzire and Baleno",
-   "NIBE Group signs MoU with Naval Group, France",
-   "Unfair iPhone, the rise of tennis ball cricket, and more...",
-   "IPO week, US Treasury bond buyback, and more...",
-   "How Rentomojo actually makes money",
-   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
-   "India's Digital Payment Evolution: Who Killed the Cheque?",
-   "Is NSE’s IPO really fairly valued?"
-  ]
- },
- {
   "date": "2026-09-21 12:16 IST",
   "usdinr": {
    "last": 95.88,
@@ -861,6 +832,35 @@
    "Ixigo shares zoom 13% as PAT hits record high in Q2; MOFSL stays 'neutral'",
    "​LTCG tax cut alone won't lure FPIs, says Bernstein; Nifty target cut to 25k",
    "Urban Company shares fall 10% as Q2 net loss widens despite revenue growth",
+   "A few more things about the Jio Platforms IPO",
+   "A Nobel dating app, hacked refrigerators, and more...",
+   "The IDBI stake sale, Starlink's entry into India, and more...",
+   "IDBI Bank is finally being sold",
+   "Can Starlink win India’s internet war?",
+   "The new GST reforms explained"
+  ]
+ },
+ {
+  "date": "2026-10-20 12:07 IST",
+  "usdinr": {
+   "last": 94.93,
+   "date": "2026-10-19"
+  },
+  "dii_net": {
+   "net": 3201.19,
+   "date": "19-Oct-2026"
+  },
+  "fii_net": {
+   "net": -1148.64,
+   "date": "19-Oct-2026"
+  },
+  "headlines": [
+   "Brent crude holds near 5-month high as W Asia tensions stoke supply fears",
+   "NSE, BSE to hold Diwali Muhurat Trading on Nov 8; check timings",
+   "Stock market holiday: BSE, NSE shut for trading today due to Dussehra",
+   "Jio IPO anchor book sees over 30x demand, draws record bids worth ₹2.5 trn",
+   "Tonbo Imaging India IPO subscribed nearly 136 times, led by QIB demand",
+   "Private lenders weigh on equity markets as PSU banks buck the selloff",
    "A few more things about the Jio Platforms IPO",
    "A Nobel dating app, hacked refrigerators, and more...",
    "The IDBI stake sale, Starlink's entry into India, and more...",
