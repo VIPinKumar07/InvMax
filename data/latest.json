@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20 11:48 IST",
-  "generated_utc": "2026-10-20T06:18:00+00:00",
+  "generated_at": "2026-10-21 11:47 IST",
+  "generated_utc": "2026-10-21T06:17:48+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-20 11:48 IST",
+      "asof": "2026-10-21 11:47 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-10-19",
+        "asof": "2026-10-20",
         "rates": {
-          "EUR": 0.89087,
-          "GBP": 0.75016,
+          "EUR": 0.89166,
+          "GBP": 0.74925,
           "INR": 94.93,
-          "JPY": 158.24
+          "JPY": 158.13
         },
         "usdinr_history": [
-          {
-            "date": "2025-10-20",
-            "v": 87.9
-          },
           {
             "date": "2025-10-21",
             "v": 87.97
@@ -1071,12 +1067,16 @@
           {
             "date": "2026-10-19",
             "v": 94.93
+          },
+          {
+            "date": "2026-10-20",
+            "v": 94.93
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-10-20 11:48 IST",
+      "asof": "2026-10-21 11:47 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-20 12:06 IST",
+      "asof": "2026-10-21 11:49 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-20 12:06 IST",
+      "asof": "2026-10-21 11:49 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-10-20 12:07 IST",
+      "asof": "2026-10-21 11:49 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Brent crude holds near 5-month high as W Asia tensions stoke supply fears",
-          "url": "https://www.business-standard.com/markets/commodities/oil-prices-ease-as-russia-sanctions-relief-offsets-gulf-supply-risks-126102000063_1.html",
-          "published": "Tue, 20 Oct 2026 07:49:48 +0530"
+          "title": "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
+          "url": "https://www.business-standard.com/markets/ipo/jio-platforms-ipo-subscription-qib-retail-anchor-investor-126102100328_1.html",
+          "published": "Wed, 21 Oct 2026 11:21:32 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NSE, BSE to hold Diwali Muhurat Trading on Nov 8; check timings",
-          "url": "https://www.business-standard.com/markets/news/nse-bse-to-hold-diwali-muhurat-trading-on-nov-8-check-timings-126102000077_1.html",
-          "published": "Tue, 20 Oct 2026 07:46:53 +0530"
+          "title": "Midcap 100, Smallcap 100 index down 1%; MRF, Biocon, Swiggy at 52-week lows",
+          "url": "https://www.business-standard.com/markets/news/midcap-100-smallcap-100-index-down-1-mrf-biocon-swiggy-at-52-week-lows-126102100269_1.html",
+          "published": "Wed, 21 Oct 2026 11:14:11 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock market holiday: BSE, NSE shut for trading today due to Dussehra",
-          "url": "https://www.business-standard.com/markets/news/stock-market-holiday-bse-nse-shut-for-trading-today-due-to-dussehra-126101900660_1.html",
-          "published": "Tue, 20 Oct 2026 07:14:37 +0530"
+          "title": "UltraTech up 3% post Q2; Jefferies says cement price recovery key catalyst",
+          "url": "https://www.business-standard.com/markets/news/ultratech-up-3-post-q2-jefferies-says-cement-price-recovery-key-catalyst-126102100281_1.html",
+          "published": "Wed, 21 Oct 2026 10:57:21 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Jio IPO anchor book sees over 30x demand, draws record bids worth ₹2.5 trn",
-          "url": "https://www.business-standard.com/markets/ipo/jio-ipo-anchor-book-sees-over-30x-demand-draws-record-bids-worth-2-5-trn-126101901316_1.html",
-          "published": "Mon, 19 Oct 2026 23:54:36 +0530"
+          "title": "Why are markets rising today? Sensex up 800 pts intraday, Nifty tops 23,100",
+          "url": "https://www.business-standard.com/markets/news/why-are-markets-rising-today-sensex-up-800-pts-intraday-nifty-tops-23-100-126102100246_1.html",
+          "published": "Wed, 21 Oct 2026 10:31:35 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Tonbo Imaging India IPO subscribed nearly 136 times, led by QIB demand",
-          "url": "https://www.business-standard.com/markets/news/tonbo-imaging-india-ipo-subscribed-nearly-136-times-led-by-qib-demand-126101901284_1.html",
-          "published": "Mon, 19 Oct 2026 22:59:36 +0530"
+          "title": "Nifty IT index hits 8-month high; LTTS zooms 15% on Wednesday; here's why",
+          "url": "https://www.business-standard.com/markets/news/nifty-it-index-hits-8-month-high-ltts-zooms-15-on-wednesday-here-s-why-126102100228_1.html",
+          "published": "Wed, 21 Oct 2026 10:26:18 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Private lenders weigh on equity markets as PSU banks buck the selloff",
-          "url": "https://www.business-standard.com/markets/news/private-lenders-weigh-on-equity-markets-as-psu-banks-buck-the-selloff-126101901036_1.html",
-          "published": "Mon, 19 Oct 2026 21:55:41 +0530"
+          "title": "Gold, silver fall as higher crude oil prices revive rate-hike concerns",
+          "url": "https://www.business-standard.com/markets/commodities/gold-silver-fall-as-higher-crude-oil-prices-revive-rate-hike-concerns-126102100241_1.html",
+          "published": "Wed, 21 Oct 2026 10:20:36 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Why do wealth taxes keep failing?",
+          "url": "https://finshots.in/archive/why-do-wealth-taxes-keep-failing-2/",
+          "published": "Wed, 21 Oct 2026 01:30:00 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Thu, 15 Oct 2026 01:30:19 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The new GST reforms explained",
-          "url": "https://finshots.in/archive/the-new-gst-reforms-explained/",
-          "published": "Wed, 14 Oct 2026 01:30:42 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Missed reversal in IT stocks? Jefferies gives 3 ideas with up to 50% re-rating potential",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/missed-reversal-in-it-stocks-jefferies-gives-3-ideas-with-up-to-50-re-rating-potential/articleshow/135083074.cms",
+          "published": "Wed, 21 Oct 2026 11:00:02 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Tonbo Imaging’s Rs 852 crore IPO subscribed 140x. Check GMP, allotment, other details",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tonbo-imagings-rs-852-crore-ipo-subscribed-140x-check-gmp-allotment-other-details/articleshow/135062276.cms",
-          "published": "Tue, 20 Oct 2026 11:15:38 +0530"
+          "title": "Bajaj Finance shares fall 3% after Q2 results. What Jefferies, Nomura, other brokerages now expect?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-shares-fall-3-after-q2-results-what-jefferies-nomura-other-brokerages-now-expect/articleshow/135082829.cms",
+          "published": "Wed, 21 Oct 2026 10:47:04 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Market: China and Hong Kong shares weaken as stable growth eases stimulus bets",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-and-hong-kong-shares-weaken-as-stable-growth-eases-stimulus-bets/articleshow/135061983.cms",
-          "published": "Tue, 20 Oct 2026 10:52:35 +0530"
+          "title": "Transrail Lighting shares rally 9% after bagging orders worth Rs 927 crore",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/transrail-lighting-shares-rally-9-after-bagging-orders-worth-rs-927-crore/articleshow/135082787.cms",
+          "published": "Wed, 21 Oct 2026 10:44:15 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Paras Healthcare secures Rs 652 cr from anchor investors; IPO to open on Oct 21",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/paras-healthcare-secures-rs-652-cr-from-anchor-investors-ipo-to-open-on-oct-21/articleshow/135061692.cms",
-          "published": "Tue, 20 Oct 2026 10:28:38 +0530"
+          "title": "Jio IPO opens with a bang, issue gets fully booked as QIBs drive demand. Check GMP",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipo-opens-with-a-bang-issue-booked-over-90-as-qibs-drive-demand-check-gmp/articleshow/135082741.cms",
+          "published": "Wed, 21 Oct 2026 10:40:25 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Jio IPO’s GMP rises to 22% as India’s largest ever issue set to open on October 21. Should you subscribe?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jio-ipos-gmp-rises-to-22-as-indias-largest-ever-issue-set-to-open-on-october-21-should-you-subscribe/articleshow/135061297.cms",
-          "published": "Tue, 20 Oct 2026 09:52:31 +0530"
+          "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-safe-haven-assets-under-pressure-dollar-swiss-franc-german-bonds-and-gold-in-focus/articleshow/135082673.cms",
+          "published": "Wed, 21 Oct 2026 10:40:06 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Korea’s KOSPI crashes another 5% as AI rout deepens; AI bellwether down over 40% from peak",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/koreas-kospi-crashes-another-5-as-ai-rout-deepens-ai-bellwether-down-over-40-from-peak/articleshow/135061021.cms",
-          "published": "Tue, 20 Oct 2026 09:38:50 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "From ₹228 a GB to ₹7.5: How Mukesh Ambani’s Jio rewired India’s internet and is now seeking a ₹10 lakh crore valuation",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/from-228-a-gb-to-7-5-how-mukesh-ambanis-jio-rewired-indias-internet-and-is-now-seeking-a-10-lakh-crore-valuation/articleshow/135053274.cms",
-          "published": "Tue, 20 Oct 2026 09:30:00 +0530"
+          "title": "Global Market: Japanese government bond yields fall as safe-haven demand returns",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japanese-government-bond-yields-fall-as-safe-haven-demand-returns/articleshow/135082602.cms",
+          "published": "Wed, 21 Oct 2026 10:34:32 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Hindustan Zinc shares: Experts bullish on Anil Agarwal-led metal stock after robust Q2 results 2026 | Target, stop-loss",
-          "url": "https://www.livemint.com/market/stock-market-news/hindustan-zinc-shares-experts-bullish-on-anil-agarwal-led-metal-stock-after-robust-q2-results-2026-target-stoploss-11792474520524.html",
-          "published": "Tue, 20 Oct 2026 11:59:45 +0530"
+          "title": "HFCL share price jumps 5% to hit 52-week high; stock soars 371% from year low: Should you buy? Key levels to watch",
+          "url": "https://www.livemint.com/market/stock-market-news/hfcl-share-price-jumps-5-to-hit-52-week-high-stock-soars-371-from-year-low-should-you-buy-key-levels-to-watch-11792562156356.html",
+          "published": "Wed, 21 Oct 2026 11:45:24 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nykaa shares: Anand Rathi initiates coverage on e-commerce stock with 'buy' rating | Check target price, rating",
-          "url": "https://www.livemint.com/market/stock-market-news/nykaa-shares-anand-rathi-initiates-coverage-on-e-commerce-stock-with-buy-rating-check-target-price-rating-11792473585712.html",
-          "published": "Tue, 20 Oct 2026 11:30:30 +0530"
+          "title": "Jio has record IPO fully subscribed within hours",
+          "url": "https://www.livemint.com/market/ipo/jio-has-record-ipo-fully-subscribed-within-hours-11792562581882.html",
+          "published": "Wed, 21 Oct 2026 11:37:31 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold price outlook: Yellow metal prices cool 26% from record high: What are Indians buying this Dussehra, Diwali?",
-          "url": "https://www.livemint.com/market/commodities/gold-price-outlook-yellow-metal-prices-cool-26-from-record-high-what-indian-buyers-are-doing-this-dussehra-diwali-11792472642371.html",
-          "published": "Tue, 20 Oct 2026 11:27:44 +0530"
+          "title": "South Indian Bank shares: Already up 15% in Oct, hit 52-week high - What is driving rally? More rise ahead? Expert view",
+          "url": "https://www.livemint.com/market/stock-market-news/south-indian-bank-shares-already-up-15-in-oct-hit-52-week-high-what-is-driving-rally-more-rise-ahead-expert-view-11792559889591.html",
+          "published": "Wed, 21 Oct 2026 11:23:04 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "IT, FMCG lose defensive sheen. Where should investors seek safety now?",
-          "url": "https://www.livemint.com/market/stock-market-news/it-fmcg-stocks-defensive-investment-strategy-11792424725693.html",
-          "published": "Tue, 20 Oct 2026 11:18:50 +0530"
+          "title": "IT stocks on fire, rally up to 15% today; check performance of TCS, L&T Technology, Wipro, Infosys | Jefferies bullish",
+          "url": "https://www.livemint.com/market/stock-market-news/it-stocks-on-fire-rally-up-to-15-today-check-performance-of-tcs-l-t-technology-wipro-infosys-jefferies-bulli-11792559488325.html",
+          "published": "Wed, 21 Oct 2026 11:06:15 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Tata Group stock to buy on Dussehra 2026 for money gains - Check target, stop loss by Choice Broking's Sumeet Bagadia",
-          "url": "https://www.livemint.com/market/stock-market-news/tata-group-stock-to-buy-on-dussehra-2026-for-gains-check-target-stop-loss-by-choice-brokings-sumeet-bagadia-11792471310750.html",
-          "published": "Tue, 20 Oct 2026 10:36:35 +0530"
+          "title": "Multibagger stock: PC Jeweller shares jump 5% after surging 40% in 2 weeks | Q2 beat, bulk deal in focus | Key levels",
+          "url": "https://www.livemint.com/market/stock-market-news/multibagger-stock-pc-jeweller-shares-jump-5-after-surging-40-in-2-weeks-q2-beat-bulk-deal-in-focus-key-levels-11792558318108.html",
+          "published": "Wed, 21 Oct 2026 10:51:11 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Why should you buy Vedanta shares despite strong Hindustan Zinc Q2 results 2026? Experts' views, target price",
-          "url": "https://www.livemint.com/market/stock-market-news/why-should-you-buy-vedanta-shares-despite-strong-hindustan-zinc-q2-results-2026-experts-views-target-price-stoploss-11792469059843.html",
-          "published": "Tue, 20 Oct 2026 10:33:53 +0530"
+          "title": "Hindustan Zinc share jumps 4% after strong Q2 results 2026 | Should you buy Vedanta Group stock? Target, stop loss",
+          "url": "https://www.livemint.com/market/stock-market-news/hindustan-zinc-share-jumps-4-after-strong-q2-results-2026-check-target-price-stop-loss-11792556202644.html",
+          "published": "Wed, 21 Oct 2026 10:44:31 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-20 12:07 IST",
+      "checked_at": "2026-10-21 11:49 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-20 12:07 IST",
+      "generated_at": "2026-10-21 11:49 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-93,324 Cr · 15% of days positive.",
+        "reading": "20-day cumulative: Rs-84,324 Cr · 15% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-93,324 Cr · 15% of days positive.",
+          "reading": "20-day cumulative: Rs-84,324 Cr · 15% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs94,930 Cr · 85% of days positive.",
+          "reading": "20-day cumulative: +Rs86,859 Cr · 85% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1538,8 +1538,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "neutral",
-          "strength": 65,
-          "reading": "USD/INR moved -1.0% over the last month (now 94.93).",
+          "strength": 64,
+          "reading": "USD/INR moved -0.9% over the last month (now 94.93).",
           "conclusion": "Rupee broadly stable",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1565,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-93,324 Cr · 15% of days positive.",
+          "reading": "20-day cumulative: Rs-84,324 Cr · 15% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs94,930 Cr · 85% of days positive.",
+          "reading": "20-day cumulative: +Rs86,859 Cr · 85% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,10 +1591,10 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-20 12:07 IST",
+    "date": "2026-10-21 11:49 IST",
     "usdinr": {
       "last": 94.93,
-      "date": "2026-10-19"
+      "date": "2026-10-20"
     },
     "dii_net": {
       "net": 3201.19,
@@ -1605,68 +1605,59 @@
       "date": "19-Oct-2026"
     },
     "headlines": [
-      "Brent crude holds near 5-month high as W Asia tensions stoke supply fears",
-      "NSE, BSE to hold Diwali Muhurat Trading on Nov 8; check timings",
-      "Stock market holiday: BSE, NSE shut for trading today due to Dussehra",
-      "Jio IPO anchor book sees over 30x demand, draws record bids worth ₹2.5 trn",
-      "Tonbo Imaging India IPO subscribed nearly 136 times, led by QIB demand",
-      "Private lenders weigh on equity markets as PSU banks buck the selloff",
+      "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
+      "Midcap 100, Smallcap 100 index down 1%; MRF, Biocon, Swiggy at 52-week lows",
+      "UltraTech up 3% post Q2; Jefferies says cement price recovery key catalyst",
+      "Why are markets rising today? Sensex up 800 pts intraday, Nifty tops 23,100",
+      "Nifty IT index hits 8-month high; LTTS zooms 15% on Wednesday; here's why",
+      "Gold, silver fall as higher crude oil prices revive rate-hike concerns",
+      "Why do wealth taxes keep failing?",
       "A few more things about the Jio Platforms IPO",
       "A Nobel dating app, hacked refrigerators, and more...",
       "The IDBI stake sale, Starlink's entry into India, and more...",
       "IDBI Bank is finally being sold",
-      "Can Starlink win India’s internet war?",
-      "The new GST reforms explained"
+      "Can Starlink win India’s internet war?"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹3,201 Cr — direction flipped"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹-1,149 Cr — direction flipped"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "6 new"
+        "detail": "7 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹94.93 (-0.03%)"
+        "detail": "₹94.93 (+0.00%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹3,201 Cr — direction flipped"
+        "detail": "₹3,201 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-1,149 Cr — direction flipped"
+        "detail": "₹-1,149 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "6 new"
+        "detail": "7 new"
       }
     ],
-    "since": "2026-10-19 12:01 IST",
+    "since": "2026-10-20 12:07 IST",
     "new_headlines": [
-      "Brent crude holds near 5-month high as W Asia tensions stoke supply fears",
-      "NSE, BSE to hold Diwali Muhurat Trading on Nov 8; check timings",
-      "Stock market holiday: BSE, NSE shut for trading today due to Dussehra",
-      "Jio IPO anchor book sees over 30x demand, draws record bids worth ₹2.5 trn",
-      "Tonbo Imaging India IPO subscribed nearly 136 times, led by QIB demand",
-      "Private lenders weigh on equity markets as PSU banks buck the selloff"
+      "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
+      "Midcap 100, Smallcap 100 index down 1%; MRF, Biocon, Swiggy at 52-week lows",
+      "UltraTech up 3% post Q2; Jefferies says cement price recovery key catalyst",
+      "Why are markets rising today? Sensex up 800 pts intraday, Nifty tops 23,100",
+      "Nifty IT index hits 8-month high; LTTS zooms 15% on Wednesday; here's why",
+      "Gold, silver fall as higher crude oil prices revive rate-hike concerns",
+      "Why do wealth taxes keep failing?"
     ]
   },
   "summary": {

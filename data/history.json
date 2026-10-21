@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-21 12:16 IST",
-  "usdinr": {
-   "last": 95.88,
-   "date": "2026-09-18"
-  },
-  "dii_net": {
-   "net": 1019.69,
-   "date": "18-Sep-2026"
-  },
-  "fii_net": {
-   "net": 599.54,
-   "date": "18-Sep-2026"
-  },
-  "headlines": [
-   "Hero Motors IPO ends with 6.66 times subscription",
-   "Edelweiss opens public issue of NCDs up to Rs 300 cr",
-   "Protean eGov Technologies Ltd leads gainers in 'A' group",
-   "BSE SME Injecto Polymers loses its grip after listing",
-   "BSE SME Century Business Media makes a measured debut",
-   "Nifty above 23,350; FMCG shares advance",
-   "Do we really need blockchain for bonds?",
-   "Unfair iPhone, the rise of tennis ball cricket, and more...",
-   "IPO week, US Treasury bond buyback, and more...",
-   "How Rentomojo actually makes money",
-   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman",
-   "India's Digital Payment Evolution: Who Killed the Cheque?"
-  ]
- },
- {
   "date": "2026-09-22 12:05 IST",
   "usdinr": {
    "last": 95.82,
@@ -867,6 +838,35 @@
    "IDBI Bank is finally being sold",
    "Can Starlink win India’s internet war?",
    "The new GST reforms explained"
+  ]
+ },
+ {
+  "date": "2026-10-21 11:49 IST",
+  "usdinr": {
+   "last": 94.93,
+   "date": "2026-10-20"
+  },
+  "dii_net": {
+   "net": 3201.19,
+   "date": "19-Oct-2026"
+  },
+  "fii_net": {
+   "net": -1148.64,
+   "date": "19-Oct-2026"
+  },
+  "headlines": [
+   "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
+   "Midcap 100, Smallcap 100 index down 1%; MRF, Biocon, Swiggy at 52-week lows",
+   "UltraTech up 3% post Q2; Jefferies says cement price recovery key catalyst",
+   "Why are markets rising today? Sensex up 800 pts intraday, Nifty tops 23,100",
+   "Nifty IT index hits 8-month high; LTTS zooms 15% on Wednesday; here's why",
+   "Gold, silver fall as higher crude oil prices revive rate-hike concerns",
+   "Why do wealth taxes keep failing?",
+   "A few more things about the Jio Platforms IPO",
+   "A Nobel dating app, hacked refrigerators, and more...",
+   "The IDBI stake sale, Starlink's entry into India, and more...",
+   "IDBI Bank is finally being sold",
+   "Can Starlink win India’s internet war?"
   ]
  }
 ]
