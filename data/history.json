@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-22 12:05 IST",
-  "usdinr": {
-   "last": 95.82,
-   "date": "2026-09-21"
-  },
-  "dii_net": {
-   "net": 2797.27,
-   "date": "21-Sep-2026"
-  },
-  "fii_net": {
-   "net": -576.2,
-   "date": "21-Sep-2026"
-  },
-  "headlines": [
-   "BSE SME Quanto Agroworld loses its footing after debut",
-   "Symbiotec Pharmalab posts nearly 53% YoY fall in Q1 PAT",
-   "South Korean pension fund seeks India government bond investment licence",
-   "Crude oil outlook: US-Iran talks; high transit cost in focus",
-   "US stocks supported, Nasdaq reaches new closing high",
-   "Puravankara rises on acquiring land parcel in Delhi-NCR with GDV potential of Rs 5,200 crore",
-   "What's happening to India's rice output?",
-   "Do we really need blockchain for bonds?",
-   "Unfair iPhone, the rise of tennis ball cricket, and more...",
-   "IPO week, US Treasury bond buyback, and more...",
-   "How Rentomojo actually makes money",
-   "N. Chandrasekaran: From TCS Trainee to Tata Sons Chairman"
-  ]
- },
- {
   "date": "2026-09-23 11:49 IST",
   "usdinr": {
    "last": 95.59,
@@ -867,6 +838,35 @@
    "The IDBI stake sale, Starlink's entry into India, and more...",
    "IDBI Bank is finally being sold",
    "Can Starlink win India’s internet war?"
+  ]
+ },
+ {
+  "date": "2026-10-22 11:52 IST",
+  "usdinr": {
+   "last": 94.47,
+   "date": "2026-10-21"
+  },
+  "dii_net": {
+   "net": 1614.32,
+   "date": "21-Oct-2026"
+  },
+  "fii_net": {
+   "net": 1022.32,
+   "date": "21-Oct-2026"
+  },
+  "headlines": [
+   "SRF extends slide to 5th day, falls 5% to hit 52-wk low on Q2 margin miss",
+   "KEI Industries share price plunges 10%, nears 52-week low; here's why",
+   "Mahindra Finance tanks 10%, hits 52-week low despite 55% surge in Q2 profit",
+   "Q2 result impact: IGIL shares hit 10% upper circuit; PAT up 43% to ₹185 cr",
+   "Indian Hotels gains 3% as analysts raise earnings estimates, target post Q2",
+   "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows",
+   "Why dating apps struggle to find a match with investors",
+   "Why do wealth taxes keep failing?",
+   "A few more things about the Jio Platforms IPO",
+   "A Nobel dating app, hacked refrigerators, and more...",
+   "The IDBI stake sale, Starlink's entry into India, and more...",
+   "IDBI Bank is finally being sold"
   ]
  }
 ]
