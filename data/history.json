@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-23 11:49 IST",
-  "usdinr": {
-   "last": 95.59,
-   "date": "2026-09-22"
-  },
-  "dii_net": {
-   "net": 4120.07,
-   "date": "22-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3809.99,
-   "date": "22-Sep-2026"
-  },
-  "headlines": [
-   "Arvind SmartSpaces surges after Bengaluru project records bookings of over Rs 500 crore",
-   "ArMee Infotech IPO: Why brokerages are divided on ₹300-crore public issue",
-   "Defence sector to offer sustained growth; HAL, BEL among top picks: Emkay",
-   "IDFC First Bank up 3%, nears 52-week high; Motilal Oswal upgrades to Buy",
-   "Volumes jump at Escorts Kubota Ltd counter",
-   "360 One Wam climbs after appointing Aashish Agarwal as CEO",
-   "Why ISRO is handing its commercial empire to private industry",
-   "What's happening to India's rice output?",
-   "Do we really need blockchain for bonds?",
-   "Unfair iPhone, the rise of tennis ball cricket, and more...",
-   "IPO week, US Treasury bond buyback, and more...",
-   "How Rentomojo actually makes money"
-  ]
- },
- {
   "date": "2026-09-24 11:58 IST",
   "usdinr": {
    "last": 95.74,
@@ -867,6 +838,35 @@
    "A Nobel dating app, hacked refrigerators, and more...",
    "The IDBI stake sale, Starlink's entry into India, and more...",
    "IDBI Bank is finally being sold"
+  ]
+ },
+ {
+  "date": "2026-10-23 12:04 IST",
+  "usdinr": {
+   "last": 94.82,
+   "date": "2026-10-22"
+  },
+  "dii_net": {
+   "net": 2891.32,
+   "date": "22-Oct-2026"
+  },
+  "fii_net": {
+   "net": -3458.7,
+   "date": "22-Oct-2026"
+  },
+  "headlines": [
+   "BSE Capital Goods index tanks nearly 4%; Hitachi Energy, ABB India slip 6%",
+   "Small-caps likely to do well over the next year: 360 ONE's Mayur Patel",
+   "Silver ETFs fall up to 5% as oil surge, inflation fears hit bullion markets",
+   "Cyient shares snap 3-day losing streak, jump 10% post Q2, ₹12 dividend",
+   "Market crash: Sensex sinks 1,279 pts from day's high; Nifty tests 22,400",
+   "Microcap 250 index slips 2%; Aeroflex, Rallis, Bluestone slide up to 8%",
+   "An explainer on the eMudhra fiasco",
+   "Why dating apps struggle to find a match with investors",
+   "Why do wealth taxes keep failing?",
+   "A few more things about the Jio Platforms IPO",
+   "A Nobel dating app, hacked refrigerators, and more...",
+   "The IDBI stake sale, Starlink's entry into India, and more..."
   ]
  }
 ]
