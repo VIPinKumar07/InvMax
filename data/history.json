@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-25 11:53 IST",
-  "usdinr": {
-   "last": 95.96,
-   "date": "2026-09-24"
-  },
-  "dii_net": {
-   "net": 4301.18,
-   "date": "24-Sep-2026"
-  },
-  "fii_net": {
-   "net": -5027.36,
-   "date": "24-Sep-2026"
-  },
-  "headlines": [
-   "US stocks end on flat note, bond yields continue to surge",
-   "Lemon Tree Hotels signs new property at Patancheru, Telangana",
-   "Lemon Tree Hotels acquires land parcel in Bandra (East)",
-   "Blue Cloud Softech rallies after US arm bags AI infrastructure project from IBM Cloud",
-   "NSE SME Axiom Gas Engineering gets off to a flat start",
-   "Volumes spurt at Rainbow Childrens Medicare Ltd counter",
-   "The Orient Cables IPO Explained",
-   "India's Company Law Tribunal is in a crisis",
-   "Why ISRO is handing its commercial empire to private industry",
-   "What's happening to India's rice output?",
-   "Do we really need blockchain for bonds?",
-   "Unfair iPhone, the rise of tennis ball cricket, and more..."
-  ]
- },
- {
   "date": "2026-09-26 11:53 IST",
   "usdinr": {
    "last": 95.82,
@@ -867,6 +838,35 @@
    "Why do wealth taxes keep failing?",
    "A few more things about the Jio Platforms IPO",
    "A Nobel dating app, hacked refrigerators, and more..."
+  ]
+ },
+ {
+  "date": "2026-10-25 12:01 IST",
+  "usdinr": {
+   "last": 94.94,
+   "date": "2026-10-23"
+  },
+  "dii_net": {
+   "net": 3235.36,
+   "date": "23-Oct-2026"
+  },
+  "fii_net": {
+   "net": 887.65,
+   "date": "23-Oct-2026"
+  },
+  "headlines": [
+   "Demand-supply mismatch to drive revenue growth gains for Indian Hotels",
+   "Utssav CZ Gold Jewels approves 1:1 bonus issue, to double equity capital",
+   "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
+   "NSE reviewing network vulnerabilities as AI cyber threats rise: Chauhan",
+   "WazirX shifts focus to recovery, AI after year of rebuilding: Shetty",
+   "Sebi mulls automatic approval for investments, activities by exchanges",
+   "Pokémon card heist, who made rectangles, and more...",
+   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
+   "An explainer on the eMudhra fiasco",
+   "Why dating apps struggle to find a match with investors",
+   "Why do wealth taxes keep failing?",
+   "A few more things about the Jio Platforms IPO"
   ]
  }
 ]
