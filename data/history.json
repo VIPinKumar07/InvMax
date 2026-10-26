@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-26 11:53 IST",
-  "usdinr": {
-   "last": 95.82,
-   "date": "2026-09-25"
-  },
-  "dii_net": {
-   "net": 2838.17,
-   "date": "25-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3693.93,
-   "date": "25-Sep-2026"
-  },
-  "headlines": [
-   "SAIL signs MoU with BCCL for joint development of coal blocks",
-   "Dhanuka Agritech launches new products for domestic market",
-   "Promoter Group commits capital infusion of Rs 650 cr into Aequs",
-   "NTPC Green Energy commissions 81.34 MW solar capacity at Bikaner, Rajasthan",
-   "RCFL bags Rs 797-cr order from Larsen & Toubro",
-   "ArMee Infotech IPO subscribed 2.62 times",
-   "The Orient Cables IPO, India's falling rice output, and more...",
-   "The Orient Cables IPO Explained",
-   "India's Company Law Tribunal is in a crisis",
-   "Why ISRO is handing its commercial empire to private industry",
-   "What's happening to India's rice output?",
-   "Do we really need blockchain for bonds?"
-  ]
- },
- {
   "date": "2026-09-27 12:22 IST",
   "usdinr": {
    "last": 95.82,
@@ -867,6 +838,35 @@
    "Why dating apps struggle to find a match with investors",
    "Why do wealth taxes keep failing?",
    "A few more things about the Jio Platforms IPO"
+  ]
+ },
+ {
+  "date": "2026-10-26 12:12 IST",
+  "usdinr": {
+   "last": 94.94,
+   "date": "2026-10-23"
+  },
+  "dii_net": {
+   "net": 3235.36,
+   "date": "23-Oct-2026"
+  },
+  "fii_net": {
+   "net": 887.65,
+   "date": "23-Oct-2026"
+  },
+  "headlines": [
+   "eMudhra extends fall; stock down 43% in five days, tanks 53% from Sep high",
+   "Jyoti Structures share price jumps 14% on ₹949-crore power grid orders",
+   "BSE share price rallies 4%; Motilal Oswal upgrades stock to 'Buy'",
+   "Shriram Finance slips 10% in 2 days, hits 11-month low; here's why",
+   "AU SFB shares tank over 9% post Q2 results; brokerages mixed on outlook",
+   "Dr Reddy's share price spurts 4% post Q2 earnings; analysts upgrade rating",
+   "The Tesla-SpaceX merger explained",
+   "Pokémon card heist, who made rectangles, and more...",
+   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
+   "An explainer on the eMudhra fiasco",
+   "Why dating apps struggle to find a match with investors",
+   "Why do wealth taxes keep failing?"
   ]
  }
 ]

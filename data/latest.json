@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25 12:00 IST",
-  "generated_utc": "2026-10-25T06:30:36+00:00",
+  "generated_at": "2026-10-26 12:10 IST",
+  "generated_utc": "2026-10-26T06:40:41+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-25 12:00 IST",
+      "asof": "2026-10-26 12:10 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-10-25 12:00 IST",
+      "asof": "2026-10-26 12:10 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-25 12:01 IST",
+      "asof": "2026-10-26 12:12 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-25 12:01 IST",
+      "asof": "2026-10-26 12:12 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-10-25 12:01 IST",
+      "asof": "2026-10-26 12:12 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Demand-supply mismatch to drive revenue growth gains for Indian Hotels",
-          "url": "https://www.business-standard.com/markets/news/demand-supply-mismatch-to-drive-revenue-growth-gains-for-indian-hotels-126102500052_1.html",
-          "published": "Sun, 25 Oct 2026 07:45:35 +0530"
+          "title": "eMudhra extends fall; stock down 43% in five days, tanks 53% from Sep high",
+          "url": "https://www.business-standard.com/markets/news/emudhra-extends-fall-stock-down-43-in-five-days-tanks-53-from-sep-high-126102600321_1.html",
+          "published": "Mon, 26 Oct 2026 11:40:38 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Utssav CZ Gold Jewels approves 1:1 bonus issue, to double equity capital",
-          "url": "https://www.business-standard.com/markets/news/utssav-cz-gold-jewels-approves-1-1-bonus-issue-to-double-equity-capital-126102400806_1.html",
-          "published": "Sat, 24 Oct 2026 22:38:57 +0530"
+          "title": "Jyoti Structures share price jumps 14% on ₹949-crore power grid orders",
+          "url": "https://www.business-standard.com/markets/news/jyoti-structures-share-price-jumps-14-on-949-crore-power-grid-orders-126102600318_1.html",
+          "published": "Mon, 26 Oct 2026 11:30:41 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
-          "url": "https://www.business-standard.com/markets/news/sebi-short-selling-slb-ai-sandbox-market-making-tuhin-kanta-pandey-126102400650_1.html",
-          "published": "Sat, 24 Oct 2026 14:51:21 +0530"
+          "title": "BSE share price rallies 4%; Motilal Oswal upgrades stock to 'Buy'",
+          "url": "https://www.business-standard.com/markets/news/bse-share-price-rallies-4-motilal-oswal-upgrades-stock-to-buy-126102600254_1.html",
+          "published": "Mon, 26 Oct 2026 10:53:08 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NSE reviewing network vulnerabilities as AI cyber threats rise: Chauhan",
-          "url": "https://www.business-standard.com/markets/news/nse-ai-cybersecurity-network-vulnerabilities-ashishkumar-chauhan-126102400408_1.html",
-          "published": "Sat, 24 Oct 2026 12:37:16 +0530"
+          "title": "Shriram Finance slips 10% in 2 days, hits 11-month low; here's why",
+          "url": "https://www.business-standard.com/markets/news/shriram-finance-shre-price-slips-10-in-2-days-hits-11-month-low-here-s-why-126102600193_1.html",
+          "published": "Mon, 26 Oct 2026 10:44:54 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "WazirX shifts focus to recovery, AI after year of rebuilding: Shetty",
-          "url": "https://www.business-standard.com/companies/people/wazirx-shifts-focus-to-recovery-ai-after-year-of-rebuilding-shetty-126102301053_1.html",
-          "published": "Fri, 23 Oct 2026 23:46:55 +0530"
+          "title": "AU SFB shares tank over 9% post Q2 results; brokerages mixed on outlook",
+          "url": "https://www.business-standard.com/markets/news/au-sfb-share-price-tank-over-9-post-q2-results-brokerages-mixed-on-outlook-126102600228_1.html",
+          "published": "Mon, 26 Oct 2026 10:38:49 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi mulls automatic approval for investments, activities by exchanges",
-          "url": "https://www.business-standard.com/markets/news/sebi-mulls-automatic-approval-for-investments-activities-by-exchanges-126102301079_1.html",
-          "published": "Fri, 23 Oct 2026 23:45:57 +0530"
+          "title": "Dr Reddy's share price spurts 4% post Q2 earnings; analysts upgrade rating",
+          "url": "https://www.business-standard.com/markets/news/dr-reddy-s-share-price-spurts-4-post-q2-earnings-analysts-upgrade-rating-126102600209_1.html",
+          "published": "Mon, 26 Oct 2026 10:32:25 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The Tesla-SpaceX merger explained",
+          "url": "https://finshots.in/archive/tesla-spacex-merger-explained/",
+          "published": "Mon, 26 Oct 2026 01:30:27 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Wed, 21 Oct 2026 01:30:00 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "A few more things about the Jio Platforms IPO",
-          "url": "https://finshots.in/archive/a-few-more-things-about-the-jio-platforms-ipo/",
-          "published": "Mon, 19 Oct 2026 01:30:09 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Global Market: Japan bond yields edge higher ahead of key central bank meetings",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-edge-higher-ahead-of-key-central-bank-meetings/articleshow/135204344.cms",
+          "published": "Mon, 26 Oct 2026 11:39:59 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Swiggymayrebound to Rs 190, butchartsdonotsignal a trendreversal: LKP’s VatsalBhuva",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/swiggymayrebound-to-rs-190-butchartsdonotsignal-a-trendreversal-lkps-vatsalbhuva/articleshow/135184363.cms",
-          "published": "Sun, 25 Oct 2026 11:11:46 +0530"
+          "title": "Tonbo Imaging shares soar another 17% after a 64% listing pop. Buy, sell or hold the stock?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/tonbo-imaging-shares-soar-another-17-after-a-64-listing-pop-buy-sell-or-hold-the-stock/articleshow/135204062.cms",
+          "published": "Mon, 26 Oct 2026 11:23:41 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dividends & stock splits: L&T Tech, Shriram Finance among 24 stocks turning ex-record date this week. Do you own?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividends-stock-splits-lt-tech-shriram-finance-among-24-stocks-turning-ex-record-date-this-week-do-you-own/articleshow/135183913.cms",
-          "published": "Sun, 25 Oct 2026 10:48:18 +0530"
+          "title": "$7.7 trillion AI bet: Can hyperscalers earn enough to justify the spending?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/7-7-trillion-ai-bet-can-hyperscalers-earn-enough-to-justify-the-spending/articleshow/135204017.cms",
+          "published": "Mon, 26 Oct 2026 11:19:26 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Jio IPO GMP today: All eyes on telecom major’s mega listing this week. What is grey market premium signalling?",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jioipogmptoday-alleyes-on-telecom-majors-megalisting-this-week-what-is-greymarketsignalling/articleshow/135183339.cms",
-          "published": "Sun, 25 Oct 2026 10:10:04 +0530"
+          "title": "Jio’s record India IPO falls short of record payday for bankers",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/jios-record-india-ipo-falls-short-of-record-payday-for-bankers/articleshow/135203965.cms",
+          "published": "Mon, 26 Oct 2026 11:16:31 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IDFC First Bank Q2 profit nearly triples to Rs 1,045 crore",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/idfc-first-bank-q2-profit-nearly-triples-to-rs-1045-cr/articleshow/135182984.cms",
-          "published": "Sun, 25 Oct 2026 09:41:15 +0530"
+          "title": "Oil, US Treasuries prop up Indian bonds",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/oil-us-treasuries-prop-up-indian-bonds/articleshow/135203917.cms",
+          "published": "Mon, 26 Oct 2026 11:12:30 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Post Jio boost: 5 IPOs to raise Rs 2,581 crore next week alongside India's biggest listing",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/post-jio-boost-5-ipos-to-raise-rs-2581-crore-next-week-alongside-indias-biggest-listing/articleshow/135182846.cms",
-          "published": "Sun, 25 Oct 2026 09:30:17 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Sebi to revamp short-selling, securities lending rules",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-to-revamp-short-selling-securities-lending-rules/articleshow/135182788.cms",
-          "published": "Sun, 25 Oct 2026 09:28:23 +0530"
+          "title": "Big Tech Earnings Week: Will AI spending pay off?",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/big-tech-earnings-week-will-ai-spending-pay-off/slideshow/135204181.cms",
+          "published": "Mon, 26 Oct 2026 10:54:21 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stable fees, volatile earnings: What investors should know about EAAA IPO",
-          "url": "https://www.livemint.com/market/ipo/eaaa-india-alternatives-ipo-review-price-band-valuation-financials-11792899549025.html",
-          "published": "Sun, 25 Oct 2026 11:28:06 +0530"
+          "title": "Silver prices at 2026 lowest; ₹2,23,500 away from record high! Right time to buy for good returns? Target price per kg",
+          "url": "https://www.livemint.com/market/commodities/silver-prices-at-2026-lowest-rs-2-23-500-away-from-record-high-right-time-to-buy-for-good-returns-target-price-per-kg-11792992915881.html",
+          "published": "Mon, 26 Oct 2026 12:08:26 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "KEC International shares in focus on Monday Oct 26 after ₹2872 cr PGCIL order win; YTD orders mark crosses ₹13.5k cr",
-          "url": "https://www.livemint.com/market/stock-market-news/kec-international-shares-in-focus-on-monday-oct-28-after-rs-2872-cr-pgcil-order-win-ytd-orders-mark-crosses-rs-13-5k-cr-11792904618194.html",
-          "published": "Sun, 25 Oct 2026 11:17:30 +0530"
+          "title": "Tata chemicals shares surge 10% today: How Kenya High Court ruling and Tata Group's comment lifted the stock",
+          "url": "https://www.livemint.com/market/stock-market-news/tata-chemicals-shares-surge-10-today-how-kenya-high-court-ruling-and-tata-groups-comment-lifted-the-stock-11792995279558.html",
+          "published": "Mon, 26 Oct 2026 12:02:42 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Reliance-backed Jio Platforms IPO: GMP hints 22% listing gains; all eyes on allotment; status check online guide by PAN",
-          "url": "https://www.livemint.com/market/ipo/reliancebacked-jio-platforms-ipo-focus-shifts-to-allotment-date-gmp-hints-22-listing-pop-step-by-step-guide-to-check-11792897616327.html",
-          "published": "Sun, 25 Oct 2026 09:51:16 +0530"
+          "title": "Bharat Coking Coal shares surge over 6% after falling for 6 sessions - What's next for the stock?",
+          "url": "https://www.livemint.com/market/stock-market-news/bharat-coking-coal-shares-surge-over-6-after-falling-for-6-sessions-whats-next-for-the-stock-11792993672852.html",
+          "published": "Mon, 26 Oct 2026 11:38:45 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Suzlon Energy shares crash 39% from 52-week high — can Q2 results 2026 bring a bounce back? Experts' views, target, SL",
-          "url": "https://www.livemint.com/market/stock-market-news/suzlon-energy-shares-crash-39-from-52-week-high-can-q2-results-2026-bring-a-bounce-back-experts-views-target-sl-11792898990972.html",
-          "published": "Sun, 25 Oct 2026 09:38:45 +0530"
+          "title": "Tonbo Imaging India shares up 17%, jumps 90% from IPO price band | Buy, sell or hold?",
+          "url": "https://www.livemint.com/market/stock-market-news/tonbo-imaging-india-shares-up-17-jumps-90-from-ipo-price-band-buy-sell-or-hold-11792991449435.html",
+          "published": "Mon, 26 Oct 2026 10:59:48 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Top 3 stocks to buy under ₹100: Niva Bupa, GMR Airports, Restaurant Brands by Sumeet Bagadia | Target price, stop-loss",
-          "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-under-rs-100-niva-bupa-gmr-airports-restaurant-brands-by-sumeet-bagadia-target-price-stoploss-11792862655967.html",
-          "published": "Sun, 25 Oct 2026 06:30:53 +0530"
+          "title": "Infosys shares crash 4% - Should investors buy, sell, hold this IT stock after Q2 results? Experts decode | Target price",
+          "url": "https://www.livemint.com/market/stock-market-news/infosys-shares-crash-4-should-investors-buy-sell-hold-this-it-stock-after-q2-results-experts-decode-target-price-11792990538154.html",
+          "published": "Mon, 26 Oct 2026 10:35:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Upcoming IPO: MK Sons Fine Jewels’ ₹275 cr opening next week – Company profile, key dates, share price band and more",
-          "url": "https://www.livemint.com/market/ipo/upcoming-ipo-mk-sons-fine-jewels-rs-275-cr-opening-next-week-company-profile-key-dates-share-price-band-and-more-11792858838153.html",
-          "published": "Sat, 24 Oct 2026 22:45:07 +0530"
+          "title": "Reliance shares: Why is it wise to buy RIL shares amid a falling stock market — Explained with 3 reasons; target price",
+          "url": "https://www.livemint.com/market/stock-market-news/reliance-shares-why-is-it-wise-to-buy-ril-shares-amid-a-falling-stock-market-explained-with-3-reasons-target-price-11792987732775.html",
+          "published": "Mon, 26 Oct 2026 10:27:28 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-25 12:01 IST",
+      "checked_at": "2026-10-26 12:12 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-25 12:01 IST",
+      "generated_at": "2026-10-26 12:12 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained selling pressure",
-        "reading": "20-day cumulative: Rs-47,049 Cr · 30% of days positive.",
+        "reading": "20-day cumulative: Rs-41,462 Cr · 35% of days positive.",
         "direction": "bearish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-47,049 Cr · 30% of days positive.",
+          "reading": "20-day cumulative: Rs-41,462 Cr · 35% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs57,668 Cr · 85% of days positive.",
+          "reading": "20-day cumulative: +Rs55,722 Cr · 85% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-47,049 Cr · 30% of days positive.",
+          "reading": "20-day cumulative: Rs-41,462 Cr · 35% of days positive.",
           "conclusion": "Foreign flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs57,668 Cr · 85% of days positive.",
+          "reading": "20-day cumulative: +Rs55,722 Cr · 85% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-25 12:01 IST",
+    "date": "2026-10-26 12:12 IST",
     "usdinr": {
       "last": 94.94,
       "date": "2026-10-23"
@@ -1628,18 +1628,18 @@
       "date": "23-Oct-2026"
     },
     "headlines": [
-      "Demand-supply mismatch to drive revenue growth gains for Indian Hotels",
-      "Utssav CZ Gold Jewels approves 1:1 bonus issue, to double equity capital",
-      "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
-      "NSE reviewing network vulnerabilities as AI cyber threats rise: Chauhan",
-      "WazirX shifts focus to recovery, AI after year of rebuilding: Shetty",
-      "Sebi mulls automatic approval for investments, activities by exchanges",
+      "eMudhra extends fall; stock down 43% in five days, tanks 53% from Sep high",
+      "Jyoti Structures share price jumps 14% on ₹949-crore power grid orders",
+      "BSE share price rallies 4%; Motilal Oswal upgrades stock to 'Buy'",
+      "Shriram Finance slips 10% in 2 days, hits 11-month low; here's why",
+      "AU SFB shares tank over 9% post Q2 results; brokerages mixed on outlook",
+      "Dr Reddy's share price spurts 4% post Q2 earnings; analysts upgrade rating",
+      "The Tesla-SpaceX merger explained",
       "Pokémon card heist, who made rectangles, and more...",
       "The eMudhra Fiasco, Jio Platforms IPO, and more…",
       "An explainer on the eMudhra fiasco",
       "Why dating apps struggle to find a match with investors",
-      "Why do wealth taxes keep failing?",
-      "A few more things about the Jio Platforms IPO"
+      "Why do wealth taxes keep failing?"
     ]
   },
   "changes": {
@@ -1647,7 +1647,7 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "5 new"
+        "detail": "7 new"
       }
     ],
     "all": [
@@ -1669,16 +1669,18 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "5 new"
+        "detail": "7 new"
       }
     ],
-    "since": "2026-10-24 11:41 IST",
+    "since": "2026-10-25 12:01 IST",
     "new_headlines": [
-      "Demand-supply mismatch to drive revenue growth gains for Indian Hotels",
-      "Utssav CZ Gold Jewels approves 1:1 bonus issue, to double equity capital",
-      "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
-      "NSE reviewing network vulnerabilities as AI cyber threats rise: Chauhan",
-      "Pokémon card heist, who made rectangles, and more..."
+      "eMudhra extends fall; stock down 43% in five days, tanks 53% from Sep high",
+      "Jyoti Structures share price jumps 14% on ₹949-crore power grid orders",
+      "BSE share price rallies 4%; Motilal Oswal upgrades stock to 'Buy'",
+      "Shriram Finance slips 10% in 2 days, hits 11-month low; here's why",
+      "AU SFB shares tank over 9% post Q2 results; brokerages mixed on outlook",
+      "Dr Reddy's share price spurts 4% post Q2 earnings; analysts upgrade rating",
+      "The Tesla-SpaceX merger explained"
     ]
   },
   "summary": {
