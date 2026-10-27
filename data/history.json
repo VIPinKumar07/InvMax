@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-27 12:22 IST",
-  "usdinr": {
-   "last": 95.82,
-   "date": "2026-09-25"
-  },
-  "dii_net": {
-   "net": 2838.17,
-   "date": "25-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3693.93,
-   "date": "25-Sep-2026"
-  },
-  "headlines": [
-   "Cars24 expects to file IPO papers by April after reverse flip to India: CFO",
-   "Muted demand, higher oil prices to cloud paints sector outlook in near term",
-   "J Infratech files draft IPO papers for ₹600 crore fresh issue, 1 crore OFS",
-   "Augmont Enterprises empanelled by NSE to promote Electronic Gold Receipts",
-   "Sanofi India receives Rs 23.74 crore GST show cause notice",
-   "Highness Microelectronics receives Rs 6 crore order for medical displays and equipment",
-   "Why monks are turning investors, and more...",
-   "The Orient Cables IPO, India's falling rice output, and more...",
-   "The Orient Cables IPO Explained",
-   "India's Company Law Tribunal is in a crisis",
-   "Why ISRO is handing its commercial empire to private industry",
-   "What's happening to India's rice output?"
-  ]
- },
- {
   "date": "2026-09-28 12:48 IST",
   "usdinr": {
    "last": 95.82,
@@ -867,6 +838,35 @@
    "An explainer on the eMudhra fiasco",
    "Why dating apps struggle to find a match with investors",
    "Why do wealth taxes keep failing?"
+  ]
+ },
+ {
+  "date": "2026-10-27 12:06 IST",
+  "usdinr": {
+   "last": 95.18,
+   "date": "2026-10-26"
+  },
+  "dii_net": {
+   "net": 2609.57,
+   "date": "26-Oct-2026"
+  },
+  "fii_net": {
+   "net": -1462.49,
+   "date": "26-Oct-2026"
+  },
+  "headlines": [
+   "Hindustan Unilever slips 3%, hits over 6-year low ahead of Q2 results",
+   "Sona BLW Precision zooms 9%; stock hits new high on record Q2 earnings",
+   "Gold prices fall ₹492 ahead of US Fed meeting, silver slips ₹2,004",
+   "GRSE, BEL: Defence stocks zoom up to 9% on DAC nod to ₹2.12 trn proposals",
+   "Ather Energy extends rally, EV stock surges 20% in 2 days; here's why",
+   "Dalmia Bharat shares dive 6% to hit 52-week low on Q2 loss of ₹205 crore",
+   "Why does CSR money go to richer states?",
+   "The Tesla-SpaceX merger explained",
+   "Pokémon card heist, who made rectangles, and more...",
+   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
+   "An explainer on the eMudhra fiasco",
+   "Why dating apps struggle to find a match with investors"
   ]
  }
 ]
