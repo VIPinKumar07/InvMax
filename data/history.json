@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-28 12:48 IST",
-  "usdinr": {
-   "last": 95.82,
-   "date": "2026-09-25"
-  },
-  "dii_net": {
-   "net": 2838.17,
-   "date": "25-Sep-2026"
-  },
-  "fii_net": {
-   "net": -3693.93,
-   "date": "25-Sep-2026"
-  },
-  "headlines": [
-   "Silver Touch Tech gains after securing workstation supply contract from ISRO",
-   "RTS Power Corporation Ltd leads gainers in 'B' group",
-   "Net FDI flows spurt to five year high in Jul-26, communication, financial and computer services receive bulk of equity inflows",
-   "Tata Teleservices (Maharashtra) Ltd leads gainers in 'A' group",
-   "SRIT India IPO: GMP at 25%; check review, subscription & other details",
-   "Hypersoft forays into AI domain with proprietary platform",
-   "IRDAI wants to change how insurance is sold",
-   "Why monks are turning investors, and more...",
-   "The Orient Cables IPO, India's falling rice output, and more...",
-   "The Orient Cables IPO Explained",
-   "India's Company Law Tribunal is in a crisis",
-   "Why ISRO is handing its commercial empire to private industry"
-  ]
- },
- {
   "date": "2026-09-29 12:45 IST",
   "usdinr": {
    "last": 95.98,
@@ -867,6 +838,35 @@
    "The eMudhra Fiasco, Jio Platforms IPO, and more…",
    "An explainer on the eMudhra fiasco",
    "Why dating apps struggle to find a match with investors"
+  ]
+ },
+ {
+  "date": "2026-10-28 12:36 IST",
+  "usdinr": {
+   "last": 95.12,
+   "date": "2026-10-27"
+  },
+  "dii_net": {
+   "net": -1250.03,
+   "date": "27-Oct-2026"
+  },
+  "fii_net": {
+   "net": 4240.39,
+   "date": "27-Oct-2026"
+  },
+  "headlines": [
+   "HUL trades on a volatile note post Q2 results; stock near 6-year low",
+   "Nifty IT index slips 4%; Infosys, TCS, Coforge tank up to 5%; here's why",
+   "You can't regulate your own thing: Sebi chief on exchange self-listing",
+   "In the wake of Jio's listing, what are India's biggest share offerings?",
+   "Market fall explained: Sensex dives 995 points intraday, Nifty at 22,500",
+   "Piramal Pharma soars 15% in weak market on huge volume post Q2 results",
+   "Anthropic's IPO explained",
+   "Why does CSR money go to richer states?",
+   "The Tesla-SpaceX merger explained",
+   "Pokémon card heist, who made rectangles, and more...",
+   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
+   "An explainer on the eMudhra fiasco"
   ]
  }
 ]
