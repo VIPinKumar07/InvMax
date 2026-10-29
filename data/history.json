@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-29 12:45 IST",
-  "usdinr": {
-   "last": 95.98,
-   "date": "2026-09-28"
-  },
-  "dii_net": {
-   "net": 5189.02,
-   "date": "28-Sep-2026"
-  },
-  "fii_net": {
-   "net": -5353.22,
-   "date": "28-Sep-2026"
-  },
-  "headlines": [
-   "Higher outflow from Hormuz could unwind premiums; oil may correct by 10-15%",
-   "Symbiotec Pharmalab receives EIR report for Pithampur SEZ unit",
-   "Axiscades Tech shares hit 10% upper circuit on block deal in defence firm",
-   "PB Fintech, Turtlemint Fintech tank up to 43% in 4 days; hit 52-week lows",
-   "Azad Engineering Ltd leads gainers in 'A' group",
-   "Krsnaa Diagnostics board OKs sale of select diagnostic equipment for Rs 120 crore",
-   "India's black powder problem with battery recycling",
-   "IRDAI wants to change how insurance is sold",
-   "Why monks are turning investors, and more...",
-   "The Orient Cables IPO, India's falling rice output, and more...",
-   "The Orient Cables IPO Explained",
-   "India's Company Law Tribunal is in a crisis"
-  ]
- },
- {
   "date": "2026-09-30 12:35 IST",
   "usdinr": {
    "last": 95.98,
@@ -867,6 +838,35 @@
    "Pokémon card heist, who made rectangles, and more...",
    "The eMudhra Fiasco, Jio Platforms IPO, and more…",
    "An explainer on the eMudhra fiasco"
+  ]
+ },
+ {
+  "date": "2026-10-29 12:57 IST",
+  "usdinr": {
+   "last": 95.22,
+   "date": "2026-10-28"
+  },
+  "dii_net": {
+   "net": 643.35,
+   "date": "28-Oct-2026"
+  },
+  "fii_net": {
+   "net": 871.83,
+   "date": "28-Oct-2026"
+  },
+  "headlines": [
+   "Jio's strong market debut boosts confidence in India's IPO pipeline",
+   "NSE: Growth levers, easing regulatory pressure underpin Jefferies' buy call",
+   "Aeroflex zooms 18% on huge volume, over 31 mn shares change hands",
+   "Bombay Coated & Special Steels IPO opens: Anand Rathi bullish; here's why",
+   "Adani Ports soars 4% on healthy Q2, raises FY27 guidance; brokerages upbeat",
+   "Crompton Greaves down 38% from May high; stock may see pullback: Brokerages",
+   "Is Instamart eating Swiggy alive?",
+   "Anthropic's IPO explained",
+   "Why does CSR money go to richer states?",
+   "The Tesla-SpaceX merger explained",
+   "Pokémon card heist, who made rectangles, and more...",
+   "The eMudhra Fiasco, Jio Platforms IPO, and more…"
   ]
  }
 ]
