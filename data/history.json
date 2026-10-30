@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-09-30 12:35 IST",
-  "usdinr": {
-   "last": 95.98,
-   "date": "2026-09-29"
-  },
-  "dii_net": {
-   "net": 6952.71,
-   "date": "29-Sep-2026"
-  },
-  "fii_net": {
-   "net": -9980.22,
-   "date": "29-Sep-2026"
-  },
-  "headlines": [
-   "US 30-yr yield rises to highest level since 2002: What this means for rupee",
-   "KPI Green Energy gains 4% after ₹2,410 crore wind asset acquisition",
-   "Cupid shares surge 17% in 2 days to record high; what's behind sharp rise?",
-   "Hospital stocks under pressure: Apollo, Yatharth, Fortis, Max drop up to 7%",
-   "Gold, silver prices rebound as crude oil prices fall on supply boost",
-   "Savita Oil Tech zooms 200% in 9 months; what's driving lubricant stock?",
-   "What if the Maldives disappeared?",
-   "India's black powder problem with battery recycling",
-   "IRDAI wants to change how insurance is sold",
-   "Why monks are turning investors, and more...",
-   "The Orient Cables IPO, India's falling rice output, and more...",
-   "The Orient Cables IPO Explained"
-  ]
- },
- {
   "date": "2026-10-01 13:03 IST",
   "usdinr": {
    "last": 95.83,
@@ -867,6 +838,35 @@
    "The Tesla-SpaceX merger explained",
    "Pokémon card heist, who made rectangles, and more...",
    "The eMudhra Fiasco, Jio Platforms IPO, and more…"
+  ]
+ },
+ {
+  "date": "2026-10-30 13:00 IST",
+  "usdinr": {
+   "last": 95.27,
+   "date": "2026-10-29"
+  },
+  "dii_net": {
+   "net": 1924.41,
+   "date": "29-Oct-2026"
+  },
+  "fii_net": {
+   "net": -943.6,
+   "date": "29-Oct-2026"
+  },
+  "headlines": [
+   "Eternal rallies 6% in two days, stock nears record high; here's why",
+   "Vedanta Oil and Gas shares zoom 18% as Q2 profit rises manifold to ₹746 cr",
+   "Suzlon Energy shares sink 8% after Q2 results miss margin expectations",
+   "Retail investors tap $234 mn in margin funding to trade Jio on debut day",
+   "Silver may slide to $48 as momentum selling deepens: Mirae Asset Sharekhan",
+   "IndiGo jumps 4% as Q2 loss narrows; analysts say earnings outlook weak",
+   "Will cutting LTCG tax on equities bring foreign investors back?",
+   "Is Instamart eating Swiggy alive?",
+   "Anthropic's IPO explained",
+   "Why does CSR money go to richer states?",
+   "The Tesla-SpaceX merger explained",
+   "Pokémon card heist, who made rectangles, and more..."
   ]
  }
 ]
