@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-01 13:03 IST",
-  "usdinr": {
-   "last": 95.83,
-   "date": "2026-09-30"
-  },
-  "dii_net": {
-   "net": 11271.73,
-   "date": "30-Sep-2026"
-  },
-  "fii_net": {
-   "net": -10148.41,
-   "date": "30-Sep-2026"
-  },
-  "headlines": [
-   "Welspun Living zooms 112% in 6 months, hits new high; what's driving stock?",
-   "Gold rises ₹607 as rate-hold expectations strengthen; silver jumps ₹2,828",
-   "MTNL zooms 17% on board nod to Mumbai property sale worth ₹891.53 cr",
-   "India's domestic funds push IPO valuations lower amid market strain",
-   "Hero Motors hits new high; stock up 99% against issue price in 7 days",
-   "Adani Energy Solutions gains 5.5%; extends winning streak to 3rd session",
-   "Top 10 Companies Acquired by Meta",
-   "What actually makes a hospital profitable?",
-   "What if the Maldives disappeared?",
-   "India's black powder problem with battery recycling",
-   "IRDAI wants to change how insurance is sold",
-   "Why monks are turning investors, and more..."
-  ]
- },
- {
   "date": "2026-10-02 12:47 IST",
   "usdinr": {
    "last": 96.33,
@@ -867,6 +838,35 @@
    "Why does CSR money go to richer states?",
    "The Tesla-SpaceX merger explained",
    "Pokémon card heist, who made rectangles, and more..."
+  ]
+ },
+ {
+  "date": "2026-10-31 12:48 IST",
+  "usdinr": {
+   "last": 94.95,
+   "date": "2026-10-30"
+  },
+  "dii_net": {
+   "net": -817.51,
+   "date": "30-Oct-2026"
+  },
+  "fii_net": {
+   "net": 3598.54,
+   "date": "30-Oct-2026"
+  },
+  "headlines": [
+   "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
+   "Binance crypto exchange's $6.3 bn heist rattles crypto, draws scrutiny",
+   "Binance hack exposes unsolvable crypto risk: Billions can vanish overnight",
+   "Binance hit by record $6.3 bn crypto theft; North Korea suspected",
+   "Global tech giants' spending spooks investors and drives bonds rally",
+   "Sebi imposes ₹1 crore fine on CDSL for multiple compliance lapses",
+   "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
+   "Will cutting LTCG tax on equities bring foreign investors back?",
+   "Is Instamart eating Swiggy alive?",
+   "Anthropic's IPO explained",
+   "Why does CSR money go to richer states?",
+   "The Tesla-SpaceX merger explained"
   ]
  }
 ]
