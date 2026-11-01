@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31 12:47 IST",
-  "generated_utc": "2026-10-31T07:17:05+00:00",
+  "generated_at": "2026-11-01 13:19 IST",
+  "generated_utc": "2026-11-01T07:49:38+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-10-31 12:47 IST",
+      "asof": "2026-11-01 13:19 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-10-31 12:47 IST",
+      "asof": "2026-11-01 13:19 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-10-31 12:48 IST",
+      "asof": "2026-11-01 13:20 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-10-31 12:48 IST",
+      "asof": "2026-11-01 13:20 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,9 +1243,37 @@
       }
     },
     "news": {
-      "asof": "2026-10-31 12:48 IST",
+      "asof": "2026-11-01 13:20 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "US probing possible North Korean link to $6.3 bn Binance hack: Trump",
+          "url": "https://www.business-standard.com/world-news/us-probing-possible-north-korean-link-to-6-3-bn-binance-hack-trump-126103100220_1.html",
+          "published": "Sat, 31 Oct 2026 09:17:56 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Sebi bars EKI Energy, MD Dabkara, others from market; imposes penalty",
+          "url": "https://www.business-standard.com/markets/news/sebi-bars-eki-energy-md-dabkara-others-from-market-imposes-penalty-126103101347_1.html",
+          "published": "Sat, 31 Oct 2026 22:17:36 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Binance says 90% of assets stolen in record hack have been replenished",
+          "url": "https://www.business-standard.com/markets/cryptocurrency/binance-says-90-of-assets-stolen-in-record-hack-have-been-replenished-126103101242_1.html",
+          "published": "Sat, 31 Oct 2026 20:23:54 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Sebi aims to make capital markets more accessible, resilient: Chairman",
+          "url": "https://www.business-standard.com/markets/news/sebi-aims-to-make-capital-markets-more-accessible-resilient-chairman-126103100530_1.html",
+          "published": "Sat, 31 Oct 2026 14:25:06 +0530"
+        },
         {
           "source": "Business Standard",
           "weight": "high",
@@ -1261,32 +1289,11 @@
           "published": "Sat, 31 Oct 2026 09:27:59 +0530"
         },
         {
-          "source": "Business Standard",
+          "source": "Finshots Daily",
           "weight": "high",
-          "title": "Binance hack exposes unsolvable crypto risk: Billions can vanish overnight",
-          "url": "https://www.business-standard.com/markets/cryptocurrency/binance-hack-exposes-unsolvable-crypto-risk-billions-can-vanish-overnight-126103100205_1.html",
-          "published": "Sat, 31 Oct 2026 09:10:27 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "Binance hit by record $6.3 bn crypto theft; North Korea suspected",
-          "url": "https://www.business-standard.com/world-news/binance-hit-by-record-6-3-bn-crypto-theft-north-korea-suspected-126103001944_1.html",
-          "published": "Fri, 30 Oct 2026 22:57:46 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "Global tech giants' spending spooks investors and drives bonds rally",
-          "url": "https://www.business-standard.com/markets/news/global-tech-giants-spending-spooks-investors-and-drives-bonds-rally-126103002004_1.html",
-          "published": "Fri, 30 Oct 2026 23:40:24 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "Sebi imposes ₹1 crore fine on CDSL for multiple compliance lapses",
-          "url": "https://www.business-standard.com/markets/news/sebi-imposes-1-crore-fine-on-cdsl-for-multiple-compliance-lapses-126103001384_1.html",
-          "published": "Fri, 30 Oct 2026 23:11:30 +0530"
+          "title": "The iPhone Duo Crackgate, who came up with the weekend, and more...",
+          "url": "https://finshots.in/archive/iphone-duo-crackgate-who-invented-the-weekend-and-more-2/",
+          "published": "Sun, 01 Nov 2026 01:30:21 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Tue, 27 Oct 2026 01:30:11 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The Tesla-SpaceX merger explained",
-          "url": "https://finshots.in/archive/tesla-spacex-merger-explained/",
-          "published": "Mon, 26 Oct 2026 01:30:27 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "IOC, BPCL, HPCL clock Rs 30,106 cr Q2 profit, nearly 39 pc of last year's annual earnings",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ioc-bpcl-hpcl-clock-rs-30106-cr-q2-profit-nearly-39-pc-of-last-years-annual-earnings/articleshow/135420177.cms",
+          "published": "Sun, 01 Nov 2026 12:22:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ET Wealth Expo: Why market veteran S Naren thinks investors are getting gold, silver and asset allocation all wrong",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/et-wealth-expo-why-market-veteran-s-naren-thinks-investors-are-getting-gold-silver-and-asset-allocation-all-wrong/articleshow/135391370.cms",
-          "published": "Sat, 31 Oct 2026 12:05:25 +0530"
+          "title": "Can Nifty, Sensex extend gains after rallying up to 2% last week? 4 factors to watch on Monday",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-nifty-sensex-extend-gains-after-rallying-up-to-2-last-week-4-factors-to-watch-on-monday/articleshow/135419919.cms",
+          "published": "Sun, 01 Nov 2026 12:07:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "F&O Talk: Big break above 23,200 can open doors for 23,500 for Nifty; Sudeep Shah picks 6 stocks ahead of Diwali",
-          "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-big-break-above-23200-can-open-doors-for-23500-for-nifty-sudeep-shah-picks-6-stocks-ahead-of-diwali/articleshow/135390885.cms",
-          "published": "Sat, 31 Oct 2026 11:45:44 +0530"
+          "title": "FPIs pull out Rs 34,843 cr from equities in Oct; turn net buyers last week",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-34843-cr-from-equities-in-oct-turn-net-buyers-last-week/articleshow/135419712.cms",
+          "published": "Sun, 01 Nov 2026 11:55:21 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IPO ahead: Value-fashion retailer Ratnadeep Retail gets Sebi nod to raise funds through public issue",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-ahead-value-fashion-retailer-ratnadeep-retail-gets-sebi-nod-to-raise-funds-through-public-issue/articleshow/135389668.cms",
-          "published": "Sat, 31 Oct 2026 11:04:32 +0530"
+          "title": "ITC Q2 Results Preview: Profit seen falling nearly 30% YoY as cigarette tax hikes bite",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/itc-q2-results-preview-profit-seen-falling-nearly-30-yoy-as-cigarette-tax-hikes-bite/articleshow/135419165.cms",
+          "published": "Sun, 01 Nov 2026 11:27:43 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Diwali stock picks: SBI Securities lists 11 stocks with up to 22% upside potential. Do you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-stock-picks-sbi-securities-lists-11-stocks-with-up-to-22-upside-potential-do-you-own-any/slideshow/135388727.cms",
-          "published": "Sat, 31 Oct 2026 10:13:23 +0530"
+          "title": "Nifty IT’s 18% rally may mark a durable leadership cycle; 35,000 next: LKP's Vatsal Bhuva",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-its-18-rally-may-mark-a-durable-leadership-cycle-35000-next-lkps-vatsal-bhuva/articleshow/135419140.cms",
+          "published": "Sun, 01 Nov 2026 11:25:57 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Oil prices soar 14% in October to 6-month high as US weighs fresh Iran strikes after midterms. More pain ahead?",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-soar-14-in-october-to-end-at-6-month-high-as-us-weighs-fresh-attacks-after-midterm-elections-more-upside-ahead/articleshow/135388221.cms",
-          "published": "Sat, 31 Oct 2026 10:11:11 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "LIC Housing Fin Q2 net profit grows 12% YoY",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/lic-housing-fin-q2-net-profit-grows-12-yoy/articleshow/135388049.cms",
-          "published": "Sat, 31 Oct 2026 10:03:16 +0530"
+          "title": "IPO Calendar: Primary market cools after Jio frenzy, but 13 listings lined up",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-primary-market-cools-after-jio-frenzy-but-13-listings-lined-up/articleshow/135419009.cms",
+          "published": "Sun, 01 Nov 2026 11:11:56 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Stocks to buy: Sumeet Bagadia's top 3 stock recommendations — Sun Pharma, IndiGo, Infosys | Target price, stop-loss",
-          "url": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-sumeet-bagadias-top-3-stock-recommendations-sun-pharma-indigo-infosys-target-price-stoploss-11793428189400.html",
-          "published": "Sat, 31 Oct 2026 12:38:55 +0530"
+          "title": "Bonus share: Just single issue with record date this week: Pharma firm's free shares with 68% returns since IPO; ratio",
+          "url": "https://www.livemint.com/market/stock-market-news/bonus-share-just-single-issue-with-record-date-this-week-pharma-firms-free-shares-with-68-returns-since-ipo-ratio-11793517001201.html",
+          "published": "Sun, 01 Nov 2026 13:09:26 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Dividend, stock split, bonus record date alert 2-8 Nov week: Infosys, Mazagon Dock, Coal India, Sanofi and other shares",
-          "url": "https://www.livemint.com/market/stock-market-news/dividend-stock-split-bonus-record-date-alert-2-8-nov-week-infosys-mazagon-dock-coal-india-sanofi-and-other-shares-11793425425443.html",
-          "published": "Sat, 31 Oct 2026 11:20:15 +0530"
+          "title": "Nifty: Will November 2026 bring more returns or disappoint? What does history suggest? What 25 yrs of market data reveal",
+          "url": "https://www.livemint.com/market/nifty-will-november-2026-bring-more-returns-or-disappoint-what-does-history-suggest-what-25-yrs-of-market-data-reveal-11793512040411.html",
+          "published": "Sun, 01 Nov 2026 12:24:21 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Three stocks with strong order books to watch amid India's data-centre boom",
-          "url": "https://www.livemint.com/market/stock-market-news/three-stocks-with-strong-order-books-to-watch-amid-indias-data-centre-boom-11793421808978.html",
-          "published": "Sat, 31 Oct 2026 10:36:58 +0530"
+          "title": "Private Equity Fund Gates Are Features, Not Bugs",
+          "url": "https://www.livemint.com/market/private-equity-fund-gates-are-features-not-bugs-11793512962906.html",
+          "published": "Sun, 01 Nov 2026 11:32:42 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Raw sugar gains nearly 10% in October; robusta coffee 6% down",
-          "url": "https://www.livemint.com/market/raw-sugar-gains-nearly-10-in-october-robusta-coffee-6-down-11793391327507.html",
-          "published": "Sat, 31 Oct 2026 01:45:26 +0530"
+          "title": "Best 3 stocks to buy: SBI, Britannia, Biocon by Ganesh Dongre of Anand Rathi | Targets, stop-loss, stock market views",
+          "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-sbi-britannia-biocon-by-ganesh-dongre-of-anand-rathi-targets-stop-loss-stock-market-views-11793467488582.html",
+          "published": "Sun, 01 Nov 2026 11:29:05 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nasdaq 100 Hits Third Correction of 2026 on Unwinding Tech Stock Bets",
-          "url": "https://www.livemint.com/market/nasdaq-100-hits-third-correction-of-2026-on-unwinding-tech-stock-bets-11793388066834.html",
-          "published": "Sat, 31 Oct 2026 00:51:06 +0530"
+          "title": "Jio Platforms vs Bharti Airtel shares: Which telecom stock to buy after Reliance arm’s IPO listing? Experts suggestions",
+          "url": "https://www.livemint.com/market/stock-market-news/jio-platforms-vs-bharti-airtel-shares-which-telecom-stock-to-buy-after-reliance-arm-s-ipo-listing-experts-suggestions-11793507858149.html",
+          "published": "Sun, 01 Nov 2026 11:03:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Arini Gets Bids on Junk Debt From Pimco, Oaktree as Losses Mount",
-          "url": "https://www.livemint.com/market/arini-gets-bids-on-junk-debt-from-pimco-oaktree-as-losses-mount-11793386281843.html",
-          "published": "Sat, 31 Oct 2026 00:21:21 +0530"
+          "title": "Reliance shares: Buy, sell or hold after Q2 results 2026? RIL stock up 384% in 10 yrs! Brokerages advice to investors",
+          "url": "https://www.livemint.com/market/stock-market-news/reliance-shares-buy-sell-or-hold-after-q2-results-2026-ril-stock-up-384-in-10-yrs-brokerages-advice-to-investors-11793504303710.html",
+          "published": "Sun, 01 Nov 2026 10:01:38 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-10-31 12:48 IST",
+      "checked_at": "2026-11-01 13:20 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-10-31 12:48 IST",
+      "generated_at": "2026-11-01 13:20 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Domestic flows",
         "conclusion": "Domestic flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs28,957 Cr · 75% of days positive.",
+        "reading": "20-day cumulative: +Rs23,396 Cr · 70% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1477,10 +1477,10 @@
         }
       },
       "regime": {
-        "label": "Mixed",
-        "stance": "Signals are split — stay balanced and let them confirm before tilting.",
-        "score": 1.0,
-        "reading": "Signal balance +1.0 across 4 cross-asset reads and 0 asset trends.",
+        "label": "Risk-on",
+        "stance": "Signals lean toward equities and cyclicals; a growth tilt is supported.",
+        "score": 3.0,
+        "reading": "Signal balance +3.0 across 4 cross-asset reads and 0 asset trends.",
         "drivers": [
           {
             "label": "Rupee",
@@ -1493,8 +1493,8 @@
           },
           {
             "label": "Foreign flows",
-            "conclusion": "Foreign flows: mildly negative on balance",
-            "direction": "bearish",
+            "conclusion": "Foreign flows: mildly positive on balance",
+            "direction": "bullish",
             "source": {
               "name": "NSE FII/DII (accumulated)",
               "url": "https://www.nseindia.com/reports/fii-dii"
@@ -1518,7 +1518,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs28,957 Cr · 75% of days positive.",
+          "reading": "20-day cumulative: +Rs23,396 Cr · 70% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1545,10 +1545,10 @@
           "scope": "regime",
           "asset": "Foreign flows",
           "label": "Foreign flows",
-          "conclusion": "Foreign flows: mildly negative on balance",
-          "reading": "20-day cumulative: Rs-5,993 Cr · 50% of days positive.",
-          "direction": "bearish",
-          "strength": 62,
+          "conclusion": "Foreign flows: mildly positive on balance",
+          "reading": "20-day cumulative: +Rs1,173 Cr · 55% of days positive.",
+          "direction": "bullish",
+          "strength": 52,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1586,10 +1586,10 @@
         {
           "id": "flow_fii_net",
           "label": "Foreign flows",
-          "direction": "bearish",
-          "strength": 62,
-          "reading": "20-day cumulative: Rs-5,993 Cr · 50% of days positive.",
-          "conclusion": "Foreign flows: mildly negative on balance",
+          "direction": "bullish",
+          "strength": 52,
+          "reading": "20-day cumulative: +Rs1,173 Cr · 55% of days positive.",
+          "conclusion": "Foreign flows: mildly positive on balance",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs28,957 Cr · 75% of days positive.",
+          "reading": "20-day cumulative: +Rs23,396 Cr · 70% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-10-31 12:48 IST",
+    "date": "2026-11-01 13:20 IST",
     "usdinr": {
       "last": 94.95,
       "date": "2026-10-30"
@@ -1628,69 +1628,57 @@
       "date": "30-Oct-2026"
     },
     "headlines": [
+      "US probing possible North Korean link to $6.3 bn Binance hack: Trump",
+      "Sebi bars EKI Energy, MD Dabkara, others from market; imposes penalty",
+      "Binance says 90% of assets stolen in record hack have been replenished",
+      "Sebi aims to make capital markets more accessible, resilient: Chairman",
       "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
       "Binance crypto exchange's $6.3 bn heist rattles crypto, draws scrutiny",
-      "Binance hack exposes unsolvable crypto risk: Billions can vanish overnight",
-      "Binance hit by record $6.3 bn crypto theft; North Korea suspected",
-      "Global tech giants' spending spooks investors and drives bonds rally",
-      "Sebi imposes ₹1 crore fine on CDSL for multiple compliance lapses",
+      "The iPhone Duo Crackgate, who came up with the weekend, and more...",
       "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
       "Will cutting LTCG tax on equities bring foreign investors back?",
       "Is Instamart eating Swiggy alive?",
       "Anthropic's IPO explained",
-      "Why does CSR money go to richer states?",
-      "The Tesla-SpaceX merger explained"
+      "Why does CSR money go to richer states?"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-818 Cr — direction flipped"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹3,599 Cr — direction flipped"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "5 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹94.95 (-0.34%)"
+        "detail": "₹94.95 (+0.00%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-818 Cr — direction flipped"
+        "detail": "₹-818 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹3,599 Cr — direction flipped"
+        "detail": "₹3,599 Cr"
       },
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "5 new"
       }
     ],
-    "since": "2026-10-30 13:00 IST",
+    "since": "2026-10-31 12:48 IST",
     "new_headlines": [
-      "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
-      "Binance crypto exchange's $6.3 bn heist rattles crypto, draws scrutiny",
-      "Binance hack exposes unsolvable crypto risk: Billions can vanish overnight",
-      "Binance hit by record $6.3 bn crypto theft; North Korea suspected",
-      "Global tech giants' spending spooks investors and drives bonds rally",
-      "Sebi imposes ₹1 crore fine on CDSL for multiple compliance lapses",
-      "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more..."
+      "US probing possible North Korean link to $6.3 bn Binance hack: Trump",
+      "Sebi bars EKI Energy, MD Dabkara, others from market; imposes penalty",
+      "Binance says 90% of assets stolen in record hack have been replenished",
+      "Sebi aims to make capital markets more accessible, resilient: Chairman",
+      "The iPhone Duo Crackgate, who came up with the weekend, and more..."
     ]
   },
   "summary": {
