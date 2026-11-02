@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-03 12:20 IST",
-  "usdinr": {
-   "last": 96.32,
-   "date": "2026-10-02"
-  },
-  "dii_net": {
-   "net": 10041.84,
-   "date": "01-Oct-2026"
-  },
-  "fii_net": {
-   "net": -9484.22,
-   "date": "01-Oct-2026"
-  },
-  "headlines": [
-   "Asian shares tumble after wild swings in bonds, FX before US jobs data",
-   "Stock market holiday: BSE, NSE closed today for Gandhi Jayanti",
-   "Indian banks faced $500 million FX losses after RBI position curbs",
-   "TCS to buy US retailer Best Buy's India GCC, develop an AI-native centre",
-   "Accenture beats Q4 revenue guidance, projects 3-6% growth for FY27",
-   "Indian firms defy market slump with record $25 bn equity fundraise in H1",
-   "IRDAI wants to shake up insurance, sinking islands, and more...",
-   "Top 10 Companies Acquired by Meta",
-   "What actually makes a hospital profitable?",
-   "What if the Maldives disappeared?",
-   "India's black powder problem with battery recycling",
-   "IRDAI wants to change how insurance is sold"
-  ]
- },
- {
   "date": "2026-10-04 12:40 IST",
   "usdinr": {
    "last": 96.32,
@@ -867,6 +838,35 @@
    "Is Instamart eating Swiggy alive?",
    "Anthropic's IPO explained",
    "Why does CSR money go to richer states?"
+  ]
+ },
+ {
+  "date": "2026-11-02 13:26 IST",
+  "usdinr": {
+   "last": 94.95,
+   "date": "2026-10-30"
+  },
+  "dii_net": {
+   "net": -817.51,
+   "date": "30-Oct-2026"
+  },
+  "fii_net": {
+   "net": 3598.54,
+   "date": "30-Oct-2026"
+  },
+  "headlines": [
+   "Devyani International sinks 8% from day's high despite Q2 turnaround",
+   "Bank of Baroda gains 5% on record profit in Q2; here's what brokerages say",
+   "Indraprastha Gas tanks 10%, hits 52-week low on disappointing Q2 results",
+   "Sebi backs removal of long-term capital gains tax for foreign investors",
+   "PB Fintech slumps 7% as ad spends bite in Q2; analysts say worst priced in",
+   "IndiGo up 5% in 2 sessions on Q2, softer oil, new aviation rules in focus",
+   "Has China's AI bubble already burst?",
+   "The iPhone Duo Crackgate, who came up with the weekend, and more...",
+   "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
+   "Will cutting LTCG tax on equities bring foreign investors back?",
+   "Is Instamart eating Swiggy alive?",
+   "Anthropic's IPO explained"
   ]
  }
 ]

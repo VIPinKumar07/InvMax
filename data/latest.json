@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01 13:19 IST",
-  "generated_utc": "2026-11-01T07:49:38+00:00",
+  "generated_at": "2026-11-02 13:25 IST",
+  "generated_utc": "2026-11-02T07:55:52+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-01 13:19 IST",
+      "asof": "2026-11-02 13:25 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-11-01 13:19 IST",
+      "asof": "2026-11-02 13:25 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-01 13:20 IST",
+      "asof": "2026-11-02 13:26 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-11-01 13:20 IST",
+      "asof": "2026-11-02 13:26 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-11-01 13:20 IST",
+      "asof": "2026-11-02 13:26 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "US probing possible North Korean link to $6.3 bn Binance hack: Trump",
-          "url": "https://www.business-standard.com/world-news/us-probing-possible-north-korean-link-to-6-3-bn-binance-hack-trump-126103100220_1.html",
-          "published": "Sat, 31 Oct 2026 09:17:56 +0530"
+          "title": "Devyani International sinks 8% from day's high despite Q2 turnaround",
+          "url": "https://www.business-standard.com/markets/news/devyani-international-sinks-8-from-day-s-high-despite-q2-turnaround-126110200544_1.html",
+          "published": "Mon, 02 Nov 2026 13:04:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi bars EKI Energy, MD Dabkara, others from market; imposes penalty",
-          "url": "https://www.business-standard.com/markets/news/sebi-bars-eki-energy-md-dabkara-others-from-market-imposes-penalty-126103101347_1.html",
-          "published": "Sat, 31 Oct 2026 22:17:36 +0530"
+          "title": "Bank of Baroda gains 5% on record profit in Q2; here's what brokerages say",
+          "url": "https://www.business-standard.com/markets/news/bank-of-baroda-gains-5-on-record-profit-in-q2-here-s-what-brokerages-say-126110200534_1.html",
+          "published": "Mon, 02 Nov 2026 12:58:18 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Binance says 90% of assets stolen in record hack have been replenished",
-          "url": "https://www.business-standard.com/markets/cryptocurrency/binance-says-90-of-assets-stolen-in-record-hack-have-been-replenished-126103101242_1.html",
-          "published": "Sat, 31 Oct 2026 20:23:54 +0530"
+          "title": "Indraprastha Gas tanks 10%, hits 52-week low on disappointing Q2 results",
+          "url": "https://www.business-standard.com/markets/news/indraprastha-gas-tanks-10-hits-52-week-low-on-disappointing-q2-results-126110200409_1.html",
+          "published": "Mon, 02 Nov 2026 12:27:15 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi aims to make capital markets more accessible, resilient: Chairman",
-          "url": "https://www.business-standard.com/markets/news/sebi-aims-to-make-capital-markets-more-accessible-resilient-chairman-126103100530_1.html",
-          "published": "Sat, 31 Oct 2026 14:25:06 +0530"
+          "title": "Sebi backs removal of long-term capital gains tax for foreign investors",
+          "url": "https://www.business-standard.com/markets/news/sebi-backs-removal-of-long-term-capital-gains-tax-for-foreign-investors-126110200449_1.html",
+          "published": "Mon, 02 Nov 2026 12:21:56 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
-          "url": "https://www.business-standard.com/markets/cryptocurrency/binance-s-6-3-bn-hack-signals-the-start-of-a-risky-era-for-crypto-security-126103100424_1.html",
-          "published": "Sat, 31 Oct 2026 11:09:12 +0530"
+          "title": "PB Fintech slumps 7% as ad spends bite in Q2; analysts say worst priced in",
+          "url": "https://www.business-standard.com/markets/news/pb-fintech-share-price-slumps-7-as-ad-spends-bite-in-q2-analysts-say-worst-priced-in-126110200402_1.html",
+          "published": "Mon, 02 Nov 2026 12:02:44 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Binance crypto exchange's $6.3 bn heist rattles crypto, draws scrutiny",
-          "url": "https://www.business-standard.com/markets/cryptocurrency/fbi-secret-service-join-probe-as-6-bn-binance-hack-rattles-crypto-markets-126103100226_1.html",
-          "published": "Sat, 31 Oct 2026 09:27:59 +0530"
+          "title": "IndiGo up 5% in 2 sessions on Q2, softer oil, new aviation rules in focus",
+          "url": "https://www.business-standard.com/markets/news/indigo-up-5-in-2-sessions-on-q2-softer-oil-new-aviation-rules-in-focus-126110200347_1.html",
+          "published": "Mon, 02 Nov 2026 11:40:36 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Has China's AI bubble already burst?",
+          "url": "https://finshots.in/archive/has-chinas-ai-bubble-already-burst/",
+          "published": "Mon, 02 Nov 2026 01:30:22 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Wed, 28 Oct 2026 01:30:56 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Why does CSR money go to richer states?",
-          "url": "https://finshots.in/archive/why-does-csr-money-go-to-richer-states/",
-          "published": "Tue, 27 Oct 2026 01:30:11 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Explained: Why gold investors should tone down expectations as yellow metal plunges to a 1-year low",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms",
+          "published": "Mon, 02 Nov 2026 13:01:09 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IOC, BPCL, HPCL clock Rs 30,106 cr Q2 profit, nearly 39 pc of last year's annual earnings",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ioc-bpcl-hpcl-clock-rs-30106-cr-q2-profit-nearly-39-pc-of-last-years-annual-earnings/articleshow/135420177.cms",
-          "published": "Sun, 01 Nov 2026 12:22:22 +0530"
+          "title": "Nasdaq Outlook: Is the worst over for AI-fuelled tech stocks?",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/nasdaq-outlook-is-the-worst-over-for-ai-fuelled-tech-stocks/articleshow/135450038.cms",
+          "published": "Mon, 02 Nov 2026 13:00:25 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Can Nifty, Sensex extend gains after rallying up to 2% last week? 4 factors to watch on Monday",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/can-nifty-sensex-extend-gains-after-rallying-up-to-2-last-week-4-factors-to-watch-on-monday/articleshow/135419919.cms",
-          "published": "Sun, 01 Nov 2026 12:07:22 +0530"
+          "title": "Coal India shares jump 4% after firm records highest-ever monthly coal supplies in October",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/coal-india-shares-jump-4-after-firm-records-highest-ever-monthly-coal-supplies-in-october/articleshow/135449740.cms",
+          "published": "Mon, 02 Nov 2026 12:57:01 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "FPIs pull out Rs 34,843 cr from equities in Oct; turn net buyers last week",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-34843-cr-from-equities-in-oct-turn-net-buyers-last-week/articleshow/135419712.cms",
-          "published": "Sun, 01 Nov 2026 11:55:21 +0530"
+          "title": "Pizza Hut, KFC India operator's Q2 loss naarrows sharply on strong same-store sales growth",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/pizza-hut-kfc-india-operators-q2-loss-naarrows-sharply-on-strong-same-store-sales-growth/articleshow/135449751.cms",
+          "published": "Mon, 02 Nov 2026 12:51:36 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "ITC Q2 Results Preview: Profit seen falling nearly 30% YoY as cigarette tax hikes bite",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/itc-q2-results-preview-profit-seen-falling-nearly-30-yoy-as-cigarette-tax-hikes-bite/articleshow/135419165.cms",
-          "published": "Sun, 01 Nov 2026 11:27:43 +0530"
+          "title": "Dixon Technologies shares gain 11% after Q2 revenue jumps 47% YoY",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dixon-technologies-shares-gain-11-after-q2-revenue-jumps-47-yoy/articleshow/135449583.cms",
+          "published": "Mon, 02 Nov 2026 12:45:16 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nifty IT’s 18% rally may mark a durable leadership cycle; 35,000 next: LKP's Vatsal Bhuva",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-its-18-rally-may-mark-a-durable-leadership-cycle-35000-next-lkps-vatsal-bhuva/articleshow/135419140.cms",
-          "published": "Sun, 01 Nov 2026 11:25:57 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "IPO Calendar: Primary market cools after Jio frenzy, but 13 listings lined up",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-primary-market-cools-after-jio-frenzy-but-13-listings-lined-up/articleshow/135419009.cms",
-          "published": "Sun, 01 Nov 2026 11:11:56 +0530"
+          "title": "Apple Q4 earnings: 5 key things investors will watch",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/apple-q4-earnings-5-key-things-investors-will-watch/slideshow/135449929.cms",
+          "published": "Mon, 02 Nov 2026 12:16:44 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Bonus share: Just single issue with record date this week: Pharma firm's free shares with 68% returns since IPO; ratio",
-          "url": "https://www.livemint.com/market/stock-market-news/bonus-share-just-single-issue-with-record-date-this-week-pharma-firms-free-shares-with-68-returns-since-ipo-ratio-11793517001201.html",
-          "published": "Sun, 01 Nov 2026 13:09:26 +0530"
+          "title": "Muthoot’s solid gold loan AUM loses sheen amid asset quality stress, stiff competition",
+          "url": "https://www.livemint.com/market/mark-to-market/muthoot-finance-share-price-gold-loan-asset-quality-concerns-11793602247502.html",
+          "published": "Mon, 02 Nov 2026 13:07:14 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nifty: Will November 2026 bring more returns or disappoint? What does history suggest? What 25 yrs of market data reveal",
-          "url": "https://www.livemint.com/market/nifty-will-november-2026-bring-more-returns-or-disappoint-what-does-history-suggest-what-25-yrs-of-market-data-reveal-11793512040411.html",
-          "published": "Sun, 01 Nov 2026 12:24:21 +0530"
+          "title": "ITI shares: 111% returns in 5 years! Telco stock price hits 20% upper circuit | Time to book profits or hold?",
+          "url": "https://www.livemint.com/market/stock-market-news/iti-shares-111-returns-in-5-years-telco-stock-price-hits-20-upper-circuit-time-to-book-profits-or-hold-11793599149687.html",
+          "published": "Mon, 02 Nov 2026 12:50:19 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Private Equity Fund Gates Are Features, Not Bugs",
-          "url": "https://www.livemint.com/market/private-equity-fund-gates-are-features-not-bugs-11793512962906.html",
-          "published": "Sun, 01 Nov 2026 11:32:42 +0530"
+          "title": "Ramkrishna Forgings shares jump 10% after Q2 results, surge 35% in 2026: Is more upside ahead? | Key levels to watch",
+          "url": "https://www.livemint.com/market/stock-market-news/ramkrishna-forgings-shares-jump-10-after-q2-results-surge-35-in-2026-is-more-upside-ahead-key-levels-to-watch-11793601116307.html",
+          "published": "Mon, 02 Nov 2026 12:28:35 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Best 3 stocks to buy: SBI, Britannia, Biocon by Ganesh Dongre of Anand Rathi | Targets, stop-loss, stock market views",
-          "url": "https://www.livemint.com/market/stock-market-news/best-3-stocks-to-buy-sbi-britannia-biocon-by-ganesh-dongre-of-anand-rathi-targets-stop-loss-stock-market-views-11793467488582.html",
-          "published": "Sun, 01 Nov 2026 11:29:05 +0530"
+          "title": "Sebi backs removal of LTCG for foreign investors: Report",
+          "url": "https://www.livemint.com/market/stock-market-news/sebi-backs-removal-of-ltcg-for-foreign-investors-report-11793602169050.html",
+          "published": "Mon, 02 Nov 2026 12:22:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Jio Platforms vs Bharti Airtel shares: Which telecom stock to buy after Reliance arm’s IPO listing? Experts suggestions",
-          "url": "https://www.livemint.com/market/stock-market-news/jio-platforms-vs-bharti-airtel-shares-which-telecom-stock-to-buy-after-reliance-arm-s-ipo-listing-experts-suggestions-11793507858149.html",
-          "published": "Sun, 01 Nov 2026 11:03:17 +0530"
+          "title": "Tokyo, Chubu Power Price Hit Multi-Year High as Fuel Costs Climb",
+          "url": "https://www.livemint.com/market/tokyo-chubu-power-price-hit-multi-year-high-as-fuel-costs-climb-11793602036139.html",
+          "published": "Mon, 02 Nov 2026 12:17:15 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Reliance shares: Buy, sell or hold after Q2 results 2026? RIL stock up 384% in 10 yrs! Brokerages advice to investors",
-          "url": "https://www.livemint.com/market/stock-market-news/reliance-shares-buy-sell-or-hold-after-q2-results-2026-ril-stock-up-384-in-10-yrs-brokerages-advice-to-investors-11793504303710.html",
-          "published": "Sun, 01 Nov 2026 10:01:38 +0530"
+          "title": "Welspun Living shares: Up 80% in 6 months, rise 10% today post Q2 results; buy, sell or hold? What brokerages suggest",
+          "url": "https://www.livemint.com/market/stock-market-news/welspun-living-shares-up-80-in-6-months-rise-10-today-post-q2-results-buy-sell-or-hold-what-brokerages-suggest-11793596886281.html",
+          "published": "Mon, 02 Nov 2026 11:45:45 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-01 13:20 IST",
+      "checked_at": "2026-11-02 13:26 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-01 13:20 IST",
+      "generated_at": "2026-11-02 13:26 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Domestic flows",
         "conclusion": "Domestic flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs23,396 Cr · 70% of days positive.",
+        "reading": "20-day cumulative: +Rs19,534 Cr · 65% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,9 +1518,9 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs23,396 Cr · 70% of days positive.",
+          "reading": "20-day cumulative: +Rs19,534 Cr · 65% of days positive.",
           "direction": "bullish",
-          "strength": 92,
+          "strength": 89,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1546,9 +1546,9 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: mildly positive on balance",
-          "reading": "20-day cumulative: +Rs1,173 Cr · 55% of days positive.",
+          "reading": "20-day cumulative: +Rs6,480 Cr · 60% of days positive.",
           "direction": "bullish",
-          "strength": 52,
+          "strength": 63,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1587,8 +1587,8 @@
           "id": "flow_fii_net",
           "label": "Foreign flows",
           "direction": "bullish",
-          "strength": 52,
-          "reading": "20-day cumulative: +Rs1,173 Cr · 55% of days positive.",
+          "strength": 63,
+          "reading": "20-day cumulative: +Rs6,480 Cr · 60% of days positive.",
           "conclusion": "Foreign flows: mildly positive on balance",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1600,8 +1600,8 @@
           "id": "flow_dii_net",
           "label": "Domestic flows",
           "direction": "bullish",
-          "strength": 92,
-          "reading": "20-day cumulative: +Rs23,396 Cr · 70% of days positive.",
+          "strength": 89,
+          "reading": "20-day cumulative: +Rs19,534 Cr · 65% of days positive.",
           "conclusion": "Domestic flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-01 13:20 IST",
+    "date": "2026-11-02 13:26 IST",
     "usdinr": {
       "last": 94.95,
       "date": "2026-10-30"
@@ -1628,18 +1628,18 @@
       "date": "30-Oct-2026"
     },
     "headlines": [
-      "US probing possible North Korean link to $6.3 bn Binance hack: Trump",
-      "Sebi bars EKI Energy, MD Dabkara, others from market; imposes penalty",
-      "Binance says 90% of assets stolen in record hack have been replenished",
-      "Sebi aims to make capital markets more accessible, resilient: Chairman",
-      "Binance's $6.3 bn hack signals the start of a risky era for crypto security",
-      "Binance crypto exchange's $6.3 bn heist rattles crypto, draws scrutiny",
+      "Devyani International sinks 8% from day's high despite Q2 turnaround",
+      "Bank of Baroda gains 5% on record profit in Q2; here's what brokerages say",
+      "Indraprastha Gas tanks 10%, hits 52-week low on disappointing Q2 results",
+      "Sebi backs removal of long-term capital gains tax for foreign investors",
+      "PB Fintech slumps 7% as ad spends bite in Q2; analysts say worst priced in",
+      "IndiGo up 5% in 2 sessions on Q2, softer oil, new aviation rules in focus",
+      "Has China's AI bubble already burst?",
       "The iPhone Duo Crackgate, who came up with the weekend, and more...",
       "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
       "Will cutting LTCG tax on equities bring foreign investors back?",
       "Is Instamart eating Swiggy alive?",
-      "Anthropic's IPO explained",
-      "Why does CSR money go to richer states?"
+      "Anthropic's IPO explained"
     ]
   },
   "changes": {
@@ -1647,7 +1647,7 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "5 new"
+        "detail": "7 new"
       }
     ],
     "all": [
@@ -1669,16 +1669,18 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "5 new"
+        "detail": "7 new"
       }
     ],
-    "since": "2026-10-31 12:48 IST",
+    "since": "2026-11-01 13:20 IST",
     "new_headlines": [
-      "US probing possible North Korean link to $6.3 bn Binance hack: Trump",
-      "Sebi bars EKI Energy, MD Dabkara, others from market; imposes penalty",
-      "Binance says 90% of assets stolen in record hack have been replenished",
-      "Sebi aims to make capital markets more accessible, resilient: Chairman",
-      "The iPhone Duo Crackgate, who came up with the weekend, and more..."
+      "Devyani International sinks 8% from day's high despite Q2 turnaround",
+      "Bank of Baroda gains 5% on record profit in Q2; here's what brokerages say",
+      "Indraprastha Gas tanks 10%, hits 52-week low on disappointing Q2 results",
+      "Sebi backs removal of long-term capital gains tax for foreign investors",
+      "PB Fintech slumps 7% as ad spends bite in Q2; analysts say worst priced in",
+      "IndiGo up 5% in 2 sessions on Q2, softer oil, new aviation rules in focus",
+      "Has China's AI bubble already burst?"
     ]
   },
   "summary": {
