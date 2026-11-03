@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-04 12:40 IST",
-  "usdinr": {
-   "last": 96.32,
-   "date": "2026-10-02"
-  },
-  "dii_net": {
-   "net": 10041.84,
-   "date": "01-Oct-2026"
-  },
-  "fii_net": {
-   "net": -9484.22,
-   "date": "01-Oct-2026"
-  },
-  "headlines": [
-   "Jio IPO likely by Oct end at enterprise valuation of above ₹12 trillion",
-   "Sebi CAS review draws over 20K responses; traders resist VWAP shift",
-   "Parliamentary panel may recommend govt for action on monitoring crypto",
-   "Sebi examining position limits for non-agri contracts to boost liquidity",
-   "RBI backs blockchain technology, remains cautious on crypto: Guv Malhotra",
-   "Sebi to soon issue framework on CAS; receives over 3,500 comments",
-   "Did K-serials empower Indian women, flying biryani, & more...",
-   "IRDAI wants to shake up insurance, sinking islands, and more...",
-   "Top 10 Companies Acquired by Meta",
-   "What actually makes a hospital profitable?",
-   "What if the Maldives disappeared?",
-   "India's black powder problem with battery recycling"
-  ]
- },
- {
   "date": "2026-10-05 12:57 IST",
   "usdinr": {
    "last": 96.4006,
@@ -867,6 +838,35 @@
    "Will cutting LTCG tax on equities bring foreign investors back?",
    "Is Instamart eating Swiggy alive?",
    "Anthropic's IPO explained"
+  ]
+ },
+ {
+  "date": "2026-11-03 13:46 IST",
+  "usdinr": {
+   "last": 94.91,
+   "date": "2026-11-02"
+  },
+  "dii_net": {
+   "net": -392.2,
+   "date": "02-Nov-2026"
+  },
+  "fii_net": {
+   "net": 3114.68,
+   "date": "02-Nov-2026"
+  },
+  "headlines": [
+   "M K Sons Fine Jewels IPO: Shares may list at marginal premium of 6%",
+   "GRSE jumps 9% on ₹53,866-crore deal; logs best one-day gain in 6 months",
+   "Gold, silver prices fall on expectations of tighter monetary policy",
+   "India's gold demand likely to fall to six-year low in 2026 on price rise",
+   "Bosch jumps 5%, hits new high on bonus, stock split plan; up 76% since Apr",
+   "Sensex soars 3,300-points in 4 days: Is it time to sell the rally?",
+   "The problem with cryptocurrency",
+   "Has China's AI bubble already burst?",
+   "The iPhone Duo Crackgate, who came up with the weekend, and more...",
+   "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
+   "Will cutting LTCG tax on equities bring foreign investors back?",
+   "Is Instamart eating Swiggy alive?"
   ]
  }
 ]
