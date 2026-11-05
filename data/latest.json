@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04 13:15 IST",
-  "generated_utc": "2026-11-04T07:45:38+00:00",
+  "generated_at": "2026-11-05 13:40 IST",
+  "generated_utc": "2026-11-05T08:10:36+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-04 13:15 IST",
+      "asof": "2026-11-05 13:40 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-11-03",
+        "asof": "2026-11-04",
         "rates": {
-          "EUR": 0.89453,
-          "GBP": 0.74567,
-          "INR": 94.75,
-          "JPY": 158.29
+          "EUR": 0.88755,
+          "GBP": 0.74075,
+          "INR": 94.64,
+          "JPY": 158.25
         },
         "usdinr_history": [
-          {
-            "date": "2025-11-04",
-            "v": 88.71
-          },
           {
             "date": "2025-11-05",
             "v": 88.64
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-11-03",
             "v": 94.75
+          },
+          {
+            "date": "2026-11-04",
+            "v": 94.64
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-11-04 13:15 IST",
+      "asof": "2026-11-05 13:40 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 106.8496,
-          "date": "03-11-2026",
-          "ret1y_pct": -2.49,
+          "nav": 107.0327,
+          "date": "04-11-2026",
+          "ret1y_pct": -2.31,
           "series": [
-            103.6318,
-            105.7166,
-            107.0688,
-            107.4387,
-            107.962,
-            107.9901,
-            108.3787,
-            109.5844,
-            110.0882,
-            110.0403,
-            109.9438,
-            110.8829,
-            103.9102,
-            104.5706,
-            104.7663,
-            106.7721,
-            106.8377,
-            106.8888,
-            106.9294,
-            106.8496
+            103.6633,
+            105.8256,
+            107.1766,
+            107.5644,
+            107.9658,
+            108.1543,
+            108.4538,
+            109.6155,
+            110.0708,
+            110.0241,
+            110.0539,
+            110.9394,
+            103.9921,
+            104.6544,
+            104.7496,
+            106.8042,
+            106.8983,
+            106.9526,
+            107.0333,
+            107.0327
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 109.6405,
-          "date": "03-11-2026",
-          "ret1y_pct": -1.58,
+          "nav": 110.5133,
+          "date": "04-11-2026",
+          "ret1y_pct": 0.07,
           "series": [
-            101.5135,
-            104.4724,
-            106.9766,
-            110.6845,
-            108.5168,
-            107.1259,
-            107.2246,
-            111.0948,
-            111.6365,
-            110.2419,
-            107.1897,
-            108.9325,
-            97.7184,
-            105.8387,
-            103.4809,
-            109.3672,
-            113.3801,
-            112.048,
-            104.808,
-            109.6405
+            101.5097,
+            105.2187,
+            107.0707,
+            110.588,
+            108.8599,
+            107.1217,
+            107.3134,
+            111.7992,
+            111.2677,
+            110.5516,
+            106.1596,
+            107.5231,
+            97.52,
+            107.3354,
+            103.6421,
+            110.2532,
+            112.916,
+            111.5608,
+            105.337,
+            110.5133
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 220.09,
-          "date": "03-11-2026",
-          "ret1y_pct": -1.09,
+          "nav": 223.138,
+          "date": "04-11-2026",
+          "ret1y_pct": 0.25,
           "series": [
-            188.315,
-            197.122,
-            206.302,
-            209.361,
-            217.502,
-            214.333,
-            216.406,
-            221.623,
-            226.261,
-            222.776,
-            219.869,
-            226.799,
-            199.417,
-            218.531,
-            219.077,
-            229.594,
-            236.539,
-            236.391,
-            219.441,
-            220.09
+            190.675,
+            197.241,
+            206.696,
+            211.266,
+            217.842,
+            214.055,
+            215.912,
+            221.825,
+            226.082,
+            222.41,
+            220.054,
+            223.956,
+            202.75,
+            218.745,
+            219.942,
+            230.395,
+            235.305,
+            235.185,
+            220.493,
+            223.138
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 233.0721,
-          "date": "03-11-2026",
-          "ret1y_pct": -7.92,
+          "nav": 234.5404,
+          "date": "04-11-2026",
+          "ret1y_pct": -6.71,
           "series": [
-            223.522,
-            234.4184,
-            239.6057,
-            241.3228,
-            242.7709,
-            243.5204,
-            244.6735,
-            252.2708,
-            254.666,
-            253.037,
-            246.3425,
-            247.9165,
-            217.1184,
-            234.4802,
-            227.8602,
-            237.0303,
-            242.4339,
-            235.4289,
-            219.4499,
-            233.0721
+            225.0586,
+            233.6249,
+            241.028,
+            242.0197,
+            244.3043,
+            241.4473,
+            244.3534,
+            251.9798,
+            254.7643,
+            252.0592,
+            247.0812,
+            244.8257,
+            220.5003,
+            233.6373,
+            227.9646,
+            238.5779,
+            240.8781,
+            234.0789,
+            220.7532,
+            234.5404
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-04 13:16 IST",
+      "asof": "2026-11-05 13:42 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-11-04 13:16 IST",
+      "asof": "2026-11-05 13:42 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "03-Nov-2026",
-          "buy": 16723.91,
-          "sell": 20402.76,
-          "net": -3678.85
+          "date": "04-Nov-2026",
+          "buy": 16392.82,
+          "sell": 20105.05,
+          "net": -3712.23
         },
         "fii": {
-          "date": "03-Nov-2026",
-          "buy": 20970.51,
-          "sell": 14133.7,
-          "net": 6836.81
+          "date": "04-Nov-2026",
+          "buy": 21607.38,
+          "sell": 14323.35,
+          "net": 7284.03
         }
       }
     },
     "news": {
-      "asof": "2026-11-04 13:17 IST",
+      "asof": "2026-11-05 13:42 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "'India's crypto market to broaden, smaller cities to aid growth'",
-          "url": "https://www.business-standard.com/markets/interviews/india-s-crypto-market-to-broaden-smaller-cities-to-aid-growth-nischal-shetty-founder-wazirx-126110400699_1.html",
-          "published": "Wed, 04 Nov 2026 12:47:44 +0530"
+          "title": "Biocon share price rises nearly 6% despite 52% dip in Q2 profit",
+          "url": "https://www.business-standard.com/markets/news/biocon-share-price-rises-nearly-6-despite-52-fall-in-q2-profit-126110500911_1.html",
+          "published": "Thu, 05 Nov 2026 13:29:57 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Bombay Coated & Special Steels may list at 10% premium, signals grey market",
-          "url": "https://www.business-standard.com/markets/news/bombay-coated-special-steels-may-list-at-10-premium-signals-grey-market-126110400698_1.html",
-          "published": "Wed, 04 Nov 2026 12:40:56 +0530"
+          "title": "Nykaa's Q2 fails to impress Street despite 200% rise in PAT; stock falls 2%",
+          "url": "https://www.business-standard.com/markets/news/nykaa-s-q2-fails-to-impress-street-despite-200-rise-in-pat-stock-falls-2-126110500904_1.html",
+          "published": "Thu, 05 Nov 2026 13:26:30 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Adani Ports, Bosch, Divi's Labs, Marico, Welspun Living hit record highs",
-          "url": "https://www.business-standard.com/markets/news/adani-ports-bosch-divi-s-labs-marico-welspun-living-hit-record-highs-126110400669_1.html",
-          "published": "Wed, 04 Nov 2026 12:33:35 +0530"
+          "title": "Sensex stocks Adani Ports, TechM at new highs; Eternal, ICICI Bk near peaks",
+          "url": "https://www.business-standard.com/markets/news/sensex-stocks-adani-ports-techm-at-new-highs-eternal-icici-bank-near-peaks-126110500798_1.html",
+          "published": "Thu, 05 Nov 2026 13:04:52 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "RBI forms financial markets consultative panel headed by Dy Guv Rohit Jain",
-          "url": "https://www.business-standard.com/markets/news/rbi-financial-markets-consultative-committee-rohit-jain-tccfm-126110400682_1.html",
-          "published": "Wed, 04 Nov 2026 12:29:14 +0530"
+          "title": "₹3 trillion FPI outflows: Samvat 2082 set for worst selling in 17 years",
+          "url": "https://www.business-standard.com/markets/news/3-trillion-fpi-outflows-samvat-2082-set-for-worst-selling-in-17-samvats-126110500670_1.html",
+          "published": "Thu, 05 Nov 2026 11:55:07 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "RBI forms markets panel with Citi, Morgan Stanley, SBI as members",
-          "url": "https://www.business-standard.com/markets/news/rbi-forms-markets-panel-with-citi-morgan-stanley-sbi-as-members-126110400636_1.html",
-          "published": "Wed, 04 Nov 2026 12:26:04 +0530"
+          "title": "Physicswallah shares jump 10% post Q2 show: Can earnings sustain momentum?",
+          "url": "https://www.business-standard.com/markets/news/physicswallah-share-price-jump-10-post-q2-show-can-earnings-sustain-momentum-126110500650_1.html",
+          "published": "Thu, 05 Nov 2026 11:54:52 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Parag Milk Foods shares surge 13% as firm posts highest-ever revenue in Q2",
-          "url": "https://www.business-standard.com/markets/news/parag-milk-foods-shares-surge-13-as-firm-posts-highest-ever-revenue-in-q2-126110400641_1.html",
-          "published": "Wed, 04 Nov 2026 12:20:05 +0530"
+          "title": "Capital Markets index soars 4%; MOFSL, Groww, 360 ONE, BSE zoom up to 7%",
+          "url": "https://www.business-standard.com/markets/news/capital-markets-index-soars-4-mofsl-groww-360-one-bse-zoom-up-to-7-126110500617_1.html",
+          "published": "Thu, 05 Nov 2026 11:34:29 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Why can't India simply build bigger strategic oil reserves?",
+          "url": "https://finshots.in/archive/why-cant-india-simply-build-bigger-strategic-oil-reserves/",
+          "published": "Thu, 05 Nov 2026 01:30:29 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Sat, 31 Oct 2026 01:30:04 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Will cutting LTCG tax on equities bring foreign investors back?",
-          "url": "https://finshots.in/markets/will-cutting-ltcg-tax-on-equities-bring-foreign-investors-back-2/",
-          "published": "Fri, 30 Oct 2026 01:30:49 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Sitaram Denims India files IPO papers with Sebi",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/sitaram-denims-india-files-ipo-papers-with-sebi/articleshow/135563144.cms",
+          "published": "Thu, 05 Nov 2026 12:32:00 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Kopsi, Taiwan, other Asian stocks tumble after US midterm elections signal Democratic victory. What’s the connection?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/kopsi-taiwan-other-asian-stocks-tumble-after-us-midterm-elections-signal-democratic-victory-whats-the-connection/articleshow/135529227.cms",
-          "published": "Wed, 04 Nov 2026 12:47:53 +0530"
+          "title": "Qualcomm Earnings: 5 key takeaways from Q4 results",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/qualcomm-earnings-5-key-takeaways-from-q4-results/slideshow/135560535.cms",
+          "published": "Thu, 05 Nov 2026 11:01:44 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Equitas Small Finance Bank shares jump 9% after Balaji Nuthalapadi’s appointment as interim CEO",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/equitas-small-finance-bank-shares-jump-9-after-balaji-nuthalapadis-appointment-as-interim-ceo/articleshow/135528943.cms",
-          "published": "Wed, 04 Nov 2026 12:44:25 +0530"
+          "title": "Alphabet stock jumps 5%: Why Google Parent shares rallied",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/alphabet-stock-jumps-5-why-google-parent-shares-rallied/slideshow/135560292.cms",
+          "published": "Thu, 05 Nov 2026 10:50:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Super Micro stock soars: AI server boom drives record earnings",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/super-micro-stock-soars-ai-server-boom-drives-record-earnings/slideshow/135529517.cms",
-          "published": "Wed, 04 Nov 2026 12:20:29 +0530"
+          "title": "Bharat Electronics among 5 stocks showing White Marubozu pattern",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bharat-electronics-among-5-stocks-showing-white-marubozu-pattern/slideshow/135559687.cms",
+          "published": "Thu, 05 Nov 2026 10:21:12 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Democrats’ win rattles Trump trades from AI stocks to crypto",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/democrats-win-rattles-trump-trades-from-ai-stocks-to-crypto/articleshow/135527407.cms",
-          "published": "Wed, 04 Nov 2026 12:04:15 +0530"
+          "title": "Diwali Dhamaka stocks for portfolio: 10 shares with up to 34% upside potential ICICI Direct is bullish on",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-dhamaka-stocks-for-portfolio-10-shares-with-up-to-34-upside-potential-icici-direct-is-bullish-on/slideshow/135559522.cms",
+          "published": "Thu, 05 Nov 2026 10:17:01 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Oil slide, Treasury strength boost Indian bonds",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/oil-slide-treasury-strength-boost-indian-bonds/articleshow/135527698.cms",
-          "published": "Wed, 04 Nov 2026 12:04:06 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Gold and silver prices correct ahead of Diwali: Buying opportunity or a trap?",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-and-silver-prices-correct-ahead-of-diwali-buying-opportunity-or-a-trap/articleshow/135527505.cms",
-          "published": "Wed, 04 Nov 2026 12:00:10 +0530"
+          "title": "Adani Enterprises among 4 Nifty 50 stocks showing bullish RSI upswing",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/adani-enterprises-among-4-nifty-50-stocks-showing-bullish-rsi-upswing/slideshow/135559417.cms",
+          "published": "Thu, 05 Nov 2026 10:11:41 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Petronet LNG’s inventory boost is not enough to sustain earnings growth",
-          "url": "https://www.livemint.com/market/mark-to-market/petronet-lng-q2-earnings-growth-inventory-boost-11793772628043.html",
-          "published": "Wed, 04 Nov 2026 13:01:42 +0530"
+          "title": "Why is OnEMI Tech stock rising today? Kissht parent firm's shares jump 7% after AUM milestone, ₹832 cr fundraise",
+          "url": "https://www.livemint.com/market/stock-market-news/why-is-onemi-tech-stock-rising-today-kissht-parent-firms-shares-jump-7-after-aum-milestone-rs-832-cr-fundraise-11793863799441.html",
+          "published": "Thu, 05 Nov 2026 13:21:12 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Frozen Turkish Funds’ Blue-Chip Holdings Sold Off-Market",
-          "url": "https://www.livemint.com/market/frozen-turkish-funds-blue-chip-holdings-sold-offmarket-11793776847983.html",
-          "published": "Wed, 04 Nov 2026 12:50:47 +0530"
+          "title": "HDFC Bank shares witness strong buying, rise 7% in 1 month. Can new CEO, improving fundamentals drive next leg of rally?",
+          "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-shares-witness-strong-buying-rise-7-in-1-month-can-new-ceo-improving-fundamentals-drive-next-leg-of-rally-11793861115989.html",
+          "published": "Thu, 05 Nov 2026 13:07:00 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Small-cap stock under ₹50 SC Agrotech hits 5% upper circuit for 8th straight session; gives 160% returns in one year",
-          "url": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-sc-agrotech-hits-5-upper-circuit-for-8th-straight-session-gives-160-returns-in-one-year-11793774492421.html",
-          "published": "Wed, 04 Nov 2026 12:43:00 +0530"
+          "title": "Worst Samvat in 15 years! Sensex, Nifty crash up to 8%: Can investors expect a bull run in Samvat 2083? What experts say",
+          "url": "https://www.livemint.com/market/worst-samvat-in-15-years-sensex-nifty-crash-up-to-8-can-investors-expect-a-bull-run-in-samvat-2083-what-experts-say-11793860986454.html",
+          "published": "Thu, 05 Nov 2026 13:00:07 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Awfis Space Solutions shares rally 13% on strong Q2 results | Check stock returns",
-          "url": "https://www.livemint.com/market/stock-market-news/awfis-space-solutions-shares-rally-13-on-strong-q2-results-check-stock-returns-11793772312307.html",
-          "published": "Wed, 04 Nov 2026 12:24:28 +0530"
+          "title": "Rajesh Power shares: Up 12% in one month! Will rally continue as order book expands 35% after ₹1629 crore mega order?",
+          "url": "https://www.livemint.com/market/stock-market-news/rajesh-power-shares-up-12-in-one-month-will-rally-continue-as-order-book-expands-35-after-rs-1629-crore-mega-order-11793862935569.html",
+          "published": "Thu, 05 Nov 2026 12:57:13 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Clean Max shares: Power stock jumps 42% in YTD; will this rally continue after Q2 results 2026? Expert views, target",
-          "url": "https://www.livemint.com/market/stock-market-news/clean-max-shares-power-stock-jumps-42-in-ytd-will-this-rally-continue-after-q2-results-2026-expert-views-target-11793772700847.html",
-          "published": "Wed, 04 Nov 2026 12:07:05 +0530"
+          "title": "BSE vs NSE vs MCX vs IEX shares: Which exchange stock to buy after Q2 results for good returns? Experts' views",
+          "url": "https://www.livemint.com/market/stock-market-news/bse-vs-nse-vs-mcx-vs-iex-shares-which-exchange-stock-to-buy-after-q2-results-for-good-returns-experts-views-11793860967633.html",
+          "published": "Thu, 05 Nov 2026 12:50:10 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Pashupati Cotspin shares hit 10% lower circuit ahead of Q2 results after a stunning 70% monthly rally | What lies ahead?",
-          "url": "https://www.livemint.com/market/stock-market-news/pashupati-cotspin-shares-hit-10-lower-circuit-ahead-of-q2-results-after-a-stunning-70-monthly-rally-what-lies-ahead-11793770800395.html",
-          "published": "Wed, 04 Nov 2026 11:45:56 +0530"
+          "title": "Diwali dhamaka! Multibagger stock to consider 1:10 stock split, 4:5 bonus, 100% dividend; record date, other details",
+          "url": "https://www.livemint.com/market/stock-market-news/diwali-dhamaka-multibagger-stock-declares-1-10-stock-split-4-5-bonus-shares-100-dividend-record-date-other-details-11793862848124.html",
+          "published": "Thu, 05 Nov 2026 12:46:34 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-04 13:17 IST",
+      "checked_at": "2026-11-05 13:42 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-04 13:17 IST",
+      "generated_at": "2026-11-05 13:42 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs19,594 Cr · 70% of days positive.",
+        "reading": "20-day cumulative: +Rs32,164 Cr · 75% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,9 +1518,9 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs19,594 Cr · 70% of days positive.",
+          "reading": "20-day cumulative: +Rs32,164 Cr · 75% of days positive.",
           "direction": "bullish",
-          "strength": 89,
+          "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1532,9 +1532,9 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee strengthening — supportive backdrop",
-          "reading": "USD/INR moved -1.6% over the last month (now 94.75).",
+          "reading": "USD/INR moved -1.8% over the last month (now 94.64).",
           "direction": "bullish",
-          "strength": 74,
+          "strength": 78,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
@@ -1546,9 +1546,9 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: mildly positive on balance",
-          "reading": "20-day cumulative: +Rs10,353 Cr · 55% of days positive.",
+          "reading": "20-day cumulative: +Rs3,321 Cr · 50% of days positive.",
           "direction": "bullish",
-          "strength": 71,
+          "strength": 57,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1561,8 +1561,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "bullish",
-          "strength": 74,
-          "reading": "USD/INR moved -1.6% over the last month (now 94.75).",
+          "strength": 78,
+          "reading": "USD/INR moved -1.8% over the last month (now 94.64).",
           "conclusion": "Rupee strengthening — supportive backdrop",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1587,8 +1587,8 @@
           "id": "flow_fii_net",
           "label": "Foreign flows",
           "direction": "bullish",
-          "strength": 89,
-          "reading": "20-day cumulative: +Rs19,594 Cr · 70% of days positive.",
+          "strength": 92,
+          "reading": "20-day cumulative: +Rs32,164 Cr · 75% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1600,8 +1600,8 @@
           "id": "flow_dii_net",
           "label": "Domestic flows",
           "direction": "bullish",
-          "strength": 71,
-          "reading": "20-day cumulative: +Rs10,353 Cr · 55% of days positive.",
+          "strength": 57,
+          "reading": "20-day cumulative: +Rs3,321 Cr · 50% of days positive.",
           "conclusion": "Domestic flows: mildly positive on balance",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,46 +1614,36 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-04 13:17 IST",
+    "date": "2026-11-05 13:42 IST",
     "usdinr": {
-      "last": 94.75,
-      "date": "2026-11-03"
+      "last": 94.64,
+      "date": "2026-11-04"
     },
     "dii_net": {
-      "net": -3678.85,
-      "date": "03-Nov-2026"
+      "net": -3712.23,
+      "date": "04-Nov-2026"
     },
     "fii_net": {
-      "net": 6836.81,
-      "date": "03-Nov-2026"
+      "net": 7284.03,
+      "date": "04-Nov-2026"
     },
     "headlines": [
-      "'India's crypto market to broaden, smaller cities to aid growth'",
-      "Bombay Coated & Special Steels may list at 10% premium, signals grey market",
-      "Adani Ports, Bosch, Divi's Labs, Marico, Welspun Living hit record highs",
-      "RBI forms financial markets consultative panel headed by Dy Guv Rohit Jain",
-      "RBI forms markets panel with Citi, Morgan Stanley, SBI as members",
-      "Parag Milk Foods shares surge 13% as firm posts highest-ever revenue in Q2",
+      "Biocon share price rises nearly 6% despite 52% dip in Q2 profit",
+      "Nykaa's Q2 fails to impress Street despite 200% rise in PAT; stock falls 2%",
+      "Sensex stocks Adani Ports, TechM at new highs; Eternal, ICICI Bk near peaks",
+      "₹3 trillion FPI outflows: Samvat 2082 set for worst selling in 17 years",
+      "Physicswallah shares jump 10% post Q2 show: Can earnings sustain momentum?",
+      "Capital Markets index soars 4%; MOFSL, Groww, 360 ONE, BSE zoom up to 7%",
+      "Why can't India simply build bigger strategic oil reserves?",
       "How astrology became a big bucks business in India",
       "The problem with cryptocurrency",
       "Has China's AI bubble already burst?",
       "The iPhone Duo Crackgate, who came up with the weekend, and more...",
-      "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
-      "Will cutting LTCG tax on equities bring foreign investors back?"
+      "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more..."
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-3,679 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹6,837 Cr"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1664,17 +1654,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹94.75 (-0.17%)"
+        "detail": "₹94.64 (-0.12%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-3,679 Cr"
+        "detail": "₹-3,712 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹6,837 Cr"
+        "detail": "₹7,284 Cr"
       },
       {
         "kind": "news",
@@ -1682,15 +1672,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-11-03 13:46 IST",
+    "since": "2026-11-04 13:17 IST",
     "new_headlines": [
-      "'India's crypto market to broaden, smaller cities to aid growth'",
-      "Bombay Coated & Special Steels may list at 10% premium, signals grey market",
-      "Adani Ports, Bosch, Divi's Labs, Marico, Welspun Living hit record highs",
-      "RBI forms financial markets consultative panel headed by Dy Guv Rohit Jain",
-      "RBI forms markets panel with Citi, Morgan Stanley, SBI as members",
-      "Parag Milk Foods shares surge 13% as firm posts highest-ever revenue in Q2",
-      "How astrology became a big bucks business in India"
+      "Biocon share price rises nearly 6% despite 52% dip in Q2 profit",
+      "Nykaa's Q2 fails to impress Street despite 200% rise in PAT; stock falls 2%",
+      "Sensex stocks Adani Ports, TechM at new highs; Eternal, ICICI Bk near peaks",
+      "₹3 trillion FPI outflows: Samvat 2082 set for worst selling in 17 years",
+      "Physicswallah shares jump 10% post Q2 show: Can earnings sustain momentum?",
+      "Capital Markets index soars 4%; MOFSL, Groww, 360 ONE, BSE zoom up to 7%",
+      "Why can't India simply build bigger strategic oil reserves?"
     ]
   },
   "summary": {

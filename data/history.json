@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-06 13:21 IST",
-  "usdinr": {
-   "last": 96.3,
-   "date": "2026-10-05"
-  },
-  "dii_net": {
-   "net": 5181.62,
-   "date": "05-Oct-2026"
-  },
-  "fii_net": {
-   "net": -4699.14,
-   "date": "05-Oct-2026"
-  },
-  "headlines": [
-   "Mirae Asset sees oil volatility to persist; prices may stay near $100",
-   "In sweet spot! Sugar stocks surge up to 9%. What's behind the rise?",
-   "Tilaknagar Inds: HDFC Sec keeps 'buy', bets on Imperial Blue's growth story",
-   "Honasa Consumer soars 10% on strong Q2 biz update; stock nears 52-week high",
-   "Sterlite Tech gains 5% as Nomura initiates coverage with 'Buy' call",
-   "Large-caps regain favour as oil, bond yields fuel rate-hike worries",
-   "What ails Nike?",
-   "What’s behind the looming global food crisis",
-   "Did K-serials empower Indian women, flying biryani, & more...",
-   "IRDAI wants to shake up insurance, sinking islands, and more...",
-   "Top 10 Companies Acquired by Meta",
-   "What actually makes a hospital profitable?"
-  ]
- },
- {
   "date": "2026-10-07 13:01 IST",
   "usdinr": {
    "last": 96.42,
@@ -867,6 +838,35 @@
    "The iPhone Duo Crackgate, who came up with the weekend, and more...",
    "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more...",
    "Will cutting LTCG tax on equities bring foreign investors back?"
+  ]
+ },
+ {
+  "date": "2026-11-05 13:42 IST",
+  "usdinr": {
+   "last": 94.64,
+   "date": "2026-11-04"
+  },
+  "dii_net": {
+   "net": -3712.23,
+   "date": "04-Nov-2026"
+  },
+  "fii_net": {
+   "net": 7284.03,
+   "date": "04-Nov-2026"
+  },
+  "headlines": [
+   "Biocon share price rises nearly 6% despite 52% dip in Q2 profit",
+   "Nykaa's Q2 fails to impress Street despite 200% rise in PAT; stock falls 2%",
+   "Sensex stocks Adani Ports, TechM at new highs; Eternal, ICICI Bk near peaks",
+   "₹3 trillion FPI outflows: Samvat 2082 set for worst selling in 17 years",
+   "Physicswallah shares jump 10% post Q2 show: Can earnings sustain momentum?",
+   "Capital Markets index soars 4%; MOFSL, Groww, 360 ONE, BSE zoom up to 7%",
+   "Why can't India simply build bigger strategic oil reserves?",
+   "How astrology became a big bucks business in India",
+   "The problem with cryptocurrency",
+   "Has China's AI bubble already burst?",
+   "The iPhone Duo Crackgate, who came up with the weekend, and more...",
+   "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more..."
   ]
  }
 ]
