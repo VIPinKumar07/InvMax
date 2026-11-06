@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-07 13:01 IST",
-  "usdinr": {
-   "last": 96.42,
-   "date": "2026-10-06"
-  },
-  "dii_net": {
-   "net": 5088.92,
-   "date": "06-Oct-2026"
-  },
-  "fii_net": {
-   "net": -2961.3,
-   "date": "06-Oct-2026"
-  },
-  "headlines": [
-   "RBI hike reinforces stock selection, not broad equity caution: Ajit Mishra",
-   "Axis, AU Bank, PNB: Brokerages identify 5 bank stocks after RBI hikes rate",
-   "RBI's rate cut pre-emptive measure than start of hike cycle: Sujan Hajra",
-   "Monetary Policy shifts gear, lays emphasis on containing supply-side shocks",
-   "Kanohar Electricals soars 20%; stock up 79% from IPO price in three weeks",
-   "RBI turns hawkish; what does it mean fixed-income investors? Experts decode",
-   "Can a new CEO solve HDFC Bank's problems?",
-   "What ails Nike?",
-   "What’s behind the looming global food crisis",
-   "Did K-serials empower Indian women, flying biryani, & more...",
-   "IRDAI wants to shake up insurance, sinking islands, and more...",
-   "Top 10 Companies Acquired by Meta"
-  ]
- },
- {
   "date": "2026-10-08 13:35 IST",
   "usdinr": {
    "last": 96.73,
@@ -867,6 +838,35 @@
    "Has China's AI bubble already burst?",
    "The iPhone Duo Crackgate, who came up with the weekend, and more...",
    "LTCG tax cut on equities on the cards?, Anthropic's IPO, & more..."
+  ]
+ },
+ {
+  "date": "2026-11-06 13:45 IST",
+  "usdinr": {
+   "last": 94.48,
+   "date": "2026-11-05"
+  },
+  "dii_net": {
+   "net": -10444.54,
+   "date": "05-Nov-2026"
+  },
+  "fii_net": {
+   "net": 14974.68,
+   "date": "05-Nov-2026"
+  },
+  "headlines": [
+   "BSE Capital Goods index slips 4%; Thermax, Apar, Astral tank up to 20%",
+   "Dhanteras gold, silver investments grow nearly 4X since 2005: Kotak Neo",
+   "Rupee hits over 6-month high of 94.06 as US dollar softens post midterms",
+   "Gold, silver correction may fuel 15-35% rise by next Dhanteras: Analysts",
+   "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+   "Global investing should not come with extra paperwork: Ashish Kashyap",
+   "Carlsberg's profit margins look great. But...",
+   "Why can't India simply build bigger strategic oil reserves?",
+   "How astrology became a big bucks business in India",
+   "The problem with cryptocurrency",
+   "Has China's AI bubble already burst?",
+   "The iPhone Duo Crackgate, who came up with the weekend, and more..."
   ]
  }
 ]
