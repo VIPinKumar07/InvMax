@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-08 13:35 IST",
-  "usdinr": {
-   "last": 96.73,
-   "date": "2026-10-07"
-  },
-  "dii_net": {
-   "net": 4596.57,
-   "date": "07-Oct-2026"
-  },
-  "fii_net": {
-   "net": -6121.37,
-   "date": "07-Oct-2026"
-  },
-  "headlines": [
-   "Adani group stocks under pressure; Enterprises, Green Energy tank up to 7%",
-   "Sun TV stock on a roll, up 40% in 3 weeks; Elara sets target price at ₹925",
-   "Mastek gains 3% as AI-led Oracle cloud transformation deal lifts stock",
-   "D-St meltdown explained: Sensex tanks 945 pts intraday, Nifty below 22,350",
-   "Fino Payments Bank share price rallies 17% after Q2 business update",
-   "ONGC, NTPC, BDL, BEL, IOC among 13 CPSE stocks to hit 52-week lows on Thurs",
-   "Why is SEBI’s investor protection fund barely being used?",
-   "Can a new CEO solve HDFC Bank's problems?",
-   "What ails Nike?",
-   "What’s behind the looming global food crisis",
-   "Did K-serials empower Indian women, flying biryani, & more...",
-   "IRDAI wants to shake up insurance, sinking islands, and more..."
-  ]
- },
- {
   "date": "2026-10-09 13:14 IST",
   "usdinr": {
    "last": 96.78,
@@ -867,6 +838,35 @@
    "The problem with cryptocurrency",
    "Has China's AI bubble already burst?",
    "The iPhone Duo Crackgate, who came up with the weekend, and more..."
+  ]
+ },
+ {
+  "date": "2026-11-07 13:01 IST",
+  "usdinr": {
+   "last": 93.92,
+   "date": "2026-11-06"
+  },
+  "dii_net": {
+   "net": -5968.7,
+   "date": "06-Nov-2026"
+  },
+  "fii_net": {
+   "net": 13749.82,
+   "date": "06-Nov-2026"
+  },
+  "headlines": [
+   "India should scrap capital gains tax on foreign investors: Edelweiss chief",
+   "Wall Street rebounds as chip stocks rally after heavy AI-related selloff",
+   "WazirX Celebrates Diwali with 50% off Futures Trading Fees in The Big Futures Fest",
+   "China-linked tools used in AI-driven cyberattacks on Indian financial firms",
+   "Samvat 2082: Commodities witness sharp volatility as crude surges",
+   "Best-ever Samvat for IPOs: Record ₹2.23 trillion raised, up 19.6%",
+   "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
+   "Carlsberg's profit margins look great. But...",
+   "Why can't India simply build bigger strategic oil reserves?",
+   "How astrology became a big bucks business in India",
+   "The problem with cryptocurrency",
+   "Has China's AI bubble already burst?"
   ]
  }
 ]
