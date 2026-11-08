@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07 13:00 IST",
-  "generated_utc": "2026-11-07T07:30:41+00:00",
+  "generated_at": "2026-11-08 13:12 IST",
+  "generated_utc": "2026-11-08T07:42:21+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-07 13:00 IST",
+      "asof": "2026-11-08 13:12 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-11-07 13:00 IST",
+      "asof": "2026-11-08 13:12 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-07 13:01 IST",
+      "asof": "2026-11-08 13:13 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-11-07 13:01 IST",
+      "asof": "2026-11-08 13:13 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,50 @@
       }
     },
     "news": {
-      "asof": "2026-11-07 13:01 IST",
+      "asof": "2026-11-08 13:13 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "India should scrap capital gains tax on foreign investors: Edelweiss chief",
-          "url": "https://www.business-standard.com/markets/news/india-should-scrap-equity-tax-on-foreign-investors-says-edelweiss-chief-126110700243_1.html",
-          "published": "Sat, 07 Nov 2026 10:41:08 +0530"
+          "title": "Bullion may remain under pressure as markets track US-Iran war, inflation",
+          "url": "https://www.business-standard.com/markets/commodities/bullion-may-remain-under-pressure-as-markets-track-us-iran-war-inflation-126110800179_1.html",
+          "published": "Sun, 08 Nov 2026 11:47:09 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Wall Street rebounds as chip stocks rally after heavy AI-related selloff",
-          "url": "https://www.business-standard.com/markets/news/wall-street-rebounds-as-chip-stocks-rally-after-heavy-ai-related-selloff-126110700047_1.html",
-          "published": "Sat, 07 Nov 2026 08:24:16 +0530"
+          "title": "AI slump revives Asia's forgotten stock bets, from China to India",
+          "url": "https://www.business-standard.com/markets/news/ai-slump-revives-asia-s-forgotten-stock-bets-from-china-to-india-126110800052_1.html",
+          "published": "Sun, 08 Nov 2026 07:59:44 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "WazirX Celebrates Diwali with 50% off Futures Trading Fees in The Big Futures Fest",
-          "url": "https://www.business-standard.com/content/press-releases-ani/wazirx-celebrates-diwali-with-50-off-futures-trading-fees-in-the-big-futures-fest-126110600987_1.html",
-          "published": "Fri, 06 Nov 2026 14:35:29 +0530"
+          "title": "Muhurat trading: D-St to open for special session on Diwali; check timings",
+          "url": "https://www.business-standard.com/markets/news/muhurat-trading-stock-markets-to-open-for-special-session-on-diwali-check-timings-126110600907_1.html",
+          "published": "Sun, 08 Nov 2026 07:14:18 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "China-linked tools used in AI-driven cyberattacks on Indian financial firms",
-          "url": "https://www.business-standard.com/industry/news/china-linked-tools-used-in-ai-driven-cyberattacks-on-indian-financial-firms-126110500996_1.html",
-          "published": "Fri, 06 Nov 2026 08:20:50 +0530"
+          "title": "Will bulls stay in control during Muhurat trading? Experts decode outlook",
+          "url": "https://www.business-standard.com/markets/news/will-bulls-stay-in-control-during-muhurat-trading-experts-decode-outlook-126110600925_1.html",
+          "published": "Sun, 08 Nov 2026 07:13:01 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Samvat 2082: Commodities witness sharp volatility as crude surges",
-          "url": "https://www.business-standard.com/markets/news/samvat-2082-commodities-witness-sharp-volatility-as-crude-surges-126110601860_1.html",
-          "published": "Fri, 06 Nov 2026 23:34:28 +0530"
+          "title": "Coca-Cola's India bottling arm HCCH files DRHP for 997.5 million-share IPO",
+          "url": "https://www.business-standard.com/markets/ipo/coca-cola-india-bottling-arm-hcch-files-drhp-ipo-99-75-crore-shares-126110700766_1.html",
+          "published": "Sat, 07 Nov 2026 16:08:14 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Best-ever Samvat for IPOs: Record ₹2.23 trillion raised, up 19.6%",
-          "url": "https://www.business-standard.com/markets/ipo/best-ever-samvat-for-ipos-record-2-23-trillion-raised-up-19-6-126110601904_1.html",
-          "published": "Fri, 06 Nov 2026 23:32:09 +0530"
+          "title": "Hindustan Coca-Cola Holdings files draft papers with Sebi for IPO",
+          "url": "https://www.business-standard.com/markets/ipo/hindustan-coca-cola-holdings-files-draft-papers-with-sebi-for-ipo-126110700650_1.html",
+          "published": "Sat, 07 Nov 2026 15:13:49 +0530"
         },
         {
           "source": "Finshots Daily",
@@ -1333,86 +1333,79 @@
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Wall Street grapples with $5.7 trillion rout as AI bets unwind",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-grapples-with-5-7-trillion-rout-as-ai-bets-unwind/articleshow/135628032.cms",
-          "published": "Sat, 07 Nov 2026 11:31:15 +0530"
+          "title": "Diwali turned lucky for these 8 stocks! Investors' wealth more than doubled, returns soar up to 191%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-turned-lucky-for-these-8-stocks-investors-wealth-more-than-doubled-returns-soar-up-to-191/slideshow/135652712.cms",
+          "published": "Sun, 08 Nov 2026 10:58:18 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Patakha stock picks! ICICI Bank, BEL, 6 other stocks with 62% to buy this Samvat 2083. See full list",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/patakha-stock-picks-icici-bank-bel-6-other-stocks-with-62-to-buy-this-samvat-2023-see-full-list/slideshow/135627923.cms",
-          "published": "Sat, 07 Nov 2026 11:13:51 +0530"
+          "title": "Muhurat Trading 2026 Live Updates: Diwali Muhurat Trading 2026; check NSE, BSE and MCX timings, market outlook and key details",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/diwali-muhurat-trading-2026-live-date-time-sensex-nifty-50-stock-market-check-stocks-to-buy-nse-bse/liveblog/135652392.cms",
+          "published": "Sun, 08 Nov 2026 10:55:03 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Diwali shagun ke shares! Angel One selects 8 stocks with up to 50% upside to Buy this Diwali. How many do you own?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-shagun-ke-shares-angel-one-selects-8-stocks-with-up-to-50-upside-to-buy-this-diwali-how-many-do-you-own/slideshow/135626837.cms",
-          "published": "Sat, 07 Nov 2026 10:14:51 +0530"
+          "title": "Cipla Share Price Live Updates: Cipla's Recent Trading Activity",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/cipla-stock-price-livestock-price-today-live-updates-08-nov-2026/liveblog/135651441.cms",
+          "published": "Sun, 08 Nov 2026 10:03:33 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Dollar jumps after strong US payrolls report",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-jumps-after-strong-us-payrolls-report/articleshow/135626197.cms",
-          "published": "Sat, 07 Nov 2026 09:41:35 +0530"
+          "title": "LTIMindtree Share Price Live Updates: LTIMindtree News",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/ltimindtree-share-price-today-live-08-nov-2026/liveblog/135651420.cms",
+          "published": "Sun, 08 Nov 2026 10:02:42 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Gold drops as strong US payrolls boost dollar, yields",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms",
-          "published": "Sat, 07 Nov 2026 09:40:07 +0530"
+          "title": "Bajaj Auto Share Price Live Updates: Bajaj Auto's Price Movement and Volatility",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/bajaj-auto-share-price-today-live-updates-08-nov-2026/liveblog/135651405.cms",
+          "published": "Sun, 08 Nov 2026 10:02:29 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Risk-off mood sweeps European stocks as AI concerns deepen",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/risk-off-mood-sweeps-european-stocks-as-ai-concerns-deepen/articleshow/135626153.cms",
-          "published": "Sat, 07 Nov 2026 09:35:44 +0530"
+          "title": "Tata Steel Share Price Live Updates: Tata Steel's Price and Performance Insights",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/tata-steel-stock-price-today-live-08-nov-2026/liveblog/135651372.cms",
+          "published": "Sun, 08 Nov 2026 10:01:25 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Rates Blow-Up Triggers Rush for Cash at Austrian Property Funds",
-          "url": "https://www.livemint.com/market/rates-blow-up-triggers-rush-for-cash-at-austrian-property-funds-11794035553993.html",
-          "published": "Sat, 07 Nov 2026 12:42:33 +0530"
+          "title": "Muhurat Trading 2026 on Diwali: From trade settlement to delivery, key rules investors should know about special trade",
+          "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-on-diwali-from-trade-settlement-to-delivery-key-rules-investors-should-know-about-special-trade-11794122357593.html",
+          "published": "Sun, 08 Nov 2026 13:09:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Muhurat trading 2026: Ganesh Dongre of Anand Rathi sees Sensex at 1,00,000 next Diwali? Shares 3 Samvat 2083 stock picks",
-          "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-ganesh-dongre-of-anand-rathi-sees-sensex-at-1-00-000-next-diwali-shares-3-samvat-2083-stock-picks-11794029018255.html",
-          "published": "Sat, 07 Nov 2026 12:28:33 +0530"
+          "title": "Diwali Muhurat Trading stock picks 2026: ICICI Bank, PVR Inox, Eternal among Geojit's 10 shares | Samvat 2083",
+          "url": "https://www.livemint.com/market/stock-market-news/diwali-muhurat-trading-stock-picks-2026-icici-bank-pvr-inox-eternal-among-geojits-10-shares-samvat-2083-11794118050114.html",
+          "published": "Sun, 08 Nov 2026 12:54:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Diwali Fireworks! Nifty surges over 8% in Nov 2-6 week, best in 6 yrs after US Midterm Election results; RIL soars 13%",
-          "url": "https://www.livemint.com/market/stock-market-news/diwali-fireworks-nifty-surges-over-8-in-nov-2-6-week-best-in-6-yrs-after-us-midterm-election-results-ril-soars-13-11794030783772.html",
-          "published": "Sat, 07 Nov 2026 12:07:46 +0530"
+          "title": "Top 12 Diwali Muhurat Trading stock picks 2026: Up to 41% gain! Buy Jio Platforms, Adani Ports, 10 more by KC Securities",
+          "url": "https://www.livemint.com/market/stock-market-news/top-12-diwali-muhurat-trading-stock-picks-2026-up-to-41-gain-buy-jio-platforms-adani-ports-10-more-by-kc-securities-11794119726963.html",
+          "published": "Sun, 08 Nov 2026 12:45:06 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Hindalco shares jump 22% in a year: Should you buy or sell after Q2 results 2026? What brokerages say, price targets",
-          "url": "https://www.livemint.com/market/stock-market-news/hindalco-shares-jump-22-in-a-year-should-you-buy-or-sell-after-q2-results-2026-what-brokerages-say-price-targets-11794025738874.html",
-          "published": "Sat, 07 Nov 2026 11:14:22 +0530"
+          "title": "Wheat Hits Lowest Since June Ahead of Black Sea Peace Talks",
+          "url": "https://www.livemint.com/market/wheat-hits-lowest-since-june-ahead-of-black-sea-peace-talks-11794122080754.html",
+          "published": "Sun, 08 Nov 2026 12:44:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Muhurat Trading Strategy Diwali Day 2026: What to do, what to buy, what to avoid? Trading guide for Nov 8 - Key levels",
-          "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-strategy-diwali-day-2026-what-to-do-what-to-buy-what-to-avoid-trading-guide-for-nov-8-key-levels-11794028047150.html",
-          "published": "Sat, 07 Nov 2026 10:57:35 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Muhurat trading 2026: Top 3 Samvat 2083 stock picks by Sumeet Bagadia — Adani Ports, Sun Pharma, Kotak Bank; targets, SL",
-          "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-2026-top-3-samvat-2083-stock-picks-by-sumeet-bagadia-adani-ports-sun-pharma-kotak-bank-targets-sl-11794025429338.html",
-          "published": "Sat, 07 Nov 2026 10:36:34 +0530"
+          "title": "Muhurat Trading Stock Picks 2026 for Diwali Special Session: HDFC AMC, SBI, TechM, 3 others | Upside seen up to 35%",
+          "url": "https://www.livemint.com/market/stock-market-news/muhurat-trading-stock-picks-2026-for-diwali-special-session-hdfc-amc-sbi-techm-3-others-upside-seen-up-to-35-11794118582830.html",
+          "published": "Sun, 08 Nov 2026 12:23:30 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1451,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-07 13:01 IST",
+      "checked_at": "2026-11-08 13:13 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-07 13:01 IST",
+      "generated_at": "2026-11-08 13:13 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs58,556 Cr · 75% of days positive.",
+        "reading": "20-day cumulative: +Rs71,140 Cr · 75% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1511,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs58,556 Cr · 75% of days positive.",
+          "reading": "20-day cumulative: +Rs71,140 Cr · 75% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1546,9 +1539,9 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: mildly negative on balance",
-          "reading": "20-day cumulative: Rs-5,768 Cr · 50% of days positive.",
+          "reading": "20-day cumulative: Rs-8,076 Cr · 50% of days positive.",
           "direction": "bearish",
-          "strength": 62,
+          "strength": 66,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1588,7 +1581,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs58,556 Cr · 75% of days positive.",
+          "reading": "20-day cumulative: +Rs71,140 Cr · 75% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1600,8 +1593,8 @@
           "id": "flow_dii_net",
           "label": "Domestic flows",
           "direction": "bearish",
-          "strength": 62,
-          "reading": "20-day cumulative: Rs-5,768 Cr · 50% of days positive.",
+          "strength": 66,
+          "reading": "20-day cumulative: Rs-8,076 Cr · 50% of days positive.",
           "conclusion": "Domestic flows: mildly negative on balance",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1607,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-07 13:01 IST",
+    "date": "2026-11-08 13:13 IST",
     "usdinr": {
       "last": 93.92,
       "date": "2026-11-06"
@@ -1628,12 +1621,12 @@
       "date": "06-Nov-2026"
     },
     "headlines": [
-      "India should scrap capital gains tax on foreign investors: Edelweiss chief",
-      "Wall Street rebounds as chip stocks rally after heavy AI-related selloff",
-      "WazirX Celebrates Diwali with 50% off Futures Trading Fees in The Big Futures Fest",
-      "China-linked tools used in AI-driven cyberattacks on Indian financial firms",
-      "Samvat 2082: Commodities witness sharp volatility as crude surges",
-      "Best-ever Samvat for IPOs: Record ₹2.23 trillion raised, up 19.6%",
+      "Bullion may remain under pressure as markets track US-Iran war, inflation",
+      "AI slump revives Asia's forgotten stock bets, from China to India",
+      "Muhurat trading: D-St to open for special session on Diwali; check timings",
+      "Will bulls stay in control during Muhurat trading? Experts decode outlook",
+      "Coca-Cola's India bottling arm HCCH files DRHP for 997.5 million-share IPO",
+      "Hindustan Coca-Cola Holdings files draft papers with Sebi for IPO",
       "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
       "Carlsberg's profit margins look great. But...",
       "Why can't India simply build bigger strategic oil reserves?",
@@ -1645,26 +1638,16 @@
   "changes": {
     "material": [
       {
-        "kind": "fx",
-        "label": "USD/INR",
-        "detail": "₹93.92 (-0.59%)"
-      },
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-5,969 Cr"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹93.92 (-0.59%)"
+        "detail": "₹93.92 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1679,18 +1662,17 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "6 new"
       }
     ],
-    "since": "2026-11-06 13:45 IST",
+    "since": "2026-11-07 13:01 IST",
     "new_headlines": [
-      "India should scrap capital gains tax on foreign investors: Edelweiss chief",
-      "Wall Street rebounds as chip stocks rally after heavy AI-related selloff",
-      "WazirX Celebrates Diwali with 50% off Futures Trading Fees in The Big Futures Fest",
-      "China-linked tools used in AI-driven cyberattacks on Indian financial firms",
-      "Samvat 2082: Commodities witness sharp volatility as crude surges",
-      "Best-ever Samvat for IPOs: Record ₹2.23 trillion raised, up 19.6%",
-      "Carlsberg's impressive margins, Binance's $6 billion heist, & more..."
+      "Bullion may remain under pressure as markets track US-Iran war, inflation",
+      "AI slump revives Asia's forgotten stock bets, from China to India",
+      "Muhurat trading: D-St to open for special session on Diwali; check timings",
+      "Will bulls stay in control during Muhurat trading? Experts decode outlook",
+      "Coca-Cola's India bottling arm HCCH files DRHP for 997.5 million-share IPO",
+      "Hindustan Coca-Cola Holdings files draft papers with Sebi for IPO"
     ]
   },
   "summary": {
