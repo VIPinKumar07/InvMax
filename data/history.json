@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-10 12:59 IST",
-  "usdinr": {
-   "last": 96.73,
-   "date": "2026-10-09"
-  },
-  "dii_net": {
-   "net": 4743.26,
-   "date": "09-Oct-2026"
-  },
-  "fii_net": {
-   "net": -3568.9,
-   "date": "09-Oct-2026"
-  },
-  "headlines": [
-   "WazirX futures trading volume jumps 236% in Q3 as exchange expands AI tools",
-   "Nvidia-backed Firmus scraps $5 bn Australia IPO amid growing AI scrutiny",
-   "Co-payments and deductibles in health insurance: Are they right for you?",
-   "IT stocks lead Nifty rebound as benchmark snaps eight-week losing streak",
-   "TCS earnings lift IT stocks as demand recovery hopes boost market mood",
-   "10% health insurance co-pay could push patients' bill burden to 15-19%",
-   "ESDS Solution's volatile stock, Nike's problems, and more...",
-   "What’s really going on with ESDS?",
-   "Why is SEBI’s investor protection fund barely being used?",
-   "Can a new CEO solve HDFC Bank's problems?",
-   "What ails Nike?",
-   "What’s behind the looming global food crisis"
-  ]
- },
- {
   "date": "2026-10-11 13:22 IST",
   "usdinr": {
    "last": 96.73,
@@ -867,6 +838,35 @@
    "How astrology became a big bucks business in India",
    "The problem with cryptocurrency",
    "Has China's AI bubble already burst?"
+  ]
+ },
+ {
+  "date": "2026-11-09 13:53 IST",
+  "usdinr": {
+   "last": 93.92,
+   "date": "2026-11-06"
+  },
+  "dii_net": {
+   "net": -700.31,
+   "date": "08-Nov-2026"
+  },
+  "fii_net": {
+   "net": -0.25,
+   "date": "08-Nov-2026"
+  },
+  "headlines": [
+   "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
+   "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops ₹500 cr",
+   "Pharma shares shine: Sai, Gland, Divi's, Laurus, Glenmark surge up to 9%",
+   "Gold, silver extend gains as softer oil prices ease inflation concerns",
+   "Multibagger stock: Sai Life Sciences surges 9% to record high after Q2 nos",
+   "Jubilant FoodWorks dips 5% post Q2, but brokerages remain firm; here's why",
+   "Why is China paying its people to shop?",
+   "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
+   "Carlsberg's profit margins look great. But...",
+   "Why can't India simply build bigger strategic oil reserves?",
+   "How astrology became a big bucks business in India",
+   "The problem with cryptocurrency"
   ]
  }
 ]
