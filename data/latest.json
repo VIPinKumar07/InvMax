@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09 13:52 IST",
-  "generated_utc": "2026-11-09T08:22:50+00:00",
+  "generated_at": "2026-11-10 14:09 IST",
+  "generated_utc": "2026-11-10T08:39:11+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-09 13:52 IST",
+      "asof": "2026-11-10 14:09 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-11-06",
+        "asof": "2026-11-09",
         "rates": {
-          "EUR": 0.89566,
-          "GBP": 0.74711,
-          "INR": 93.92,
-          "JPY": 158.33
+          "EUR": 0.89342,
+          "GBP": 0.74538,
+          "INR": 93.93,
+          "JPY": 157.95
         },
         "usdinr_history": [
-          {
-            "date": "2025-11-07",
-            "v": 88.68
-          },
           {
             "date": "2025-11-10",
             "v": 88.68
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-11-06",
             "v": 93.92
+          },
+          {
+            "date": "2026-11-09",
+            "v": 93.93
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-11-09 13:52 IST",
+      "asof": "2026-11-10 14:09 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.3204,
-          "date": "06-11-2026",
-          "ret1y_pct": -2.12,
+          "nav": 107.4135,
+          "date": "09-11-2026",
+          "ret1y_pct": -2.08,
           "series": [
-            103.7314,
-            106.0393,
-            107.4878,
-            107.4465,
-            108.1161,
-            108.0083,
-            108.4428,
-            109.5673,
-            110.1924,
-            110.2079,
-            110.1078,
-            111.0069,
-            103.8813,
-            104.8043,
-            105.107,
-            106.7977,
-            107.0167,
-            107.1574,
-            107.0285,
-            107.3204
+            103.8183,
+            106.1959,
+            107.5193,
+            107.4384,
+            108.1729,
+            108.0899,
+            108.5131,
+            109.6125,
+            110.2658,
+            110.2247,
+            110.0855,
+            111.0261,
+            103.9142,
+            104.8762,
+            105.3084,
+            106.5587,
+            107.0834,
+            107.2101,
+            106.9663,
+            107.4135
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 114.0728,
-          "date": "06-11-2026",
-          "ret1y_pct": 2.79,
+          "nav": 114.9682,
+          "date": "09-11-2026",
+          "ret1y_pct": 3.42,
           "series": [
-            101.0307,
-            104.8398,
-            107.0655,
-            109.8742,
-            107.3597,
-            108.2047,
-            108.1386,
-            110.4409,
-            110.8486,
-            111.1802,
-            109.288,
-            106.7297,
-            99.3876,
-            107.15,
-            102.4845,
-            107.9598,
-            113.1834,
-            111.6067,
-            106.0207,
-            114.0728
+            100.777,
+            103.5049,
+            107.5533,
+            110.133,
+            108.1149,
+            108.7666,
+            108.9326,
+            110.4431,
+            111.1487,
+            111.2492,
+            109.0137,
+            105.405,
+            103.2833,
+            105.6066,
+            103.5259,
+            108.7362,
+            112.7941,
+            111.2363,
+            104.0104,
+            114.9682
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 226.045,
-          "date": "06-11-2026",
-          "ret1y_pct": 1.21,
+          "nav": 227.102,
+          "date": "09-11-2026",
+          "ret1y_pct": 1.61,
           "series": [
-            191.35,
-            195.999,
-            207.167,
-            213.831,
-            214.192,
-            211.708,
-            213.332,
-            222.577,
-            225.84,
-            224.745,
-            218.917,
-            214.603,
-            204.438,
-            223.738,
-            218.0,
-            226.564,
-            235.895,
-            234.584,
-            220.873,
-            226.045
+            189.936,
+            196.381,
+            207.48,
+            214.426,
+            213.152,
+            210.116,
+            210.143,
+            221.524,
+            225.889,
+            225.02,
+            224.323,
+            217.045,
+            205.14,
+            223.895,
+            220.409,
+            228.93,
+            236.719,
+            233.47,
+            217.078,
+            227.102
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 245.0582,
-          "date": "06-11-2026",
-          "ret1y_pct": -2.09,
+          "nav": 245.1928,
+          "date": "09-11-2026",
+          "ret1y_pct": -1.4,
           "series": [
-            228.1219,
-            234.4494,
-            238.783,
-            246.8836,
-            240.7198,
-            239.9102,
-            241.6453,
-            251.4103,
-            254.3716,
-            253.8755,
-            243.864,
-            238.033,
-            223.2964,
-            236.491,
-            225.2052,
-            233.2615,
-            241.0808,
-            233.9471,
-            221.2109,
-            245.0582
+            226.3685,
+            234.5196,
+            239.5762,
+            248.1152,
+            239.239,
+            237.86,
+            239.3506,
+            249.8968,
+            252.975,
+            254.0383,
+            250.0704,
+            240.8058,
+            224.7936,
+            235.0262,
+            226.3617,
+            234.0591,
+            240.4883,
+            232.7811,
+            217.5709,
+            245.1928
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-09 13:53 IST",
+      "asof": "2026-11-10 14:09 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-11-09 13:53 IST",
+      "asof": "2026-11-10 14:09 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "08-Nov-2026",
-          "buy": 331.11,
-          "sell": 1031.42,
-          "net": -700.31
+          "date": "09-Nov-2026",
+          "buy": 12764.97,
+          "sell": 19937.5,
+          "net": -7172.53
         },
         "fii": {
-          "date": "08-Nov-2026",
-          "buy": 52.39,
-          "sell": 52.64,
-          "net": -0.25
+          "date": "09-Nov-2026",
+          "buy": 20310.99,
+          "sell": 13098.77,
+          "net": 7212.22
         }
       }
     },
     "news": {
-      "asof": "2026-11-09 13:53 IST",
+      "asof": "2026-11-10 14:10 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
-          "url": "https://www.business-standard.com/markets/news/zee-entertainment-share-price-extends-gains-rises-11-in-2-days-as-board-to-mull-buyback-dividend-126110900445_1.html",
-          "published": "Mon, 09 Nov 2026 13:21:54 +0530"
+          "title": "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
+          "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-amid-falling-oil-prices-on-hopes-of-us-iran-talks-126111000080_1.html",
+          "published": "Tue, 10 Nov 2026 09:11:31 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops ₹500 cr",
-          "url": "https://www.business-standard.com/markets/news/pvr-inox-rises-3-to-52-wk-high-as-ramayana-s-box-office-biz-tops-500-cr-126110900453_1.html",
-          "published": "Mon, 09 Nov 2026 13:19:35 +0530"
+          "title": "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
+          "url": "https://www.business-standard.com/markets/news/stock-market-holiday-today-nse-bse-to-remain-closed-for-diwali-balipratipada-126111000071_1.html",
+          "published": "Tue, 10 Nov 2026 07:47:22 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Pharma shares shine: Sai, Gland, Divi's, Laurus, Glenmark surge up to 9%",
-          "url": "https://www.business-standard.com/markets/news/pharma-shares-shine-sai-gland-divi-s-laurus-glenmark-surge-up-to-9-126110900372_1.html",
-          "published": "Mon, 09 Nov 2026 12:23:39 +0530"
+          "title": "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
+          "url": "https://www.business-standard.com/markets/news/hsbc-upgrades-indian-equities-to-overweight-cuts-china-to-neutral-126110901244_1.html",
+          "published": "Mon, 09 Nov 2026 20:37:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Gold, silver extend gains as softer oil prices ease inflation concerns",
-          "url": "https://www.business-standard.com/markets/commodities/gold-silver-extend-gains-as-softer-oil-prices-ease-inflation-concerns-126110900378_1.html",
-          "published": "Mon, 09 Nov 2026 12:10:43 +0530"
+          "title": "How to choose a foreign broker? Check the plumbing, not just the app",
+          "url": "https://www.business-standard.com/markets/news/how-to-choose-a-foreign-broker-check-the-plumbing-not-just-the-app-126110901189_1.html",
+          "published": "Mon, 09 Nov 2026 19:54:39 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Multibagger stock: Sai Life Sciences surges 9% to record high after Q2 nos",
-          "url": "https://www.business-standard.com/markets/news/multibagger-stock-sai-life-sciences-surges-9-to-record-high-after-q2-nos-126110900299_1.html",
-          "published": "Mon, 09 Nov 2026 11:38:33 +0530"
+          "title": "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
+          "url": "https://www.business-standard.com/technology/artificial-intelligence/nse-deploys-liquid-cooling-for-ai-infra-plans-over-80-gpus-this-quarter-126110900780_1.html",
+          "published": "Mon, 09 Nov 2026 17:09:26 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Jubilant FoodWorks dips 5% post Q2, but brokerages remain firm; here's why",
-          "url": "https://www.business-standard.com/markets/news/jubilant-foodworks-share-price-dips-5-post-q2-but-brokerages-remain-firm-here-s-why-126110900280_1.html",
-          "published": "Mon, 09 Nov 2026 11:24:15 +0530"
+          "title": "IFSCA may let researchers in GIFT City to launch model portfolios",
+          "url": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
+          "published": "Mon, 09 Nov 2026 17:00:22 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "How startups are rewriting the defence industry",
+          "url": "https://finshots.in/archive/startups-rewriting-defence-industry/",
+          "published": "Tue, 10 Nov 2026 01:30:33 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Wed, 04 Nov 2026 01:30:30 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The problem with cryptocurrency",
-          "url": "https://finshots.in/archive/problem-with-cryptocurrency/",
-          "published": "Tue, 03 Nov 2026 01:30:08 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Why Rocket Lab shares fell despite record revenue and booming Neutron demand",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
+          "published": "Tue, 10 Nov 2026 11:47:40 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Indian bonds drift with oil; inflation data in focus",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms",
-          "published": "Mon, 09 Nov 2026 13:03:21 +0530"
+          "title": "Why The Trade Desk stock surged 15% despite revenue decline",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-the-trade-desk-stock-surged-15-despite-revenue-decline/slideshow/135701057.cms",
+          "published": "Tue, 10 Nov 2026 11:01:01 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135674705.cms",
-          "published": "Mon, 09 Nov 2026 13:00:59 +0530"
+          "title": "Anthropic plans IPO live stream with Amodei, JPMorgan CEO Dimon",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-plans-ipo-live-stream-with-amodei-jpmorgan-ceo-dimon/articleshow/135699137.cms",
+          "published": "Tue, 10 Nov 2026 09:54:56 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nvidia stock in focus: 3 key risks after Jensen Huang probe",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-stock-in-focus-3-key-risks-after-jensen-huang-probe/slideshow/135674350.cms",
-          "published": "Mon, 09 Nov 2026 12:13:18 +0530"
+          "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms",
+          "published": "Tue, 10 Nov 2026 07:48:28 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nuvama Wealth Management Q2 Results: Profit rises 19% YoY to Rs 304 crore",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nuvama-wealth-management-q2-results-profit-rises-19-yoy-to-rs-304-crore/articleshow/135673703.cms",
-          "published": "Mon, 09 Nov 2026 12:09:56 +0530"
+          "title": "RBI said to query bank valuations of some bond derivative trades",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-said-to-query-bank-valuations-of-some-bond-derivative-trades/articleshow/135696624.cms",
+          "published": "Tue, 10 Nov 2026 07:32:12 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Global Markets: 5 key themes to watch this week",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-5-key-themes-to-watch-this-week/slideshow/135673587.cms",
-          "published": "Mon, 09 Nov 2026 11:44:18 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Nvidia falls about 3% in after-hours and perpetual futures trade",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-falls-about-3-in-after-hours-and-perpetual-futures-trade/articleshow/135671212.cms",
-          "published": "Mon, 09 Nov 2026 10:20:48 +0530"
+          "title": "Oil falls as Trump downplays prospect of escalation with Iran",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/articleshow/135696497.cms",
+          "published": "Tue, 10 Nov 2026 07:15:29 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nifty’s 25,000 hurdle: Bulls see breakout, bears dig in for weekly expiry today",
-          "url": "https://www.livemint.com/market/stock-market-news/india-stock-markets-today-nifty-sense-levels-call-options-put-options-11794206566782.html",
-          "published": "Mon, 09 Nov 2026 13:38:56 +0530"
+          "title": "Tata Steel’s domestic business shines in Q2; Netherlands uncertainty poses risk",
+          "url": "https://www.livemint.com/market/mark-to-market/tata-steel-domestic-business-q2-netherlands-uncertainty-risk-11794295394886.html",
+          "published": "Tue, 10 Nov 2026 14:03:19 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Why Sun Pharma Advanced Research shares surge 11% despite weak sentiments on D-Street; what's boosting medical stock?",
-          "url": "https://www.livemint.com/market/stock-market-news/why-sun-pharma-advanced-research-shares-surge-11-despite-weak-sentiments-on-d-street-whats-boosting-medical-stock-11794207169769.html",
-          "published": "Mon, 09 Nov 2026 13:10:58 +0530"
+          "title": "Wall Street Boom! US stocks attract massive $2.1 trillion inflows since 2020; Asia, Europe lag behind - Kobeissi Letter",
+          "url": "https://www.livemint.com/market/stock-market-news/wall-street-boom-us-stocks-attract-massive-2-1-trillion-inflows-since-2020-asia-europe-lag-behind-kobeissi-letter-11794297220502.html",
+          "published": "Tue, 10 Nov 2026 13:57:47 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "47% rally in one month! Infra stock under ₹100 inches close to 52-week high after announcement of Q2 Results 2026 date",
-          "url": "https://www.livemint.com/market/stock-market-news/47-rally-in-one-month-infra-stock-under-rs-100-inches-close-to-52-week-high-after-announcement-of-q2-results-2026-date-11794207997999.html",
-          "published": "Mon, 09 Nov 2026 12:40:10 +0530"
+          "title": "FPIs return to India stock markets with ₹53.7k cr inflows in Nov so far - Attraction point for investors? What's next?",
+          "url": "https://www.livemint.com/market/stock-market-news/fpis-return-to-india-stock-markets-with-rs-53-7k-cr-inflows-in-nov-so-far-attraction-point-for-investors-whats-next-11794297257316.html",
+          "published": "Tue, 10 Nov 2026 13:55:55 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "HFCL shares locked in 5% lower circuit, down 21% in a month despite record Q2 profit: What lies ahead?",
-          "url": "https://www.livemint.com/market/stock-market-news/hfcl-shares-locked-in-5-lower-circuit-down-21-in-a-month-despite-record-q2-profit-what-lies-ahead-11794206445672.html",
-          "published": "Mon, 09 Nov 2026 12:32:11 +0530"
+          "title": "Why Gokaldas Exports shares will be in top focus tomorrow; what it said in exchange filing? Stock down over 5% in 5 days",
+          "url": "https://www.livemint.com/market/stock-market-news/why-gokaldas-exports-shares-will-be-in-top-focus-tomorrow-what-it-said-in-exchange-filing-stock-down-over-5-in-5-days-11794295409461.html",
+          "published": "Tue, 10 Nov 2026 13:28:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Q2 results effect? Small-cap stock under ₹50 MIC Electronics rises 3% despite weak market trends. Do you own?",
-          "url": "https://www.livemint.com/market/stock-market-news/q2-results-effect-small-cap-stock-under-50-mic-electronics-rises-3-despite-weak-market-trends-do-you-own-11794204057991.html",
-          "published": "Mon, 09 Nov 2026 12:05:22 +0530"
+          "title": "Dividend Stocks Record Date Alert 12 Nov Thursday: Bayer CropScience, HUL, ONGC, more; full list | Amount, key dates",
+          "url": "https://www.livemint.com/market/stock-market-news/dividend-stocks-record-date-alert-12-nov-thursday-bayer-cropscience-hul-ongc-more-full-list-amount-key-dates-11794291448718.html",
+          "published": "Tue, 10 Nov 2026 13:22:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Coal India, IOCL, Vedanta to BPCL: What dividends mean for the Indian stock market amid bull trend buzz? Experts decode",
-          "url": "https://www.livemint.com/market/stock-market-news/coal-india-iocl-vedanta-to-bpcl-what-dividends-mean-for-the-indian-stock-market-amid-bull-trend-buzz-experts-decode-11794196051354.html",
-          "published": "Mon, 09 Nov 2026 12:04:34 +0530"
+          "title": "Retail investors shed stocks, but crowd into Reliance, HDFC Bank",
+          "url": "https://www.livemint.com/market/stock-market-news/retail-investors-reliance-hdfc-bank-fpis-stock-markets-india-11794288650697.html",
+          "published": "Tue, 10 Nov 2026 12:51:45 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-09 13:53 IST",
+      "checked_at": "2026-11-10 14:10 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-09 13:53 IST",
+      "generated_at": "2026-11-10 14:10 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs72,289 Cr · 75% of days positive.",
+        "reading": "20-day cumulative: +Rs80,650 Cr · 80% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,8 +1518,22 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs72,289 Cr · 75% of days positive.",
+          "reading": "20-day cumulative: +Rs80,650 Cr · 80% of days positive.",
           "direction": "bullish",
+          "strength": 92,
+          "rule": "20-day cumulative net flow + share of positive days",
+          "source": {
+            "name": "NSE FII/DII (accumulated)",
+            "url": "https://www.nseindia.com/reports/fii-dii"
+          }
+        },
+        {
+          "scope": "regime",
+          "asset": "Domestic flows",
+          "label": "Domestic flows",
+          "conclusion": "Domestic flows: mildly negative on balance",
+          "reading": "20-day cumulative: Rs-22,351 Cr · 40% of days positive.",
+          "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1532,27 +1546,13 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee strengthening — supportive backdrop",
-          "reading": "USD/INR moved -3.0% over the last month (now 93.92).",
+          "reading": "USD/INR moved -2.9% over the last month (now 93.93).",
           "direction": "bullish",
           "strength": 90,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
             "url": "https://www.frankfurter.app/"
-          }
-        },
-        {
-          "scope": "regime",
-          "asset": "Domestic flows",
-          "label": "Domestic flows",
-          "conclusion": "Domestic flows: mildly negative on balance",
-          "reading": "20-day cumulative: Rs-11,977 Cr · 45% of days positive.",
-          "direction": "bearish",
-          "strength": 74,
-          "rule": "20-day cumulative net flow + share of positive days",
-          "source": {
-            "name": "NSE FII/DII (accumulated)",
-            "url": "https://www.nseindia.com/reports/fii-dii"
           }
         }
       ],
@@ -1562,7 +1562,7 @@
           "label": "Rupee",
           "direction": "bullish",
           "strength": 90,
-          "reading": "USD/INR moved -3.0% over the last month (now 93.92).",
+          "reading": "USD/INR moved -2.9% over the last month (now 93.93).",
           "conclusion": "Rupee strengthening — supportive backdrop",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs72,289 Cr · 75% of days positive.",
+          "reading": "20-day cumulative: +Rs80,650 Cr · 80% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1600,8 +1600,8 @@
           "id": "flow_dii_net",
           "label": "Domestic flows",
           "direction": "bearish",
-          "strength": 74,
-          "reading": "20-day cumulative: Rs-11,977 Cr · 45% of days positive.",
+          "strength": 92,
+          "reading": "20-day cumulative: Rs-22,351 Cr · 40% of days positive.",
           "conclusion": "Domestic flows: mildly negative on balance",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,32 +1614,32 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-09 13:53 IST",
+    "date": "2026-11-10 14:10 IST",
     "usdinr": {
-      "last": 93.92,
-      "date": "2026-11-06"
+      "last": 93.93,
+      "date": "2026-11-09"
     },
     "dii_net": {
-      "net": -700.31,
-      "date": "08-Nov-2026"
+      "net": -7172.53,
+      "date": "09-Nov-2026"
     },
     "fii_net": {
-      "net": -0.25,
-      "date": "08-Nov-2026"
+      "net": 7212.22,
+      "date": "09-Nov-2026"
     },
     "headlines": [
-      "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
-      "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops ₹500 cr",
-      "Pharma shares shine: Sai, Gland, Divi's, Laurus, Glenmark surge up to 9%",
-      "Gold, silver extend gains as softer oil prices ease inflation concerns",
-      "Multibagger stock: Sai Life Sciences surges 9% to record high after Q2 nos",
-      "Jubilant FoodWorks dips 5% post Q2, but brokerages remain firm; here's why",
+      "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
+      "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
+      "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
+      "How to choose a foreign broker? Check the plumbing, not just the app",
+      "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
+      "IFSCA may let researchers in GIFT City to launch model portfolios",
+      "How startups are rewriting the defence industry",
       "Why is China paying its people to shop?",
       "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
       "Carlsberg's profit margins look great. But...",
       "Why can't India simply build bigger strategic oil reserves?",
-      "How astrology became a big bucks business in India",
-      "The problem with cryptocurrency"
+      "How astrology became a big bucks business in India"
     ]
   },
   "changes": {
@@ -1647,12 +1647,12 @@
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-700 Cr"
+        "detail": "₹-7,173 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-0 Cr — direction flipped"
+        "detail": "₹7,212 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1664,17 +1664,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹93.92 (+0.00%)"
+        "detail": "₹93.93 (+0.01%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-700 Cr"
+        "detail": "₹-7,173 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹-0 Cr — direction flipped"
+        "detail": "₹7,212 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1682,15 +1682,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-11-08 13:13 IST",
+    "since": "2026-11-09 13:53 IST",
     "new_headlines": [
-      "ZEEL extends gains, rises 11% in 2 days as board to mull buyback, dividend",
-      "PVR Inox rises 3% to 52-wk high as Ramayana's box-office biz tops ₹500 cr",
-      "Pharma shares shine: Sai, Gland, Divi's, Laurus, Glenmark surge up to 9%",
-      "Gold, silver extend gains as softer oil prices ease inflation concerns",
-      "Multibagger stock: Sai Life Sciences surges 9% to record high after Q2 nos",
-      "Jubilant FoodWorks dips 5% post Q2, but brokerages remain firm; here's why",
-      "Why is China paying its people to shop?"
+      "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
+      "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
+      "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
+      "How to choose a foreign broker? Check the plumbing, not just the app",
+      "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
+      "IFSCA may let researchers in GIFT City to launch model portfolios",
+      "How startups are rewriting the defence industry"
     ]
   },
   "summary": {

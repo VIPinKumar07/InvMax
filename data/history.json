@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-11 13:22 IST",
-  "usdinr": {
-   "last": 96.73,
-   "date": "2026-10-09"
-  },
-  "dii_net": {
-   "net": 4743.26,
-   "date": "09-Oct-2026"
-  },
-  "fii_net": {
-   "net": -3568.9,
-   "date": "09-Oct-2026"
-  },
-  "headlines": [
-   "IPO rush continues: Jio, Zetwerk among cos set to tap primary market in Oct",
-   "Sebi to issue closing auction guidelines in a week: Tuhin Kanta Pandey",
-   "WazirX futures trading volume jumps 236% in Q3 as exchange expands AI tools",
-   "Nvidia-backed Firmus scraps $5 bn Australia IPO amid growing AI scrutiny",
-   "Co-payments and deductibles in health insurance: Are they right for you?",
-   "IT stocks lead Nifty rebound as benchmark snaps eight-week losing streak",
-   "How a fistfight helped fix your eyesight and more...",
-   "ESDS Solution's volatile stock, Nike's problems, and more...",
-   "What’s really going on with ESDS?",
-   "Why is SEBI’s investor protection fund barely being used?",
-   "Can a new CEO solve HDFC Bank's problems?",
-   "What ails Nike?"
-  ]
- },
- {
   "date": "2026-10-12 13:13 IST",
   "usdinr": {
    "last": 96.73,
@@ -867,6 +838,35 @@
    "Why can't India simply build bigger strategic oil reserves?",
    "How astrology became a big bucks business in India",
    "The problem with cryptocurrency"
+  ]
+ },
+ {
+  "date": "2026-11-10 14:10 IST",
+  "usdinr": {
+   "last": 93.93,
+   "date": "2026-11-09"
+  },
+  "dii_net": {
+   "net": -7172.53,
+   "date": "09-Nov-2026"
+  },
+  "fii_net": {
+   "net": 7212.22,
+   "date": "09-Nov-2026"
+  },
+  "headlines": [
+   "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
+   "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
+   "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
+   "How to choose a foreign broker? Check the plumbing, not just the app",
+   "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
+   "IFSCA may let researchers in GIFT City to launch model portfolios",
+   "How startups are rewriting the defence industry",
+   "Why is China paying its people to shop?",
+   "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
+   "Carlsberg's profit margins look great. But...",
+   "Why can't India simply build bigger strategic oil reserves?",
+   "How astrology became a big bucks business in India"
   ]
  }
 ]
