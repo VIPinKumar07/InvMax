@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10 14:09 IST",
-  "generated_utc": "2026-11-10T08:39:11+00:00",
+  "generated_at": "2026-11-11 13:29 IST",
+  "generated_utc": "2026-11-11T07:59:38+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-10 14:09 IST",
+      "asof": "2026-11-11 13:29 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-11-09",
+        "asof": "2026-11-10",
         "rates": {
-          "EUR": 0.89342,
-          "GBP": 0.74538,
+          "EUR": 0.89174,
+          "GBP": 0.74501,
           "INR": 93.93,
-          "JPY": 157.95
+          "JPY": 158.18
         },
         "usdinr_history": [
-          {
-            "date": "2025-11-10",
-            "v": 88.68
-          },
           {
             "date": "2025-11-11",
             "v": 88.49
@@ -1071,12 +1067,16 @@
           {
             "date": "2026-11-09",
             "v": 93.93
+          },
+          {
+            "date": "2026-11-10",
+            "v": 93.93
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-11-10 14:09 IST",
+      "asof": "2026-11-11 13:29 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-10 14:09 IST",
+      "asof": "2026-11-11 13:31 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-11-10 14:09 IST",
+      "asof": "2026-11-11 13:31 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-11-10 14:10 IST",
+      "asof": "2026-11-11 13:31 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
-          "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-amid-falling-oil-prices-on-hopes-of-us-iran-talks-126111000080_1.html",
-          "published": "Tue, 10 Nov 2026 09:11:31 +0530"
+          "title": "Gold faces inflation headwinds on hawkish Fed tilt; $4,150 stays key hurdle",
+          "url": "https://www.business-standard.com/markets/news/gold-futures-gold-faces-inflation-headwinds-on-hawkish-fed-tilt-4-150-stays-key-hurdle-126111100555_1.html",
+          "published": "Wed, 11 Nov 2026 13:02:17 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
-          "url": "https://www.business-standard.com/markets/news/stock-market-holiday-today-nse-bse-to-remain-closed-for-diwali-balipratipada-126111000071_1.html",
-          "published": "Tue, 10 Nov 2026 07:47:22 +0530"
+          "title": "Whirlpool gains 3% even as Q2 PAT sinks 40%; ICICI Sec maintains 'Reduce'",
+          "url": "https://www.business-standard.com/markets/news/whirlpool-gains-3-even-as-q2-pat-sinks-40-icici-sec-maintains-reduce-126111100531_1.html",
+          "published": "Wed, 11 Nov 2026 12:30:34 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
-          "url": "https://www.business-standard.com/markets/news/hsbc-upgrades-indian-equities-to-overweight-cuts-china-to-neutral-126110901244_1.html",
-          "published": "Mon, 09 Nov 2026 20:37:33 +0530"
+          "title": "Nifty Bank index rallies 4% in two days, nears record high; here's why",
+          "url": "https://www.business-standard.com/markets/news/nifty-bank-index-rallies-4-in-two-days-nears-record-high-here-s-why-126111100463_1.html",
+          "published": "Wed, 11 Nov 2026 12:27:51 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "How to choose a foreign broker? Check the plumbing, not just the app",
-          "url": "https://www.business-standard.com/markets/news/how-to-choose-a-foreign-broker-check-the-plumbing-not-just-the-app-126110901189_1.html",
-          "published": "Mon, 09 Nov 2026 19:54:39 +0530"
+          "title": "Avanti Feeds shares stumble 6% as Q2 profit more than halves to ₹69 crore",
+          "url": "https://www.business-standard.com/markets/news/avanti-feeds-share-price-stumble-6-as-q2-profit-more-than-halves-to-69-crore-126111100454_1.html",
+          "published": "Wed, 11 Nov 2026 12:06:36 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
-          "url": "https://www.business-standard.com/technology/artificial-intelligence/nse-deploys-liquid-cooling-for-ai-infra-plans-over-80-gpus-this-quarter-126110900780_1.html",
-          "published": "Mon, 09 Nov 2026 17:09:26 +0530"
+          "title": "MRF shares gain after Q2 results; Centrum bullish, sees margin recovery",
+          "url": "https://www.business-standard.com/markets/news/mrf-shares-gain-after-q2-results-centrum-bullish-sees-margin-recovery-126111100453_1.html",
+          "published": "Wed, 11 Nov 2026 11:57:59 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "IFSCA may let researchers in GIFT City to launch model portfolios",
-          "url": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
-          "published": "Mon, 09 Nov 2026 17:00:22 +0530"
+          "title": "Bank Nifty tops 61,000, nears all-time high; what do charts say?",
+          "url": "https://www.business-standard.com/markets/news/bank-nifty-tops-61-000-nears-all-time-high-what-do-charts-say-126111100417_1.html",
+          "published": "Wed, 11 Nov 2026 11:44:47 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Should India worry about money flowing overseas?",
+          "url": "https://finshots.in/archive/should-india-worry-about-growing-outward-fdi/",
+          "published": "Wed, 11 Nov 2026 01:30:16 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Thu, 05 Nov 2026 01:30:29 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "How astrology became a big bucks business in India",
-          "url": "https://finshots.in/archive/how-astrology-became-a-big-bucks-business-in-india/",
-          "published": "Wed, 04 Nov 2026 01:30:30 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Bajaj Finance to launch share sale worth up to Rs 11,700 cr this week: Report",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/bajaj-finance-said-to-be-set-to-launch-up-to-1-2-billion-share-sale/articleshow/135729545.cms",
+          "published": "Wed, 11 Nov 2026 13:06:59 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Why Rocket Lab shares fell despite record revenue and booming Neutron demand",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
-          "published": "Tue, 10 Nov 2026 11:47:40 +0530"
+          "title": "CoreWeave stock jumps after earnings: 7 things driving the AI cloud company's rally",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/coreweave-stock-jumps-after-earnings-7-things-driving-the-ai-cloud-companys-rally/slideshow/135729203.cms",
+          "published": "Wed, 11 Nov 2026 12:31:16 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Why The Trade Desk stock surged 15% despite revenue decline",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-the-trade-desk-stock-surged-15-despite-revenue-decline/slideshow/135701057.cms",
-          "published": "Tue, 10 Nov 2026 11:01:01 +0530"
+          "title": "Nvidia Stock Sell-Off Deepens: Spy scandal, price target cuts put AI giant under pressure",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-stock-sell-off-deepens-spy-scandal-price-target-cuts-put-ai-giant-under-pressure/slideshow/135728557.cms",
+          "published": "Wed, 11 Nov 2026 12:10:00 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Anthropic plans IPO live stream with Amodei, JPMorgan CEO Dimon",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-plans-ipo-live-stream-with-amodei-jpmorgan-ceo-dimon/articleshow/135699137.cms",
-          "published": "Tue, 10 Nov 2026 09:54:56 +0530"
+          "title": "India bonds slip as Treasury rout offsets oil slide",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-slip-as-treasury-rout-offsets-oil-slide/articleshow/135727127.cms",
+          "published": "Wed, 11 Nov 2026 11:09:10 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms",
-          "published": "Tue, 10 Nov 2026 07:48:28 +0530"
+          "title": "Rupee rises 7 paise to 93.70 against US dollar in early trade",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-7-paise-to-93-70-against-us-dollar-in-early-trade/articleshow/135726644.cms",
+          "published": "Wed, 11 Nov 2026 10:46:44 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "RBI said to query bank valuations of some bond derivative trades",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-said-to-query-bank-valuations-of-some-bond-derivative-trades/articleshow/135696624.cms",
-          "published": "Tue, 10 Nov 2026 07:32:12 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Oil falls as Trump downplays prospect of escalation with Iran",
-          "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran/articleshow/135696497.cms",
-          "published": "Tue, 10 Nov 2026 07:15:29 +0530"
+          "title": "Positive Breakout: These 5 stocks rose above their 200 DMAs",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/positive-breakout-these-5-stocks-rose-above-their-200-dmas/slideshow/135725922.cms",
+          "published": "Wed, 11 Nov 2026 10:04:09 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Tata Steel’s domestic business shines in Q2; Netherlands uncertainty poses risk",
-          "url": "https://www.livemint.com/market/mark-to-market/tata-steel-domestic-business-q2-netherlands-uncertainty-risk-11794295394886.html",
-          "published": "Tue, 10 Nov 2026 14:03:19 +0530"
+          "title": "Bajaj Finance said set to launch up to $1.2 billion QIP as early as this week",
+          "url": "https://www.livemint.com/market/stock-market-news/bajaj-finance-said-set-to-launch-up-to-1-2-billion-qip-as-early-as-this-week-11794382537759.html",
+          "published": "Wed, 11 Nov 2026 13:21:00 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Wall Street Boom! US stocks attract massive $2.1 trillion inflows since 2020; Asia, Europe lag behind - Kobeissi Letter",
-          "url": "https://www.livemint.com/market/stock-market-news/wall-street-boom-us-stocks-attract-massive-2-1-trillion-inflows-since-2020-asia-europe-lag-behind-kobeissi-letter-11794297220502.html",
-          "published": "Tue, 10 Nov 2026 13:57:47 +0530"
+          "title": "Siemens’ order book shines, but input costs remain a concern",
+          "url": "https://www.livemint.com/market/mark-to-market/siemens-q2-results-order-growth-margin-pressure-stock-outlook-11794379013555.html",
+          "published": "Wed, 11 Nov 2026 13:20:19 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "FPIs return to India stock markets with ₹53.7k cr inflows in Nov so far - Attraction point for investors? What's next?",
-          "url": "https://www.livemint.com/market/stock-market-news/fpis-return-to-india-stock-markets-with-rs-53-7k-cr-inflows-in-nov-so-far-attraction-point-for-investors-whats-next-11794297257316.html",
-          "published": "Tue, 10 Nov 2026 13:55:55 +0530"
+          "title": "Why Shakti Pumps shares are rising 11% today amid Sensex, Nifty rally? Buy for more returns? Target, upside, rationale",
+          "url": "https://www.livemint.com/market/stock-market-news/why-shakti-pumps-shares-are-rising-11-today-amid-sensex-nifty-rally-buy-for-more-returns-target-upside-rationale-11794377722022.html",
+          "published": "Wed, 11 Nov 2026 12:52:17 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Why Gokaldas Exports shares will be in top focus tomorrow; what it said in exchange filing? Stock down over 5% in 5 days",
-          "url": "https://www.livemint.com/market/stock-market-news/why-gokaldas-exports-shares-will-be-in-top-focus-tomorrow-what-it-said-in-exchange-filing-stock-down-over-5-in-5-days-11794295409461.html",
-          "published": "Tue, 10 Nov 2026 13:28:17 +0530"
+          "title": "Once AI darling of shareholders, Nvidia sued by own stock buyers over CEO Jensen Huang affair; $420 bn lost in 2 days",
+          "url": "https://www.livemint.com/market/stock-market-news/once-ai-darling-of-shareholders-nvidia-sued-by-own-stock-buyers-over-ceo-jensen-huang-affair-420-bn-lost-in-2-days-11794377931484.html",
+          "published": "Wed, 11 Nov 2026 12:26:45 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Dividend Stocks Record Date Alert 12 Nov Thursday: Bayer CropScience, HUL, ONGC, more; full list | Amount, key dates",
-          "url": "https://www.livemint.com/market/stock-market-news/dividend-stocks-record-date-alert-12-nov-thursday-bayer-cropscience-hul-ongc-more-full-list-amount-key-dates-11794291448718.html",
-          "published": "Tue, 10 Nov 2026 13:22:52 +0530"
+          "title": "Railway stocks on fast track! RVNL, IRFC jump up to 10% amid Sensex, Nifty rise | What's behind momentum? Key levels",
+          "url": "https://www.livemint.com/market/stock-market-news/railway-stocks-on-fast-track-rvnl-irfc-jump-up-to-10-amid-sensex-nifty-rise-whats-behind-momentum-key-levels-11794378046674.html",
+          "published": "Wed, 11 Nov 2026 12:17:14 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Retail investors shed stocks, but crowd into Reliance, HDFC Bank",
-          "url": "https://www.livemint.com/market/stock-market-news/retail-investors-reliance-hdfc-bank-fpis-stock-markets-india-11794288650697.html",
-          "published": "Tue, 10 Nov 2026 12:51:45 +0530"
+          "title": "Berger Paints hopes for gloss back on volume and margin after pale Q2",
+          "url": "https://www.livemint.com/market/mark-to-market/berger-paints-q2-results-margin-pressure-volume-growth-outlook-11794371076493.html",
+          "published": "Wed, 11 Nov 2026 11:57:01 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-10 14:10 IST",
+      "checked_at": "2026-11-11 13:31 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-10 14:10 IST",
+      "generated_at": "2026-11-11 13:31 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs80,650 Cr · 80% of days positive.",
+        "reading": "20-day cumulative: +Rs86,840 Cr · 80% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1502,7 +1502,7 @@
           },
           {
             "label": "Domestic flows",
-            "conclusion": "Domestic flows: mildly negative on balance",
+            "conclusion": "Domestic flows: sustained selling pressure",
             "direction": "bearish",
             "source": {
               "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs80,650 Cr · 80% of days positive.",
+          "reading": "20-day cumulative: +Rs86,840 Cr · 80% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1531,8 +1531,8 @@
           "scope": "regime",
           "asset": "Domestic flows",
           "label": "Domestic flows",
-          "conclusion": "Domestic flows: mildly negative on balance",
-          "reading": "20-day cumulative: Rs-22,351 Cr · 40% of days positive.",
+          "conclusion": "Domestic flows: sustained selling pressure",
+          "reading": "20-day cumulative: Rs-31,138 Cr · 35% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1546,9 +1546,9 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee strengthening — supportive backdrop",
-          "reading": "USD/INR moved -2.9% over the last month (now 93.93).",
+          "reading": "USD/INR moved -1.9% over the last month (now 93.93).",
           "direction": "bullish",
-          "strength": 90,
+          "strength": 79,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
@@ -1561,8 +1561,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "bullish",
-          "strength": 90,
-          "reading": "USD/INR moved -2.9% over the last month (now 93.93).",
+          "strength": 79,
+          "reading": "USD/INR moved -1.9% over the last month (now 93.93).",
           "conclusion": "Rupee strengthening — supportive backdrop",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs80,650 Cr · 80% of days positive.",
+          "reading": "20-day cumulative: +Rs86,840 Cr · 80% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,8 +1601,8 @@
           "label": "Domestic flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-22,351 Cr · 40% of days positive.",
-          "conclusion": "Domestic flows: mildly negative on balance",
+          "reading": "20-day cumulative: Rs-31,138 Cr · 35% of days positive.",
+          "conclusion": "Domestic flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
             "name": "NSE FII/DII (accumulated)",
@@ -1614,10 +1614,10 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-10 14:10 IST",
+    "date": "2026-11-11 13:31 IST",
     "usdinr": {
       "last": 93.93,
-      "date": "2026-11-09"
+      "date": "2026-11-10"
     },
     "dii_net": {
       "net": -7172.53,
@@ -1628,32 +1628,22 @@
       "date": "09-Nov-2026"
     },
     "headlines": [
-      "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
-      "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
-      "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
-      "How to choose a foreign broker? Check the plumbing, not just the app",
-      "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
-      "IFSCA may let researchers in GIFT City to launch model portfolios",
+      "Gold faces inflation headwinds on hawkish Fed tilt; $4,150 stays key hurdle",
+      "Whirlpool gains 3% even as Q2 PAT sinks 40%; ICICI Sec maintains 'Reduce'",
+      "Nifty Bank index rallies 4% in two days, nears record high; here's why",
+      "Avanti Feeds shares stumble 6% as Q2 profit more than halves to ₹69 crore",
+      "MRF shares gain after Q2 results; Centrum bullish, sees margin recovery",
+      "Bank Nifty tops 61,000, nears all-time high; what do charts say?",
+      "Should India worry about money flowing overseas?",
       "How startups are rewriting the defence industry",
       "Why is China paying its people to shop?",
       "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
       "Carlsberg's profit margins look great. But...",
-      "Why can't India simply build bigger strategic oil reserves?",
-      "How astrology became a big bucks business in India"
+      "Why can't India simply build bigger strategic oil reserves?"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-7,173 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹7,212 Cr — direction flipped"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1664,7 +1654,7 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹93.93 (+0.01%)"
+        "detail": "₹93.93 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1674,7 +1664,7 @@
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹7,212 Cr — direction flipped"
+        "detail": "₹7,212 Cr"
       },
       {
         "kind": "news",
@@ -1682,15 +1672,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-11-09 13:53 IST",
+    "since": "2026-11-10 14:10 IST",
     "new_headlines": [
-      "Asian stocks rise amid falling oil prices on hopes of US-Iran talks",
-      "Stock market holiday: NSE, BSE to remain closed for Diwali-Balipratipada",
-      "HSBC upgrades Indian equities to 'overweight', cuts China to 'neutral'",
-      "How to choose a foreign broker? Check the plumbing, not just the app",
-      "NSE deploys liquid cooling for AI infra, plans over 80 GPUs this quarter",
-      "IFSCA may let researchers in GIFT City to launch model portfolios",
-      "How startups are rewriting the defence industry"
+      "Gold faces inflation headwinds on hawkish Fed tilt; $4,150 stays key hurdle",
+      "Whirlpool gains 3% even as Q2 PAT sinks 40%; ICICI Sec maintains 'Reduce'",
+      "Nifty Bank index rallies 4% in two days, nears record high; here's why",
+      "Avanti Feeds shares stumble 6% as Q2 profit more than halves to ₹69 crore",
+      "MRF shares gain after Q2 results; Centrum bullish, sees margin recovery",
+      "Bank Nifty tops 61,000, nears all-time high; what do charts say?",
+      "Should India worry about money flowing overseas?"
     ]
   },
   "summary": {

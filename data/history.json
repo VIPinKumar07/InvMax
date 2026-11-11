@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-12 13:13 IST",
-  "usdinr": {
-   "last": 96.73,
-   "date": "2026-10-09"
-  },
-  "dii_net": {
-   "net": 4743.26,
-   "date": "09-Oct-2026"
-  },
-  "fii_net": {
-   "net": -3568.9,
-   "date": "09-Oct-2026"
-  },
-  "headlines": [
-   "IRFC to announce interim dividend in Q2 results on Oct 15; stock rises 4%",
-   "Ashish Kacholia portfolio stock Aeroflex zooms 15%; hits record high",
-   "Wall Street bosses look past India's pain points to ramp up investment bets",
-   "Emcure Pharma up over 3% as board approves merger of two subsidiaries",
-   "Why Nomura prefers Airtel in telecom sector even as Jio gears up to list",
-   "Suzlon jumps 5% on ₹550 cr investment plan; MOFSL says valuation attractive",
-   "How China is building its global EV battery empire",
-   "How a fistfight helped fix your eyesight and more...",
-   "ESDS Solution's volatile stock, Nike's problems, and more...",
-   "What’s really going on with ESDS?",
-   "Why is SEBI’s investor protection fund barely being used?",
-   "Can a new CEO solve HDFC Bank's problems?"
-  ]
- },
- {
   "date": "2026-10-13 13:34 IST",
   "usdinr": {
    "last": 95.78,
@@ -867,6 +838,35 @@
    "Carlsberg's profit margins look great. But...",
    "Why can't India simply build bigger strategic oil reserves?",
    "How astrology became a big bucks business in India"
+  ]
+ },
+ {
+  "date": "2026-11-11 13:31 IST",
+  "usdinr": {
+   "last": 93.93,
+   "date": "2026-11-10"
+  },
+  "dii_net": {
+   "net": -7172.53,
+   "date": "09-Nov-2026"
+  },
+  "fii_net": {
+   "net": 7212.22,
+   "date": "09-Nov-2026"
+  },
+  "headlines": [
+   "Gold faces inflation headwinds on hawkish Fed tilt; $4,150 stays key hurdle",
+   "Whirlpool gains 3% even as Q2 PAT sinks 40%; ICICI Sec maintains 'Reduce'",
+   "Nifty Bank index rallies 4% in two days, nears record high; here's why",
+   "Avanti Feeds shares stumble 6% as Q2 profit more than halves to ₹69 crore",
+   "MRF shares gain after Q2 results; Centrum bullish, sees margin recovery",
+   "Bank Nifty tops 61,000, nears all-time high; what do charts say?",
+   "Should India worry about money flowing overseas?",
+   "How startups are rewriting the defence industry",
+   "Why is China paying its people to shop?",
+   "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
+   "Carlsberg's profit margins look great. But...",
+   "Why can't India simply build bigger strategic oil reserves?"
   ]
  }
 ]
