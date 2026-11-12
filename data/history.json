@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-13 13:34 IST",
-  "usdinr": {
-   "last": 95.78,
-   "date": "2026-10-12"
-  },
-  "dii_net": {
-   "net": 3045.02,
-   "date": "12-Oct-2026"
-  },
-  "fii_net": {
-   "net": -1708.48,
-   "date": "12-Oct-2026"
-  },
-  "headlines": [
-   "Mirae Asset: Oil volatility to rise ahead of midterm; Brent may test $120",
-   "Maruti Suzuki tanks 33% in calendar year 2026; stock hits 18-month low",
-   "SMIDs rally heats up bets in IPO & secondary market; raises bar on earnings",
-   "Nifty at 26,500 in 4-5 months: What's behind Monarch Capital's bull call?",
-   "F&O alert: Polycab to exit NSE's Futures & Options segment; stock dips 5%",
-   "DMart extends slide, hits new 52-week low; stock down 12% in October",
-   "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
-   "How China is building its global EV battery empire",
-   "How a fistfight helped fix your eyesight and more...",
-   "ESDS Solution's volatile stock, Nike's problems, and more...",
-   "What’s really going on with ESDS?",
-   "Why is SEBI’s investor protection fund barely being used?"
-  ]
- },
- {
   "date": "2026-10-14 12:15 IST",
   "usdinr": {
    "last": 95.28,
@@ -867,6 +838,35 @@
    "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
    "Carlsberg's profit margins look great. But...",
    "Why can't India simply build bigger strategic oil reserves?"
+  ]
+ },
+ {
+  "date": "2026-11-12 14:09 IST",
+  "usdinr": {
+   "last": 93.69,
+   "date": "2026-11-11"
+  },
+  "dii_net": {
+   "net": -8434.53,
+   "date": "11-Nov-2026"
+  },
+  "fii_net": {
+   "net": 12563.33,
+   "date": "11-Nov-2026"
+  },
+  "headlines": [
+   "Breakout stock: CDSL gains 4%, up 30% from 52-week low; more upside ahead?",
+   "HDFC Bank, 18 other 'fallen angels' could be D-St's next winners: Elara",
+   "Realty index surges 4%; Oberoi, Sobha, Lodha up 5%; DLF nears 52-week high",
+   "Aegis Logistics shares gain 3% as QIP opens; floor price set at ₹1,161.85",
+   "Matrimony downgraded by ICICI Sec despite 167% rise in Q2 PAT; stock skids",
+   "ICICI Life, HDFC Life rally up to 5%; what's driving insurance stocks?",
+   "What happens to the AI industry if Nvidia falters",
+   "Should India worry about money flowing overseas?",
+   "How startups are rewriting the defence industry",
+   "Why is China paying its people to shop?",
+   "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
+   "Carlsberg's profit margins look great. But..."
   ]
  }
 ]
