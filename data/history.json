@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-14 12:15 IST",
-  "usdinr": {
-   "last": 95.28,
-   "date": "2026-10-13"
-  },
-  "dii_net": {
-   "net": 2439.24,
-   "date": "13-Oct-2026"
-  },
-  "fii_net": {
-   "net": -1305.13,
-   "date": "13-Oct-2026"
-  },
-  "headlines": [
-   "RailTel share price jumps 2% on winning repeat order from SBI",
-   "PNC Infratech jumps 7% after Delhi HC temporarily stays 3-year bidding ban",
-   "SS Retail share price zooms 20% after Q1 PAT rockets 61%; adds 33 stores",
-   "Mukul Agrawal portfolio stock: West Coast Paper up 10%; adds 133% in 7 mths",
-   "Tech Mahindra Q2 preview: PAT may jump 30-40% YoY; firm to mull bonus issue",
-   "Bharat Coking Coal share price zooms over 7% after raw material price hike",
-   "The new GST reforms explained",
-   "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
-   "How China is building its global EV battery empire",
-   "How a fistfight helped fix your eyesight and more...",
-   "ESDS Solution's volatile stock, Nike's problems, and more...",
-   "What’s really going on with ESDS?"
-  ]
- },
- {
   "date": "2026-10-15 11:41 IST",
   "usdinr": {
    "last": 95.16,
@@ -867,6 +838,35 @@
    "Why is China paying its people to shop?",
    "Carlsberg's impressive margins, Binance's $6 billion heist, & more...",
    "Carlsberg's profit margins look great. But..."
+  ]
+ },
+ {
+  "date": "2026-11-13 13:58 IST",
+  "usdinr": {
+   "last": 94.04,
+   "date": "2026-11-12"
+  },
+  "dii_net": {
+   "net": -6331.17,
+   "date": "12-Nov-2026"
+  },
+  "fii_net": {
+   "net": 7830.6,
+   "date": "12-Nov-2026"
+  },
+  "headlines": [
+   "Stock under ₹100: Turtlemint hits 5% upper circuit as Q2 loss narrows 67%",
+   "MCX share price hits new high, up 100% in one year; market cap nears ₹1 trn",
+   "Gold oversold, but further fall to $3,750 likely: Mirae Asset Sharekhan",
+   "Bharat Dynamics shares fall 3% as Q2 margin pressure weighs on earnings",
+   "Park Medi World shares plummet 10% as Q2 profit tanks 31%, margins slide",
+   "Honasa, Nykaa rally up to 4% in subdued market; record 52-week highs",
+   "Can tyre makers keep rising costs from puncturing their profits?",
+   "What happens to the AI industry if Nvidia falters",
+   "Should India worry about money flowing overseas?",
+   "How startups are rewriting the defence industry",
+   "Why is China paying its people to shop?",
+   "Carlsberg's impressive margins, Binance's $6 billion heist, & more..."
   ]
  }
 ]
