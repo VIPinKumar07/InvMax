@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-15 11:41 IST",
-  "usdinr": {
-   "last": 95.16,
-   "date": "2026-10-14"
-  },
-  "dii_net": {
-   "net": 2670.44,
-   "date": "14-Oct-2026"
-  },
-  "fii_net": {
-   "net": -1857.44,
-   "date": "14-Oct-2026"
-  },
-  "headlines": [
-   "Bulls strike! Sensex zooms 1,100 pts intraday, Nifty at 22,950; key reasons",
-   "Sahajanand Medical IPO opens for bidding; check GMP, review & subscription",
-   "Smallcap stocks under pressure; Sterlite, MTAR, HFCL, Netweb slide 5%",
-   "Gold, silver rebound on buying at lower levels as crude oil softens",
-   "Nifty IT rallies 9% in 3 sessions: 3 key factors driving the momentum",
-   "Bonfiglioli Transmissions IPO bags 'subscribe' tag from experts; GMP at 30%",
-   "Can Starlink win India’s internet war?",
-   "The new GST reforms explained",
-   "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
-   "How China is building its global EV battery empire",
-   "How a fistfight helped fix your eyesight and more...",
-   "ESDS Solution's volatile stock, Nike's problems, and more..."
-  ]
- },
- {
   "date": "2026-10-16 11:37 IST",
   "usdinr": {
    "last": 95.06,
@@ -867,6 +838,35 @@
    "How startups are rewriting the defence industry",
    "Why is China paying its people to shop?",
    "Carlsberg's impressive margins, Binance's $6 billion heist, & more..."
+  ]
+ },
+ {
+  "date": "2026-11-14 13:20 IST",
+  "usdinr": {
+   "last": 94.25,
+   "date": "2026-11-13"
+  },
+  "dii_net": {
+   "net": -2253.58,
+   "date": "13-Nov-2026"
+  },
+  "fii_net": {
+   "net": 5736.55,
+   "date": "13-Nov-2026"
+  },
+  "headlines": [
+   "Bitcoin's billion-dollar wipeouts becoming an increasingly familiar sight",
+   "Softbank further trims India exposure, sells Meesho shares worth ₹1,885 cr",
+   "NSE IX Global Access expands investment offerings into 7 European markets",
+   "GIFT City funds compared: What they cost and how they have performed",
+   "Indian markets extend gains for 3rd straight week despite Nvidia crisis",
+   "Govt notifies commodity contracts as financial products at GIFT IFSC",
+   "Nvidia's sensational crisis, the tyre sector's punctured profits, and more...",
+   "Can tyre makers keep rising costs from puncturing their profits?",
+   "What happens to the AI industry if Nvidia falters",
+   "Should India worry about money flowing overseas?",
+   "How startups are rewriting the defence industry",
+   "Why is China paying its people to shop?"
   ]
  }
 ]
