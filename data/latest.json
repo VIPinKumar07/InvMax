@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14 13:19 IST",
-  "generated_utc": "2026-11-14T07:49:05+00:00",
+  "generated_at": "2026-11-15 13:38 IST",
+  "generated_utc": "2026-11-15T08:08:10+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-14 13:19 IST",
+      "asof": "2026-11-15 13:38 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-11-14 13:19 IST",
+      "asof": "2026-11-15 13:38 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-14 13:20 IST",
+      "asof": "2026-11-15 13:39 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-11-14 13:20 IST",
+      "asof": "2026-11-15 13:39 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,9 +1243,37 @@
       }
     },
     "news": {
-      "asof": "2026-11-14 13:20 IST",
+      "asof": "2026-11-15 13:39 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Sebi plans AI guardrails for capital markets, focus on investor protection",
+          "url": "https://www.business-standard.com/markets/news/sebi-plans-ai-guardrails-for-capital-markets-focus-on-investor-protection-126111500187_1.html",
+          "published": "Sun, 15 Nov 2026 12:14:57 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Crypto's slow-motion selloff leaves investors weary as Bitcoin nears lows",
+          "url": "https://www.business-standard.com/markets/cryptocurrency/crypto-s-slow-motion-selloff-leaves-investors-weary-as-bitcoin-nears-lows-126111500203_1.html",
+          "published": "Sun, 15 Nov 2026 12:02:05 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "FPIs pump ₹84,290 crore into equities in first fortnight of November",
+          "url": "https://www.business-standard.com/markets/news/fpis-pump-84-290-crore-into-equities-in-first-fortnight-of-november-126111500184_1.html",
+          "published": "Sun, 15 Nov 2026 11:57:55 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Bitcoin tumbles to four-month low as leveraged bets face mass liquidations",
+          "url": "https://www.business-standard.com/markets/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-leveraged-bets-face-mass-liquidations-126111500058_1.html",
+          "published": "Sun, 15 Nov 2026 08:12:09 +0530"
+        },
         {
           "source": "Business Standard",
           "weight": "high",
@@ -1261,32 +1289,11 @@
           "published": "Sat, 14 Nov 2026 08:36:48 +0530"
         },
         {
-          "source": "Business Standard",
+          "source": "Finshots Daily",
           "weight": "high",
-          "title": "NSE IX Global Access expands investment offerings into 7 European markets",
-          "url": "https://www.business-standard.com/markets/news/nse-ix-global-access-expands-investment-offerings-into-7-european-markets-126111301892_1.html",
-          "published": "Fri, 13 Nov 2026 23:33:06 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "GIFT City funds compared: What they cost and how they have performed",
-          "url": "https://www.business-standard.com/markets/news/gift-city-funds-compared-what-they-cost-and-how-they-have-performed-126111301835_1.html",
-          "published": "Fri, 13 Nov 2026 22:29:42 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "Indian markets extend gains for 3rd straight week despite Nvidia crisis",
-          "url": "https://www.business-standard.com/markets/news/indian-markets-extend-gains-for-3rd-straight-week-despite-nvidia-crisis-126111301616_1.html",
-          "published": "Fri, 13 Nov 2026 20:58:20 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "Govt notifies commodity contracts as financial products at GIFT IFSC",
-          "url": "https://www.business-standard.com/markets/news/govt-notifies-commodity-contracts-as-financial-products-at-gift-ifsc-126111301641_1.html",
-          "published": "Fri, 13 Nov 2026 20:14:03 +0530"
+          "title": "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
+          "url": "https://finshots.in/archive/why-dutch-prisons-are-shutting-down-gtas-kannadiga-connection-more/",
+          "published": "Sun, 15 Nov 2026 01:30:10 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Tue, 10 Nov 2026 01:30:33 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Why is China paying its people to shop?",
-          "url": "https://finshots.in/archive/china-paying-its-people-to-shop/",
-          "published": "Mon, 09 Nov 2026 01:30:15 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Yes Bank moves SC seeking review of order on writing off of Rs 8,415 cr AT-1 bonds",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/yes-bank-moves-sc-seeking-review-of-order-on-writing-off-of-rs-8415-cr-at-1-bonds/articleshow/135830873.cms",
+          "published": "Sat, 14 Nov 2026 16:40:38 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "6 out of 10 top performing largecap stocks in November delivered multibagger returns in long run. Do you own any?",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/6-out-of-10-top-performing-largecap-stocks-in-november-delivered-multibagger-returns-in-long-run-do-you-own-any/slideshow/135824732.cms",
-          "published": "Sat, 14 Nov 2026 11:31:43 +0530"
+          "title": "RHI Magnesita Q2 net profit jumps 62 pc to over Rs 62 cr",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/rhi-magnesita-q2-net-profit-jumps-62-pc-to-over-rs-62-cr/articleshow/135830890.cms",
+          "published": "Sat, 14 Nov 2026 16:39:54 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Anthropic IPO buyers have more influence on price than SpaceX",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-buyers-have-more-influence-on-price-than-spacex/articleshow/135823355.cms",
-          "published": "Sat, 14 Nov 2026 10:33:57 +0530"
+          "title": "Mahanadi Coalfields files RHP for proposed IPO worth nearly Rs 9,500 crore",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/mahanadi-coalfields-files-rhp-for-proposed-ipo-worth-nearly-rs-9500-crore/articleshow/135829640.cms",
+          "published": "Sat, 14 Nov 2026 15:42:53 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Wall Street’s wild ride delivers big paydays and bigger bruises",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-streets-wild-ride-delivers-big-paydays-and-bigger-bruises/articleshow/135822826.cms",
-          "published": "Sat, 14 Nov 2026 10:24:26 +0530"
+          "title": "Dalal Street Week Ahead: Can Nifty bulls overcome key resistance levels?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/dalal-street-week-ahead-can-nifty-bulls-overcome-key-resistance-levels/articleshow/135829497.cms",
+          "published": "Sat, 14 Nov 2026 15:38:04 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Nvidia has worst week since Trump tariff selloff as Huang exits",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms",
-          "published": "Sat, 14 Nov 2026 09:58:50 +0530"
+          "title": "Concurrent Gainers: 8 stocks gain for 5 days in a row",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-8-stocks-gain-for-5-days-in-a-row/slideshow/135828499.cms",
+          "published": "Sat, 14 Nov 2026 14:45:57 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Bitcoin’s billion-dollar wipeouts are becoming a familiar sight",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoins-billion-dollar-wipeouts-are-becoming-a-familiar-sight/articleshow/135822462.cms",
-          "published": "Sat, 14 Nov 2026 09:46:35 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "5 world market themes for the week ahead",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/5-world-market-themes-for-the-week-ahead/articleshow/135822113.cms",
-          "published": "Sat, 14 Nov 2026 09:32:17 +0530"
+          "title": "Binance targets full reopening of withdrawals by next week",
+          "url": "https://economictimes.indiatimes.com/markets/commodities/news/binance-targets-full-reopening-of-withdrawals-by-next-week/articleshow/135828102.cms",
+          "published": "Sat, 14 Nov 2026 14:35:48 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Up 325% in 4 years! Multibagger brewery stock with 1:10 stock split history declares Q2 Results 2026; revenue up 203%",
-          "url": "https://www.livemint.com/market/stock-market-news/up-325-in-4-years-multibagger-brewery-stock-with-1-10-stock-split-history-declares-q2-results-2026-revenue-up-203-11794638711855.html",
-          "published": "Sat, 14 Nov 2026 12:38:43 +0530"
+          "title": "ABB India shares 36% up in 2026: Time to buy? Rating upgrade boost and target price hike by Motilal Oswal - Details here",
+          "url": "https://www.livemint.com/market/stock-market-news/abb-india-shares-36-up-in-2026-time-to-buy-rating-upgrade-boost-and-target-price-hike-by-motilal-oswal-details-here-11794724492961.html",
+          "published": "Sun, 15 Nov 2026 12:39:36 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Rekha Jhunjhunwala stock VA Tech Wabag: ₹2,400 cr Saudi project cancelled - Should you buy after 18% rise in 6 months?",
-          "url": "https://www.livemint.com/market/stock-market-news/rekha-jhunjhunwala-stock-va-tech-wabag-rs-2-400-cr-saudi-project-cancelled-should-you-buy-after-18-rise-in-6-months-11794636173819.html",
-          "published": "Sat, 14 Nov 2026 11:53:18 +0530"
+          "title": "Tata Motors shares: 22% down in 2026, right time to buy famous auto stock? What brokerages say after loss narrows in Q2",
+          "url": "https://www.livemint.com/market/stock-market-news/tata-motors-shares-22-down-in-2026-right-time-to-buy-famous-auto-stock-what-brokerages-say-after-loss-narrows-in-q2-11794720978958.html",
+          "published": "Sun, 15 Nov 2026 11:56:58 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Germany Has an Edge in a Lower Oil Price World: Taking Stock",
-          "url": "https://www.livemint.com/market/germany-has-an-edge-in-a-lower-oil-price-world-taking-stock-11794636529660.html",
-          "published": "Sat, 14 Nov 2026 11:38:49 +0530"
+          "title": "Kamarajar Port picks SBI Capital, IDBI Capital and ICICI Securities for IPO",
+          "url": "https://www.livemint.com/market/ipo/kamarajar-port-ipo-2027-sbi-capital-idbi-icici-securities-11794716933859.html",
+          "published": "Sun, 15 Nov 2026 11:27:10 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "₹4K cr Ramayana movie VFX maker parent Prime Focus shares in focus after 14x profit jump in Q2; stock up 61% in a year",
-          "url": "https://www.livemint.com/market/stock-market-news/rs-4k-cr-ramayana-movie-vfx-maker-parent-prime-focus-shares-in-focus-after-14x-profit-jump-in-q2-stock-up-61-in-a-year-11794632446134.html",
-          "published": "Sat, 14 Nov 2026 11:21:55 +0530"
+          "title": "Crypto news: Bitcoin price falls to $64,962, lowest since July as investors favour AI stocks, factor likely Fed hike",
+          "url": "https://www.livemint.com/market/cryptocurrency/crypto-bitcoin-price-today-falls-64962-15-nov-lowest-since-july-investors-pull-out-favour-ai-stocks-factor-fed-rate-hike-11794711853135.html",
+          "published": "Sun, 15 Nov 2026 10:59:42 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Around 600% jump in 5 years: Citi maintains 'buy' on Maharatna defence PSU HAL for up to 28% - Check target, rationale",
-          "url": "https://www.livemint.com/market/stock-market-news/around-600-jump-in-5-years-citi-maintains-buy-on-maharatna-defence-psu-hal-for-up-to-28-check-target-rationale-11794630844431.html",
-          "published": "Sat, 14 Nov 2026 10:28:42 +0530"
+          "title": "₹10,000 cr Upcoming IPOs: Latest GMP price, key dates | Crystal Crop Protection, Mahanadi Coalfields, Watrana Rentals",
+          "url": "https://www.livemint.com/market/ipo/rs-10-000-cr-upcoming-ipos-latest-gmp-price-key-dates-crystal-crop-protection-mahanadi-coalfields-watrana-rentals-11794716857818.html",
+          "published": "Sun, 15 Nov 2026 10:50:48 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "₹150 Dividend Alert! Record date next week of Jockey firm for biggest payout declared in Q2 - check key dates, history",
-          "url": "https://www.livemint.com/market/stock-market-news/rs-150-dividend-alert-record-date-next-week-of-jockey-firm-for-biggest-payout-declared-in-q2-check-key-dates-history-11794628701443.html",
-          "published": "Sat, 14 Nov 2026 09:52:20 +0530"
+          "title": "MCX, BSE, Bharti Airtel shares: Top 3 stocks to buy; check expected returns, ratings, target price by market expert",
+          "url": "https://www.livemint.com/market/stock-market-news/mcx-bse-bharti-airtel-shares-top-3-stocks-to-buy-check-expected-returns-ratings-target-price-by-market-expert-11794714137509.html",
+          "published": "Sun, 15 Nov 2026 09:43:39 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-14 13:20 IST",
+      "checked_at": "2026-11-15 13:39 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-14 13:20 IST",
+      "generated_at": "2026-11-15 13:39 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs114,653 Cr · 85% of days positive.",
+        "reading": "20-day cumulative: +Rs119,502 Cr · 85% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1509,7 +1509,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs114,653 Cr · 85% of days positive.",
+          "reading": "20-day cumulative: +Rs119,502 Cr · 85% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1523,7 +1523,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-57,519 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-63,008 Cr · 15% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1565,7 +1565,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs114,653 Cr · 85% of days positive.",
+          "reading": "20-day cumulative: +Rs119,502 Cr · 85% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1578,7 +1578,7 @@
           "label": "Domestic flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-57,519 Cr · 20% of days positive.",
+          "reading": "20-day cumulative: Rs-63,008 Cr · 15% of days positive.",
           "conclusion": "Domestic flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1591,7 +1591,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-14 13:20 IST",
+    "date": "2026-11-15 13:39 IST",
     "usdinr": {
       "last": 94.25,
       "date": "2026-11-13"
@@ -1605,43 +1605,33 @@
       "date": "13-Nov-2026"
     },
     "headlines": [
+      "Sebi plans AI guardrails for capital markets, focus on investor protection",
+      "Crypto's slow-motion selloff leaves investors weary as Bitcoin nears lows",
+      "FPIs pump ₹84,290 crore into equities in first fortnight of November",
+      "Bitcoin tumbles to four-month low as leveraged bets face mass liquidations",
       "Bitcoin's billion-dollar wipeouts becoming an increasingly familiar sight",
       "Softbank further trims India exposure, sells Meesho shares worth ₹1,885 cr",
-      "NSE IX Global Access expands investment offerings into 7 European markets",
-      "GIFT City funds compared: What they cost and how they have performed",
-      "Indian markets extend gains for 3rd straight week despite Nvidia crisis",
-      "Govt notifies commodity contracts as financial products at GIFT IFSC",
+      "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
       "Nvidia's sensational crisis, the tyre sector's punctured profits, and more...",
       "Can tyre makers keep rising costs from puncturing their profits?",
       "What happens to the AI industry if Nvidia falters",
       "Should India worry about money flowing overseas?",
-      "How startups are rewriting the defence industry",
-      "Why is China paying its people to shop?"
+      "How startups are rewriting the defence industry"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-2,254 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹5,737 Cr"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "5 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹94.25 (+0.22%)"
+        "detail": "₹94.25 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1656,18 +1646,16 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "5 new"
       }
     ],
-    "since": "2026-11-13 13:58 IST",
+    "since": "2026-11-14 13:20 IST",
     "new_headlines": [
-      "Bitcoin's billion-dollar wipeouts becoming an increasingly familiar sight",
-      "Softbank further trims India exposure, sells Meesho shares worth ₹1,885 cr",
-      "NSE IX Global Access expands investment offerings into 7 European markets",
-      "GIFT City funds compared: What they cost and how they have performed",
-      "Indian markets extend gains for 3rd straight week despite Nvidia crisis",
-      "Govt notifies commodity contracts as financial products at GIFT IFSC",
-      "Nvidia's sensational crisis, the tyre sector's punctured profits, and more..."
+      "Sebi plans AI guardrails for capital markets, focus on investor protection",
+      "Crypto's slow-motion selloff leaves investors weary as Bitcoin nears lows",
+      "FPIs pump ₹84,290 crore into equities in first fortnight of November",
+      "Bitcoin tumbles to four-month low as leveraged bets face mass liquidations",
+      "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more..."
     ]
   },
   "summary": {
