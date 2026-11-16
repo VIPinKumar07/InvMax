@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-17 11:23 IST",
-  "usdinr": {
-   "last": 94.96,
-   "date": "2026-10-16"
-  },
-  "dii_net": {
-   "net": -3661.28,
-   "date": "16-Oct-2026"
-  },
-  "fii_net": {
-   "net": 1165.92,
-   "date": "16-Oct-2026"
-  },
-  "headlines": [
-   "Indian IT stocks post best weekly gain in 18 years amid global AI sell-off",
-   "Sebi's IPO nod to Cult.fit, Eswari Global Metal, Sohan Lal Commodity",
-   "Gold FoFs halt fresh investments before Diwali: What investors can do",
-   "Indian Hotels, Oriental Hotels rally up to 6%; what's driving hotel stocks?",
-   "TIPS Music zooms 10% to hit 52-wk high after Q2 nos, ₹6.50/share dividend",
-   "Ambani taps Reliance's 420,000 employees to boost Jio IPO participation",
-   "IDBI Bank is finally being sold",
-   "Can Starlink win India’s internet war?",
-   "The new GST reforms explained",
-   "Why the Nobel Prize in Economics went to Robert Hall and Michael Woodford",
-   "How China is building its global EV battery empire",
-   "How a fistfight helped fix your eyesight and more..."
-  ]
- },
- {
   "date": "2026-10-18 11:50 IST",
   "usdinr": {
    "last": 94.96,
@@ -867,6 +838,35 @@
    "What happens to the AI industry if Nvidia falters",
    "Should India worry about money flowing overseas?",
    "How startups are rewriting the defence industry"
+  ]
+ },
+ {
+  "date": "2026-11-16 13:47 IST",
+  "usdinr": {
+   "last": 94.25,
+   "date": "2026-11-13"
+  },
+  "dii_net": {
+   "net": -2253.58,
+   "date": "13-Nov-2026"
+  },
+  "fii_net": {
+   "net": 5736.55,
+   "date": "13-Nov-2026"
+  },
+  "headlines": [
+   "Patanjali Foods dips 4% as Q2 profit slips but analysts upbeat; here's why",
+   "Hospital stocks in focus: Max Healthcare, Aster DM, Fortis surge up to 7%",
+   "Mahanadi IPO explained: Valuation, reserves, risks and Coal India strategy",
+   "Mahindra Logistics shares plunge 14% after MD and CEO Hemant Sikka resigns",
+   "23 companies to see IPO lock-in expiry by Nov-end; Jio Platforms in focus",
+   "NSE stock market-cap crosses ₹5 trillion; scrip up 16% from IPO price",
+   "Has the RBI really stabilised the rupee?",
+   "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
+   "Nvidia's sensational crisis, the tyre sector's punctured profits, and more...",
+   "Can tyre makers keep rising costs from puncturing their profits?",
+   "What happens to the AI industry if Nvidia falters",
+   "Should India worry about money flowing overseas?"
   ]
  }
 ]
