@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-19 12:01 IST",
-  "usdinr": {
-   "last": 94.96,
-   "date": "2026-10-16"
-  },
-  "dii_net": {
-   "net": -3661.28,
-   "date": "16-Oct-2026"
-  },
-  "fii_net": {
-   "net": 1165.92,
-   "date": "16-Oct-2026"
-  },
-  "headlines": [
-   "Trend reversal? Analyst decodes Havells India, NTPC, Birlasoft on charts",
-   "Gold, silver prices rise as traders pare bets on October Fed rate hike",
-   "Cyient DLM plunges 24% in two days; what's making the Street nervous?",
-   "Ixigo shares zoom 13% as PAT hits record high in Q2; MOFSL stays 'neutral'",
-   "​LTCG tax cut alone won't lure FPIs, says Bernstein; Nifty target cut to 25k",
-   "Urban Company shares fall 10% as Q2 net loss widens despite revenue growth",
-   "A few more things about the Jio Platforms IPO",
-   "A Nobel dating app, hacked refrigerators, and more...",
-   "The IDBI stake sale, Starlink's entry into India, and more...",
-   "IDBI Bank is finally being sold",
-   "Can Starlink win India’s internet war?",
-   "The new GST reforms explained"
-  ]
- },
- {
   "date": "2026-10-20 12:07 IST",
   "usdinr": {
    "last": 94.93,
@@ -867,6 +838,35 @@
    "Nvidia's sensational crisis, the tyre sector's punctured profits, and more...",
    "Can tyre makers keep rising costs from puncturing their profits?",
    "What happens to the AI industry if Nvidia falters"
+  ]
+ },
+ {
+  "date": "2026-11-18 14:21 IST",
+  "usdinr": {
+   "last": 93.48,
+   "date": "2026-11-17"
+  },
+  "dii_net": {
+   "net": 196.93,
+   "date": "17-Nov-2026"
+  },
+  "fii_net": {
+   "net": 4195.38,
+   "date": "17-Nov-2026"
+  },
+  "headlines": [
+   "Nifty Consumer Durables index slides 3%; Titan, Kalyan Jewellers crack 5%",
+   "Multibagger ACME Solar jumps 3% on order win, trades 113% up from Jan lows",
+   "SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat",
+   "Metal meltdown: SAIL, NALCO, Hindalco drag Nifty Metal 2% lower; here's why",
+   "SpiceJet hits 5% upper band as board to mull fundraise; up 30% in 6 days",
+   "Caplin Point slides 13% in 3 sessions after US FDA flags plant for action",
+   "What did demonetisation do for India in a decade?",
+   "The 86-year carbon debt in your cooking oil",
+   "Has the RBI really stabilised the rupee?",
+   "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
+   "Nvidia's sensational crisis, the tyre sector's punctured profits, and more...",
+   "Can tyre makers keep rising costs from puncturing their profits?"
   ]
  }
 ]
