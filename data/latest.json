@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18 14:20 IST",
-  "generated_utc": "2026-11-18T08:50:25+00:00",
+  "generated_at": "2026-11-19 14:35 IST",
+  "generated_utc": "2026-11-19T09:05:56+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-18 14:20 IST",
+      "asof": "2026-11-19 14:35 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-11-17",
+        "asof": "2026-11-18",
         "rates": {
-          "EUR": 0.91,
-          "GBP": 0.75808,
-          "INR": 93.48,
-          "JPY": 159.3
+          "EUR": 0.91174,
+          "GBP": 0.75939,
+          "INR": 93.44,
+          "JPY": 159.42
         },
         "usdinr_history": [
-          {
-            "date": "2025-11-18",
-            "v": 88.56
-          },
           {
             "date": "2025-11-19",
             "v": 88.5
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-11-17",
             "v": 93.48
+          },
+          {
+            "date": "2026-11-18",
+            "v": 93.44
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-11-18 14:20 IST",
+      "asof": "2026-11-19 14:36 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.3611,
-          "date": "17-11-2026",
-          "ret1y_pct": -2.25,
+          "nav": 107.3493,
+          "date": "18-11-2026",
+          "ret1y_pct": -2.29,
           "series": [
-            104.2711,
-            106.3422,
-            107.6883,
-            107.4878,
-            108.2193,
-            108.066,
-            108.7397,
-            109.7548,
-            110.2362,
-            110.3333,
-            110.4477,
-            110.9193,
-            104.6113,
-            104.7318,
-            105.8125,
-            106.5116,
-            107.2564,
-            106.9321,
-            106.7926,
-            107.3611
+            104.3152,
+            106.4231,
+            107.657,
+            107.5767,
+            108.1828,
+            108.0297,
+            108.8285,
+            109.7941,
+            110.235,
+            110.2498,
+            110.5985,
+            111.0484,
+            104.7901,
+            104.5968,
+            105.8455,
+            106.5829,
+            107.2744,
+            106.9851,
+            106.7921,
+            107.3493
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 116.5964,
-          "date": "17-11-2026",
-          "ret1y_pct": 4.87,
+          "nav": 115.6089,
+          "date": "18-11-2026",
+          "ret1y_pct": 3.5,
           "series": [
-            99.4468,
-            107.2349,
-            107.5691,
-            108.6737,
-            107.3883,
-            109.7209,
-            109.9552,
-            111.2034,
-            110.519,
-            108.8425,
-            110.5365,
-            99.7111,
-            105.117,
-            104.1556,
+            101.8933,
+            107.4778,
             107.014,
-            109.2867,
-            112.4854,
-            108.2148,
-            106.4488,
-            116.5964
+            108.827,
+            106.9215,
+            109.7409,
+            109.6634,
+            111.7933,
+            110.3582,
+            108.5048,
+            109.3409,
+            100.396,
+            105.9826,
+            104.2767,
+            107.5348,
+            109.8582,
+            112.2629,
+            108.4094,
+            107.0159,
+            115.6089
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 230.556,
-          "date": "17-11-2026",
-          "ret1y_pct": 2.65,
+          "nav": 228.631,
+          "date": "18-11-2026",
+          "ret1y_pct": 1.91,
           "series": [
-            189.787,
-            196.428,
-            209.242,
-            217.529,
-            212.022,
-            211.92,
-            215.969,
-            222.303,
-            222.55,
-            223.692,
-            226.936,
-            211.452,
-            217.52,
-            218.423,
-            223.292,
-            229.588,
-            236.372,
-            226.595,
-            221.574,
-            230.556
+            189.681,
+            194.013,
+            210.705,
+            217.42,
+            211.303,
+            211.634,
+            215.6,
+            222.608,
+            221.139,
+            222.322,
+            227.177,
+            205.997,
+            218.214,
+            217.978,
+            224.28,
+            229.279,
+            236.914,
+            227.703,
+            221.058,
+            228.631
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 248.5677,
-          "date": "17-11-2026",
-          "ret1y_pct": -1.16,
+          "nav": 247.0054,
+          "date": "18-11-2026",
+          "ret1y_pct": -1.8,
           "series": [
-            224.8507,
-            235.2655,
-            239.1351,
-            246.4609,
-            239.6904,
-            240.1574,
-            243.7273,
-            248.5695,
-            251.0935,
-            251.409,
-            252.1728,
-            229.8571,
-            235.5455,
-            229.99,
-            233.6948,
-            235.1864,
-            238.4972,
-            226.3025,
-            225.0757,
-            248.5677
+            224.0569,
+            233.9081,
+            241.5645,
+            246.4719,
+            238.9819,
+            240.221,
+            243.1224,
+            249.7403,
+            250.2987,
+            249.5268,
+            252.3528,
+            225.1108,
+            235.2075,
+            230.0476,
+            234.6313,
+            237.7681,
+            237.726,
+            227.2699,
+            226.557,
+            247.0054
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-18 14:21 IST",
+      "asof": "2026-11-19 14:36 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-11-18 14:21 IST",
+      "asof": "2026-11-19 14:36 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "17-Nov-2026",
-          "buy": 14903.8,
-          "sell": 14706.87,
-          "net": 196.93
+          "date": "18-Nov-2026",
+          "buy": 14602.25,
+          "sell": 17762.15,
+          "net": -3159.9
         },
         "fii": {
-          "date": "17-Nov-2026",
-          "buy": 19930.98,
-          "sell": 15735.6,
-          "net": 4195.38
+          "date": "18-Nov-2026",
+          "buy": 17913.16,
+          "sell": 12046.38,
+          "net": 5866.78
         }
       }
     },
     "news": {
-      "asof": "2026-11-18 14:21 IST",
+      "asof": "2026-11-19 14:36 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nifty Consumer Durables index slides 3%; Titan, Kalyan Jewellers crack 5%",
-          "url": "https://www.business-standard.com/markets/news/nifty-consumer-durables-index-slides-3-titan-kalyan-jewellers-crack-5-126111800512_1.html",
-          "published": "Wed, 18 Nov 2026 13:42:23 +0530"
+          "title": "Tata Tech jumps over 9% as FY30 roadmap targets $1.3 billion revenue",
+          "url": "https://www.business-standard.com/markets/news/tata-tech-jumps-over-9-as-fy30-roadmap-targets-1-3-billion-revenue-126111900557_1.html",
+          "published": "Thu, 19 Nov 2026 14:01:43 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Multibagger ACME Solar jumps 3% on order win, trades 113% up from Jan lows",
-          "url": "https://www.business-standard.com/markets/news/multibagger-stock-acme-solar-jumps-3-on-order-win-trades-113-up-from-january-lows-126111800524_1.html",
-          "published": "Wed, 18 Nov 2026 13:39:56 +0530"
+          "title": "Nifty IT tanks for 3rd day, down 6.5% in Nov so far: What's behind fall?",
+          "url": "https://www.business-standard.com/markets/news/nifty-it-tanks-for-3rd-day-down-6-5-in-nov-so-far-what-s-behind-fall-126111900522_1.html",
+          "published": "Thu, 19 Nov 2026 13:28:26 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat",
-          "url": "https://www.business-standard.com/markets/news/sbi-trades-firm-in-down-market-stock-up-16-in-nov-brokerages-stay-upbeat-126111800409_1.html",
-          "published": "Wed, 18 Nov 2026 12:26:44 +0530"
+          "title": "NLC India Renewables files IPO papers, plans ₹3,300 crore fresh issue",
+          "url": "https://www.business-standard.com/companies/news/nlc-india-renewables-files-ipo-papers-plans-3-300-crore-fresh-issue-126111900441_1.html",
+          "published": "Thu, 19 Nov 2026 13:19:12 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Metal meltdown: SAIL, NALCO, Hindalco drag Nifty Metal 2% lower; here's why",
-          "url": "https://www.business-standard.com/markets/news/metal-meltdown-sail-nalco-hindalco-drag-nifty-metal-2-lower-here-s-why-126111800417_1.html",
-          "published": "Wed, 18 Nov 2026 12:19:44 +0530"
+          "title": "ITC share price tops ₹300-mark after 6-month gap; jumps 19% from Oct low",
+          "url": "https://www.business-standard.com/markets/news/itc-share-price-tops-300-mark-after-6-month-gap-jumps-19-from-oct-low-126111900484_1.html",
+          "published": "Thu, 19 Nov 2026 13:18:46 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "SpiceJet hits 5% upper band as board to mull fundraise; up 30% in 6 days",
-          "url": "https://www.business-standard.com/markets/news/spicejet-hits-5-upper-band-as-board-to-mull-fundraise-up-30-in-6-days-126111800376_1.html",
-          "published": "Wed, 18 Nov 2026 12:12:20 +0530"
+          "title": "Tiger Global Management backed Razorpay prepares to file for IPO next week",
+          "url": "https://www.business-standard.com/companies/news/tiger-global-management-backed-razorpay-prepares-to-file-for-ipo-next-week-126111900494_1.html",
+          "published": "Thu, 19 Nov 2026 13:05:48 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Caplin Point slides 13% in 3 sessions after US FDA flags plant for action",
-          "url": "https://www.business-standard.com/markets/news/caplin-point-slides-13-in-3-sessions-after-us-fda-flags-plant-for-action-126111800383_1.html",
-          "published": "Wed, 18 Nov 2026 12:01:47 +0530"
+          "title": "PB Fintech shares slide over 6% after co-founder Alok Bansal steps down",
+          "url": "https://www.business-standard.com/markets/news/pb-fintech-shares-slide-over-6-after-co-founder-alok-bansal-steps-down-126111900475_1.html",
+          "published": "Thu, 19 Nov 2026 12:54:27 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "The Mahanadi Coalfields IPO Explained",
+          "url": "https://finshots.in/archive/mahanadi-coalfields-ipo-explained/",
+          "published": "Thu, 19 Nov 2026 01:30:59 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,123 +1331,88 @@
           "published": "Sat, 14 Nov 2026 01:30:01 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Can tyre makers keep rising costs from puncturing their profits?",
-          "url": "https://finshots.in/markets/can-tyre-makers-keep-rising-costs-from-puncturing-their-profits/",
-          "published": "Fri, 13 Nov 2026 01:30:59 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Goldman Sachs names 22 ‘high-growth’ stocks; Bharti Airtel, Eternal and HDFC Bank feature in the list",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms",
+          "published": "Thu, 19 Nov 2026 12:35:20 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Govt weighs tax tweaks to boost stock trading, curb derivatives: Report",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives/articleshow/135953824.cms",
-          "published": "Wed, 18 Nov 2026 12:54:58 +0530"
+          "title": "Why AMD shares are rising: 7 things investors should know",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-amd-shares-are-rising-7-things-investors-should-know/slideshow/135980657.cms",
+          "published": "Thu, 19 Nov 2026 11:59:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "How Ashish Kacholia, Radhakishan Damani, Madhusudan Kela and other ace investors reshuffled their portfolios in Q2",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-ashish-kacholia-radhakishan-damani-madhusudan-kela-and-other-ace-investors-reshuffled-their-portfolios-in-q2/slideshow/135953760.cms",
-          "published": "Wed, 18 Nov 2026 12:39:19 +0530"
+          "title": "Gold prices fall marginally, silver rises up to 0.5% on MCX: Gold Silver Rates Live Updates",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-19th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/135979606.cms",
+          "published": "Thu, 19 Nov 2026 11:28:41 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "16 microcap stocks surge up to 390% in CY26, emerge as multibaggers",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/16-microcap-stocks-surge-up-to-390-in-cy26-emerge-as-multibaggers/slideshow/135953025.cms",
-          "published": "Wed, 18 Nov 2026 12:14:42 +0530"
+          "title": "Can AI demand drive further gains in PANW stock?",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/can-ai-demand-drive-further-gains-in-panw-stock/slideshow/135979684.cms",
+          "published": "Thu, 19 Nov 2026 11:15:13 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "India bonds rise tracking easing crude oil, US Treasury yields",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-rise-tracking-easing-crude-oil-us-treasury-yields/articleshow/135952296.cms",
-          "published": "Wed, 18 Nov 2026 12:06:17 +0530"
+          "title": "India bonds hold on to opening gains; moves in crude, Treasuries to stay main trigger",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-hold-on-to-opening-gains-moves-in-crude-treasuries-to-stay-main-trigger/articleshow/135978286.cms",
+          "published": "Thu, 19 Nov 2026 10:41:46 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Anthropic IPO: Why Wall Street is betting big on Claude AI maker",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-why-wall-street-is-betting-big-on-claude-ai-maker/slideshow/135951884.cms",
-          "published": "Wed, 18 Nov 2026 11:42:00 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "SanDisk stock selloff deepens: What's driving the crash?",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sandisk-stock-selloff-deepens-whats-driving-the-crash/slideshow/135951707.cms",
-          "published": "Wed, 18 Nov 2026 11:32:11 +0530"
+          "title": "Star Health among 3 stocks showing RSI trending up",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/star-health-among-3-stocks-showing-rsi-trending-up/slideshow/135977535.cms",
+          "published": "Thu, 19 Nov 2026 09:57:54 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "NSE uses equity option script to up ante in commodity F&O",
-          "url": "https://www.livemint.com/market/commodities/nse-mcx-commodity-options-market-share-crude-oil-expiry-11794985120018.html",
-          "published": "Wed, 18 Nov 2026 14:15:33 +0530"
+          "title": "Anthropic IPO breaks all records, even SpaceX! What $81.3 billion means for India's IT and AI stocks? Experts decode",
+          "url": "https://www.livemint.com/market/ipo/anthropic-ipo-breaks-all-records-even-spacex-what-81-3-billion-means-for-indias-it-and-ai-stocks-experts-decode-11795075165072.html",
+          "published": "Thu, 19 Nov 2026 14:26:02 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Angel One, 5paisa, BSE and other capital market stocks slide up to 3% as SEBI weighs MTF curbs; Is the MTF party over?",
-          "url": "https://www.livemint.com/market/stock-market-news/angel-one-5paisa-bse-and-other-capital-market-stocks-slide-up-to-3-as-sebi-weighs-mtf-curbs-is-the-mtf-party-over-11794988829405.html",
-          "published": "Wed, 18 Nov 2026 14:13:23 +0530"
+          "title": "Coal India vs NMDC vs MOIL: Which mining PSU stock deserves a place in your portfolio for long-term gains? Check target",
+          "url": "https://www.livemint.com/market/stock-market-news/coal-india-vs-nmdc-vs-moil-which-mining-psu-stock-deserves-a-place-in-your-portfolio-for-long-term-gains-check-target-11795070429503.html",
+          "published": "Thu, 19 Nov 2026 13:58:33 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Metal stocks to buy! APL Apollo Tubes, Hindalco: Axis Sec lists 2 conviction picks post Q2 results 2026; check targets",
-          "url": "https://www.livemint.com/market/metal-stocks-to-buy-apl-apollo-tubes-hindalco-axis-sec-lists-2-conviction-picks-post-q2-results-2026-check-targets-11794986876146.html",
-          "published": "Wed, 18 Nov 2026 14:06:51 +0530"
+          "title": "MRF faces a long road to margin recovery as costs stay high",
+          "url": "https://www.livemint.com/market/mark-to-market/mrf-share-price-margin-pressure-raw-material-costs-tyre-industry-11795072540789.html",
+          "published": "Thu, 19 Nov 2026 13:49:04 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Jio Platforms shares gain over 26% from IPO price: Should investors hold, buy more or book profits? What experts say",
-          "url": "https://www.livemint.com/market/stock-market-news/jio-platforms-shares-gain-over-26-from-ipo-price-should-investors-hold-buy-more-or-book-profits-what-experts-say-11794985144658.html",
-          "published": "Wed, 18 Nov 2026 13:50:25 +0530"
+          "title": "ABB India’s margin recovery in spotlight amid record order inflow",
+          "url": "https://www.livemint.com/market/mark-to-market/abb-india-record-order-inflow-margin-pressure-stock-outlook-11795069332409.html",
+          "published": "Thu, 19 Nov 2026 13:44:03 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Titan, Kalyan Jewellers, PC Jeweller fall up to 5%: Why are jewellery stocks losing shine despite lower gold prices?",
-          "url": "https://www.livemint.com/market/titan-kalyan-jewellers-pc-jeweller-fall-up-to-5-why-are-jewellery-stocks-losing-shine-despite-lower-gold-prices-11794985842518.html",
-          "published": "Wed, 18 Nov 2026 13:26:26 +0530"
+          "title": "114 Rafales, 6 submarines! Defence stocks HAL, BEL, BDL shares jump up to 3% - Is a mega defence order boom coming?",
+          "url": "https://www.livemint.com/market/stock-market-news/114-rafales-6-submarines-defence-stocks-hal-bel-bdl-shares-jump-up-to-3-is-a-mega-defence-order-boom-coming-11795072244167.html",
+          "published": "Thu, 19 Nov 2026 13:23:37 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Why Ashok Leyland’s investors are wary despite robust demand",
-          "url": "https://www.livemint.com/market/mark-to-market/ashok-leyland-share-price-falls-despite-strong-q2-results-11794981822415.html",
-          "published": "Wed, 18 Nov 2026 12:38:06 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
-          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
-          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
-          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
-          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
-          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
-        },
-        {
-          "source": "Moneycontrol",
-          "weight": "medium",
-          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
-          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
-          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
+          "title": "Auto stocks hit the accelerator! Nifty Auto jumps 4%; Maruti, M&M, Hyundai lead the rally | What's behind the surge?",
+          "url": "https://www.livemint.com/market/stock-market-news/auto-stocks-hit-the-accelerator-nifty-auto-jumps-4-maruti-m-m-tata-motors-pv-lead-rally-whats-behind-the-surg-11795070748708.html",
+          "published": "Thu, 19 Nov 2026 13:09:25 +0530"
         }
       ]
     },
@@ -1458,18 +1430,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-18 14:21 IST",
+      "checked_at": "2026-11-19 14:36 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-18 14:21 IST",
+      "generated_at": "2026-11-19 14:36 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs130,649 Cr · 90% of days positive.",
+        "reading": "20-day cumulative: +Rs137,460 Cr · 95% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1490,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs130,649 Cr · 90% of days positive.",
+          "reading": "20-day cumulative: +Rs137,460 Cr · 95% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1504,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-70,587 Cr · 10% of days positive.",
+          "reading": "20-day cumulative: Rs-75,671 Cr · 5% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1546,9 +1518,9 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee strengthening — supportive backdrop",
-          "reading": "USD/INR moved -1.5% over the last month (now 93.48).",
+          "reading": "USD/INR moved -1.6% over the last month (now 93.44).",
           "direction": "bullish",
-          "strength": 73,
+          "strength": 74,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
@@ -1561,8 +1533,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "bullish",
-          "strength": 73,
-          "reading": "USD/INR moved -1.5% over the last month (now 93.48).",
+          "strength": 74,
+          "reading": "USD/INR moved -1.6% over the last month (now 93.44).",
           "conclusion": "Rupee strengthening — supportive backdrop",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1588,7 +1560,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs130,649 Cr · 90% of days positive.",
+          "reading": "20-day cumulative: +Rs137,460 Cr · 95% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1573,7 @@
           "label": "Domestic flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-70,587 Cr · 10% of days positive.",
+          "reading": "20-day cumulative: Rs-75,671 Cr · 5% of days positive.",
           "conclusion": "Domestic flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,32 +1586,32 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-18 14:21 IST",
+    "date": "2026-11-19 14:36 IST",
     "usdinr": {
-      "last": 93.48,
-      "date": "2026-11-17"
+      "last": 93.44,
+      "date": "2026-11-18"
     },
     "dii_net": {
-      "net": 196.93,
-      "date": "17-Nov-2026"
+      "net": -3159.9,
+      "date": "18-Nov-2026"
     },
     "fii_net": {
-      "net": 4195.38,
-      "date": "17-Nov-2026"
+      "net": 5866.78,
+      "date": "18-Nov-2026"
     },
     "headlines": [
-      "Nifty Consumer Durables index slides 3%; Titan, Kalyan Jewellers crack 5%",
-      "Multibagger ACME Solar jumps 3% on order win, trades 113% up from Jan lows",
-      "SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat",
-      "Metal meltdown: SAIL, NALCO, Hindalco drag Nifty Metal 2% lower; here's why",
-      "SpiceJet hits 5% upper band as board to mull fundraise; up 30% in 6 days",
-      "Caplin Point slides 13% in 3 sessions after US FDA flags plant for action",
+      "Tata Tech jumps over 9% as FY30 roadmap targets $1.3 billion revenue",
+      "Nifty IT tanks for 3rd day, down 6.5% in Nov so far: What's behind fall?",
+      "NLC India Renewables files IPO papers, plans ₹3,300 crore fresh issue",
+      "ITC share price tops ₹300-mark after 6-month gap; jumps 19% from Oct low",
+      "Tiger Global Management backed Razorpay prepares to file for IPO next week",
+      "PB Fintech shares slide over 6% after co-founder Alok Bansal steps down",
+      "The Mahanadi Coalfields IPO Explained",
       "What did demonetisation do for India in a decade?",
       "The 86-year carbon debt in your cooking oil",
       "Has the RBI really stabilised the rupee?",
       "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
-      "Nvidia's sensational crisis, the tyre sector's punctured profits, and more...",
-      "Can tyre makers keep rising costs from puncturing their profits?"
+      "Nvidia's sensational crisis, the tyre sector's punctured profits, and more..."
     ]
   },
   "changes": {
@@ -1647,7 +1619,7 @@
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹197 Cr — direction flipped"
+        "detail": "₹-3,160 Cr — direction flipped"
       },
       {
         "kind": "news",
@@ -1659,17 +1631,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹93.48 (-0.48%)"
+        "detail": "₹93.44 (-0.04%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹197 Cr — direction flipped"
+        "detail": "₹-3,160 Cr — direction flipped"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹4,195 Cr"
+        "detail": "₹5,867 Cr"
       },
       {
         "kind": "news",
@@ -1677,15 +1649,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-11-17 15:02 IST",
+    "since": "2026-11-18 14:21 IST",
     "new_headlines": [
-      "Nifty Consumer Durables index slides 3%; Titan, Kalyan Jewellers crack 5%",
-      "Multibagger ACME Solar jumps 3% on order win, trades 113% up from Jan lows",
-      "SBI trades firm in down market, stock up 16% in Nov; brokerages stay upbeat",
-      "Metal meltdown: SAIL, NALCO, Hindalco drag Nifty Metal 2% lower; here's why",
-      "SpiceJet hits 5% upper band as board to mull fundraise; up 30% in 6 days",
-      "Caplin Point slides 13% in 3 sessions after US FDA flags plant for action",
-      "What did demonetisation do for India in a decade?"
+      "Tata Tech jumps over 9% as FY30 roadmap targets $1.3 billion revenue",
+      "Nifty IT tanks for 3rd day, down 6.5% in Nov so far: What's behind fall?",
+      "NLC India Renewables files IPO papers, plans ₹3,300 crore fresh issue",
+      "ITC share price tops ₹300-mark after 6-month gap; jumps 19% from Oct low",
+      "Tiger Global Management backed Razorpay prepares to file for IPO next week",
+      "PB Fintech shares slide over 6% after co-founder Alok Bansal steps down",
+      "The Mahanadi Coalfields IPO Explained"
     ]
   },
   "summary": {
