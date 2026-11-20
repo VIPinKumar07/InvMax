@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-21 11:49 IST",
-  "usdinr": {
-   "last": 94.93,
-   "date": "2026-10-20"
-  },
-  "dii_net": {
-   "net": 3201.19,
-   "date": "19-Oct-2026"
-  },
-  "fii_net": {
-   "net": -1148.64,
-   "date": "19-Oct-2026"
-  },
-  "headlines": [
-   "Jio Platforms IPO fully subscribed in less than 35 minutes of opening",
-   "Midcap 100, Smallcap 100 index down 1%; MRF, Biocon, Swiggy at 52-week lows",
-   "UltraTech up 3% post Q2; Jefferies says cement price recovery key catalyst",
-   "Why are markets rising today? Sensex up 800 pts intraday, Nifty tops 23,100",
-   "Nifty IT index hits 8-month high; LTTS zooms 15% on Wednesday; here's why",
-   "Gold, silver fall as higher crude oil prices revive rate-hike concerns",
-   "Why do wealth taxes keep failing?",
-   "A few more things about the Jio Platforms IPO",
-   "A Nobel dating app, hacked refrigerators, and more...",
-   "The IDBI stake sale, Starlink's entry into India, and more...",
-   "IDBI Bank is finally being sold",
-   "Can Starlink win India’s internet war?"
-  ]
- },
- {
   "date": "2026-10-22 11:52 IST",
   "usdinr": {
    "last": 94.47,
@@ -867,6 +838,35 @@
    "Has the RBI really stabilised the rupee?",
    "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
    "Nvidia's sensational crisis, the tyre sector's punctured profits, and more..."
+  ]
+ },
+ {
+  "date": "2026-11-20 14:22 IST",
+  "usdinr": {
+   "last": 93.3,
+   "date": "2026-11-19"
+  },
+  "dii_net": {
+   "net": -1356.57,
+   "date": "19-Nov-2026"
+  },
+  "fii_net": {
+   "net": 7411.41,
+   "date": "19-Nov-2026"
+  },
+  "headlines": [
+   "Sensex zooms 1790 pts in 2 days; ₹6.9 trn added to m-cap: 5 key reasons",
+   "Sebi studies domestic AI model to make regulatory tools cheaper, safer",
+   "HDFC Bank regains ₹13 trillion market-cap; stock hits 8-month high",
+   "Brent seen at $75-85 in 2027 as oil surplus builds: Mirae Asset Sharekhan",
+   "Gold, silver prices fall amid stronger dollar, hawkish Fed signals",
+   "Asset allocation, rebalancing key to wealth creation over 3-5 yrs: Dezerv",
+   "A bitter aftertaste for liquor companies",
+   "The Mahanadi Coalfields IPO Explained",
+   "What did demonetisation do for India in a decade?",
+   "The 86-year carbon debt in your cooking oil",
+   "Has the RBI really stabilised the rupee?",
+   "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more..."
   ]
  }
 ]
