@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-22 11:52 IST",
-  "usdinr": {
-   "last": 94.47,
-   "date": "2026-10-21"
-  },
-  "dii_net": {
-   "net": 1614.32,
-   "date": "21-Oct-2026"
-  },
-  "fii_net": {
-   "net": 1022.32,
-   "date": "21-Oct-2026"
-  },
-  "headlines": [
-   "SRF extends slide to 5th day, falls 5% to hit 52-wk low on Q2 margin miss",
-   "KEI Industries share price plunges 10%, nears 52-week low; here's why",
-   "Mahindra Finance tanks 10%, hits 52-week low despite 55% surge in Q2 profit",
-   "Q2 result impact: IGIL shares hit 10% upper circuit; PAT up 43% to ₹185 cr",
-   "Indian Hotels gains 3% as analysts raise earnings estimates, target post Q2",
-   "Lupin, SRF, TMPV, Maruti, NTPC among 74 BSE 500 stocks hit 52-week lows",
-   "Why dating apps struggle to find a match with investors",
-   "Why do wealth taxes keep failing?",
-   "A few more things about the Jio Platforms IPO",
-   "A Nobel dating app, hacked refrigerators, and more...",
-   "The IDBI stake sale, Starlink's entry into India, and more...",
-   "IDBI Bank is finally being sold"
-  ]
- },
- {
   "date": "2026-10-23 12:04 IST",
   "usdinr": {
    "last": 94.82,
@@ -867,6 +838,35 @@
    "The 86-year carbon debt in your cooking oil",
    "Has the RBI really stabilised the rupee?",
    "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more..."
+  ]
+ },
+ {
+  "date": "2026-11-21 14:03 IST",
+  "usdinr": {
+   "last": 92.68,
+   "date": "2026-11-20"
+  },
+  "dii_net": {
+   "net": -4859.8,
+   "date": "20-Nov-2026"
+  },
+  "fii_net": {
+   "net": 10308.42,
+   "date": "20-Nov-2026"
+  },
+  "headlines": [
+   "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
+   "Oil prices set for 3rd straight week of decline on West Asia export flows",
+   "Indian investors show strong appetite for Anthropic's blockbuster IPO",
+   "Anthropic shares tumble after record IPO as AI trade faces reality check",
+   "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
+   "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+   "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
+   "A bitter aftertaste for liquor companies",
+   "The Mahanadi Coalfields IPO Explained",
+   "What did demonetisation do for India in a decade?",
+   "The 86-year carbon debt in your cooking oil",
+   "Has the RBI really stabilised the rupee?"
   ]
  }
 ]

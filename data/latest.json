@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20 14:21 IST",
-  "generated_utc": "2026-11-20T08:51:25+00:00",
+  "generated_at": "2026-11-21 14:02 IST",
+  "generated_utc": "2026-11-21T08:32:55+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-20 14:21 IST",
+      "asof": "2026-11-21 14:02 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-11-19",
+        "asof": "2026-11-20",
         "rates": {
-          "EUR": 0.90975,
-          "GBP": 0.76038,
-          "INR": 93.3,
-          "JPY": 159.97
+          "EUR": 0.90992,
+          "GBP": 0.76192,
+          "INR": 92.68,
+          "JPY": 158.64
         },
         "usdinr_history": [
-          {
-            "date": "2025-11-20",
-            "v": 88.71
-          },
           {
             "date": "2025-11-21",
             "v": 89.64
@@ -1071,132 +1067,136 @@
           {
             "date": "2026-11-19",
             "v": 93.3
+          },
+          {
+            "date": "2026-11-20",
+            "v": 92.68
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-11-20 14:21 IST",
+      "asof": "2026-11-21 14:02 IST",
       "status": "ok",
       "data": [
         {
           "code": "119551",
           "label": "Flexicap (sample)",
           "scheme": "Aditya Birla Sun Life Banking & PSU Debt Fund - Direct Plan - IDCW-Re-investment",
-          "nav": 107.3259,
-          "date": "19-11-2026",
-          "ret1y_pct": -2.36,
+          "nav": 107.4395,
+          "date": "20-11-2026",
+          "ret1y_pct": -2.29,
           "series": [
-            104.4275,
-            106.4272,
-            107.7103,
-            107.6624,
-            108.1757,
-            108.0373,
-            108.9591,
-            109.8337,
-            110.3373,
-            110.2647,
-            110.4173,
-            111.1072,
-            104.7959,
-            104.3791,
-            105.8482,
-            106.6001,
-            107.2402,
-            107.0008,
-            106.821,
-            107.3259
+            104.5887,
+            106.4573,
+            107.7345,
+            107.7677,
+            108.2167,
+            108.0088,
+            109.0926,
+            109.8609,
+            110.3299,
+            110.2175,
+            110.4233,
+            110.9898,
+            104.7821,
+            104.4216,
+            105.9003,
+            106.5737,
+            107.136,
+            107.0677,
+            106.6859,
+            107.4395
           ]
         },
         {
           "code": "120503",
           "label": "Large Cap (sample)",
           "scheme": "Axis ELSS- Tax Saver Fund - Direct Plan - Growth Option",
-          "nav": 116.9073,
-          "date": "19-11-2026",
-          "ret1y_pct": 4.31,
+          "nav": 118.0275,
+          "date": "20-11-2026",
+          "ret1y_pct": 6.15,
           "series": [
-            102.318,
-            107.379,
-            107.9842,
-            109.4895,
-            107.7607,
-            110.0814,
-            110.7365,
-            111.1769,
-            109.7392,
-            108.6446,
-            109.8444,
-            101.2496,
-            106.2063,
-            104.6046,
-            108.0081,
-            109.8895,
-            112.0096,
-            108.8298,
-            105.8554,
-            116.9073
+            103.6475,
+            105.8304,
+            107.5374,
+            109.4752,
+            107.8455,
+            110.1522,
+            111.5399,
+            111.7018,
+            109.3091,
+            108.3617,
+            110.0806,
+            102.4592,
+            107.2434,
+            104.4915,
+            107.9636,
+            110.1859,
+            111.5957,
+            109.9892,
+            104.8855,
+            118.0275
           ]
         },
         {
           "code": "118989",
           "label": "Mid Cap (sample)",
           "scheme": "HDFC Mid Cap Fund - Direct Plan - Growth Option",
-          "nav": 230.39,
-          "date": "19-11-2026",
-          "ret1y_pct": 2.69,
+          "nav": 232.517,
+          "date": "20-11-2026",
+          "ret1y_pct": 2.85,
           "series": [
-            184.712,
-            193.533,
-            212.978,
-            217.446,
-            209.07,
-            211.986,
-            216.544,
-            224.607,
-            221.622,
-            221.703,
-            226.103,
-            205.631,
-            220.058,
-            219.799,
-            225.63,
-            229.599,
-            235.873,
-            229.51,
-            219.784,
-            230.39
+            179.056,
+            199.462,
+            213.109,
+            217.447,
+            210.196,
+            212.848,
+            217.337,
+            224.351,
+            223.398,
+            221.659,
+            223.49,
+            206.218,
+            219.674,
+            220.391,
+            226.497,
+            230.924,
+            235.526,
+            231.413,
+            217.782,
+            232.517
           ]
         },
         {
           "code": "119063",
           "label": "Debt / Short Duration (sample)",
           "scheme": "HDFC Nifty 50 Index Fund - Direct Plan - Growth Option",
-          "nav": 249.8054,
-          "date": "19-11-2026",
-          "ret1y_pct": -0.8,
+          "nav": 252.6065,
+          "date": "20-11-2026",
+          "ret1y_pct": -0.09,
           "series": [
-            220.7303,
-            231.3524,
-            242.5253,
-            247.076,
-            238.279,
-            240.5287,
-            244.4368,
-            251.4934,
-            251.6632,
-            250.562,
-            250.9264,
-            227.6139,
-            236.7297,
-            229.7357,
-            235.4295,
-            236.8303,
-            236.4268,
-            227.7872,
-            224.0352,
-            249.8054
+            213.5667,
+            240.1835,
+            242.5537,
+            246.6264,
+            238.4896,
+            241.4537,
+            245.4408,
+            251.524,
+            253.1033,
+            249.9982,
+            247.6596,
+            229.2869,
+            236.8352,
+            230.1326,
+            234.3625,
+            236.3334,
+            235.6758,
+            228.5272,
+            223.2728,
+            252.6065
           ]
         }
       ]
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-20 14:22 IST",
+      "asof": "2026-11-21 14:03 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,68 +1225,75 @@
       }
     },
     "flows": {
-      "asof": "2026-11-20 14:22 IST",
+      "asof": "2026-11-21 14:03 IST",
       "status": "ok",
       "data": {
         "dii": {
-          "date": "19-Nov-2026",
-          "buy": 17651.5,
-          "sell": 19008.07,
-          "net": -1356.57
+          "date": "20-Nov-2026",
+          "buy": 18492.63,
+          "sell": 23352.43,
+          "net": -4859.8
         },
         "fii": {
-          "date": "19-Nov-2026",
-          "buy": 20706.95,
-          "sell": 13295.54,
-          "net": 7411.41
+          "date": "20-Nov-2026",
+          "buy": 23596.4,
+          "sell": 13287.98,
+          "net": 10308.42
         }
       }
     },
     "news": {
-      "asof": "2026-11-20 14:22 IST",
+      "asof": "2026-11-21 14:03 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sensex zooms 1790 pts in 2 days; ₹6.9 trn added to m-cap: 5 key reasons",
-          "url": "https://www.business-standard.com/markets/news/sensex-zooms-1790-pts-in-2-days-nifty-above-25-700-investors-wealth-grows-6-9-trn-5-factors-126112000541_1.html",
-          "published": "Fri, 20 Nov 2026 13:55:29 +0530"
+          "title": "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
+          "url": "https://www.business-standard.com/content/press-releases-ani/bitcoin-nears-usd-60-000-what-traders-should-watch-according-to-wazirx-126112000892_1.html",
+          "published": "Fri, 20 Nov 2026 17:35:24 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Sebi studies domestic AI model to make regulatory tools cheaper, safer",
-          "url": "https://www.business-standard.com/markets/news/sebi-domestically-governed-ai-model-securities-market-tuhin-kanta-pandey-126112000530_1.html",
-          "published": "Fri, 20 Nov 2026 13:44:14 +0530"
+          "title": "Oil prices set for 3rd straight week of decline on West Asia export flows",
+          "url": "https://www.business-standard.com/markets/news/oil-prices-set-for-3rd-straight-week-of-decline-on-west-asia-export-flows-126112001415_1.html",
+          "published": "Fri, 20 Nov 2026 22:58:17 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "HDFC Bank regains ₹13 trillion market-cap; stock hits 8-month high",
-          "url": "https://www.business-standard.com/markets/news/hdfc-bank-regains-13-trillion-market-cap-stock-hits-8-month-high-126112000503_1.html",
-          "published": "Fri, 20 Nov 2026 13:41:37 +0530"
+          "title": "Indian investors show strong appetite for Anthropic's blockbuster IPO",
+          "url": "https://www.business-standard.com/markets/news/indian-investors-show-strong-appetite-for-anthropic-s-blockbuster-ipo-126112001087_1.html",
+          "published": "Fri, 20 Nov 2026 21:24:13 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Brent seen at $75-85 in 2027 as oil surplus builds: Mirae Asset Sharekhan",
-          "url": "https://www.business-standard.com/markets/news/brent-seen-at-75-85-in-2027-as-oil-surplus-builds-mirae-asset-sharekhan-126112000518_1.html",
-          "published": "Fri, 20 Nov 2026 13:38:29 +0530"
+          "title": "Anthropic shares tumble after record IPO as AI trade faces reality check",
+          "url": "https://www.business-standard.com/markets/news/anthropic-shares-tumble-after-record-ipo-as-ai-trade-faces-reality-check-126112001268_1.html",
+          "published": "Fri, 20 Nov 2026 21:06:41 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Gold, silver prices fall amid stronger dollar, hawkish Fed signals",
-          "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-fall-amid-stronger-dollar-hawkish-fed-signals-126112000502_1.html",
-          "published": "Fri, 20 Nov 2026 13:27:46 +0530"
+          "title": "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
+          "url": "https://www.business-standard.com/markets/news/sebi-plans-tighter-tenure-caps-for-exchange-mds-public-interest-directors-126112001247_1.html",
+          "published": "Fri, 20 Nov 2026 20:45:33 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asset allocation, rebalancing key to wealth creation over 3-5 yrs: Dezerv",
-          "url": "https://www.business-standard.com/markets/interviews/allocation-rebalancing-key-to-wealth-creation-over-3-5-yrs-than-single-investment-call-sandeep-jethwani-dezerv-126112000461_1.html",
-          "published": "Fri, 20 Nov 2026 13:01:56 +0530"
+          "title": "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+          "url": "https://www.business-standard.com/markets/news/markets-gain-2-6-on-fpi-inflows-rupee-rally-and-cooling-crude-oil-prices-126112000973_1.html",
+          "published": "Fri, 20 Nov 2026 19:24:39 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
+          "url": "https://finshots.in/archive/rupees-recovery-bonanza-why-liquor-stocks-are-falling-and-more/",
+          "published": "Sat, 21 Nov 2026 01:30:31 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,88 @@
           "published": "Mon, 16 Nov 2026 01:30:58 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more...",
-          "url": "https://finshots.in/archive/why-dutch-prisons-are-shutting-down-gtas-kannadiga-connection-more/",
-          "published": "Sun, 15 Nov 2026 01:30:10 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Stocks to buy: HSBC lists 19 Indian stocks that saw FY27 earnings upgrades, check target prices",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-hsbc-lists-19-indian-stocks-that-saw-fy27-earnings-upgrades-check-target-prices/slideshow/136048231.cms",
+          "published": "Sat, 21 Nov 2026 12:51:34 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Indian finance hub eyes dual share model to kickstart public offers: Report",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-finance-hub-eyes-dual-share-model-to-kickstart-public-offers-report/articleshow/136017941.cms",
-          "published": "Fri, 20 Nov 2026 13:02:59 +0530"
+          "title": "Concurrent Gainers: These 13 stocks gained for 5 days in a row, all rose over 27%",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms",
+          "published": "Sat, 21 Nov 2026 12:27:10 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Who is Roaring Kitty? The man behind GameStop's meme rally",
-          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/who-is-roaring-kitty-the-man-behind-gamestops-meme-rally/slideshow/136017912.cms",
-          "published": "Fri, 20 Nov 2026 12:20:28 +0530"
+          "title": "AI to lead investment strategy in 2027; Energy and borrowing costs shape macro outlook: Barclays",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-to-lead-investment-strategy-in-2027-energy-and-borrowing-costs-shape-macro-outlook-barclays/articleshow/136046648.cms",
+          "published": "Sat, 21 Nov 2026 11:39:54 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Treasury rally spills over to Indian bonds, debt supply slows move",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/treasury-rally-spills-over-to-indian-bonds-debt-supply-slows-move/articleshow/136014379.cms",
-          "published": "Fri, 20 Nov 2026 10:49:20 +0530"
+          "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
+          "published": "Sat, 21 Nov 2026 11:21:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Rupee rises past 93 vs USD as portfolio inflows, bear retreat fuel rally",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-rises-past-93-vs-usd-as-portfolio-inflows-bear-retreat-fuel-rally/articleshow/136014185.cms",
-          "published": "Fri, 20 Nov 2026 10:38:53 +0530"
+          "title": "US Treasury yields drop for day and week; AI trade concern spurs safe-haven bid",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-drop-for-day-and-week-ai-trade-concern-spurs-safe-haven-bid/articleshow/136045682.cms",
+          "published": "Sat, 21 Nov 2026 10:53:49 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Rupee strengthens 17 paise to 93.15 against US dollar in early trade",
-          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-strengthens-17-paise-to-93-15-against-us-dollar-in-early-trade/articleshow/136013858.cms",
-          "published": "Fri, 20 Nov 2026 10:24:03 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Anthropic shares close 17% higher on first day of trading amid protest, arrests outside Nasdaq",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/anthropic-shares-close-17-higher-on-first-day-of-trading-amid-protest-arrests-outside-nasdaq/videoshow/136013757.cms",
-          "published": "Fri, 20 Nov 2026 10:18:04 +0530"
+          "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
+          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen/articleshow/136045620.cms",
+          "published": "Sat, 21 Nov 2026 10:50:04 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold price crash: Muthoot Finance, Manappuram shares lose sheen, down up to 5% | Is gold heading for deeper correction?",
-          "url": "https://www.livemint.com/market/stock-market-news/gold-price-crash-muthoot-finance-manappuram-shares-lose-sheen-down-up-to-5-is-gold-heading-for-deeper-correction-11795161489903.html",
-          "published": "Fri, 20 Nov 2026 13:39:00 +0530"
+          "title": "GREED & fear Report: Jefferies Chris Wood hikes India exposure for 2nd time in 3 weeks, cuts Taiwan| New Allocations",
+          "url": "https://www.livemint.com/market/stock-market-news/greed-fear-report-jefferies-chris-wood-hikes-india-exposure-for-2nd-time-in-3-weeks-cuts-taiwan-new-allocations-11795235087351.html",
+          "published": "Sat, 21 Nov 2026 13:39:08 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Urban Company shares dip 4% after ₹2,500 crore fundraising; opportunity to buy on the dip? Target, stop-loss",
-          "url": "https://www.livemint.com/market/stock-market-news/urban-company-shares-dip-4-after-rs-2-500-crore-fundraising-opportunity-to-buy-on-the-dip-target-stoploss-11795160058174.html",
-          "published": "Fri, 20 Nov 2026 13:29:38 +0530"
+          "title": "Upcoming dividend, split, rights issue record dates next week, Nov 23-27: Pashupati Cotspin, Zee Ent, Varvee, and more",
+          "url": "https://www.livemint.com/market/stock-market-news/upcoming-dividend-split-rights-issue-record-dates-next-week-nov-23-27-pashupati-cotspin-zee-ent-varvee-and-more-11795245232145.html",
+          "published": "Sat, 21 Nov 2026 13:10:34 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold price crash today: Rates below ₹1.25 lakh/10 gm on MCX | 3 reasons why? ₹1 lakh or ₹1.5 lakh - What's next?",
-          "url": "https://www.livemint.com/market/stock-market-news/gold-price-crash-yellow-metal-slips-below-rs-1-25-lakh-10-gm-on-mcx-3-reasons-why-rs-1-lk-or-rs-1-5-lk-whats-next-11795159069176.html",
-          "published": "Fri, 20 Nov 2026 13:13:10 +0530"
+          "title": "Gold vs silver price crash compared: White metal loses 65%, gold sheds 37% from record highs| Wealth wiped, returns",
+          "url": "https://www.livemint.com/market/stock-market-news/gold-vs-silver-price-crash-compared-white-metal-loses-65-gold-sheds-37-from-record-highs-wealth-wiped-returns-11795241673262.html",
+          "published": "Sat, 21 Nov 2026 12:35:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Can Physicswallah deliver on its ambitious growth blueprint?",
-          "url": "https://www.livemint.com/market/mark-to-market/physicswallah-edtech-online-education-offline-coaching-revenue-growth-ebitda-margins-jee-neet-ai-tutor-11795156474405.html",
-          "published": "Fri, 20 Nov 2026 13:11:10 +0530"
+          "title": "Nvidia vs Anthropic shares: AI chip stock tanks 14% while Claude-maker falls 8.5% - See who wins in earnings, valuation?",
+          "url": "https://www.livemint.com/market/stock-market-news/nvidia-vs-anthropic-shares-ai-chip-stock-tanks-14-while-claude-maker-falls-8-5-see-who-wins-in-earnings-valuation-11795238170165.html",
+          "published": "Sat, 21 Nov 2026 11:41:37 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "On top lane! Highway Infrastructure shares on cusp of breakout after rising 55% in one month; should you buy? Target, SL",
-          "url": "https://www.livemint.com/market/stock-market-news/on-top-lane-highway-infrastructure-shares-on-cusp-of-breakout-after-rising-55-in-one-month-should-you-buy-target-sl-11795157158582.html",
-          "published": "Fri, 20 Nov 2026 13:04:02 +0530"
+          "title": "Bitcoin crashes to over two-year low below $60,000 level: What do experts expect from crypto markets going ahead?",
+          "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-crashes-to-over-two-year-low-below-60-000-level-what-do-experts-expect-from-crypto-markets-going-ahead-11795234024656.html",
+          "published": "Sat, 21 Nov 2026 11:11:57 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "IPO GMP race: Mahanadi Coalfields vs Crystal Crop Protection vs Watrana Rentals - Check grey market winner | Key dates",
-          "url": "https://www.livemint.com/market/stock-market-news/ipo-gmp-race-mahanadi-coalfields-vs-crystal-crop-protection-vs-watrana-rentals-check-grey-market-winner-key-dates-11795159118707.html",
-          "published": "Fri, 20 Nov 2026 13:02:07 +0530"
+          "title": "Top 3 stocks to buy: Axis Bank, Bajaj Finance, HDFC Life by Sumeet Bagadia | Targets, stop-loss, stock market prediction",
+          "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-axis-bank-bajaj-finance-hdfc-life-by-sumeet-bagadia-targets-stop-loss-stock-market-prediction-11795228228586.html",
+          "published": "Sat, 21 Nov 2026 10:45:33 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-20 14:22 IST",
+      "checked_at": "2026-11-21 14:03 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-20 14:22 IST",
+      "generated_at": "2026-11-21 14:03 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs141,272 Cr · 95% of days positive.",
+        "reading": "20-day cumulative: +Rs147,982 Cr · 95% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs141,272 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs147,982 Cr · 95% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-76,210 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-80,252 Cr · 5% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1546,9 +1546,9 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee strengthening — supportive backdrop",
-          "reading": "USD/INR moved -1.2% over the last month (now 93.30).",
+          "reading": "USD/INR moved -2.3% over the last month (now 92.68).",
           "direction": "bullish",
-          "strength": 69,
+          "strength": 84,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
@@ -1561,8 +1561,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "bullish",
-          "strength": 69,
-          "reading": "USD/INR moved -1.2% over the last month (now 93.30).",
+          "strength": 84,
+          "reading": "USD/INR moved -2.3% over the last month (now 92.68).",
           "conclusion": "Rupee strengthening — supportive backdrop",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs141,272 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs147,982 Cr · 95% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-76,210 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-80,252 Cr · 5% of days positive.",
           "conclusion": "Domestic flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,36 +1614,51 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-20 14:22 IST",
+    "date": "2026-11-21 14:03 IST",
     "usdinr": {
-      "last": 93.3,
-      "date": "2026-11-19"
+      "last": 92.68,
+      "date": "2026-11-20"
     },
     "dii_net": {
-      "net": -1356.57,
-      "date": "19-Nov-2026"
+      "net": -4859.8,
+      "date": "20-Nov-2026"
     },
     "fii_net": {
-      "net": 7411.41,
-      "date": "19-Nov-2026"
+      "net": 10308.42,
+      "date": "20-Nov-2026"
     },
     "headlines": [
-      "Sensex zooms 1790 pts in 2 days; ₹6.9 trn added to m-cap: 5 key reasons",
-      "Sebi studies domestic AI model to make regulatory tools cheaper, safer",
-      "HDFC Bank regains ₹13 trillion market-cap; stock hits 8-month high",
-      "Brent seen at $75-85 in 2027 as oil surplus builds: Mirae Asset Sharekhan",
-      "Gold, silver prices fall amid stronger dollar, hawkish Fed signals",
-      "Asset allocation, rebalancing key to wealth creation over 3-5 yrs: Dezerv",
+      "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
+      "Oil prices set for 3rd straight week of decline on West Asia export flows",
+      "Indian investors show strong appetite for Anthropic's blockbuster IPO",
+      "Anthropic shares tumble after record IPO as AI trade faces reality check",
+      "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
+      "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+      "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
       "A bitter aftertaste for liquor companies",
       "The Mahanadi Coalfields IPO Explained",
       "What did demonetisation do for India in a decade?",
       "The 86-year carbon debt in your cooking oil",
-      "Has the RBI really stabilised the rupee?",
-      "Why Dutch prisons are shutting down, GTA's Kannadiga connection, & more..."
+      "Has the RBI really stabilised the rupee?"
     ]
   },
   "changes": {
     "material": [
+      {
+        "kind": "fx",
+        "label": "USD/INR",
+        "detail": "₹92.68 (-0.66%)"
+      },
+      {
+        "kind": "flow",
+        "label": "DII flows",
+        "detail": "₹-4,860 Cr"
+      },
+      {
+        "kind": "flow",
+        "label": "FII flows",
+        "detail": "₹10,308 Cr"
+      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1654,17 +1669,17 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹93.30 (-0.15%)"
+        "detail": "₹92.68 (-0.66%)"
       },
       {
         "kind": "flow",
         "label": "DII flows",
-        "detail": "₹-1,357 Cr"
+        "detail": "₹-4,860 Cr"
       },
       {
         "kind": "flow",
         "label": "FII flows",
-        "detail": "₹7,411 Cr"
+        "detail": "₹10,308 Cr"
       },
       {
         "kind": "news",
@@ -1672,15 +1687,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-11-19 14:36 IST",
+    "since": "2026-11-20 14:22 IST",
     "new_headlines": [
-      "Sensex zooms 1790 pts in 2 days; ₹6.9 trn added to m-cap: 5 key reasons",
-      "Sebi studies domestic AI model to make regulatory tools cheaper, safer",
-      "HDFC Bank regains ₹13 trillion market-cap; stock hits 8-month high",
-      "Brent seen at $75-85 in 2027 as oil surplus builds: Mirae Asset Sharekhan",
-      "Gold, silver prices fall amid stronger dollar, hawkish Fed signals",
-      "Asset allocation, rebalancing key to wealth creation over 3-5 yrs: Dezerv",
-      "A bitter aftertaste for liquor companies"
+      "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
+      "Oil prices set for 3rd straight week of decline on West Asia export flows",
+      "Indian investors show strong appetite for Anthropic's blockbuster IPO",
+      "Anthropic shares tumble after record IPO as AI trade faces reality check",
+      "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
+      "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+      "Rupee's recovery bonanza, why liquor stocks are falling, and more..."
     ]
   },
   "summary": {
