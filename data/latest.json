@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-21 14:02 IST",
-  "generated_utc": "2026-11-21T08:32:55+00:00",
+  "generated_at": "2026-11-22 13:58 IST",
+  "generated_utc": "2026-11-22T08:28:09+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,7 +40,7 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-21 14:02 IST",
+      "asof": "2026-11-22 13:58 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
@@ -1076,7 +1076,7 @@
       }
     },
     "funds": {
-      "asof": "2026-11-21 14:02 IST",
+      "asof": "2026-11-22 13:58 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-21 14:03 IST",
+      "asof": "2026-11-22 13:59 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-11-21 14:03 IST",
+      "asof": "2026-11-22 13:59 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,9 +1243,23 @@
       }
     },
     "news": {
-      "asof": "2026-11-21 14:03 IST",
+      "asof": "2026-11-22 13:59 IST",
       "status": "ok",
       "data": [
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "InvIT IPO rush gathers pace, 4-5 trusts likely to go public by Mar 2027",
+          "url": "https://www.business-standard.com/markets/ipo/invit-ipo-rush-gathers-pace-4-5-trusts-likely-to-go-public-by-mar-2027-126112200225_1.html",
+          "published": "Sun, 22 Nov 2026 12:26:08 +0530"
+        },
+        {
+          "source": "Business Standard",
+          "weight": "high",
+          "title": "Paint companies eye stronger Q3 demand on festival shift, weddings",
+          "url": "https://www.business-standard.com/markets/stock-market-news/markets-stock-market-paint-sector-demand-q3fy27-asian-paints-berger-kansai-nerolac-outlook-126112200081_1.html",
+          "published": "Sun, 22 Nov 2026 07:43:46 +0530"
+        },
         {
           "source": "Business Standard",
           "weight": "high",
@@ -1275,18 +1289,11 @@
           "published": "Fri, 20 Nov 2026 21:06:41 +0530"
         },
         {
-          "source": "Business Standard",
+          "source": "Finshots Daily",
           "weight": "high",
-          "title": "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
-          "url": "https://www.business-standard.com/markets/news/sebi-plans-tighter-tenure-caps-for-exchange-mds-public-interest-directors-126112001247_1.html",
-          "published": "Fri, 20 Nov 2026 20:45:33 +0530"
-        },
-        {
-          "source": "Business Standard",
-          "weight": "high",
-          "title": "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
-          "url": "https://www.business-standard.com/markets/news/markets-gain-2-6-on-fpi-inflows-rupee-rally-and-cooling-crude-oil-prices-126112000973_1.html",
-          "published": "Fri, 20 Nov 2026 19:24:39 +0530"
+          "title": "Indian open-world games, animals that get the right of way, & more...",
+          "url": "https://finshots.in/archive/indian-open-world-games-animals-that-get-the-right-of-way-more/",
+          "published": "Sun, 22 Nov 2026 01:30:16 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,11 +1331,39 @@
           "published": "Tue, 17 Nov 2026 01:30:27 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "Has the RBI really stabilised the rupee?",
-          "url": "https://finshots.in/archive/has-rbi-stabilised-rupee/",
-          "published": "Mon, 16 Nov 2026 01:30:58 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "InvIT IPO rush gathers pace; 4-5 private trusts likely to go public by Mar 2027",
+          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/invit-ipo-rush-gathers-pace-4-5-private-trusts-likely-to-go-public-by-mar-2027/articleshow/136069094.cms",
+          "published": "Sun, 22 Nov 2026 12:15:10 +0530"
+        },
+        {
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "5 penny stocks plunge up to 68% in six months. Do you own any?",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/5-penny-stocks-plunge-up-to-68-in-six-months-do-you-own-any/slideshow/136069072.cms",
+          "published": "Sun, 22 Nov 2026 12:03:45 +0530"
+        },
+        {
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Reliance Brands FY26 revenue up 3.8% to Rs 3,390.9 crore; loss narrows to Rs 137 crore",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-brands-fy26-revenue-up-3-8-to-rs-3390-9-crore-loss-narrows-to-rs-137-crore/articleshow/136068185.cms",
+          "published": "Sun, 22 Nov 2026 11:14:52 +0530"
+        },
+        {
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Anthropic's post-debut stumble delivers reality check for AI trade",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-post-debut-stumble-delivers-reality-check-for-ai-trade/articleshow/136066633.cms",
+          "published": "Sun, 22 Nov 2026 09:00:15 +0530"
+        },
+        {
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Nifty eyes 26,200 as rally strengthens; 6 sectors signal outperformance",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-eyes-26200-as-rally-strengthens-6-sectors-signal-outperformance/articleshow/136050218.cms",
+          "published": "Sat, 21 Nov 2026 15:09:05 +0530"
         },
         {
           "source": "Economic Times",
@@ -1338,81 +1373,46 @@
           "published": "Sat, 21 Nov 2026 12:51:34 +0530"
         },
         {
-          "source": "Economic Times",
+          "source": "Mint",
           "weight": "medium",
-          "title": "Concurrent Gainers: These 13 stocks gained for 5 days in a row, all rose over 27%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/concurrent-gainers-these-13-stocks-gained-for-5-days-in-a-row-all-rose-over-27/slideshow/136047969.cms",
-          "published": "Sat, 21 Nov 2026 12:27:10 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "AI to lead investment strategy in 2027; Energy and borrowing costs shape macro outlook: Barclays",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-to-lead-investment-strategy-in-2027-energy-and-borrowing-costs-shape-macro-outlook-barclays/articleshow/136046648.cms",
-          "published": "Sat, 21 Nov 2026 11:39:54 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Market winners: Max Healthcare, Deepak Fertilisers among 10 stocks that surged up to 14% in last week",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-winners-max-healthcare-deepak-fertilisers-among-10-stocks-that-surged-up-to-14-in-last-week/slideshow/136046616.cms",
-          "published": "Sat, 21 Nov 2026 11:21:22 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "US Treasury yields drop for day and week; AI trade concern spurs safe-haven bid",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-yields-drop-for-day-and-week-ai-trade-concern-spurs-safe-haven-bid/articleshow/136045682.cms",
-          "published": "Sat, 21 Nov 2026 10:53:49 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Dollar weaker as Fed-fueled rally stalls; lower US yields help yen",
-          "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen/articleshow/136045620.cms",
-          "published": "Sat, 21 Nov 2026 10:50:04 +0530"
+          "title": "WeWork India share price jumps 40% in 6 months; ICICI Direct sees 37% more gains ahead - Buy? Check Target",
+          "url": "https://www.livemint.com/market/stock-market-news/wework-india-share-price-jumps-40-in-6-months-icici-direct-sees-37-more-gains-ahead-buy-check-target-11795334473941.html",
+          "published": "Sun, 22 Nov 2026 13:36:42 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "GREED & fear Report: Jefferies Chris Wood hikes India exposure for 2nd time in 3 weeks, cuts Taiwan| New Allocations",
-          "url": "https://www.livemint.com/market/stock-market-news/greed-fear-report-jefferies-chris-wood-hikes-india-exposure-for-2nd-time-in-3-weeks-cuts-taiwan-new-allocations-11795235087351.html",
-          "published": "Sat, 21 Nov 2026 13:39:08 +0530"
+          "title": "What is future of gold rates? Price crash continues as AI selloff, Fed rate-hike concerns weigh on investors' sentiment",
+          "url": "https://www.livemint.com/market/commodities/what-is-future-of-gold-rates-price-crash-continues-as-ai-selloff-fed-rate-hike-concerns-weigh-on-investors-sentiment-11795325490076.html",
+          "published": "Sun, 22 Nov 2026 12:24:55 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Upcoming dividend, split, rights issue record dates next week, Nov 23-27: Pashupati Cotspin, Zee Ent, Varvee, and more",
-          "url": "https://www.livemint.com/market/stock-market-news/upcoming-dividend-split-rights-issue-record-dates-next-week-nov-23-27-pashupati-cotspin-zee-ent-varvee-and-more-11795245232145.html",
-          "published": "Sat, 21 Nov 2026 13:10:34 +0530"
+          "title": "Top 3 stocks to buy: Swiggy, Tata Chemicals, Amber Enterprises by Ganesh Dongre of Anand Rathi | Targets, stop-loss",
+          "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-swiggy-tata-chemicals-amber-enterprises-by-ganesh-dongre-of-anand-rathi-targets-stoploss-11795312924053.html",
+          "published": "Sun, 22 Nov 2026 10:44:39 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Gold vs silver price crash compared: White metal loses 65%, gold sheds 37% from record highs| Wealth wiped, returns",
-          "url": "https://www.livemint.com/market/stock-market-news/gold-vs-silver-price-crash-compared-white-metal-loses-65-gold-sheds-37-from-record-highs-wealth-wiped-returns-11795241673262.html",
-          "published": "Sat, 21 Nov 2026 12:35:52 +0530"
+          "title": "31% returns in 2026 so far! This stock is giving 4 shares on every share - you too can get it; check record date",
+          "url": "https://www.livemint.com/market/stock-market-news/31-return-in-2026-so-far-smallcap-textile-stock-is-giving-4-shares-for-every-1-held-record-date-ahead-do-you-own-11795275604076.html",
+          "published": "Sun, 22 Nov 2026 10:13:16 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Nvidia vs Anthropic shares: AI chip stock tanks 14% while Claude-maker falls 8.5% - See who wins in earnings, valuation?",
-          "url": "https://www.livemint.com/market/stock-market-news/nvidia-vs-anthropic-shares-ai-chip-stock-tanks-14-while-claude-maker-falls-8-5-see-who-wins-in-earnings-valuation-11795238170165.html",
-          "published": "Sat, 21 Nov 2026 11:41:37 +0530"
+          "title": "Penny stock under ₹10 with strong fundamentals, high book value; do you own this Reliance Group share? Target, SL",
+          "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-with-strong-fundamentals-high-book-value-do-you-own-this-reliance-group-share-target-sl-11795316117383.html",
+          "published": "Sun, 22 Nov 2026 09:20:25 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Bitcoin crashes to over two-year low below $60,000 level: What do experts expect from crypto markets going ahead?",
-          "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-crashes-to-over-two-year-low-below-60-000-level-what-do-experts-expect-from-crypto-markets-going-ahead-11795234024656.html",
-          "published": "Sat, 21 Nov 2026 11:11:57 +0530"
-        },
-        {
-          "source": "Mint",
-          "weight": "medium",
-          "title": "Top 3 stocks to buy: Axis Bank, Bajaj Finance, HDFC Life by Sumeet Bagadia | Targets, stop-loss, stock market prediction",
-          "url": "https://www.livemint.com/market/stock-market-news/top-3-stocks-to-buy-axis-bank-bajaj-finance-hdfc-life-by-sumeet-bagadia-targets-stop-loss-stock-market-prediction-11795228228586.html",
-          "published": "Sat, 21 Nov 2026 10:45:33 +0530"
+          "title": "Wall Street sell-off: Is the worst over? Goldman Sachs warns of fresh selling wave, flags 3 recovery triggers",
+          "url": "https://www.livemint.com/market/stock-market-news/wall-street-sell-off-is-the-worst-over-goldman-sachs-warns-of-fresh-selling-wave-flags-3-recovery-triggers-11795316021375.html",
+          "published": "Sun, 22 Nov 2026 09:03:53 +0530"
         },
         {
           "source": "Moneycontrol",
@@ -1458,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-21 14:03 IST",
+      "checked_at": "2026-11-22 13:59 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-21 14:03 IST",
+      "generated_at": "2026-11-22 13:59 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs147,982 Cr · 95% of days positive.",
+        "reading": "20-day cumulative: +Rs154,692 Cr · 95% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1518,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs147,982 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs154,692 Cr · 95% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1532,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-80,252 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-84,295 Cr · 5% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1588,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs147,982 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs154,692 Cr · 95% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1601,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-80,252 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-84,295 Cr · 5% of days positive.",
           "conclusion": "Domestic flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1614,7 +1614,7 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-21 14:03 IST",
+    "date": "2026-11-22 13:59 IST",
     "usdinr": {
       "last": 92.68,
       "date": "2026-11-20"
@@ -1628,48 +1628,33 @@
       "date": "20-Nov-2026"
     },
     "headlines": [
+      "InvIT IPO rush gathers pace, 4-5 trusts likely to go public by Mar 2027",
+      "Paint companies eye stronger Q3 demand on festival shift, weddings",
       "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
       "Oil prices set for 3rd straight week of decline on West Asia export flows",
       "Indian investors show strong appetite for Anthropic's blockbuster IPO",
       "Anthropic shares tumble after record IPO as AI trade faces reality check",
-      "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
-      "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
+      "Indian open-world games, animals that get the right of way, & more...",
       "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
       "A bitter aftertaste for liquor companies",
       "The Mahanadi Coalfields IPO Explained",
       "What did demonetisation do for India in a decade?",
-      "The 86-year carbon debt in your cooking oil",
-      "Has the RBI really stabilised the rupee?"
+      "The 86-year carbon debt in your cooking oil"
     ]
   },
   "changes": {
     "material": [
       {
-        "kind": "fx",
-        "label": "USD/INR",
-        "detail": "₹92.68 (-0.66%)"
-      },
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-4,860 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹10,308 Cr"
-      },
-      {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "3 new"
       }
     ],
     "all": [
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹92.68 (-0.66%)"
+        "detail": "₹92.68 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1684,18 +1669,14 @@
       {
         "kind": "news",
         "label": "New headlines",
-        "detail": "7 new"
+        "detail": "3 new"
       }
     ],
-    "since": "2026-11-20 14:22 IST",
+    "since": "2026-11-21 14:03 IST",
     "new_headlines": [
-      "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
-      "Oil prices set for 3rd straight week of decline on West Asia export flows",
-      "Indian investors show strong appetite for Anthropic's blockbuster IPO",
-      "Anthropic shares tumble after record IPO as AI trade faces reality check",
-      "Sebi plans tighter tenure caps for exchange MDs, public interest directors",
-      "Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices",
-      "Rupee's recovery bonanza, why liquor stocks are falling, and more..."
+      "InvIT IPO rush gathers pace, 4-5 trusts likely to go public by Mar 2027",
+      "Paint companies eye stronger Q3 demand on festival shift, weddings",
+      "Indian open-world games, animals that get the right of way, & more..."
     ]
   },
   "summary": {

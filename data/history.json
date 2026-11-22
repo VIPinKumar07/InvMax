@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-23 12:04 IST",
-  "usdinr": {
-   "last": 94.82,
-   "date": "2026-10-22"
-  },
-  "dii_net": {
-   "net": 2891.32,
-   "date": "22-Oct-2026"
-  },
-  "fii_net": {
-   "net": -3458.7,
-   "date": "22-Oct-2026"
-  },
-  "headlines": [
-   "BSE Capital Goods index tanks nearly 4%; Hitachi Energy, ABB India slip 6%",
-   "Small-caps likely to do well over the next year: 360 ONE's Mayur Patel",
-   "Silver ETFs fall up to 5% as oil surge, inflation fears hit bullion markets",
-   "Cyient shares snap 3-day losing streak, jump 10% post Q2, ₹12 dividend",
-   "Market crash: Sensex sinks 1,279 pts from day's high; Nifty tests 22,400",
-   "Microcap 250 index slips 2%; Aeroflex, Rallis, Bluestone slide up to 8%",
-   "An explainer on the eMudhra fiasco",
-   "Why dating apps struggle to find a match with investors",
-   "Why do wealth taxes keep failing?",
-   "A few more things about the Jio Platforms IPO",
-   "A Nobel dating app, hacked refrigerators, and more...",
-   "The IDBI stake sale, Starlink's entry into India, and more..."
-  ]
- },
- {
   "date": "2026-10-24 11:41 IST",
   "usdinr": {
    "last": 94.94,
@@ -867,6 +838,35 @@
    "What did demonetisation do for India in a decade?",
    "The 86-year carbon debt in your cooking oil",
    "Has the RBI really stabilised the rupee?"
+  ]
+ },
+ {
+  "date": "2026-11-22 13:59 IST",
+  "usdinr": {
+   "last": 92.68,
+   "date": "2026-11-20"
+  },
+  "dii_net": {
+   "net": -4859.8,
+   "date": "20-Nov-2026"
+  },
+  "fii_net": {
+   "net": 10308.42,
+   "date": "20-Nov-2026"
+  },
+  "headlines": [
+   "InvIT IPO rush gathers pace, 4-5 trusts likely to go public by Mar 2027",
+   "Paint companies eye stronger Q3 demand on festival shift, weddings",
+   "Bitcoin nears USD 60,000: What traders should watch, according to WazirX",
+   "Oil prices set for 3rd straight week of decline on West Asia export flows",
+   "Indian investors show strong appetite for Anthropic's blockbuster IPO",
+   "Anthropic shares tumble after record IPO as AI trade faces reality check",
+   "Indian open-world games, animals that get the right of way, & more...",
+   "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
+   "A bitter aftertaste for liquor companies",
+   "The Mahanadi Coalfields IPO Explained",
+   "What did demonetisation do for India in a decade?",
+   "The 86-year carbon debt in your cooking oil"
   ]
  }
 ]
