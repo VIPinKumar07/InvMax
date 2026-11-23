@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-24 11:41 IST",
-  "usdinr": {
-   "last": 94.94,
-   "date": "2026-10-23"
-  },
-  "dii_net": {
-   "net": 3235.36,
-   "date": "23-Oct-2026"
-  },
-  "fii_net": {
-   "net": 887.65,
-   "date": "23-Oct-2026"
-  },
-  "headlines": [
-   "WazirX shifts focus to recovery, AI after year of rebuilding: Shetty",
-   "Sebi mulls automatic approval for investments, activities by exchanges",
-   "Sebi orders Avadhut Sathe Trading Academy and its founder to refund ₹546 cr",
-   "Sebi eases call-recording mandate for research analysts dealing with funds",
-   "Jio Platforms IPO rides institutional demand to 22.19 times subscription",
-   "Tumultuous week: Midcaps and smallcaps suffer worst losses in 20 months",
-   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
-   "An explainer on the eMudhra fiasco",
-   "Why dating apps struggle to find a match with investors",
-   "Why do wealth taxes keep failing?",
-   "A few more things about the Jio Platforms IPO",
-   "A Nobel dating app, hacked refrigerators, and more..."
-  ]
- },
- {
   "date": "2026-10-25 12:01 IST",
   "usdinr": {
    "last": 94.94,
@@ -867,6 +838,35 @@
    "The Mahanadi Coalfields IPO Explained",
    "What did demonetisation do for India in a decade?",
    "The 86-year carbon debt in your cooking oil"
+  ]
+ },
+ {
+  "date": "2026-11-23 14:57 IST",
+  "usdinr": {
+   "last": 92.68,
+   "date": "2026-11-20"
+  },
+  "dii_net": {
+   "net": -4859.8,
+   "date": "20-Nov-2026"
+  },
+  "fii_net": {
+   "net": 10308.42,
+   "date": "20-Nov-2026"
+  },
+  "headlines": [
+   "Stocks at 52-week low: Tata Power, Cochin Shipyard, APL Apollo, Aadhar Hsg",
+   "Dalmia Bharat pares losses to trade flat after ₹700-cr buyback announcement",
+   "PTC Industries rebounds, up 3% from day's low on major defence order win",
+   "Premium demand, solid pipeline to spur residential realty growth: Brokerage",
+   "Sterling and Wilson shares gain 7% on winning orders worth ₹2,050 crore",
+   "Sterlite Tech, HFCL extend fall; slip up to 41% from October highs",
+   "Why did 7-Eleven fail in a country obsessed with convenience?",
+   "Indian open-world games, animals that get the right of way, & more...",
+   "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
+   "A bitter aftertaste for liquor companies",
+   "The Mahanadi Coalfields IPO Explained",
+   "What did demonetisation do for India in a decade?"
   ]
  }
 ]
