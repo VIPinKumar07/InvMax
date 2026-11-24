@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-25 12:01 IST",
-  "usdinr": {
-   "last": 94.94,
-   "date": "2026-10-23"
-  },
-  "dii_net": {
-   "net": 3235.36,
-   "date": "23-Oct-2026"
-  },
-  "fii_net": {
-   "net": 887.65,
-   "date": "23-Oct-2026"
-  },
-  "headlines": [
-   "Demand-supply mismatch to drive revenue growth gains for Indian Hotels",
-   "Utssav CZ Gold Jewels approves 1:1 bonus issue, to double equity capital",
-   "Sebi reviews short selling, SLB rules; plans AI sandbox, bond market-making",
-   "NSE reviewing network vulnerabilities as AI cyber threats rise: Chauhan",
-   "WazirX shifts focus to recovery, AI after year of rebuilding: Shetty",
-   "Sebi mulls automatic approval for investments, activities by exchanges",
-   "Pokémon card heist, who made rectangles, and more...",
-   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
-   "An explainer on the eMudhra fiasco",
-   "Why dating apps struggle to find a match with investors",
-   "Why do wealth taxes keep failing?",
-   "A few more things about the Jio Platforms IPO"
-  ]
- },
- {
   "date": "2026-10-26 12:12 IST",
   "usdinr": {
    "last": 94.94,
@@ -867,6 +838,35 @@
    "A bitter aftertaste for liquor companies",
    "The Mahanadi Coalfields IPO Explained",
    "What did demonetisation do for India in a decade?"
+  ]
+ },
+ {
+  "date": "2026-11-24 16:54 IST",
+  "usdinr": {
+   "last": 92.92,
+   "date": "2026-11-23"
+  },
+  "dii_net": {
+   "net": -2760.12,
+   "date": "23-Nov-2026"
+  },
+  "fii_net": {
+   "net": 5672.99,
+   "date": "23-Nov-2026"
+  },
+  "headlines": [
+   "Investors become richer by ₹34.61 trillion as Sensex surges in November",
+   "Oil prices extend losses, hover near three-month lows on supply concerns",
+   "TAKE shares rally 24% in three weeks as company returns to profitability",
+   "Nvidia shares soar 31% as Jensen Huang's return sparks Wall Street rally",
+   "Stock market holiday: NSE, BSE shut today for Guru Nanak Jayanti",
+   "Asian shares rally as Huang returns to Nvidia, sparking Wall Street rebound",
+   "Why is the Indian Railways abandoning Tatkal?",
+   "Why did 7-Eleven fail in a country obsessed with convenience?",
+   "Indian open-world games, animals that get the right of way, & more...",
+   "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
+   "A bitter aftertaste for liquor companies",
+   "The Mahanadi Coalfields IPO Explained"
   ]
  }
 ]
