@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24 16:51 IST",
-  "generated_utc": "2026-11-24T11:21:57+00:00",
+  "generated_at": "2026-11-25 15:37 IST",
+  "generated_utc": "2026-11-25T10:07:35+00:00",
   "note": "Daily refresh. Free public sources. Delayed EOD data — not real-time.",
   "sources_used": {
     "news": [
@@ -40,22 +40,18 @@
   },
   "blocks": {
     "fx": {
-      "asof": "2026-11-24 16:51 IST",
+      "asof": "2026-11-25 15:37 IST",
       "status": "ok",
       "data": {
         "source": "ECB/Frankfurter",
-        "asof": "2026-11-23",
+        "asof": "2026-11-24",
         "rates": {
-          "EUR": 0.91416,
-          "GBP": 0.76491,
+          "EUR": 0.91216,
+          "GBP": 0.76348,
           "INR": 92.92,
           "JPY": 159.07
         },
         "usdinr_history": [
-          {
-            "date": "2025-11-24",
-            "v": 89.15
-          },
           {
             "date": "2025-11-25",
             "v": 89.2
@@ -1071,12 +1067,16 @@
           {
             "date": "2026-11-23",
             "v": 92.92
+          },
+          {
+            "date": "2026-11-24",
+            "v": 92.92
           }
         ]
       }
     },
     "funds": {
-      "asof": "2026-11-24 16:52 IST",
+      "asof": "2026-11-25 15:37 IST",
       "status": "ok",
       "data": [
         {
@@ -1212,7 +1212,7 @@
       "data": null
     },
     "rates": {
-      "asof": "2026-11-24 16:54 IST",
+      "asof": "2026-11-25 15:38 IST",
       "status": "ok",
       "data": {
         "policy_repo": {
@@ -1225,7 +1225,7 @@
       }
     },
     "flows": {
-      "asof": "2026-11-24 16:54 IST",
+      "asof": "2026-11-25 15:38 IST",
       "status": "ok",
       "data": {
         "dii": {
@@ -1243,50 +1243,57 @@
       }
     },
     "news": {
-      "asof": "2026-11-24 16:54 IST",
+      "asof": "2026-11-25 15:38 IST",
       "status": "ok",
       "data": [
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Investors become richer by ₹34.61 trillion as Sensex surges in November",
-          "url": "https://www.business-standard.com/markets/news/investors-become-richer-by-34-61-trillion-as-sensex-surges-in-november-126112400402_1.html",
-          "published": "Tue, 24 Nov 2026 13:40:51 +0530"
+          "title": "Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8%",
+          "url": "https://www.business-standard.com/markets/news/nifty-fmcg-index-soars-3-dabur-godrej-consumer-hul-rally-up-to-8-126112500621_1.html",
+          "published": "Wed, 25 Nov 2026 15:15:04 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Oil prices extend losses, hover near three-month lows on supply concerns",
-          "url": "https://www.business-standard.com/markets/commodities/oil-prices-extend-losses-hover-near-three-month-lows-on-supply-concerns-126112400254_1.html",
-          "published": "Tue, 24 Nov 2026 11:00:54 +0530"
+          "title": "NSE jumps 5% to new high on ICICI Sec's 'buy' call; target signals 20% rise",
+          "url": "https://www.business-standard.com/markets/news/nse-jumps-5-to-new-high-on-icici-sec-s-buy-call-target-signals-20-rise-126112500598_1.html",
+          "published": "Wed, 25 Nov 2026 15:03:26 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "TAKE shares rally 24% in three weeks as company returns to profitability",
-          "url": "https://www.business-standard.com/markets/news/take-shares-rally-24-in-three-weeks-as-company-returns-to-profitability-126112300872_1.html",
-          "published": "Tue, 24 Nov 2026 09:14:18 +0530"
+          "title": "PL Capital ups Nifty target to 28,561 on earnings growth, valuation comfort",
+          "url": "https://www.business-standard.com/markets/news/pl-capital-ups-nifty-target-to-28-561-on-earnings-growth-valuation-comfort-126112500531_1.html",
+          "published": "Wed, 25 Nov 2026 14:14:52 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Nvidia shares soar 31% as Jensen Huang's return sparks Wall Street rally",
-          "url": "https://www.business-standard.com/markets/news/nvidia-shares-soar-31-as-jensen-huang-s-return-sparks-wall-street-rally-126112400047_1.html",
-          "published": "Tue, 24 Nov 2026 08:41:15 +0530"
+          "title": "Haldyn Glass share price zooms 10% on acquiring Heinz Glas's stake in JV",
+          "url": "https://www.business-standard.com/markets/news/haldyn-glass-share-price-zooms-10-on-acquiring-heinz-glas-s-stake-in-jv-126112500483_1.html",
+          "published": "Wed, 25 Nov 2026 13:46:16 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Stock market holiday: NSE, BSE shut today for Guru Nanak Jayanti",
-          "url": "https://www.business-standard.com/markets/news/stock-market-holiday-today-nse-bse-closed-for-trading-on-gurpurab-2026-126112300598_1.html",
-          "published": "Tue, 24 Nov 2026 07:50:58 +0530"
+          "title": "Gold's retreat deepens as US Fed fears push prices back towards $3,500",
+          "url": "https://www.business-standard.com/markets/news/gold-s-retreat-deepens-as-us-fed-fears-push-prices-back-towards-3-500-126112500458_1.html",
+          "published": "Wed, 25 Nov 2026 13:25:36 +0530"
         },
         {
           "source": "Business Standard",
           "weight": "high",
-          "title": "Asian shares rally as Huang returns to Nvidia, sparking Wall Street rebound",
-          "url": "https://www.business-standard.com/markets/news/asian-shares-rally-as-huang-returns-to-nvidia-sparking-wall-street-rebound-126112400069_1.html",
-          "published": "Tue, 24 Nov 2026 07:36:57 +0530"
+          "title": "L&T jumps over 2% on ₹2,500 crore battery storage project win in Gujarat",
+          "url": "https://www.business-standard.com/markets/news/l-t-jumps-over-2-on-2-500-crore-battery-storage-project-win-in-gujarat-126112500448_1.html",
+          "published": "Wed, 25 Nov 2026 13:20:29 +0530"
+        },
+        {
+          "source": "Finshots Daily",
+          "weight": "high",
+          "title": "Why is India distributing free rations if poverty is falling?",
+          "url": "https://finshots.in/archive/why-is-india-distributing-free-rations-if-poverty-is-falling/",
+          "published": "Wed, 25 Nov 2026 01:30:10 GMT"
         },
         {
           "source": "Finshots Daily",
@@ -1324,95 +1331,116 @@
           "published": "Fri, 20 Nov 2026 01:30:26 GMT"
         },
         {
-          "source": "Finshots Daily",
-          "weight": "high",
-          "title": "The Mahanadi Coalfields IPO Explained",
-          "url": "https://finshots.in/archive/mahanadi-coalfields-ipo-explained/",
-          "published": "Thu, 19 Nov 2026 01:30:59 GMT"
+          "source": "Economic Times",
+          "weight": "medium",
+          "title": "Why are investors betting on Abercrombie's growth story?",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-are-investors-betting-on-abercrombies-growth-story/slideshow/136151161.cms",
+          "published": "Wed, 25 Nov 2026 11:09:11 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "RBI DG asks primary dealers to bid responsibly in G-Sec underwriting auctions",
-          "url": "https://economictimes.indiatimes.com/markets/bonds/rbi-dg-asks-primary-dealers-to-bid-responsibly-in-g-sec-underwriting-auctions/articleshow/136125661.cms",
-          "published": "Tue, 24 Nov 2026 14:56:23 +0530"
+          "title": "India bonds inch higher as oil steadies ahead of RBI verdict",
+          "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-inch-higher-as-oil-steadies-ahead-of-rbi-verdict/articleshow/136149265.cms",
+          "published": "Wed, 25 Nov 2026 10:59:37 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "IIFCL IPO: Govt plans to sell part of its stake, company to issue fresh shares",
-          "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/iifcl-ipo-govt-plans-to-sell-part-of-its-stake-company-to-issue-fresh-shares/articleshow/136124476.cms",
-          "published": "Tue, 24 Nov 2026 14:02:38 +0530"
+          "title": "HPE shares crash 17%, stock suffers its worst-ever single-day fall. Here's why",
+          "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/hpe-shares-crash-17-stock-suffers-its-worst-ever-single-day-fall-heres-why/slideshow/136148964.cms",
+          "published": "Wed, 25 Nov 2026 10:08:14 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "Investors mint Rs 34.61 lakh cr in November as markets rally nearly 11%",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/investors-mint-rs-34-61-lakh-cr-in-november-as-markets-rally-nearly-11/articleshow/136123662.cms",
-          "published": "Tue, 24 Nov 2026 13:28:46 +0530"
+          "title": "Rupee pares FY27 losses, climbs 56 paise to 92.29/USD",
+          "url": "https://economictimes.indiatimes.com/markets/forex/rupee-jumps-23-paise-to-92-62-against-us-dollar-in-early-trade/articleshow/136147947.cms",
+          "published": "Wed, 25 Nov 2026 10:00:22 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "HDFC Bank, Reliance Industries among 10 stocks with highest DII holding in Q2. See full list",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-reliance-industries-among-10-stocks-with-highest-dii-holding-in-q2-see-full-list/slideshow/136126992.cms",
-          "published": "Tue, 24 Nov 2026 11:45:03 +0530"
+          "title": "APL Apollo Tubes among 4 Nifty500 stocks closing below VWAP",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/apl-apollo-tubes-among-4-nifty500-stocks-closing-below-vwap/slideshow/136147553.cms",
+          "published": "Wed, 25 Nov 2026 09:26:10 +0530"
         },
         {
           "source": "Economic Times",
           "weight": "medium",
-          "title": "The LTCG debate: Why markets need tax stability and not ad-hoc fixes",
-          "url": "https://economictimes.indiatimes.com/markets/stocks/news/the-ltcg-debate-why-markets-need-tax-stability-and-not-ad-hoc-fixes/articleshow/136121257.cms",
-          "published": "Tue, 24 Nov 2026 11:38:55 +0530"
-        },
-        {
-          "source": "Economic Times",
-          "weight": "medium",
-          "title": "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
-          "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-fails-to-hold-nvidia-bump-with-crypto-headwinds-in-focus/articleshow/136119619.cms",
-          "published": "Tue, 24 Nov 2026 10:10:09 +0530"
+          "title": "PB Fintech among 3 Nifty500 stocks flashing RSI uptrend signal",
+          "url": "https://economictimes.indiatimes.com/markets/stocks/news/pb-fintech-among-3-nifty500-stocks-flashing-rsi-uptrend-signal/slideshow/136147231.cms",
+          "published": "Wed, 25 Nov 2026 09:07:48 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "31.5% surge in Nvidia share adds $34 billion to Jensen Huang's wealth in a day; what's his net worth now?",
-          "url": "https://www.livemint.com/market/stock-market-news/315-surge-in-nvidia-share-adds-34-billion-to-jensen-huangs-wealth-in-a-day-whats-his-net-worth-now-11795516605100.html",
-          "published": "Tue, 24 Nov 2026 16:20:42 +0530"
+          "title": "RVNL vs IRFC vs RailTel vs IRCON: Which railway PSU stock to buy amid stock market ups and downs? Target from experts",
+          "url": "https://www.livemint.com/market/stock-market-news/rvnl-vs-irfc-vs-railtel-vs-ircon-which-railway-psu-stock-to-buy-amid-stock-market-ups-and-downs-target-from-experts-11795596081403.html",
+          "published": "Wed, 25 Nov 2026 15:32:15 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Silver price crash: Rates today in India down ₹1 lakh in 3 months! Recovery or more fall ahead for MCX silver futures?",
-          "url": "https://www.livemint.com/market/commodities/silver-price-crash-rates-today-in-india-down-rs-1-lakh-in-3-months-recovery-or-more-fall-ahead-for-mcx-silver-futures-11795511561513.html",
-          "published": "Tue, 24 Nov 2026 16:03:02 +0530"
+          "title": "Why 360 One could see steeper upgrades in estimates if markets stay buoyant",
+          "url": "https://www.livemint.com/market/mark-to-market/why-360-one-could-see-steeper-upgrades-in-estimates-if-markets-stay-buoyant-11795597956942.html",
+          "published": "Wed, 25 Nov 2026 15:27:13 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Top defence stocks to buy: Apollo Micro Systems, BEL, Data Patterns, GRSE, Zen Technologies - check Choice's top picks",
-          "url": "https://www.livemint.com/market/stock-market-news/top-defence-stocks-to-buy-apollo-micro-systems-bel-data-patterns-grse-zen-technologies-check-choices-top-picks-11795507257890.html",
-          "published": "Tue, 24 Nov 2026 14:48:43 +0530"
+          "title": "Multibagger Alert! Up 102% in 1 year, more rally seen in this small-cap power stock - here's why | Check target, upside",
+          "url": "https://www.livemint.com/market/stock-market-news/multibagger-alert-up-102-in-1-year-more-rally-seen-in-this-small-cap-power-stock-heres-why-check-target-upside-11795594809008.html",
+          "published": "Wed, 25 Nov 2026 14:45:52 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Penny stock under ₹10 with high book value, strong fundamentals — Can it become a multibagger? Experts' views, target",
-          "url": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-with-high-book-value-strong-fundamentals-can-it-become-a-multibagger-experts-views-target-11795505964712.html",
-          "published": "Tue, 24 Nov 2026 14:10:35 +0530"
+          "title": "Rollercoaster ride in stock market today: Nifty pares gains by 270 points, Sensex crashes over 800 from day's high",
+          "url": "https://www.livemint.com/market/stock-market-news/rollercoaster-ride-in-stock-market-today-nifty-pares-gains-by-270-points-sensex-crashes-over-900-from-days-high-11795593625240.html",
+          "published": "Wed, 25 Nov 2026 14:07:42 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "Is stock market open today? Thanksgiving, Black Friday holiday, US trading schedule - Nasdaq, New York Stock Exchange",
-          "url": "https://www.livemint.com/market/stock-market-news/is-stock-market-open-today-thanksgiving-black-friday-holiday-us-trading-schedule-nasdaq-new-york-stock-exchange-11795503931602.html",
-          "published": "Tue, 24 Nov 2026 13:18:34 +0530"
+          "title": "FIIs back with a bang! Inflows return to Indian stocks after 2-month sell-off; 14 sectors attracted foreign money | List",
+          "url": "https://www.livemint.com/market/stock-market-news/fiis-back-with-a-bang-inflows-return-to-indian-stocks-after-2-month-sell-off-14-sectors-attracted-foreign-money-list-11795589040172.html",
+          "published": "Wed, 25 Nov 2026 13:40:40 +0530"
         },
         {
           "source": "Mint",
           "weight": "medium",
-          "title": "RBI’s Rohit Jain wants primary dealers to become architects of G-Sec market development",
-          "url": "https://www.livemint.com/market/bonds/rbi-deputy-governor-urges-primary-dealers-to-boost-g-sec-market-11795501774694.html",
-          "published": "Tue, 24 Nov 2026 13:08:34 +0530"
+          "title": "MCX rates: Gold crashes 13%, silver plunges 20% in Nov 2026; is worst over? What should precious metals investors do?",
+          "url": "https://www.livemint.com/market/commodities/mcx-rates-gold-crashes-13-silver-plunges-20-in-nov-2026-is-worst-over-what-should-precious-metals-investors-do-11795589063705.html",
+          "published": "Wed, 25 Nov 2026 13:18:52 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Taking Stock: Market fails to hold on to day#39;s gains, ends marginally higher",
+          "url": "https://www.moneycontrol.com/news/local-markets/taking-stock-market-fails-to-holdto-day39s-gains-ends-marginally-higher_17531871.html",
+          "published": "Tue, 23 Apr 2024 15:46:31 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty gain for third day in a row; easing volatility to support bull trend",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-gain-for-third-daya-row-easing-volatility-to-support-bull-trend_17531821.html",
+          "published": "Tue, 23 Apr 2024 14:51:26 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Mid-day Mood | Cooling volatility sparks market rally, India VIX sees steepest fall in 4 years",
+          "url": "https://www.moneycontrol.com/news/local-markets/mid-day-mood-|-cooling-volatility-sparks-market-rally-india-vix-sees-steepest-fall4-years_17531481.html",
+          "published": "Tue, 23 Apr 2024 12:23:21 +0530"
+        },
+        {
+          "source": "Moneycontrol",
+          "weight": "medium",
+          "title": "Sensex, Nifty extend gains to 3rd day, Q4 results to guide stock-specific action",
+          "url": "https://www.moneycontrol.com/news/local-markets/sensex-nifty-extend-gains-to-3rd-day-q4-results-to-guide-stock-specific-action_17530901.html",
+          "published": "Tue, 23 Apr 2024 09:45:50 +0530"
         }
       ]
     },
@@ -1430,18 +1458,18 @@
       },
       "research_note": "The reversal in FII flows and decrease in DII flows may indicate a shift in market sentiment. The impact of these developments on the broader market needs to be monitored, especially given the change in foreign investment sentiment. The increase in FII flows could potentially be a positive sign for the market, but the decrease in DII flows warrants caution. The USD/INR rate remaining stable provides a neutral backdrop for these developments.",
       "confidence": "medium",
-      "checked_at": "2026-11-24 16:54 IST",
+      "checked_at": "2026-11-25 15:38 IST",
       "unchanged_since": "2026-08-15 08:02 IST",
       "stale_since": "2026-08-15 08:02 IST"
     },
     "signals": {
       "status": "no_data",
-      "generated_at": "2026-11-24 16:54 IST",
+      "generated_at": "2026-11-25 15:38 IST",
       "method": "Deterministic rules on end-of-day price data. Every signal states its rule; figures trace to the linked source.",
       "headline": {
         "label": "Foreign flows",
         "conclusion": "Foreign flows: sustained buying pressure",
-        "reading": "20-day cumulative: +Rs160,722 Cr · 95% of days positive.",
+        "reading": "20-day cumulative: +Rs159,111 Cr · 95% of days positive.",
         "direction": "bullish",
         "source": {
           "name": "NSE FII/DII (accumulated)",
@@ -1490,7 +1518,7 @@
           "asset": "Foreign flows",
           "label": "Foreign flows",
           "conclusion": "Foreign flows: sustained buying pressure",
-          "reading": "20-day cumulative: +Rs160,722 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs159,111 Cr · 95% of days positive.",
           "direction": "bullish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1504,7 +1532,7 @@
           "asset": "Domestic flows",
           "label": "Domestic flows",
           "conclusion": "Domestic flows: sustained selling pressure",
-          "reading": "20-day cumulative: Rs-87,844 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-86,891 Cr · 5% of days positive.",
           "direction": "bearish",
           "strength": 92,
           "rule": "20-day cumulative net flow + share of positive days",
@@ -1518,9 +1546,9 @@
           "asset": "Rupee",
           "label": "Rupee",
           "conclusion": "Rupee strengthening — supportive backdrop",
-          "reading": "USD/INR moved -2.1% over the last month (now 92.92).",
+          "reading": "USD/INR moved -2.4% over the last month (now 92.92).",
           "direction": "bullish",
-          "strength": 82,
+          "strength": 86,
           "rule": "1-month change in USD/INR",
           "source": {
             "name": "ECB / Frankfurter",
@@ -1533,8 +1561,8 @@
           "id": "rupee",
           "label": "Rupee",
           "direction": "bullish",
-          "strength": 82,
-          "reading": "USD/INR moved -2.1% over the last month (now 92.92).",
+          "strength": 86,
+          "reading": "USD/INR moved -2.4% over the last month (now 92.92).",
           "conclusion": "Rupee strengthening — supportive backdrop",
           "rule": "1-month change in USD/INR",
           "source": {
@@ -1560,7 +1588,7 @@
           "label": "Foreign flows",
           "direction": "bullish",
           "strength": 92,
-          "reading": "20-day cumulative: +Rs160,722 Cr · 95% of days positive.",
+          "reading": "20-day cumulative: +Rs159,111 Cr · 95% of days positive.",
           "conclusion": "Foreign flows: sustained buying pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1573,7 +1601,7 @@
           "label": "Domestic flows",
           "direction": "bearish",
           "strength": 92,
-          "reading": "20-day cumulative: Rs-87,844 Cr · 5% of days positive.",
+          "reading": "20-day cumulative: Rs-86,891 Cr · 5% of days positive.",
           "conclusion": "Domestic flows: sustained selling pressure",
           "rule": "20-day cumulative net flow + share of positive days",
           "source": {
@@ -1586,10 +1614,10 @@
     }
   },
   "key_figures": {
-    "date": "2026-11-24 16:54 IST",
+    "date": "2026-11-25 15:38 IST",
     "usdinr": {
       "last": 92.92,
-      "date": "2026-11-23"
+      "date": "2026-11-24"
     },
     "dii_net": {
       "net": -2760.12,
@@ -1600,32 +1628,22 @@
       "date": "23-Nov-2026"
     },
     "headlines": [
-      "Investors become richer by ₹34.61 trillion as Sensex surges in November",
-      "Oil prices extend losses, hover near three-month lows on supply concerns",
-      "TAKE shares rally 24% in three weeks as company returns to profitability",
-      "Nvidia shares soar 31% as Jensen Huang's return sparks Wall Street rally",
-      "Stock market holiday: NSE, BSE shut today for Guru Nanak Jayanti",
-      "Asian shares rally as Huang returns to Nvidia, sparking Wall Street rebound",
+      "Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8%",
+      "NSE jumps 5% to new high on ICICI Sec's 'buy' call; target signals 20% rise",
+      "PL Capital ups Nifty target to 28,561 on earnings growth, valuation comfort",
+      "Haldyn Glass share price zooms 10% on acquiring Heinz Glas's stake in JV",
+      "Gold's retreat deepens as US Fed fears push prices back towards $3,500",
+      "L&T jumps over 2% on ₹2,500 crore battery storage project win in Gujarat",
+      "Why is India distributing free rations if poverty is falling?",
       "Why is the Indian Railways abandoning Tatkal?",
       "Why did 7-Eleven fail in a country obsessed with convenience?",
       "Indian open-world games, animals that get the right of way, & more...",
       "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
-      "A bitter aftertaste for liquor companies",
-      "The Mahanadi Coalfields IPO Explained"
+      "A bitter aftertaste for liquor companies"
     ]
   },
   "changes": {
     "material": [
-      {
-        "kind": "flow",
-        "label": "DII flows",
-        "detail": "₹-2,760 Cr"
-      },
-      {
-        "kind": "flow",
-        "label": "FII flows",
-        "detail": "₹5,673 Cr"
-      },
       {
         "kind": "news",
         "label": "New headlines",
@@ -1636,7 +1654,7 @@
       {
         "kind": "fx",
         "label": "USD/INR",
-        "detail": "₹92.92 (+0.26%)"
+        "detail": "₹92.92 (+0.00%)"
       },
       {
         "kind": "flow",
@@ -1654,15 +1672,15 @@
         "detail": "7 new"
       }
     ],
-    "since": "2026-11-23 14:57 IST",
+    "since": "2026-11-24 16:54 IST",
     "new_headlines": [
-      "Investors become richer by ₹34.61 trillion as Sensex surges in November",
-      "Oil prices extend losses, hover near three-month lows on supply concerns",
-      "TAKE shares rally 24% in three weeks as company returns to profitability",
-      "Nvidia shares soar 31% as Jensen Huang's return sparks Wall Street rally",
-      "Stock market holiday: NSE, BSE shut today for Guru Nanak Jayanti",
-      "Asian shares rally as Huang returns to Nvidia, sparking Wall Street rebound",
-      "Why is the Indian Railways abandoning Tatkal?"
+      "Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8%",
+      "NSE jumps 5% to new high on ICICI Sec's 'buy' call; target signals 20% rise",
+      "PL Capital ups Nifty target to 28,561 on earnings growth, valuation comfort",
+      "Haldyn Glass share price zooms 10% on acquiring Heinz Glas's stake in JV",
+      "Gold's retreat deepens as US Fed fears push prices back towards $3,500",
+      "L&T jumps over 2% on ₹2,500 crore battery storage project win in Gujarat",
+      "Why is India distributing free rations if poverty is falling?"
     ]
   },
   "summary": {

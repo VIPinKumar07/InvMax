@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-26 12:12 IST",
-  "usdinr": {
-   "last": 94.94,
-   "date": "2026-10-23"
-  },
-  "dii_net": {
-   "net": 3235.36,
-   "date": "23-Oct-2026"
-  },
-  "fii_net": {
-   "net": 887.65,
-   "date": "23-Oct-2026"
-  },
-  "headlines": [
-   "eMudhra extends fall; stock down 43% in five days, tanks 53% from Sep high",
-   "Jyoti Structures share price jumps 14% on ₹949-crore power grid orders",
-   "BSE share price rallies 4%; Motilal Oswal upgrades stock to 'Buy'",
-   "Shriram Finance slips 10% in 2 days, hits 11-month low; here's why",
-   "AU SFB shares tank over 9% post Q2 results; brokerages mixed on outlook",
-   "Dr Reddy's share price spurts 4% post Q2 earnings; analysts upgrade rating",
-   "The Tesla-SpaceX merger explained",
-   "Pokémon card heist, who made rectangles, and more...",
-   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
-   "An explainer on the eMudhra fiasco",
-   "Why dating apps struggle to find a match with investors",
-   "Why do wealth taxes keep failing?"
-  ]
- },
- {
   "date": "2026-10-27 12:06 IST",
   "usdinr": {
    "last": 95.18,
@@ -867,6 +838,35 @@
    "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
    "A bitter aftertaste for liquor companies",
    "The Mahanadi Coalfields IPO Explained"
+  ]
+ },
+ {
+  "date": "2026-11-25 15:38 IST",
+  "usdinr": {
+   "last": 92.92,
+   "date": "2026-11-24"
+  },
+  "dii_net": {
+   "net": -2760.12,
+   "date": "23-Nov-2026"
+  },
+  "fii_net": {
+   "net": 5672.99,
+   "date": "23-Nov-2026"
+  },
+  "headlines": [
+   "Nifty FMCG index soars 3%; Dabur, Godrej Consumer, HUL rally up to 8%",
+   "NSE jumps 5% to new high on ICICI Sec's 'buy' call; target signals 20% rise",
+   "PL Capital ups Nifty target to 28,561 on earnings growth, valuation comfort",
+   "Haldyn Glass share price zooms 10% on acquiring Heinz Glas's stake in JV",
+   "Gold's retreat deepens as US Fed fears push prices back towards $3,500",
+   "L&T jumps over 2% on ₹2,500 crore battery storage project win in Gujarat",
+   "Why is India distributing free rations if poverty is falling?",
+   "Why is the Indian Railways abandoning Tatkal?",
+   "Why did 7-Eleven fail in a country obsessed with convenience?",
+   "Indian open-world games, animals that get the right of way, & more...",
+   "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
+   "A bitter aftertaste for liquor companies"
   ]
  }
 ]
