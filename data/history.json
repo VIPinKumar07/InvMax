@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-27 12:06 IST",
-  "usdinr": {
-   "last": 95.18,
-   "date": "2026-10-26"
-  },
-  "dii_net": {
-   "net": 2609.57,
-   "date": "26-Oct-2026"
-  },
-  "fii_net": {
-   "net": -1462.49,
-   "date": "26-Oct-2026"
-  },
-  "headlines": [
-   "Hindustan Unilever slips 3%, hits over 6-year low ahead of Q2 results",
-   "Sona BLW Precision zooms 9%; stock hits new high on record Q2 earnings",
-   "Gold prices fall ₹492 ahead of US Fed meeting, silver slips ₹2,004",
-   "GRSE, BEL: Defence stocks zoom up to 9% on DAC nod to ₹2.12 trn proposals",
-   "Ather Energy extends rally, EV stock surges 20% in 2 days; here's why",
-   "Dalmia Bharat shares dive 6% to hit 52-week low on Q2 loss of ₹205 crore",
-   "Why does CSR money go to richer states?",
-   "The Tesla-SpaceX merger explained",
-   "Pokémon card heist, who made rectangles, and more...",
-   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
-   "An explainer on the eMudhra fiasco",
-   "Why dating apps struggle to find a match with investors"
-  ]
- },
- {
   "date": "2026-10-28 12:36 IST",
   "usdinr": {
    "last": 95.12,
@@ -867,6 +838,35 @@
    "Indian open-world games, animals that get the right of way, & more...",
    "Rupee's recovery bonanza, why liquor stocks are falling, and more...",
    "A bitter aftertaste for liquor companies"
+  ]
+ },
+ {
+  "date": "2026-11-26 15:20 IST",
+  "usdinr": {
+   "last": 92.24,
+   "date": "2026-11-25"
+  },
+  "dii_net": {
+   "net": 4018.72,
+   "date": "25-Nov-2026"
+  },
+  "fii_net": {
+   "net": 4479.08,
+   "date": "25-Nov-2026"
+  },
+  "headlines": [
+   "Nifty Realty hits 52-wk high, up 3% led by Prestige, Brigade Enterprises",
+   "LCC Projects hits 10% upper band on order win; but 40% below IPO price",
+   "Order win impact: Multibagger stock Welspun Corp rises 5%, up 180% YTD",
+   "Greaves Cotton hits record high on heavy volume; stock up 82% in four weeks",
+   "Gold, silver prices rebound on MCX, Comex on buying at lower levels",
+   "₹1,600-cr sales in B'luru project drive Brigade Enterprises stock 4% higher",
+   "Why would a country ask to stay least developed?",
+   "Why is India distributing free rations if poverty is falling?",
+   "Why is the Indian Railways abandoning Tatkal?",
+   "Why did 7-Eleven fail in a country obsessed with convenience?",
+   "Indian open-world games, animals that get the right of way, & more...",
+   "Rupee's recovery bonanza, why liquor stocks are falling, and more..."
   ]
  }
 ]
