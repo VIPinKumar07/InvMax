@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-28 12:36 IST",
-  "usdinr": {
-   "last": 95.12,
-   "date": "2026-10-27"
-  },
-  "dii_net": {
-   "net": -1250.03,
-   "date": "27-Oct-2026"
-  },
-  "fii_net": {
-   "net": 4240.39,
-   "date": "27-Oct-2026"
-  },
-  "headlines": [
-   "HUL trades on a volatile note post Q2 results; stock near 6-year low",
-   "Nifty IT index slips 4%; Infosys, TCS, Coforge tank up to 5%; here's why",
-   "You can't regulate your own thing: Sebi chief on exchange self-listing",
-   "In the wake of Jio's listing, what are India's biggest share offerings?",
-   "Market fall explained: Sensex dives 995 points intraday, Nifty at 22,500",
-   "Piramal Pharma soars 15% in weak market on huge volume post Q2 results",
-   "Anthropic's IPO explained",
-   "Why does CSR money go to richer states?",
-   "The Tesla-SpaceX merger explained",
-   "Pokémon card heist, who made rectangles, and more...",
-   "The eMudhra Fiasco, Jio Platforms IPO, and more…",
-   "An explainer on the eMudhra fiasco"
-  ]
- },
- {
   "date": "2026-10-29 12:57 IST",
   "usdinr": {
    "last": 95.22,
@@ -867,6 +838,35 @@
    "Why did 7-Eleven fail in a country obsessed with convenience?",
    "Indian open-world games, animals that get the right of way, & more...",
    "Rupee's recovery bonanza, why liquor stocks are falling, and more..."
+  ]
+ },
+ {
+  "date": "2026-11-27 15:25 IST",
+  "usdinr": {
+   "last": 92.45,
+   "date": "2026-11-26"
+  },
+  "dii_net": {
+   "net": 5630.72,
+   "date": "26-Nov-2026"
+  },
+  "fii_net": {
+   "net": 5843.33,
+   "date": "26-Nov-2026"
+  },
+  "headlines": [
+   "Angel One surges 7% on huge volume; stock nears record high in weak market",
+   "Bosch announces record date for stock split, bonus issue; key details",
+   "IIFCL, UCO Bank eye debut dollar debt before RBI window shuts, say bankers",
+   "Zaggle up 7% from day's low on inking deal with Yokohama, WSFX Global Pay",
+   "3rd earnings upgrade in 2 decades: Jefferies lists stocks to play the trend",
+   "Glenmark Pharma hits new high, up 5th straight day; gains 35% from Oct low",
+   "How is SpiceJet still surviving?",
+   "Why would a country ask to stay least developed?",
+   "Why is India distributing free rations if poverty is falling?",
+   "Why is the Indian Railways abandoning Tatkal?",
+   "Why did 7-Eleven fail in a country obsessed with convenience?",
+   "Indian open-world games, animals that get the right of way, & more..."
   ]
  }
 ]
