@@ -1,34 +1,5 @@
 [
  {
-  "date": "2026-10-29 12:57 IST",
-  "usdinr": {
-   "last": 95.22,
-   "date": "2026-10-28"
-  },
-  "dii_net": {
-   "net": 643.35,
-   "date": "28-Oct-2026"
-  },
-  "fii_net": {
-   "net": 871.83,
-   "date": "28-Oct-2026"
-  },
-  "headlines": [
-   "Jio's strong market debut boosts confidence in India's IPO pipeline",
-   "NSE: Growth levers, easing regulatory pressure underpin Jefferies' buy call",
-   "Aeroflex zooms 18% on huge volume, over 31 mn shares change hands",
-   "Bombay Coated & Special Steels IPO opens: Anand Rathi bullish; here's why",
-   "Adani Ports soars 4% on healthy Q2, raises FY27 guidance; brokerages upbeat",
-   "Crompton Greaves down 38% from May high; stock may see pullback: Brokerages",
-   "Is Instamart eating Swiggy alive?",
-   "Anthropic's IPO explained",
-   "Why does CSR money go to richer states?",
-   "The Tesla-SpaceX merger explained",
-   "Pokémon card heist, who made rectangles, and more...",
-   "The eMudhra Fiasco, Jio Platforms IPO, and more…"
-  ]
- },
- {
   "date": "2026-10-30 13:00 IST",
   "usdinr": {
    "last": 95.27,
@@ -867,6 +838,35 @@
    "Why is the Indian Railways abandoning Tatkal?",
    "Why did 7-Eleven fail in a country obsessed with convenience?",
    "Indian open-world games, animals that get the right of way, & more..."
+  ]
+ },
+ {
+  "date": "2026-11-28 14:39 IST",
+  "usdinr": {
+   "last": 93.0,
+   "date": "2026-11-27"
+  },
+  "dii_net": {
+   "net": -556.42,
+   "date": "27-Nov-2026"
+  },
+  "fii_net": {
+   "net": 1634.33,
+   "date": "27-Nov-2026"
+  },
+  "headlines": [
+   "Indian markets rebound in November after months of underperformance: HSBC",
+   "Binance gets preliminary approval to establish Asia hub in Bhutan",
+   "WazirX on Bitcoin's Recovery and its Liquidity Test",
+   "IT, bank heavyweights drag markets down 1% amid rising crude oil prices",
+   "Zee Entertainment buyback to open on Dec 1, set to close on Dec 7",
+   "Sebi grants Tata Steel extension till Dec 8 for APL Apollo Tubes open offer",
+   "How is SpiceJet surviving, why 7-Eleven failed, and more...",
+   "How is SpiceJet still surviving?",
+   "Why would a country ask to stay least developed?",
+   "Why is India distributing free rations if poverty is falling?",
+   "Why is the Indian Railways abandoning Tatkal?",
+   "Why did 7-Eleven fail in a country obsessed with convenience?"
   ]
  }
 ]
